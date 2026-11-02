@@ -1,7 +1,7 @@
 /**
  * Downloads the Victorian Curriculum F–10 Version 2.0 as CSV from VCAA's
  * "Download curriculum" page (https://f10.vcaa.vic.edu.au/download-curriculum),
- * selecting every curriculum area and all levels (filtered to Foundation–Level 6 on import).
+ * selecting every curriculum area and levels Foundation to 6.
  *
  *   npx playwright install --with-deps chromium
  *   npm run curriculum:download      # writes data/curriculum/raw/vc2-all.zip
@@ -37,6 +37,19 @@ async function main() {
     await page.goto(URL, { waitUntil: "networkidle", timeout: 90_000 });
     await dump(page, "01-loaded");
 
+    // Keep the JSON the page itself receives for each discipline (structured backup of the CSV).
+    const jsonDir = path.join(RAW_DIR, "export_data");
+    await mkdir(jsonDir, { recursive: true });
+    page.on("response", async (res) => {
+      const m = res.url().match(/\/api\/export_data\?disciplineId=(\d+)/);
+      if (!m || !res.ok()) return;
+      try {
+        await writeFile(path.join(jsonDir, `${m[1]}.json`), await res.text());
+      } catch (e) {
+        console.warn(`could not save discipline ${m[1]}: ${(e as Error).message}`);
+      }
+    });
+
     // Log the page's own requests so the export call is visible in CI logs.
     page.on("request", (r) => {
       if (["xhr", "fetch"].includes(r.resourceType())) {
@@ -69,7 +82,13 @@ async function main() {
     console.log(`checkboxes visible: ${n}, checked: ${await page.locator("input[type='checkbox']:checked").count()}`);
     await dump(page, "01b-areas");
 
-    // 2. Levels: all are selected by default. We keep them and filter to F–6 when importing.
+    // 2. Levels: none are selected by default. Select Foundation to Level 6 in the first "Levels" group.
+    for (const level of ["F", "1", "2", "3", "4", "5", "6"]) {
+      const btn = page.locator("button:visible", { hasText: new RegExp(`^\\s*${level}\\s*$`) }).first();
+      await btn.click();
+      await page.waitForTimeout(300);
+      console.log(`level ${level} selected`);
+    }
 
     // 3. File type.
     const csv = page.locator("button:visible", { hasText: "CSV format (CSV)" }).first();
