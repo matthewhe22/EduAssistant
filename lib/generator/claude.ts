@@ -2,6 +2,7 @@ import "server-only";
 import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import type { z } from "zod";
+import { costUsd, type TokenUsage } from "../pricing";
 import { SYSTEM_PROMPT } from "./pedagogy";
 
 export const MODEL = process.env.ANTHROPIC_MODEL || "claude-opus-5-5";
@@ -19,7 +20,7 @@ export class GenerationError extends Error {}
 export interface GenerationResult<T> {
   content: T;
   model: string;
-  usage: { inputTokens: number; outputTokens: number; cacheReadTokens: number };
+  usage: TokenUsage & { costUsd: number };
 }
 
 export interface GenerateOptions<S extends z.ZodObject> {
@@ -90,15 +91,13 @@ export async function generateStructured<S extends z.ZodObject>(opts: GenerateOp
     throw new GenerationError("The model returned output in an unexpected format. Please try again.");
   }
 
-  return {
-    content: parsed.data as z.infer<S>,
-    model: message.model,
-    usage: {
-      inputTokens: message.usage.input_tokens + (message.usage.cache_creation_input_tokens ?? 0),
-      outputTokens: message.usage.output_tokens,
-      cacheReadTokens: message.usage.cache_read_input_tokens ?? 0,
-    },
+  const usage: TokenUsage = {
+    inputTokens: message.usage.input_tokens,
+    cacheWriteTokens: message.usage.cache_creation_input_tokens ?? 0,
+    cacheReadTokens: message.usage.cache_read_input_tokens ?? 0,
+    outputTokens: message.usage.output_tokens,
   };
+  return { content: parsed.data as z.infer<S>, model: message.model, usage: { ...usage, costUsd: costUsd(message.model, usage) } };
 }
 
 export { Anthropic };

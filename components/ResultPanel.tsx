@@ -5,6 +5,8 @@ import { postForResult } from "@/lib/client/ndjson";
 import { LEVEL_LABELS, type PrimaryLevel } from "@/lib/curriculum/types";
 import { OUTPUTS, type OutputType } from "@/lib/generator/outputs";
 import type { DIFFICULTIES, Usage } from "@/lib/generator/schema";
+import { formatUsd } from "@/lib/pricing";
+import { FeedbackBar, type Feedback } from "./FeedbackBar";
 import { OutputView } from "./OutputViews";
 import { PlanActions } from "./PlanActions";
 
@@ -14,6 +16,7 @@ export interface ResultState {
   warnings: string[];
   generationId: string | null;
   usage?: Usage;
+  feedback?: Feedback;
 }
 
 export interface ResultContext {
@@ -60,7 +63,7 @@ export function ResultPanel({
         setProgress,
         ctrl.signal,
       );
-      setResult({ ...event, generationId: event.generationId ?? result.generationId });
+      setResult({ ...event, generationId: event.generationId ?? result.generationId, feedback: result.feedback });
       setInstruction("");
     } catch (err) {
       if ((err as Error).name !== "AbortError") setError((err as Error).message);
@@ -84,9 +87,12 @@ export function ResultPanel({
       )}
       <PlanActions outputType={result.outputType} content={result.content} subjectSlug={context.subjectSlug} level={context.level} lessonMinutes={context.lessonMinutes} />
       {result.generationId && (
-        <p className="text-xs text-slate-500 print:hidden">
-          Saved to <a className="underline" href={`/plans/${result.generationId}`}>your library</a>.
-        </p>
+        <>
+          <p className="text-xs text-slate-500 print:hidden">
+            Saved to <a className="underline" href={`/plans/${result.generationId}`}>your library</a>.
+          </p>
+          <FeedbackBar key={result.generationId} generationId={result.generationId} initial={result.feedback} />
+        </>
       )}
 
       <form onSubmit={refine} className="space-y-2 rounded-lg border border-dashed border-slate-300 p-4 print:hidden dark:border-slate-700">
@@ -124,7 +130,7 @@ export function ResultPanel({
 
       {result.usage && (
         <p className="text-xs text-slate-400 print:hidden">
-          {result.usage.model} · {result.usage.inputTokens + result.usage.cacheReadTokens} input tokens ({result.usage.cacheReadTokens} cached) · {result.usage.outputTokens} output tokens
+          {result.usage.model} · {result.usage.inputTokens + result.usage.cacheWriteTokens + result.usage.cacheReadTokens} input tokens ({result.usage.cacheReadTokens} from cache) · {result.usage.outputTokens} output tokens · about {formatUsd(result.usage.costUsd)}
         </p>
       )}
     </div>

@@ -21,6 +21,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             <a href="/" className="font-semibold">EdAssistant</a>
             <a href="/plan" className={link}>Create</a>
             {authEnabled && <a href="/plans" className={link}>My library</a>}
+            {authEnabled && <a href="/usage" className={link}>Usage</a>}
             <a href="/curriculum" className={link}>Curriculum</a>
             <span className="ml-auto" />
             {authEnabled &&

@@ -12,7 +12,14 @@ import {
   MAX_ATTACHMENT_BYTES,
   type Attachment,
 } from "@/lib/generator/schema";
+import type { FormSettings } from "@/lib/library/settings";
 import { ResultPanel, type ResultContext, type ResultState } from "./ResultPanel";
+
+export interface TemplateOption {
+  id: string;
+  name: string;
+  settings: FormSettings;
+}
 
 export interface SubjectOption {
   slug: string;
@@ -47,17 +54,34 @@ async function readAttachment(file: File): Promise<Attachment> {
   return { name: file.name, mediaType, data: btoa(binary) };
 }
 
-export function PlanForm({ subjects, canSave }: { subjects: SubjectOption[]; canSave: boolean }) {
-  const [outputType, setOutputType] = useState<OutputType>("lesson_plan");
+export function PlanForm({
+  subjects,
+  canSave,
+  initial = {},
+  initialNote,
+  templates: initialTemplates = [],
+}: {
+  subjects: SubjectOption[];
+  canSave: boolean;
+  initial?: FormSettings;
+  initialNote?: string;
+  templates?: TemplateOption[];
+}) {
+  const [outputType, setOutputType] = useState<OutputType>(initial.outputType ?? "lesson_plan");
   const def = OUTPUTS[outputType];
-  const [level, setLevel] = useState<PrimaryLevel>("3");
+  const [level, setLevel] = useState<PrimaryLevel>(initial.level ?? "3");
   const available = useMemo(() => subjects.filter((s) => s.levels.includes(level)), [subjects, level]);
-  const [subjectSlug, setSubjectSlug] = useState("mathematics");
-  const [difficulty, setDifficulty] = useState<(typeof DIFFICULTIES)[number]>("at");
-  const [lessonMinutes, setLessonMinutes] = useState(60);
-  const [itemCounts, setItemCounts] = useState<Partial<Record<OutputType, number>>>({});
-  const [idea, setIdea] = useState("");
-  const [classContext, setClassContext] = useState("");
+  const [subjectSlug, setSubjectSlug] = useState(initial.subjectSlug ?? "mathematics");
+  const [difficulty, setDifficulty] = useState<(typeof DIFFICULTIES)[number]>(initial.difficulty ?? "at");
+  const [lessonMinutes, setLessonMinutes] = useState(initial.lessonMinutes ?? 60);
+  const [itemCounts, setItemCounts] = useState<Partial<Record<OutputType, number>>>(
+    initial.itemCount && initial.outputType ? { [initial.outputType]: initial.itemCount } : {},
+  );
+  const [idea, setIdea] = useState(initial.idea ?? "");
+  const [classContext, setClassContext] = useState(initial.classContext ?? "");
+  const [templates, setTemplates] = useState(initialTemplates);
+  const [templateMsg, setTemplateMsg] = useState(initialNote ?? "");
+  const pendingFocus = useRef<string[] | null>(initial.focusCodes ?? null);
   const [file, setFile] = useState<File | null>(null);
   const [cds, setCds] = useState<CdOption[]>([]);
   const [band, setBand] = useState<string | null>(null);
@@ -74,7 +98,9 @@ export function PlanForm({ subjects, canSave }: { subjects: SubjectOption[]; can
   }, [available, subjectSlug]);
 
   useEffect(() => {
-    setFocusCodes([]);
+    // Keep focus codes that came from a template or earlier item once, then reset on changes.
+    setFocusCodes(pendingFocus.current ?? []);
+    pendingFocus.current = null;
     const ctrl = new AbortController();
     fetch(`/api/curriculum?subject=${subjectSlug}&level=${level}`, { signal: ctrl.signal })
       .then((r) => r.json())
@@ -91,6 +117,35 @@ export function PlanForm({ subjects, canSave }: { subjects: SubjectOption[]; can
     for (const s of available) (groups[s.learningArea] ??= []).push(s);
     return groups;
   }, [available]);
+
+  function applySettings(s: FormSettings) {
+    if (s.outputType) setOutputType(s.outputType);
+    if (s.level) setLevel(s.level);
+    if (s.subjectSlug) setSubjectSlug(s.subjectSlug);
+    if (s.difficulty) setDifficulty(s.difficulty);
+    if (s.lessonMinutes) setLessonMinutes(s.lessonMinutes);
+    if (s.itemCount && s.outputType) setItemCounts((prev) => ({ ...prev, [s.outputType!]: s.itemCount }));
+    if (s.classContext !== undefined) setClassContext(s.classContext);
+    if (s.idea !== undefined) setIdea(s.idea);
+    const changesCurriculum = (s.subjectSlug && s.subjectSlug !== subjectSlug) || (s.level && s.level !== level);
+    pendingFocus.current = changesCurriculum ? s.focusCodes ?? [] : null;
+    setFocusCodes(s.focusCodes ?? []);
+  }
+
+  async function saveTemplate() {
+    const name = window.prompt("Name this template (e.g. \"Year 3 maths, 50 min, mixed\")");
+    if (!name?.trim()) return;
+    const settings: FormSettings = { outputType, level, subjectSlug, difficulty, lessonMinutes, itemCount, classContext, focusCodes };
+    if (idea.trim() && window.confirm("Also save the idea text in this template?")) settings.idea = idea;
+    const res = await fetch("/api/templates", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name, settings }) });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) {
+      setTemplateMsg(data.error ?? "Could not save the template.");
+      return;
+    }
+    setTemplates((prev) => [...prev, data.template].sort((a, b) => a.name.localeCompare(b.name)));
+    setTemplateMsg(`Saved template "${data.template.name}".`);
+  }
 
   async function generate(e: React.FormEvent) {
     e.preventDefault();
@@ -128,6 +183,32 @@ export function PlanForm({ subjects, canSave }: { subjects: SubjectOption[]; can
   return (
     <div className="space-y-8">
       <form onSubmit={generate} className="space-y-5 rounded-lg border border-slate-200 p-6 print:hidden dark:border-slate-800">
+        {canSave && (
+          <div className="flex flex-wrap items-center gap-2 text-sm">
+            <select
+              className="rounded border px-2 py-1 dark:bg-slate-900"
+              value=""
+              aria-label="Start from a template"
+              onChange={(e) => {
+                const t = templates.find((x) => x.id === e.target.value);
+                if (t) {
+                  applySettings(t.settings);
+                  setTemplateMsg(`Loaded template "${t.name}".`);
+                }
+              }}
+            >
+              <option value="">{templates.length ? "Start from a template…" : "No templates yet"}</option>
+              {templates.map((t) => (
+                <option key={t.id} value={t.id}>{t.name}</option>
+              ))}
+            </select>
+            <button type="button" onClick={saveTemplate} className="rounded border px-3 py-1">
+              Save settings as template
+            </button>
+            <a href="/templates" className="text-xs underline">Manage</a>
+            {templateMsg && <span className="text-xs text-slate-500" role="status">{templateMsg}</span>}
+          </div>
+        )}
         <fieldset>
           <legend className="mb-2 text-sm font-medium">What do you need?</legend>
           <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">

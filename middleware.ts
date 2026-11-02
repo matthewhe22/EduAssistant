@@ -2,7 +2,7 @@ import { NextResponse, type NextRequest } from "next/server";
 import { createServerClient } from "@supabase/ssr";
 
 /** Pages that need a signed-in teacher (only enforced when Supabase is configured). */
-const PROTECTED = ["/plan", "/plans", "/api/generate"];
+const PROTECTED = ["/plan", "/plans", "/templates", "/usage", "/api/generate", "/api/refine", "/api/generations", "/api/templates", "/api/budget"];
 
 export async function middleware(request: NextRequest) {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;

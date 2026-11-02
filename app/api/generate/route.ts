@@ -6,6 +6,7 @@ import { OUTPUTS } from "@/lib/generator/outputs";
 import { GenerateRequestSchema, type StoredTeacherInput } from "@/lib/generator/schema";
 import { ndjsonResponse } from "@/lib/generator/stream";
 import { validateOutput } from "@/lib/generator/validate";
+import { budgetGuard, recordUsage } from "@/lib/library/server";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 export const runtime = "nodejs";
@@ -28,6 +29,11 @@ export async function POST(request: Request) {
   const ctx = buildCurriculumContext(subject, req.level, req.difficulty);
   if (!ctx) {
     return Response.json({ error: `${subject.subject} has no curriculum content at this year level.` }, { status: 400 });
+  }
+
+  if (supabase && user) {
+    const blocked = await budgetGuard(supabase, user.id);
+    if (blocked) return blocked;
   }
 
   return ndjsonResponse(async (send, progress) => {
@@ -70,8 +76,11 @@ export async function POST(request: Request) {
           curriculum_codes: (content.curriculumLinks as { code: string }[]).map((l) => l.code),
           content: { output: content, warnings },
           model: result.model,
-          input_tokens: result.usage.inputTokens + result.usage.cacheReadTokens,
+          input_tokens: result.usage.inputTokens + result.usage.cacheWriteTokens,
+          cache_write_tokens: result.usage.cacheWriteTokens,
+          cache_read_tokens: result.usage.cacheReadTokens,
           output_tokens: result.usage.outputTokens,
+          cost_usd: result.usage.costUsd,
         })
         .select("id")
         .single();
@@ -81,6 +90,7 @@ export async function POST(request: Request) {
       } else {
         generationId = data.id;
       }
+      await recordUsage(supabase, { userId: user.id, generationId, kind: "generate", outputType: req.outputType, model: result.model, usage: result.usage });
     }
 
     send({

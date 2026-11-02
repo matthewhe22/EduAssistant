@@ -20,7 +20,7 @@ aligned to the **Victorian Curriculum F–10 Version 2.0** and the **Victorian T
 | 0 | Curriculum knowledge base, research notes, project scaffold, DB schema | ✅ |
 | 1 | Generator: year + subject + idea + difficulty → lesson plan with curriculum codes; auth; save; DOCX export | ✅ |
 | 2 | Unit plans, worksheets, rubrics, differentiation, uploads, refine one section | ✅ |
-| 3 | Library/search, templates, cost tracking, feedback loop | |
+| 3 | Library/search, templates, cost tracking, feedback loop | ✅ |
 
 ## What teachers can create
 
@@ -39,6 +39,20 @@ You can also **upload an existing plan** (PDF, Word or text, up to 5 MB) instead
 as, typing an idea. Once something is generated, you can **refine any single section** with an
 instruction ("make the guided practice more hands-on"). Only that section is replaced, and the
 change is saved to your library. Everything exports to Word or prints.
+
+## Library, templates, feedback and costs (needs Supabase)
+
+- **My library** (`/plans`): search titles and ideas; filter by type, subject, level and rating.
+  Open, **use again** (pre-fills the Create form with the same settings) or delete.
+- **Templates** (`/templates`): on the Create page, **Save settings as template** stores the type,
+  subject, level, difficulty, lesson length, counts, class context and focus codes (and the idea
+  text if you choose). Start from a template in one click.
+- **Feedback**: 👍/👎 and an optional comment on every saved item. The Usage page shows approval
+  per output type and recent comments, so you can see which prompts need work.
+- **Usage** (`/usage`): every Claude call (generation or refinement) is logged with tokens and
+  estimated US$ cost (`lib/pricing.ts`). It shows this month's spend, a 30-day chart, cost by type,
+  and how much input came from the prompt cache. Set an optional **monthly budget**: once it's
+  reached, new generations are paused (HTTP 402) until next month or until you raise it.
 
 ## How generation works
 
@@ -85,7 +99,7 @@ Without the Supabase variables the app runs in **local mode**: no login, and pla
 ### Supabase (logins and saved plans)
 
 1. Create a Supabase project (region: Sydney).
-2. SQL editor: run `supabase/migrations/0001_init.sql`.
+2. SQL editor: run `supabase/migrations/0001_init.sql`, then `0002_phase3.sql`.
 3. Authentication → Providers → Email: enabled. For personal use you can turn off
    "Confirm email" to sign in immediately.
 4. Set `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`, then create an account at
@@ -121,6 +135,6 @@ site URL to the Render URL.
 ### Tests
 
 ```bash
-npm test          # parser, generator context/validation, Word export, /api/generate (Claude mocked)
+npm test          # importer, generator, every output type + Word export, routes (Claude and Supabase mocked), pricing/stats
 npm run typecheck
 ```

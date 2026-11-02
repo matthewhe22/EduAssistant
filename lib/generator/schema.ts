@@ -82,8 +82,10 @@ export type RefineRequest = z.infer<typeof RefineRequestSchema>;
 
 export interface Usage {
   inputTokens: number;
-  outputTokens: number;
+  cacheWriteTokens: number;
   cacheReadTokens: number;
+  outputTokens: number;
+  costUsd: number;
   model: string;
 }
 

@@ -1,4 +1,5 @@
 import { notFound, redirect } from "next/navigation";
+import { DeleteButton } from "@/components/DeleteButton";
 import { ResultPanel } from "@/components/ResultPanel";
 import { getSubject } from "@/lib/curriculum";
 import type { PrimaryLevel } from "@/lib/curriculum/types";
@@ -17,7 +18,7 @@ export default async function PlanDetailPage({ params }: { params: { id: string 
 
   const { data: row } = await supabase
     .from("generations")
-    .select("id, output_type, level, subject_slug, difficulty, teacher_input, content, created_at")
+    .select("id, title, output_type, level, subject_slug, difficulty, teacher_input, content, rating, feedback_comment, created_at")
     .eq("id", params.id)
     .maybeSingle();
   if (!row || !isOutputType(row.output_type)) notFound();
@@ -33,14 +34,24 @@ export default async function PlanDetailPage({ params }: { params: { id: string 
 
   return (
     <div className="space-y-4">
-      <a href="/plans" className="text-sm underline print:hidden">← My plans</a>
+      <div className="flex flex-wrap items-center gap-4 text-sm print:hidden">
+        <a href="/plans" className="underline">← My library</a>
+        <a href={`/plan?from=${row.id}`} className="underline">Use these settings again</a>
+        <DeleteButton url={`/api/generations/${row.id}`} label="Delete" confirmText={`Delete "${row.title}"? This can't be undone.`} redirectTo="/plans" />
+      </div>
       <details className="text-sm text-slate-600 print:hidden dark:text-slate-300">
         <summary className="cursor-pointer">Your original request</summary>
         <p className="mt-2 whitespace-pre-wrap">{String(row.teacher_input?.idea ?? "")}</p>
         {row.teacher_input?.attachmentName && <p className="mt-1">Uploaded file: {String(row.teacher_input.attachmentName)}</p>}
       </details>
       <ResultPanel
-        initial={{ outputType: row.output_type, content: parsed.data, warnings, generationId: row.id }}
+        initial={{
+          outputType: row.output_type,
+          content: parsed.data,
+          warnings,
+          generationId: row.id,
+          feedback: { rating: row.rating === 1 || row.rating === -1 ? row.rating : null, comment: row.feedback_comment ?? "" },
+        }}
         context={{
           subjectSlug: row.subject_slug,
           subjectName: subject?.subject ?? row.subject_slug,

@@ -5,6 +5,7 @@ import { OUTPUTS } from "@/lib/generator/outputs";
 import { RefineRequestSchema } from "@/lib/generator/schema";
 import { ndjsonResponse } from "@/lib/generator/stream";
 import { validateOutput } from "@/lib/generator/validate";
+import { budgetGuard, recordUsage } from "@/lib/library/server";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 export const runtime = "nodejs";
@@ -34,6 +35,11 @@ export async function POST(request: Request) {
   const subject = await getSubject(req.subjectSlug);
   const ctx = subject && buildCurriculumContext(subject, req.level, req.difficulty);
   if (!subject || !ctx) return Response.json({ error: "Unknown subject or level." }, { status: 400 });
+
+  if (supabase && user) {
+    const blocked = await budgetGuard(supabase, user.id);
+    if (blocked) return blocked;
+  }
 
   return ndjsonResponse(async (send, progress) => {
     const instructions = [
@@ -71,6 +77,9 @@ export async function POST(request: Request) {
         .maybeSingle();
       if (error || !data) warnings.push("The change could not be saved to your library.");
       else generationId = data.id;
+    }
+    if (supabase && user) {
+      await recordUsage(supabase, { userId: user.id, generationId, kind: "refine", outputType: req.outputType, model: result.model, usage: result.usage });
     }
 
     send({ type: "result", outputType: req.outputType, content, warnings, generationId, usage: { ...result.usage, model: result.model } });
