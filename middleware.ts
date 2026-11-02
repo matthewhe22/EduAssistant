@@ -1,42 +1,23 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { createServerClient } from "@supabase/ssr";
 
-/** Pages that need a signed-in teacher (only enforced when Supabase is configured). */
+/**
+ * Pages and APIs that need a signed-in teacher when a database is configured.
+ * The middleware only checks that a session cookie exists (it can't reach the database);
+ * pages and API routes validate the session properly.
+ */
 const PROTECTED = ["/plan", "/plans", "/templates", "/usage", "/api/generate", "/api/refine", "/api/generations", "/api/templates", "/api/budget"];
+const SESSION_COOKIE = "eda_session";
 
-export async function middleware(request: NextRequest) {
-  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const key = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  if (!url || !key) return NextResponse.next(); // local mode: no auth
-
-  let response = NextResponse.next({ request });
-  const supabase = createServerClient(url, key, {
-    cookies: {
-      getAll() {
-        return request.cookies.getAll();
-      },
-      setAll(cookiesToSet) {
-        for (const { name, value } of cookiesToSet) request.cookies.set(name, value);
-        response = NextResponse.next({ request });
-        for (const { name, value, options } of cookiesToSet) response.cookies.set(name, value, options);
-      },
-    },
-  });
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
+export function middleware(request: NextRequest) {
+  if (!process.env.DATABASE_URL) return NextResponse.next(); // local mode: no accounts
   const path = request.nextUrl.pathname;
-  if (!user && PROTECTED.some((p) => path === p || path.startsWith(`${p}/`))) {
-    if (path.startsWith("/api/")) {
-      return NextResponse.json({ error: "Please sign in." }, { status: 401 });
-    }
-    const login = request.nextUrl.clone();
-    login.pathname = "/login";
-    login.searchParams.set("next", path);
-    return NextResponse.redirect(login);
-  }
-  return response;
+  const isProtected = PROTECTED.some((p) => path === p || path.startsWith(`${p}/`));
+  if (!isProtected || request.cookies.get(SESSION_COOKIE)) return NextResponse.next();
+  if (path.startsWith("/api/")) return NextResponse.json({ error: "Please sign in." }, { status: 401 });
+  const login = request.nextUrl.clone();
+  login.pathname = "/login";
+  login.search = `?next=${encodeURIComponent(path + request.nextUrl.search)}`;
+  return NextResponse.redirect(login);
 }
 
 export const config = {

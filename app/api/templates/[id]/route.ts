@@ -1,11 +1,11 @@
+import { deleteTemplate } from "@/lib/data/templates";
 import { isUuid, requireUser } from "@/lib/library/server";
 
-export async function DELETE(_req: Request, { params }: { params: { id: string } }) {
+export async function DELETE(_req: Request, { params }: { params: { id: string } }): Promise<Response> {
   const auth = await requireUser();
   if (!auth.ok) return auth.error;
-  if (!isUuid(params.id)) return Response.json({ error: "Not found." }, { status: 404 });
-  const { data, error } = await auth.supabase.from("templates").delete().eq("id", params.id).select("id");
-  if (error) return Response.json({ error: error.message }, { status: 500 });
-  if (!data?.length) return Response.json({ error: "Not found." }, { status: 404 });
+  if (!isUuid(params.id) || !(await deleteTemplate(auth.db, auth.user.id, params.id))) {
+    return Response.json({ error: "Not found." }, { status: 404 });
+  }
   return Response.json({ ok: true });
 }

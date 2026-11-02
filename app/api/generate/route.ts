@@ -6,17 +6,17 @@ import { OUTPUTS } from "@/lib/generator/outputs";
 import { GenerateRequestSchema, type StoredTeacherInput } from "@/lib/generator/schema";
 import { ndjsonResponse } from "@/lib/generator/stream";
 import { validateOutput } from "@/lib/generator/validate";
-import { budgetGuard, recordUsage } from "@/lib/library/server";
-import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { insertGeneration } from "@/lib/data/generations";
+import { budgetGuard, optionalUser, recordUsage } from "@/lib/library/server";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
 
 export async function POST(request: Request) {
-  const supabase = createSupabaseServerClient();
-  const user = supabase ? (await supabase.auth.getUser()).data.user : null;
-  if (supabase && !user) return Response.json({ error: "Please sign in." }, { status: 401 });
+  const auth = await optionalUser();
+  if (!auth.ok) return auth.error;
+  const { db, user } = auth;
 
   const parsed = GenerateRequestSchema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) {
@@ -31,8 +31,8 @@ export async function POST(request: Request) {
     return Response.json({ error: `${subject.subject} has no curriculum content at this year level.` }, { status: 400 });
   }
 
-  if (supabase && user) {
-    const blocked = await budgetGuard(supabase, user.id);
+  if (db && user) {
+    const blocked = await budgetGuard(db, user.id);
     if (blocked) return blocked;
   }
 
@@ -60,37 +60,31 @@ export async function POST(request: Request) {
     const { content, warnings } = validateOutput(req.outputType, result.content, ctx.allowedCodes, req.lessonMinutes);
 
     let generationId: string | null = null;
-    if (supabase && user) {
+    if (db && user) {
       const { attachment: _file, ...rest } = req;
       const teacherInput: StoredTeacherInput = { ...rest, ...(req.attachment ? { attachmentName: req.attachment.name } : {}) };
-      const { data, error } = await supabase
-        .from("generations")
-        .insert({
-          user_id: user.id,
+      try {
+        generationId = await insertGeneration(db, user.id, {
           title: String(content.title),
           level: req.level,
-          subject_slug: subject.slug,
-          output_type: req.outputType,
+          subjectSlug: subject.slug,
+          outputType: req.outputType,
           difficulty: req.difficulty,
-          teacher_input: teacherInput,
-          curriculum_codes: (content.curriculumLinks as { code: string }[]).map((l) => l.code),
+          teacherInput,
+          curriculumCodes: (content.curriculumLinks as { code: string }[]).map((l) => l.code),
           content: { output: content, warnings },
           model: result.model,
-          input_tokens: result.usage.inputTokens + result.usage.cacheWriteTokens,
-          cache_write_tokens: result.usage.cacheWriteTokens,
-          cache_read_tokens: result.usage.cacheReadTokens,
-          output_tokens: result.usage.outputTokens,
-          cost_usd: result.usage.costUsd,
-        })
-        .select("id")
-        .single();
-      if (error) {
-        console.error("save failed", error);
+          inputTokens: result.usage.inputTokens + result.usage.cacheWriteTokens,
+          cacheWriteTokens: result.usage.cacheWriteTokens,
+          cacheReadTokens: result.usage.cacheReadTokens,
+          outputTokens: result.usage.outputTokens,
+          costUsd: result.usage.costUsd,
+        });
+      } catch (err) {
+        console.error("save failed", err);
         warnings.push("This could not be saved to your library.");
-      } else {
-        generationId = data.id;
       }
-      await recordUsage(supabase, { userId: user.id, generationId, kind: "generate", outputType: req.outputType, model: result.model, usage: result.usage });
+      await recordUsage(db, { userId: user.id, generationId, kind: "generate", outputType: req.outputType, model: result.model, usage: result.usage });
     }
 
     send({

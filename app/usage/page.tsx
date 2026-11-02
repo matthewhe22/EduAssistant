@@ -2,46 +2,35 @@ import { redirect } from "next/navigation";
 import { BudgetForm } from "@/components/BudgetForm";
 import { OUTPUTS, isOutputType } from "@/lib/generator/outputs";
 import { MODEL } from "@/lib/generator/claude";
+import { pageUser } from "@/lib/auth/page";
+import { ratingsByType, recentComments } from "@/lib/data/generations";
+import { usageSince } from "@/lib/data/usage";
 import { getBudgetStatus } from "@/lib/library/server";
-import { dailySpend, feedbackByType, summariseUsage, type UsageRow } from "@/lib/library/stats";
+import { dailySpend, feedbackByType, summariseUsage } from "@/lib/library/stats";
 import { formatUsd } from "@/lib/pricing";
-import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 export const dynamic = "force-dynamic";
 
 const typeLabel = (t: string) => (isOutputType(t) ? OUTPUTS[t].label : t);
 
 export default async function UsagePage() {
-  const supabase = createSupabaseServerClient();
-  if (!supabase) return <p className="text-sm">Usage tracking needs Supabase. Set the Supabase env vars to enable it.</p>;
-  const { data: auth } = await supabase.auth.getUser();
-  if (!auth.user) redirect("/login?next=/usage");
+  const auth = await pageUser("/usage");
+  if (!auth) return <p className="text-sm">Usage tracking needs a database. Set DATABASE_URL to enable it.</p>;
+  const { db, user } = auth;
 
-  const since = new Date(Date.now() - 31 * 86_400_000).toISOString();
   const melbourneMonth = new Intl.DateTimeFormat("en-CA", { timeZone: "Australia/Melbourne", year: "numeric", month: "2-digit" }).format(new Date());
-  const [budget, { data: events }, { data: ratings }, { data: comments }] = await Promise.all([
-    getBudgetStatus(supabase, auth.user.id),
-    supabase
-      .from("usage_events")
-      .select("kind, output_type, cost_usd, input_tokens, cache_write_tokens, cache_read_tokens, output_tokens, created_at")
-      .gte("created_at", since)
-      .order("created_at", { ascending: false })
-      .limit(5000),
-    supabase.from("generations").select("output_type, rating").limit(5000),
-    supabase
-      .from("generations")
-      .select("id, title, output_type, rating, feedback_comment, rated_at")
-      .not("feedback_comment", "is", null)
-      .order("rated_at", { ascending: false })
-      .limit(15),
+  const [budget, rows, ratings, comments] = await Promise.all([
+    getBudgetStatus(db, user.id),
+    usageSince(db, user.id, new Date(Date.now() - 31 * 86_400_000)),
+    ratingsByType(db, user.id),
+    recentComments(db, user.id),
   ]);
 
-  const rows = (events ?? []) as UsageRow[];
   const monthFmt = new Intl.DateTimeFormat("en-CA", { timeZone: "Australia/Melbourne", year: "numeric", month: "2-digit" });
   const month = summariseUsage(rows.filter((r) => monthFmt.format(new Date(r.created_at)) === melbourneMonth));
   const daily = dailySpend(rows, 30);
   const maxDay = Math.max(0.0001, ...daily.map((d) => d.costUsd));
-  const feedback = feedbackByType(ratings ?? []);
+  const feedback = feedbackByType(ratings);
   const pct = budget.budgetUsd ? Math.min(100, (budget.spentUsd / budget.budgetUsd) * 100) : 0;
 
   return (
@@ -147,7 +136,7 @@ export default async function UsagePage() {
             </tbody>
           </table>
         )}
-        {comments && comments.length > 0 && (
+        {comments.length > 0 && (
           <div className="space-y-2">
             <h3 className="text-sm font-medium">Recent comments</h3>
             <ul className="space-y-2 text-sm">

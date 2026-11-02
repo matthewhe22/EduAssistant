@@ -3,23 +3,34 @@ services:
   - type: web
     name: edassistant
     runtime: node
-    plan: starter
+    plan: free
     region: singapore
-    buildCommand: npm ci && npm run build
+    branch: main
+    # Next.js needs devDependencies (TypeScript, Tailwind) to build.
+    buildCommand: npm ci --include=dev && npm run build
+    # Applies pending database migrations, then starts Next.js on $PORT.
     startCommand: npm start
     healthCheckPath: /api/health
     envVars:
       - key: NODE_VERSION
         value: "22"
-      - key: NEXT_PUBLIC_SUPABASE_URL
-        sync: false
-      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
-        sync: false
-      - key: SUPABASE_SERVICE_ROLE_KEY
-        sync: false
+      - key: DATABASE_URL
+        fromDatabase:
+          name: EdAssistant
+          property: connectionString
       - key: ANTHROPIC_API_KEY
         sync: false
       - key: ANTHROPIC_MODEL
         value: claude-opus-5-5
       - key: ANTHROPIC_EFFORT
         value: medium
+      # Extra emails allowed to create accounts (the first account is always allowed).
+      - key: ALLOWED_EMAILS
+        sync: false
+
+databases:
+  - name: EdAssistant
+    databaseName: edassistant
+    user: edassistant_user
+    plan: free
+    region: singapore

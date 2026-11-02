@@ -5,8 +5,8 @@ import { OUTPUTS } from "@/lib/generator/outputs";
 import { RefineRequestSchema } from "@/lib/generator/schema";
 import { ndjsonResponse } from "@/lib/generator/stream";
 import { validateOutput } from "@/lib/generator/validate";
-import { budgetGuard, recordUsage } from "@/lib/library/server";
-import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { updateGenerationContent } from "@/lib/data/generations";
+import { budgetGuard, optionalUser, recordUsage } from "@/lib/library/server";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -17,9 +17,9 @@ export const maxDuration = 300;
  * Only that section is taken from the model's answer; everything else is kept as it was.
  */
 export async function POST(request: Request) {
-  const supabase = createSupabaseServerClient();
-  const user = supabase ? (await supabase.auth.getUser()).data.user : null;
-  if (supabase && !user) return Response.json({ error: "Please sign in." }, { status: 401 });
+  const auth = await optionalUser();
+  if (!auth.ok) return auth.error;
+  const { db, user } = auth;
 
   const parsed = RefineRequestSchema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) {
@@ -36,8 +36,8 @@ export async function POST(request: Request) {
   const ctx = subject && buildCurriculumContext(subject, req.level, req.difficulty);
   if (!subject || !ctx) return Response.json({ error: "Unknown subject or level." }, { status: 400 });
 
-  if (supabase && user) {
-    const blocked = await budgetGuard(supabase, user.id);
+  if (db && user) {
+    const blocked = await budgetGuard(db, user.id);
     if (blocked) return blocked;
   }
 
@@ -68,18 +68,12 @@ export async function POST(request: Request) {
     const { content, warnings } = validateOutput(req.outputType, merged, ctx.allowedCodes, req.lessonMinutes);
 
     let generationId: string | null = null;
-    if (supabase && user && req.generationId) {
-      const { data, error } = await supabase
-        .from("generations")
-        .update({ content: { output: content, warnings }, title: String(content.title), updated_at: new Date().toISOString() })
-        .eq("id", req.generationId)
-        .select("id")
-        .maybeSingle();
-      if (error || !data) warnings.push("The change could not be saved to your library.");
-      else generationId = data.id;
-    }
-    if (supabase && user) {
-      await recordUsage(supabase, { userId: user.id, generationId, kind: "refine", outputType: req.outputType, model: result.model, usage: result.usage });
+    if (db && user) {
+      if (req.generationId) {
+        generationId = await updateGenerationContent(db, user.id, req.generationId, String(content.title), { output: content, warnings }).catch(() => null);
+        if (!generationId) warnings.push("The change could not be saved to your library.");
+      }
+      await recordUsage(db, { userId: user.id, generationId, kind: "refine", outputType: req.outputType, model: result.model, usage: result.usage });
     }
 
     send({ type: "result", outputType: req.outputType, content, warnings, generationId, usage: { ...result.usage, model: result.model } });

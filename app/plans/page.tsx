@@ -3,8 +3,8 @@ import { DeleteButton } from "@/components/DeleteButton";
 import { getCurriculumIndex } from "@/lib/curriculum";
 import { LEVEL_LABELS, PRIMARY_LEVELS, type PrimaryLevel } from "@/lib/curriculum/types";
 import { OUTPUT_TYPES, OUTPUTS, isOutputType } from "@/lib/generator/outputs";
-import { sanitizeSearch } from "@/lib/library/settings";
-import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { pageUser } from "@/lib/auth/page";
+import { listGenerations } from "@/lib/data/generations";
 
 export const dynamic = "force-dynamic";
 
@@ -15,32 +15,36 @@ export default async function LibraryPage({
 }: {
   searchParams: { q?: string; type?: string; subject?: string; level?: string; rating?: string; page?: string };
 }) {
-  const supabase = createSupabaseServerClient();
-  if (!supabase) return <p className="text-sm">Your library needs Supabase. Set the Supabase env vars to enable it.</p>;
-  const { data: auth } = await supabase.auth.getUser();
-  if (!auth.user) redirect("/login?next=/plans");
+  const auth = await pageUser("/plans");
+  if (!auth) return <p className="text-sm">Your library needs a database. Set DATABASE_URL to enable it.</p>;
 
   const index = await getCurriculumIndex();
   const subjectName = (slug: string) => index?.subjects.find((s) => s.slug === slug)?.subject ?? slug;
-  const q = sanitizeSearch(searchParams.q ?? "");
   const page = Math.max(1, Number(searchParams.page) || 1);
-
-  let query = supabase
-    .from("generations")
-    .select("id, title, output_type, level, subject_slug, rating, cost_usd, created_at", { count: "exact" })
-    .order("created_at", { ascending: false })
-    .range((page - 1) * PAGE_SIZE, page * PAGE_SIZE - 1);
-  if (q) query = query.or(`title.ilike."*${q}*",teacher_input->>idea.ilike."*${q}*"`);
-  if (isOutputType(searchParams.type)) query = query.eq("output_type", searchParams.type);
-  if (searchParams.subject && /^[a-z0-9-]+$/.test(searchParams.subject)) query = query.eq("subject_slug", searchParams.subject);
-  if ((PRIMARY_LEVELS as readonly string[]).includes(searchParams.level ?? "")) query = query.eq("level", searchParams.level!);
-  if (searchParams.rating === "up") query = query.eq("rating", 1);
-  if (searchParams.rating === "down") query = query.eq("rating", -1);
-  if (searchParams.rating === "none") query = query.is("rating", null);
-  const { data: items, error, count } = await query;
+  const rating = ["up", "down", "none"].includes(searchParams.rating ?? "") ? (searchParams.rating as "up" | "down" | "none") : undefined;
+  let items: Awaited<ReturnType<typeof listGenerations>>["items"] = [];
+  let count = 0;
+  let error: string | null = null;
+  try {
+    ({ items, count } = await listGenerations(
+      auth.db,
+      auth.user.id,
+      {
+        q: (searchParams.q ?? "").trim().slice(0, 100) || undefined,
+        outputType: isOutputType(searchParams.type) ? searchParams.type : undefined,
+        subjectSlug: searchParams.subject && /^[a-z0-9-]+$/.test(searchParams.subject) ? searchParams.subject : undefined,
+        level: (PRIMARY_LEVELS as readonly string[]).includes(searchParams.level ?? "") ? searchParams.level : undefined,
+        rating,
+      },
+      PAGE_SIZE,
+      (page - 1) * PAGE_SIZE,
+    ));
+  } catch (err) {
+    error = (err as Error).message;
+  }
 
   const field = "rounded border px-2 py-1 text-sm dark:bg-slate-900";
-  const pages = Math.max(1, Math.ceil((count ?? 0) / PAGE_SIZE));
+  const pages = Math.max(1, Math.ceil(count / PAGE_SIZE));
   const pageLink = (n: number) => {
     const params = new URLSearchParams(Object.entries(searchParams).filter(([, v]) => v) as [string, string][]);
     params.set("page", String(n));
@@ -81,11 +85,11 @@ export default async function LibraryPage({
         <a href="/plans" className="self-center text-xs underline">Clear</a>
       </form>
 
-      {error && <p className="text-sm text-red-700">Could not load your library: {error.message}</p>}
-      {items && items.length === 0 && <p className="text-sm text-slate-600">Nothing found.</p>}
-      <p className="text-xs text-slate-500">{count ?? 0} item{count === 1 ? "" : "s"}</p>
+      {error && <p className="text-sm text-red-700">Could not load your library: {error}</p>}
+      {!error && items.length === 0 && <p className="text-sm text-slate-600">Nothing found.</p>}
+      <p className="text-xs text-slate-500">{count} item{count === 1 ? "" : "s"}</p>
       <ul className="divide-y divide-slate-200 dark:divide-slate-800">
-        {items?.map((it) => (
+        {items.map((it) => (
           <li key={it.id} className="flex flex-wrap items-start justify-between gap-2 py-3">
             <div>
               <a href={`/plans/${it.id}`} className="font-medium hover:underline">{it.title}</a>

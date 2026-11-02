@@ -1,13 +1,12 @@
 import { z } from "zod";
-import { FormSettingsSchema } from "@/lib/library/settings";
+import { createTemplate, listTemplates } from "@/lib/data/templates";
 import { requireUser } from "@/lib/library/server";
+import { FormSettingsSchema } from "@/lib/library/settings";
 
-export async function GET() {
+export async function GET(): Promise<Response> {
   const auth = await requireUser();
   if (!auth.ok) return auth.error;
-  const { data, error } = await auth.supabase.from("templates").select("id, name, settings, created_at").order("name");
-  if (error) return Response.json({ error: error.message }, { status: 500 });
-  return Response.json({ templates: data });
+  return Response.json({ templates: await listTemplates(auth.db, auth.user.id) });
 }
 
 const CreateSchema = z.object({ name: z.string().trim().min(1).max(100), settings: FormSettingsSchema });
@@ -17,11 +16,6 @@ export async function POST(request: Request): Promise<Response> {
   if (!auth.ok) return auth.error;
   const body = CreateSchema.safeParse(await request.json().catch(() => null));
   if (!body.success) return Response.json({ error: "Give the template a name (up to 100 characters)." }, { status: 400 });
-  const { data, error } = await auth.supabase
-    .from("templates")
-    .insert({ user_id: auth.user.id, name: body.data.name, settings: body.data.settings })
-    .select("id, name, settings, created_at")
-    .single();
-  if (error) return Response.json({ error: error.message }, { status: 500 });
-  return Response.json({ template: data }, { status: 201 });
+  const template = await createTemplate(auth.db, auth.user.id, body.data.name, body.data.settings);
+  return Response.json({ template }, { status: 201 });
 }

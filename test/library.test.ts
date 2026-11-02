@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { costUsd, formatUsd, priceFor } from "@/lib/pricing";
-import { FormSettingsSchema, isOverBudget, sanitizeSearch, settingsFrom } from "@/lib/library/settings";
+import { FormSettingsSchema, isOverBudget, settingsFrom } from "@/lib/library/settings";
 import { dailySpend, feedbackByType, summariseUsage, type UsageRow } from "@/lib/library/stats";
 
 describe("pricing", () => {
@@ -33,11 +33,6 @@ describe("settings", () => {
     expect(s).toEqual({ outputType: "worksheet", level: "4", subjectSlug: "science", lessonMinutes: 50, itemCount: 12, idea: "Heat" });
     expect(FormSettingsSchema.safeParse(s).success).toBe(true);
     expect(settingsFrom(null)).toEqual({});
-  });
-
-  it("strips PostgREST filter syntax from search text", () => {
-    expect(sanitizeSearch('frac*tions, (year 3) "quiz" 50%')).toBe("frac tions year 3 quiz 50");
-    expect(sanitizeSearch("x".repeat(300))).toHaveLength(100);
   });
 
   it("checks the budget", () => {

@@ -10,7 +10,7 @@ aligned to the **Victorian Curriculum F–10 Version 2.0** and the **Victorian T
 ## Stack
 
 - Next.js 14 (App Router, TypeScript, Tailwind), hosted on **Render** (`render.yaml`)
-- **Supabase**: Auth (individual teacher logins), Postgres + pgvector, Storage
+- **PostgreSQL** (Render Postgres): teacher accounts (hashed passwords, httpOnly session cookies), library, templates, usage
 - **Claude** (Anthropic API) for content generation (Phase 1)
 
 ## Status
@@ -40,7 +40,7 @@ as, typing an idea. Once something is generated, you can **refine any single sec
 instruction ("make the guided practice more hands-on"). Only that section is replaced, and the
 change is saved to your library. Everything exports to Word or prints.
 
-## Library, templates, feedback and costs (needs Supabase)
+## Library, templates, feedback and costs (needs the database)
 
 - **My library** (`/plans`): search titles and ideas; filter by type, subject, level and rating.
   Open, **use again** (pre-fills the Create form with the same settings) or delete.
@@ -67,7 +67,7 @@ change is saved to your library. Everything exports to Word or prints.
    curriculum block are prompt-cached, so refinements of the same subject and level reuse the
    cache. Uploaded PDFs are sent to Claude as documents; Word and text files are converted to text.
 4. The output is validated: curriculum codes that are not in the dataset (anywhere in the output)
-   are removed and flagged, and lesson timings, quiz marks and rubric tables are checked. It is then saved to the teacher's library (Supabase, RLS) and
+   are removed and flagged, and lesson timings, quiz marks and rubric tables are checked. It is then saved to the teacher's library (Postgres) and
    can be exported to Word or printed.
 
 ## Repository layout
@@ -77,11 +77,12 @@ app/                         Next.js routes: /plan (create), /plans (library), /
 components/                  Planner form, result panel (refine), views for each output type
 lib/generator/               Output types (outputs/), curriculum context, prompts, Claude call, uploads, validation
 lib/export/                  Word (.docx) export
-lib/supabase/                Server-side Supabase client (auth + RLS)
+lib/db, lib/auth, lib/data/  Postgres pool, sessions/passwords, per-teacher queries
 lib/curriculum/              Types + loaders for the curriculum dataset
 data/curriculum/vc2/         Victorian Curriculum 2.0, F–6, one JSON file per subject (generated)
-scripts/curriculum/          VCAA export download (Playwright), CSV → JSON import, Supabase seed
-supabase/migrations/         Database schema (profiles, curriculum, generations, RLS)
+scripts/curriculum/          VCAA export download (Playwright), CSV → JSON import
+scripts/db/migrate.mjs       Migration runner (runs on npm start)
+db/migrations/               PostgreSQL schema (users, sessions, generations, usage_events, templates)
 docs/research/               Research notes that will become the generator's prompt context
 .github/workflows/           Builds the curriculum dataset on GitHub Actions
 ```
@@ -90,22 +91,22 @@ docs/research/               Research notes that will become the generator's pro
 
 ```bash
 npm install
-cp .env.example .env.local   # set ANTHROPIC_API_KEY; Supabase is optional
+cp .env.example .env.local   # set ANTHROPIC_API_KEY; DATABASE_URL is optional
 npm run dev                  # http://localhost:3000/plan
 ```
 
-Without the Supabase variables the app runs in **local mode**: no login, and plans are not saved.
+Without `DATABASE_URL` the app runs in **local mode**: no login, and nothing is saved.
 
-### Supabase (logins and saved plans)
+### Database (accounts and saved work)
 
-1. Create a Supabase project (region: Sydney).
-2. SQL editor: run `supabase/migrations/0001_init.sql`, then `0002_phase3.sql`.
-3. Authentication → Providers → Email: enabled. For personal use you can turn off
-   "Confirm email" to sign in immediately.
-4. Set `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`, then create an account at
-   `/login`.
-5. Optional: `npm run curriculum:seed` copies the curriculum into Postgres for the planned
-   pgvector search. The generator reads the JSON files directly, so this isn't needed yet.
+Any PostgreSQL 14+ works. Set `DATABASE_URL`. Migrations in `db/migrations/` run automatically
+on `npm start`, or run them yourself with `npm run db:migrate`.
+
+- **Accounts**: email and password (bcrypt), with sessions in an httpOnly cookie. Only a SHA-256
+  hash of the session token is stored.
+- **Sign-ups are closed** except for the **first account** and emails listed in `ALLOWED_EMAILS`.
+  This stops strangers on your public URL from spending your Anthropic credit.
+- Every query is scoped to the signed-in teacher (`lib/data/`).
 
 ### Curriculum dataset
 
@@ -119,22 +120,24 @@ npx playwright install chromium
 npm run curriculum:download
 unzip -o data/curriculum/raw/vc2-all.zip -d data/curriculum/raw
 npm run curriculum:import
-npm run curriculum:seed       # loads it into Supabase (needs the service role key)
 ```
-
-### Database
-
-Apply `supabase/migrations/0001_init.sql` in the Supabase SQL editor, or run `supabase db push`.
 
 ### Deploy to Render
 
-New → Blueprint → select this repo. Render reads `render.yaml`. Then set `ANTHROPIC_API_KEY` and
-the Supabase variables in the dashboard. In Supabase → Authentication → URL configuration, set the
-site URL to the Render URL.
+`render.yaml` describes the web service (Node, Singapore, `npm ci --include=dev && npm run build`,
+`npm start`, health check `/api/health`) and its Postgres database. Use New → Blueprint, or create
+them by hand with the same settings. Then:
+
+1. Set `ANTHROPIC_API_KEY` on the web service.
+2. Set `DATABASE_URL` to the database's **Internal Database URL** (Blueprint does this for you).
+3. Deploy, open the site, and create your account (the first sign-up).
+
+The free Render Postgres plan expires after 30 days. Upgrade it to keep your data.
 
 ### Tests
 
 ```bash
-npm test          # importer, generator, every output type + Word export, routes (Claude and Supabase mocked), pricing/stats
+npm test          # importer, generator, every output type + Word export, routes, and database tests on
+                  # real Postgres (PGlite) covering accounts, saving, search, feedback, budget and isolation
 npm run typecheck
 ```

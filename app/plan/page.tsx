@@ -2,7 +2,9 @@ import { PlanForm, type TemplateOption } from "@/components/PlanForm";
 import { getCurriculumIndex } from "@/lib/curriculum";
 import { isUuid } from "@/lib/library/server";
 import { FormSettingsSchema, settingsFrom, type FormSettings } from "@/lib/library/settings";
-import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { pageUser } from "@/lib/auth/page";
+import { getGeneration } from "@/lib/data/generations";
+import { listTemplates } from "@/lib/data/templates";
 
 export const dynamic = "force-dynamic";
 
@@ -11,15 +13,13 @@ export default async function PlanPage({ searchParams }: { searchParams: { from?
   if (!index) return <p>The curriculum dataset has not been built yet.</p>;
   const subjects = index.subjects.map(({ slug, subject, learningArea, levels }) => ({ slug, subject, learningArea, levels }));
 
-  const supabase = createSupabaseServerClient();
-  const user = supabase ? (await supabase.auth.getUser()).data.user : null;
+  const auth = await pageUser("/plan");
   let templates: TemplateOption[] = [];
   let initial: FormSettings = {};
   let note: string | undefined;
 
-  if (supabase && user) {
-    const { data } = await supabase.from("templates").select("id, name, settings").order("name");
-    templates = (data ?? []).flatMap((t) => {
+  if (auth) {
+    templates = (await listTemplates(auth.db, auth.user.id)).flatMap((t) => {
       const s = FormSettingsSchema.safeParse(t.settings);
       return s.success ? [{ id: t.id, name: t.name, settings: s.data }] : [];
     });
@@ -31,7 +31,7 @@ export default async function PlanPage({ searchParams }: { searchParams: { from?
         note = `Loaded template "${t.name}".`;
       }
     } else if (searchParams.from && isUuid(searchParams.from)) {
-      const { data: row } = await supabase.from("generations").select("title, output_type, teacher_input").eq("id", searchParams.from).maybeSingle();
+      const row = await getGeneration(auth.db, auth.user.id, searchParams.from);
       if (row) {
         initial = settingsFrom({ ...row.teacher_input, outputType: row.output_type });
         note = `Settings copied from "${row.title}".`;
@@ -47,7 +47,7 @@ export default async function PlanPage({ searchParams }: { searchParams: { from?
           Aligned to the Victorian Curriculum F–10 Version 2.0 and VTLM 2.0. Always review before teaching.
         </p>
       </div>
-      <PlanForm subjects={subjects} canSave={Boolean(supabase && user)} initial={initial} initialNote={note} templates={templates} />
+      <PlanForm subjects={subjects} canSave={Boolean(auth)} initial={initial} initialNote={note} templates={templates} />
     </div>
   );
 }

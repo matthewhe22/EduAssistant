@@ -4,16 +4,15 @@ import { getCurriculumIndex } from "@/lib/curriculum";
 import { LEVEL_LABELS } from "@/lib/curriculum/types";
 import { OUTPUTS } from "@/lib/generator/outputs";
 import { FormSettingsSchema } from "@/lib/library/settings";
-import { createSupabaseServerClient } from "@/lib/supabase/server";
+import { pageUser } from "@/lib/auth/page";
+import { listTemplates } from "@/lib/data/templates";
 
 export const dynamic = "force-dynamic";
 
 export default async function TemplatesPage() {
-  const supabase = createSupabaseServerClient();
-  if (!supabase) return <p className="text-sm">Templates need Supabase. Set the Supabase env vars to enable them.</p>;
-  const { data: auth } = await supabase.auth.getUser();
-  if (!auth.user) redirect("/login?next=/templates");
-  const [{ data, error }, index] = await Promise.all([supabase.from("templates").select("id, name, settings, created_at").order("name"), getCurriculumIndex()]);
+  const auth = await pageUser("/templates");
+  if (!auth) return <p className="text-sm">Templates need a database. Set DATABASE_URL to enable them.</p>;
+  const [data, index] = await Promise.all([listTemplates(auth.db, auth.user.id), getCurriculumIndex()]);
 
   return (
     <div className="space-y-6">
@@ -21,10 +20,9 @@ export default async function TemplatesPage() {
       <p className="text-sm text-slate-600 dark:text-slate-300">
         Save settings you use often with <strong>Save settings as template</strong> on the Create page, then start from them in one click.
       </p>
-      {error && <p className="text-sm text-red-700">Could not load templates: {error.message}</p>}
-      {data?.length === 0 && <p className="text-sm text-slate-600">No templates yet.</p>}
+      {data.length === 0 && <p className="text-sm text-slate-600">No templates yet.</p>}
       <ul className="divide-y divide-slate-200 dark:divide-slate-800">
-        {data?.map((t) => {
+        {data.map((t) => {
           const s = FormSettingsSchema.safeParse(t.settings);
           const st = s.success ? s.data : {};
           const summary = [

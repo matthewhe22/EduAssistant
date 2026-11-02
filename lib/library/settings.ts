@@ -28,15 +28,6 @@ export function settingsFrom(input: unknown): FormSettings {
   return out as FormSettings;
 }
 
-/** Makes free text safe for a PostgREST `or=(...ilike...)` filter. */
-export function sanitizeSearch(q: string): string {
-  return q
-    .replace(/[,()*%\\:"']/g, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, 100);
-}
-
 export function isOverBudget(spentUsd: number, budgetUsd: number | null | undefined): boolean {
   return budgetUsd !== null && budgetUsd !== undefined && spentUsd >= budgetUsd;
 }

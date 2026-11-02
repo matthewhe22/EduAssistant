@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { getCurrentUser, isSupabaseConfigured } from "@/lib/supabase/server";
+import { getCurrentUser } from "@/lib/auth/session";
+import { isDbConfigured } from "@/lib/db";
 import "./globals.css";
 
 export const dynamic = "force-dynamic";
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const authEnabled = isSupabaseConfigured();
+  const authEnabled = isDbConfigured();
   const user = authEnabled ? await getCurrentUser() : null;
   const link = "text-sm text-slate-600 hover:underline dark:text-slate-300";
   return (
