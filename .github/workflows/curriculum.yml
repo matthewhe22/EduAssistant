@@ -1,0 +1,52 @@
+name: Build curriculum dataset
+
+# Scrapes the Victorian Curriculum F–10 Version 2.0 (Foundation to Level 6) from VCAA
+# and commits data/curriculum/vc2/*.json back to the branch.
+on:
+  workflow_dispatch:
+    inputs:
+      domains:
+        description: "Comma-separated VCAA domain codes (blank = discover all)"
+        required: false
+        default: ""
+  push:
+    paths:
+      - "scripts/curriculum/**"
+      - ".github/workflows/curriculum.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: curriculum-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Discover domains
+        run: npm run curriculum:discover
+      - name: Scrape
+        run: |
+          if [ -n "${{ inputs.domains }}" ]; then
+            npm run curriculum:scrape -- --domains=${{ inputs.domains }}
+          else
+            npm run curriculum:scrape
+          fi
+      - name: Commit dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/curriculum
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Update Victorian Curriculum 2.0 dataset (F–6)"
+          git push
