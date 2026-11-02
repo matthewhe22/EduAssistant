@@ -49,6 +49,10 @@ async function main() {
     const csv = page.locator("button:visible", { hasText: "CSV format (CSV)" }).first();
     await csv.click();
     await page.waitForTimeout(500);
+
+    // 4. Export options: plain curriculum content (achievement standards, content descriptions, elaborations).
+    await page.locator("#standard").check({ force: true });
+    await page.waitForTimeout(500);
     await dump(page, "02-selected");
 
     const buttons = page.locator("button:visible", { hasText: /download/i });
@@ -56,7 +60,7 @@ async function main() {
       const b = buttons.nth(i);
       console.log(`download button ${i}: "${(await b.textContent())?.trim()}" disabled=${await b.isDisabled()}`);
     }
-    const button = buttons.last();
+    const button = page.locator("button:visible", { hasText: "Download CSV" }).first();
     console.log(`download button: "${(await button.textContent())?.trim()}"`);
     const [download] = await Promise.all([page.waitForEvent("download", { timeout: 300_000 }), button.click()]);
     await mkdir(RAW_DIR, { recursive: true });
