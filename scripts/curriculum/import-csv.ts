@@ -29,7 +29,27 @@ interface Row {
   Elaboration: string;
 }
 
-const clean = (s: string | undefined) => (s ?? "").replace(/ /g, " ").replace(/[ \t]+/g, " ").trim();
+/**
+ * The CSV is plain text but keeps maths as inline TeX, e.g. "$\frac{1}{2}$" or "$3^{2}$".
+ * Convert those spans to readable text. "$" is also used for money ("$375 = $"), so only spans
+ * with no whitespace at either edge that contain TeX or arithmetic are treated as maths.
+ */
+export function texToPlain(s: string): string {
+  return s.replace(/\$([^\s$](?:[^$]*[^\s$])?)\$/g, (match, inner: string) => {
+    if (!/[\\^=+]/.test(inner)) return match;
+    return inner
+      .replace(/(\d)\\frac/g, "$1 \\frac")
+      .replace(/\\d?frac\{([^{}]*)\}\{([^{}]*)\}/g, "$1/$2")
+      .replace(/\^\{([^{}]*)\}/g, "^$1")
+      .replace(/\\times/g, "×")
+      .replace(/\\div/g, "÷")
+      .replace(/\\(left|right)/g, "")
+      .replace(/\\,/g, " ");
+  });
+}
+
+const clean = (s: string | undefined) =>
+  texToPlain((s ?? "").replace(/ /g, " ")).replace(/[ \t]+/g, " ").trim();
 
 /** The export joins achievement standard paragraphs with no space ("…calculations.Students…"). */
 export function splitParagraphs(s: string): string {

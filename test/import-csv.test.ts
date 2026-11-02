@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import { describe, expect, it } from "vitest";
-import { buildIndex, buildSubjects, parseCsv, splitParagraphs } from "../scripts/curriculum/import-csv";
+import { buildIndex, buildSubjects, parseCsv, splitParagraphs, texToPlain } from "../scripts/curriculum/import-csv";
 import { levelsForBand } from "../lib/curriculum/learning-areas";
 
 const csv = readFileSync(path.join(__dirname, "fixtures/vcaa-export.csv"), "utf8");
@@ -72,5 +72,19 @@ describe("import", () => {
     const index = buildIndex(subjects, "2026-11-02");
     const maths = index.subjects.find((s) => s.slug === "mathematics")!;
     expect(maths).toMatchObject({ levels: ["3"], contentDescriptionCount: 1, elaborationCount: 2 });
+  });
+});
+
+describe("texToPlain", () => {
+  it.each([
+    ["unit fractions including $\\frac{1}{2}$, $\\frac{1}{3}$ and more", "unit fractions including 1/2, 1/3 and more"],
+    ["$\\frac{4}{8}=\\frac{2}{4}=\\frac{1}{2}$", "4/8=2/4=1/2"],
+    ["about $33\\frac{1}{3}$ per cent", "about 33 1/3 per cent"],
+    ["$3^{2}$ means 3 × 3", "3^2 means 3 × 3"],
+    ["$7+5=7+3+2=10+2=12$", "7+5=7+3+2=10+2=12"],
+    ["I had $375. Now he has $20 left", "I had $375. Now he has $20 left"],
+    ["costs $375 = $300 + $75", "costs $375 = $300 + $75"],
+  ])("%s", (input, expected) => {
+    expect(texToPlain(input)).toBe(expected);
   });
 });

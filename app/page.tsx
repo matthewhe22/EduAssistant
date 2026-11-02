@@ -10,17 +10,22 @@ export default async function Home() {
         teaching materials aligned to the Victorian Curriculum F–10 Version 2.0 and the VTLM 2.0.
       </p>
       <div className="rounded-lg border border-slate-200 p-4 text-sm dark:border-slate-800">
-        <p className="font-medium">Status: Phase 0 (curriculum knowledge base)</p>
+        <p className="font-medium">Curriculum knowledge base</p>
         <p className="mt-1 text-slate-600 dark:text-slate-300">
           {index
             ? `${index.subjects.length} subjects loaded, ${index.subjects.reduce((n, s) => n + s.contentDescriptionCount, 0)} content descriptions.`
             : "Curriculum dataset not built yet. Run npm run curriculum:scrape."}{" "}
-          The generator arrives in Phase 1.
+          Includes VCAA elaborations, achievement standards and VTLM 2.0 guidance.
         </p>
       </div>
-      <a href="/curriculum" className="inline-block rounded-md bg-slate-900 px-4 py-2 text-sm text-white dark:bg-white dark:text-slate-900">
-        Browse the curriculum
-      </a>
+      <div className="flex gap-3">
+        <a href="/plan" className="inline-block rounded-md bg-slate-900 px-4 py-2 text-sm text-white dark:bg-white dark:text-slate-900">
+          Create a lesson plan
+        </a>
+        <a href="/curriculum" className="inline-block rounded-md border px-4 py-2 text-sm">
+          Browse the curriculum
+        </a>
+      </div>
     </div>
   );
 }

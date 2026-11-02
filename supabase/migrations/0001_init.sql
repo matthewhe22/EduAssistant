@@ -110,7 +110,7 @@ create table public.generations (
   user_id uuid not null references auth.users (id) on delete cascade default auth.uid(),
   title text not null,
   level text not null check (level in ('F','1','2','3','4','5','6')),
-  subject_slug text not null references public.curriculum_subjects (slug),
+  subject_slug text not null,                -- matches data/curriculum/vc2/<slug>.json
   output_type public.output_type not null,
   difficulty text not null check (difficulty in ('below', 'at', 'above', 'mixed')),
   teacher_input jsonb not null,               -- idea, rough plan, lesson length, options
