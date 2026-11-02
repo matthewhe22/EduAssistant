@@ -1,71 +1,85 @@
 import type { LessonPlan } from "@/lib/generator/schema";
-import { Card, CurriculumLinksView, Label, List, Section, Shell } from "./ui";
+import { CurriculumLinksView, Label, List, Panel, Section, Shell } from "./ui";
 
-export function LessonPlanView({ plan, meta, codeText = {} }: { plan: LessonPlan; meta: string; codeText?: Record<string, string> }) {
+export interface ViewProps<T> {
+  content: T;
+  meta: string;
+  typeLabel: string;
+  typePill: string;
+  codeText: Record<string, string>;
+}
+
+export function LessonPlanView({ content: p, meta, typeLabel, typePill, codeText }: ViewProps<LessonPlan>) {
   return (
-    <Shell title={plan.title} meta={meta} overview={plan.overview}>
-      <CurriculumLinksView links={plan.curriculumLinks} codeText={codeText} />
-      <div className="grid gap-6 md:grid-cols-2">
-        <Section title="Learning intention">
-          <p className="text-sm leading-6">{plan.learningIntention}</p>
+    <Shell title={p.title} typeLabel={typeLabel} typePill={typePill} meta={meta}>
+      <Section title="Overview" sectionKey="overview" size="sm">
+        <p className="m-0 max-w-[64ch] text-ink-soft">{p.overview}</p>
+        <CurriculumLinksView links={p.curriculumLinks} codeText={codeText} />
+      </Section>
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <Section title="Learning intention" sectionKey="learningIntention" size="sm">
+          <p className="m-0">{p.learningIntention}</p>
         </Section>
-        <Section title="Success criteria">
-          <List items={plan.successCriteria} />
+        <Section title="Success criteria" sectionKey="successCriteria" size="sm">
+          <List items={p.successCriteria} />
         </Section>
-        <Section title="Vocabulary">
-          <ul className="space-y-1 text-sm leading-6">
-            {plan.vocabulary.map((v) => (
+        <Section title="Vocabulary" sectionKey="vocabulary" size="sm">
+          <ul className="m-0 flex list-none flex-col gap-1 p-0">
+            {p.vocabulary.map((v) => (
               <li key={v.term}>
                 <strong>{v.term}</strong>: {v.studentFriendlyDefinition}
               </li>
             ))}
           </ul>
         </Section>
-        <Section title="Resources">
-          <List items={plan.resources} />
+        <Section title="Resources" sectionKey="resources" size="sm">
+          <List items={p.resources} />
         </Section>
       </div>
-      <Section title="Lesson sequence">
-        <div className="space-y-4">
-          {plan.phases.map((ph, i) => (
-            <Card key={i}>
-              <div className="mb-2 flex items-baseline justify-between">
-                <h4 className="font-medium">{ph.phase}</h4>
-                <span className="text-sm text-slate-500">{ph.minutes} min</span>
+      <Section title="Lesson sequence" sectionKey="phases">
+        <ol className="m-0 flex list-none flex-col p-0">
+          {p.phases.map((ph, i) => (
+            <li key={i} className="grid grid-cols-1 gap-3 border-t border-line py-[18px] sm:grid-cols-[120px_minmax(0,1fr)] sm:gap-5">
+              <div>
+                <p className="m-0 font-bold">{ph.phase}</p>
+                <p className="m-0 mt-0.5 text-sm text-ink-muted">{ph.minutes} min</p>
               </div>
-              <div className="grid gap-4 md:grid-cols-2">
+              <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                 <div>
                   <Label>Teacher</Label>
                   <List items={ph.teacher} />
                 </div>
                 <div>
-                  <Label>Students</Label>
+                  <Label tone="wattle">Students</Label>
                   <List items={ph.students} />
                 </div>
+                {ph.checkForUnderstanding && <p className="m-0 text-[15px] italic text-ink-soft md:col-span-2">Check: {ph.checkForUnderstanding}</p>}
               </div>
-              {ph.checkForUnderstanding && <p className="mt-2 text-sm italic text-slate-600 dark:text-slate-300">Check: {ph.checkForUnderstanding}</p>}
-            </Card>
+            </li>
           ))}
+        </ol>
+      </Section>
+      <Section title="Differentiation" sectionKey="differentiation">
+        <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+          <Panel><p className="m-0 mb-1.5 font-bold">More support</p><List items={p.differentiation.support} /></Panel>
+          <Panel><p className="m-0 mb-1.5 font-bold">Extension</p><List items={p.differentiation.extension} /></Panel>
+          <Panel><p className="m-0 mb-1.5 font-bold">Learning English</p><List items={p.differentiation.ealD} /></Panel>
         </div>
       </Section>
-      <Section title="Differentiation">
-        <div className="grid gap-4 md:grid-cols-3">
-          <div><Label>Support</Label><List items={plan.differentiation.support} /></div>
-          <div><Label>Extension</Label><List items={plan.differentiation.extension} /></div>
-          <div><Label>EAL/D</Label><List items={plan.differentiation.ealD} /></div>
-        </div>
+      <Section title="Assessment" sectionKey="assessment">
+        <List items={p.assessment.formative} />
+        <Panel tone="wattle">
+          <p className="m-0 mb-1 font-display text-xl font-bold">Exit ticket</p>
+          <p className="m-0">{p.assessment.exitTicket}</p>
+        </Panel>
       </Section>
-      <Section title="Assessment">
-        <List items={plan.assessment.formative} />
-        <p className="text-sm"><strong>Exit ticket:</strong> {plan.assessment.exitTicket}</p>
-      </Section>
-      {plan.crossCurriculum.length > 0 && (
-        <Section title="Capabilities and cross-curriculum priorities">
-          <List items={plan.crossCurriculum} />
+      {p.crossCurriculum.length > 0 && (
+        <Section title="Capabilities and priorities" size="sm">
+          <List items={p.crossCurriculum} />
         </Section>
       )}
-      <Section title="Teacher notes">
-        <List items={plan.teacherNotes} />
+      <Section title="Teacher notes" sectionKey="teacherNotes" size="sm">
+        <List items={p.teacherNotes} />
       </Section>
     </Shell>
   );

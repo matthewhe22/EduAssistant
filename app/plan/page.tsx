@@ -1,3 +1,4 @@
+import { Page } from "@/components/Page";
 import { PlanForm, type TemplateOption } from "@/components/PlanForm";
 import { getCurriculumIndex } from "@/lib/curriculum";
 import { isUuid } from "@/lib/library/server";
@@ -40,14 +41,8 @@ export default async function PlanPage({ searchParams }: { searchParams: { from?
   }
 
   return (
-    <div className="space-y-6">
-      <div className="print:hidden">
-        <h1 className="text-2xl font-semibold">Create teaching materials</h1>
-        <p className="text-sm text-slate-600 dark:text-slate-300">
-          Aligned to the Victorian Curriculum F–10 Version 2.0 and VTLM 2.0. Always review before teaching.
-        </p>
-      </div>
+    <Page eyebrow="New material" title="What are you teaching next?">
       <PlanForm subjects={subjects} canSave={Boolean(auth)} initial={initial} initialNote={note} templates={templates} />
-    </div>
+    </Page>
   );
 }

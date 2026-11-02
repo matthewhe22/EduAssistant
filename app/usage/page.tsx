@@ -1,6 +1,8 @@
 import { redirect } from "next/navigation";
 import { BudgetForm } from "@/components/BudgetForm";
-import { OUTPUTS, isOutputType } from "@/lib/generator/outputs";
+import { Notice, Page } from "@/components/Page";
+import { OUTPUT_UI } from "@/lib/ui/labels";
+import { isOutputType } from "@/lib/generator/outputs";
 import { MODEL } from "@/lib/generator/claude";
 import { pageUser } from "@/lib/auth/page";
 import { ratingsByType, recentComments } from "@/lib/data/generations";
@@ -11,11 +13,11 @@ import { formatUsd } from "@/lib/pricing";
 
 export const dynamic = "force-dynamic";
 
-const typeLabel = (t: string) => (isOutputType(t) ? OUTPUTS[t].label : t);
+const typeLabel = (t: string) => (isOutputType(t) ? OUTPUT_UI[t].label : t);
 
 export default async function UsagePage() {
   const auth = await pageUser("/usage");
-  if (!auth) return <p className="text-sm">Usage tracking needs a database. Set DATABASE_URL to enable it.</p>;
+  if (!auth) return <Page title="Usage"><Notice tone="info">Usage tracking needs a database. Set DATABASE_URL to enable it.</Notice></Page>;
   const { db, user } = auth;
 
   const melbourneMonth = new Intl.DateTimeFormat("en-CA", { timeZone: "Australia/Melbourne", year: "numeric", month: "2-digit" }).format(new Date());
@@ -34,11 +36,11 @@ export default async function UsagePage() {
   const pct = budget.budgetUsd ? Math.min(100, (budget.spentUsd / budget.budgetUsd) * 100) : 0;
 
   return (
-    <div className="space-y-8">
-      <h1 className="text-2xl font-semibold">Usage and insights</h1>
+    <Page title="Usage and insights">
+    <div className="flex flex-col gap-10">
 
-      <section className="space-y-3">
-        <h2 className="text-lg font-semibold">This month</h2>
+      <section className="flex flex-col gap-4">
+        <h2 className="m-0 text-2xl font-bold">This month</h2>
         <div className="grid gap-4 sm:grid-cols-4">
           {[
             ["Spend", formatUsd(budget.spentUsd)],
@@ -46,46 +48,46 @@ export default async function UsagePage() {
             ["Refinements", String(month.refinements)],
             ["Input from cache", `${Math.round(month.cachedShare * 100)}%`],
           ].map(([k, v]) => (
-            <div key={k} className="rounded border border-slate-200 p-4 dark:border-slate-800">
-              <p className="text-xs uppercase text-slate-500">{k}</p>
-              <p className="text-2xl font-semibold">{v}</p>
+            <div key={k} className="card p-5">
+              <p className="eyebrow m-0 text-ink-muted">{k}</p>
+              <p className="m-0 mt-1 font-display text-3xl font-bold">{v}</p>
             </div>
           ))}
         </div>
         {budget.budgetUsd !== null && (
           <div className="space-y-1">
-            <div className="h-2 w-full rounded bg-slate-200 dark:bg-slate-800" role="progressbar" aria-valuenow={Math.round(pct)} aria-valuemin={0} aria-valuemax={100}>
-              <div className={`h-2 rounded ${budget.exceeded ? "bg-red-600" : "bg-slate-900 dark:bg-white"}`} style={{ width: `${pct}%` }} />
+            <div className="h-2.5 w-full rounded-full bg-line" role="progressbar" aria-valuenow={Math.round(pct)} aria-valuemin={0} aria-valuemax={100}>
+              <div className={`h-2.5 rounded-full ${budget.exceeded ? "bg-alert" : "bg-euc"}`} style={{ width: `${pct}%` }} />
             </div>
-            <p className="text-xs text-slate-500">
+            <p className="text-sm text-ink-muted">
               {formatUsd(budget.spentUsd)} of {formatUsd(budget.budgetUsd)}
               {budget.exceeded && " · budget reached: new generations are paused until next month or until you raise it"}
             </p>
           </div>
         )}
         <BudgetForm budgetUsd={budget.budgetUsd} />
-        <p className="text-xs text-slate-500">
+        <p className="text-sm text-ink-muted">
           Costs are estimates from Anthropic&apos;s published per-token prices for {MODEL} (see lib/pricing.ts). Your Anthropic Console shows the exact bill. Months follow Melbourne time.
         </p>
       </section>
 
-      <section className="space-y-3">
-        <h2 className="text-lg font-semibold">Last 30 days</h2>
+      <section className="flex flex-col gap-4">
+        <h2 className="m-0 text-2xl font-bold">Last 30 days</h2>
         <div className="flex h-32 items-end gap-1" aria-label="Daily spend chart">
           {daily.map((d) => (
             <div key={d.date} className="flex-1" title={`${d.date}: ${formatUsd(d.costUsd)}`}>
-              <div className="w-full rounded-t bg-slate-400 dark:bg-slate-500" style={{ height: `${Math.max(d.costUsd > 0 ? 3 : 0, (d.costUsd / maxDay) * 128)}px` }} />
+              <div className="w-full rounded-t bg-euc" style={{ height: `${Math.max(d.costUsd > 0 ? 3 : 0, (d.costUsd / maxDay) * 128)}px` }} />
             </div>
           ))}
         </div>
-        <div className="flex justify-between text-xs text-slate-500">
+        <div className="flex justify-between text-sm text-ink-muted">
           <span>{daily[0]?.date}</span>
           <span>{daily.at(-1)?.date}</span>
         </div>
         {month.byType.length > 0 && (
-          <table className="w-full text-sm">
+          <table className="w-full text-[15px]">
             <thead>
-              <tr className="text-left text-slate-500">
+              <tr className="eyebrow text-left text-ink-muted">
                 <th className="py-1">Type (this month)</th>
                 <th>Calls</th>
                 <th>Cost</th>
@@ -93,7 +95,7 @@ export default async function UsagePage() {
             </thead>
             <tbody>
               {month.byType.map((t) => (
-                <tr key={t.outputType} className="border-t border-slate-200 dark:border-slate-800">
+                <tr key={t.outputType} className="border-t border-line">
                   <td className="py-1">{typeLabel(t.outputType)}</td>
                   <td>{t.count}</td>
                   <td>{formatUsd(t.costUsd)}</td>
@@ -104,24 +106,24 @@ export default async function UsagePage() {
         )}
       </section>
 
-      <section className="space-y-3">
-        <h2 className="text-lg font-semibold">Feedback</h2>
+      <section className="flex flex-col gap-4">
+        <h2 className="m-0 text-2xl font-bold">Feedback</h2>
         {feedback.length === 0 ? (
-          <p className="text-sm text-slate-600">Nothing saved yet.</p>
+          <p className="m-0 text-ink-soft">Nothing saved yet.</p>
         ) : (
-          <table className="w-full text-sm">
+          <table className="w-full text-[15px]">
             <thead>
-              <tr className="text-left text-slate-500">
+              <tr className="eyebrow text-left text-ink-muted">
                 <th className="py-1">Type</th>
-                <th>👍</th>
-                <th>👎</th>
+                <th>Useful</th>
+                <th>Not useful</th>
                 <th>Not rated</th>
                 <th>Approval</th>
               </tr>
             </thead>
             <tbody>
               {feedback.map((f) => (
-                <tr key={f.outputType} className="border-t border-slate-200 dark:border-slate-800">
+                <tr key={f.outputType} className="border-t border-line">
                   <td className="py-1">
                     <a className="underline" href={`/plans?type=${f.outputType}`}>{typeLabel(f.outputType)}</a>
                   </td>
@@ -138,23 +140,24 @@ export default async function UsagePage() {
         )}
         {comments.length > 0 && (
           <div className="space-y-2">
-            <h3 className="text-sm font-medium">Recent comments</h3>
-            <ul className="space-y-2 text-sm">
+            <h3 className="m-0 text-lg font-bold">Recent comments</h3>
+            <ul className="m-0 flex list-none flex-col gap-2 p-0">
               {comments.map((c) => (
                 <li key={c.id}>
-                  {c.rating === 1 ? "👍" : c.rating === -1 ? "👎" : "💬"} {c.feedback_comment}{" "}
-                  <a className="text-xs text-slate-500 underline" href={`/plans/${c.id}`}>
+                  <strong>{c.rating === 1 ? "Useful" : c.rating === -1 ? "Not useful" : "Comment"}:</strong> {c.feedback_comment}{" "}
+                  <a className="text-sm text-ink-muted underline" href={`/plans/${c.id}`}>
                     {typeLabel(c.output_type)}: {c.title}
                   </a>
                 </li>
               ))}
             </ul>
-            <p className="text-xs text-slate-500">
-              Recurring 👎 themes are worth turning into rules in lib/generator/pedagogy.ts or the type&apos;s instructions in lib/generator/outputs.
+            <p className="text-sm text-ink-muted">
+              Recurring &ldquo;not useful&rdquo; themes are worth turning into rules in lib/generator/pedagogy.ts or the type&apos;s instructions in lib/generator/outputs.
             </p>
           </div>
         )}
       </section>
     </div>
+    </Page>
   );
 }

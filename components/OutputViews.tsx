@@ -1,260 +1,295 @@
+"use client";
+
 import type { OutputType } from "@/lib/generator/outputs";
-import type { Activities, Assessment, ParentNote, Rubric, TieredTask, UnitPlan, Worksheet, LessonPlan } from "@/lib/generator/schema";
-import { LessonPlanView } from "./LessonPlanView";
-import { Card, Codes, CurriculumLinksView, Label, List, Section, Shell } from "./ui";
+import type { Activities, Assessment, LessonPlan, ParentNote, Rubric, TieredTask, UnitPlan, Worksheet } from "@/lib/generator/schema";
+import { OUTPUT_UI } from "@/lib/ui/labels";
+import { LessonPlanView, type ViewProps } from "./LessonPlanView";
+import { Codes, CurriculumLinksView, Label, List, Panel, Section, Shell } from "./ui";
 
-type Props<T> = { content: T; meta: string; codeText: Record<string, string> };
-
-function UnitPlanView({ content: u, meta, codeText }: Props<UnitPlan>) {
+function Diff({ d }: { d: { support: string[]; extension: string[]; ealD: string[] } }) {
   return (
-    <Shell title={u.title} meta={meta} overview={u.overview}>
-      <CurriculumLinksView links={u.curriculumLinks} codeText={codeText} />
-      <div className="grid gap-6 md:grid-cols-2">
-        <Section title="Big ideas"><List items={u.bigIdeas} /></Section>
-        <Section title="Success criteria"><List items={u.successCriteria} /></Section>
+    <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+      <Panel><p className="m-0 mb-1.5 font-bold">More support</p><List items={d.support} /></Panel>
+      <Panel><p className="m-0 mb-1.5 font-bold">Extension</p><List items={d.extension} /></Panel>
+      <Panel><p className="m-0 mb-1.5 font-bold">Learning English</p><List items={d.ealD} /></Panel>
+    </div>
+  );
+}
+
+function UnitPlanView({ content: u, ...v }: ViewProps<UnitPlan>) {
+  return (
+    <Shell title={u.title} {...v}>
+      <Section title="Overview" sectionKey="overview" size="sm">
+        <p className="m-0 max-w-[64ch] text-ink-soft">{u.overview}</p>
+        <CurriculumLinksView links={u.curriculumLinks} codeText={v.codeText} />
+      </Section>
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <Section title="Big ideas" sectionKey="bigIdeas" size="sm"><List items={u.bigIdeas} /></Section>
+        <Section title="Success criteria" sectionKey="successCriteria" size="sm"><List items={u.successCriteria} /></Section>
       </div>
-      <Section title="Vocabulary"><p className="text-sm">{u.vocabulary.join(" · ")}</p></Section>
-      <Section title="Lesson sequence">
-        <div className="space-y-3">
+      {u.vocabulary.length > 0 && <p className="m-0 text-[15px]"><strong>Vocabulary:</strong> {u.vocabulary.join(" · ")}</p>}
+      <Section title="Lesson sequence" sectionKey="lessons">
+        <ol className="m-0 flex list-none flex-col p-0">
           {u.lessons.map((l) => (
-            <Card key={l.number}>
-              <h4 className="font-medium">
-                Lesson {l.number}: {l.title}
-                <Codes codes={l.curriculumCodes} />
-              </h4>
-              <p className="mt-1 text-sm italic">{l.learningIntention}</p>
-              <div className="mt-2 grid gap-4 md:grid-cols-2">
-                <div><Label>Key activities</Label><List items={l.keyActivities} /></div>
-                <div><Label>Resources</Label><List items={l.resources} /></div>
+            <li key={l.number} className="grid grid-cols-1 gap-3 border-t border-line py-[18px] sm:grid-cols-[120px_minmax(0,1fr)] sm:gap-5">
+              <p className="m-0 font-bold">Lesson {l.number}</p>
+              <div className="flex flex-col gap-2">
+                <p className="m-0 font-bold">{l.title}<Codes codes={l.curriculumCodes} /></p>
+                <p className="m-0 italic text-ink-soft">{l.learningIntention}</p>
+                <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                  <div><Label>Key activities</Label><List items={l.keyActivities} /></div>
+                  <div><Label tone="wattle">Resources</Label><List items={l.resources} /></div>
+                </div>
               </div>
-            </Card>
+            </li>
           ))}
-        </div>
+        </ol>
       </Section>
-      <Section title="Assessment">
-        <p className="text-sm"><strong>Pre-assessment:</strong> {u.assessment.preAssessment}</p>
-        <Label>Formative</Label>
-        <List items={u.assessment.formative} />
-        <p className="text-sm"><strong>Summative task:</strong> {u.assessment.summativeTask}</p>
-        <List items={u.assessment.summativeCriteria} />
+      <Section title="Assessment" sectionKey="assessment">
+        <p className="m-0"><strong>Before the unit:</strong> {u.assessment.preAssessment}</p>
+        <div><Label>Along the way</Label><List items={u.assessment.formative} /></div>
+        <Panel tone="wattle">
+          <p className="m-0 mb-1 font-display text-xl font-bold">End-of-unit task</p>
+          <p className="m-0 mb-2">{u.assessment.summativeTask}</p>
+          <List items={u.assessment.summativeCriteria} />
+        </Panel>
       </Section>
-      <Section title="Differentiation">
-        <div className="grid gap-4 md:grid-cols-3">
-          <div><Label>Support</Label><List items={u.differentiation.support} /></div>
-          <div><Label>Extension</Label><List items={u.differentiation.extension} /></div>
-          <div><Label>EAL/D</Label><List items={u.differentiation.ealD} /></div>
-        </div>
-      </Section>
-      {u.crossCurriculum.length > 0 && <Section title="Capabilities and cross-curriculum priorities"><List items={u.crossCurriculum} /></Section>}
-      <Section title="Teacher notes"><List items={u.teacherNotes} /></Section>
+      <Section title="Differentiation" sectionKey="differentiation"><Diff d={u.differentiation} /></Section>
+      {u.crossCurriculum.length > 0 && <Section title="Capabilities and priorities" size="sm"><List items={u.crossCurriculum} /></Section>}
+      <Section title="Teacher notes" sectionKey="teacherNotes" size="sm"><List items={u.teacherNotes} /></Section>
     </Shell>
   );
 }
 
-function ActivitiesView({ content: a, meta, codeText }: Props<Activities>) {
+function ActivitiesView({ content: a, ...v }: ViewProps<Activities>) {
   return (
-    <Shell title={a.title} meta={meta} overview={a.overview}>
-      <CurriculumLinksView links={a.curriculumLinks} codeText={codeText} />
-      <Section title="Learning intention"><p className="text-sm">{a.learningIntention}</p></Section>
-      <Section title="Activities">
-        <div className="space-y-3">
+    <Shell title={a.title} {...v}>
+      <div className="flex flex-col gap-3">
+        <p className="m-0 max-w-[64ch] text-ink-soft">{a.overview}</p>
+        <CurriculumLinksView links={a.curriculumLinks} codeText={v.codeText} />
+      </div>
+      <Section title="Learning intention" sectionKey="learningIntention" size="sm"><p className="m-0">{a.learningIntention}</p></Section>
+      <Section title="Activities" sectionKey="activities">
+        <ol className="m-0 flex list-none flex-col gap-3 p-0">
           {a.activities.map((act, i) => (
-            <Card key={i}>
-              <div className="flex items-baseline justify-between">
-                <h4 className="font-medium">{i + 1}. {act.name}</h4>
-                <span className="text-sm text-slate-500">{act.format} · {act.minutes} min</span>
+            <li key={i} className="break-inside-avoid rounded-xl border border-line p-5">
+              <div className="flex flex-wrap items-baseline justify-between gap-2">
+                <h3 className="m-0 text-lg font-bold">{i + 1}. {act.name}</h3>
+                <span className="text-sm text-ink-muted">{act.format} · {act.minutes} min</span>
               </div>
-              <div className="mt-2 grid gap-4 md:grid-cols-3">
-                <div><Label>Materials</Label><List items={act.materials} /></div>
+              <div className="mt-3 grid grid-cols-1 gap-4 md:grid-cols-3">
+                <div><Label tone="wattle">Materials</Label><List items={act.materials} /></div>
                 <div className="md:col-span-2"><Label>Steps</Label><List ordered items={act.steps} /></div>
               </div>
-              <p className="mt-2 text-sm"><strong>Teacher:</strong> {act.teacherRole}</p>
-              <p className="text-sm"><strong>Success looks like:</strong> {act.successLooksLike}</p>
-              <p className="text-sm"><strong>Easier:</strong> {act.support} · <strong>Harder:</strong> {act.extension}</p>
-            </Card>
+              <div className="mt-3 flex flex-col gap-1 text-[15px]">
+                <p className="m-0"><strong>Teacher:</strong> {act.teacherRole}</p>
+                <p className="m-0"><strong>Success looks like:</strong> {act.successLooksLike}</p>
+                <p className="m-0"><strong>Easier:</strong> {act.support} <strong className="ml-2">Harder:</strong> {act.extension}</p>
+              </div>
+            </li>
           ))}
-        </div>
+        </ol>
       </Section>
-      <Section title="Management tips"><List items={a.managementTips} /></Section>
-      <Section title="Teacher notes"><List items={a.teacherNotes} /></Section>
+      <Section title="Classroom management" sectionKey="managementTips" size="sm"><List items={a.managementTips} /></Section>
+      <Section title="Teacher notes" sectionKey="teacherNotes" size="sm"><List items={a.teacherNotes} /></Section>
     </Shell>
   );
 }
 
-function QuestionBlock({ q, showAnswers }: { q: Worksheet["sections"][number]["questions"][number]; showAnswers: boolean }) {
+type WQ = Worksheet["sections"][number]["questions"][number];
+function Question({ q, answers }: { q: WQ; answers: boolean }) {
   return (
-    <li className="space-y-1 text-sm leading-6">
-      <p><strong>{q.number}.</strong> {q.prompt}</p>
-      {q.options.length > 0 && (
-        <ol className="ml-8 list-[lower-alpha]">
-          {q.options.map((o, i) => <li key={i}>{o}</li>)}
-        </ol>
-      )}
-      {!showAnswers && q.answerLines > 0 && (
-        <div className="space-y-5 pt-2">
-          {Array.from({ length: Math.min(q.answerLines, 8) }, (_, i) => <div key={i} className="border-b border-slate-300" />)}
+    <li className="flex break-inside-avoid flex-col gap-1">
+      <p className="m-0"><strong>{q.number}.</strong> {q.prompt}</p>
+      {q.options.length > 0 && <ol className="m-0 ml-8 list-[lower-alpha]">{q.options.map((o, i) => <li key={i}>{o}</li>)}</ol>}
+      {!answers && q.answerLines > 0 && (
+        <div className="flex flex-col gap-6 pt-3" aria-hidden="true">
+          {Array.from({ length: Math.min(q.answerLines, 8) }, (_, i) => <div key={i} className="border-b border-line-strong" />)}
         </div>
       )}
-      {showAnswers && (
-        <p className="text-green-800 dark:text-green-300">
+      {answers && (
+        <p className="m-0 text-euc-dark">
           Answer: {q.answer}
-          {q.markingNotes && <span className="text-slate-500"> ({q.markingNotes})</span>}
+          {q.markingNotes && <span className="text-ink-muted"> ({q.markingNotes})</span>}
         </p>
       )}
     </li>
   );
 }
 
-function WorksheetView({ content: w, meta, codeText }: Props<Worksheet>) {
+function WorksheetView({ content: w, ...v }: ViewProps<Worksheet>) {
   return (
-    <div className="space-y-6">
-      <Shell title={w.title} meta={meta}>
-        <p className="text-sm">{w.studentInstructions}</p>
+    <div className="flex flex-col gap-6">
+      <Shell title={w.title} {...v}>
+        <p className="m-0 text-ink-muted print:block">Name: ____________________ &nbsp; Date: ____________</p>
+        <Section title="Instructions" sectionKey="studentInstructions" size="sm"><p className="m-0">{w.studentInstructions}</p></Section>
         {w.wordBank.length > 0 && (
-          <div className="rounded border border-dashed border-slate-400 p-3 text-sm"><strong>Word bank:</strong> {w.wordBank.join(" · ")}</div>
-        )}
-        {w.sections.map((s, i) => (
-          <Section key={i} title={s.heading}>
-            <p className="text-sm italic">{s.instructions}</p>
-            <ol className="space-y-4">{s.questions.map((q) => <QuestionBlock key={q.number} q={q} showAnswers={false} />)}</ol>
+          <Section title="Word bank" sectionKey="wordBank" size="sm">
+            <p className="m-0 rounded-xl border-[1.5px] border-dashed border-line-strong px-4 py-3">{w.wordBank.join("  ·  ")}</p>
           </Section>
-        ))}
-      </Shell>
-      <div className="break-before-page">
-        <Shell title={`Answer key: ${w.title}`} meta={meta} overview={w.overview}>
-          <CurriculumLinksView links={w.curriculumLinks} codeText={codeText} />
+        )}
+        <Section title="Questions" sectionKey="sections">
           {w.sections.map((s, i) => (
-            <Section key={i} title={s.heading}>
-              <ol className="space-y-3">{s.questions.map((q) => <QuestionBlock key={q.number} q={q} showAnswers />)}</ol>
-            </Section>
+            <div key={i} className="flex flex-col gap-3">
+              <h3 className="m-0 mt-2 text-lg font-bold">{s.heading}</h3>
+              <p className="m-0 italic text-ink-soft">{s.instructions}</p>
+              <ol className="m-0 flex list-none flex-col gap-5 p-0">{s.questions.map((q) => <Question key={q.number} q={q} answers={false} />)}</ol>
+            </div>
           ))}
-          <Section title="Teacher notes"><List items={w.teacherNotes} /></Section>
+        </Section>
+      </Shell>
+      <div className="print:break-before-page">
+        <Shell title={`Answer key: ${w.title}`} {...v}>
+          <p className="m-0 max-w-[64ch] text-ink-soft">{w.overview}</p>
+          <CurriculumLinksView links={w.curriculumLinks} codeText={v.codeText} />
+          {w.sections.map((s, i) => (
+            <div key={i} className="flex flex-col gap-3">
+              <h3 className="m-0 text-lg font-bold">{s.heading}</h3>
+              <ol className="m-0 flex list-none flex-col gap-4 p-0">{s.questions.map((q) => <Question key={q.number} q={q} answers />)}</ol>
+            </div>
+          ))}
+          <Section title="Teacher notes" sectionKey="teacherNotes" size="sm"><List items={w.teacherNotes} /></Section>
         </Shell>
       </div>
     </div>
   );
 }
 
-function TieredTaskView({ content: t, meta, codeText }: Props<TieredTask>) {
+function TieredTaskView({ content: t, ...v }: ViewProps<TieredTask>) {
   return (
-    <Shell title={t.title} meta={meta} overview={t.overview}>
-      <CurriculumLinksView links={t.curriculumLinks} codeText={codeText} />
-      <Section title="Learning intention"><p className="text-sm">{t.learningIntention}</p></Section>
-      <Section title="Common task"><p className="text-sm">{t.commonTask}</p></Section>
-      <div className="grid gap-4 lg:grid-cols-3">
-        {t.tiers.map((tier) => (
-          <Card key={tier.tier}>
-            <h4 className="font-semibold">{tier.tier}</h4>
-            <p className="text-xs text-slate-500">{tier.whoItIsFor}</p>
-            <Label>Instructions</Label>
-            <List ordered items={tier.studentInstructions} />
-            <Label>Scaffolds</Label>
-            <List items={tier.scaffolds} />
-            <Label>Questions</Label>
-            <ol className="ml-5 list-decimal space-y-1 text-sm">
-              {tier.questions.map((q, i) => (
-                <li key={i}>{q.prompt}<div className="text-green-800 dark:text-green-300">{q.answer}</div></li>
-              ))}
-            </ol>
-            <Label>Success criteria</Label>
-            <List items={tier.successCriteria} />
-          </Card>
-        ))}
+    <Shell title={t.title} {...v}>
+      <div className="flex flex-col gap-3">
+        <p className="m-0 max-w-[64ch] text-ink-soft">{t.overview}</p>
+        <CurriculumLinksView links={t.curriculumLinks} codeText={v.codeText} />
       </div>
-      <Section title="EAL/D adjustments"><List items={t.ealDAdjustments} /></Section>
-      <Section title="Teacher notes"><List items={t.teacherNotes} /></Section>
-    </Shell>
-  );
-}
-
-function RubricView({ content: r, meta, codeText }: Props<Rubric>) {
-  return (
-    <Shell title={r.title} meta={meta} overview={r.overview}>
-      <CurriculumLinksView links={r.curriculumLinks} codeText={codeText} />
-      <Section title="Task"><p className="text-sm">{r.task}</p></Section>
-      <div className="overflow-x-auto">
-        <table className="w-full border-collapse text-sm">
-          <thead>
-            <tr>
-              <th className="border p-2 text-left">Criterion</th>
-              {r.levelLabels.map((l) => <th key={l} className="border p-2 text-left">{l}</th>)}
-            </tr>
-          </thead>
-          <tbody>
-            {r.criteria.map((c, i) => (
-              <tr key={i} className="align-top">
-                <td className="border p-2 font-medium">{c.criterion}<Codes codes={c.curriculumCodes} /></td>
-                {r.levelLabels.map((_, j) => <td key={j} className="border p-2">{c.descriptors[j] ?? ""}</td>)}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <Section title="Student checklist"><List items={r.studentChecklist} /></Section>
-      <Section title="Moderation notes"><List items={r.moderationNotes} /></Section>
-    </Shell>
-  );
-}
-
-function AssessmentView({ content: a, meta, codeText }: Props<Assessment>) {
-  return (
-    <Shell title={a.title} meta={meta} overview={a.overview}>
-      <CurriculumLinksView links={a.curriculumLinks} codeText={codeText} />
-      <p className="text-sm">{a.studentInstructions}</p>
-      <ol className="space-y-4">
-        {a.questions.map((q) => (
-          <li key={q.number} className="text-sm leading-6">
-            <p>
-              <strong>{q.number}.</strong> {q.prompt} <span className="text-slate-500">({q.marks} mark{q.marks === 1 ? "" : "s"})</span>
-              <Codes codes={q.curriculumCodes} />
-            </p>
-            {q.options.length > 0 && <ol className="ml-8 list-[lower-alpha]">{q.options.map((o, i) => <li key={i}>{o}</li>)}</ol>}
-            <p className="text-green-800 dark:text-green-300">Answer: {q.answer}</p>
-          </li>
-        ))}
-      </ol>
-      <p className="text-sm font-medium">Total: {a.totalMarks} marks</p>
-      <Section title="Marking guide"><List items={a.markingGuide} /></Section>
-      <Section title="Next steps"><List items={a.nextSteps} /></Section>
-    </Shell>
-  );
-}
-
-function ParentNoteView({ content: p, meta, codeText }: Props<ParentNote>) {
-  return (
-    <Shell title={p.title} meta={meta}>
-      <div className="space-y-3 text-sm leading-6">{p.newsletterText.split(/\n+/).map((para, i) => <p key={i}>{para}</p>)}</div>
-      <Section title="Words we are learning"><p className="text-sm">{p.keyVocabulary.join(" · ")}</p></Section>
-      <Section title="Try at home">
-        <ul className="space-y-2 text-sm">
-          {p.homeActivities.map((h, i) => (
-            <li key={i}><strong>{h.name}:</strong> {h.description} <span className="text-slate-500">({h.materials})</span></li>
+      <p className="m-0"><strong>Learning intention:</strong> {t.learningIntention}</p>
+      <Section title="The shared task" sectionKey="commonTask" size="sm"><p className="m-0">{t.commonTask}</p></Section>
+      <Section title="Three levels" sectionKey="tiers">
+        <div className="grid grid-cols-1 gap-3 lg:grid-cols-3">
+          {t.tiers.map((tier) => (
+            <div key={tier.tier} className="flex break-inside-avoid flex-col gap-2 rounded-xl border border-line p-4">
+              <p className="m-0 font-display text-xl font-bold">{tier.tier === "Support" ? "More support" : tier.tier}</p>
+              <p className="m-0 text-sm text-ink-muted">{tier.whoItIsFor}</p>
+              <div><Label>Instructions</Label><List ordered items={tier.studentInstructions} /></div>
+              <div><Label tone="wattle">Scaffolds</Label><List items={tier.scaffolds} /></div>
+              <div>
+                <Label>Questions</Label>
+                <ol className="m-0 flex list-decimal flex-col gap-1.5 pl-5">
+                  {tier.questions.map((q, i) => <li key={i}>{q.prompt}<div className="text-euc-dark">{q.answer}</div></li>)}
+                </ol>
+              </div>
+              <div><Label tone="muted">Success criteria</Label><List items={tier.successCriteria} /></div>
+            </div>
           ))}
+        </div>
+      </Section>
+      <Section title="Learning English" sectionKey="ealDAdjustments" size="sm"><List items={t.ealDAdjustments} /></Section>
+      <Section title="Teacher notes" sectionKey="teacherNotes" size="sm"><List items={t.teacherNotes} /></Section>
+    </Shell>
+  );
+}
+
+function RubricView({ content: r, ...v }: ViewProps<Rubric>) {
+  return (
+    <Shell title={r.title} {...v}>
+      <div className="flex flex-col gap-3">
+        <p className="m-0 max-w-[64ch] text-ink-soft">{r.overview}</p>
+        <CurriculumLinksView links={r.curriculumLinks} codeText={v.codeText} />
+      </div>
+      <Section title="The task" sectionKey="task" size="sm"><p className="m-0">{r.task}</p></Section>
+      <Section title="Rubric" sectionKey="criteria">
+        <div className="overflow-x-auto rounded-xl border border-line">
+          <table className="w-full min-w-[640px] border-collapse text-[15px]">
+            <thead>
+              <tr className="bg-mist text-left">
+                <th scope="col" className="p-3">Criterion</th>
+                {r.levelLabels.map((l) => <th key={l} scope="col" className="p-3">{l}</th>)}
+              </tr>
+            </thead>
+            <tbody>
+              {r.criteria.map((c, i) => (
+                <tr key={i} className="border-t border-line align-top">
+                  <th scope="row" className="p-3 text-left">{c.criterion}<Codes codes={c.curriculumCodes} /></th>
+                  {r.levelLabels.map((_, j) => <td key={j} className="p-3">{c.descriptors[j] ?? ""}</td>)}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </Section>
+      <Section title="Student checklist" sectionKey="studentChecklist" size="sm">
+        <ul className="m-0 flex list-none flex-col gap-1 p-0">{r.studentChecklist.map((s, i) => <li key={i}>☐ {s}</li>)}</ul>
+      </Section>
+      <Section title="Moderation notes" sectionKey="moderationNotes" size="sm"><List items={r.moderationNotes} /></Section>
+    </Shell>
+  );
+}
+
+function AssessmentView({ content: a, ...v }: ViewProps<Assessment>) {
+  return (
+    <Shell title={a.title} {...v}>
+      <div className="flex flex-col gap-3">
+        <p className="m-0 max-w-[64ch] text-ink-soft">{a.overview}</p>
+        <CurriculumLinksView links={a.curriculumLinks} codeText={v.codeText} />
+      </div>
+      <Section title="Instructions" sectionKey="studentInstructions" size="sm"><p className="m-0">{a.studentInstructions}</p></Section>
+      <Section title="Questions" sectionKey="questions">
+        <ol className="m-0 flex list-none flex-col gap-4 p-0">
+          {a.questions.map((q) => (
+            <li key={q.number} className="break-inside-avoid">
+              <p className="m-0">
+                <strong>{q.number}.</strong> {q.prompt} <span className="text-ink-muted">({q.marks} mark{q.marks === 1 ? "" : "s"})</span>
+                <Codes codes={q.curriculumCodes} />
+              </p>
+              {q.options.length > 0 && <ol className="m-0 ml-8 list-[lower-alpha]">{q.options.map((o, i) => <li key={i}>{o}</li>)}</ol>}
+              <p className="m-0 text-euc-dark">Answer: {q.answer}</p>
+            </li>
+          ))}
+        </ol>
+        <p className="m-0 font-bold">Total: {a.totalMarks} marks</p>
+      </Section>
+      <Section title="Marking guide" sectionKey="markingGuide" size="sm"><List items={a.markingGuide} /></Section>
+      <Section title="Next steps" sectionKey="nextSteps" size="sm"><List items={a.nextSteps} /></Section>
+    </Shell>
+  );
+}
+
+function ParentNoteView({ content: p, ...v }: ViewProps<ParentNote>) {
+  return (
+    <Shell title={p.title} {...v}>
+      <Section title="Note" sectionKey="newsletterText" size="sm">
+        <div className="flex max-w-[64ch] flex-col gap-3">{p.newsletterText.split(/\n+/).map((para, i) => <p key={i} className="m-0">{para}</p>)}</div>
+      </Section>
+      <Section title="Words we are learning" sectionKey="keyVocabulary" size="sm"><p className="m-0">{p.keyVocabulary.join(" · ")}</p></Section>
+      <Section title="Try at home" sectionKey="homeActivities" size="sm">
+        <ul className="m-0 flex list-none flex-col gap-2 p-0">
+          {p.homeActivities.map((h, i) => <li key={i}><strong>{h.name}:</strong> {h.description} <span className="text-ink-muted">({h.materials})</span></li>)}
         </ul>
       </Section>
-      <Section title="Conversation starters"><List items={p.conversationStarters} /></Section>
-      <div className="print:hidden"><CurriculumLinksView links={p.curriculumLinks} codeText={codeText} /></div>
+      <Section title="Conversation starters" sectionKey="conversationStarters" size="sm"><List items={p.conversationStarters} /></Section>
+      <div className="print:hidden"><CurriculumLinksView links={p.curriculumLinks} codeText={v.codeText} /></div>
     </Shell>
   );
 }
 
 export function OutputView({ outputType, content, meta, codeText = {} }: { outputType: OutputType; content: Record<string, unknown>; meta: string; codeText?: Record<string, string> }) {
+  const v = { meta, codeText, typeLabel: OUTPUT_UI[outputType].label, typePill: OUTPUT_UI[outputType].pill };
   switch (outputType) {
     case "lesson_plan":
-      return <LessonPlanView plan={content as LessonPlan} meta={meta} codeText={codeText} />;
+      return <LessonPlanView content={content as LessonPlan} {...v} />;
     case "unit_plan":
-      return <UnitPlanView content={content as UnitPlan} meta={meta} codeText={codeText} />;
+      return <UnitPlanView content={content as UnitPlan} {...v} />;
     case "activities":
-      return <ActivitiesView content={content as Activities} meta={meta} codeText={codeText} />;
+      return <ActivitiesView content={content as Activities} {...v} />;
     case "worksheet":
-      return <WorksheetView content={content as Worksheet} meta={meta} codeText={codeText} />;
+      return <WorksheetView content={content as Worksheet} {...v} />;
     case "differentiation":
-      return <TieredTaskView content={content as TieredTask} meta={meta} codeText={codeText} />;
+      return <TieredTaskView content={content as TieredTask} {...v} />;
     case "rubric":
-      return <RubricView content={content as Rubric} meta={meta} codeText={codeText} />;
+      return <RubricView content={content as Rubric} {...v} />;
     case "assessment":
-      return <AssessmentView content={content as Assessment} meta={meta} codeText={codeText} />;
+      return <AssessmentView content={content as Assessment} {...v} />;
     case "parent_note":
-      return <ParentNoteView content={content as ParentNote} meta={meta} codeText={codeText} />;
+      return <ParentNoteView content={content as ParentNote} {...v} />;
   }
 }

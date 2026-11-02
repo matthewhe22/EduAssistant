@@ -9,7 +9,7 @@ export function BudgetForm({ budgetUsd }: { budgetUsd: number | null }) {
   const [msg, setMsg] = useState("");
   return (
     <form
-      className="flex flex-wrap items-center gap-2 text-sm"
+      className="flex flex-wrap items-center gap-3"
       onSubmit={async (e) => {
         e.preventDefault();
         const monthlyBudgetUsd = value.trim() === "" ? null : Number(value);
@@ -19,7 +19,7 @@ export function BudgetForm({ budgetUsd }: { budgetUsd: number | null }) {
         if (res.ok) router.refresh();
       }}
     >
-      <label>
+      <label className="font-bold">
         Monthly budget (US$){" "}
         <input
           type="number"
@@ -28,11 +28,11 @@ export function BudgetForm({ budgetUsd }: { budgetUsd: number | null }) {
           value={value}
           onChange={(e) => setValue(e.target.value)}
           placeholder="No limit"
-          className="w-28 rounded border px-2 py-1 dark:bg-slate-900"
+          className="field ml-2 inline-block w-32"
         />
       </label>
-      <button className="rounded border px-3 py-1">Save</button>
-      <span className="text-xs text-slate-500" role="status">{msg}</span>
+      <button className="btn-outline">Save</button>
+      <span className="text-sm text-ink-muted" role="status">{msg}</span>
     </form>
   );
 }

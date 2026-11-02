@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Icon, ICONS } from "./Icon";
 
 export interface Feedback {
   rating: 1 | -1 | null;
@@ -10,6 +11,7 @@ export interface Feedback {
 export function FeedbackBar({ generationId, initial }: { generationId: string; initial?: Feedback }) {
   const [rating, setRating] = useState<Feedback["rating"]>(initial?.rating ?? null);
   const [comment, setComment] = useState(initial?.comment ?? "");
+  const [askComment, setAskComment] = useState(false);
   const [state, setState] = useState<"idle" | "saving" | "saved" | "error">("idle");
 
   async function save(nextRating: Feedback["rating"], nextComment = comment) {
@@ -22,49 +24,56 @@ export function FeedbackBar({ generationId, initial }: { generationId: string; i
     setState(res?.ok ? "saved" : "error");
   }
 
-  const btn = (value: 1 | -1, label: string, emoji: string) => (
-    <button
-      type="button"
-      aria-pressed={rating === value}
-      aria-label={label}
-      onClick={() => {
-        const next = rating === value ? null : value;
-        setRating(next);
-        save(next);
-      }}
-      className={`rounded border px-3 py-1 text-sm ${rating === value ? "border-slate-900 bg-slate-100 dark:border-white dark:bg-slate-800" : ""}`}
-    >
-      {emoji}
-    </button>
-  );
+  const btn = (value: 1 | -1, label: string, d: string) => {
+    const on = rating === value;
+    return (
+      <button
+        type="button"
+        aria-pressed={on}
+        aria-label={label}
+        onClick={() => {
+          const next = on ? null : value;
+          setRating(next);
+          setAskComment(next !== null);
+          save(next);
+        }}
+        className={`inline-flex h-11 w-11 items-center justify-center rounded-[10px] ${on ? "border-2 border-euc bg-euc-tint text-euc" : "border border-line-strong bg-white text-ink-soft hover:bg-mist"}`}
+      >
+        <Icon d={d} size={20} />
+      </button>
+    );
+  };
 
   return (
-    <div className="flex flex-wrap items-center gap-2 text-sm print:hidden">
-      <span className="text-slate-600 dark:text-slate-300">Was this useful?</span>
-      {btn(1, "Useful", "👍")}
-      {btn(-1, "Not useful", "👎")}
-      {rating !== null && (
+    <div className="flex flex-col gap-2">
+      <span className="inline-flex items-center gap-1 text-sm text-ink-soft">
+        Useful?
+        {btn(1, "Mark as useful", ICONS.up)}
+        {btn(-1, "Mark as not useful", ICONS.down)}
+        <span className="ml-1 text-xs text-ink-muted" role="status">
+          {state === "saving" ? "Saving…" : state === "saved" ? "Thanks" : state === "error" ? "Couldn't save" : ""}
+        </span>
+      </span>
+      {askComment && rating !== null && (
         <form
-          className="flex flex-1 gap-2"
+          className="flex flex-wrap gap-2"
           onSubmit={(e) => {
             e.preventDefault();
             save(rating);
+            setAskComment(false);
           }}
         >
           <input
-            className="flex-1 rounded border px-2 py-1 text-sm dark:bg-slate-900"
+            className="field min-h-[40px] flex-1 text-[15px]"
             maxLength={2000}
             value={comment}
             onChange={(e) => setComment(e.target.value)}
             placeholder={rating === 1 ? "What worked well? (optional)" : "What should be better? (optional)"}
             aria-label="Feedback comment"
           />
-          <button className="rounded border px-3 py-1 text-sm">Save</button>
+          <button className="btn-outline min-h-[40px] text-sm">Send</button>
         </form>
       )}
-      <span className="text-xs text-slate-500" role="status">
-        {state === "saving" ? "Saving…" : state === "saved" ? "Thanks, saved." : state === "error" ? "Couldn't save feedback." : ""}
-      </span>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { notFound, redirect } from "next/navigation";
 import { DeleteButton } from "@/components/DeleteButton";
+import { Page } from "@/components/Page";
 import { ResultPanel } from "@/components/ResultPanel";
 import { getSubject } from "@/lib/curriculum";
 import type { PrimaryLevel } from "@/lib/curriculum/types";
@@ -19,7 +20,7 @@ export default async function PlanDetailPage({ params }: { params: { id: string 
 
   // Phase 1 rows stored { plan }, later rows store { output }.
   const parsed = OUTPUTS[row.output_type].schema.safeParse(row.content?.output ?? row.content?.plan);
-  if (!parsed.success) return <p>This item could not be displayed.</p>;
+  if (!parsed.success) return <Page><p>This item could not be displayed.</p></Page>;
   const warnings: string[] = Array.isArray(row.content?.warnings) ? row.content.warnings : [];
   const subject = await getSubject(row.subject_slug);
   const codeText: Record<string, string> = {};
@@ -27,35 +28,38 @@ export default async function PlanDetailPage({ params }: { params: { id: string 
   const difficulty = (DIFFICULTIES as readonly string[]).includes(row.difficulty) ? (row.difficulty as (typeof DIFFICULTIES)[number]) : "at";
 
   return (
-    <div className="space-y-4">
-      <div className="flex flex-wrap items-center gap-4 text-sm print:hidden">
-        <a href="/plans" className="underline">← My library</a>
-        <a href={`/plan?from=${row.id}`} className="underline">Use these settings again</a>
-        <DeleteButton url={`/api/generations/${row.id}`} label="Delete" confirmText={`Delete "${row.title}"? This can't be undone.`} redirectTo="/plans" />
+    <Page>
+      <div className="flex flex-col gap-4">
+        <ResultPanel
+          initial={{
+            outputType: row.output_type,
+            content: parsed.data,
+            warnings,
+            generationId: row.id,
+            feedback: { rating: row.rating === 1 || row.rating === -1 ? (row.rating as 1 | -1) : null, comment: row.feedback_comment ?? "" },
+          }}
+          context={{
+            subjectSlug: row.subject_slug,
+            subjectName: subject?.subject ?? row.subject_slug,
+            level: row.level as PrimaryLevel,
+            lessonMinutes: Number(row.teacher_input?.lessonMinutes ?? 60),
+            difficulty,
+          }}
+          codeText={codeText}
+          extraMeta={new Date(row.created_at).toLocaleDateString("en-AU")}
+          backHref="/plans"
+        />
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-[15px] print:hidden">
+          <a href={`/plan?from=${row.id}`} className="font-bold">Make another with these settings</a>
+          <details className="text-ink-soft">
+            <summary className="cursor-pointer">Your original request</summary>
+            <p className="mt-2 whitespace-pre-wrap">{String(row.teacher_input?.idea ?? "")}</p>
+            {Boolean(row.teacher_input?.attachmentName) && <p className="mt-1">Uploaded file: {String(row.teacher_input?.attachmentName)}</p>}
+          </details>
+          <span className="flex-auto" />
+          <DeleteButton url={`/api/generations/${row.id}`} label="Delete" confirmText={`Delete "${row.title}"? This can't be undone.`} redirectTo="/plans" />
+        </div>
       </div>
-      <details className="text-sm text-slate-600 print:hidden dark:text-slate-300">
-        <summary className="cursor-pointer">Your original request</summary>
-        <p className="mt-2 whitespace-pre-wrap">{String(row.teacher_input?.idea ?? "")}</p>
-        {Boolean(row.teacher_input?.attachmentName) && <p className="mt-1">Uploaded file: {String(row.teacher_input?.attachmentName)}</p>}
-      </details>
-      <ResultPanel
-        initial={{
-          outputType: row.output_type,
-          content: parsed.data,
-          warnings,
-          generationId: row.id,
-          feedback: { rating: row.rating === 1 || row.rating === -1 ? (row.rating as 1 | -1) : null, comment: row.feedback_comment ?? "" },
-        }}
-        context={{
-          subjectSlug: row.subject_slug,
-          subjectName: subject?.subject ?? row.subject_slug,
-          level: row.level as PrimaryLevel,
-          lessonMinutes: Number(row.teacher_input?.lessonMinutes ?? 60),
-          difficulty,
-        }}
-        codeText={codeText}
-        extraMeta={new Date(row.created_at).toLocaleDateString("en-AU")}
-      />
-    </div>
+    </Page>
   );
 }

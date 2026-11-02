@@ -10,7 +10,7 @@ export function DeleteButton({ url, label, confirmText, redirectTo }: { url: str
     <button
       type="button"
       disabled={busy}
-      className="text-xs text-red-700 underline disabled:opacity-50 dark:text-red-300"
+      className="min-h-[40px] rounded-lg px-2 text-[15px] font-bold text-alert underline underline-offset-[3px] hover:bg-alert-tint disabled:opacity-50"
       onClick={async () => {
         if (!window.confirm(confirmText)) return;
         setBusy(true);

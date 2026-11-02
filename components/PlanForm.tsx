@@ -2,30 +2,26 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { postForResult } from "@/lib/client/ndjson";
-import { LEVEL_LABELS, PRIMARY_LEVELS, type PrimaryLevel } from "@/lib/curriculum/types";
+import { PRIMARY_LEVELS, type PrimaryLevel } from "@/lib/curriculum/types";
 import { OUTPUT_TYPES, OUTPUTS, type OutputType } from "@/lib/generator/outputs";
-import {
-  ATTACHMENT_TYPES,
-  DIFFICULTIES,
-  DIFFICULTY_LABELS,
-  LESSON_LENGTHS,
-  MAX_ATTACHMENT_BYTES,
-  type Attachment,
-} from "@/lib/generator/schema";
+import { ATTACHMENT_TYPES, DIFFICULTIES, LESSON_LENGTHS, MAX_ATTACHMENT_BYTES, type Attachment } from "@/lib/generator/schema";
 import type { FormSettings } from "@/lib/library/settings";
+import { DIFFICULTY_UI, OUTPUT_UI, YEAR_LABELS, YEAR_SHORT } from "@/lib/ui/labels";
+import { Icon, ICONS } from "./Icon";
+import { Notice } from "./Page";
 import { ResultPanel, type ResultContext, type ResultState } from "./ResultPanel";
-
-export interface TemplateOption {
-  id: string;
-  name: string;
-  settings: FormSettings;
-}
 
 export interface SubjectOption {
   slug: string;
   subject: string;
   learningArea: string;
   levels: PrimaryLevel[];
+}
+
+export interface TemplateOption {
+  id: string;
+  name: string;
+  settings: FormSettings;
 }
 
 interface CdOption {
@@ -35,7 +31,6 @@ interface CdOption {
   text: string;
 }
 
-const input = "w-full rounded border px-3 py-2 text-sm dark:bg-slate-900";
 const EXTENSION_TYPES: Record<string, keyof typeof ATTACHMENT_TYPES> = {
   pdf: "application/pdf",
   docx: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -46,12 +41,25 @@ const EXTENSION_TYPES: Record<string, keyof typeof ATTACHMENT_TYPES> = {
 async function readAttachment(file: File): Promise<Attachment> {
   const ext = file.name.split(".").pop()?.toLowerCase() ?? "";
   const mediaType = EXTENSION_TYPES[ext];
-  if (!mediaType) throw new Error("Upload a PDF, Word (.docx), or text file.");
+  if (!mediaType) throw new Error("Upload a PDF, Word (.docx) or text file.");
   if (file.size > MAX_ATTACHMENT_BYTES) throw new Error("That file is larger than 5 MB.");
   const bytes = new Uint8Array(await file.arrayBuffer());
   let binary = "";
   for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
   return { name: file.name, mediaType, data: btoa(binary) };
+}
+
+function Step({ n, title, note, children }: { n: number; title: string; note?: string; children: React.ReactNode }) {
+  return (
+    <section className="card p-6" aria-labelledby={`step-${n}`}>
+      <h2 id={`step-${n}`} className="mb-[18px] flex items-center gap-2.5 text-xl font-bold">
+        <span className="flex h-7 w-7 items-center justify-center rounded-full bg-ink font-sans text-sm text-white">{n}</span>
+        {title}
+        {note && <span className="font-sans text-[15px] font-normal text-ink-muted">{note}</span>}
+      </h2>
+      {children}
+    </section>
+  );
 }
 
 export function PlanForm({
@@ -84,33 +92,35 @@ export function PlanForm({
   const pendingFocus = useRef<string[] | null>(initial.focusCodes ?? null);
   const [file, setFile] = useState<File | null>(null);
   const [cds, setCds] = useState<CdOption[]>([]);
-  const [band, setBand] = useState<string | null>(null);
   const [focusCodes, setFocusCodes] = useState<string[]>([]);
   const [status, setStatus] = useState<"idle" | "generating" | "done" | "error">("idle");
   const [progress, setProgress] = useState(0);
   const [error, setError] = useState("");
   const [result, setResult] = useState<{ state: ResultState; context: ResultContext; codeText: Record<string, string> } | null>(null);
   const abortRef = useRef<AbortController | null>(null);
-  const itemCount = def.itemCount ? itemCounts[outputType] ?? def.itemCount.default : undefined;
+  const resultRef = useRef<HTMLDivElement | null>(null);
+  const itemOpt = def.itemCount;
+  const itemCount = itemOpt ? itemCounts[outputType] ?? itemOpt.default : undefined;
+  const subjectName = subjects.find((s) => s.slug === subjectSlug)?.subject ?? subjectSlug;
 
   useEffect(() => {
     if (!available.some((s) => s.slug === subjectSlug) && available[0]) setSubjectSlug(available[0].slug);
   }, [available, subjectSlug]);
 
   useEffect(() => {
-    // Keep focus codes that came from a template or earlier item once, then reset on changes.
     setFocusCodes(pendingFocus.current ?? []);
     pendingFocus.current = null;
     const ctrl = new AbortController();
     fetch(`/api/curriculum?subject=${subjectSlug}&level=${level}`, { signal: ctrl.signal })
       .then((r) => r.json())
-      .then((d) => {
-        setCds(d.contentDescriptions ?? []);
-        setBand(d.band ?? null);
-      })
+      .then((d) => setCds(d.contentDescriptions ?? []))
       .catch(() => {});
     return () => ctrl.abort();
   }, [subjectSlug, level]);
+
+  useEffect(() => {
+    if (status === "done") resultRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [status]);
 
   const byArea = useMemo(() => {
     const groups: Record<string, SubjectOption[]> = {};
@@ -133,7 +143,7 @@ export function PlanForm({
   }
 
   async function saveTemplate() {
-    const name = window.prompt("Name this template (e.g. \"Year 3 maths, 50 min, mixed\")");
+    const name = window.prompt('Name this template (e.g. "Year 3 maths, 50 min")');
     if (!name?.trim()) return;
     const settings: FormSettings = { outputType, level, subjectSlug, difficulty, lessonMinutes, itemCount, classContext, focusCodes };
     if (idea.trim() && window.confirm("Also save the idea text in this template?")) settings.idea = idea;
@@ -149,6 +159,11 @@ export function PlanForm({
 
   async function generate(e: React.FormEvent) {
     e.preventDefault();
+    if (idea.trim().length < 5 && !file) {
+      setError("Describe your idea in a few words, or upload a plan you already have.");
+      setStatus("error");
+      return;
+    }
     setStatus("generating");
     setProgress(0);
     setError("");
@@ -163,7 +178,6 @@ export function PlanForm({
         setProgress,
         ctrl.signal,
       );
-      const subjectName = subjects.find((s) => s.slug === subjectSlug)?.subject ?? subjectSlug;
       setResult({
         state: event,
         context: { subjectSlug, subjectName, level, lessonMinutes, difficulty },
@@ -180,201 +194,259 @@ export function PlanForm({
     }
   }
 
+  const segBtn = (active: boolean) =>
+    `min-h-[48px] min-w-[48px] rounded-[10px] px-3 font-bold ${active ? "border-2 border-euc bg-euc text-white" : "border border-line-strong bg-white text-ink hover:bg-mist"}`;
+
   return (
-    <div className="space-y-8">
-      <form onSubmit={generate} className="space-y-5 rounded-lg border border-slate-200 p-6 print:hidden dark:border-slate-800">
-        {canSave && (
-          <div className="flex flex-wrap items-center gap-2 text-sm">
-            <select
-              className="rounded border px-2 py-1 dark:bg-slate-900"
-              value=""
-              aria-label="Start from a template"
-              onChange={(e) => {
-                const t = templates.find((x) => x.id === e.target.value);
-                if (t) {
-                  applySettings(t.settings);
-                  setTemplateMsg(`Loaded template "${t.name}".`);
-                }
-              }}
-            >
-              <option value="">{templates.length ? "Start from a template…" : "No templates yet"}</option>
-              {templates.map((t) => (
-                <option key={t.id} value={t.id}>{t.name}</option>
-              ))}
-            </select>
-            <button type="button" onClick={saveTemplate} className="rounded border px-3 py-1">
-              Save settings as template
-            </button>
-            <a href="/templates" className="text-xs underline">Manage</a>
-            {templateMsg && <span className="text-xs text-slate-500" role="status">{templateMsg}</span>}
-          </div>
-        )}
-        <fieldset>
-          <legend className="mb-2 text-sm font-medium">What do you need?</legend>
-          <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
-            {OUTPUT_TYPES.map((t) => (
-              <label
-                key={t}
-                className={`cursor-pointer rounded border p-3 text-sm ${t === outputType ? "border-slate-900 bg-slate-50 dark:border-white dark:bg-slate-900" : "border-slate-200 dark:border-slate-800"}`}
-              >
-                <input type="radio" name="outputType" value={t} checked={t === outputType} onChange={() => setOutputType(t)} className="sr-only" />
-                <span className="block font-medium">{OUTPUTS[t].label}</span>
-                <span className="block text-xs text-slate-500">{OUTPUTS[t].description}</span>
-              </label>
-            ))}
-          </div>
-        </fieldset>
-
-        <div className="grid gap-4 md:grid-cols-4">
-          <label className="block text-sm">
-            Year level
-            <select className={input} value={level} onChange={(e) => setLevel(e.target.value as PrimaryLevel)}>
-              {PRIMARY_LEVELS.map((l) => (
-                <option key={l} value={l}>{LEVEL_LABELS[l]}</option>
-              ))}
-            </select>
-          </label>
-          <label className="block text-sm md:col-span-2">
-            Subject
-            <select className={input} value={subjectSlug} onChange={(e) => setSubjectSlug(e.target.value)}>
-              {Object.entries(byArea).map(([area, list]) => (
-                <optgroup key={area} label={area}>
-                  {list.map((s) => (
-                    <option key={s.slug} value={s.slug}>{s.subject}</option>
-                  ))}
-                </optgroup>
-              ))}
-            </select>
-          </label>
-          {def.usesLessonLength ? (
-            <label className="block text-sm">
-              Lesson length
-              <select className={input} value={lessonMinutes} onChange={(e) => setLessonMinutes(Number(e.target.value))}>
-                {LESSON_LENGTHS.map((m) => (
-                  <option key={m} value={m}>{m} minutes</option>
+    <div className="space-y-10">
+      <form onSubmit={generate} className="flex flex-wrap items-start gap-7 print:hidden">
+        <div className="flex min-w-0 flex-[999_1_640px] flex-col gap-5">
+          <Step n={1} title="Your class">
+            <fieldset className="mb-[18px]">
+              <legend className="mb-2 text-[15px] font-bold">Year level</legend>
+              <div className="flex flex-wrap gap-2">
+                {PRIMARY_LEVELS.map((l) => (
+                  <button key={l} type="button" aria-pressed={l === level} aria-label={YEAR_LABELS[l]} onClick={() => setLevel(l)} className={segBtn(l === level)}>
+                    {YEAR_SHORT[l]}
+                  </button>
                 ))}
-              </select>
-            </label>
-          ) : (
-            <div />
-          )}
-        </div>
+              </div>
+            </fieldset>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <label className="label">
+                Subject
+                <select className="field font-normal" value={subjectSlug} onChange={(e) => setSubjectSlug(e.target.value)}>
+                  {Object.entries(byArea).map(([area, list]) => (
+                    <optgroup key={area} label={area}>
+                      {list.map((s) => (
+                        <option key={s.slug} value={s.slug}>{s.subject}</option>
+                      ))}
+                    </optgroup>
+                  ))}
+                </select>
+              </label>
+              {def.usesLessonLength && (
+                <label className="label">
+                  Lesson length
+                  <select className="field font-normal" value={lessonMinutes} onChange={(e) => setLessonMinutes(Number(e.target.value))}>
+                    {LESSON_LENGTHS.map((m) => (
+                      <option key={m} value={m}>{m} minutes</option>
+                    ))}
+                  </select>
+                </label>
+              )}
+            </div>
+          </Step>
 
-        <label className="block text-sm">
-          Your idea or rough plan
-          <textarea
-            className={`${input} h-28`}
-            maxLength={4000}
-            value={idea}
-            onChange={(e) => setIdea(e.target.value)}
-            placeholder="e.g. Equivalent fractions using paper strips and pizza, then a partner game. Students mixed up halves and quarters last week."
-          />
-        </label>
+          <Step n={2} title="What do you need?">
+            <div className="grid grid-cols-2 gap-2.5 md:grid-cols-4">
+              {OUTPUT_TYPES.map((t) => {
+                const ui = OUTPUT_UI[t];
+                const sel = t === outputType;
+                return (
+                  <button
+                    key={t}
+                    type="button"
+                    aria-pressed={sel}
+                    onClick={() => setOutputType(t)}
+                    className={`flex min-h-[116px] flex-col gap-1.5 rounded-xl p-3.5 text-left ${sel ? "border-2 border-euc bg-euc-tint" : "border border-line bg-white hover:border-line-strong hover:bg-mist"}`}
+                  >
+                    <span className="flex items-center justify-between text-euc">
+                      <Icon d={ui.icon} size={22} strokeWidth={1.8} />
+                      {sel && <Icon d={ICONS.check} size={18} strokeWidth={2.6} />}
+                    </span>
+                    <span className="text-[15px] font-bold leading-tight">{ui.label}</span>
+                    <span className="text-[13px] leading-snug text-ink-muted">{ui.hint}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </Step>
 
-        <label className="block text-sm">
-          Or upload an existing plan (PDF, Word or text, up to 5 MB)
-          <input
-            type="file"
-            accept=".pdf,.docx,.txt,.md"
-            className="mt-1 block w-full text-sm"
-            onChange={(e) => setFile(e.target.files?.[0] ?? null)}
-          />
-        </label>
-
-        <div className="grid gap-4 md:grid-cols-3">
-          <label className="block text-sm">
-            Difficulty
-            <select className={input} value={difficulty} onChange={(e) => setDifficulty(e.target.value as typeof difficulty)}>
-              {DIFFICULTIES.map((d) => (
-                <option key={d} value={d}>{DIFFICULTY_LABELS[d]}</option>
-              ))}
-            </select>
-          </label>
-          {def.itemCount ? (
-            <label className="block text-sm">
-              {def.itemCount.label}
-              <input
-                type="number"
-                className={input}
-                min={def.itemCount.min}
-                max={def.itemCount.max}
-                value={itemCount}
-                onChange={(e) => setItemCounts((prev) => ({ ...prev, [outputType]: Number(e.target.value) }))}
+          <Step n={3} title="Your idea">
+            <label className="label">
+              Describe it in your own words
+              <textarea
+                rows={5}
+                maxLength={4000}
+                value={idea}
+                onChange={(e) => setIdea(e.target.value)}
+                className="field min-h-[132px] resize-y py-3 font-normal leading-normal"
+                placeholder="e.g. Equivalent fractions with paper strips. A few students mixed up halves and quarters last week, so start with a quick review. Finish with a partner game."
               />
             </label>
-          ) : (
-            <div />
-          )}
-          <label className="block text-sm">
-            Class context (optional, no names)
-            <input
-              className={input}
-              maxLength={1000}
-              value={classContext}
-              onChange={(e) => setClassContext(e.target.value)}
-              placeholder="e.g. 24 students, 5 EAL/D"
-            />
-          </label>
+            <label className="relative mt-3.5 flex cursor-pointer flex-wrap items-center gap-3 rounded-xl border-[1.5px] border-dashed border-[#9AA39A] bg-paper p-4 hover:bg-mist">
+              <span className="text-euc"><Icon d={ICONS.upload} size={24} strokeWidth={1.8} /></span>
+              <span className="flex-[1_1_260px]">
+                <span className="block font-bold">{file ? file.name : "Or start from a plan you already have"}</span>
+                <span className="block text-sm text-ink-muted">
+                  {file ? "This file will be used as the starting point." : "PDF, Word or text file, up to 5 MB. Your structure and good ideas are kept."}
+                </span>
+              </span>
+              {file ? (
+                <button type="button" className="btn-outline text-sm" onClick={(e) => { e.preventDefault(); setFile(null); }}>Remove</button>
+              ) : (
+                <span className="btn-outline pointer-events-none text-sm">Choose file</span>
+              )}
+              <input type="file" accept=".pdf,.docx,.txt,.md" className="sr-only" onChange={(e) => setFile(e.target.files?.[0] ?? null)} />
+            </label>
+          </Step>
+
+          <Step n={4} title="Fine-tune" note="optional">
+            <fieldset className="mb-[18px]">
+              <legend className="mb-2 text-[15px] font-bold">Difficulty</legend>
+              <div className="inline-flex flex-wrap overflow-hidden rounded-xl border border-line-strong">
+                {DIFFICULTIES.map((d, i) => (
+                  <button
+                    key={d}
+                    type="button"
+                    aria-pressed={d === difficulty}
+                    onClick={() => setDifficulty(d)}
+                    className={`min-h-[44px] px-4 ${i < DIFFICULTIES.length - 1 ? "border-r border-line-strong" : ""} ${d === difficulty ? "bg-wattle-tint font-bold" : "bg-white hover:bg-mist"}`}
+                  >
+                    {DIFFICULTY_UI[d]}
+                  </button>
+                ))}
+              </div>
+            </fieldset>
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              {itemOpt && itemCount !== undefined && (
+                <div className="label">
+                  <span id="count-label">{itemOpt.label}</span>
+                  <span className="flex items-center gap-2 font-normal">
+                    <button type="button" aria-label="Fewer" className="btn-outline w-11 px-0 text-xl" onClick={() => setItemCounts((p) => ({ ...p, [outputType]: Math.max(itemOpt.min, itemCount - 1) }))}>−</button>
+                    <input
+                      aria-labelledby="count-label"
+                      inputMode="numeric"
+                      value={itemCount}
+                      onChange={(e) => {
+                        const n = Number(e.target.value.replace(/\D/g, ""));
+                        if (n) setItemCounts((p) => ({ ...p, [outputType]: Math.min(itemOpt.max, n) }));
+                      }}
+                      className="field w-16 px-0 text-center"
+                    />
+                    <button type="button" aria-label="More" className="btn-outline w-11 px-0 text-xl" onClick={() => setItemCounts((p) => ({ ...p, [outputType]: Math.min(itemOpt.max, itemCount + 1) }))}>+</button>
+                  </span>
+                </div>
+              )}
+              <label className="label">
+                About the class
+                <input
+                  className="field font-normal"
+                  maxLength={1000}
+                  value={classContext}
+                  onChange={(e) => setClassContext(e.target.value)}
+                  placeholder="e.g. 24 students, 5 learning English (no names)"
+                />
+              </label>
+            </div>
+            {cds.length > 0 && (
+              <details className="mt-4">
+                <summary className="cursor-pointer font-bold text-euc">
+                  Pick specific curriculum points <span className="font-normal text-ink-muted">({focusCodes.length ? `${focusCodes.length} chosen` : `${cds.length} for ${YEAR_LABELS[level]} ${subjectName.toLowerCase()}`})</span>
+                </summary>
+                <ul className="mt-3 max-h-72 space-y-1.5 overflow-y-auto rounded-xl border border-line p-3">
+                  {cds.map((cd) => (
+                    <li key={cd.code}>
+                      <label className="flex gap-2.5 text-[15px]">
+                        <input
+                          type="checkbox"
+                          className="mt-1 h-4 w-4 accent-euc"
+                          checked={focusCodes.includes(cd.code)}
+                          onChange={(e) => setFocusCodes((prev) => (e.target.checked ? [...prev, cd.code].slice(0, 10) : prev.filter((c) => c !== cd.code)))}
+                        />
+                        <span>
+                          <span className="mr-1.5 font-mono text-xs text-ink-muted">{cd.code}</span>
+                          {cd.text}
+                        </span>
+                      </label>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            )}
+          </Step>
         </div>
 
-        {cds.length > 0 && (
-          <details className="text-sm">
-            <summary className="cursor-pointer">
-              Focus on specific content descriptions (optional){band ? ` · ${band}` : ""}
-              {focusCodes.length > 0 && ` · ${focusCodes.length} selected`}
-            </summary>
-            <ul className="mt-2 max-h-72 space-y-1 overflow-y-auto">
-              {cds.map((cd) => (
-                <li key={cd.code}>
-                  <label className="flex gap-2">
-                    <input
-                      type="checkbox"
-                      checked={focusCodes.includes(cd.code)}
-                      onChange={(e) =>
-                        setFocusCodes((prev) => (e.target.checked ? [...prev, cd.code].slice(0, 10) : prev.filter((c) => c !== cd.code)))
-                      }
-                    />
-                    <span>
-                      <span className="mr-1 font-mono text-xs text-slate-500">{cd.code}</span>
-                      {cd.text}
-                    </span>
-                  </label>
-                </li>
-              ))}
-            </ul>
-          </details>
-        )}
-
-        <div className="flex flex-wrap items-center gap-3">
-          <button
-            type="submit"
-            disabled={status === "generating" || (idea.trim().length < 5 && !file)}
-            className="rounded bg-slate-900 px-4 py-2 text-sm text-white disabled:opacity-50 dark:bg-white dark:text-slate-900"
-          >
-            {status === "generating" ? "Generating…" : `Generate ${def.label.toLowerCase()}`}
-          </button>
-          {status === "generating" && (
-            <>
-              <span className="text-sm text-slate-500">
-                {progress === 0 ? "Planning…" : `Writing… (${Math.round(progress / 100) / 10}k characters)`}
-              </span>
-              <button type="button" className="text-sm underline" onClick={() => abortRef.current?.abort()}>
+        <aside aria-label="Summary" className="sticky top-6 flex flex-[1_1_300px] flex-col gap-3.5">
+          <div className="rounded-2xl bg-ink p-6 text-white">
+            <p className="eyebrow mb-3.5 text-wattle">Ready to make</p>
+            <p className="font-display text-[26px] font-bold leading-[1.15]">{OUTPUT_UI[outputType].label}</p>
+            <dl className="mb-[22px] mt-[18px] grid grid-cols-[auto_1fr] gap-x-3.5 gap-y-2 text-[15px]">
+              <dt className="text-[#AEB6BE]">Class</dt>
+              <dd>{YEAR_LABELS[level]} · {subjectName}</dd>
+              {itemOpt && (
+                <>
+                  <dt className="text-[#AEB6BE]">Size</dt>
+                  <dd>{itemCount} {itemOpt.label.replace(/^Number of /, "").toLowerCase()}</dd>
+                </>
+              )}
+              {def.usesLessonLength && (
+                <>
+                  <dt className="text-[#AEB6BE]">Length</dt>
+                  <dd>{lessonMinutes} minutes</dd>
+                </>
+              )}
+              <dt className="text-[#AEB6BE]">Pitch</dt>
+              <dd>{DIFFICULTY_UI[difficulty]}</dd>
+              <dt className="text-[#AEB6BE]">From</dt>
+              <dd className="truncate">{file ? file.name : idea.trim() ? "Your idea" : "—"}</dd>
+            </dl>
+            <button type="submit" disabled={status === "generating"} className="btn-wattle min-h-[52px] w-full text-[17px]">
+              {status === "generating" ? "Working on it…" : OUTPUT_UI[outputType].make}
+            </button>
+            <p className="mt-3 text-sm text-[#C7CDD3]" role="status">
+              {status === "generating"
+                ? progress === 0
+                  ? "Planning…"
+                  : `Writing… ${Math.round(progress / 100) / 10}k characters so far`
+                : "You can rewrite any part afterwards."}
+            </p>
+            {status === "generating" && (
+              <button type="button" onClick={() => abortRef.current?.abort()} className="mt-1 text-sm font-bold text-wattle underline">
                 Cancel
               </button>
-            </>
+            )}
+            {!canSave && <p className="mt-3 text-xs text-[#AEB6BE]">Local mode: results aren&apos;t saved.</p>}
+          </div>
+          {status === "error" && <Notice tone="error">{error}</Notice>}
+          {canSave && (
+            <div className="card flex flex-col gap-2.5 p-4">
+              <label className="label">
+                Start from a template
+                <select
+                  className="field font-normal"
+                  value=""
+                  onChange={(e) => {
+                    const t = templates.find((x) => x.id === e.target.value);
+                    if (t) {
+                      applySettings(t.settings);
+                      setTemplateMsg(`Loaded "${t.name}".`);
+                    }
+                  }}
+                >
+                  <option value="">{templates.length ? "Choose…" : "No templates yet"}</option>
+                  {templates.map((t) => (
+                    <option key={t.id} value={t.id}>{t.name}</option>
+                  ))}
+                </select>
+              </label>
+              <button type="button" onClick={saveTemplate} className="btn-outline">Save these settings as a template</button>
+              {templateMsg && <p className="text-sm text-ink-muted" role="status">{templateMsg}</p>}
+            </div>
           )}
-          {!canSave && <span className="text-xs text-slate-500">Local mode: results are not saved.</span>}
-        </div>
-        {status === "error" && <p className="rounded bg-red-50 p-3 text-sm text-red-800 dark:bg-red-950 dark:text-red-200">{error}</p>}
+        </aside>
       </form>
 
       {result && (
-        <ResultPanel
-          key={`${result.state.generationId ?? ""}-${String(result.state.content.title)}`}
-          initial={result.state}
-          context={result.context}
-          codeText={result.codeText}
-        />
+        <div ref={resultRef} className="scroll-mt-6">
+          <ResultPanel
+            key={`${result.state.generationId ?? ""}-${String(result.state.content.title)}`}
+            initial={result.state}
+            context={result.context}
+            codeText={result.codeText}
+          />
+        </div>
       )}
     </div>
   );

@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { getSubject } from "@/lib/curriculum";
-import { LEVEL_LABELS, PRIMARY_LEVELS } from "@/lib/curriculum/types";
+import { PRIMARY_LEVELS } from "@/lib/curriculum/types";
+import { YEAR_LABELS } from "@/lib/ui/labels";
 import { docxFilename, outputToDocx } from "@/lib/export/docx";
 import { OUTPUT_TYPES, OUTPUTS } from "@/lib/generator/outputs";
 
@@ -27,7 +28,7 @@ export async function POST(request: Request) {
 
   const buffer = await outputToDocx(outputType, content.data, {
     subject: subject?.subject ?? subjectSlug,
-    levelLabel: LEVEL_LABELS[level],
+    levelLabel: YEAR_LABELS[level],
     lessonMinutes,
     codeText,
   });

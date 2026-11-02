@@ -11,7 +11,8 @@ function safeNext(next: FormDataEntryValue | null) {
   return n.startsWith("/") && !n.startsWith("//") ? n : "/plan";
 }
 
-const fail = (message: string, next: string): never => redirect(`/login?error=${encodeURIComponent(message)}&next=${encodeURIComponent(next)}`);
+const fail = (message: string, next: string, mode = "signin"): never =>
+  redirect(`/login?mode=${mode}&error=${encodeURIComponent(message)}&next=${encodeURIComponent(next)}`);
 
 export async function signIn(formData: FormData) {
   const db = getDb();
@@ -32,11 +33,11 @@ export async function signUp(formData: FormData) {
   if (!db) redirect(next);
   const email = String(formData.get("email") ?? "").trim();
   const password = String(formData.get("password") ?? "");
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) fail("Enter a valid email address.", next);
-  if (password.length < MIN_PASSWORD_LENGTH) fail(`Use a password of at least ${MIN_PASSWORD_LENGTH} characters.`, next);
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) fail("Enter a valid email address.", next, "signup");
+  if (password.length < MIN_PASSWORD_LENGTH) fail(`Use a password of at least ${MIN_PASSWORD_LENGTH} characters.`, next, "signup");
   // Check for an existing account first, so a repeated submit says "sign in" rather than "closed".
   if (await findUserByEmail(db, email)) fail("You already have an account with this email. Sign in with your password.", next);
-  if (!(await canSignUp(db, email))) fail("New accounts are closed. Ask the owner to add your email to ALLOWED_EMAILS.", next);
+  if (!(await canSignUp(db, email))) fail("New accounts are closed. Ask the person who runs this site to add your email.", next, "signup");
   const id = await createUser(db, { email, passwordHash: await hashPassword(password), displayName: String(formData.get("name") ?? "") });
   await createSession(db, id);
   redirect(next);
