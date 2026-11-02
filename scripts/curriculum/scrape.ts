@@ -74,7 +74,8 @@ async function discover(): Promise<string[]> {
   if (codes.size === 0) {
     throw new Error("No domain codes found on the level page — the VCAA markup may have changed.");
   }
-  // The filter lists VC1 codes (M, E, S, da…); Version 2.0 domains append "2" (M2, E2, S2, da2…).
+  // The filter lists VC1 codes (M, E, S…). Only Mathematics has a Version 2.0 domain (M2) on this
+  // site; other subjects come from the f10 CSV export (download-f10.ts).
   const v2 = new Set([...codes].map((c) => (c.endsWith("2") ? c : `${c}2`)));
   console.log(`Version 2.0 domain codes to probe: ${[...v2].join(", ")}`);
   return [...v2];
