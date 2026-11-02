@@ -34,8 +34,9 @@ export async function signUp(formData: FormData) {
   const password = String(formData.get("password") ?? "");
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) fail("Enter a valid email address.", next);
   if (password.length < MIN_PASSWORD_LENGTH) fail(`Use a password of at least ${MIN_PASSWORD_LENGTH} characters.`, next);
+  // Check for an existing account first, so a repeated submit says "sign in" rather than "closed".
+  if (await findUserByEmail(db, email)) fail("You already have an account with this email. Sign in with your password.", next);
   if (!(await canSignUp(db, email))) fail("New accounts are closed. Ask the owner to add your email to ALLOWED_EMAILS.", next);
-  if (await findUserByEmail(db, email)) fail("An account with that email already exists. Sign in instead.", next);
   const id = await createUser(db, { email, passwordHash: await hashPassword(password), displayName: String(formData.get("name") ?? "") });
   await createSession(db, id);
   redirect(next);

@@ -113,6 +113,11 @@ describe("accounts", () => {
     delete process.env.ALLOWED_EMAILS;
   });
 
+  it("tells someone who already has an account to sign in (e.g. after a double submit)", async () => {
+    jar.clear();
+    expect(await redirectOf(signUp(form({ email: "ann@school.vic.edu.au", password: "correct horse battery" })))).toContain("already%20have%20an%20account");
+  });
+
   it("rejects weak passwords and wrong credentials with the same message", async () => {
     jar.clear();
     process.env.ALLOWED_EMAILS = "new@x.com";

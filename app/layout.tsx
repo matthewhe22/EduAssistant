@@ -38,7 +38,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         </header>
         <main className="mx-auto max-w-5xl px-4 py-8">{children}</main>
         <footer className="mx-auto max-w-5xl px-4 pb-8 text-xs text-slate-500 print:hidden">
-          Curriculum content © Victorian Curriculum and Assessment Authority (VCAA). Personal, non-commercial use. Generated plans should be reviewed by a teacher before use.
+          Generated material should be reviewed by a teacher before use.
         </footer>
       </body>
     </html>

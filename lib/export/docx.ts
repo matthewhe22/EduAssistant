@@ -70,7 +70,7 @@ function differentiation(d: { support: string[]; extension: string[]; ealD: stri
 const footer = () =>
   new Paragraph({
     spacing: { before: 400 },
-    children: [new TextRun({ text: "Generated with EdAssistant. Curriculum content © Victorian Curriculum and Assessment Authority (VCAA). Review before use.", size: 16, italics: true })],
+    children: [new TextRun({ text: "Generated with EdAssistant. Review before use.", size: 16, italics: true })],
   });
 
 /* ----------------------------- per type ------------------------------ */

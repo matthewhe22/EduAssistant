@@ -10,7 +10,7 @@ import {
   WorksheetSchema,
 } from "./schemas";
 
-/** Matches the `output_type` enum in supabase/migrations/0001_init.sql. */
+/** Matches the `output_type` enum in db/migrations/001_init.sql. */
 export const OUTPUT_TYPES = [
   "lesson_plan",
   "unit_plan",

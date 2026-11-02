@@ -15,7 +15,7 @@ export default async function Home() {
           {index
             ? `${index.subjects.length} subjects loaded, ${index.subjects.reduce((n, s) => n + s.contentDescriptionCount, 0)} content descriptions.`
             : "Curriculum dataset not built yet. Run npm run curriculum:scrape."}{" "}
-          Includes VCAA elaborations, achievement standards and VTLM 2.0 guidance.
+          Includes elaborations, achievement standards and VTLM 2.0 guidance.
         </p>
       </div>
       <div className="flex gap-3">

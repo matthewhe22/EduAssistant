@@ -10,7 +10,7 @@ import { z } from "zod";
 export const CurriculumLinks = z
   .array(
     z.object({
-      code: z.string().describe("A VCAA content description code copied exactly from the provided curriculum"),
+      code: z.string().describe("A content description code copied exactly from the provided curriculum"),
       howAddressed: z.string().describe("One sentence on how this is addressed"),
     }),
   )

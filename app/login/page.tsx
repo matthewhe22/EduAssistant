@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { MIN_PASSWORD_LENGTH } from "@/lib/auth/password";
 import { isDbConfigured } from "@/lib/db";
+import { SubmitButton } from "@/components/SubmitButton";
 import { signIn, signUp } from "./actions";
 
 export const dynamic = "force-dynamic";
@@ -24,9 +25,9 @@ export default function LoginPage({ searchParams }: { searchParams: { error?: st
           Password
           <input name="password" type="password" required className={input} autoComplete="current-password" />
         </label>
-        <button formAction={signIn} className="rounded bg-slate-900 px-4 py-2 text-sm text-white dark:bg-white dark:text-slate-900">
+        <SubmitButton formAction={signIn} pendingText="Signing in…" className="rounded bg-slate-900 px-4 py-2 text-sm text-white dark:bg-white dark:text-slate-900">
           Sign in
-        </button>
+        </SubmitButton>
         <details className="pt-4 text-sm">
           <summary className="cursor-pointer">Create an account</summary>
           <div className="mt-3 space-y-3">
@@ -37,9 +38,9 @@ export default function LoginPage({ searchParams }: { searchParams: { error?: st
             <p className="text-xs text-slate-500">
               Uses the email and password above (at least {MIN_PASSWORD_LENGTH} characters). Only the first account, or emails the owner allows, can sign up.
             </p>
-            <button formAction={signUp} className="rounded border px-4 py-2 text-sm">
+            <SubmitButton formAction={signUp} pendingText="Creating account…" className="rounded border px-4 py-2 text-sm">
               Create account
-            </button>
+            </SubmitButton>
           </div>
         </details>
       </form>
