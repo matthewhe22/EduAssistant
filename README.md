@@ -19,32 +19,49 @@ aligned to the **Victorian Curriculum F–10 Version 2.0** and the **Victorian T
 |---|---|---|
 | 0 | Curriculum knowledge base, research notes, project scaffold, DB schema | ✅ |
 | 1 | Generator: year + subject + idea + difficulty → lesson plan with curriculum codes; auth; save; DOCX export | ✅ |
-| 2 | Unit plans, worksheets, rubrics, differentiation, uploads, refine one section | |
+| 2 | Unit plans, worksheets, rubrics, differentiation, uploads, refine one section | ✅ |
 | 3 | Library/search, templates, cost tracking, feedback loop | |
 
-## How generation works (Phase 1)
+## What teachers can create
+
+| Output | What you get |
+|---|---|
+| Lesson plan | VTLM 2.0 lesson: intention, success criteria, timed phases, differentiation, exit ticket |
+| Unit plan | 3–20 sequenced lessons, big ideas, pre/formative/summative assessment |
+| Activities / rotations | 1–8 activities or stations with materials, steps, easier/harder versions |
+| Worksheet + answer key | 3–30 questions in sections, writing lines, word bank, model answers |
+| Differentiated task | One task in Support / Core / Extension tiers with scaffolds and answers |
+| Assessment rubric | Task + 4-level rubric with "Achieving" matching the achievement standard |
+| Quiz / assessment | Questions with marks, answers, codes, marking guide and next steps |
+| Parent / newsletter note | Family-friendly summary, home activities, conversation starters |
+
+You can also **upload an existing plan** (PDF, Word or text, up to 5 MB) instead of, or as well
+as, typing an idea. Once something is generated, you can **refine any single section** with an
+instruction ("make the guided practice more hands-on"). Only that section is replaced, and the
+change is saved to your library. Everything exports to Word or prints.
+
+## How generation works
 
 1. The teacher picks a **year level, subject, lesson length and difficulty**, and describes an
    idea or rough plan. Optional: focus content descriptions and class context (no names).
 2. `/api/generate` loads the subject's level or band from `data/curriculum/vc2`: content
    descriptions, elaborations and the achievement standard. For below / above / mixed difficulty
    it adds the neighbouring band.
-3. Claude (`claude-opus-5-5`, structured JSON output, server-side refusal fallback) writes a
-   **VTLM 2.0** lesson plan with these sections: learning intention, success criteria, vocabulary,
-   phases (daily review → explicit teaching → guided → independent → reflection), differentiation
-   (support / extension / EAL/D), assessment and exit ticket. Rules from
-   `lib/generator/pedagogy.ts` cover the reading and maths positions. The system prompt and the
-   curriculum block are prompt-cached.
-4. The plan is validated: curriculum codes that are not in the dataset are removed and flagged,
-   and phase timings are checked. It is then saved to the teacher's library (Supabase, RLS) and
+3. Claude (`claude-opus-5-5`, server-side refusal fallback) writes the chosen output as structured
+   JSON. Each type's schema and instructions are in `lib/generator/outputs/`. Victorian rules (VTLM
+   2.0, reading and maths positions) are in `lib/generator/pedagogy.ts`. The system prompt and the
+   curriculum block are prompt-cached, so refinements of the same subject and level reuse the
+   cache. Uploaded PDFs are sent to Claude as documents; Word and text files are converted to text.
+4. The output is validated: curriculum codes that are not in the dataset (anywhere in the output)
+   are removed and flagged, and lesson timings, quiz marks and rubric tables are checked. It is then saved to the teacher's library (Supabase, RLS) and
    can be exported to Word or printed.
 
 ## Repository layout
 
 ```
-app/                         Next.js routes: /plan (generator), /plans (library), /curriculum, /login, API routes
-components/                  Planner form, lesson plan view, export actions
-lib/generator/               Request/plan schemas, curriculum context, prompts, Claude call, validation
+app/                         Next.js routes: /plan (create), /plans (library), /curriculum, /login, /api/generate, /api/refine, /api/export/docx
+components/                  Planner form, result panel (refine), views for each output type
+lib/generator/               Output types (outputs/), curriculum context, prompts, Claude call, uploads, validation
 lib/export/                  Word (.docx) export
 lib/supabase/                Server-side Supabase client (auth + RLS)
 lib/curriculum/              Types + loaders for the curriculum dataset

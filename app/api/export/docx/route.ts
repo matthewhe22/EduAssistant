@@ -1,28 +1,31 @@
 import { z } from "zod";
 import { getSubject } from "@/lib/curriculum";
 import { LEVEL_LABELS, PRIMARY_LEVELS } from "@/lib/curriculum/types";
-import { docxFilename, lessonPlanToDocx } from "@/lib/export/docx";
-import { LessonPlanSchema } from "@/lib/generator/schema";
+import { docxFilename, outputToDocx } from "@/lib/export/docx";
+import { OUTPUT_TYPES, OUTPUTS } from "@/lib/generator/outputs";
 
 export const runtime = "nodejs";
 
 const BodySchema = z.object({
-  plan: LessonPlanSchema,
+  outputType: z.enum(OUTPUT_TYPES),
+  content: z.record(z.string(), z.unknown()),
   subjectSlug: z.string().regex(/^[a-z0-9-]+$/),
   level: z.enum(PRIMARY_LEVELS),
   lessonMinutes: z.number().int(),
 });
 
 export async function POST(request: Request) {
-  const parsed = BodySchema.safeParse(await request.json().catch(() => null));
-  if (!parsed.success) return Response.json({ error: "Invalid plan." }, { status: 400 });
-  const { plan, subjectSlug, level, lessonMinutes } = parsed.data;
+  const body = BodySchema.safeParse(await request.json().catch(() => null));
+  if (!body.success) return Response.json({ error: "Invalid request." }, { status: 400 });
+  const { outputType, subjectSlug, level, lessonMinutes } = body.data;
+  const content = OUTPUTS[outputType].schema.safeParse(body.data.content);
+  if (!content.success) return Response.json({ error: "Invalid content." }, { status: 400 });
 
   const subject = await getSubject(subjectSlug);
   const codeText: Record<string, string> = {};
   for (const band of subject?.bands ?? []) for (const cd of band.contentDescriptions) codeText[cd.code] = cd.text;
 
-  const buffer = await lessonPlanToDocx(plan, {
+  const buffer = await outputToDocx(outputType, content.data, {
     subject: subject?.subject ?? subjectSlug,
     levelLabel: LEVEL_LABELS[level],
     lessonMinutes,
@@ -31,7 +34,7 @@ export async function POST(request: Request) {
   return new Response(new Uint8Array(buffer), {
     headers: {
       "Content-Type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "Content-Disposition": `attachment; filename="${docxFilename(plan.title)}"`,
+      "Content-Disposition": `attachment; filename="${docxFilename(String(content.data.title))}"`,
     },
   });
 }

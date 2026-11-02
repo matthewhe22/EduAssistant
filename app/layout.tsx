@@ -19,8 +19,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <header className="border-b border-slate-200 print:hidden dark:border-slate-800">
           <nav className="mx-auto flex max-w-5xl items-center gap-6 px-4 py-3">
             <a href="/" className="font-semibold">EdAssistant</a>
-            <a href="/plan" className={link}>New plan</a>
-            {authEnabled && <a href="/plans" className={link}>My plans</a>}
+            <a href="/plan" className={link}>Create</a>
+            {authEnabled && <a href="/plans" className={link}>My library</a>}
             <a href="/curriculum" className={link}>Curriculum</a>
             <span className="ml-auto" />
             {authEnabled &&

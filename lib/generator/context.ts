@@ -1,6 +1,7 @@
 import type { CurriculumBand, PrimaryLevel, SubjectCurriculum } from "../curriculum/types";
 import { LEVEL_LABELS, PRIMARY_LEVELS } from "../curriculum/types";
 import type { GenerateRequest } from "./schema";
+import { OUTPUTS } from "./outputs";
 
 export interface CurriculumContext {
   /** Band the class is working in. */
@@ -70,7 +71,19 @@ export function buildCurriculumContext(
   return { band, previous, next, allowedCodes, text: parts.filter((p) => p !== undefined).join("\n") };
 }
 
-export function buildTeacherRequest(req: GenerateRequest, subject: SubjectCurriculum, ctx: CurriculumContext) {
+export function resolveItemCount(req: Pick<GenerateRequest, "outputType" | "itemCount">) {
+  const opt = OUTPUTS[req.outputType].itemCount;
+  if (!opt) return 0;
+  return Math.min(opt.max, Math.max(opt.min, req.itemCount ?? opt.default));
+}
+
+export function buildTeacherRequest(
+  req: GenerateRequest,
+  subject: SubjectCurriculum,
+  ctx: CurriculumContext,
+  attachment?: { name: string; text?: string },
+) {
+  const def = OUTPUTS[req.outputType];
   const levelLabel = LEVEL_LABELS[req.level];
   const yearInBand =
     ctx.band.levels.length > 1
@@ -78,19 +91,22 @@ export function buildTeacherRequest(req: GenerateRequest, subject: SubjectCurric
       : "";
   const focus = req.focusCodes.filter((c) => ctx.allowedCodes.has(c));
   return [
-    `Write one lesson plan.`,
+    `Output: ${def.label}.`,
+    def.instructions({ lessonMinutes: req.lessonMinutes, itemCount: resolveItemCount(req) }),
     ``,
     `- Year level: ${levelLabel}.${yearInBand}`,
     `- Subject: ${subject.subject}`,
-    `- Lesson length: ${req.lessonMinutes} minutes`,
+    def.usesLessonLength ? `- Lesson length: ${req.lessonMinutes} minutes` : "",
     `- Difficulty: ${req.difficulty}`,
     focus.length ? `- Focus content descriptions chosen by the teacher: ${focus.join(", ")}` : "",
     req.classContext ? `- Class context: ${req.classContext}` : "",
     ``,
-    `Teacher's idea or rough plan:`,
-    `"""`,
-    req.idea,
-    `"""`,
+    req.idea ? `Teacher's idea or rough plan:\n"""\n${req.idea}\n"""` : "",
+    attachment
+      ? attachment.text !== undefined
+        ? `The teacher uploaded an existing plan ("${attachment.name}"). Use it as source material:\n<uploaded_plan>\n${attachment.text}\n</uploaded_plan>`
+        : `The teacher uploaded an existing plan ("${attachment.name}", attached above as a PDF). Use it as source material.`
+      : "",
   ]
     .filter((l) => l !== "")
     .join("\n");

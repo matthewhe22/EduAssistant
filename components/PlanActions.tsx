@@ -1,25 +1,26 @@
 "use client";
 
 import { useState } from "react";
-import type { LessonPlan } from "@/lib/generator/schema";
 import type { PrimaryLevel } from "@/lib/curriculum/types";
+import type { OutputType } from "@/lib/generator/outputs";
 
-export function PlanActions(props: { plan: LessonPlan; subjectSlug: string; level: PrimaryLevel; lessonMinutes: number }) {
+export function PlanActions(props: {
+  outputType: OutputType;
+  content: Record<string, unknown>;
+  subjectSlug: string;
+  level: PrimaryLevel;
+  lessonMinutes: number;
+}) {
   const [busy, setBusy] = useState(false);
   async function downloadDocx() {
     setBusy(true);
     try {
-      const res = await fetch("/api/export/docx", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(props),
-      });
+      const res = await fetch("/api/export/docx", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(props) });
       if (!res.ok) throw new Error("Export failed");
       const blob = await res.blob();
-      const name = /filename="([^"]+)"/.exec(res.headers.get("Content-Disposition") ?? "")?.[1] ?? "lesson-plan.docx";
+      const name = /filename="([^"]+)"/.exec(res.headers.get("Content-Disposition") ?? "")?.[1] ?? "edassistant.docx";
       const url = URL.createObjectURL(blob);
-      const a = Object.assign(document.createElement("a"), { href: url, download: name });
-      a.click();
+      Object.assign(document.createElement("a"), { href: url, download: name }).click();
       URL.revokeObjectURL(url);
     } catch {
       alert("Sorry, the Word export failed.");

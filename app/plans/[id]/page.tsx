@@ -1,9 +1,9 @@
 import { notFound, redirect } from "next/navigation";
-import { LessonPlanView } from "@/components/LessonPlanView";
-import { PlanActions } from "@/components/PlanActions";
+import { ResultPanel } from "@/components/ResultPanel";
 import { getSubject } from "@/lib/curriculum";
-import { LEVEL_LABELS, type PrimaryLevel } from "@/lib/curriculum/types";
-import { LessonPlanSchema } from "@/lib/generator/schema";
+import type { PrimaryLevel } from "@/lib/curriculum/types";
+import { OUTPUTS, isOutputType } from "@/lib/generator/outputs";
+import { DIFFICULTIES } from "@/lib/generator/schema";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
 
 export const dynamic = "force-dynamic";
@@ -17,40 +17,39 @@ export default async function PlanDetailPage({ params }: { params: { id: string 
 
   const { data: row } = await supabase
     .from("generations")
-    .select("id, level, subject_slug, teacher_input, content, created_at")
+    .select("id, output_type, level, subject_slug, difficulty, teacher_input, content, created_at")
     .eq("id", params.id)
     .maybeSingle();
-  if (!row) notFound();
+  if (!row || !isOutputType(row.output_type)) notFound();
 
-  const parsed = LessonPlanSchema.safeParse(row.content?.plan);
-  if (!parsed.success) return <p>This plan could not be displayed.</p>;
-  const plan = parsed.data;
-  const level = row.level as PrimaryLevel;
-  const lessonMinutes = Number(row.teacher_input?.lessonMinutes ?? 60);
+  // Phase 1 rows stored { plan }, later rows store { output }.
+  const parsed = OUTPUTS[row.output_type].schema.safeParse(row.content?.output ?? row.content?.plan);
+  if (!parsed.success) return <p>This item could not be displayed.</p>;
+  const warnings: string[] = Array.isArray(row.content?.warnings) ? row.content.warnings : [];
   const subject = await getSubject(row.subject_slug);
   const codeText: Record<string, string> = {};
   for (const band of subject?.bands ?? []) for (const cd of band.contentDescriptions) codeText[cd.code] = cd.text;
-  const warnings: string[] = Array.isArray(row.content?.warnings) ? row.content.warnings : [];
+  const difficulty = (DIFFICULTIES as readonly string[]).includes(row.difficulty) ? row.difficulty : "at";
 
   return (
     <div className="space-y-4">
       <a href="/plans" className="text-sm underline print:hidden">← My plans</a>
-      {warnings.length > 0 && (
-        <ul className="rounded bg-amber-50 p-3 text-sm text-amber-900 print:hidden dark:bg-amber-950 dark:text-amber-200">
-          {warnings.map((w, i) => (
-            <li key={i}>⚠ {w}</li>
-          ))}
-        </ul>
-      )}
-      <PlanActions plan={plan} subjectSlug={row.subject_slug} level={level} lessonMinutes={lessonMinutes} />
       <details className="text-sm text-slate-600 print:hidden dark:text-slate-300">
         <summary className="cursor-pointer">Your original request</summary>
         <p className="mt-2 whitespace-pre-wrap">{String(row.teacher_input?.idea ?? "")}</p>
+        {row.teacher_input?.attachmentName && <p className="mt-1">Uploaded file: {String(row.teacher_input.attachmentName)}</p>}
       </details>
-      <LessonPlanView
-        plan={plan}
-        meta={`${subject?.subject ?? row.subject_slug} · ${LEVEL_LABELS[level]} · ${lessonMinutes} minutes · ${new Date(row.created_at).toLocaleDateString("en-AU")}`}
+      <ResultPanel
+        initial={{ outputType: row.output_type, content: parsed.data, warnings, generationId: row.id }}
+        context={{
+          subjectSlug: row.subject_slug,
+          subjectName: subject?.subject ?? row.subject_slug,
+          level: row.level as PrimaryLevel,
+          lessonMinutes: Number(row.teacher_input?.lessonMinutes ?? 60),
+          difficulty,
+        }}
         codeText={codeText}
+        extraMeta={new Date(row.created_at).toLocaleDateString("en-AU")}
       />
     </div>
   );

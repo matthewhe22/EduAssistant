@@ -1,8 +1,8 @@
 import "server-only";
 import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
+import type { z } from "zod";
 import { SYSTEM_PROMPT } from "./pedagogy";
-import { LessonPlanSchema, type LessonPlan } from "./schema";
 
 export const MODEL = process.env.ANTHROPIC_MODEL || "claude-opus-5-5";
 /** Opus 5.5 defaults to "medium"; set it explicitly. Override with ANTHROPIC_EFFORT. */
@@ -16,42 +16,41 @@ function getClient() {
 
 export class GenerationError extends Error {}
 
-export interface GenerationResult {
-  plan: LessonPlan;
+export interface GenerationResult<T> {
+  content: T;
   model: string;
   usage: { inputTokens: number; outputTokens: number; cacheReadTokens: number };
 }
 
-/**
- * Streams a lesson plan from Claude as structured JSON.
- * `curriculumText` is stable per subject/band/difficulty and is cached; `teacherRequest` varies.
- */
-export async function generateLessonPlan(
-  curriculumText: string,
-  teacherRequest: string,
-  onProgress: (characters: number) => void,
-  signal?: AbortSignal,
-): Promise<GenerationResult> {
+export interface GenerateOptions<S extends z.ZodObject> {
+  schema: S;
+  /** Stable per subject/band/difficulty, so it is cached. */
+  curriculumText: string;
+  /** Request-specific content (teacher request, optional PDF, refine instructions). */
+  requestBlocks: Anthropic.Beta.BetaContentBlockParam[];
+  onProgress: (characters: number) => void;
+  signal?: AbortSignal;
+}
+
+/** Streams structured JSON matching `schema` from Claude. */
+export async function generateStructured<S extends z.ZodObject>(opts: GenerateOptions<S>): Promise<GenerationResult<z.infer<S>>> {
   const stream = getClient().beta.messages.stream(
     {
       model: MODEL,
-      max_tokens: 32000,
+      max_tokens: 64000,
       // Server-side refusal fallback: Anthropic picks the recommended fallback model by category.
       betas: ["server-side-fallback-2026-07-01"],
       fallbacks: "default",
-      output_config: { effort: EFFORT, format: zodOutputFormat(LessonPlanSchema) },
+      output_config: { effort: EFFORT, format: zodOutputFormat(opts.schema) },
       system: [{ type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } }],
       messages: [
         {
           role: "user",
-          content: [
-            { type: "text", text: curriculumText, cache_control: { type: "ephemeral" } },
-            { type: "text", text: teacherRequest },
-          ],
+          content: [{ type: "text", text: opts.curriculumText, cache_control: { type: "ephemeral" } }, ...opts.requestBlocks],
         },
       ],
     },
-    { signal },
+    { signal: opts.signal },
   );
 
   let characters = 0;
@@ -61,7 +60,7 @@ export async function generateLessonPlan(
     }
     if (event.type === "content_block_delta" && event.delta.type === "text_delta") {
       characters += event.delta.text.length;
-      onProgress(characters);
+      opts.onProgress(characters);
     }
   }
   const message = await stream.finalMessage();
@@ -70,7 +69,7 @@ export async function generateLessonPlan(
     throw new GenerationError("The request was declined by the model's safety checks. Try rephrasing your idea.");
   }
   if (message.stop_reason === "max_tokens") {
-    throw new GenerationError("The plan was too long and got cut off. Try a shorter lesson or a narrower idea.");
+    throw new GenerationError("The output was too long and got cut off. Ask for fewer items or a narrower idea.");
   }
 
   // If a fallback happened, the answer is the text after the last fallback block.
@@ -84,15 +83,15 @@ export async function generateLessonPlan(
   try {
     json = JSON.parse(text);
   } catch {
-    throw new GenerationError("The model returned an incomplete plan. Please try again.");
+    throw new GenerationError("The model returned incomplete output. Please try again.");
   }
-  const parsed = LessonPlanSchema.safeParse(json);
+  const parsed = opts.schema.safeParse(json);
   if (!parsed.success) {
-    throw new GenerationError("The model returned a plan in an unexpected format. Please try again.");
+    throw new GenerationError("The model returned output in an unexpected format. Please try again.");
   }
 
   return {
-    plan: parsed.data,
+    content: parsed.data as z.infer<S>,
     model: message.model,
     usage: {
       inputTokens: message.usage.input_tokens + (message.usage.cache_creation_input_tokens ?? 0),
