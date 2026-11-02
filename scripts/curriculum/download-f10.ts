@@ -4,7 +4,7 @@
  * selecting every curriculum area and all levels (filtered to Foundation–Level 6 on import).
  *
  *   npx playwright install --with-deps chromium
- *   npm run curriculum:download      # writes data/curriculum/raw/vc2-all.csv
+ *   npm run curriculum:download      # writes data/curriculum/raw/vc2-all.zip
  *
  * On failure it saves the page HTML and a screenshot to data/curriculum/raw/debug/.
  */
@@ -23,6 +23,12 @@ async function dump(page: Page, name: string) {
   console.log(`saved debug dump: ${name}`);
 }
 
+async function clickAll(page: Page, selector: string) {
+  const loc = page.locator(selector);
+  for (let i = 0; i < (await loc.count()); i++) await loc.nth(i).click().catch(() => {});
+  await page.waitForTimeout(400);
+}
+
 async function main() {
   const browser = await chromium.launch();
   const context = await browser.newContext({ acceptDownloads: true, viewport: { width: 1400, height: 1000 } });
@@ -31,17 +37,37 @@ async function main() {
     await page.goto(URL, { waitUntil: "networkidle", timeout: 90_000 });
     await dump(page, "01-loaded");
 
-    // 1. Tick every curriculum area checkbox (learning areas, capabilities, cross-curriculum priorities).
+    // Log the page's own requests so the export call is visible in CI logs.
+    page.on("request", (r) => {
+      if (["xhr", "fetch"].includes(r.resourceType())) {
+        console.log(`request ${r.method()} ${r.url().slice(0, 300)} ${(r.postData() ?? "").slice(0, 600)}`);
+      }
+    });
+
+    // 1. Use the form's own "Select all" controls, then open each area dropdown and tick its subjects.
+    for (const label of ["Select all"]) {
+      const btn = page.locator("button:visible", { hasText: new RegExp(`^\\s*${label}\\s*$`) }).first();
+      if (await btn.count()) {
+        await btn.click();
+        await page.waitForTimeout(500);
+        console.log(`clicked "${label}"`);
+      }
+    }
+    await clickAll(page, "button:visible:has-text('Expand all')");
+    const triggers = page.locator("[data-orientation='vertical'] button[aria-expanded='false']:visible");
+    for (let i = (await triggers.count()) - 1; i >= 0; i--) await triggers.nth(i).click().catch(() => {});
+    await page.waitForTimeout(500);
     const boxes = page.locator("input[type='checkbox']:visible");
     const n = await boxes.count();
-    console.log(`checkboxes: ${n}`);
-    if (n === 0) throw new Error("No curriculum area checkboxes found");
     for (let i = 0; i < n; i++) {
       const box = boxes.nth(i);
-      if (!(await box.isChecked())) await box.check({ force: true });
+      const id = (await box.getAttribute("id")) ?? "";
+      if (["ASconnections", "CCPconnections", "ASCCPconnections", "CCP"].includes(id)) continue;
+      if (!(await box.isChecked())) await box.click({ force: true });
     }
     await page.waitForTimeout(500);
-    console.log(`checked: ${await page.locator("input[type='checkbox']:checked").count()}`);
+    console.log(`checkboxes visible: ${n}, checked: ${await page.locator("input[type='checkbox']:checked").count()}`);
+    await dump(page, "01b-areas");
 
     // 2. Levels: all are selected by default. We keep them and filter to F–6 when importing.
 
@@ -64,9 +90,10 @@ async function main() {
     console.log(`download button: "${(await button.textContent())?.trim()}"`);
     const [download] = await Promise.all([page.waitForEvent("download", { timeout: 300_000 }), button.click()]);
     await mkdir(RAW_DIR, { recursive: true });
-    const target = path.join(RAW_DIR, "vc2-all.csv");
+    const target = path.join(RAW_DIR, "vc2-all.zip");
     await download.saveAs(target);
     console.log(`saved ${download.suggestedFilename()} -> ${target}`);
+    await page.waitForTimeout(2000);
   } catch (err) {
     console.error(err);
     await dump(page, "99-error").catch(() => {});
