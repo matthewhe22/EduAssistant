@@ -20,7 +20,7 @@ export async function createUser(db: Db, u: { email: string; passwordHash: strin
 
 /**
  * Sign-ups are closed except for: the very first account, and emails listed in
- * ALLOWED_EMAILS (comma-separated). This stops strangers using your Anthropic credit.
+ * ALLOWED_EMAILS (comma-separated). This stops strangers using your AI credit.
  */
 export async function canSignUp(db: Db, email: string, allowedEmails = process.env.ALLOWED_EMAILS ?? "") {
   const allowed = allowedEmails

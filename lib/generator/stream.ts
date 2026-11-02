@@ -1,15 +1,33 @@
 import "server-only";
+import { MissingApiKeyError } from "../ai/config";
 import { AttachmentError } from "./attachments";
-import { Anthropic, GenerationError } from "./claude";
+import { GenerationError, OpenAI } from "./llm";
 import type { GenerateEvent } from "./schema";
 
+/** Plain-English messages for Tenon / OpenAI-compatible API errors. */
 export function errorMessage(err: unknown): string {
-  if (err instanceof GenerationError || err instanceof AttachmentError) return err.message;
-  if (err instanceof Anthropic.AuthenticationError) return "The Anthropic API key is missing or invalid (ANTHROPIC_API_KEY).";
-  if (err instanceof Anthropic.RateLimitError) return "Too many requests right now. Please wait a minute and try again.";
-  if (err instanceof Anthropic.BadRequestError) return `The request was rejected: ${err.message}`;
-  if (err instanceof Anthropic.APIConnectionError) return "Could not reach the AI service. Check the server's internet connection and try again.";
-  if (err instanceof Anthropic.APIError) return `The AI service returned an error (${err.status ?? "unknown"}). Please try again.`;
+  if (err instanceof GenerationError || err instanceof AttachmentError || err instanceof MissingApiKeyError) return err.message;
+  if (err instanceof OpenAI.APIConnectionTimeoutError) return "The AI service took too long to answer. Please try again.";
+  if (err instanceof OpenAI.APIConnectionError) return "Could not reach the AI service (mytenon.com). Check the connection and try again.";
+  if (err instanceof OpenAI.APIError) {
+    switch (err.status) {
+      case 401:
+        return "Your Tenon API key was rejected. Check it on the Usage page.";
+      case 402:
+        return "Your Tenon balance is used up, or the key reached its spending limit. Top up at mytenon.com.";
+      case 403:
+        return "This Tenon key isn't allowed to use the selected model. Choose another model on the Usage page.";
+      case 404:
+        return "The selected model isn't available on Tenon. Choose another model on the Usage page.";
+      case 429:
+      case 503:
+        return "The AI service is busy right now. Please try again in a minute.";
+      case 400:
+        return `The model rejected the request: ${err.message}`;
+      default:
+        return `The AI service returned an error (${err.status ?? "unknown"}). Please try again.`;
+    }
+  }
   if (err instanceof Error && err.name === "AbortError") return "Generation cancelled.";
   console.error(err);
   return "Something went wrong while generating.";

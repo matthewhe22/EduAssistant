@@ -1,5 +1,6 @@
 import { getSubject } from "@/lib/curriculum";
-import { generateStructured } from "@/lib/generator/claude";
+import { resolveAiConfig } from "@/lib/ai/config";
+import { generateStructured } from "@/lib/generator/llm";
 import { buildCurriculumContext } from "@/lib/generator/context";
 import { OUTPUTS } from "@/lib/generator/outputs";
 import { RefineRequestSchema } from "@/lib/generator/schema";
@@ -58,8 +59,9 @@ export async function POST(request: Request) {
 
     const result = await generateStructured({
       schema: def.schema,
-      curriculumText: ctx.text, // same cached block as the original generation
-      requestBlocks: [{ type: "text", text: instructions }],
+      ai: await resolveAiConfig(db, user?.id ?? null),
+      curriculumText: ctx.text, // same prefix as the original generation, so it can hit the cache
+      requestText: instructions,
       onProgress: progress,
       signal: request.signal,
     });

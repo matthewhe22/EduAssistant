@@ -81,7 +81,7 @@ export function buildTeacherRequest(
   req: GenerateRequest,
   subject: SubjectCurriculum,
   ctx: CurriculumContext,
-  attachment?: { name: string; text?: string },
+  attachment?: { name: string; text: string },
 ) {
   const def = OUTPUTS[req.outputType];
   const levelLabel = LEVEL_LABELS[req.level];
@@ -103,9 +103,7 @@ export function buildTeacherRequest(
     ``,
     req.idea ? `Teacher's idea or rough plan:\n"""\n${req.idea}\n"""` : "",
     attachment
-      ? attachment.text !== undefined
-        ? `The teacher uploaded an existing plan ("${attachment.name}"). Use it as source material:\n<uploaded_plan>\n${attachment.text}\n</uploaded_plan>`
-        : `The teacher uploaded an existing plan ("${attachment.name}", attached above as a PDF). Use it as source material.`
+      ? `The teacher uploaded an existing plan ("${attachment.name}"). Use it as source material:\n<uploaded_plan>\n${attachment.text}\n</uploaded_plan>`
       : "",
   ]
     .filter((l) => l !== "")

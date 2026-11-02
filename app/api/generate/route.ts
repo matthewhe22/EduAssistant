@@ -1,6 +1,7 @@
 import { getSubject } from "@/lib/curriculum";
 import { prepareAttachment } from "@/lib/generator/attachments";
-import { generateStructured } from "@/lib/generator/claude";
+import { resolveAiConfig } from "@/lib/ai/config";
+import { generateStructured } from "@/lib/generator/llm";
 import { buildCurriculumContext, buildTeacherRequest } from "@/lib/generator/context";
 import { OUTPUTS } from "@/lib/generator/outputs";
 import { GenerateRequestSchema, type StoredTeacherInput } from "@/lib/generator/schema";
@@ -37,23 +38,13 @@ export async function POST(request: Request) {
   }
 
   return ndjsonResponse(async (send, progress) => {
+    const ai = await resolveAiConfig(db, user?.id ?? null);
     const attachment = req.attachment ? await prepareAttachment(req.attachment) : undefined;
-    const teacherRequest = buildTeacherRequest(
-      req,
-      subject,
-      ctx,
-      attachment && (attachment.kind === "text" ? { name: attachment.name, text: attachment.text } : { name: attachment.name }),
-    );
-
     const result = await generateStructured({
       schema: def.schema,
+      ai,
       curriculumText: ctx.text,
-      requestBlocks: [
-        ...(attachment?.kind === "pdf"
-          ? [{ type: "document" as const, title: attachment.name, source: { type: "base64" as const, media_type: "application/pdf" as const, data: attachment.data } }]
-          : []),
-        { type: "text", text: teacherRequest },
-      ],
+      requestText: buildTeacherRequest(req, subject, ctx, attachment),
       onProgress: progress,
       signal: request.signal,
     });

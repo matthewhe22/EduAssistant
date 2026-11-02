@@ -68,9 +68,13 @@ export function PlanForm({
   initial = {},
   initialNote,
   templates: initialTemplates = [],
+  modelLabel,
+  hasKey = true,
 }: {
   subjects: SubjectOption[];
   canSave: boolean;
+  modelLabel?: string;
+  hasKey?: boolean;
   initial?: FormSettings;
   initialNote?: string;
   templates?: TemplateOption[];
@@ -391,6 +395,15 @@ export function PlanForm({
               <dd>{DIFFICULTY_UI[difficulty]}</dd>
               <dt className="text-[#AEB6BE]">From</dt>
               <dd className="truncate">{file ? file.name : idea.trim() ? "Your idea" : "—"}</dd>
+              {modelLabel && (
+                <>
+                  <dt className="text-[#AEB6BE]">Model</dt>
+                  <dd>
+                    {modelLabel}
+                    {canSave && <a href="/usage" className="ml-2 text-sm text-wattle hover:text-wattle">change</a>}
+                  </dd>
+                </>
+              )}
             </dl>
             <button type="submit" disabled={status === "generating"} className="btn-wattle min-h-[52px] w-full text-[17px]">
               {status === "generating" ? "Working on it…" : OUTPUT_UI[outputType].make}
@@ -409,6 +422,11 @@ export function PlanForm({
             )}
             {!canSave && <p className="mt-3 text-xs text-[#AEB6BE]">Local mode: results aren&apos;t saved.</p>}
           </div>
+          {!hasKey && (
+            <Notice>
+              No AI key is set up yet. {canSave ? <><a href="/usage">Add your Tenon API key</a> on the Usage page.</> : "Set TENON_API_KEY on the server."}
+            </Notice>
+          )}
           {status === "error" && <Notice tone="error">{error}</Notice>}
           {canSave && (
             <div className="card flex flex-col gap-2.5 p-4">

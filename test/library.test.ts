@@ -4,17 +4,26 @@ import { FormSettingsSchema, isOverBudget, settingsFrom } from "@/lib/library/se
 import { dailySpend, feedbackByType, summariseUsage, type UsageRow } from "@/lib/library/stats";
 
 describe("pricing", () => {
-  it("prices Opus 5.5 including cache writes and reads", () => {
-    // 1M uncached in ($4) + 1M cache write ($5) + 1M cache read ($0.20) + 1M out ($20)
-    expect(costUsd("claude-opus-5-5", { inputTokens: 1e6, cacheWriteTokens: 1e6, cacheReadTokens: 1e6, outputTokens: 1e6 })).toBe(29.2);
+  it("prices DeepSeek V4.1 Flash on Tenon, with cached input", () => {
+    // 1M uncached in ($0.24) + 1M cached ($0.0072) + 1M out ($0.72)
+    expect(costUsd("deepseek-v4.1-flash", { inputTokens: 1e6, cacheWriteTokens: 0, cacheReadTokens: 1e6, outputTokens: 1e6 })).toBe(0.9672);
+    // A typical lesson plan: 8k input, 3k output
+    expect(costUsd("deepseek-v4.1-flash", { inputTokens: 8000, cacheWriteTokens: 0, cacheReadTokens: 0, outputTokens: 3000 })).toBe(0.00408);
   });
-  it("matches dated ids by prefix and falls back to Opus 5.5", () => {
-    expect(priceFor("claude-sonnet-5-5-20261001").input).toBe(2);
-    expect(priceFor("unknown-model").input).toBe(4);
+  it("bills cached input at the input rate when no cache price exists", () => {
+    expect(costUsd("claude-sonnet-5-5", { inputTokens: 0, cacheWriteTokens: 0, cacheReadTokens: 1e6, outputTokens: 0 })).toBe(2.4);
+  });
+  it("matches dated ids by prefix; unknown models cost 0", () => {
+    expect(priceFor("deepseek-v4.1-flash-1017")?.input).toBe(0.24);
+    expect(priceFor("glm-5.3-20261101")?.input).toBe(1.08);
+    expect(priceFor("mystery-model")).toBeNull();
+    expect(costUsd("mystery-model", { inputTokens: 1e6, cacheWriteTokens: 0, cacheReadTokens: 0, outputTokens: 1e6 })).toBe(0);
   });
   it("formats small and large amounts", () => {
+    expect(formatUsd(0.00408)).toBe("US$0.0041");
     expect(formatUsd(0.0423)).toBe("US$0.042");
     expect(formatUsd(12.5)).toBe("US$12.50");
+    expect(formatUsd(0)).toBe("US$0");
   });
 });
 

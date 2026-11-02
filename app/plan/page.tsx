@@ -3,7 +3,10 @@ import { PlanForm, type TemplateOption } from "@/components/PlanForm";
 import { getCurriculumIndex } from "@/lib/curriculum";
 import { isUuid } from "@/lib/library/server";
 import { FormSettingsSchema, settingsFrom, type FormSettings } from "@/lib/library/settings";
+import { DEFAULT_MODEL } from "@/lib/ai/config";
+import { labelFor } from "@/lib/ai/models";
 import { pageUser } from "@/lib/auth/page";
+import { getAiSettings } from "@/lib/data/settings";
 import { getGeneration } from "@/lib/data/generations";
 import { listTemplates } from "@/lib/data/templates";
 
@@ -18,6 +21,10 @@ export default async function PlanPage({ searchParams }: { searchParams: { from?
   let templates: TemplateOption[] = [];
   let initial: FormSettings = {};
   let note: string | undefined;
+
+  const settings = auth ? await getAiSettings(auth.db, auth.user.id) : null;
+  const modelLabel = labelFor(settings?.model || DEFAULT_MODEL);
+  const hasKey = Boolean(settings?.apiKey || process.env.TENON_API_KEY);
 
   if (auth) {
     templates = (await listTemplates(auth.db, auth.user.id)).flatMap((t) => {
@@ -42,7 +49,7 @@ export default async function PlanPage({ searchParams }: { searchParams: { from?
 
   return (
     <Page eyebrow="New material" title="What are you teaching next?">
-      <PlanForm subjects={subjects} canSave={Boolean(auth)} initial={initial} initialNote={note} templates={templates} />
+      <PlanForm subjects={subjects} canSave={Boolean(auth)} initial={initial} initialNote={note} templates={templates} modelLabel={modelLabel} hasKey={hasKey} />
     </Page>
   );
 }

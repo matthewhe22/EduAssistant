@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import path from "node:path";
 import { Document, Packer, Paragraph } from "docx";
 import { describe, expect, it } from "vitest";
-import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
+import { z } from "zod";
 import type { SubjectCurriculum } from "@/lib/curriculum/types";
 import { AttachmentError, MAX_ATTACHMENT_TEXT, prepareAttachment } from "@/lib/generator/attachments";
 import { buildCurriculumContext, buildTeacherRequest, resolveItemCount } from "@/lib/generator/context";
@@ -11,6 +11,7 @@ import { SYSTEM_PROMPT } from "@/lib/generator/pedagogy";
 import { GenerateRequestSchema, type GenerateRequest } from "@/lib/generator/schema";
 import { validateOutput } from "@/lib/generator/validate";
 import { docxFilename, outputToDocx } from "@/lib/export/docx";
+import { makePdf } from "./fixtures/pdf";
 import { samplePlan } from "./fixtures/sample-plan";
 import { SAMPLES } from "./fixtures/samples";
 
@@ -72,11 +73,10 @@ describe("buildTeacherRequest", () => {
     expect(resolveItemCount({ outputType: "lesson_plan", itemCount: 5 })).toBe(0);
   });
 
-  it("includes uploaded text, or refers to an attached PDF", () => {
+  it("includes the uploaded plan's text", () => {
     const withText = buildTeacherRequest(request(), maths, mathsCtx, { name: "old.docx", text: "My old plan" });
+    expect(withText).toContain('existing plan ("old.docx")');
     expect(withText).toContain("<uploaded_plan>\nMy old plan\n</uploaded_plan>");
-    const withPdf = buildTeacherRequest(request(), maths, mathsCtx, { name: "old.pdf" });
-    expect(withPdf).toContain('"old.pdf", attached above as a PDF');
   });
 });
 
@@ -96,7 +96,7 @@ describe("request schema", () => {
 describe.each(OUTPUT_TYPES)("output type %s", (type) => {
   const def = OUTPUTS[type];
   it("has a valid structured-output schema and sample", () => {
-    expect(zodOutputFormat(def.schema).type).toBe("json_schema");
+    expect(z.toJSONSchema(def.schema)).toMatchObject({ type: "object" });
     expect(def.schema.safeParse(SAMPLES[type]).success).toBe(true);
   });
 
@@ -133,10 +133,11 @@ describe("validateOutput", () => {
 describe("attachments", () => {
   const b64 = (s: string | Buffer) => Buffer.from(s).toString("base64");
 
-  it("passes PDFs through and reads text files", async () => {
-    expect(await prepareAttachment({ name: "a.pdf", mediaType: "application/pdf", data: "JVBERi0=" })).toEqual({ kind: "pdf", name: "a.pdf", data: "JVBERi0=" });
+  it("extracts text from PDFs and reads text files", async () => {
+    const pdf = await prepareAttachment({ name: "a.pdf", mediaType: "application/pdf", data: b64(makePdf("Equivalent fractions with strips")) });
+    expect(pdf.text).toContain("Equivalent fractions with strips");
+    await expect(prepareAttachment({ name: "bad.pdf", mediaType: "application/pdf", data: b64("not a pdf") })).rejects.toThrow(/valid PDF/);
     expect(await prepareAttachment({ name: "a.md", mediaType: "text/markdown", data: b64("# Plan\r\n\r\n\r\n\r\nFractions") })).toEqual({
-      kind: "text",
       name: "a.md",
       text: "# Plan\n\nFractions",
     });
@@ -146,7 +147,7 @@ describe("attachments", () => {
     const doc = new Document({ sections: [{ children: [new Paragraph("Lesson: equivalent fractions")] }] });
     const buf = await Packer.toBuffer(doc);
     const out = await prepareAttachment({ name: "p.docx", mediaType: "application/vnd.openxmlformats-officedocument.wordprocessingml.document", data: b64(buf) });
-    expect(out.kind === "text" && out.text).toContain("equivalent fractions");
+    expect(out.text).toContain("equivalent fractions");
   });
 
   it("rejects empty, invalid or overly long files instead of truncating", async () => {

@@ -25,14 +25,18 @@ vi.mock("next/navigation", () => ({
     throw new Error("NEXT_NOT_FOUND");
   },
 }));
-vi.mock("@/lib/generator/claude", async () => {
-  const actual = await vi.importActual<typeof import("@/lib/generator/claude")>("@/lib/generator/claude");
-  return { ...actual, generateStructured: vi.fn() };
+vi.mock("@/lib/generator/llm", async () => {
+  const actual = await vi.importActual<typeof import("@/lib/generator/llm")>("@/lib/generator/llm");
+  return {
+    ...actual,
+    generateStructured: vi.fn(),
+    checkApiKey: vi.fn(async (key: string) => (key.includes("bad") ? "invalid" : "ok")),
+  };
 });
 
 import { migrate } from "../scripts/db/migrate.mjs";
 import { setDbForTesting, type Db } from "@/lib/db";
-import { generateStructured } from "@/lib/generator/claude";
+import { generateStructured } from "@/lib/generator/llm";
 import { signIn, signUp } from "@/app/login/actions";
 import { POST as generate } from "@/app/api/generate/route";
 import { POST as refine } from "@/app/api/refine/route";
@@ -40,6 +44,8 @@ import { POST as feedback } from "@/app/api/generations/[id]/feedback/route";
 import { DELETE as deleteGen } from "@/app/api/generations/[id]/route";
 import { GET as listTpl, POST as createTpl } from "@/app/api/templates/route";
 import { POST as setBudget } from "@/app/api/budget/route";
+import { POST as saveAi } from "@/app/api/ai-settings/route";
+import { resolveAiConfig } from "@/lib/ai/config";
 import { listGenerations } from "@/lib/data/generations";
 import { monthSpend } from "@/lib/data/users";
 
@@ -67,7 +73,7 @@ async function redirectOf(p: Promise<unknown>) {
 }
 const genBody = { level: "3", subjectSlug: "mathematics", idea: "Fractions with paper strips", difficulty: "at", lessonMinutes: 55 };
 async function generateOne() {
-  mocked.mockResolvedValue({ content: samplePlan, model: "claude-opus-5-5", usage } as never);
+  mocked.mockResolvedValue({ content: samplePlan, model: "deepseek-v4.1-flash", usage } as never);
   const lines = (await (await generate(json(genBody))).text()).trim().split("\n");
   return JSON.parse(lines.at(-1)!);
 }
@@ -78,6 +84,8 @@ beforeAll(async () => {
   await migrate(db, () => {});
   setDbForTesting(db);
   process.env.DATABASE_URL = "postgres://test/unused";
+  process.env.TENON_API_KEY = "sk-tx-server";
+  process.env.SETTINGS_SECRET = "test-secret-at-least-16-chars";
 });
 afterAll(() => setDbForTesting(null));
 beforeEach(() => mocked.mockReset());
@@ -86,7 +94,7 @@ describe("migrations", () => {
   it("apply once and are idempotent", async () => {
     await migrate(db, () => {});
     const { rows } = await db.query<{ name: string }>("select name from schema_migrations");
-    expect(rows.map((r) => r.name)).toEqual(["001_init.sql"]);
+    expect(rows.map((r) => r.name)).toEqual(["001_init.sql", "002_ai_settings.sql"]);
   });
 });
 
@@ -150,14 +158,14 @@ describe("as a signed-in teacher", () => {
       "select cost_usd, cache_write_tokens, user_id, content from generations where id = $1",
       [result.generationId],
     );
-    expect(rows[0]).toMatchObject({ cost_usd: "0.0669", cache_write_tokens: 5000, user_id: teacherA });
+    expect(rows[0]).toMatchObject({ cost_usd: "0.066900", cache_write_tokens: 5000, user_id: teacherA });
     expect(rows[0].content.output.title).toBe(samplePlan.title);
     expect(await monthSpend(db, teacherA)).toBeCloseTo(0.0669);
   });
 
   it("refines and saves a section, logging a refine event", async () => {
     const { generationId } = await generateOne();
-    mocked.mockResolvedValue({ content: { ...samplePlan, overview: "New overview" }, model: "claude-opus-5-5", usage } as never);
+    mocked.mockResolvedValue({ content: { ...samplePlan, overview: "New overview" }, model: "deepseek-v4.1-flash", usage } as never);
     await (await refine(json({ ...genBody, outputType: "lesson_plan", section: "overview", instruction: "shorter", content: samplePlan, generationId }))).text();
     const { rows } = await db.query<{ content: { output: { overview: string } } }>("select content from generations where id = $1", [generationId]);
     expect(rows[0].content.output.overview).toBe("New overview");
@@ -200,6 +208,24 @@ describe("as a signed-in teacher", () => {
     expect(rows[0].n).toBe(1);
   });
 
+  it("stores the Tenon key encrypted, uses it and the chosen model", async () => {
+    expect((await resolveAiConfig(db, teacherA)).keySource).toBe("server");
+    expect((await saveAi(json({ apiKey: "sk-tx-bad-key-123" }))).status).toBe(400);
+    expect((await saveAi(json({ apiKey: "sk-tx-teacher-a-0001", model: "claude-sonnet-5-5" }))).status).toBe(200);
+    const { rows } = await db.query<{ api_key_enc: string; api_key_hint: string; default_model: string }>("select * from user_settings where user_id = $1", [teacherA]);
+    expect(rows[0].api_key_enc).not.toContain("teacher-a");
+    expect(rows[0].api_key_hint).toBe("sk-tx-…0001");
+    expect(await resolveAiConfig(db, teacherA)).toEqual({ apiKey: "sk-tx-teacher-a-0001", model: "claude-sonnet-5-5", keySource: "user" });
+
+    mocked.mockResolvedValue({ content: samplePlan, model: "claude-sonnet-5-5", usage } as never);
+    await (await generate(json(genBody))).text();
+    expect(mocked.mock.calls.at(-1)![0].ai).toEqual({ apiKey: "sk-tx-teacher-a-0001", model: "claude-sonnet-5-5", keySource: "user" });
+
+    expect((await saveAi(json({ removeKey: true }))).status).toBe(200);
+    expect(await resolveAiConfig(db, teacherA)).toEqual({ apiKey: "sk-tx-server", model: "claude-sonnet-5-5", keySource: "server" });
+    expect((await saveAi(json({ model: "bad model id!" }))).status).toBe(400);
+  });
+
   it("isolates teachers from each other", async () => {
     const { generationId } = await generateOne();
     jar.clear();
@@ -207,6 +233,7 @@ describe("as a signed-in teacher", () => {
     expect((await feedback(json({ rating: 1 }), { params: { id: generationId } })).status).toBe(404);
     expect((await deleteGen(new Request("http://test"), { params: { id: generationId } })).status).toBe(404);
     expect((await (await listTpl()).json()).templates).toEqual([]);
+    expect((await resolveAiConfig(db, (await db.query<{ id: string }>("select id from users where email = 'colleague@x.com'")).rows[0].id)).keySource).toBe("server");
     const { rows } = await db.query<{ n: number }>("select count(*)::int n from generations where id = $1", [generationId]);
     expect(rows[0].n).toBe(1);
   });
