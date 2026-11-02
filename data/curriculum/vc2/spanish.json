@@ -1,0 +1,615 @@
+{
+  "subject": "Spanish",
+  "slug": "spanish",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the Spanish language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes and discovering how languages are influenced by each other. They explore Spanish through play, first imitating sounds and patterns, then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that Spanish sounds are represented by letters, and they can match these with words, combining them in increasingly complex ways. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken Spanish. They expand their repertoire of Spanish words and phrases through listening and reading, and then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of Spanish using simple metalanguage. They start to develop written competence by copying letters and words, and then produce the language with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the written Spanish language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that Spanish is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s).",
+      "contentDescriptions": [
+        {
+          "code": "VC2LS2E01",
+          "strand": "Engaging with Spanish Language and Culture",
+          "subStrand": "Engaging with Spanish language",
+          "text": "notice that Spanish looks and sounds different to other languages",
+          "elaborations": [
+            "becoming familiar with the Spanish alphabet, noticing that there is an additional letter that is not in the English alphabet, the ñ, and exposing students to the sounds of words such as España and mañana",
+            "recognising that Spanish uses the Roman alphabet and that it may be different from other alphabets or scripts, for example, those represented in languages spoken by students in the class",
+            "recognising that some sounds in Spanish do not exist in English or some other languages and vice versa, and therefore may be challenging to pronounce, for example, La letra erre; la ere",
+            "noticing that many onomatopoeic terms (e.g. animal sounds) may be different from those in English and/or other languages when reading stories or singing songs, for example, El pollito dice pío, el gallo dice quiquiriquí, el gato dice miau, el perro dice guau",
+            "recognising and applying Spanish vowel sounds and consonant-vowel combinations",
+            "tracing letters and common words in Spanish and English, then reading them out loud, identifying some similarities and differences",
+            "developing pronunciation, phrasing and intonation skills by singing, reciting and repeating words and phrases in context, for example, marching to a tune or beat, or clapping on each syllable of a word",
+            "reproducing the sounds and rhythms of Spanish by repeating after and imitating the teacher, through choral repetition or chants",
+            "participating in Spanish versions of children's songs, games and rhymes, identifying some similarities and differences with versions in English and/or other languages, for example, characters, tunes, keywords and cognates"
+          ]
+        },
+        {
+          "code": "VC2LS2E02",
+          "strand": "Engaging with Spanish Language and Culture",
+          "subStrand": "Engaging with Spanish language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "singing a variety of songs with repetitive words to facilitate the learning of pronunciation and intonation such as 'Los pollitos dicen', or songs with English equivalents such as 'Cabeza, hombros, rodillas, pies'",
+            "playing alphabet games and songs, and imitating sounds, intonation patterns, tongue placement and shape of mouth to pronounce letters",
+            "playing bingo with sounds, words or phrases with cards or boards created using their 'favourite' Spanish words in class",
+            "sorting flashcards with familiar images and/or words into categories of the sounds, for example, different vowels, starting consonants and rhyming pairs",
+            "creating a short wordlist of words grouped into like sounds and practising saying the words, noticing similarities in sounds and spelling",
+            "playing and experimenting with language by participating in songs, dances, rhymes and games, and creating mnemonic devices",
+            "engaging in shared listening, reading and viewing of texts and discussing reactions, themes, and familiar keywords and phrases",
+            "creating word games or rhymes, for example, matching animals or objects with names such as Leo el león and Paquita la vaquita",
+            "developing pronunciation, phrasing and intonation skills by singing, reciting and repeating words and phrases in context, for example, marching to a tune or beat",
+            "transforming simple statements into questions by raising the pitch of their voice at the end, for example, Fernanda no está. / ¿Fernanda no está?"
+          ]
+        },
+        {
+          "code": "VC2LS2E03",
+          "strand": "Engaging with Spanish Language and Culture",
+          "subStrand": "Engaging with Spanish language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "creating choral responses as part of daily routines such as marking the roll, singing a greetings song when starting and finishing the lesson, and using gestures to accompany greetings",
+            "using full-body responses to class instructions, such as doing hand gestures when given the instruction Corta, or putting one hand behind their ear for Escucha",
+            "following the teacher's instructions (e.g. Corta; Colorea; Pega) to complete an activity such as building or drawing an imaginary character or object using shapes, colours or body parts, for example, Dibuja la cabeza…",
+            "using common greetings and gestures when interacting with others at different times of the day and in different contexts, using appropriate forms of address, for example, ¡Hola, amigas y amigos! and ¡Buenos días, profesora! in informal and formal settings, respectively",
+            "using modelled language to introduce themselves with gestures such as pointing to themselves or holding up their fingers, for example, Me llamo / Mi nombre es…; Yo tengo… años",
+            "participating in class activities or routines and following instructions, for example, Presente, aquí; ¿Baño?; Gracias; Lo siento; Por favor; ¡Siéntate!; ¡Levántate!",
+            "using simple statements to express likes and dislikes, for example, Me gusta or No me gusta in response to simple questions, and using the coordinating conjunction y to list more than one item, for example, Me gustan el perro y el gato",
+            "using spontaneous expressions, phrases and non-verbal communication when playing games or engaging in activities with others, for example, ¡Gané!; Es mi turno; Por favor…; Gracias; De nada; Silencio (with index finger to lips), and using gestures to accompany short answers and expressions (e.g. Sí; No; Así, así; No sé; ¡Ojo!)",
+            "responding to simple classroom instructions and roll call (e.g., Forma una línea; A caminar; María está aquí; Estoy aquí; No está aquí), and following classroom commands and imperatives using actions or gestures, for example, Siéntense/Sentaos; Silencio, escuchen/escuchad; Recojan/Recoged sus/vuestras cosas; Formen/Formad un círculo; Todos de pie; Levanta la mano; Cierra la puerta",
+            "responding to spoken language and instructions through movement or creative expression such as counting with fingers to a number song, doing actions to match the meaning of words or music, acting and miming"
+          ]
+        },
+        {
+          "code": "VC2LS2E04",
+          "strand": "Engaging with Spanish Language and Culture",
+          "subStrand": "Engaging with Spanish culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "recognising the cultural significance of hand gestures and facial expressions that accompany Spanish words and phrases, and that the meanings and use of simple expressions can sometimes be conveyed non-verbally",
+            "using simple expressions such as greetings for different times of the day, occasions and people (e.g. ¡Buenos días, profesora/señora/maestra!; ¡Buenas tardes!; ¡Buenas noches!; Hola, ¿qué tal?; ¿Cómo está?)",
+            "noticing body language and tone when using some Spanish words, expressions and exclamations when playing and conversing with one another (e.g. ¡Ay!; ¡Salud!), and comparing these with English words",
+            "researching traditional children's toys and games from a range of Spanish-speaking countries, for example, wooden yoyos or lotería, and playing with these toys and games in class",
+            "playing and engaging with cultural items from Spanish-speaking countries, such as euros, postcards and authentic items",
+            "exchanging ideas, feelings and understandings of language and culture through play-based experiences such as dress-ups, puppets, and pretend cafés and Spanish shops such as la panaderia and el mercado",
+            "participating in role-plays, where children act out imaginary situations and stories, becoming different characters, which may involve pretending they are in different locations and times, for example, after reading traditional stories or learning about a cultural practice",
+            "learning the basic steps of a traditional dance from a Spanish-speaking country, such as flamenco, Mexican folk dance or traditional cumbia",
+            "understanding that different forms of language are used with different people to show respect and familiarity and that there may be regional variations, for example, using appropriate pronouns and forms of address such as tú, usted, vos, doctor García, Doña Aura, Joselito and Amelita"
+          ]
+        },
+        {
+          "code": "VC2LS2C01",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Interacting in Spanish",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "interacting with the teacher and their peers to introduce themselves; greet and farewell others; describe friends, family and favourite things; respond to greetings; and express feelings and emotions such as ¿Cómo estás? Estoy contento/a.",
+            "naming and describing mi persona especial, such as a family member, carer or friend, understanding that families are diverse",
+            "conveying factual information about favourite things at the level of words or simple sentences, for example, Mi casa es grande; La pelota es roja; Tu celular es nuevo",
+            "talking about their preferred activities and likes/dislikes by creating a shared vocabulary, for example, Me gusta el fútbol australiano; No me gusta la sopa",
+            "creating, describing or acting out the part of real or imaginary characters using formulaic language, favourite sayings and supporting pictures/models, or pointing to relevant aspects as they explain, for example, El monstruo tiene ojos grandes; Mi perro tiene ojos marrones/café; Soy un zorro, me gusta el pollo",
+            "introducing and describing themselves using modelled sentence structures and visual supports such as photos, pictures or digital images, for example, Me llamo Jorge. Tengo siete años. Tengo un/a hermano/a. Este es mi papá. Esta es mi mamá. Mi perro es blanco.",
+            "exchanging, sorting and classifying objects and attributes by shape, colour and number, using simple question forms and affirmative/negative responses, for example, ¿Tienes un triángulo amarillo? Sí, toma; ¿Tienes un cículo rojo? No, tengo un cículo azul.",
+            "taking part in short role-plays or skits using spoken and visual cues, props and authentic resources such as toys, clothing, models and toy food, for example, ¿Tienes una mascota? Sí, este es mi perro. Es lindo ¿no?",
+            "using formulaic language to express thanks, apologies or praise and to offer well wishes or encouragement, for example, Gracias; De nada; Lo siento; Disculpa; Muy bien; ¡Qué divertido!"
+          ]
+        },
+        {
+          "code": "VC2LS2C02",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Interacting in Spanish",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "reading books in Spanish together during circle time, using simple modelled expressions (e.g. ¡Ay no!; ¿Qué pasa?; ¡Qué bien!) and responding to stories using gestures",
+            "describing images from books, photos or posters, building on vocabulary in a visible and relatable way",
+            "using a familiar children's story and rewriting it as a class, modifying some words, for example, in La oruga muy hambrienta, change El sábado, comió una quesadilla…, and then editing their own texts or a collaborative text",
+            "participating in games or activities that involve taking turns, suggesting, making choices or swapping/matching items, for example, Vamos a jugar a «pares y nones»; Vamos a pintar; ¿Qué hora es, señor Lobo? Es hora de correr/saltar/volar.; El escondite inglés; La vaca eres tú; Me toca; Gané; Te toca; Simón dice: «todos a saltar»",
+            "using spontaneous expressions, phrases and non-verbal communication when playing games or engaging in activities with others, for example, ¡Gané! Es mi turno; Por favor,…; Gracias; De nada; Silencio (with index finger to lips)",
+            "observing features of familiar types of texts such as stories, greeting cards and nursery rhymes, for example, the use of the story-starter Érase una vez…, and comparing it with English",
+            "asking questions during play, for example, asking ¿Dónde está?, when an object or toy is hidden in class, and then receiving clues from the rest of the class in Spanish to help them find it",
+            "participating in shared class stories such as La oruga muy hambrienta, and responding to and repeating keywords (e.g. Clase, clase…; Sí, sí; ¿Qué pasa?; ¿Qué come la oruga?), or pretending to be a character and using words, actions and phrases from the text (e.g. ¡Tengo hambre!)",
+            "demonstrating early literacy skills and comprehension of texts by labelling, matching, drawing, miming or onscreen pointing, clicking or dragging, for example, cutting and gluing pictures of events in a timeline sequence, or dragging onscreen pictures to words",
+            "presenting factual information about themselves, their family, friends and everyday objects, using simple statements and visual support materials"
+          ]
+        },
+        {
+          "code": "VC2LS2C03",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "participating in shared reading, viewing or listening to short, imaginative texts with peers, and responding through mime, drawing and dance",
+            "listening to the teacher's instructions and using non-verbal cues to label, match, circle, cross out, join or draw items, for example, la mesa; el lápiz; el cuaderno; la pera; la manzana; el perro; el gato",
+            "listening to, reading or viewing adapted Spanish versions of familiar stories (e.g. 'Ricitos de oro y los tres ositos'; 'Los tres cerditos'; 'El patito feo'), and incorporating recurring keywords and expressions when re-enacting elements with puppets, actions or props, for example, ¡El lobo es feroz!; El osito está triste",
+            "responding to questions about people, places and objects that elicit details such as characteristics, size, colour, shape or quantity, for example, ¿De qué color es la casa? La casa es azul.; ¿Dónde está el gato? El gato está en Lima.; ¿Cuántos cerdos hay?; ¿Tico Tango es un loro grande o pequeño?",
+            "responding to spoken, print or digital texts, such as stories, rhymes, dialogues and songs through playacting, illustration or movement, for example, raising their hand and saying sí or no to a question about the text, or circling a favourite character",
+            "categorising information using graphic organisers such as drawings or simple tables, for example, recording likes or dislikes, or classifying animals, masculine/feminine words or fruits/vegetables",
+            "responding to texts by sequencing pictures and simple text in the order that events occurred, or by creating a storyboard to retell a story or information",
+            "reading a Big Book or viewing a PowerPoint of a known text and making informed guesses for words that have been covered up or blanked out"
+          ]
+        },
+        {
+          "code": "VC2LS2C04",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in Spanish through play, and discover how languages influence each other",
+          "elaborations": [
+            "recognising that aspects of songs, stories, rhymes and pictures from Spanish-speaking cultures may look or feel similar or different from their own language(s) and culture(s)",
+            "understanding that the English and Spanish languages borrow words from each other and that some words in English and Spanish come from other languages",
+            "listening to recordings of animals and saying their names in Spanish, exploring and comparing familiar onomatopoeia in Spanish and English, such as pío (pájaro), quiquiriquí (gallo), miau (gato) and guau (perro), and then making the relevant noise when their teacher says the name of the animal",
+            "using numbers for simple ideas, for example, telling the time to the hour (e.g. ¿Qué hora es?), expressing age and dates, and playing games such as What's the time, Mr Wolf?",
+            "playing hide-and-seek with classroom objects, for example, ¿Dónde está el lápiz? Debajo de la mesa.",
+            "recognising Spanish–English cognates and creating a word wall to refer to during class games and activities",
+            "recognising target vocabulary and playing group snap to demonstrate their understanding by racing to find the image of the word the teacher calls",
+            "performing role-plays, such as buying fruits and vegetables, or acting as a character from a story that is familiar to the class"
+          ]
+        },
+        {
+          "code": "VC2LS2C05",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Creating text in Spanish",
+          "text": "create spoken and written texts using words, familiar phrases and modelled language",
+          "elaborations": [
+            "using digital tools or apps collaboratively in pairs or groups to enhance learning, recall and digital literacy, and to encourage sharing and teamwork, for example, listening to or reading Spanish texts and matching pictures to words; tracing words on the screen; or repeating words they hear",
+            "revising target vocabulary or sentences by contributing to class activities and resources that involve naming, illustrating and matching, for example, placing keywords in Spanish with pictures on a wall display or collage, and adding to the display throughout the year",
+            "naming family members, friends and pets using props such as photos, pictures, toys or models made from plasticine or playdough (e.g. mi hermano Jonathan; mi perro Bobby; mi amiga Amelia), and then using singular possessive adjectives (e.g. mi casa, mi hermano, tu amiga) to show ownership, for example, Este es mi lápiz",
+            "using formulaic expressions to write cards for congratulations, praise or well wishes related to special occasions or events (e.g. ¡Feliz Navidad!; ¡Feliz cumpleaños!; ¡Feliz Año Nuevo!), and using basic punctuation marks such as inverted question marks and exclamation marks in modelled expressions",
+            "collaborating to create spoken texts and role-plays representing different scenarios, for example, practising parts of the body by acting out me duele and naming different parts of the body, while the audience responds using words (e.g. ¡Qué mal!) and body language",
+            "creating posters using images and single words, sentences or paragraphs to display and share with the class",
+            "noticing the endings of simple verbs (e.g. comer, bailar, hablar, escribir, correr, jugar, caminar), and using the verbs in modelled and formulaic expressions, for example, Yo hablo español; Yo juego al fútbol",
+            "recognising the use of accents in subject pronouns and using some pronouns to identify people, objects or animals, for example, yo, tú, él, ella",
+            "creating simple personal, imaginative or informative texts in hard copy or on electronic devices, which may include pictorial representations",
+            "creating, describing or acting out real or imaginary characters in a story, using formulaic language, favourite sayings and supporting pictures/models or pointing to relevant aspects as they explain, for example, El monstruo tiene ojos grandes; Mi perro tiene ojos marrones/café; Soy un zorro, me gusta el pollo"
+          ]
+        },
+        {
+          "code": "VC2LS2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of spoken Spanish, and understand how sounds are produced",
+          "elaborations": [
+            "experimenting with onomatopoeia and noticing the different mouth and tongue movements required to make the sounds, for example, toc-toc for door knocking, ñam-ñam for eating, or chu-chu or chuca-chuca for a train",
+            "practising the facial movements involved with making sound blends in Spanish, and practising open and closed vowels",
+            "saying and comparing the feeling of the sound of the soft r between vowels and the rr",
+            "saying and/or singing Spanish alphabet rhymes or songs, and noticing that Spanish has the same alphabet as English with the exception of the ñ, but that the letters have different names and make different sounds",
+            "reproducing Spanish sounds and intonation patterns through imitation, such as reciting nursery rhymes, tongue twisters and singing songs, for example, singing 'El muñeco Pim Pon'",
+            "noticing that statements and questions have different intonations (e.g. Luisa no está. / ¿Luisa no está?), by playing a game where they sit down for statements and stand up for questions",
+            "using gestures to indicate the intonation patterns they hear, for example, moving their arm upwards when the intonation rises",
+            "listening to and imitating Spanish speakers to practise pronunciation and intonation in Spanish",
+            "singing songs or repeating language after the teacher with a focus on practising and pronouncing the 5 vowel sounds and consonant-vowel sounds",
+            "recognising that some sounds in Spanish do not exist in English or some other languages and vice versa, and that therefore they may be challenging to pronounce (e.g. la letra erre vs. la ere)"
+          ]
+        },
+        {
+          "code": "VC2LS2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "recognising and imitating the sounds of vowels when combined in diphthongs in common words such as baila, aire, nueve, Europa and siete",
+            "listening to and creating simple spoken and written texts using modelled examples and formulaic language",
+            "using gender (e.g. el pastel / la torta), simple verb forms (e.g. estudiar, comer, dormir), definite articles, and vocabulary related to familiar environments to describe people, places and things",
+            "recognising and applying Spanish vowel sounds and consonant-vowel combinations",
+            "sounding out words using syllables and practising saying the words, for example, by using syllable cards with the syllables of each word appearing on different cards, and then working in pairs or groups to put the word together and explain their reasoning",
+            "noticing that there are familiar words that form a family and that this may help them understand the meaning, such as pan, panadero/a and panadería",
+            "using high-frequency verbs in a variety of contexts",
+            "underlining rhyming words or graphemes in short texts or poems",
+            "clapping out the number of sounds in words and guessing the number of syllables, for example, saying the word a-mi-gos and clapping 3 times"
+          ]
+        },
+        {
+          "code": "VC2LS2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how the Roman alphabet and features of language are used to construct meaning in Spanish",
+          "elaborations": [
+            "recognising that the Spanish alphabet looks similar to English but that the letters have different names and often sound different",
+            "gaining phonological awareness and letter-recognition skills by viewing and touching letters, for example, tracing letters in sand or modelling them with playdough",
+            "playing with physical or electronic letter tiles that can include the ñ, to form simple, frequently used words",
+            "imitating Spanish sounds such as the j in viaje, the ñ in niña, the ll in calle and the rr in carro",
+            "identifying additional consonants and digraphs in Spanish such as ñ and ch, and the pronunciation of double consonants such as ll and rr, and experimenting with the positioning of the tongue when producing these sounds",
+            "listening to familiar vocabulary and identifying h as a silent letter (e.g. hola, hermana, hoy), and comparing words beginning with the letter h in Spanish and English (e.g. hola vs. hello) or other languages, as well as words beginning with a 'h' sound in Spanish (e.g. jirafa vs. jelly)",
+            "identifying letters in the context of words, paying attention to different letters such as ñ or letters that represent different sounds such as j",
+            "listening to and identifying words, for example, using alphabet cards to play bingo, where they circle target words sounded out by the teacher",
+            "observing that days of the week and months of the year are written with lower-case letters, except at the start of sentences"
+          ]
+        },
+        {
+          "code": "VC2LS2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that written and spoken Spanish has grammatical structures and other language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "recognising that in Spanish different words and language forms are used to address and greet people according to relationship, context and time of day",
+            "using simple negation patterns with formulaic language and gestures, for example, No me gusta… with their thumbs down, crossing their hands or shaking their head",
+            "noticing plural forms that are similar in English (e.g. perros, niñas, ojos) by matching, comparing and/or sorting vocabulary cards",
+            "noticing cognates, words that have a similar pronunciation in Spanish and English (e.g. mango, melón, kiwi, coco, cereal), when listening to texts or playing vocabulary games such as vocabulary snap or 'Find the word'",
+            "starting to notice the gender of Spanish nouns by listening to language differences and using a range of props and visual cues such as toys (e.g. el oso) and animals (e.g. la jirafa), and then recognising that a wide range of common Spanish words ending in -o are masculine and most ending in -a are feminine, while there is no grammatical gender in English, and observing gender in patterns of naming (e.g. Julio/Julia; Patricio/Patricia)",
+            "becoming aware of language to describe features in texts and sentences (e.g. el sujeto; el verbo) by identifying patterns in word order and word classifications when discussing and comparing sentences",
+            "making connections between articles and the end of words to understand that Spanish nouns have a gender, using a range of props and visual cues such as fruits (e.g. la manzana) and shapes (e.g. la estrella)",
+            "noticing and using singular masculine or feminine forms of nouns and adjectives, for example, el plátano delicioso; la canción chilena",
+            "noticing specific grammatical structures in Spanish such as that the personal pronoun can be omitted when reading or listening to simple formulaic sentences, for example, Me llamo… can be used instead of Yo me llamo…",
+            "noticing that adjectives usually follow nouns and are used to describe the colour, size, shape or characteristics of a person, place or object (e.g. la casa grande, la pelota gris, la silla amarilla, un auto azul, una mesa cuadrada, una niña alta) and highlighting the adjectives in each sentence",
+            "comparing Spanish and English sentences, and recognising that Spanish sentences have a similar structure to English sentences, for example, Vivo en…; Tengo un perro",
+            "noticing the structure of simple affirmative statements (e.g. Tengo un perro; Me gusta beber jugo de Naranja; Gloria come verduras), and expressing simple negation in formulaic expressions (e.g. No tengo mascotas; No me gusta el jugo de piña; No es un perro) by particpating in an 'I do, we do, you do' activity to rephrase sentences",
+            "recognising and using definite and indefinite articles with nouns (e.g. la mesa / una mesa; el niño / un niño), and then using y to list more than one item (e.g. Me gustan el perro y el gato) by working collaboratively to create longer sentences using vocabulary or phrase cards"
+          ]
+        },
+        {
+          "code": "VC2LS2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how Spanish-speaking communities are similar to or different from others",
+          "elaborations": [
+            "identifying symbols and colours used by Aboriginal and Torres Strait Islander Peoples and by Spanish-speaking communities in a range of contexts, for example, identifying the colours on a range of flags from different countries and communities in Spanish, and discussing what the colours represent in English",
+            "discussing how colours or animals can represent different meanings and identity across cultures, for example, blanco in Chile represents the snow of the Andes, whereas in Peru it is the colour of 'peace'; or the national bird that is known as torogoz in El Salvador and guardabarranco in Nicaragua",
+            "exploring Spanish-speaking countries' celebrations, customs, costumes and foods, and common expressions and vocabulary related to these events by engaging with a range of authentic visual resources such as videos, animations, pictures, books and posters; and describing colours and features of traditional dresses from different countries as a way of noticing different clothing and materials",
+            "looking at some familiar words for foods and their origins, such as tacos, tortilla, paella and churros",
+            "noticing how local names of streets, places and landmarks can have their origins in language(s) of Aboriginal and Torres Strait Islander Peoples, identifying the meanings of these place names, for example, 'You Yangs' comes from the Wadawurrung words Wurdi Youang, meaning 'big hill', and then discussing the Spanish names of landforms that also denote physical characteristics, such as Sierra Nevada or Río Hondo",
+            "locating Spanish-speaking communities on a world map, with support, and understanding that Spanish is the national or official language of 21 countries and that culture varies greatly among these places",
+            "recognising that Spanish is an important and influential world language, spoken in different forms in many countries, including Australia, and that variations of words and expressions exist, such as la banana / el plátano, marrón/café, or the wide variety of names for popcorn",
+            "recognising that languages and communities have different protocols regarding the use of terms of respect, for example, there are ways of addressing Aboriginal and Torres Strait Islander Peoples using familial terms (e.g. 'Uncle' or 'Aunty') depending on the relationship, and comparing these terms with those in Spanish and/or other languages",
+            "listening to and recognising that there are a variety of accents across the Spanish-speaking world by watching or listening to texts",
+            "viewing video clips or reading country-specific books to notice the varieties of climates, geography, flora and fauna in the Spanish-speaking world"
+          ]
+        },
+        {
+          "code": "VC2LS2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where Spanish is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "recognising that Spanish is one of many languages spoken around the world and in Australia, and then identifying the different communities in Australia where Spanish is spoken",
+            "understanding that there are many different languages in the world, that Spanish is spoken by different communities, and that some people may speak more than one language",
+            "exploring world maps with support, researching countries around the world that have Spanish as a main language",
+            "exploring different languages and cultures of class members, identifying different ways of greeting and expressing common terms such as 'yes/no' or 'hello/goodbye'",
+            "discussing that there is no single correct way of speaking or pronouncing Spanish, as there are many accents and many Spanish-speaking communities",
+            "celebrating the range of languages and cultures in the classroom, school or wider community",
+            "noticing expressions and terms they may hear or use in Australian English that reflect lifestyles and culture, such as terms associated with greetings, food, the land and sports (e.g. g'day, ta, barbie, sausage sizzle, brekkie, backyard, billabong, footy)",
+            "identifying themselves as belonging to different groups such as family, community, class or peer groups (e.g. Yo soy australiana y chilena; Estoy en la clase B), and representing these relationships by drawing pictures, adding captions to photos or creating digital texts",
+            "showing examples of how gestures and body language are similar to or different in Spanish to the language(s) they speak at home"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use Spanish to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts.\nStudents imitate the sound combinations and rhythms of spoken Spanish. They demonstrate their understanding that Spanish has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in Spanish and make comparisons between Spanish and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LS4C01",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Interacting in Spanish",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "using formal and informal greetings in a variety of contexts, for example, greeting friends or teachers, ¡Hola! ¿qué tal?; ¡Buenos días, profesora!; ¡Buenos días, clase!; ¿Cómo estás?; ¡Buenas tardes!; ¡Hasta mañana!",
+            "making requests and responding as part of the class routine and regular class interactions, such as asking for items, requesting help, clarification, rephrasing or repetition, using singular/plural forms within relevant contexts, for example, ¿Me prestas…? Aquí tienes.; ¡Claro que sí!; Permiso…; Habla más alto; Cerrad vuestros libros; Pásame las tijeras, por favor; ¿Dónde están los lápices?; ¿Puedo usar mi ordenador/computadora?; Busca la aplicación… en tu tableta; Escriban en sus cuadernos…; Repite, por favor…; ¿Cómo se dice…?; ¿Cómo se escribe…?",
+            "applying communication and repair strategies when interacting such as ¿Puede(s) repetir, por favor?; Otra vez, lo siento; ¿Cómo se escribe…?; ¿Cómo se dice… en español?",
+            "using a range of interrogatives to obtain further details (e.g. ¿Cómo te llamas?; ¿Cómo se llama tu padre?; ¿Cuál es tu/su nombre?; ¿Cómo te apellidas?) and using posters or cards for reference",
+            "using question-and-answer pairs to share information about school and home life, in conversations or through games, for example, ¿Quién es él? Es mi amigo/a.; ¿Qué hace tu mamá? Mi mamá es trabajadora social.; ¿Qué deporte practica Miguel? Él juega al fútbol.; ¿Qué te gusta de tu escuela? Me gusta hablar con mis amigas en el patio.",
+            "responding to simple questions about their class environment, schedule or daily routine, for example, describing the weather and date in a news presentation on video using modelled language (e.g. ¿Qué tiempo hace?; ¡Qué calor hace!; ¿Qué clase tenemos hoy?; Hoy tenemos las clases de español y música)",
+            "exchanging information about family, friends or interests in everyday conversations or during 'think, pair, share' activities, using simple descriptive statements and conjunctions to elaborate on ideas, for example, ¿Tienes hermanos? Sí, tengo un hermano y una hermana. ¿Y tú? No tengo hermanos, pero tengo muchos primos.",
+            "listing and explaining school and family routines and activities using expressions related to time and days of the week, for example, Voy al colegio todos los días; El/Los martes, juego al tenis; Todos los martes, practico natación",
+            "listening to the teacher describing features, characteristics and locations of particular objects or places and discussing their understanding, for example, Mi celular/móvil es viejo; Este libro tiene ilustraciones muy bonitas; La biblioteca en la calle Swanston es gigante; Los lápices están a la izquierda del escritorio"
+          ]
+        },
+        {
+          "code": "VC2LS4C02",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Interacting in Spanish",
+          "text": "participate in activities that involve expressing interests and exchanging information, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "demonstrating understanding using gestures, such as when saying Escucha; Mira; Escribe en tu cuaderno; Corta el papel",
+            "negotiating and confirming turn-taking and complimenting their classmates during class activities and games, for example, ¿Me/Te toca?; Es mi/tu turno; ¡Muy bien!; ¡Felicitaciones/Enhorabuena! Qué guay!; Excelente, buen trabajo",
+            "creating simple action songs and games that include alternating repetitive phrases in Spanish and, when relevant, English, for example, Amanda manda/Simón dice or Piedra, papel o tijeras",
+            "following procedures such as a recipe, craft-making or science experiment, and repeating the language of sequencing and instructions (e.g. Paso 1 lavar. Paso 2 pelar. Paso 3 cortar.) or working as a team, Tú lavas, yo corto",
+            "working together to write, rehearse and present a simple plan for a special event such as an assembly or class presentations in groups, and allocating tasks such as writer or presenter, for example, Carlos va a escribir. María va a usar la computadora. Todos van a hablar.",
+            "negotiating tasks when organising group tasks such as planning a puppet show, creating a canteen menu or picture book for a buddy class, and collaborating to make decisions about content, vocabulary and design, for example, ¿Cuál te gusta más, ésta o ésa?; Dame/toma/pásame el pegamento / la goma",
+            "creating texts using visual, print and digital modes of expression, for example, party invitations, displays for bulletin boards, a performance or a class event, for example, Querido/a amigo/a: Me gustaría invitarte a mi… el 15 de enero,; ¡Nos vemos en mi casa. ¡Te espero! Gracias. ¡Hasta pronto!",
+            "participating in planning and organising a shared activity such as a picnic or class party to welcome real or imaginary Spanish-speaking guests, discussing who will bring what, who will invite people and run activities, for example, Hagamos un queque / un pastel / una torta; Vamos a hacer bocadillos; ¿Quién trae el azúcar? ¿Quién la harina? ¿Quién trae la miel? ¿Quién trae la leche?; Jason trae servilletas. Yo traigo vasos."
+          ]
+        },
+        {
+          "code": "VC2LS4C03",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "questioning or surveying classmates about their likes and dislikes, interests or favourite things, and representing the data in various formats such as pie charts, lists, tables or a shared class graph, for example, ¿Cuál es tu videojuego/animal favorito?; ¿Te gusta…?; ¿Cuándo es tu cumpleaños?",
+            "watching a video clip, short film or television advertisement to identify and respond when certain words or expressions are heard, for example, clapping when listening for a specific word or expression, and then responding to questions based on the teacher's description of what is seen (e.g. Esta es una hoja. ¿De qué color es la hoja?) and advancing to movie-talk activities",
+            "researching aspects of the Spanish-speaking world, for example, animal species, currency, Indigenous languages/communities in Spanish-speaking countries, and presenting information in new ways such as a digital display or a spoken, print or visual presentation with names, descriptions and captions, for example, La llama es blanca y es de…; La moneda de… es el…; Los indígenas de… son…",
+            "listening to, reading or viewing a range of texts through shared and guided participation, and responding to questions about the characters, ideas and sequence of events, or by illustrating and captioning aspects of texts in storyboards",
+            "using a range of techniques to act out or animate the key physical and character traits of well-known characters, incorporating their favourite sayings/words, sounds, gestures, accent and intonation, for example, ¡Soy Miguel, me gusta cantar y tocar la guitarra! ¡Vamos, arriba!",
+            "expressing their personal reactions to characters or events in texts such as children's television programs, stories and songs, using artefacts such as puppets or masks, for example, Me gusta/no me gusta…; ¡Qué horrible!; ¡Qué raro!; Ellos son muy graciosos/divertidos; Ellas son muy graciosas/divertidas",
+            "comparing information about activities and practices in a Spanish-speaking country and Australia, for example, listening to, reading or viewing texts, researching online, or interviewing a Spanish speaker or penfriend about aspects of school life such as timetables, canteen menus, extracurricular activities or sports",
+            "creating adaptations of well-known stories using familiar phrases, for example, ¿Dónde va el señor pollo? El señor pollo va a Colombia. En Colombia, el señor pollo va a un banco.; ¿Dónde está Wally? Wally está en un barco. Wally va a Argentina.",
+            "sorting and categorising information from a range of texts such as leaflets, advertisements, menus, catalogues, short radio announcements or video advertisements, using tables, graphs and diagrams, for example, classifying plants/animals, natural/manufactured items and recyclable/disposable objects, or sorting by price, colour or size",
+            "listening to factual reports such as weather updates, sport scores, television/film programs, and creating an invitation for their friend(s) to participate in an activity, incorporating elements from the stimulus text, for example, Mañana llueve y hace sol. ¿Vamos al partido?; Hace sol, ¿jugamos?"
+          ]
+        },
+        {
+          "code": "VC2LS4C04",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce Spanish, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "comparing Spanish expressions used in routine social interactions (e.g. greetings) with equivalent English expressions, identifying similarities, differences and cultural references, for example, ¿Qué tal? – Hi!; Chao – See you later; ¡Buen provecho! – Enjoy your lunch!",
+            "watching short video clips and recognising differences in vocabulary and expressions that can be regional (e.g. ¡Qué guay! in Spain; ¡Qué chévere! in Colombia; ¡Qué padre! in Mexico) and practising using different expressions with a partner",
+            "matching signs from the Spanish-speaking world with equivalents found in Australia, for example, Llamas en la carretera and 'Koalas crossing'; No pisar el césped and 'Keep off the grass'",
+            "recognising when to apply varying levels of formality and show respect depending on the occasion, context and relationship between speakers (e.g. using Por favor…; Gracias; De nada; Permiso) and discussing the importance of manners and showing courtesy in social situations",
+            "viewing social interactions to identify and discuss how different Spanish speakers respond in different social situations as part of social etiquette, such as saying Salud when someone sneezes or Buen provecho when students are about to eat their lunch, and discussing that in some places, for example, in Mexico, it is impolite to not say Salud",
+            "identifying words, expressions or conventions in Spanish that would need to be explained to a non-Spanish speaker, such as expressions associated with affection and familiarity using diminutives (e.g. Beto, Chema, Juanita/Juanito, Abuelita)",
+            "commenting on culturally specific elements of stories or songs, such as family relationships or the role of music or performance, for example, observing that it is common to include extended family in stories about families",
+            "comparing Spanish naming expressions and conventions to English and other languages spoken by students in the classroom (e.g. Valeria Alejandra González García, Luis Ángel Rojas Contreras)",
+            "considering context and audience, noticing surrounding words in a sentence to infer or guess the meaning of new words or expressions, for example, reading sentence strips or short texts and discussing possible meanings",
+            "discussing strategies to help mediate meaning, such as identifying familiar or similar spellings of words, recognising cognates or parts of speech, and using these to support their understanding of new words and concepts encountered in Spanish texts during class reading activities"
+          ]
+        },
+        {
+          "code": "VC2LS4C05",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Creating text in Spanish",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences, and modelled textual conventions",
+          "elaborations": [
+            "creating a Todo sobre mí, self-profile or self-introduction, using a variety of resources, including electronic devices, for example, using captioned photos in a scrapbook, a slide-show presentation, or a digital, animated character representing themselves to highlight key characteristics and details, for example, Tengo nueve años; Vivo en Melbourne; Estudio chino los sábados; Tengo el pelo negro y los ojos verdes",
+            "recording videos or performing for the class, for example, presenting a daily or weekly weather report using formulaic expressions such as Hoy en… hace calor",
+            "planning and presenting information on cultural events, stories or objects of interest to peers, for example, adapting a popular Spanish children's story to a puppet show or presenting a show-and-tell of a cultural artefact from a Spanish-speaking country, using a combination of language and visual images such as photos, illustrations, captions and diagrams, such as Esto es un/una…; Es…; Es de… tiene…",
+            "recreating familiar Spanish stories or fables to share with younger learners of Spanish, using modelled language and images or performance to engage the audience",
+            "creating stories by writing the first part of a short, imaginative text, independently or in pairs, and exchanging papers with others to complete a story or sentence, for example, Érase una vez un conejo blanco…",
+            "singing or reciting alternative versions of familiar songs or rhymes learned in class, for example, 'La vaca lechera' and 'La vaca loca', or 'La gallina turuleca' and 'La gallina feliz'",
+            "making a sculpture using modelling clay or recycled materials, and annotating it to explain their creation, for example, Esta es mi mascota. Es un perro. Tiene el pelo marrón y los ojos negros.",
+            "creating simple paper or digital bilingual texts such as Cuentos de la selva, by creating captions for a series of images, or a mini book such as El reciclaje or Los animales de Sudamérica",
+            "researching a Spanish-speaking country, region or community, and writing a packing list appropriate for weather conditions and activities, for example, Mi lista de equipaje para la Patagonia: botas de montaña, chaqueta, gorro…"
+          ]
+        },
+        {
+          "code": "VC2LS4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations, and use patterns of pronunciation and intonation to form words, phrases and simple sentences",
+          "elaborations": [
+            "recognising and emphasising different intonation for statements, commands, exclamations and questions (e.g. Rosa va a la escuela. / ¿Rosa va a la escuela?; ¡Vamos todos!; ¡Ay, ay, ay!; ¡Guácala!), for example, by completing a dictation-style activity, annotating sentences, and adding question marks or explanation marks",
+            "playing card games such as word bingo and snap with more difficult sounds, for example, the letter c in camino/coco vs. cero/circo",
+            "using an existing text or co-creating a poem showing examples of known words that use the silent h (e.g. hamaca, ahora, almohada), and recognising that the h in loan words is not pronounced as it would be in English either (e.g. hotel, hipopótamo, hospital, héroe, hamburguesa, helicóptero)",
+            "understanding that some letters blend to make single sounds, for example, gu in sigue; qu in queso; gü in pigüino",
+            "practising different sounds such as the rr by reciting tongue twisters, for example, Erre con erre guitarra, erre con erre barril",
+            "using onomatopoeia for animal sounds, actions and reactions during group reading and spoken texts, for example, Achís; Auuuu; boing",
+            "exploring the function of accents in relation to stress and pronunciation (e.g. café, teléfono, árbol)"
+          ]
+        },
+        {
+          "code": "VC2LS4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "recognising and using a variety of personal pronouns (e.g. yo, tú, él/ella/usted, nosotros/nosotras, vosotros/vosotras, ustedes, ellos/ellas/ustedes) during matching or classifying activities, for example, using toy fishing rods with magnets to 'go fishing' for the singular or plural personal pronouns",
+            "observing and experimenting with the use and omission of subject pronouns by looking at verb endings and conjugations (e.g. Tengo instead of Yo tengo; Vivo en Australia; Estudio en la escuela; (Ella) Es Lourdes), recognising that the subject pronoun is often used for emphasis",
+            "identifying gender-and-number agreement in simple sentences, for example, La motocicleta es negra; Los pantalones del uniforme son verdes; Los/Las estudiantes son creativos/as",
+            "using numbers in context to indicate quantity, tell the time, dates and ages, noticing patterns, for example, Tengo cinco amigas; Son las tres en punto; Hoy es veintiuno de agosto; Tengo nueve años",
+            "identifying some possessive adjectives in context in familiar singular and plural forms, and then using modelled language to write and perform a role-play discussing who owns which item, for example, nuestra clase; vuestra escuela; tu abuela; mis amigos; tus compañeros; mis hijos",
+            "identifying that some nouns do not follow the regular masculine/feminine ending pattern (e.g. el mapa, el problema, el tema, la mano), and creating a class list or poster",
+            "applying modelled punctuation and capitalisation rules when writing, for example, comparing capitalisation in Spanish and English, such as when referring to languages or nationalities, or using different-coloured highlighters or pencils to identify and use different punctuation marks, such as question/exclamation marks",
+            "using imperatives/commands to follow simple class instructions and ask others to do something, for example, Date prisa; Colorea el dibujo; Abre tu libro; Enciende las luces",
+            "using a range of adjectives to describe appearance and to express feelings or personality (e.g. extraño, fantástico, estupendo, serio), noticing that some change their endings according to the gender of the noun they describe, while others do not (e.g. responsable, inteligente),",
+            "using high-frequency verbs in familiar contexts (e.g. ser and estar; dormir; estudiar; cantar) by co-creating short stories using common verbs and vocabulary",
+            "using adverbs to locate events in time (e.g. hoy, ayer, mañana), describe weather (e.g. Hoy hace calor) and name days of the week (e.g. Mañana es lunes)",
+            "specifying location or direction using prepositions such as en, encima, debajo, a la izquierda de and a la derecha de, for example, using a template and drawing or pasting small images following teacher instructions: Hay una manzana a la derecha del árbol; Hay un pájaro encima del árbol",
+            "linking simple ideas using gestures to introduce conjunctions such as y, o and pero, and using gestures to mark the introduction of conjunctions, for example, holding up the index finger when saying pero… or pointing the index finger forward to say y…"
+          ]
+        },
+        {
+          "code": "VC2LS4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar Spanish language structures and features with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "building metalanguage to talk about grammar and vocabulary (e.g. singular, plural, masculino, femenino, artículo, adjetivo, sinónimo), comparing with equivalent terms in English and/or other languages represented in the classroom, and then introducing these concepts in context",
+            "recognising similarities and differences between spoken and written forms of different types of texts in both Spanish and English, for example, comparing a story in written vs. oral forms, or a message conveyed in a letter vs. a phone call",
+            "comparing features of similar texts (e.g. greeting cards, interactive games or canteen menus) in Spanish and English and/or other languages spoken in the classroom, and discussing the use of words, expressions and word order",
+            "using prior knowledge of punctuation in English and/or other languages to identify in and apply to Spanish texts (e.g. commas, semicolons, and capital letters for the start of sentences and proper nouns), and to compare the use of punctuation marks, recognising that there are some differences, such as the use of exclamation and question marks, as well as a colon after the salutation line in a letter or email",
+            "beginning to recognise Spanish–English cognate patterns, such as the common Spanish and English suffixes -ción and -tion, respectively, used to form nouns from verbs (e.g. acción – action, celebración – celebration, condición – condition, nación – nation, ficción – fiction), for example, using a graphic organiser and a fishbowl or a box with common words that have prefixes or suffixes, and then classifying them"
+          ]
+        },
+        {
+          "code": "VC2LS4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "viewing a map that shows Aboriginal and Torres Strait Islander languages, noticing how many languages are represented in Victoria, and then learning about the diversity of languages that students in the classroom have a connection to",
+            "identifying the Aboriginal or Torres Strait Islander Country or Place on which they live and incorporating this into their self-introduction in Spanish",
+            "becoming aware of the variety of ways in which people can be addressed, including the use of non-gendered expressions, for example, Hola, clase; Soy una persona curiosa…",
+            "creating a 'language portrait' of themselves through the use of a whole-body silhouette, where students represent their personal experiences of language and culture by adding colours, shapes and words within and around the outline",
+            "using terms such as identity, behaviour, celebrations and beliefs to talk about language and culture, for example, responding to prompts such as 'What does it mean when …?'; 'Why do you think people do … when …?'; 'Do you have similar responses or behaviours?'",
+            "expressing reactions to ways of communicating or behaving in Spanish that feel familiar, unfamiliar, enjoyable or challenging, for example, gestures such as a handshake, a kiss on the cheek (or both cheeks), and identifying similarities and differences with their own culture(s)",
+            "observing interactions by watching videos or films showing interactions between Spanish speakers, reflecting on how they communicate with family and friends, and with people less close to them, noticing differences in language use, tone and forms of politeness, for example, with young children or with unfamiliar adults",
+            "learning that Aboriginal and Torres Strait Islander languages change according to connections and relationships between people, and giving examples of how this occurs in Spanish-speaking communities, using both English and some key Spanish vocabulary to discuss their understanding",
+            "understanding that language carries information about the people who use it, and that common expressions and conventions often reflect cultural values, such as the explicit expression of affection reflected in the use of diminutives (e.g. primita, mami, papito, hermanito), and the importance of cultural beliefs reflected in the use of names with religious associations (e.g. Rosario, Mercedes, Pilar), and then making connections to similar naming conventions in the languages and cultures represented in the class",
+            "finding examples of words and expressions that have been introduced into the Spanish language in recent times, reflecting changes in interests and access to additional cultural experiences, for example, cambiar de look; usar un outfit; ir al super"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in Spanish that are related to their immediate environment. They use appropriate sound combinations, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in Spanish or English, adjusting their responses to context, purpose and audience.\nStudents use modelled structures when creating and responding in Spanish. They create texts, selecting and using a variety of vocabulary and sentence structures to suit different contexts. They use conventions appropriate to text type. They apply rules for pronunciation and intonation in spoken language and apply conventions of spelling and punctuation in written language. They compare language structures and features in Spanish and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LS6C01",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Interacting in Spanish",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "selecting forms of address and greetings appropriate to the time of day, relationship and context in spoken and written interactions, for example, Querida abuela; Hola, María; Estimado señor",
+            "sharing personal information about routines and tasks, hopes and dreams (e.g. El proximo año voy a…; Quiero ser…; El fin de semana, espero ir a…; El lunes, tengo que hacer…), for example, writing an email to your teacher, a friend or a Spanish-speaking student",
+            "thanking, inviting or congratulating one another using formulaic expressions, for example, Gracias por tu ayuda; ¿Quieres venir a mi fiesta de cumpleaños el sábado?; Enhorabuena/Felicitaciones por tu medalla; ¡Bien hecho!",
+            "exchanging print or digital greeting cards for significant occasions such as anniversaries, or responding to an email from a new penfriend in a Spanish-speaking country",
+            "creating and displaying charts with vocabulary to express feelings and emotions in response to class stories, activities and interactions, for example, Estoy emocionado por…; Estoy triste; ¡Qué guay!; ¡Qué chévere!; ¡Qué lindo!; ¡No puede ser!; ¡Obvio!",
+            "creating role-plays apologising and expressing concern or sympathy to friends and family members in written and spoken interactions, for example, Lo siento mucho; Disculpa por…; ¡Cuídate! Te quiero.",
+            "showing reactions, understanding and interest by using strategies such as asking questions and using conversation fillers (e.g. Entiendo; ¿Y tú? Yo también.; Claro; Sí, sí, vale; De acuerdo; Puede ser…; ¡Qué hermoso!; ¡Qué rico!), including single-word or short answers such as Nada, Tampoco and Un poco when participating in a scripted role-play such as organising an outing to a restaurant",
+            "presenting information about their local area or school environment to school peers as a video blog, such as a virtual school tour, and accompanying spoken texts with appropriate gestures, facial expressions, body language and formulaic expressions that are culturally based"
+          ]
+        },
+        {
+          "code": "VC2LS6C02",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Interacting in Spanish",
+          "text": "participate in activities that involve discussion with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "playing board games or collaborative games, reading cues and using language to play, for example, Te toca; Tira los dados; La ficha roja es mía",
+            "creating digital displays, presentations or performances for their family and friends or the school community, to showcase their progress in learning and using Spanish, for example, Me gusta estudiar español porque…",
+            "expressing preferences and opinions (e.g. En mi opinion, el chocolate es más delicioso que…; Me encanta la ciencia, porque es interesante; Hacer los deberes es aburrido; Prefiero comer helado; Me encanta…, porque es el mejor; Me fascina la música de…; Me mola…; No me parece bien; ¡Qué chulo!), for example, when participating in a question-and-answer activity such as 'Find someone who …'",
+            "working with others to create written and illustrated resources to promote school values and goals, for example, producing a poster to encourage recycling, or making signs to promote actions and behaviour (e.g. Por favor, recicla las botellas; Pon la basura en su lugar; Guarda silencio en la biblioteca; Ayuda a tu compañero/a)",
+            "checking their own and/or others' understanding and progress during learning tasks, by asking questions and making suggestions, for example, ¿Está bien así?; ¿Qué significa…?; Podemos hacer…; ¿Cómo se escribe…?; ¿Ya terminaste?; Terminé / No he terminado; Necesito más tiempo; No entiendo…; Tengo una pregunta; Más despacio por favor",
+            "developing a range of interview questions to ask a real or imaginary Spanish-speaking guest and identifying the appropriate register to use, for example, ¿De dónde es/eres?; ¿A qué se dedica?; ¿Qué trabajo tiene?; ¿Cuándo llegó a Australia?; ¿Dónde vives?",
+            "participating in real or imagined transactions that involve negotiation, requesting information, considering options, or buying and selling, for example, ¿Cuánto cuesta?; ¿Qué colores tienen?; ¿Tienen descuento?; ¡Qué caro!; ¡Qué ganga!; ¡Qué chulo!; Puedo llevar los pantalones rojos; ¿Qué talla tiene?; Quiero/prefiero la camiseta verde",
+            "demonstrating numeracy, negotiation and decision-making skills in activities such as creating a shopping list on a budget, agreeing with a partner about how to spend a set amount (e.g. 100 euros or 1000 Argentine pesos), justifying purchases, adding up amounts and expressing personal preferences, for example, Vamos a comprar los tomates; Las manzanas rojas son más baratas; El total son 80 euros",
+            "inventing a questionnaire to create a spotlight or profile of a fellow student or teacher, and then recording the interview as a video or a written article for the school newspaper or website",
+            "working in a team to solve a puzzle or problem, for example, reading clues and making decisions about where to go around the school (e.g. Ve a un lugar donde puedes comprar comida / practicar deportes / lavar tus manos / leer libros)"
+          ]
+        },
+        {
+          "code": "VC2LS6C03",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "viewing and listening to multimodal texts while the teacher describes what is being seen using repetitive comprehensible language, for example, a movie talk, or practising scaffolded comprehension strategies such as predicting and connecting (before viewing), inferring and questioning (while viewing), and completing post-viewing activities such as summarising and using storyboards to retell a story",
+            "listening to, reading or viewing authentic texts or extracts and identifying key points relating to aspects of life in Spanish-speaking communities (e.g. family structures; urban and rural lifestyles; young people's interests, activities and daily routines), and answering questions in Spanish or English, for example, 'What is the most popular sport in …?'; 'What is the population of …?'; 'How is your family structure the same as / different from …?'; 'What is your impression of …?'",
+            "researching topics of interest such as leisure, recycling, migration, cuisine, sport or geographical features in Spanish-speaking communities, using a range of sources (e.g. magazine articles, books, websites), and organising and sharing the information as posters in print or digital format",
+            "adapting a familiar text by resequencing events, adding a new element, changing the location or creating an alternative ending",
+            "listening to or viewing Aboriginal and/or Torres Strait Islander authors' stories in English and responding to them using words, formulaic expressions and modelled sentences in Spanish, for example, Me gusta la historia; Habla de un águila…",
+            "viewing an image or a famous artwork (e.g. by Botero, Frida Kahlo or Picasso), using the 'word, phrase, sentence' thinking routine to brainstorm a word for what they see in Spanish, identifying a useful phrase to describe it, and then writing a sentence to use that word and phrase, for example, colores; Este cuadro me gusta porque; Este cuadro me gusta porque tiene muchos colores",
+            "playing charades or a miming game with peers, incorporating hand gestures and actions requiring the audience to interpret non-verbal cues, and using Spanish words/sentences to guess the meaning within a set time, for example, frío, nadar, avión, leer, monstruo",
+            "listening to and watching a simple procedure or method such as a recipe or craft activity, and extracting keywords such as quantities and verbs to complete the product or task, for example, Cortar por la mitad; Poner una cucharada de azúcar",
+            "reading a short text about a holiday destination or a weather report for an event and, as a class or in groups, creating a list of what to bring or pack, justifying their reasons, for example, Necesitamos una chaqueta porque hace frío; Podemos llevar ropa de baño para nadar; Tenemos que ir en bus/autobús",
+            "conveying information in ways that suit specific purposes and content, for example, creating a table to prioritise new words, a Venn diagram to compare likes or dislikes, a graph to highlight frequency, or a timeline to narrate sequences of events"
+          ]
+        },
+        {
+          "code": "VC2LS6C04",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in Spanish in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "identifying commonly used words and expressions that do not translate directly from Spanish into English (e.g. tomar el pelo; meter la pata; saltarse la clase de español; ¡Es pan comido!), and discussing their meaning",
+            "collecting examples of 'false friends' encountered when translating between Spanish and English, and explaining how these could create confusion and misunderstanding, for example, carpeta – folder, contestar – answer, pie – foot, éxito – success, introducir – insert",
+            "creating Spanish versions of Australian school signs and notices that reflect locations, rules and values, considering why some words or expressions require freer translation than others (e.g. sports oval, gym, canteen, out of bounds, sick room, library, 'No hat, no play', 'No littering', toilet vs. bathroom), for example, ¡Ponte el sombrero!; ¡Recoge tu basura!; Levanta la mano antes de preguntar; No te olvides de reciclar; ¡Bajad la voz!",
+            "interpreting words and expressions encountered in simple texts such as greeting cards, menus, story titles or class conversations that do not translate easily into English and that reflect aspects of culture from the Spanish-speaking world, for example, Hoy es mi santo; Siesta; Feliz Día de Reyes; ¡Buen provecho!",
+            "developing strategies to adequately use bilingual dictionaries, for example, playing a dictionary game in pairs or small groups, racing to be the first to find target words in the dictionary, and then creating a class wordlist or word wall",
+            "using bilingual and online dictionary tools to create bilingual captions, menus or timetables",
+            "creating bilingual resources such as flashcards, word walls and parallel lists of Spanish and English expressions to aid translations in everyday interactions with friends, exchange students, visitors and family, for example, Hasta luego – See you later; No pasa nada – No worries; guay – cool",
+            "fostering autonomy by discussing repair strategies and techniques to clarify misunderstandings, interpret cultural information, keep the conversation going or request repetition, for example, ¿Puede repetir, por favor?; ¿Puede escribir su número de teléfono, por favor?; Lo siento",
+            "applying active reading or listening skills to engage with and comprehend Spanish texts, using a range of responses (e.g. 'stop and jot' sticky notes, graphic organisers, response-and-question stems) or creating a set of coded symbols to help them visualise their thinking and ideas (e.g. using a heart to represent mi parte favorita)"
+          ]
+        },
+        {
+          "code": "VC2LS6C05",
+          "strand": "Communicating Meaning in Spanish",
+          "subStrand": "Creating text in Spanish",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type",
+          "elaborations": [
+            "creating a self-introduction, and making choices about the design, content and language used, for example, Tengo… años de edad; Vivo en… en una casa grande con mi…; Mi dirección es…; Mi correo electrónico es…; Todos los sábados, yo juego al tenis con mis…; Mi padre/madre se llama…; Mis padres son estrictos; Quiero ser piloto",
+            "creating wall displays that incorporate vocabulary used in class, such as class expressions to ask for help or give praise",
+            "experimenting with different techniques to capture character traits, emotions, thoughts and feelings through the use of speech/thought bubbles, captions and onomatopoeia in comic strips, storyboards, animations and subtitles",
+            "presenting factual information relating to cultural activities and events of significance in the Spanish-speaking world, for example, el Día de los Reyes Magos in many Spanish-speaking countries, Carnavales in Spain and Central and South America, el Camino de Santiago in Spain, el Día de la Independencia in several Latin American countries, supporting information with a range of visual, multimodal and secure digital resources",
+            "writing informative messages on the school walkways using chalk, for example, Mañana es la feria del libro; El lunes no hay clases; ¡Felices vacaciones!",
+            "conveying information relating to significant people, places or events in different formats, for example, an advertisement or poster for an event, a profile of a Spanish-speaking celebrity or animal, or a digital guide to a place of interest",
+            "creating bilingual texts and games to engage and entertain younger children, highlighting aspects of Spanish language and Hispanic culture, for example, songs, raps, tongue twisters, digital displays, scripted plays, 'Big Books' and puppet shows",
+            "using key features of different types of texts and applying the vocabulary in different contexts, for example, a shopping list serves as a reminder to self and consists of items and quantities, whereas a shopping transaction involves interaction and negotiation",
+            "creating a set of instructions or an instructional video for a procedure such as a recipe, dance or experiment, using appropriate language features and text structures such as imperative verb forms (e.g. añade; da un paso a la derecha/izquierda; corta; remueve; amasa), vocabulary for sequencing (e.g. primero; luego; después; finalmente) and quantities (e.g. un kilo; 300 gramos)",
+            "writing a diary entry or keeping a journal about personal experiences, using the first person and the past tense, and modelled informal language to record events and convey thoughts and feelings, for example, Me gustan las matemáticas, pero el examen fue difícil"
+          ]
+        },
+        {
+          "code": "VC2LS6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency in words, phrases and sentences",
+          "elaborations": [
+            "understanding how pitch, stress, intonation and rhythm assist the comprehension of individual words that are unfamiliar (e.g. ¡Qué miedo!; ¡Rápido!; ¡Vamos!; ¡Arriba!; ¡Sigue, adelante!; ¡Muévete!; ¡Tranquilo!) and using these expressions in games, storytelling and class commands",
+            "using their knowledge of Spanish pronunciation to identify and enunciate loan words (e.g. bistec, menú, básquetbol/baloncesto, chat, champú, bumerán, gol, hamburguesa), discussing with a partner where those words come from, and then practising saying these words aloud with a partner",
+            "developing their knowledge of consonant-vowel combinations such as ce/ci, que/qui, ge/gi, gue/gui and je/gi, to read words such as garaje, queso, Cecilia, gigante and gimnasio, using a wheel of names or other games",
+            "using magnetic letters or blocks to apply knowledge of the spelling and pronunciation of d/t, p/b/ and m/n at the beginning of words and playing spelling games",
+            "recognising variation in Spanish in particular regions (e.g. the pronunciation of s and z in corazón and zapatos; ll in llamarse in Argentina and Uruguay, and j in Ecuador and Venezuela), using online resources and songs from a variety of countries, singing along and trying to imitate the different pronunciations",
+            "reciting Spanish tongue twisters to develop pronunciation, intonation and fluency, for example, Cuando cuentes cuentos, cuenta; De generación en generación; La sucesión sucesiva de sucesos sucede sucesivamente con la sucesión del tiempo",
+            "observing and understanding the function of accents to indicate where the stress falls on a word and how it may change the meaning of a word, such as in papa/papá, and learning to insert these into their own texts using secure digital tools"
+          ]
+        },
+        {
+          "code": "VC2LS6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "using colour coding, applying appropriate writing conventions and punctuation, such as inverted question and exclamation marks at the start and end of sentences, for example, ¿Qué tal?; ¡Cuidado!; ¿Qué onda?; ¿Qué hay de nuevo?",
+            "noticing, through easily accessible texts and other comprehensible input strategies, that there are multiple verbs in Spanish for 'to be', including ser (e.g. José es mi hermano) and estar (e.g. Estoy cansada), and experimenting with these by repeating modelled language",
+            "constructing sentences using modelled forms of present and past tenses in context (e.g. Ayer fui a la playa y hoy voy al parque), and describing intended actions using the near future tense ir + a + infinitive, for example, Mañana, Manuel va a cenar pollo",
+            "using a variety of verb forms such as the conditional mode as a formulaic, modelled expression to express a desire, for example, Me gustaría ser maestro de español; No me gustaría vivir en una ciudad grande",
+            "using a range of prepositions of location to give directions (e.g. La biblioteca está al lado del hospital; La escuela está enfrente del parque) when participating in games such as ¿Dónde está?, or when labelling objects or diagrams",
+            "using a range of questions to make requests or ask for specific information, for example, ¿Cuál es tu número de teléfono?; ¿Quieres jugar en el patio?; ¿Dónde estudias?",
+            "linking ideas and providing more information using conjunctions when creating sentences (e.g. pero, porque, también), for example, Me gusta cantar, pero prefiero bailar porque es divertido; No me gusta ver la televisión porque es aburrido; Mi comida favorita es el pescado, pero también como carne",
+            "indicating frequency by using adverbs in sentences or responses to questions (e.g. siempre, a veces, nunca), and noticing the flexibility of word order in relation to verbs and adverbs by rearranging sentences, for example, En verano, voy siempre a la playa / En verano, voy a la playa siempre / En verano, siempre voy a la playa",
+            "using understanding of ordinal numbers to help interpret information (e.g. Rosario es la primera de la lista; Luis vive en la quinta planta) and applying this knowledge to single- and double-digit number patterns to count larger quantities, for example, by playing counting games",
+            "consolidating the use of gender-and-number agreement between articles, nouns and adjectives, for example, completing a 'think, pair, share' activity to annotate sentences (e.g. Tengo un libro nuevo; Las montañas rocosas son muy bonitas)",
+            "using a wide range of comparatives (e.g. tan… como…; más… que…; menos… que…), and comparing classroom items, favourite foods, animals or continents, for example, Australia es más grande que Europa",
+            "identifying and explaining the omission of subject pronouns by looking at verb endings and conjugations, creating sentences or texts that demonstrate understanding (e.g. Vivo en Australia; Es Lourdes; Estudio en la escuela), and then comparing them to English",
+            "recognising similar spelling stems (e.g. pera, mandarina and piscina) and composite words (e.g. educación física, centro comercial, estación de tren, polideportivo), and highlighting these words in a text"
+          ]
+        },
+        {
+          "code": "VC2LS6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare Spanish language structures and features with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "comparing features of simple spoken and written texts in Spanish with similar texts in English and/or other languages spoken in the classroom, for example, aló or hola when answering the phone",
+            "building on metalanguage in English and/or Spanish to understand and discuss grammatical structures and features (e.g. verbos, adjetivos, artículos, sustantivos)",
+            "recognising grammatical elements associated with particular texts in Spanish and English, for example, the use of imperatives in games such as tira el dado or time markers while comparing traditional ways of starting and ending stories, for example, había una vez vs. hace mucho tiempo; primero; después; de pronto…",
+            "exploring the use and popularity of abbreviations and phrases used by young people in Spanish-speaking communities and in Australia, such as shortened noun forms (e.g. la profe, la bici, la compu, el insti), q in place of que, jajaja vs. LOL, and TQM for 'I love you', for example, reading texts in the style of text messages and discussing the meanings",
+            "noticing similar word stems in Spanish and English, which have been derived from other languages, identifying the meaning of words and extending vocabulary (e.g. geografía, biblioteca), and understanding that languages evolve and change over time, including the normalisation of borrowing words from other languages, such as 'RSVP' or 'patio' in English, or bloguear in Spanish, by locating loan words in a text or comparing language use in a letter and a text message",
+            "understanding that Spanish-speaking communities may have a shared history and similarities with other languages and cultures such as English, French, Italian, Portuguese, Romanian and Tagalog/Filipino, and becoming aware that a wide range of words in Spanish and English come from Greek, Latin or Arabic, discussing their prior knowledge and researching additional vocabulary to create a word-origin mind map",
+            "understanding that some words originate from Aboriginal and/or Torres Strait Islander languages from different areas around Australia, for example, el koala (koala) from the Dharug word gula, meaning 'no water', or el dingo (dingo) from the Dharug word din-gu, and comparing these words to English and/or other languages and discussing their historical context",
+            "compiling a graphic organiser or creating a poster, mind map or Venn diagram to illustrate differences in Spanish and English grammar and textual conventions, for example, in Spanish: omission of the subject pronoun, different approaches to conjugation, and adjective usually after the noun; in English: absence of grammatical gender and adjectives usually before the noun",
+            "comparing the use of diminutives to express affection and familiarity in Spanish (e.g. hermanita, periquita, gatico/gatito) with some equivalents in English, for example, 'dear little sister', 'cute little cat' and nicknames such as 'Matty' or 'Milly'"
+          ]
+        },
+        {
+          "code": "VC2LS6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal and non-verbal communication",
+          "elaborations": [
+            "exploring examples of traditional and contemporary images or texts in print and online, and discussing how identity and gender are represented in the language",
+            "understanding that there are Indigenous languages spoken in addition to Spanish in Spanish-speaking communities, that these languages remain an important part of peoples' culture, identity and heritage, and that these languages influence Spanish words (e.g. wawa, pachamama, papa, poncho, tomate, jaguar, charki, quinoa, chocolate, maíz, cancha, llama), and then identifying words in Australian English that come from Aboriginal and/or Torres Strait Islander languages (e.g. koala, billabong)",
+            "fostering a sense of community in the class by creating a personal or class slogan, motto or crest to reflect aspects of their identity, for example, translating English phrases to Spanish, such as Vamos equipo…; Somos la clase 4BC; Amigos/as para siempre; ¡Sí se puede!",
+            "becoming aware of cultural stereotypes that can lead to generalisations and misconceptions, for example, the association of language with the nationality of peoples of Latin America (e.g. assuming Mexican people speak 'Mexican') or the negative stereotypes spread through television series",
+            "reflecting on, in Spanish or English, how language and culture are expressed through Aboriginal and Torres Strait Islander Peoples' songs, dance or artworks, and considering similarities and differences with an aspect of the cultural expressions of Spanish-speaking people or communities",
+            "sharing their reactions to cultural elements in authentic materials from different Spanish-speaking communities, for example, gestures or forms of politeness, cactus as a food, traditional ceremonies such as pago a la tierra, or the festival La Tomatina",
+            "identifying aspects such as traditions, values and practices that may reflect collective identities of individuals from different Spanish-speaking nations and recognising how Spanish is widespread in the world, investigating modern influences on the Spanish language, such as pop culture, digital and social media, migration and travel, and how they have changed and impacted ways of communicating, for example, the emergence of new words, such as tuitear, email, correo electrónico, chatear, textear, bloguear, rapear, rapero, un selfie and las redes",
+            "reflecting on culturally appropriate ways of offering praise, recognition, gratitude and encouragement, or declining requests or invitations, for example, creating a role-play using culturally appropriate language such as Lo siento, desafortunadamente no puedo…",
+            "discussing traditional methods that Spanish speakers use to preserve language and culture; comparing these with examples of cultural artefacts such as dance, songs, artworks, artefacts or traditions, from a range of different cultures; and identifying how they strengthen connections to values and identity, for example, discussing the significance of a possum-skin coat for some Aboriginal Peoples and sharing similarities and differences between cultural artefacts in other languages and cultures represented in the classroom",
+            "identifying the visible and invisible elements that contribute to identity that may be important across all cultures (e.g. family routines, community practices, religious events, customs and traditions, clothing, cuisine and music) through films, books, videos, photographs or information exchange with Spanish-speaking communities"
+          ]
+        }
+      ]
+    }
+  ]
+}

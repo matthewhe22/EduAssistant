@@ -1,0 +1,326 @@
+{
+  "subject": "Civics and Citizenship",
+  "slug": "civics-and-citizenship",
+  "learningArea": "Humanities",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students explain how decisions can be made democratically and the role of local government. They describe the importance of rules and distinguish between rules and laws. Students describe how people participate in their community as active citizens, their rights and responsibilities, and factors that shape a person's identity and communities.\nStudents identify questions to investigate civics and citizenship issues. They describe democratic institutions and systems using information and sources. They describe contemporary civics and citizenship issues and use consensus-building and deliberation to negotiate outcomes together.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HC4K01",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Government and democracy",
+          "text": "the features of government, law and key democratic values",
+          "elaborations": [
+            "explaining the reasons why a particular decision-maker, such as parents or the school principal, is the person making the decision and comparing this to a government, which makes decisions for a particular area",
+            "identifying laws that apply to students, parents, teachers and schools",
+            "discussing examples of freedom, fairness and equality in students' lives"
+          ]
+        },
+        {
+          "code": "VC2HC4K02",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Government and democracy",
+          "text": "how and why decisions are made democratically in communities",
+          "elaborations": [
+            "nominating one person to be responsible for making classroom rules and comparing this to allowing the whole class to contribute to making classroom rules",
+            "comparing how decisions are made within a family versus within a school",
+            "examining the shift from monarchies to democracies over time, as in France or the USA, and where there is a mix of both, as in the UK or Japan"
+          ]
+        },
+        {
+          "code": "VC2HC4K03",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Government and democracy",
+          "text": "the roles of local government and how members of the community use and contribute to local services",
+          "elaborations": [
+            "examining how local government is chosen and by whom",
+            "investigating what local government does, including the services it provides, such as environment and waste management, libraries, health services, parks, cultural events, pools and sport facilities, and arts and pet management",
+            "describing how local government services impact on the lives of students, and discussing how local groups/organisations and students can use their voices and make responsible choices about the services that impact them and their environment"
+          ]
+        },
+        {
+          "code": "VC2HC4K04",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Laws and citizens",
+          "text": "the differences between rules and laws, why laws are important and how they affect the lives of people",
+          "elaborations": [
+            "discussing some rules that they might have in their family or with friends but that are not laws",
+            "explaining that laws apply to everyone, whereas rules can just apply to particular groups",
+            "examining classroom and/or school rules and discussing whether these are also laws",
+            "describing laws that everyone follows all the time and explaining why it is important to follow these laws"
+          ]
+        },
+        {
+          "code": "VC2HC4K05",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Laws and citizens",
+          "text": "the rights and responsibilities of people in their communities",
+          "elaborations": [
+            "discussing why people have rights and why those rights are important",
+            "explaining that responsibilities come with rights, and why those responsibilities are important",
+            "examining the communities that students are a part of, and their rights and responsibilities within those communities"
+          ]
+        },
+        {
+          "code": "VC2HC4K06",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Citizenship, diversity and identity",
+          "text": "diversity of cultural, religious and/or social groups to which they and others in the community belong, and their importance to identity",
+          "elaborations": [
+            "identifying diversity through the different social, cultural and religious groups students belong to and describing what makes them feel that they belong to those groups",
+            "listing and comparing the different beliefs, traditions and symbols used by groups",
+            "recognising that the identity of Aboriginal and Torres Strait Islander Peoples is shaped by Country and Place, including language and knowledge traditions"
+          ]
+        },
+        {
+          "code": "VC2HC4K07",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Citizenship, diversity and identity",
+          "text": "why people participate within communities and how students can actively participate and contribute to communities",
+          "elaborations": [
+            "identifying groups that actively participate in the local community or through a virtual community and examining their purpose",
+            "examining how they could participate in a school or community project, for example raising money for a relevant aid project, such as supporting disadvantaged communities overseas, or working to protect a bird habitat",
+            "investigating how an individual's contribution can be recognised, for example school awards or an Order of Australia award",
+            "explaining the motivations of individuals who contribute to communities, such as local community volunteers, leaders and Elders"
+          ]
+        },
+        {
+          "code": "VC2HC4S01",
+          "strand": "Skills",
+          "subStrand": "Investigating contemporary civics and citizenship issues",
+          "text": "identify and develop questions to investigate contemporary political, legal and civic issues",
+          "elaborations": [
+            "identifying different questions about a contemporary political, legal or civic issue that relate to decision-making",
+            "describing a question about people participating in communities"
+          ]
+        },
+        {
+          "code": "VC2HC4S02",
+          "strand": "Skills",
+          "subStrand": "Investigating contemporary civics and citizenship issues",
+          "text": "select and organise information, data and ideas from different sources to describe a contemporary issue",
+          "elaborations": [
+            "identifying a contemporary issue that relates to a law",
+            "connecting a contemporary issue to a democratic or non-democratic decision that was made",
+            "sorting the different communities they are part of into groups",
+            "sorting a list of rights and responsibilities into either rights or responsibilities"
+          ]
+        },
+        {
+          "code": "VC2HC4S03",
+          "strand": "Skills",
+          "subStrand": "Evaluating democratic institutions and systems",
+          "text": "describe at least one political, legal or civic institution or system and why it is important",
+          "elaborations": [
+            "identifying a local government and the services it provides to the community",
+            "describing how local government is a democratic decision-making body"
+          ]
+        },
+        {
+          "code": "VC2HC4S04",
+          "strand": "Skills",
+          "subStrand": "Participating in civic processes",
+          "text": "use consensus-building and deliberation to discuss an issue that affects their classroom",
+          "elaborations": [
+            "deliberating about what makes good decision-making",
+            "reaching a consensus on the difference between a rule and a law as a whole class",
+            "reaching consensus on rules that apply in the classroom"
+          ]
+        },
+        {
+          "code": "VC2HC4S05",
+          "strand": "Skills",
+          "subStrand": "Communicating",
+          "text": "describe a civics and citizenship issue using ideas from sources and subject-specific terminology",
+          "elaborations": [
+            "describing the rights and responsibilities of people in their communities through a poster",
+            "drawing a picture of local government or people contributing to communities"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students explain the values and features of Australia's democratic institutions and systems, including the 3 levels of government and electoral systems. They explain the roles and responsibilities of key institutions, including how legislation is made and law enforcement. Students explain the different meanings of citizenship and the roles and responsibilities associated with different kinds of citizenship.\nStudents develop questions to investigate civics and citizenship issues, using different sources. Students explain the values and features of democratic institutions and processes through contemporary issues. They explain reasons to participate in democratic processes and deliberate on issues that affect their communities. They use knowledge and different perspectives from sources to explain contemporary civics and citizenship issues.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HC6K01",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Government and democracy",
+          "text": "the features of Australia's democratic institutions and systems, including representation in government and electoral systems",
+          "elaborations": [
+            "discussing the meaning of democracy, the importance of the key values of Australian democracy (e.g. freedom of election and being elected; freedom of assembly and political participation; freedom of speech, expression and religious belief; the rule of law; and other basic human rights) and how students apply democratic values in familiar contexts, such as elections for student leaders including class captain or prefects",
+            "discussing the Australian citizenship pledge and the official statement of Australian values published by the federal government and what can be learnt about key values and Australian democracy from this material",
+            "examining the secret ballot, compulsory voting and preferential voting as key features of Australia's democracy",
+            "recognising the role of independent electoral commissions, such as the Australian Electoral Commission or the Victorian Electoral Commission, in administering elections that are open, free and fair"
+          ]
+        },
+        {
+          "code": "VC2HC6K02",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Government and democracy",
+          "text": "the values, principles and institutions that underpin Australia's democracy",
+          "elaborations": [
+            "explaining the influence of the Westminster system in Australia's democracy",
+            "investigating democratic institutions, virtually or in situ, to examine their roles, for example Parliament House and the High Court of Australia in Canberra, or the Parliament of Victoria and the Supreme Court of Victoria in Melbourne",
+            "examining the relationship between these values, such as the rule of law upholding equality or the importance of free and fair elections for participation",
+            "investigating the human rights that Australians have and how they are upheld by Australia's institutions and laws, including the Victorian Charter of Human Rights and Responsibilities"
+          ]
+        },
+        {
+          "code": "VC2HC6K03",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Government and democracy",
+          "text": "the roles and responsibilities of the 3 levels of government in Australia",
+          "elaborations": [
+            "sorting the roles and responsibilities of the 3 levels of government (local, state/territory and federal)",
+            "identifying situations in which federal and state/territory parliaments both have the power to make laws, and recognising that federal law will override the state/territory law if federal and state/territory laws conflict, due to the division of powers in the Constitution",
+            "investigating the origins of new laws, for example from party policy, perhaps announced during an election campaign; from suggestions by members and senators; and from interest groups in the community",
+            "categorising the different types of laws and regulations in their community, which level of government makes those laws, and who enforces them, for example car parking laws, health laws and pollution laws"
+          ]
+        },
+        {
+          "code": "VC2HC6K04",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Laws and citizens",
+          "text": "how and why laws are enforced and the roles and responsibilities of key institutions, such as the police, courts and other parts of the legal system",
+          "elaborations": [
+            "examining the ways in which the police enforce criminal laws in Victoria",
+            "discussing the options available to courts when sentencing people and the aims of these sentences",
+            "investigating a civil law and the organisations responsible for ensuring that these laws are followed"
+          ]
+        },
+        {
+          "code": "VC2HC6K05",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Laws and citizens",
+          "text": "the legal rights and responsibilities of citizens in Australia",
+          "elaborations": [
+            "examining where citizens gain their rights in the law, such as the Constitution and legislation relating to human rights and discrimination",
+            "explaining the responsibilities that citizens have, such as voting, paying taxes and keeping the government accountable",
+            "explaining the rights in the Victorian Charter of Human Rights and Responsibilities"
+          ]
+        },
+        {
+          "code": "VC2HC6K06",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Laws and citizens",
+          "text": "how federal and state/territory legislation is initiated and passed through parliament",
+          "elaborations": [
+            "role-playing passing a bill through the Commonwealth or Victorian Parliament",
+            "writing a second-reading speech for a bill of their choosing",
+            "investigating the number of seats in the upper house of a parliament that are not held by the government, and determining who the government needs to convince for a bill to pass through the upper house"
+          ]
+        },
+        {
+          "code": "VC2HC6K07",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Citizenship, diversity and identity",
+          "text": "the meanings of 'citizenship' and the rights and responsibilities of different kinds of citizenship, including local, state, national, global and digital citizenship",
+          "elaborations": [
+            "identifying who can be an Australian citizen",
+            "describing the rights, responsibilities and shared values of Australian citizenship and examining ways in which Australian citizens can participate in society",
+            "comparing the responsibilities that students have as national citizens to those as global citizens",
+            "considering the differences between different kinds of citizenship in different contexts, for example who is included and who is excluded and why"
+          ]
+        },
+        {
+          "code": "VC2HC6K08",
+          "strand": "Knowledge and Understanding",
+          "subStrand": "Citizenship, diversity and identity",
+          "text": "how citizens (members of communities) with shared beliefs and values work together to achieve a civic goal",
+          "elaborations": [
+            "discussing how and why people volunteer for community groups, such as religious groups and other charities, rural fire services, surf life-saving clubs, emergency services groups, Aboriginal and Torres Strait Islander community groups and youth groups",
+            "using social media to share and discuss ideas about how people can work together as local, regional and global citizens, for example to promote access to educational opportunities for women and girls in developing countries",
+            "examining Aboriginal and Torres Strait Islander organisations and the services they provide"
+          ]
+        },
+        {
+          "code": "VC2HC6S01",
+          "strand": "Skills",
+          "subStrand": "Investigating contemporary civics and citizenship issues",
+          "text": "develop questions to investigate contemporary political, legal and civic issues",
+          "elaborations": [
+            "identifying or developing questions on how recent issues regarding Australia's institutions, including the federal or state/territory parliament, or government policy, are relevant to discussions about democracy",
+            "developing questions on why laws are enforced, based on a recent legal case or legal issue"
+          ]
+        },
+        {
+          "code": "VC2HC6S02",
+          "strand": "Skills",
+          "subStrand": "Investigating contemporary civics and citizenship issues",
+          "text": "locate, select and organise information, data and ideas from different sources to explain a contemporary issue",
+          "elaborations": [
+            "locating current crime statistics for Victoria or a local area to inform discussions on law enforcement",
+            "sorting a selection of different areas of lawmaking into local, state/territory or federal jurisdiction",
+            "explaining the democratic values relevant to a contemporary issue",
+            "summarising how citizens have worked together to achieve a civic goal in relation to a contemporary issue"
+          ]
+        },
+        {
+          "code": "VC2HC6S03",
+          "strand": "Skills",
+          "subStrand": "Evaluating democratic institutions and systems",
+          "text": "explain the key values and features of democratic institutions and systems",
+          "elaborations": [
+            "explaining how the Victorian Charter of Human Rights upholds human rights in lawmaking in Victoria's legal system",
+            "describing how the process of elections demonstrates the principles of free and fair elections, participation and/or representation"
+          ]
+        },
+        {
+          "code": "VC2HC6S04",
+          "strand": "Skills",
+          "subStrand": "Evaluating democratic institutions and systems",
+          "text": "explain connections between contemporary issues and democratic institutions and systems",
+          "elaborations": [
+            "describing how a contemporary issue, such as imprisonment, is relevant to the processes of the legal system",
+            "explaining the focus of the federal or Victorian government's response to a contemporary issue"
+          ]
+        },
+        {
+          "code": "VC2HC6S05",
+          "strand": "Skills",
+          "subStrand": "Participating in civic processes",
+          "text": "deliberate about an issue that affects their communities",
+          "elaborations": [
+            "discussing different communities' responses to a contemporary issue and deciding which community they agree with and why",
+            "coming to a consensus on an issue that affects their class or school and reflecting on how they were able to reach that consensus"
+          ]
+        },
+        {
+          "code": "VC2HC6S06",
+          "strand": "Skills",
+          "subStrand": "Participating in civic processes",
+          "text": "explain reasons to participate in democratic processes",
+          "elaborations": [
+            "role-playing an election or electing a classroom representative and explaining how participating in elections is important for upholding democratic values",
+            "examining how active citizenship achieves a civic goal",
+            "explaining how deliberation and negotiating an outcome are forms of democratic participation"
+          ]
+        },
+        {
+          "code": "VC2HC6S07",
+          "strand": "Skills",
+          "subStrand": "Communicating",
+          "text": "explain contemporary civics and citizenship issues using ideas, knowledge and perspectives from different sources",
+          "elaborations": [
+            "creating a pamphlet to describe different political parties' position on a proposed law or recent policy on a contemporary issue",
+            "presenting a speech on why they should be elected as a leader, drawing on democratic values and active citizenship"
+          ]
+        }
+      ]
+    }
+  ]
+}

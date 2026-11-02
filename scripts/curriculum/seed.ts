@@ -1,5 +1,5 @@
 /**
- * Loads data/curriculum/vc2/*.json into Supabase (curriculum_subjects, curriculum_levels,
+ * Loads data/curriculum/vc2/*.json into Supabase (curriculum_subjects, curriculum_bands,
  * content_descriptions). Embeddings are added in Phase 1.
  *
  *   NEXT_PUBLIC_SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... npm run curriculum:seed
@@ -25,31 +25,33 @@ async function main() {
       slug: s.slug,
       subject: s.subject,
       learning_area: s.learningArea,
-      domain_code: s.domainCode,
+      sequence: s.sequence ?? null,
       source_url: s.source,
       retrieved_at: s.retrievedAt,
     });
     if (sub.error) throw sub.error;
 
-    const lv = await db.from("curriculum_levels").upsert(
-      s.levels.map((l) => ({
+    const bands = await db.from("curriculum_bands").upsert(
+      s.bands.map((b) => ({
         subject_slug: s.slug,
-        level: l.level,
-        level_description: l.levelDescription,
-        achievement_standard: l.achievementStandard,
+        band: b.band,
+        levels: b.levels,
+        achievement_standard: b.achievementStandard,
       })),
     );
-    if (lv.error) throw lv.error;
+    if (bands.error) throw bands.error;
 
     const cds = await db.from("content_descriptions").upsert(
-      s.levels.flatMap((l) =>
-        l.contentDescriptions.map((cd) => ({
+      s.bands.flatMap((b) =>
+        b.contentDescriptions.map((cd) => ({
           code: cd.code,
           subject_slug: s.slug,
-          level: l.level,
+          band: b.band,
+          levels: b.levels,
           strand: cd.strand,
           sub_strand: cd.subStrand ?? null,
           description: cd.text,
+          elaborations: cd.elaborations,
         })),
       ),
     );

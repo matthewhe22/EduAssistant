@@ -1,0 +1,2163 @@
+{
+  "subject": "English",
+  "slug": "english",
+  "learningArea": "English",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation",
+      "levels": [
+        "F"
+      ],
+      "achievementStandard": "By the end of Foundation, students demonstrate the following skills in English.\nSpeaking and Listening When interacting with others, students explore vocabulary used in familiar contexts and how language changes in different contexts.\nThey share thoughts and preferences.\nWhen speaking to an audience, students deliver short spoken texts, including retelling stories and reporting events, using features of voice.\nReading and Viewing When listening, reading and viewing, students engage with a range of different types of texts, including decodable and authentic texts, using developing phonic knowledge.\nThey blend, segment and manipulate phonemes in one-syllable words, and use knowledge of letters and sounds to read consonant-vowel-consonant (CVC) words. They read some high-frequency words and identify boundary punctuation.\nWhen demonstrating understanding of texts, students identify and make connections between characters, settings and events and their own feelings and thoughts.\nThey identify how types of texts, both print and digital, are organised for purpose and navigation. They compare how textual elements other than language, such as images and sounds, can contribute to meaning.\nWriting When creating and sharing short texts, students retell stories and report information, using familiar words and images where appropriate. They share in simple editing processes.\nThey use words, phrases and punctuation, including capital letters and full stops, from familiar contexts and texts, and from their learning.\nThey form letters and spell most consonant-vowel-consonant (CVC) words.",
+      "contentDescriptions": [
+        {
+          "code": "VC2EFLA01",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "explore how language is used differently at home and school depending on the relationships between people",
+          "elaborations": [
+            "asking relevant questions, and expressing requests and opinions in ways that suit the contexts",
+            "learning to use language according to the relationship between people, for example between a parent and a child, a teacher and a student, siblings or friends, shopkeepers and customers"
+          ]
+        },
+        {
+          "code": "VC2EFLA02",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "explore different ways of using language to express preferences, likes and dislikes",
+          "elaborations": [
+            "recognising how feelings and preferences might be communicated in speech and gesture",
+            "recognising the ways that emotions and feelings can be conveyed in visual and media texts, for example in short film, advertising and animations"
+          ]
+        },
+        {
+          "code": "VC2EFLA03",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "understand that texts can take many forms, such as signs, books and digital texts",
+          "elaborations": [
+            "comparing images in informative and narrative texts, and identifying similarities and differences",
+            "comparing different ways that information might be presented, for example on a sign or in a set of instructions",
+            "identifying different forms of texts in school, home and community settings, for example crossing signs, hand-washing signs, directions and product labels"
+          ]
+        },
+        {
+          "code": "VC2EFLA04",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "understand concepts about print in print and digital texts, including how books and simple digital texts are usually organised",
+          "elaborations": [
+            "learning that Standard Australian English in written texts is read from left to right and usually from the top to the bottom of the page",
+            "identifying tabs in a digital text",
+            "discussing the placement of images and words in text",
+            "indicating the title of a book and where to start reading"
+          ]
+        },
+        {
+          "code": "VC2EFLA05",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "recognise that sentences are key units for expressing ideas",
+          "elaborations": [
+            "learning that word order in sentences is important for meaning; for example, 'The boy sat on the dog.' is different from 'The dog sat on the boy.'",
+            "recognising the difference between a sentence fragment and a sentence, for example 'after school' compared to 'Dad will pick me up after school.'"
+          ]
+        },
+        {
+          "code": "VC2EFLA06",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "recognise that sentences are made up of groups of words that work together in particular ways to make meaning",
+          "elaborations": [
+            "learning how words in a sentence relate to one another; for example, connecting 'a cat' (noun) to 'ate' (verb), or 'black' (adjective) to 'a cat' (noun)"
+          ]
+        },
+        {
+          "code": "VC2EFLA07",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "explore the contribution of images, words and sound to meaning in stories and informative texts",
+          "elaborations": [
+            "recognising that texts can be interpreted differently when only the words or only the images are read or viewed",
+            "identifying where written text is reflected in accompanying images and where written text is not captured in images"
+          ]
+        },
+        {
+          "code": "VC2EFLA08",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "recognise and develop awareness of vocabulary used in familiar contexts related to everyday experiences, personal interests and topics taught at school",
+          "elaborations": [
+            "engaging in imaginative play; for example, role-playing a shopkeeper and a customer",
+            "identifying words for a topic studied at school, for example words relevant to the topic of families",
+            "expanding vocabulary through informal interactions and planned experiences with adults and peers, texts, images, and artefacts or objects"
+          ]
+        },
+        {
+          "code": "VC2EFLA09",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "identify punctuation as a feature of written text different from letters; recognise that capital letters are used for names, and that capital letters also signal the beginning of sentences while punctuation marks signal the end",
+          "elaborations": [
+            "commenting on capital letters encountered in everyday texts, for example 'That's the letter that starts my name.' and 'The name of my family and my town/suburb have capital letters.'"
+          ]
+        },
+        {
+          "code": "VC2EFLE01",
+          "strand": "Literature",
+          "subStrand": "Literature and contexts",
+          "text": "discuss experiences that are similar or different to their own by engaging with literary texts by Aboriginal and Torres Strait Islander authors and illustrators and a wide range of Australian and world authors and illustrators",
+          "elaborations": [
+            "engaging with texts that reflect the social and cultural groups to which students belong",
+            "comparing experiences depicted in stories by a wide range of world authors with their own experiences",
+            "viewing stories by Aboriginal and Torres Strait Islander storytellers from print, visual, digital and multimodal sources",
+            "engaging with texts that portray Australian family life in different settings, for example suburban and remote settings",
+            "identifying some features of culture that are revealed by characters and events in stories, for example dress, food and daily routines"
+          ]
+        },
+        {
+          "code": "VC2EFLE02",
+          "strand": "Literature",
+          "subStrand": "Engaging with and responding to literature",
+          "text": "respond to stories and share feelings and thoughts about the events and characters depicted",
+          "elaborations": [
+            "using drawing and beginning forms of writing to express personal responses to stories, poems or films",
+            "discussing events and characters in texts, and connecting them to their own experiences",
+            "sharing personal responses to ideas and events experienced through texts"
+          ]
+        },
+        {
+          "code": "VC2EFLE03",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "recognise a range of literary texts and identify features including events, characters, and beginnings and endings",
+          "elaborations": [
+            "recognising that stories often have similar beginnings, for example 'Once upon a time …' and 'A long, long time ago …' in fairytales and 'A girl called Amira …' or similar to introduce a character in a storybook",
+            "identifying how stories are told in poetry",
+            "identifying typical features of fairytales, such as princes and princesses or the moral of the story"
+          ]
+        },
+        {
+          "code": "VC2EFLE04",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "explore and replicate the rhythms and sound patterns of poems, chants, rhymes and songs",
+          "elaborations": [
+            "using music and actions to enhance appreciation of rhymes, poems, chants and songs",
+            "reciting rhymes with actions",
+            "exploring rhythms used in poems by Aboriginal and Torres Strait Islander Peoples"
+          ]
+        },
+        {
+          "code": "VC2EFLE05",
+          "strand": "Literature",
+          "subStrand": "Creating literature",
+          "text": "retell and adapt a range of previously encountered literary texts through play, performance, images, drawing and writing",
+          "elaborations": [
+            "drawing and role-playing characters or events",
+            "sequencing pictures, which may involve using digital tools, to retell a story"
+          ]
+        },
+        {
+          "code": "VC2EFLY01",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "interact in informal and structured situations, using appropriate voice levels and listening while others read or speak",
+          "elaborations": [
+            "exchanging ideas with peers in pairs and small groups, engaging in class discussions, listening to others and contributing ideas",
+            "showing understanding of appropriate listening behaviour, such as listening without interrupting, and looking at the speaker, if culturally appropriate",
+            "altering volume for inside and outside situations and when speaking to an audience",
+            "participating in informal interaction situations, for example play-based experiences that involve the imaginative use of spoken language",
+            "listening to and following instructions"
+          ]
+        },
+        {
+          "code": "VC2EFLY02",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "deliver short spoken texts to an audience using features of voice",
+          "elaborations": [
+            "sharing a personal experience, interest or discovery with peers in a semi-formal situation",
+            "using visual prompts to practise staying on topic or to sequence ideas"
+          ]
+        },
+        {
+          "code": "VC2EFLY03",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "recognise and generate syllables, rhyming words, alliteration patterns and phonemes in spoken words (phonological awareness)",
+          "elaborations": [
+            "recognising and producing rhyming words when listening to rhyming stories or rhymes, for example 'funny' and 'money'",
+            "identifying patterns of alliteration in spoken words, for example 'helpful Hasma'",
+            "identifying syllables in spoken words (for example, clapping the rhythm of 'Mon-day', 'Ja-cob' or 'Si-en-na'), which is also known as syllabification"
+          ]
+        },
+        {
+          "code": "VC2EFLY04",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "orally blend, segment and manipulate one-syllable words (phonemic awareness)",
+          "elaborations": [
+            "saying the sounds when given a word, for example 'can' ('c-a-n') or 'ship' ('sh-i-p')",
+            "saying the word when given the sounds, for example 'l-i-p' ('lip') or 'm-u-n-ch' ('munch')",
+            "saying the new word when the beginning phoneme, medial or end phoneme in a word is replaced with a different phoneme; for example, 'run' becomes 'fun', or 'fun' becomes 'fan'"
+          ]
+        },
+        {
+          "code": "VC2EFLY05",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "use knowledge of letters and sounds to read and spell consonant-vowel-consonant (CVC) words (phoneme–grapheme correspondence knowledge)",
+          "elaborations": [
+            "writing consonant-vowel-consonant (CVC) words by representing sounds with the appropriate letters, and blending sounds associated with letters when reading CVC words",
+            "making plausible spelling choices using sound–letter correspondences and morphemic knowledge"
+          ]
+        },
+        {
+          "code": "VC2EFLY06",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "recognise and name all upper- and lower-case letters and know the most common phoneme–grapheme correspondences (sound–letter relationships)",
+          "elaborations": [
+            "recognising letters in their own name",
+            "matching upper- and lower-case letters",
+            "identifying sounds for upper- and lower-case letters"
+          ]
+        },
+        {
+          "code": "VC2EFLY07",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "read and write some high-frequency words and other familiar words",
+          "elaborations": [
+            "knowing how to read and write some high-frequency words recognised in shared texts and texts read independently, for example 'and', 'my', 'is', 'the' and 'go'",
+            "knowing how to read and write some familiar words, for example their name, the name of a character or the name of their school"
+          ]
+        },
+        {
+          "code": "VC2EFLY08",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "understand that words are units of meaning and can be made of more than one meaningful part (morphemic knowledge)",
+          "elaborations": [
+            "learning that words are made up of meaningful parts; for example, 'dogs' has 2 meaningful parts: 'dog' and 's', meaning more than one"
+          ]
+        },
+        {
+          "code": "VC2EFLY09",
+          "strand": "Literacy",
+          "subStrand": "Building fluency and making meaning",
+          "text": "read decodable and authentic texts using developing phonic knowledge, and make and monitor meaning using context and emerging grammatical knowledge",
+          "elaborations": [
+            "navigating a text correctly, starting at the right place and reading in the right direction, returning to the next line as needed and matching one spoken word to one written word",
+            "attempting to work out unknown words by using phonic decoding and knowledge of high-frequency words",
+            "pausing or asking for support when meaning breaks down"
+          ]
+        },
+        {
+          "code": "VC2EFLY10",
+          "strand": "Literacy",
+          "subStrand": "Texts in context",
+          "text": "identify some familiar types of texts, such as stories and informative texts, and the contexts in which they are used",
+          "elaborations": [
+            "recognising symbols in everyday environments and discussing why they are used, for example exit signs, school crossing signs, emblems or badges on school uniforms",
+            "using book covers to group narrative and informative texts",
+            "grouping texts according to topic; for example, grouping a set of texts, which may include informative and narrative texts, about farm animals"
+          ]
+        },
+        {
+          "code": "VC2EFLY11",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "identify some differences between narrative and informative texts",
+          "elaborations": [
+            "talking about what is 'real' and what is imagined in texts",
+            "identifying and selecting texts for information purposes and commenting on how the text might help with a task",
+            "comparing images in narrative texts with images in informative texts"
+          ]
+        },
+        {
+          "code": "VC2EFLY12",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "use comprehension strategies, such as visualising, predicting, connecting, summarising and questioning, to understand and discuss texts listened to, viewed or read independently",
+          "elaborations": [
+            "sequencing ideas in spoken texts, retelling well-known stories, retelling stories with picture cues, and retelling information using prompts",
+            "listening for specific purposes, for example for the details of a character or to answer a given question",
+            "relating one or 2 key facts from informative texts",
+            "predicting what might happen in a text based on the title and cover"
+          ]
+        },
+        {
+          "code": "VC2EFLY13",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "create short texts to explore, record and report ideas and events, using familiar words and beginning writing knowledge",
+          "elaborations": [
+            "using beginning writing knowledge, sound–letter relationships, known words and punctuation to create short texts",
+            "using writing and drawing, which may include digital tools, to represent and communicate personal responses to ideas and events experienced through texts"
+          ]
+        },
+        {
+          "code": "VC2EFLY14",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "participate in shared editing of students' own texts for meaning, spelling, capital letters and full stops",
+          "elaborations": [
+            "'reading' their own texts back to an experienced writer",
+            "participating in shared editing by circling the capital letters at the beginning of sentences"
+          ]
+        },
+        {
+          "code": "VC2EFLY15",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "form most lower-case and upper-case letters using learnt letter formations",
+          "elaborations": [
+            "following clear demonstrations of how to construct each letter, for example where to start and in which direction to write",
+            "developing a functional pencil grip/grasp"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Level 1",
+      "levels": [
+        "1"
+      ],
+      "achievementStandard": "By the end of Level 1, students demonstrate the following skills in English.\nSpeaking and Listening When interacting with others, students understand the vocabulary of curriculum area topics and use language, facial expressions and gestures when requesting, exclaiming and commanding. They use turn-taking skills.\nThey explore language to express preferences and opinions.\nWhen speaking to an audience, students deliver short spoken texts, engaging with personal or learnt topics, using features of voice.\nReading and Viewing When listening, reading and viewing, students engage with a range of different types of texts, including decodable and authentic texts, using developing phonic knowledge.\nThey blend, segment and manipulate words with one and 2 syllables. They read an increasing number of high-frequency words and understand boundary punctuation.\nWhen demonstrating understanding of texts, students discuss characters, settings, events and images, and make connections between texts and their personal experiences. They begin to build their understanding of literal and inferred meanings. They identify how types of texts, both print and digital, are organised for purpose and navigation. They compare how textual elements other than language, such as images and sounds, can contribute to meaning in texts.\nWriting When creating short written and spoken texts, students use narrative and informative text structures; incorporate some detail from previously encountered texts, learnt topics or topics of interest; and include appropriate multimodal elements. They re-read their texts and complete simple edits.\nThey select learning area or topic-specific vocabulary.\nThey write words using unjoined lower-case and upper-case letters. They spell most one- and 2-syllable words with common letter patterns and common grammatical morphemes, and an increasing number of high-frequency words. They apply boundary punctuation.",
+      "contentDescriptions": [
+        {
+          "code": "VC2E1LA01",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "explore how language, facial expressions and gestures are used to interact with others when asking for and providing information, making offers, exclaiming, requesting and giving commands",
+          "elaborations": [
+            "recognising the effects of words, signing, gestures and body language on the way that communications are received by others",
+            "understanding that symbols, gestures and body language are key components of communication in Aboriginal and Torres Strait Islander communities",
+            "viewing short films and discussing how characters use words and body language to convey emotions",
+            "learning the difference between closed questions (for example, 'Are you ready?') and open questions (for example, 'What made this text so exciting?')"
+          ]
+        },
+        {
+          "code": "VC2E1LA02",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "explore language to provide reasons for likes, dislikes and preferences",
+          "elaborations": [
+            "using words such as 'because' to introduce reasons for likes, dislikes and preferences",
+            "exploring comparative words (adjectives) to express the degree of preference, for example 'better' and 'faster'"
+          ]
+        },
+        {
+          "code": "VC2E1LA03",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "explore how types of texts are organised according to their purpose, such as to recount, narrate, express opinion, inform, report and explain",
+          "elaborations": [
+            "discussing and comparing the purposes and organisation of familiar texts",
+            "becoming familiar with the typical stages of types of texts, for example recount and procedure",
+            "recognising that the structure of a text may include words and pictures; for example, an informative text may include words, illustrations and diagrams"
+          ]
+        },
+        {
+          "code": "VC2E1LA04",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "explore how repetition, rhyme and rhythm create cohesion in simple poems, chants and songs",
+          "elaborations": [
+            "identifying patterns of repetition in texts, for example repetition of sentence patterns such as 'Have you seen …'",
+            "discussing different poems and identifying rhyme, for example end-of-line rhyme"
+          ]
+        },
+        {
+          "code": "VC2E1LA05",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "understand how concepts about print in printed and digital texts are organised using features such as page numbers, tables of contents, headings and titles, navigation buttons, swipe screens, verbal commands, links and images",
+          "elaborations": [
+            "comparing the layout of printed and digital texts, for example the layout of print and images in an information book and the layout of information in an online text"
+          ]
+        },
+        {
+          "code": "VC2E1LA06",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that a simple sentence consists of a single independent clause representing a single event or idea",
+          "elaborations": [
+            "knowing that a single event or idea can include a process, a happening or a state (verb), the participant or who or what is involved (noun group/phrase), and the surrounding circumstances (adverb group/phrase), for example 'Teddy (the participant: who or what is involved) reads (a process, a happening or a state) the book (surrounding circumstances).'",
+            "understanding that simple sentences answer questions such as 'What is happening?' and 'Who or what is involved?' along with details such as 'Where?', 'When?' and 'How?'"
+          ]
+        },
+        {
+          "code": "VC2E1LA07",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that words can represent people, places and things (nouns, including pronouns), happenings and states (verbs), qualities (adjectives), relationships in time and space (prepositions) and details such as when, where and how (adverbs)",
+          "elaborations": [
+            "understanding that words or groups of words can represent the participants (nouns; for example people, places or things) that are involved in various activities or processes (verbs of doing, saying, thinking and being) and the details or circumstances surrounding the activity (adjectives and adverbs that answer 'When?', 'Where?' and 'How?')",
+            "recognising how a sentence can be made more specific by adding adjectives, adverbs and precise verbs"
+          ]
+        },
+        {
+          "code": "VC2E1LA08",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "compare how images and sound in different types of texts contribute to meaning",
+          "elaborations": [
+            "comparing images from texts where images of the same subject are represented differently, for example a cartoon image of an animal, a photograph of an animal, a painting of an animal and a digital image of an animal in an advertisement",
+            "understanding how authors and illustrators build up meaning across a sequence of images",
+            "understanding that some images convey meaning that is not included in the accompanying written text; for example, a diagram shows information about how parts of a plant are connected, which is not explained in the written text"
+          ]
+        },
+        {
+          "code": "VC2E1LA09",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "recognise and understand vocabulary across the curriculum, such as topic-specific vocabulary in other learning areas",
+          "elaborations": [
+            "using appropriate topic-specific vocabulary when discussing a learning area topic",
+            "using appropriate vocabulary for an Acknowledgement of Country at assemblies and other school events using protocols to recognise the Traditional Owners of Country",
+            "identifying words for topics studied at school, for example vocabulary used for weather and seasons"
+          ]
+        },
+        {
+          "code": "VC2E1LA10",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that written language uses punctuation such as full stops, question marks and exclamation marks, and uses capital letters for proper nouns",
+          "elaborations": [
+            "using intonation and pauses in response to punctuation, when reading",
+            "identifying different sentence boundary punctuation, when reading",
+            "writing different types of sentences (for example, statements and questions) and discussing appropriate punctuation",
+            "identifying and using capital letters to name places and cultural festivals and holidays"
+          ]
+        },
+        {
+          "code": "VC2E1LE01",
+          "strand": "Literature",
+          "subStrand": "Literature and contexts",
+          "text": "discuss how language and images are used to create characters, settings and events in literary texts by Aboriginal and Torres Strait Islander authors and illustrators and a wide range of Australian and world authors and illustrators",
+          "elaborations": [
+            "discussing how animal characters reflect human characteristics, for example discussing the creation of animal characters and their human qualities in fables by a wide range of world authors",
+            "discussing how characters, settings and events are described or depicted in literature by Aboriginal and Torres Strait Islander authors and illustrators",
+            "discussing the events associated with Australian animal characters and what is learnt about their characters in picture books from a wide range of Australian authors"
+          ]
+        },
+        {
+          "code": "VC2E1LE02",
+          "strand": "Literature",
+          "subStrand": "Engaging with and responding to literature",
+          "text": "discuss a range of literary texts and share responses by making connections with their own experiences",
+          "elaborations": [
+            "generating questions about characters, settings and events from books and sharing responses",
+            "discussing a range of texts and offering opinions about how they reflect their own experiences",
+            "expressing responses to characters and events in stories using drawing and role-play",
+            "identifying who is telling the story in a range of texts"
+          ]
+        },
+        {
+          "code": "VC2E1LE03",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "discuss plots, characters and settings through a range of literary texts",
+          "elaborations": [
+            "recognising similar characters and settings in a range of literary texts, for example traditional tales, narrative poems and fables",
+            "discussing whether features of settings, including time (year, season) and place (country or city), are realistic or imagined",
+            "discussing how plots develop, including beginnings (orientation), how the problem (complication) is introduced and how it is solved (resolution)"
+          ]
+        },
+        {
+          "code": "VC2E1LE04",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "listen to, recite and discuss poems, chants, rhymes and songs, and imitate and invent sound patterns including alliteration and rhyme",
+          "elaborations": [
+            "listening to performance poetry, chants or songs from Aboriginal and Torres Strait Islander Peoples",
+            "exploring poetry, chants and songs from Asian cultures",
+            "listening to haiku poems about familiar topics such as nature and the seasons"
+          ]
+        },
+        {
+          "code": "VC2E1LE05",
+          "strand": "Literature",
+          "subStrand": "Creating literature",
+          "text": "retell or adapt a range of previously encountered literary texts using plot and characters, structure, language features and vocabulary, through role-play, writing and drawing",
+          "elaborations": [
+            "writing or sharing character descriptions",
+            "imitating a characteristic piece of speech or dialogue, or the attitudes or expressions of favourite characters in texts",
+            "retelling key events in stories using oral language, visual arts, digital tools or performance"
+          ]
+        },
+        {
+          "code": "VC2E1LY01",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "use interaction skills including turn-taking, speaking clearly, using active listening behaviours and responding to the read or spoken contributions of others, and contributing ideas and questions",
+          "elaborations": [
+            "using turn-taking in group and pair work",
+            "building a conversation by staying on topic, supporting other speakers, eliciting responses, listening supportively and attentively, asking relevant questions, providing useful feedback and prompting",
+            "participating in informal and structured class, group and pair discussions about content area topics, ideas and information",
+            "interacting appropriately with peers, teachers and visitors",
+            "formulating different types of questions to ask a speaker or someone reading aloud, such as open and closed questions and 'when', 'why' and 'how' questions"
+          ]
+        },
+        {
+          "code": "VC2E1LY02",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "deliver short spoken texts to an audience using features of voice",
+          "elaborations": [
+            "reporting the results of group activities",
+            "explaining how to do or make something",
+            "giving short oral presentations about areas of interest or content area topics, speaking clearly and with appropriate volume, and using content-specific vocabulary",
+            "experimenting with volume and pace for particular purposes; for example, presenting information, retelling stories and reciting rhymes and poems",
+            "giving reasons why the class should learn a particular game"
+          ]
+        },
+        {
+          "code": "VC2E1LY03",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "blend, segment and manipulate phonemes in words (phonemic awareness), including words with consonant blends at the beginning and end, and words with more than one syllable",
+          "elaborations": [
+            "making sounds in order to say a given spoken word, for example 's-p-oo-n' and 'f-i-s-t'",
+            "manipulating phonemes in spoken words by addition, deletion and substitution of initial, medial and final phonemes to generate new words (phonological awareness)",
+            "adding, substituting or deleting phonemes in any position in one-syllable words with up to 4 phonemes",
+            "substituting medial sounds in spoken words to make new words, for example 'pin', 'pen', 'pan'",
+            "substituting final sounds in spoken words; for example, substituting the 't' in 'pet' with 'g' to form a new word, 'peg'"
+          ]
+        },
+        {
+          "code": "VC2E1LY04",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "use knowledge of short vowels, common long vowels, consonant blends and digraphs to read and write one- and 2-syllable words",
+          "elaborations": [
+            "using knowledge of letters and sounds to write words with short vowels (for example, 'man') and with common long vowel sounds (for example, 'time')",
+            "using knowledge of letter sounds to write one-syllable words with consonant digraphs and consonant blends, for example 'wish' and 'rest'"
+          ]
+        },
+        {
+          "code": "VC2E1LY05",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "understand that a letter can represent more than one sound and that a syllable must contain a vowel sound",
+          "elaborations": [
+            "recognising that letters can have more than one sound, for example the letter 'u' in 'cut', 'put' and 'use' and the letter 'a' in 'cat', 'father' and 'any'",
+            "recognising sounds that can be produced by different letters, for example the 's' sound in 'sat' and 'cent'"
+          ]
+        },
+        {
+          "code": "VC2E1LY06",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "spell one- and 2-syllable words with common letter patterns",
+          "elaborations": [
+            "writing one- and 2-syllable words containing known blends, for example 'bl' and 'st'"
+          ]
+        },
+        {
+          "code": "VC2E1LY07",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "read and write an increasing number of high-frequency words",
+          "elaborations": [
+            "learning an increasing number of high-frequency words and reading them independently, for example 'one', 'have' and 'pretty'"
+          ]
+        },
+        {
+          "code": "VC2E1LY08",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "recognise and know how to use grammatical morphemes to create word families",
+          "elaborations": [
+            "building word families from common morphemes, for example 'play', 'plays', 'playing', 'played' and 'playground'",
+            "using morphemes to read words; for example, by recognising the base word in words such as 'walk-ed'"
+          ]
+        },
+        {
+          "code": "VC2E1LY09",
+          "strand": "Literacy",
+          "subStrand": "Building fluency and making meaning",
+          "text": "read decodable and authentic texts using developing phonic knowledge, phrasing and fluency, and make and monitor meaning using context and grammatical knowledge",
+          "elaborations": [
+            "recognising most high-frequency words when reading a text",
+            "self-correcting or asking for assistance when meaning breaks down"
+          ]
+        },
+        {
+          "code": "VC2E1LY10",
+          "strand": "Literacy",
+          "subStrand": "Texts in context",
+          "text": "discuss different types of texts drawn from a range of cultures and experiences",
+          "elaborations": [
+            "discussing different types of texts encountered in school and in the community, and identifying their purposes",
+            "recognising that types of texts with similar purposes usually have predictable structures"
+          ]
+        },
+        {
+          "code": "VC2E1LY11",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "describe some similarities and differences between narrative, informative and persuasive texts",
+          "elaborations": [
+            "comparing and discussing different types of texts, identifying some features that distinguish those that 'tell stories' from those that 'give opinions'",
+            "selecting text types for a particular purpose or task, for example a website that will give information about a learning area topic, or a book that will tell a story about an animal"
+          ]
+        },
+        {
+          "code": "VC2E1LY12",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "use comprehension strategies, such as visualising, predicting, connecting, summarising and questioning, and draw on learnt vocabulary and growing knowledge of context and text structures to build literal and inferred meanings",
+          "elaborations": [
+            "identifying information and details from spoken informative texts",
+            "building topic knowledge and learning new vocabulary before and during reading",
+            "making predictions from the cover, from illustrations and at points in the text before reading on, and confirming and adjusting understanding after reading",
+            "drawing inferences and explaining inferences using clues from the text",
+            "making connections with existing knowledge and personal experiences"
+          ]
+        },
+        {
+          "code": "VC2E1LY13",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "create short narrative and informative texts, written and spoken, on personal and learnt topics, including using some topic-specific vocabulary, appropriate multimodal elements, and a structure with an opening, middle and conclusion",
+          "elaborations": [
+            "applying emerging knowledge of text structure and grammar when creating text",
+            "using learning area vocabulary when creating text",
+            "creating digital images and composing a story or information sequence on-screen using images and captions"
+          ]
+        },
+        {
+          "code": "VC2E1LY14",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "re-read their own texts and discuss possible changes to improve meaning, spelling and punctuation",
+          "elaborations": [
+            "adding or deleting words on a page or screen to improve meaning; for example, adding an adjective to add meaning to a noun",
+            "beginning to use dictionaries and resources to check and correct spelling",
+            "identifying words that might not be spelt correctly"
+          ]
+        },
+        {
+          "code": "VC2E1LY15",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "write words using unjoined lower-case and upper-case letters",
+          "elaborations": [
+            "continuing to develop a functional pencil grip/grasp"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Level 2",
+      "levels": [
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students demonstrate the following skills in English.\nSpeaking and Listening When interacting with others, students apply learnt vocabulary and vary language choices depending on context, actively listen to others, and extend their own ideas.\nThey explore the language of appreciation and provide reasons for preferences.\nWhen speaking to an audience, students deliver short spoken texts, engaging with topics for a familiar audience and appropriate for purpose, using features of voice.\nReading and Viewing When reading and viewing, students engage with a range of different types of texts for meaning.\nThey read using phonic, morphemic and vocabulary knowledge; grammatical knowledge such as compound sentences, noun and verb groups; and knowledge of punctuation.\nThey read some unfamiliar words and most high-frequency words.\nWhen demonstrating understanding of texts, students discuss and compare connections between characters, settings and events, and draw on their knowledge of context to build literal and inferred meanings. They express personal preferences for particular texts.\nThey describe how different types of texts across the curriculum, both print and digital, are organised for purpose and navigation. They understand that elements other than language – such as images and sounds – can multiply meanings in texts.\nWriting When creating short written and spoken texts, including stories to inform, express an opinion, explore an idea or narrate for audiences, students use ideas and details from previously encountered texts, learnt topics or topics of interest, and include appropriate multimodal elements. They re-read their texts and edit for improvement.\nThey use narrative and informative text structures to organise their own texts, and they use grammar and punctuation to create links.\nThey begin to make deliberate choices when applying learnt vocabulary.\nThey write words using consistently legible unjoined lower-case and upper-case letters. They spell words with regular spelling patterns and use phonic and morphemic knowledge to attempt to spell words with less common patterns.",
+      "contentDescriptions": [
+        {
+          "code": "VC2E2LA01",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "explore how interpersonal language choices vary depending on the context, including the different roles taken on in interactions",
+          "elaborations": [
+            "exploring culturally specific greetings and expressions of politeness",
+            "exploring Aboriginal and Torres Strait Islander cultural protocols in Welcome to Country and Acknowledgement of Country, and the greeting words used by Victorian Aboriginal Peoples",
+            "exploring how familiarity with a group or individual influences language choices"
+          ]
+        },
+        {
+          "code": "VC2E2LA02",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "explore how language can be used for appreciating texts and providing reasons for preferences",
+          "elaborations": [
+            "exploring how language is used to appreciate texts using more precise vocabulary, for example 'I liked how the author described the setting because …'",
+            "exploring verbs used to express degree of preference, for example 'liked', 'preferred' and 'enjoyed'"
+          ]
+        },
+        {
+          "code": "VC2E2LA03",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "identify how different types of texts across the curriculum are organised differently and use language features depending on purposes",
+          "elaborations": [
+            "identifying the typical features of a text, for example a typical introduction to a narrative or the use of dot points in instructions",
+            "identifying that different types of texts might have different forms; for example, an expression of opinion might be in the form of a poster, email or brochure",
+            "identifying the organisation and language features in texts such as narratives, recounts, information reports, simple procedures, expression of opinion and responses to texts (including poetry), and discussing their purposes"
+          ]
+        },
+        {
+          "code": "VC2E2LA04",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "understand how texts are made cohesive by using personal and possessive pronouns and by omitting words that can be inferred",
+          "elaborations": [
+            "identifying language used to build information across a text, for example by connecting similar and dissimilar things",
+            "mapping examples of word associations in texts, for example words that refer to the main character in a story, such as 'Isy', 'she', 'I', 'sister', 'student'",
+            "tracking how a person or thing is identified through a section of a text, for example 'eggs', 'they', 'them'",
+            "identifying words left out that can be inferred from the surrounding text; for example, in 'Xanthe went to school. She had a lovely day', 'at school' is inferred",
+            "using personal and possessive pronouns to link entities previously mentioned in the text"
+          ]
+        },
+        {
+          "code": "VC2E2LA05",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "navigate print and digital texts using chapters, tables of contents, indexes, sidebar menus, drop-down menus or links",
+          "elaborations": [
+            "recognising how numbered chapters, organisation of tables of contents and alphabetical order of indexes operate to support access to information",
+            "exploring how the navigation tools of different websites can be used to locate information"
+          ]
+        },
+        {
+          "code": "VC2E2LA06",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that connections can be made between ideas by using a compound sentence with 2 or more independent clauses usually linked by a coordinating conjunction",
+          "elaborations": [
+            "using coordinating conjunctions (for example, 'and', 'but' and 'so') to construct compound sentences (for example, 'The wolf huffed / and he puffed / and he blew the house down!')"
+          ]
+        },
+        {
+          "code": "VC2E2LA07",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that in sentences, nouns may be extended into noun groups using articles and adjectives, and verbs may be expressed as verb groups",
+          "elaborations": [
+            "identifying nouns that refer to people, places, concrete objects and ideas in sentences, and identifying the articles and adjectives that extend those nouns",
+            "building extended noun groups using articles and adjectives, for example 'the longest side'",
+            "building extended verb groups using verbs, for example 'gently touched'",
+            "investigating how noun groups can be built up by asking questions about the noun such as 'How many?', 'What's it like?' and 'What type?', for example 'two pairs of old walking shoes'"
+          ]
+        },
+        {
+          "code": "VC2E2LA08",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that images and sound add to or multiply the meanings of a text",
+          "elaborations": [
+            "identifying images and graphics in a text that add ideas or information not included in the written text, for example a map or table in a factual text or an illustration in a story that gives clues about the setting",
+            "identifying visual representations of characters' actions, reactions, speech and thought processes in narratives, and considering how these images add to or multiply the meaning of accompanying words"
+          ]
+        },
+        {
+          "code": "VC2E2LA09",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "apply learnt vocabulary and begin to make conscious choices to suit the topic",
+          "elaborations": [
+            "selecting vocabulary appropriate to the topic to replace everyday language",
+            "discussing new vocabulary encountered in learning area texts",
+            "exploring language used to describe characters in narratives, including nouns (for example, 'magician', 'wizard' or 'sorcerer') and adjectives (for example, 'gentle', 'timid' or 'frightened')",
+            "identifying words from Victorian Aboriginal languages relevant to a topic"
+          ]
+        },
+        {
+          "code": "VC2E2LA10",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "recognise that capital letters are used in titles and commas are used to separate items in lists",
+          "elaborations": [
+            "identifying how capital letters are used in the titles of texts",
+            "identifying commas used in lists in a variety of types of texts, for example 'This class has students who speak Vietnamese, Thai and Arabic at home.'"
+          ]
+        },
+        {
+          "code": "VC2E2LE01",
+          "strand": "Literature",
+          "subStrand": "Literature and contexts",
+          "text": "discuss how characters and settings are connected in literary texts created by Aboriginal and Torres Strait Islander authors and illustrators and a wide range of Australian and world authors and illustrators",
+          "elaborations": [
+            "recognising recurring characters in particular settings in texts by Aboriginal and Torres Strait Islander authors",
+            "exploring the way that a wide range of Australian authors and illustrators depict the Australian outback and the associated characters",
+            "discussing the depiction of characters in particular settings in well-known fairytales from a wide range of world authors, for example children in forests, and royalty in castles and towers"
+          ]
+        },
+        {
+          "code": "VC2E2LE02",
+          "strand": "Literature",
+          "subStrand": "Engaging with and responding to literature",
+          "text": "compare features of a range of literary texts, such as characters and settings, and share personal preferences",
+          "elaborations": [
+            "discussing preferences for stories set in familiar or unfamiliar worlds, or about characters whose lives are like or unlike their own",
+            "discussing their feelings about the positive and negative behaviours of non-human characters, such as animals"
+          ]
+        },
+        {
+          "code": "VC2E2LE03",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "discuss the plots, characters and settings of a range of literary texts and identify how language is used to present these features in different ways",
+          "elaborations": [
+            "comparing how similar characters or settings are described in texts from different contexts, for example how the seasons are described",
+            "identifying and comparing verb groups used to convey actions, emotions and dialogue in a range of literary texts",
+            "identifying the language used to describe the landscape in Aboriginal and Torres Strait Islander stories"
+          ]
+        },
+        {
+          "code": "VC2E2LE04",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "identify, reproduce and experiment with rhythmic sound and word patterns in poems, chants, rhymes and songs",
+          "elaborations": [
+            "exploring poems, chants, rhymes or songs from different home languages of class members"
+          ]
+        },
+        {
+          "code": "VC2E2LE05",
+          "strand": "Literature",
+          "subStrand": "Creating literature",
+          "text": "create texts by adapting structures and language features of previously encountered literary texts through writing, drawing and performance",
+          "elaborations": [
+            "inventing some speech, dialogue or behaviour for a favourite character, which may include the use of video and audio tools, for an alternative event or outcome to the one in the original text"
+          ]
+        },
+        {
+          "code": "VC2E2LY01",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "use interaction skills when engaging with topics and texts, actively listening to others, receiving instructions and extending their own ideas, speaking appropriately, expressing and responding to opinions, making statements, and giving instructions",
+          "elaborations": [
+            "exploring ways to comment on what others say, including using sentence starters such as 'I like the way you …', 'I agree that …', 'I have a different thought …', and 'I'd like to say something different …'",
+            "demonstrating appropriate listening behaviours, responding to and paraphrasing a partner's contribution to a discussion, for example in think-pair-share activities",
+            "asking relevant questions and making connections with personal experiences and the contributions of others",
+            "understanding how to disagree or respectfully offer an alternative"
+          ]
+        },
+        {
+          "code": "VC2E2LY02",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "deliver short spoken texts to an audience using features of voice",
+          "elaborations": [
+            "preparing and delivering oral presentations using more formal language and specific vocabulary about content area topics",
+            "adjusting volume and tone when speaking in more formal situations"
+          ]
+        },
+        {
+          "code": "VC2E2LY03",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "use knowledge of blending, segmenting and manipulating to read and write increasingly complex words (phonemic awareness)",
+          "elaborations": [
+            "blending and segmenting sounds in words, for example 'b-r-o-th-er' or 'c-l-ou-d-y'",
+            "deleting and substituting sounds (phonemes) in spoken words to form new words (for example, deleting the initial 'scr' in 'scratch' and substituting new initial sounds to form words such as 'catch', 'batch' and 'hatch') and substituting a medial sound to form a new word (for example, 'stack' becomes 'stick')"
+          ]
+        },
+        {
+          "code": "VC2E2LY04",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "use phoneme–grapheme correspondence knowledge to read and write words of one or more syllables with vowel digraphs, less common long vowel patterns, consonant blends and silent letters (phonic knowledge)",
+          "elaborations": [
+            "reading words with digraphs where one letter is not pronounced (for example, 'knife' and 'thumb') and using them in writing",
+            "providing the sounds for less common sound–letter matches (for example, 'ight') and using them in writing",
+            "reading words with vowel digraphs ('ee', 'oo', 'ai', 'ay' and 'ea')"
+          ]
+        },
+        {
+          "code": "VC2E2LY05",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "use knowledge of spelling patterns and morphemes to read and write words whose spelling is not completely predictable from their sounds, including high-frequency words",
+          "elaborations": [
+            "using known words and knowledge of spelling patterns and morphemes to write unknown words, for example 'one', 'once', 'only' and 'lone'",
+            "using context to read the correct word when an unknown word has more than one plausible pronunciation"
+          ]
+        },
+        {
+          "code": "VC2E2LY06",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "build morphemic word families using knowledge of prefixes and suffixes",
+          "elaborations": [
+            "using morphemic knowledge of words to spell unknown words, for example 'one', 'once', 'cover', 'covering' and 'uncover'",
+            "writing unknown words using morphemic knowledge; for example, using the known word 'friend' to write 'friendly' and 'friendship'"
+          ]
+        },
+        {
+          "code": "VC2E2LY07",
+          "strand": "Literacy",
+          "subStrand": "Building fluency and making meaning",
+          "text": "read different types of texts with phrasing and fluency, using phonic and word knowledge, and make and monitor meaning by re-reading and self-correcting",
+          "elaborations": [
+            "using phonic (sound–letter) and morphemic knowledge, and knowledge of high-frequency words when decoding text",
+            "monitoring their own reading, self-correcting or reading back, and re-reading when meaning does not make sense"
+          ]
+        },
+        {
+          "code": "VC2E2LY08",
+          "strand": "Literacy",
+          "subStrand": "Texts in context",
+          "text": "discuss how similar topics and information are presented in different types of texts",
+          "elaborations": [
+            "reading a poem, narrative and informative text about life cycles and discussing what is learnt",
+            "exploring recipes presented on food packets, in recipe books, in short video clips and in a digital form, noting their shared purpose"
+          ]
+        },
+        {
+          "code": "VC2E2LY09",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "identify the purpose and audience of different types of texts",
+          "elaborations": [
+            "identifying the audience of advertisements and signs"
+          ]
+        },
+        {
+          "code": "VC2E2LY10",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "use comprehension strategies, such as visualising, predicting, connecting, summarising, monitoring and questioning, and begin to analyse texts by drawing on a growing knowledge of context and text structures to build literal and inferred meanings",
+          "elaborations": [
+            "listening for specific information and providing key facts or points from an informative or persuasive text",
+            "listening and responding to detailed instructions",
+            "integrating information from print, images and prior knowledge to make supportable inferences",
+            "identifying the main idea of a text",
+            "predicting vocabulary that is likely to be in a text, based on the topic and the purpose of the text; for example, predicting that 'station' and 'arrive' would be in a text recounting a train journey",
+            "using prior knowledge to make and confirm predictions when reading a text",
+            "using graphic organisers to represent the connections between characters, order of events or sequence of information"
+          ]
+        },
+        {
+          "code": "VC2E2LY11",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "create short narrative, informative and persuasive texts for familiar audiences using simple text structures, topic-specific vocabulary and multimodal elements as appropriate",
+          "elaborations": [
+            "creating texts so that readers and/or audiences follow the sequence of ideas or events, using vocabulary (including topic-specific vocabulary) appropriate for the purpose",
+            "using digital tools to create texts",
+            "using simple and compound sentences correctly and flexibly to express and combine ideas"
+          ]
+        },
+        {
+          "code": "VC2E2LY12",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "re-read and edit texts for spelling, sentence boundary punctuation and text structure",
+          "elaborations": [
+            "reviewing and developing sentences; for example, adding prepositional phrases such as 'with a long tail' to improve descriptions",
+            "editing by adding, deleting or changing vocabulary to improve a text; for example, replacing an everyday noun with a topic-specific one",
+            "reviewing sentences for grammatical accuracy, for example use of pronouns"
+          ]
+        },
+        {
+          "code": "VC2E2LY13",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "write words legibly and with growing fluency using unjoined lower-case and upper-case letters",
+          "elaborations": [
+            "consolidating a functional pencil grip/grasp"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Level 3",
+      "levels": [
+        "3"
+      ],
+      "achievementStandard": "By the end of Level 3, students demonstrate the following skills in English.\nSpeaking and Listening When interacting with others, students extend topic-specific and appropriate vocabulary and use cooperation strategies and interaction skills to contribute to discussions.\nThey explore the language of evaluation and emotion.\nWhen speaking to an audience, students deliver short spoken texts, exploring topics and text types, including multimodal or digital elements, and using features of voice.\nReading and Viewing When reading and viewing, students engage with a range of different types of texts for meaning.\nThey read using phonic, morphemic and vocabulary knowledge; grammatical knowledge such as subject–verb agreement and tense; and knowledge of apostrophe use.\nThey read multisyllabic words with more complex letter patterns.\nWhen demonstrating understanding of texts, they discuss connections between the experiences of characters in texts and their own personal experiences to build literal and inferred meanings. They share personal preferences for texts.\nThey explore how different types of texts across the curriculum, both print and digital, use different structures for purpose and navigation. They identify literary devices, such as rhythm and onomatopoeia, and describe how images and sound can extend meaning.\nWriting When creating written and spoken texts to inform, narrate, explain or argue, students use ideas and details from previously encountered texts, learnt topics or topics of interest, and they include appropriate multimodal elements. They re-read their texts and edit for meaning, structure and grammatical choices.\nThey use text structures to begin to develop paragraphs for different purposes. They use grammar and punctuation to appropriately represent processes and connections, including using modal verbs.\nThey extend their use of topic-specific vocabulary, such as technical words, and adopt and adapt language features from texts.\nThey write texts using letters that are joined, accurately formed and consistent in size. They spell multisyllabic words using phonic and morphemic knowledge, and high-frequency words.",
+      "contentDescriptions": [
+        {
+          "code": "VC2E3LA01",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "understand that cooperation with others depends on shared understanding of social conventions, including turn-taking language, which vary according to the degree of formality",
+          "elaborations": [
+            "recognising and using collaborative language in group and pair work; for example, initiating a topic, changing a topic through negotiation, affirming other speakers and building on their comments, asking relevant questions, providing useful feedback, prompting, and checking individual and group understanding"
+          ]
+        },
+        {
+          "code": "VC2E3LA02",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "understand how the language of evaluation and emotion can be varied to be more or less forceful",
+          "elaborations": [
+            "recognising how choice of adverbs, nouns and verbs present different evaluations of characters in texts",
+            "exploring examples of language that demonstrate a range of emotions and positions, and building a vocabulary to express judgements about characters or events, for example 'The wizard was cunning, expert, inventive'"
+          ]
+        },
+        {
+          "code": "VC2E3LA03",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "describe how different types of texts across the curriculum have different language features and structures depending on purposes",
+          "elaborations": [
+            "identifying the stages of a basic argument such as introduction, argument 1, argument 2 and conclusion",
+            "describing the typical text structure and language features of factual recounts, autobiographies, information reports, narratives, personal responses to literary texts (with reasons), sequential explanations, verse poetry and simple arguments, and describing their purposes"
+          ]
+        },
+        {
+          "code": "VC2E3LA04",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "understand that paragraphs are a key organisational feature of the stages of written texts, grouping related information together",
+          "elaborations": [
+            "recognising that longer informative texts are organised into paragraphs, which begin with a topic sentence that predicts how the paragraph will develop and is then elaborated on in various ways",
+            "recognising that paragraphs in narrative texts vary in length and do not always follow a predictable structure",
+            "examining models of well-constructed paragraphs and identifying their features"
+          ]
+        },
+        {
+          "code": "VC2E3LA05",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "identify the purpose of layout features in print and digital texts and the words used for navigation",
+          "elaborations": [
+            "examining the words used as hyperlinks",
+            "discussing words used as headings and subheadings in digital and print information texts",
+            "discussing words used for chapter headings in narratives"
+          ]
+        },
+        {
+          "code": "VC2E3LA06",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that a clause is a unit of grammar usually containing a subject and a verb that need to agree",
+          "elaborations": [
+            "identifying clauses in texts by locating verbs and the key words that link to the verbs, for example 'While the cat slept, the mouse scurried across the path.'",
+            "identifying that a singular subject has a singular verb, and a plural subject has a plural verb, for example 'The girl plays cricket.' and 'The girls play cricket.'"
+          ]
+        },
+        {
+          "code": "VC2E3LA07",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand how verbs represent different processes for doing, feeling, thinking, saying and relating",
+          "elaborations": [
+            "exploring 'doing' and 'saying' verbs in narrative texts to understand how they give information about what characters do and say",
+            "exploring the use of 'sensing' verbs and how they allow readers to understand what characters think and feel, for example 'He remembered his first day at school.'",
+            "exploring the use of 'relating' verbs in constructing definitions and descriptions; for example, identifying the relating verb 'is' or 'are', 'has' or 'have' in descriptions of animals",
+            "identifying different types of verbs and the way that they control meaning in a clause"
+          ]
+        },
+        {
+          "code": "VC2E3LA08",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that verbs are anchored in time through tense",
+          "elaborations": [
+            "learning how time is represented through the tense of a verb (for example, 'She arrived.' or 'She is arriving.') and adverbials of time (for example, 'She arrived yesterday.' or 'She is arriving in the morning.')",
+            "learning that tenses for some verbs are formed by changing the word, for example 'She catches the ball.' or 'She caught the ball.'"
+          ]
+        },
+        {
+          "code": "VC2E3LA09",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand how modal verbs indicate obligation, probability and possibility",
+          "elaborations": [
+            "exploring how modal verbs (for example, 'must', 'might' and 'could') indicate degrees of probability or obligation"
+          ]
+        },
+        {
+          "code": "VC2E3LA10",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "identify how images and sound extend the meaning of a text",
+          "elaborations": [
+            "recognising how the relationship between characters can be depicted in images through the positioning of the characters; for example, facing each other or facing away from each other, the distance between them, the relative size, one character looking up (or down) at the other (power relationships), facial expressions and body gestures",
+            "recognising how images construct a relationship with the viewer through a direct gaze into the viewer's eyes, inviting involvement, and how close-ups are more engaging than distanced images, which can suggest alienation or loneliness"
+          ]
+        },
+        {
+          "code": "VC2E3LA11",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "extend topic-specific and technical vocabulary and know that words can have different meanings in different contexts",
+          "elaborations": [
+            "identifying and using technical words to describe length, for example metric units of length such as 'millimetre' and 'centimetre'",
+            "identifying and using words to describe features of narratives, for example 'character', 'plot' and 'setting'",
+            "identifying words that have different meanings in different contexts, for example 'warm temperature' and 'warm character'",
+            "extending vocabulary by adding prefixes and suffixes to base words, for example 'different', 'differently' and 'difference'"
+          ]
+        },
+        {
+          "code": "VC2E3LA12",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that apostrophes signal missing letters in contractions, and how apostrophes are used to show singular and plural possession in regular and irregular nouns",
+          "elaborations": [
+            "using apostrophes to create contractions; for example, 'do not' becomes 'don't', 'will not' becomes 'won't' and 'of the clock' becomes 'o'clock'",
+            "using apostrophes to show singular possession, for example 'my friend's book' and 'the princess's shoe'",
+            "using apostrophes to show plural possession, for example 'the bees' hive' and 'the princesses' shoes'",
+            "using apostrophes to show plural possessions in irregular nouns, for example 'the children's shoes' and 'the mice's cheese'"
+          ]
+        },
+        {
+          "code": "VC2E3LE01",
+          "strand": "Literature",
+          "subStrand": "Literature and contexts",
+          "text": "discuss characters, settings and events in different contexts in literary texts by Aboriginal and Torres Strait Islander authors and illustrators and a wide range of Australian and world authors and illustrators",
+          "elaborations": [
+            "exploring the ways in which a wide range of authors tell the same story, identifying variations in the storyline",
+            "discussing characters and their relationship with Country/Place and families in literature by Aboriginal and Torres Strait Islander authors",
+            "discussing similarities and differences in the way that an archetype, such as a wolf, is portrayed in different versions of children's stories by a wide range of world authors",
+            "exploring the ways that Australian settings are portrayed in stories"
+          ]
+        },
+        {
+          "code": "VC2E3LE02",
+          "strand": "Literature",
+          "subStrand": "Engaging with and responding to literature",
+          "text": "discuss connections between personal experiences and character experiences in a range of literary texts and give reasons for personal preferences",
+          "elaborations": [
+            "discussing relevant prior knowledge and past experiences to make meaningful connections to the people, places, events, issues and ideas in texts",
+            "selecting and discussing favourite texts and explaining reasons for assigning greater or lesser merit to particular texts or types of texts"
+          ]
+        },
+        {
+          "code": "VC2E3LE03",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "discuss how an author uses language and illustrations to build plots and portray characters and settings in literary texts, and explore how mood is created through settings and events",
+          "elaborations": [
+            "identifying and discussing how the use of descriptive language creates setting, influences atmosphere and draws readers into events that follow, for example 'The castle loomed dark and forbidding.'",
+            "discussing the language used to describe the traits of characters in stories, their actions and motivations, for example 'Dev was so lonely; he desperately wanted a pet, so he hatched a plan to get what he wanted.'"
+          ]
+        },
+        {
+          "code": "VC2E3LE04",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "identify and discuss some literary devices, including rhythm and onomatopoeia in poetry and prose, and discuss the ways that they shape the reader's reaction",
+          "elaborations": [
+            "discussing the effects of imagery in texts, for example the use of imagery related to nature in haiku poems",
+            "generating questions to discuss effects, for example 'Why does the poet use onomatopoeia in this line of the poem?'"
+          ]
+        },
+        {
+          "code": "VC2E3LE05",
+          "strand": "Literature",
+          "subStrand": "Creating literature",
+          "text": "create texts, using or adapting language features, characters, settings, plot structures and ideas from literary texts they have encountered",
+          "elaborations": [
+            "drawing on literary texts read, viewed and listened to for inspiration and ideas to create texts",
+            "adapting texts read, viewed and listened to by changing the setting or revising an ending",
+            "discussing characters encountered in literary texts and sharing ideas about how those characters may be a model for students' own writing"
+          ]
+        },
+        {
+          "code": "VC2E3LY01",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "use interaction skills to contribute to conversations and discussions to share text- or topic-based information and ideas",
+          "elaborations": [
+            "building on and connecting ideas and opinions expressed by others",
+            "listening actively, including listening for specific information, recognising the value of others' contributions and responding through comments, recounts and summaries of information",
+            "learning the specific speaking or listening skills of different group roles, for example group leader, note taker and reporter",
+            "using language appropriately in different situations; for example, explaining a procedure to a group or engaging in a game with friends"
+          ]
+        },
+        {
+          "code": "VC2E3LY02",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "deliver spoken texts to an audience using features of voice",
+          "elaborations": [
+            "adjusting tone and pace to purpose and audience"
+          ]
+        },
+        {
+          "code": "VC2E3LY03",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "understand how to apply knowledge of phoneme–grapheme correspondences, syllables, and blending and segmenting to fluently read and write multisyllabic words with more complex letter patterns",
+          "elaborations": [
+            "reading and writing more complex words with consonant digraphs and consonant blends, for example 'shrinking', 'against' and 'rocket'",
+            "reading and writing consonant digraphs representing different sounds, for example 'machine', 'change' and 'school'"
+          ]
+        },
+        {
+          "code": "VC2E3LY04",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "understand how to apply knowledge of common base words, prefixes, suffixes and generalisations for adding a suffix to a base word to read and comprehend new multimorphemic words",
+          "elaborations": [
+            "understanding how to use knowledge of prefixes to change the meaning of a base word, for example 'undone', 'remove' and 'misunderstand'",
+            "using generalisations for adding a suffix to a base word to form a plural or past tense; for example, to make a word plural when it ends in 'ss', 'sh', 'ch' or 'z', add 'es'"
+          ]
+        },
+        {
+          "code": "VC2E3LY05",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "use phoneme–grapheme relationships and less common letter patterns to spell words",
+          "elaborations": [
+            "using phonic knowledge to explore less common letter patterns after short vowels, for example words that end in 'dge', such as 'badge', 'edge' and 'fridge'",
+            "using phonic knowledge and knowledge of letter patterns to spell words with 3-letter blends, for example 'str-ip'"
+          ]
+        },
+        {
+          "code": "VC2E3LY06",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "recognise and know how to write most high-frequency words, including some homophones",
+          "elaborations": [
+            "using context and syntactic knowledge to spell homophones, for example 'break' and 'brake' or 'ate' and 'eight'"
+          ]
+        },
+        {
+          "code": "VC2E3LY07",
+          "strand": "Literacy",
+          "subStrand": "Building fluency and making meaning",
+          "text": "read different types of texts using phonic, semantic and grammatical knowledge to read accurately and fluently for meaning, re-reading and self-correcting when required",
+          "elaborations": [
+            "using phonic knowledge, word knowledge, vocabulary and grammatical knowledge to read unknown words",
+            "reading a wider range of texts from different learning areas, including chapter books and informative texts"
+          ]
+        },
+        {
+          "code": "VC2E3LY08",
+          "strand": "Literacy",
+          "subStrand": "Texts in context",
+          "text": "discuss how texts with similar purposes can be created for different audiences",
+          "elaborations": [
+            "discussing the ways in which a safety campaign varies depending on its audience; for example, comparing how a road safety campaign for adults driving a car is different to a road safety campaign for children crossing the road",
+            "discussing how the instructions for assembling and using toys vary according to the age of the intended user"
+          ]
+        },
+        {
+          "code": "VC2E3LY09",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "identify the purpose and audience of different types of texts through the use of language features and/or images in the texts",
+          "elaborations": [
+            "identifying words, phrases and images intended to persuade listeners, viewers or readers",
+            "identifying features of advertisements that target children",
+            "identifying the purpose of a narrative text; for example, identifying the purpose of a fable"
+          ]
+        },
+        {
+          "code": "VC2E3LY10",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "use comprehension strategies, such as visualising, predicting, connecting, summarising, monitoring and questioning, to analyse texts by drawing on a growing knowledge of context, text structures and language features to build literal and inferred meanings",
+          "elaborations": [
+            "making predictions about a text, drawing on knowledge of the topic, subject-specific vocabulary and experience of texts on the same topic",
+            "identifying important ideas, events or details in texts",
+            "learning new content from reading and listening, and asking questions to expand understanding",
+            "comparing and contrasting how different texts present similar ideas or information",
+            "drawing inferences, using evidence from the text and prior knowledge and experience; for example, making predictions about a character's likely actions or about the content of tabbed pages on a website",
+            "determining the relevance of a text for a particular task"
+          ]
+        },
+        {
+          "code": "VC2E3LY11",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "create narrative, informative and persuasive texts, written and spoken, with ideas grouped in simple paragraphs, using topic-specific and precise vocabulary and multimodal elements as appropriate",
+          "elaborations": [
+            "gathering information and ideas about a topic in preparation for writing, which may include information and ideas from online and digital sources",
+            "researching a topic to prepare an oral or multimodal presentation",
+            "planning the sequence of ideas and information using techniques such as storyboards or a simple flow chart",
+            "explaining ideas to a peer when planning a presentation",
+            "selecting an appropriate text structure for a writing purpose, and sequencing content for clarity and to have an impact on an audience",
+            "using appropriate simple and compound sentences to express and combine ideas",
+            "using vocabulary, including topic-specific vocabulary, relevant to the type of text and purpose",
+            "using digital tools to plan, sequence, compose and edit texts"
+          ]
+        },
+        {
+          "code": "VC2E3LY12",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "re-read and edit texts for meaning, appropriate structure, grammatical choices and punctuation",
+          "elaborations": [
+            "using print and online dictionaries and spellcheck to edit spelling, realising that spellcheck accuracy depends on understanding the word function, for example 'there' or 'their' and 'rain' or 'reign'",
+            "checking for correct use of apostrophes for contractions and to indicate possession"
+          ]
+        },
+        {
+          "code": "VC2E3LY13",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "write words using joined letters that are clearly formed and consistent in size",
+          "elaborations": [
+            "Content description does not require elaboration."
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Level 4",
+      "levels": [
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students demonstrate the following skills in English.\nSpeaking and Listening When interacting with others, students use an expanded vocabulary and language to develop relationships in different contexts.\nThey share and extend ideas and information. They differentiate between the language of opinion, facts and feelings.\nWhen speaking to an audience, students deliver structured spoken texts, exploring topics and text types, including multimodal or digital elements. They use language suitable to context, and appropriate features of voice.\nReading and Viewing When reading and viewing, students engage with a range of different types of texts for meaning.\nThey read by integrating phonic, morphemic and vocabulary knowledge; grammatical knowledge such as the use of clauses and phrases to provide details and indicate relationships; and knowledge of punctuation for dialogue.\nWhen demonstrating understanding of texts, students consider storylines, ideas and relationships between characters to build literal and inferred meanings. They describe the effects of text structures and language features. They share opinions about texts.\nThey explore how different types of texts across the curriculum, both print and digital, are organised into characteristic stages for purpose and navigation. They describe how literary devices, such as wordplay, shape meaning. They explore the framing and composition of still images and moving images and the use of sound.\nWriting When creating written and spoken texts for a small range of purposes and audiences, students adapt ideas and details from texts, learnt topics or topics of interest, and include appropriate multimodal elements. They edit their texts to improve content and structure.\nThey use text structures to sequence and connect ideas and to develop paragraphs. They use grammar and punctuation to create relationships, including through the use of tense.\nThey expand their vocabulary, such as through using synonyms and antonyms, and they use adverbial phrases to build meaning. They explore language features, including wordplay.\nThey write texts using clearly formed joined letters with developing fluency. They spell words, including multisyllabic and multimorphemic words with irregular spelling patterns, using phonic, morphemic and grammatical knowledge.",
+      "contentDescriptions": [
+        {
+          "code": "VC2E4LA01",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "understand how language is used to develop relationships in formal and informal situations",
+          "elaborations": [
+            "recognising that language is adjusted in different contexts, for example in degree of formality when moving between group discussions and presenting a group report",
+            "understanding how age, expertise and familiarity influence the ways in which people interact and how these codes and conventions vary across cultures",
+            "recognising the importance of using inclusive language",
+            "exploring cultural respect for Aboriginal and Torres Strait Islander Elders and greeting conventions between Victorian Aboriginal Peoples"
+          ]
+        },
+        {
+          "code": "VC2E4LA02",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "identify and differentiate the language of opinion, facts and feelings",
+          "elaborations": [
+            "identifying ways that 'thinking' verbs are used to express opinions (for example, 'I think' or 'I believe') and ways that 'summary' verbs are used to report findings (for example, 'we concluded')",
+            "comparing statements that have similar information presented through facts and opinion, for example 'The man has 6 cats.' and 'The man has too many noisy cats.'"
+          ]
+        },
+        {
+          "code": "VC2E4LA03",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "describe how different types of texts across the curriculum have different language features and are typically organised into characteristic stages depending on purposes",
+          "elaborations": [
+            "identifying the typical stages and language features of texts such as narratives, factual recounts, imaginative recounts, biographies, information reports, explanations, book talks, poetry and arguments for a particular purpose",
+            "understanding how and why text structure is important in texts such as sequential and causal explanations, and comparative and part-whole information reports",
+            "recognising that poems have different purposes that influence the organisation of the text into characteristic stages, for example poems that tell stories, poems that describe and poems that reflect on aspects of life",
+            "recognising the difference between a text's form (such as a poster, email or list) and its organisation into stages, depending on its social purpose"
+          ]
+        },
+        {
+          "code": "VC2E4LA04",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "understand how text connectives, including temporal and conditional words, and topic word associations, are used to sequence and connect ideas",
+          "elaborations": [
+            "recognising how authors construct texts that are cohesive and coherent using pronouns that link to something previously mentioned and determiners (for example, 'this', 'that', 'these' and 'those') to identify things",
+            "recognising how authors use text connectives to create links between sentences, for example 'however', 'therefore', 'nevertheless' and 'in addition'",
+            "recognising how text connectives link sections of a text, providing sequences through time, for example 'firstly', 'then', 'next' and 'finally'"
+          ]
+        },
+        {
+          "code": "VC2E4LA05",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "identify navigation features of digital texts that enhance readability, including headlines, drop-down menus, links, graphics and layout",
+          "elaborations": [
+            "investigating the features used for texts (such as headings and subheadings in print text, and home pages and subpages in digital texts) and how these help the reader to select text for a purpose",
+            "comparing the features of texts on similar topics online"
+          ]
+        },
+        {
+          "code": "VC2E4LA06",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that complex sentences contain one independent clause and at least one dependent clause typically joined by a subordinating conjunction to create relationships, such as time and causality",
+          "elaborations": [
+            "creating richer, more specific descriptions by using adjectival clauses; for example, 'Crossing the mountain range was difficult.' becomes 'The mountain pass was dangerous when it rained.'",
+            "creating more precise and detailed sentences by adding adverbial clauses; for example, 'They crossed the mountain range.' becomes 'Although the path was overgrown, they crossed the mountain range.'"
+          ]
+        },
+        {
+          "code": "VC2E4LA07",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand how adverb groups or phrases and prepositional phrases work in different ways to provide circumstantial details about an activity",
+          "elaborations": [
+            "investigating in texts how adverb groups/phrases and prepositional phrases can provide details of the circumstances surrounding a happening or state, for example 'At midnight (time) he rose slowly (manner) from the chair (place) and went upstairs (place).'"
+          ]
+        },
+        {
+          "code": "VC2E4LA08",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand past, present and future tenses and their impact on meaning in a sentence",
+          "elaborations": [
+            "understanding the tense that types of texts are commonly written in; for example, informative texts are usually written in present tense",
+            "identifying the tense in texts they read"
+          ]
+        },
+        {
+          "code": "VC2E4LA09",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "explore how the use of sound and choices in the framing of an image, the placement of elements in the image, and the salience in the image affect the composition of still and moving images and enhance the meaning of a text",
+          "elaborations": [
+            "examining visual and multimodal texts, building a vocabulary to describe visual elements and techniques such as framing, composition and salience, and beginning to understand how these choices influence viewer response",
+            "identifying the angle at which the camera is pointed at a subject and discussing how the angle influences meaning"
+          ]
+        },
+        {
+          "code": "VC2E4LA10",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "expand vocabulary by exploring a range of synonyms and antonyms, and using words encountered in a range of sources",
+          "elaborations": [
+            "building vocabulary from research about technical and learning area–specific topics, for example gravity and magnetic forces",
+            "determining or clarifying the shades of meaning of synonyms and antonyms",
+            "using words encountered in texts that are formed from an Aboriginal and Torres Strait Islander language, for example the Shire of Nillumbik, which draws its name from the Wurundjeri name for the region, meaning 'shallow earth'"
+          ]
+        },
+        {
+          "code": "VC2E4LA11",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that punctuation signals dialogue through quotation marks and that dialogue follows conventions for the use of capital letters, commas and boundary punctuation",
+          "elaborations": [
+            "identifying the use of quotation marks, capital letters, commas and boundary punctuation to signal dialogue in texts",
+            "using punctuated dialogue in their own writing"
+          ]
+        },
+        {
+          "code": "VC2E4LA12",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "explore how quoted (direct) and reported (indirect) speech are used",
+          "elaborations": [
+            "investigating examples of quoted (direct) speech (for example, 'He said, “I'll go to the park today.”') and reported (indirect) speech (for example, 'He told me he was going to the park today.') and why they have been used in different contexts"
+          ]
+        },
+        {
+          "code": "VC2E4LE01",
+          "strand": "Literature",
+          "subStrand": "Literature and contexts",
+          "text": "recognise similar storylines, ideas and relationships in different contexts in literary texts by Aboriginal and Torres Strait Islander authors and a wide range of Australian and world authors",
+          "elaborations": [
+            "comparing the plots and characters in 2 literary texts with similar ideas (for example, 2 literary texts that explore friendship) by a wide range of Australian authors",
+            "commenting on how literary texts set in different time periods present ideas about nature",
+            "discussing how everyday life, such as mealtimes and family relationships, is depicted in particular historical and cultural contexts in texts by a wide range of world authors",
+            "recognising similar storylines and ideas in literature by Aboriginal and Torres Strait Islander authors"
+          ]
+        },
+        {
+          "code": "VC2E4LE02",
+          "strand": "Literature",
+          "subStrand": "Engaging with and responding to literature",
+          "text": "describe the effects of text structures and language features in a range of literary texts when responding to and sharing opinions",
+          "elaborations": [
+            "sharing and discussing their understanding of the effects of literary techniques on their appreciation of texts",
+            "sharing responses to texts, using appropriate language to talk specifically about grammar and literature, for example 'The use of the noun groups to describe the character really helps to create images for the reader.'",
+            "using language appropriate for a text, such as 'flashback', 'tension' and 'resolution', when sharing opinions about plot structure"
+          ]
+        },
+        {
+          "code": "VC2E4LE03",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "compare how authors and illustrators make literary texts exciting, moving and absorbing and hold readers' interest by using plot tension, character and setting",
+          "elaborations": [
+            "examining an author's choice of language to describe a character's appearance, behaviour and speech",
+            "discussing what is learnt about a character through dialogue such as their likes, dislikes or personal qualities",
+            "identifying moments in the plot where characters are faced with choices, and commenting on how the author makes the reader care about their decisions and the consequences",
+            "identifying how illustrations contribute to the meaning of stories by Aboriginal and Torres Strait Islander authors"
+          ]
+        },
+        {
+          "code": "VC2E4LE04",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "explore the use of literary devices and deliberate wordplay, including grammar, in prose and poetry, and the ways that they shape meaning",
+          "elaborations": [
+            "defining neologisms and puns, and identifying how they are used by authors to create a sense of freshness, originality and playfulness",
+            "discussing poetic language, including adjectives that engage readers emotionally and bring the poet's subject matter to life",
+            "exploring emotive language in texts"
+          ]
+        },
+        {
+          "code": "VC2E4LE05",
+          "strand": "Literature",
+          "subStrand": "Creating literature",
+          "text": "create texts by developing storylines, characters and settings, and using language features from literary texts they have encountered and from their own experiences",
+          "elaborations": [
+            "creating texts using a range of sentence types, including dialogue and literary devices"
+          ]
+        },
+        {
+          "code": "VC2E4LY01",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "use interaction skills to gather information in order to carry out tasks, contribute to discussions, acknowledge another opinion, link a response to the text or topic, and share and extend ideas and information",
+          "elaborations": [
+            "making notes about a task, asking questions to clarify or follow up information, and seeking assistance if required",
+            "developing speaking and listening behaviours, including acknowledging and extending others' contributions, and presenting ideas and opinions clearly and coherently"
+          ]
+        },
+        {
+          "code": "VC2E4LY02",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "deliver structured spoken texts to an audience using features of voice",
+          "elaborations": [
+            "reporting on a topic in an organised manner, providing relevant facts and descriptive detail to support audience understanding, and using references to reliable sources to support claims",
+            "exploring the effects of changing tone, volume, pitch and pace in formal and informal contexts",
+            "rehearsing a presentation with a peer and sharing feedback about tone, pace, pitch and volume appropriate for audience"
+          ]
+        },
+        {
+          "code": "VC2E4LY03",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "understand how to use and apply phonological and morphological knowledge to read and write multisyllabic words with more complex letter combinations, including a variety of vowel sounds and known prefixes and suffixes",
+          "elaborations": [
+            "recognising unstressed vowels in multisyllabic words and how these vowel sounds are written, for example 'builder' and 'animal'",
+            "using phonemic awareness and morphological knowledge (including blending and segmenting sounds, syllables and morphemes) to read and write multisyllabic words with more complex letter combinations, for example 'straightaway' and 'thoughtful'"
+          ]
+        },
+        {
+          "code": "VC2E4LY04",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "understand how to use knowledge of letter patterns, including double letters, spelling generalisations, morphological word families, word origins, and common prefixes and suffixes to spell more complex words",
+          "elaborations": [
+            "applying generalisations for adding affixes; for example, 'hope' becomes 'hoping', 'begin' becomes 'beginning', 'country' becomes 'countries'",
+            "building morphemic word families and exploring word origins, for example 'tricycle', 'tripod' and 'triangle'"
+          ]
+        },
+        {
+          "code": "VC2E4LY05",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "read and write high-frequency words including homophones and know how to use context to identify correct spelling",
+          "elaborations": [
+            "recognising that contextual and syntactical clues can be used to determine the use of homophones, for example 'We grow wheat on our farm.' and 'The train trip will take about an hour.'"
+          ]
+        },
+        {
+          "code": "VC2E4LY06",
+          "strand": "Literacy",
+          "subStrand": "Building fluency and making meaning",
+          "text": "read different types of texts, integrating phonic, semantic and grammatical knowledge to read accurately and fluently for meaning, re-reading and self-correcting when needed",
+          "elaborations": [
+            "reading increasingly complex texts using established word identification strategies, knowledge of the topic and understanding of text structure and language features"
+          ]
+        },
+        {
+          "code": "VC2E4LY07",
+          "strand": "Literacy",
+          "subStrand": "Texts in context",
+          "text": "compare how texts from different times, with similar purposes and audiences, depict ideas or events",
+          "elaborations": [
+            "viewing documentaries and news footage from different periods and comparing the purpose and audience, for example coverage of major sporting events",
+            "comparing the texts used to communicate between family members, noting similarities and differences as a result of changing technology"
+          ]
+        },
+        {
+          "code": "VC2E4LY08",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "identify the characteristic features used in different types of texts to meet the purpose and audience of the text",
+          "elaborations": [
+            "identifying how authors use language to create imaginary worlds",
+            "identifying how authors use techniques, such as headings, italics and bold text, to support readers or viewers to navigate specific texts",
+            "identifying visual features such as images and layout used in informative texts to complement, add to or shape understanding of a topic"
+          ]
+        },
+        {
+          "code": "VC2E4LY09",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "use comprehension strategies, such as visualising, predicting, connecting, summarising, monitoring and questioning, to expand topic knowledge and ideas, and begin to evaluate texts to build literal and inferred meanings",
+          "elaborations": [
+            "making connections between information in print, images and sound",
+            "reading or listening for key topic-specific vocabulary words to build understanding",
+            "reading or listening to interpret the main idea and supporting ideas",
+            "identifying evidence and reasoning used by authors to support points or arguments",
+            "applying self-monitoring strategies such as re-reading, pausing and questioning, and self-correction strategies such as confirming and crosschecking",
+            "connecting the use of colours, images, symbols and patterns in texts by Aboriginal and Torres Strait Islander authors and illustrators",
+            "evaluating an author's use of evidence to support arguments"
+          ]
+        },
+        {
+          "code": "VC2E4LY10",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "create narrative, informative and persuasive texts, written and spoken, using relevant, linked ideas for a range of audiences and using multimodal elements as appropriate",
+          "elaborations": [
+            "using research to gather ideas for writing and integrating information from a range of sources, which may include those found online",
+            "selecting text structure and planning how to group ideas into paragraphs to sequence content",
+            "using topic-specific, precise and varied vocabulary",
+            "choosing a variety of appropriate words and phrases, including descriptive words and some technical vocabulary, to communicate meaning accurately",
+            "using grammatical features, including different types of verb groups, noun groups and adverb groups/phrases, for effective descriptions and details according to purpose"
+          ]
+        },
+        {
+          "code": "VC2E4LY11",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "re-read and edit texts for meaning by adding, deleting or moving words or word groups to improve content and structure",
+          "elaborations": [
+            "collaborating with a peer to edit literary texts by sharing feedback about choices made to develop storylines, characters and settings",
+            "revising written texts to improve the selection of words used to connect ideas and to improve the cohesion of the text"
+          ]
+        },
+        {
+          "code": "VC2E4LY12",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "write words using clearly formed joined letters, with developing fluency and automaticity",
+          "elaborations": [
+            "Content description does not require elaboration."
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Level 5",
+      "levels": [
+        "5"
+      ],
+      "achievementStandard": "By the end of Level 5, students demonstrate the following skills in English.\nSpeaking and Listening When interacting with others, students use vocabulary precisely and select language for social purposes and roles, to clarify meaning and make connections.\nThey extend their discussion beyond bare assertions and account for differing opinions and authoritative sources.\nWhen speaking to an audience, students deliver structured spoken texts, exploring topics and text types, including multimodal or digital elements. They select language for a specific purpose and use appropriate features of voice.\nReading and Viewing When reading and viewing, students engage with a range of different types of texts for meaning.\nThey read by integrating phonic, morphemic and vocabulary knowledge, and grammatical knowledge such as complex sentences and the use of clauses for effect.\nWhen demonstrating understanding of texts, students identify textual aspects that represent details about historical, cultural and social contexts. They describe how texts convey feelings, mood, actions and ideas to build literal and inferred meanings. They evaluate information and ideas in texts. They explain how different types of texts, both print and digital, are organised into characteristic stages for purpose. They discuss the effects of imagery and sound devices in texts. They explain how the sequence of still images, and moving images and sound, create or affect meaning.\nWriting When creating written and spoken texts for specific purposes and audiences, students develop ideas and adapt textual details drawn from texts and include appropriate multimodal elements. They edit their texts using an agreed set of criteria.\nThey use text structures, including paragraphs, to create prominence and build sequence and cohesion. They use grammar and punctuation, including complex sentences to provide additional information and description.\nThey use precise vocabulary, such as specialist and technical terms. They experiment with language features, including figurative language.\nThey write legibly and fluently. They spell new and unfamiliar words using phonic, morphemic and grammatical knowledge.",
+      "contentDescriptions": [
+        {
+          "code": "VC2E5LA01",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "understand how language is selected for social contexts and that it helps to signal social roles and relationships",
+          "elaborations": [
+            "using language that signals the roles of chairperson and the different speaker positions in a debate",
+            "identifying ways in which cultures differ in making and responding to common requests, for example periods of silence or degrees of formality",
+            "identifying some cultural protocols and communication processes of Aboriginal and Torres Strait Islander Peoples"
+          ]
+        },
+        {
+          "code": "VC2E5LA02",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "understand how to move beyond making bare assertions by taking account of differing ideas or opinions and authoritative sources",
+          "elaborations": [
+            "recognising that a bare assertion (for example, 'It's the best film this year.') often needs to be tempered by using the 'impersonal it' to distance oneself (for example, 'It could be said that it is the best film this year.'); recruiting anonymous support (for example, 'It is generally agreed that it is the best film this year.'); indicating a general source of the opinion (for example, 'Most critics agree that it is the best film this year.'); specifying the source of the opinion (for example, 'Reviewers for The Reel Film stated that it is the best film this year.') and reflecting on the effect of these different choices"
+          ]
+        },
+        {
+          "code": "VC2E5LA03",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "describe how different types of texts use language features and are typically organised into characteristic stages and phases, depending on purposes",
+          "elaborations": [
+            "becoming familiar with the typical stages and language features of types of texts such as narrative, procedure, argument, explanation, discussion and informative texts, and how they can be composed in written, digital and multimedia forms to achieve their purpose",
+            "recognising that paragraphs vary in their function and how they are organised in a text and between different types of texts, for example the differences between paragraphs in a narrative, an argument and a procedure",
+            "describing the stages and phases, and purposes, of narratives, historical recounts, procedural recounts, causal explanations, discussions of alternative positions on an issue, information reports, reviews and types of poems"
+          ]
+        },
+        {
+          "code": "VC2E5LA04",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "understand how texts are sequenced and can be made cohesive by using the starting point of a sentence or paragraph to give prominence to the message and to guide the reader through the text",
+          "elaborations": [
+            "observing how writers use the beginning of a sentence to signal to the reader how the text is developing, for example 'Snakes are reptiles. They have scales and no legs. Many snakes are poisonous. However, in Australia they are protected.'",
+            "recognising that a sequence of clauses may use different tenses but remain connected through a topic, for example 'Snakes were a problem in Australia. However, urban sprawl is ruining their habitats and they are now protected.'",
+            "recognising that sentence openers signal what the sentence will be about, and the rest of the sentence typically elaborates on the sentence opener by providing new information"
+          ]
+        },
+        {
+          "code": "VC2E5LA05",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand that the structure of a complex sentence includes an independent clause and at least one dependent clause, and understand how writers can use this structure for effect",
+          "elaborations": [
+            "knowing that complex sentences make connections between ideas to provide a reason (for example, 'He jumped up because the bell rang.'); state a purpose (for example, 'She raced home to confront her brother.'); express a condition (for example, 'It will break if you push it.'); make a concession (for example, 'She finished her work even though she was feeling tired.'); or link 2 ideas in terms of various time relations (for example, 'Nero fiddled while Rome burned.')"
+          ]
+        },
+        {
+          "code": "VC2E5LA06",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand how noun groups can be expanded in a variety of ways to provide a fuller description of a person, place, thing or idea",
+          "elaborations": [
+            "learning how to expand a description by combining a related set of nouns and adjectives, for example 'two old brown cattle dogs'",
+            "observing how descriptive details can be built up around a noun or an adjective, forming a group (for example, 'this very smelly cleaning cloth in the sink' is a noun group and 'as pretty as the flowers in May' is an adjective group)"
+          ]
+        },
+        {
+          "code": "VC2E5LA07",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "explain how the sequence of still and moving images and the use of sound in texts affect meaning",
+          "elaborations": [
+            "interpreting narrative texts told through wordless picture books",
+            "identifying and comparing sequences of images revealed through different hyperlink choices",
+            "viewing a short film or segment from a film without sound and comparing interpretations after viewing it with sound",
+            "recognising how the sequence of images in texts creates meaning"
+          ]
+        },
+        {
+          "code": "VC2E5LA08",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand how vocabulary is used to express greater precision of meaning, including through the use of specialist and technical terms",
+          "elaborations": [
+            "using precise words for naming; for example, instead of 'mammal' or 'whale', using 'humpback whale'"
+          ]
+        },
+        {
+          "code": "VC2E5LA09",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand how to use commas to indicate prepositional phrases, and how to use apostrophes where there is multiple possession in regular and irregular nouns",
+          "elaborations": [
+            "learning that in Standard Australian English, regular plural nouns ending in 's' form the possessive by adding just the apostrophe, for example 'the students' classroom'",
+            "learning that in Standard Australian English, for proper nouns the regular possessive form is always possible but a variant form without the second 's' is sometimes found, for example 'James's house' or 'James' house'",
+            "learning that when there is more than one owner, the apostrophe is usually used for the last owner in the list, for example 'the cat and kitten's bowls'",
+            "using commas to signal a prepositional phrase, for example 'On Saturday, before it rained, we went to the beach.'"
+          ]
+        },
+        {
+          "code": "VC2E5LE01",
+          "strand": "Literature",
+          "subStrand": "Literature and contexts",
+          "text": "identify aspects of literary texts that represent details or information about historical, cultural and social contexts in literature by Aboriginal and Torres Strait Islander authors and a wide range of Australian and world authors",
+          "elaborations": [
+            "identifying aspects of literature (for example, images, symbols, dialogue and character descriptions) that can convey information about a context",
+            "unpacking and discussing texts written by Aboriginal and Torres Strait Islander authors about the events that shaped or had an impact on their lives",
+            "identifying aspects of literature that represent historical context in texts by Aboriginal and Torres Strait Islander authors",
+            "exploring characters and concepts in ballads from different times by a wide range of Australian authors"
+          ]
+        },
+        {
+          "code": "VC2E5LE02",
+          "strand": "Literature",
+          "subStrand": "Engaging with and responding to literature",
+          "text": "form and share opinions on a literary text, using metalanguage to describe relevant literary devices, text structures and language features in a range of literary texts",
+          "elaborations": [
+            "posing and discussing questions, such as 'Should characters have behaved as they did?' and 'How did the author support or challenge your belief about the characters?', and beginning to form views about the dilemmas characters face",
+            "identifying language features such as use of dialogue and rich descriptive language, and presenting an opinion about their effect on readers"
+          ]
+        },
+        {
+          "code": "VC2E5LE03",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "recognise that the point of view in a literary text influences how readers interpret and respond to plots, characters and events",
+          "elaborations": [
+            "comparing texts narrated from a first-person and third-person point of view, and discussing what information the audience can access and how this influences the audience's sympathies",
+            "discussing why an author might choose a particular point of view"
+          ]
+        },
+        {
+          "code": "VC2E5LE04",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "compare the effects of imagery, including simile, metaphor and personification, and sound devices in prose and poetry",
+          "elaborations": [
+            "discussing how figurative language, including simile and metaphor, can make use of a comparison between different things",
+            "discussing how, by appealing to the imagination, figurative language provides new ways of looking at the world"
+          ]
+        },
+        {
+          "code": "VC2E5LE05",
+          "strand": "Literature",
+          "subStrand": "Creating literature",
+          "text": "create texts, experimenting with vocabulary, figurative language, storylines, characters and settings from literary texts they have encountered",
+          "elaborations": [
+            "drawing upon fiction elements in a range of model texts, such as main idea, characterisation and setting (time and place), and devices such as figurative language (simile, metaphor, personification) to experiment with new, creative ways of communicating ideas, experiences and stories in literary texts",
+            "creating a visual map, which may include digital mind maps, of figurative language, storylines, characters and settings in a text that may inspire their own writing"
+          ]
+        },
+        {
+          "code": "VC2E5LY01",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "use interaction skills including paraphrasing and questioning to clarify meaning, make connections to personal experience or to a text, and present and justify an opinion or idea",
+          "elaborations": [
+            "participating in pair, group, class and school speaking and listening situations, including informal conversations, discussions and presentations",
+            "asking specific questions to clarify a speaker's meaning, making constructive comments that keep a conversation moving, reviewing ideas expressed and conveying tentative conclusions",
+            "using strategies for discussion, such as speaking clearly, pausing, asking questions and linking students' responses to the contributions of others",
+            "choosing vocabulary and sentence structures for particular purposes, including formal and informal contexts, to report and explain new concepts and topics, to offer an opinion and to persuade others"
+          ]
+        },
+        {
+          "code": "VC2E5LY02",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "deliver structured spoken and multimodal texts to an audience for a specific purpose, using features of voice",
+          "elaborations": [
+            "experimenting with features of voice such as tone, volume, pitch and pace in formal presentations and recognising the effects these have on audience understanding",
+            "reflecting on how new learning can be incorporated into a presentation"
+          ]
+        },
+        {
+          "code": "VC2E5LY03",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "use phonological, morphological and vocabulary knowledge to read and spell words that share common letter patterns but have different pronunciations",
+          "elaborations": [
+            "recognising and writing less familiar words that share common letter patterns but have different pronunciations, for example 'journey', 'your', 'tour' and 'sour'"
+          ]
+        },
+        {
+          "code": "VC2E5LY04",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "build and spell new words from knowledge of known words, base words, prefixes and suffixes, word origins (etymology), letter patterns and spelling generalisations",
+          "elaborations": [
+            "using knowledge of known words and base words to spell new words, for example the spelling and meaning connections between 'vision', 'television' and 'revision'",
+            "applying knowledge of spelling generalisations to spell new words, for example 'suitable', 'likeable' and 'collapsible'"
+          ]
+        },
+        {
+          "code": "VC2E5LY05",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "explore less common plurals, and understand how a suffix changes the meaning or grammatical form of a word",
+          "elaborations": [
+            "using knowledge of word origins and roots, and related words, to interpret and spell unfamiliar words, and learning about how these roots affect plurals, for example 'cactus' and 'cacti', and 'louse' and 'lice'",
+            "understanding how some suffixes change the grammatical form of words, for example '-tion' and '-ment' can change verbs into nouns, such as 'protect' to 'protection' and 'develop' to 'development'"
+          ]
+        },
+        {
+          "code": "VC2E5LY06",
+          "strand": "Literacy",
+          "subStrand": "Building fluency and making meaning",
+          "text": "read different types of increasingly complex texts, integrating phonic, semantic and grammatical knowledge to read accurately and fluently for meaning, re-reading and self-correcting when needed",
+          "elaborations": [
+            "using subject and technical vocabulary and concept knowledge to navigate less familiar texts",
+            "skimming and scanning to check the pertinence of particular information to their topic and task",
+            "using signposting features such as headings and subheadings, and home pages and subpages to read texts"
+          ]
+        },
+        {
+          "code": "VC2E5LY07",
+          "strand": "Literacy",
+          "subStrand": "Texts in context",
+          "text": "describe the ways in which a text reflects the time and place in which it was created",
+          "elaborations": [
+            "describing how ideas in texts are conveyed by vocabulary, including idiomatic expressions and the way that these can change according to time and place",
+            "describing how ideas in texts reflect the social expectations of the time and place in which they were created"
+          ]
+        },
+        {
+          "code": "VC2E5LY08",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "explain characteristic features used to meet the purpose and audience in different types of texts",
+          "elaborations": [
+            "explaining how the features of a text advocating community action (for example, action on a local area preservation issue) are used to meet the purpose of the text",
+            "explaining how characters are used to deliver the message in persuasive texts; for example, explaining how characters are used to present persuasive messages about health issues in advertising, and considering why characters have been used instead of real people"
+          ]
+        },
+        {
+          "code": "VC2E5LY09",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "use comprehension strategies, such as visualising, predicting, connecting, summarising, monitoring and questioning, to evaluate information and ideas to build literal and inferred meanings",
+          "elaborations": [
+            "summarising ideas and information to determine the main idea of a text",
+            "using research skills, including identifying research purpose; locating texts; gathering and organising information; evaluating relative value; evaluating the accuracy and currency of print and digital sources; and summarising information from several sources",
+            "comparing texts on the same topic to identify similarities and differences in the ideas or information included"
+          ]
+        },
+        {
+          "code": "VC2E5LY10",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "create different types of texts, written and spoken, with relevant, elaborated and sequenced ideas, using text structure appropriate for topic, purpose and audience, and multimodal elements as appropriate",
+          "elaborations": [
+            "using research from print and digital resources to gather and organise information for writing",
+            "planning a report on a topic, sequencing ideas logically and providing supporting detail, including graphics, sound and visuals, to enhance audience engagement and understanding",
+            "selecting an appropriate text structure for the writing purpose, and sequencing content according to that text structure, introducing the topic and grouping related information in well-sequenced paragraphs with a concluding statement",
+            "using vocabulary, including technical vocabulary, appropriate for purpose and context",
+            "using appropriate grammatical features, including more complex sentences and relevant verb tenses, pronoun references, and adverb and noun groups/phrases for effective descriptions",
+            "writing letters in print and by email, demonstrating understanding of audience"
+          ]
+        },
+        {
+          "code": "VC2E5LY11",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "re-read and edit their own texts and the texts of others using agreed criteria for text structures and language features",
+          "elaborations": [
+            "re-reading and editing their own and others' work (which may involve using digital tools) for precision, using negotiated criteria for text structure and meaning, and accuracy of grammar, spelling and punctuation"
+          ]
+        },
+        {
+          "code": "VC2E5LY12",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "write legibly, fluently and automatically",
+          "elaborations": [
+            "Content description does not require elaboration."
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Level 6",
+      "levels": [
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students demonstrate the following skills in English.\nSpeaking and Listening When interacting with others, students use vivid vocabulary, select language to acknowledge formality and social distance, and use appropriate strategies such as paraphrasing and questioning.\nThey explore objective and subjective language and identify bias.\nWhen speaking to an audience, students deliver structured spoken texts, exploring topics and text types, including multimodal or digital elements. They select language appropriate for purpose and audience and use appropriate features of voice.\nReading and Viewing When reading and viewing, students engage with a range of different types of texts for meaning.\nThey read by integrating phonic, morphemic and vocabulary knowledge; grammatical knowledge such as complex sentences and adverb groups; and knowledge of the multiple uses of commas.\nWhen demonstrating understanding of texts, students explore and compare characters and events, and information and ideas, from different historical, cultural or social contexts to build literal and inferred meanings.\nThey explain how different types of texts, both print and digital, adapt text structures and language features for specific purposes. They explain the effects of imagery and sound devices in texts. They explain how still images, moving images and sound create point of view.\nWriting When creating written and spoken texts for specific purposes and audiences, students explore ideas and experiment with textual details from texts, and include appropriate multimodal elements. They edit their texts using an agreed set of criteria and explore editing choices.\nThey use text structures, including repetition, to create sequence and cohesion, sentence structure to expand ideas, and punctuation to create clarity.\nThey use vivid, emotive vocabulary. They experiment with language features and literary devices.\nThey write legibly and fluently for sustained periods. They spell new and technical words using phonic, morphemic and grammatical knowledge.",
+      "contentDescriptions": [
+        {
+          "code": "VC2E6LA01",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "understand how language varies as levels of formality and social distance change",
+          "elaborations": [
+            "recognising language protocols for formal address, for example words used to address principals, heads of state and monarchs",
+            "discussing levels of language such as slang, colloquial, conversational and formal, and how their appropriateness changes with the situation and audience",
+            "presenting ideas and opinions at levels of formality appropriate for the context and audience"
+          ]
+        },
+        {
+          "code": "VC2E6LA02",
+          "strand": "Language",
+          "subStrand": "Language for interacting with others",
+          "text": "understand the uses of objective and subjective language, and identify bias",
+          "elaborations": [
+            "identifying language choices that evoke emotion and judgements in direct and indirect ways, and how they are used to persuade different audiences to take a position and/or action",
+            "understanding when to share feelings and opinions (for example, in a personal recount) and when to remain more objective (for example, in a factual recount)",
+            "differentiating between reporting facts (for example, in a factual recount or unedited photograph) and providing a commentary (for example, in an editorial)"
+          ]
+        },
+        {
+          "code": "VC2E6LA03",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "explain how different types of texts are typically organised into characteristic stages and phases depending on purposes, recognising how authors often adapt text structures and language features",
+          "elaborations": [
+            "exploring a range of everyday, community, literary and informative texts, discussing elements of text structure and language features, and comparing the overall structure and effect of authors' choices in 2 or more texts",
+            "examining a text to identify strategies such as exaggeration to create humour",
+            "recognising that texts are organised into stages, such as an introduction, and that introductions may be divided into phases; for example, the introduction stage of a narrative may begin with a phase that is a 'hook' or a flashback",
+            "explaining the characteristic stages and phases in reviews, discussing alternative positions or historical recounts, and identifying any adaptations of typical structures or language features"
+          ]
+        },
+        {
+          "code": "VC2E6LA04",
+          "strand": "Language",
+          "subStrand": "Text structure and organisation",
+          "text": "understand that sequence and cohesion can be created by the intentional use of repetition of text structures, language features and vocabulary",
+          "elaborations": [
+            "noting how a general word is often used for a more specific word already mentioned (word association), for example 'Look at those apples. Granny Smiths are my favourite.'",
+            "recognising how cohesion can be developed through repeating key words or by using synonyms or antonyms"
+          ]
+        },
+        {
+          "code": "VC2E6LA05",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand how embedded clauses can expand the variety of complex sentences to elaborate, extend and explain ideas",
+          "elaborations": [
+            "investigating how the choice of conjunctions enables the construction of complex sentences to extend, elaborate on and explain ideas, for example 'The town that was flooded suffered extensive damage.'",
+            "creating complex sentences with embedded clauses to expand noun groups, for example 'Hamish studied the rock samples that he had collected on the excursion, to complete his report.'"
+          ]
+        },
+        {
+          "code": "VC2E6LA06",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand how the choice of verb, elaborated tenses and a range of adverb groups can expand and sharpen ideas",
+          "elaborations": [
+            "knowing that the simple present tense is typically used to talk about present states (for example, 'He lives in Darwin.') or actions that happen regularly in the present (for example, 'He watches television every night.') or that represent 'timeless' happenings, such as in informative reports (for example, 'Bears hibernate in winter.')",
+            "knowing that there are various ways in English to refer to future time, such as using the auxiliary 'will' (for example, 'She will call you tomorrow.'), using the present tense (for example, 'Tomorrow, I leave for Hobart.') and using adverbials of time (for example, 'She arrives in the morning.')",
+            "using precise verbs (for example, 'slice', 'dice', 'fillet' and 'segment') rather than general words (for example, 'cut')"
+          ]
+        },
+        {
+          "code": "VC2E6LA07",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "identify the ways that still images (such as figures, tables, diagrams, maps and graphs), moving images and sound are used in texts to create point of view",
+          "elaborations": [
+            "observing how sequential events can be represented visually by a series of images, including comic strips, timelines, photo stories, procedure diagrams and flow charts, life cycle diagrams and the flow of images in picture books",
+            "observing how concepts, information and relationships can be represented visually through tables, maps, graphs and diagrams",
+            "understanding that images and maps may be sensitive for Aboriginal and Torres Strait Islander Peoples and ensuring that a disclaimer is applied or judgement is used about cultural appropriateness and sensitivities"
+          ]
+        },
+        {
+          "code": "VC2E6LA08",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "examine how authors use vivid vocabulary and figurative language, such as metaphors, similes, personification, idioms, imagery and hyperbole",
+          "elaborations": [
+            "exploring how figurative language (for example, metaphors, personification and idioms) can be used to create vivid and less predictable shades of meaning",
+            "identifying authors' use of vivid and emotive vocabulary in persuasive texts, for example the vocabulary used in reviews",
+            "discussing texts, using vocabulary to name text structure, literary devices and language features; for example, using words that name the literary device used in a poem"
+          ]
+        },
+        {
+          "code": "VC2E6LA09",
+          "strand": "Language",
+          "subStrand": "Language for expressing and developing ideas",
+          "text": "understand how to use commas to separate a dependent clause from an independent clause",
+          "elaborations": [
+            "identifying different uses of commas, such as commas and conjunctions between independent clauses in compound sentences"
+          ]
+        },
+        {
+          "code": "VC2E6LE01",
+          "strand": "Literature",
+          "subStrand": "Literature and contexts",
+          "text": "explore their responses to characters and events in literary texts drawn from historical, cultural or social contexts by Aboriginal and Torres Strait Islander authors and a wide range of Australian and world authors",
+          "elaborations": [
+            "discussing the influence historical, cultural and social experiences may have on the meaning of a text and attitudes towards characters, actions and events",
+            "sharing responses about how heroes are portrayed in science fiction or fantasy and more realistic settings",
+            "exploring reviews of Australian films"
+          ]
+        },
+        {
+          "code": "VC2E6LE02",
+          "strand": "Literature",
+          "subStrand": "Engaging with and responding to literature",
+          "text": "compare language choices, modality, emphasis, repetition and metaphor, and topics, themes or plots in a range of literary texts",
+          "elaborations": [
+            "exploring texts on a similar topic by authors with very different styles; for example, comparing fantasy quest novels with realistic novels on a specific theme",
+            "identifying differences in the use of narrator, narrative structure and voice, and language and visual features, between texts and determining how these influence readers or viewers"
+          ]
+        },
+        {
+          "code": "VC2E6LE03",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "describe characteristics of literary texts that define an author's individual style",
+          "elaborations": [
+            "exploring 2 or more texts by the same author, identifying similarities (for example, subject or theme, characterisation, text structure, plot development, tone, vocabulary, voice, favoured grammatical structures and visual techniques in picture books) and describing the qualities that characterise an author's style",
+            "focusing on an Aboriginal or Torres Strait Islander author and identifying characteristic elements of their writing, for example imagery, theme and language"
+          ]
+        },
+        {
+          "code": "VC2E6LE04",
+          "strand": "Literature",
+          "subStrand": "Examining literature",
+          "text": "explain the way authors use sound and imagery to create meaning and effect in prose and poetry",
+          "elaborations": [
+            "explaining how imagery builds emotional connections and engagement with the story or theme",
+            "identifying the imagery used in narratives or poetry about Aboriginal and Torres Strait Islander Peoples' Country/Place",
+            "describing the effects of assonance, alliteration and onomatopoeia in a poem",
+            "explaining the effect of rhythm in ballads"
+          ]
+        },
+        {
+          "code": "VC2E6LE05",
+          "strand": "Literature",
+          "subStrand": "Creating literature",
+          "text": "create texts that adapt plot structure, characters, settings and/or ideas from literary texts they have encountered, and experiment with vocabulary and literary devices",
+          "elaborations": [
+            "creating narratives in written, spoken, multimodal or digital form by adapting character; for example, reimagining the hero in an adventure story",
+            "creating an autobiography of a character from a text they have explored"
+          ]
+        },
+        {
+          "code": "VC2E6LY01",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "use interaction skills and awareness of formality when paraphrasing, questioning, clarifying and interrogating ideas; developing and supporting arguments; and sharing and evaluating information, experiences and opinions",
+          "elaborations": [
+            "participating in pair, group, class, school and community speaking and listening situations, including informal conversations, discussions, debates and presentations",
+            "using strategies (for example, pausing, questioning, rephrasing, repeating, summarising, reviewing and asking clarifying questions) when discussing topics",
+            "recognising that closed questions ask for precise responses, while open questions prompt a speaker to provide more information"
+          ]
+        },
+        {
+          "code": "VC2E6LY02",
+          "strand": "Literacy",
+          "subStrand": "Interacting with others",
+          "text": "deliver structured spoken and multimodal texts to an intended audience for a specific purpose, using appropriate features of voice",
+          "elaborations": [
+            "experimenting with voice effects such as tone, volume, pitch and pace in formal presentations and recognising the effects these have on audience understanding",
+            "presenting an argument about an issue from learning area content, which includes claims supported with evidence and examples, careful use of topic-specific vocabulary and selection of persuasive techniques appropriate for audience",
+            "setting goals for a presentation and monitoring development in a written or digital journal"
+          ]
+        },
+        {
+          "code": "VC2E6LY03",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "use combined phonological, morphological and vocabulary knowledge to read and write increasingly complex words",
+          "elaborations": [
+            "using phonic generalisations to read and write complex words with uncommon letter patterns, for example 'pneumonia', 'resuscitate' and 'vegetation'"
+          ]
+        },
+        {
+          "code": "VC2E6LY04",
+          "strand": "Literacy",
+          "subStrand": "Phonic and word knowledge",
+          "text": "use their knowledge of known words, base words, prefixes, suffixes, letter patterns, spelling generalisations and word origins (etymology), including some Latin and Greek roots, to spell new words, including technical words",
+          "elaborations": [
+            "using a dictionary to explore word origins, including some Greek roots, in order to spell words; for example, the Greek root 'ath' meaning 'contest' or 'outstanding skill', 'pent' meaning the number 5 and 'dec' meaning the number 10 inform the spelling and meaning of the words 'athlete', 'pentathlon' and 'decathlon'",
+            "applying accumulated knowledge of a wide range of letter patterns and spelling generalisations to spell new words, for example 'ratio' and 'synthesis'",
+            "expanding knowledge of prefixes and suffixes, and exploring meaning relationships between words, for example 'disappearance', 'submarine', 'subterranean', 'poisonous' and 'nervous'",
+            "applying accumulated knowledge of a wide range of letter patterns and spelling generalisations to spell new words; for example, knowing how and why these words are spelt as follows: 'reliability', 'handkerchief', 'receive', 'lollies', 'trolleys', 'climbing', 'designed' and 'emergency'",
+            "spelling technical words by applying morphemic knowledge, for example 'metaphorical', 'biology' and 'biodegradable'"
+          ]
+        },
+        {
+          "code": "VC2E6LY05",
+          "strand": "Literacy",
+          "subStrand": "Building fluency and making meaning",
+          "text": "select and read different types of texts of varying complexity, integrating phonic, semantic and grammatical knowledge to read accurately and fluently for meaning, re-reading and self-correcting when needed",
+          "elaborations": [
+            "bringing subject and technical vocabulary and concept knowledge to new reading tasks, and selecting, evaluating and using texts for their pertinence to the task and the accuracy of their information",
+            "using their knowledge of text structure to navigate the text to locate specific content for a purpose"
+          ]
+        },
+        {
+          "code": "VC2E6LY06",
+          "strand": "Literacy",
+          "subStrand": "Texts in context",
+          "text": "examine texts, including media texts, that represent ideas and events, and identify how they reflect the context in which they were created",
+          "elaborations": [
+            "identifying news reports of the same type of event over time and how they reflect their contexts",
+            "comparing advertising posters for animated children's films in different countries and explaining the impact of these choices on audience expectations of the film",
+            "identifying how advertisements for the same products reflect the context in which they were created"
+          ]
+        },
+        {
+          "code": "VC2E6LY07",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "analyse how text structures and language features work together to meet the purpose of a text and engage and influence audiences",
+          "elaborations": [
+            "comparing the structure and language features of different texts, including print and digital sources on similar topics, and evaluating which features best aid navigation and clear communication about the topic"
+          ]
+        },
+        {
+          "code": "VC2E6LY08",
+          "strand": "Literacy",
+          "subStrand": "Analysing, interpreting and evaluating",
+          "text": "use comprehension strategies, such as visualising, predicting, connecting, summarising, monitoring and questioning, and connect and compare ideas from a variety of sources to build literal and inferred meanings",
+          "elaborations": [
+            "making connections between the text and their own experiences or other texts",
+            "making connections between information in print and images",
+            "using prior knowledge and textual information to make inferences",
+            "asking and answering questions",
+            "using graphic organisers to visualise connections, categories and hierarchies of information",
+            "summarising a text or part of a text"
+          ]
+        },
+        {
+          "code": "VC2E6LY09",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "create different types of texts, written and spoken, with developed and organised ideas for purpose and audience, and multimodal elements as appropriate",
+          "elaborations": [
+            "planning a report on a topic, sequencing ideas logically and providing supporting detail (including graphics, sound and visuals) to enhance audience engagement and understanding",
+            "creating informative texts for 2 different audiences that explore a topic using text structure and language features for the identified audiences, noting the changes required to appeal to each audience",
+            "using rhetorical devices, images and modal verbs for persuasive effects, for an identified audience",
+            "selecting and combining digital tools to create texts"
+          ]
+        },
+        {
+          "code": "VC2E6LY10",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "re-read and edit their own texts and the texts of others using agreed criteria and exploring editing choices",
+          "elaborations": [
+            "discussing the setting in a literary text with a peer during the editing process, and experimenting with literary devices that may enhance the setting",
+            "re-reading and editing their own and others' work using negotiated criteria for text structure, meaning and accuracy of grammar, spelling and punctuation, and explaining editing choices as required"
+          ]
+        },
+        {
+          "code": "VC2E6LY11",
+          "strand": "Literacy",
+          "subStrand": "Creating texts",
+          "text": "write legibly, fluently and automatically for sustained periods",
+          "elaborations": [
+            "Content description does not require elaboration."
+          ]
+        }
+      ]
+    }
+  ]
+}

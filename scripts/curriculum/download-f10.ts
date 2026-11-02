@@ -5,8 +5,11 @@
  *
  *   npx playwright install --with-deps chromium
  *   npm run curriculum:download      # writes data/curriculum/raw/vc2-all.zip
+ *   unzip -o data/curriculum/raw/vc2-all.zip -d data/curriculum/raw
+ *   npm run curriculum:import        # writes data/curriculum/vc2/*.json
  *
  * On failure it saves the page HTML and a screenshot to data/curriculum/raw/debug/.
+ * The raw files are git-ignored; only data/curriculum/vc2 is committed.
  */
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -35,26 +38,11 @@ async function main() {
   const page = await context.newPage();
   try {
     await page.goto(URL, { waitUntil: "networkidle", timeout: 90_000 });
-    await dump(page, "01-loaded");
 
-    // Keep the JSON the page itself receives for each discipline (structured backup of the CSV).
-    const jsonDir = path.join(RAW_DIR, "export_data");
-    await mkdir(jsonDir, { recursive: true });
-    page.on("response", async (res) => {
-      const m = res.url().match(/\/api\/export_data\?disciplineId=(\d+)/);
-      if (!m || !res.ok()) return;
-      try {
-        await writeFile(path.join(jsonDir, `${m[1]}.json`), await res.text());
-      } catch (e) {
-        console.warn(`could not save discipline ${m[1]}: ${(e as Error).message}`);
-      }
-    });
-
-    // Log the page's own requests so the export call is visible in CI logs.
+    // The page builds the export from one request per discipline; count them for the log.
+    let disciplineRequests = 0;
     page.on("request", (r) => {
-      if (["xhr", "fetch"].includes(r.resourceType())) {
-        console.log(`request ${r.method()} ${r.url().slice(0, 300)} ${(r.postData() ?? "").slice(0, 600)}`);
-      }
+      if (r.url().includes("/api/export_data")) disciplineRequests++;
     });
 
     // 1. Use the form's own "Select all" controls, then open each area dropdown and tick its subjects.
@@ -80,7 +68,6 @@ async function main() {
     }
     await page.waitForTimeout(500);
     console.log(`checkboxes visible: ${n}, checked: ${await page.locator("input[type='checkbox']:checked").count()}`);
-    await dump(page, "01b-areas");
 
     // 2. Levels: none are selected by default. Select Foundation to Level 6 in the first "Levels" group.
     for (const level of ["F", "1", "2", "3", "4", "5", "6"]) {
@@ -98,7 +85,6 @@ async function main() {
     // 4. Export options: plain curriculum content (achievement standards, content descriptions, elaborations).
     await page.locator("#standard").check({ force: true });
     await page.waitForTimeout(500);
-    await dump(page, "02-selected");
 
     const buttons = page.locator("button:visible", { hasText: /download/i });
     for (let i = 0; i < (await buttons.count()); i++) {
@@ -111,7 +97,7 @@ async function main() {
     await mkdir(RAW_DIR, { recursive: true });
     const target = path.join(RAW_DIR, "vc2-all.zip");
     await download.saveAs(target);
-    console.log(`saved ${download.suggestedFilename()} -> ${target}`);
+    console.log(`saved ${download.suggestedFilename()} -> ${target} (${disciplineRequests} disciplines fetched)`);
     await page.waitForTimeout(2000);
   } catch (err) {
     console.error(err);

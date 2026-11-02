@@ -1,0 +1,434 @@
+{
+  "subject": "Digital Technologies",
+  "slug": "digital-technologies",
+  "learningArea": "Technologies",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students access and show familiarity with digital systems and use them for a purpose.\nStudents identify patterns and represent data in different ways. They use the basic features of common digital tools to create, locate and share content for an audience. Students share content and collaborate following agreed behaviours. They recognise and explain how digital tools may store their personal data online.\nStudents explain and solve simple problems. They follow and represent basic algorithms involving a sequence of steps, branching and iteration. Students explain how digital systems meet the needs of known users.",
+      "contentDescriptions": [
+        {
+          "code": "VC2TDI2S01",
+          "strand": "Digital Systems and Security",
+          "text": "identify and explore digital systems including hardware and software components for a purpose",
+          "elaborations": [
+            "taking photos using a tablet device, with permission, to share with other students, for example close-up photos of Aboriginal and/or Torres Strait Islander Peoples' cultural artefacts, such as woven mats or baskets, that reveal intricate detail",
+            "recognising digital systems that they interact with at home and school, for example a smartphone, laptop or programmable toy",
+            "making a model of a digital system, using it in a role-play scenario and describing its features, for example a cardboard box with a keyboard and screen with app icons",
+            "naming and using digital systems that they interact with at home and school, for example using a touchpad to move the cursor on a laptop, or a keyboard to type a simple message on a tablet",
+            "using different digital systems to explore what these do and how to use them; for example, selecting the camera icon allows students to take photos of different types of objects in a classroom"
+          ]
+        },
+        {
+          "code": "VC2TDI2S02",
+          "strand": "Digital Systems and Security",
+          "text": "identify some data that is personal and access their school account with a recorded username and password",
+          "elaborations": [
+            "listing things that contain personal and public data, for example photos of themselves with their family (private) and photos of local community areas (public)",
+            "identifying apps and websites they use where their personal data could be made visible, for example photos of themselves on parents' or carers' social media, or their username being shown to others in online games",
+            "using a username and password recorded in a private place to access a digital system, for example logging into a school computer using details given on a card by a teacher"
+          ]
+        },
+        {
+          "code": "VC2TDI2D01",
+          "strand": "Data, Information and Privacy",
+          "text": "explore patterns in data and represent data as objects, pictures, symbols, numbers and words",
+          "elaborations": [
+            "using a symbol to represent an idea, but knowing that the symbol is not the data itself, for example the symbols and colours on both the Australian Aboriginal flag and the Torres Strait Islander flag",
+            "drawing a picture representing each of their family members and their interests, for example drawing one family member with a surfboard and another reading a book",
+            "using coloured blocks to represent an attribute of people, for example representing students and their sports houses, birthdays, pets or favourite ice-cream flavours",
+            "recognising the equivalence of different representations of numbers, including words, digits and tally marks"
+          ]
+        },
+        {
+          "code": "VC2TDI2D02",
+          "strand": "Data, Information and Privacy",
+          "text": "explore and use the basic features of common digital tools to create, locate and communicate content for a diverse audience",
+          "elaborations": [
+            "finding digital images of (local) Australian flora and fauna or places for use in a story and including Aboriginal and/or Torres Strait Islander Peoples' language names for the items",
+            "using familiar digital systems to create content to present to the class, for example using presentation software to retell a story",
+            "taking, storing safely and presenting photos of class work, for example locating photos they took of their work to show to parents or carers or for a teacher to upload to the class shared folder",
+            "using a digital camera or drawing app to create a picture, for example making a card for a family member that includes a photo and short message",
+            "creating individual pieces of work that contribute to a group task; for example, each student contributes a recipe and photo of their favourite food to create a digital class recipe book"
+          ]
+        },
+        {
+          "code": "VC2TDI2D03",
+          "strand": "Data, Information and Privacy",
+          "text": "explore and use the basic features of common digital tools to share content and collaborate, demonstrating agreed behaviours and supported by trusted adults",
+          "elaborations": [
+            "taking photos of class work and sharing with other students in the class using classroom messaging software with teacher guidance",
+            "applying agreed standards of behaviour when sharing content with other class members, for example using language that is considered by all students and the teacher to be appropriate when they are writing messages to each other",
+            "considering the need for online safety when sharing information, for example recognising that personal information such as a photo could be used inappropriately"
+          ]
+        },
+        {
+          "code": "VC2TDI2D04",
+          "strand": "Data, Information and Privacy",
+          "text": "recognise and discuss that some websites and apps store their personal data online",
+          "elaborations": [
+            "identifying apps and websites they use where their personal data could be made visible, for example photos of themselves on parents' or carers' social media, or their username being shown to others in online games",
+            "sharing examples of the data collected by apps and websites they commonly use, for example usernames and email addresses used by school websites and games to log in",
+            "discussing the importance of asking permission from a parent or carer before entering personal details online such as address, phone number and date of birth"
+          ]
+        },
+        {
+          "code": "VC2TDI2C01",
+          "strand": "Creating Digital Solutions",
+          "text": "investigate simple problems for known users that can be solved with digital systems",
+          "elaborations": [
+            "investigating internet-based translation tools and how similar digital tools could promote the use of Aboriginal and/or Torres Strait Islander Peoples' languages or assist communications, for example responding to cultural stories of Aboriginal and/or Torres Strait Islander Peoples",
+            "investigating familiar and easily understood problems with a few steps needed to solve them, for example deciding what to wear to school by checking the forecast on a weather app",
+            "identifying how digital systems are used to solve problems at school, for example taking class attendance or borrowing a library book",
+            "exploring how a familiar problem could be solved using a digital solution, for example creating a model robot using cardboard boxes and explaining how it could be used to move around tables on the classroom floor"
+          ]
+        },
+        {
+          "code": "VC2TDI2C02",
+          "strand": "Creating Digital Solutions",
+          "text": "follow, describe and represent algorithms involving a sequence of steps, branching (decisions) and iteration (repetition) needed to solve simple problems",
+          "elaborations": [
+            "rearranging into the correct order a series of mixed-up pictures that describe a story, for example stories authored and published by Aboriginal and/or Torres Strait Islander people",
+            "following a short, ordered sequence of steps and making decisions to solve a simple problem, for example following a recipe or directions to reach a location",
+            "describing the steps and decisions (in the correct order) needed to solve a simple problem, for example writing, saying, drawing or photographing the steps needed to make a sandwich",
+            "identifying and representing the decisions needed to solve a problem and the next steps to follow in each case, for example 'If it is raining, take a raincoat, otherwise take a hat'",
+            "following algorithms that repeat a single step a fixed number of times (iteration), for example 'Practise spelling a word 5 times' or 'Throw and catch a ball with a partner 10 times'"
+          ]
+        },
+        {
+          "code": "VC2TDI2C03",
+          "strand": "Creating Digital Solutions",
+          "text": "discuss how existing digital systems satisfy identified needs for known users",
+          "elaborations": [
+            "discussing how digital systems are used to store and access information, and how that information helps us learn about our environments, interactions and leisure activities, for example how interactive versions of stories authored and published by Aboriginal and/or Torres Strait Islander people preserve important cultural expressions",
+            "describing how familiar digital systems meet the needs of individuals, for example how different family members use a tablet for different needs – to play videos, read the news or follow a recipe",
+            "sharing ideas about how digital systems are used at school for learning, for example sharing a student's work with the class on an interactive display screen to provide class feedback on their writing",
+            "discussing how a range of digital systems support personal needs and impact on others, for example text-to-speech software, which can be used to meet the communications needs of people with impaired or no vision"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students securely access and use digital systems and their peripherals for a range of purposes. They explain how data is transmitted between digital systems.\nStudents represent different types of data for different purposes. They organise and present different types of data using software tools. Students use the core features of common digital tools to create, locate and communicate content for an audience. They use digital tools to plan tasks, share content and collaborate following agreed behaviours. Students identify and recognise the risks to their personal data in online accounts.\nStudents describe simple problems and list requirements. They describe and represent simple algorithms involving branching and iteration. Students design simple user interfaces and compare their designs. They implement simple algorithms as visual programs. Students describe how student-created solutions meet the provided requirements.",
+      "contentDescriptions": [
+        {
+          "code": "VC2TDI4S01",
+          "strand": "Digital Systems and Security",
+          "text": "explore and describe a range of digital systems and their peripherals for a variety of purposes",
+          "elaborations": [
+            "experimenting with a range of peripherals to perform input, output and storage, for example a keyboard, touch screen, mouse, camera and microphone; a monitor, projector, printer or 3D printer; a speaker; or a USB drive",
+            "adding peripherals to a digital system to expand its functionality, for example connecting a headset to a digital system to participate in online class activities more effectively",
+            "exploring how they can use digital systems differently depending on the task; for example, a student can use a tablet to take photos, record audio and find information to create a presentation"
+          ]
+        },
+        {
+          "code": "VC2TDI4S02",
+          "strand": "Digital Systems and Security",
+          "text": "explore transmitting different types of data between digital systems",
+          "elaborations": [
+            "exploring how data for a video call can be transmitted from a rural or remote community to a city location, for example looking at how many Aboriginal and/or Torres Strait Islander communities in areas classified as rural or remote have network coverage that may be unreliable, limiting the use of video calls",
+            "using different digital devices to display information to others, for example using a tablet device or laptop, interactive whiteboard or a smart TV to present information",
+            "exploring examples of different types of data that can be transferred between digital systems, for example making a video call to a relative using a digital device or connecting a digital device to a Bluetooth speaker to amplify the volume of a presentation",
+            "explaining the differences in data transmission over a mobile network when comparing sending a text-based message and streaming an online video, for example file size and download speed"
+          ]
+        },
+        {
+          "code": "VC2TDI4S03",
+          "strand": "Digital Systems and Security",
+          "text": "access their school account using a memorised password and explain why it should be easy to remember, but hard for others to guess",
+          "elaborations": [
+            "recalling their school username and password from memory to log in to a school laptop or desktop",
+            "explaining how keeping a password secret prevents others from accessing their data, for example how their work is saved in their account and can only be accessed using their secret password",
+            "exploring techniques to create a password that is easy to remember and hard to guess, for example creating a password using 3 unrelated but easy-to-remember words"
+          ]
+        },
+        {
+          "code": "VC2TDI4D01",
+          "strand": "Data, Information and Privacy",
+          "text": "recognise different types of data and explore how the same data can be represented differently depending on the purpose",
+          "elaborations": [
+            "identifying rock paintings and other cultural expressions to understand that images are used to encode and represent ethnobotanical knowledge, for example the representation of plant use in Aboriginal and/or Torres Strait Islander Peoples' cave paintings and ancient engravings including important data on classification of medicinal and food plants, and their usable parts",
+            "describing different types of data and how they can be used, for example numbers, letters, symbols and pictures",
+            "explaining how the same data can be represented in different ways and why some representations are better than others in certain contexts, for example the variations of four, 4, IV, |||| and quatre, and that numbers are better for calculation than words"
+          ]
+        },
+        {
+          "code": "VC2TDI4D02",
+          "strand": "Data, Information and Privacy",
+          "text": "collect, organise and present different types of data using software tools to create information and solve problems",
+          "elaborations": [
+            "exploring different online sources to access data, for example using a keyword search to select and retrieve data from an online database such as a library catalogue or weather records",
+            "recognising that all types of data are stored in digital systems and may be represented in different ways such as in files and folders with names and icons",
+            "selecting appropriate formats or layout styles to present data as information depending on the type of data and the audience; for example, charts suit data that shows trends or comparisons, lists suit text data that needs to be presented in alphabetical order, and animations suit images that show actions and relationships",
+            "improving the appearance and usability of data, for example using colour, headings and labelling of images to organise and accurately identify data"
+          ]
+        },
+        {
+          "code": "VC2TDI4D03",
+          "strand": "Data, Information and Privacy",
+          "text": "use the core features of common digital tools to create, locate and communicate content, following agreed conventions for a diverse audience",
+          "elaborations": [
+            "discussing and creating as a class a set of steps they need to follow to safely find information online",
+            "using an online search engine to find suitable sources to create and communicate information, following agreed steps, for example creating a presentation",
+            "grouping, naming and itemising folders and files using a logical hierarchy and agreed conventions, for example creating a folder for Digital Technologies",
+            "using familiar digital systems to create content to be shared with the class, for example using presentation software for each student to add a paragraph to a class story",
+            "using autocomplete features in text authoring tools, for example using text predictions or suggestions in a word processor to complete words, phrases or sentences, or using predictive text in SMS or messaging apps"
+          ]
+        },
+        {
+          "code": "VC2TDI4D04",
+          "strand": "Data, Information and Privacy",
+          "text": "use the core features of common digital tools to share content, plan tasks and collaborate, demonstrating agreed behaviours, supported by trusted adults",
+          "elaborations": [
+            "demonstrating safe sharing of content with a select audience, for example sharing a holiday adventure without revealing exact dates, specific names or other personal information",
+            "listening to others when participating in online environments to share content, for example respecting the rights of others by taking turns to suggest and add words or images to a factual slide deck to share with a teacher",
+            "interacting cooperatively in a group in an online environment to plan and complete a task, for example writing and responding to others' views on school canteen items",
+            "using digital tools to plan an event as a class, for example jointly creating a class survey to help plan an end-of-year party, where responses conform to the class's agreed behavioural expectations"
+          ]
+        },
+        {
+          "code": "VC2TDI4D05",
+          "strand": "Data, Information and Privacy",
+          "text": "identify what personal data is stored and shared in their online accounts and discuss any associated risks",
+          "elaborations": [
+            "identifying the personal data stored in accounts they use at school and at home and who has access to it; for example, documents in their school cloud storage are accessible by the teacher, or their nickname in their online gaming accounts is visible to all players",
+            "discussing how personal data stored in online accounts forms a person's digital identity and can reveal detailed information about people, for example looking at photographs of themselves, friends or fictional characters that reveal details about a person's location, habits or home"
+          ]
+        },
+        {
+          "code": "VC2TDI4C01",
+          "strand": "Creating Digital Solutions",
+          "text": "define simple problems with teacher-provided requirements",
+          "elaborations": [
+            "developing a problem statement for collecting and managing information on wildlife, for example how Aboriginal and/or Torres Strait Islander rangers could monitor animal populations, such as local marine turtles, using global positioning systems (GPS)",
+            "recognising a range of familiar problems and defining achievable solutions using teacher-provided requirements, for example buying presents for family members within a specified budget",
+            "using responses to guiding questions to write requirements, for example 'A family member wants a way to keep track of football scores over a season'",
+            "using teacher-provided requirements to develop a simple game, for example using arrows to control movement through a maze"
+          ]
+        },
+        {
+          "code": "VC2TDI4C02",
+          "strand": "Creating Digital Solutions",
+          "text": "follow, describe and represent algorithms involving sequencing, comparison operators (branching) and iteration",
+          "elaborations": [
+            "explaining to others how to follow an algorithm in a teacher-developed software solution, for example identifying the sequence of steps, branching and iteration in a visual programming language",
+            "describing algorithms that repeat steps a fixed number of times, for example calculating multiplication using repeated addition, where the sum changes in each iteration",
+            "representing algorithms as a list of steps or a diagram, for example drawing a diagram of a recipe involving decisions",
+            "describing algorithms that repeat steps until a condition has been met, for example a counter that increases while the total is less than 20"
+          ]
+        },
+        {
+          "code": "VC2TDI4C03",
+          "strand": "Creating Digital Solutions",
+          "text": "design a simple user interface, generate, communicate and compare the designs",
+          "elaborations": [
+            "brainstorming possible user interface design ideas and discussing these with their peers, for example sketching different ideas for a computer game",
+            "discussing whether the needs identified from the teacher-provided requirements are met by generated design ideas, for example comparing design ideas in pairs for making choices in a simple solution using a visual programming language",
+            "ideating multiple design ideas and comparing them against teacher-provided requirements, for example discussing as a class the needs identified from the requirements and brainstorming multiple design ideas (accepting all suggestions as possibilities)",
+            "designing a user interface for a simple solution using different design tools, for example creating a mock-up for the placement of icons or a storyboard to outline the levels of a game"
+          ]
+        },
+        {
+          "code": "VC2TDI4C04",
+          "strand": "Creating Digital Solutions",
+          "text": "implement simple algorithms as visual programs involving control structures and input",
+          "elaborations": [
+            "implementing a program that demonstrates the strict routines and techniques followed by Aboriginal and/or Torres Strait Islander ranger groups when caring for or handling specific native animals, for example using IF and THEN statements to create a training manual, such as 'IF &lt;insert animal name&gt; is injured THEN the ranger will &lt;insert action&gt;'",
+            "writing and editing programs to solve simple problems using branching and simple iteration in a visual programming environment, for example helping a user understand multiplication by displaying the repeated addition in order",
+            "writing programs that take input from the user or environment, for example asking the user for their name and displaying it or sensing the temperature from the environment to make a decision",
+            "writing programs that make decisions involving comparison, for example comparing whether the temperature is above 25 ºC to label the weather hot or cold"
+          ]
+        },
+        {
+          "code": "VC2TDI4C05",
+          "strand": "Creating Digital Solutions",
+          "text": "discuss how existing and student-created solutions satisfy the given requirements",
+          "elaborations": [
+            "describing the way familiar digital systems allow users to perform tasks, for example discussing how a family member could place an order online for something they cannot buy locally",
+            "discussing how a digital solution meets the different needs of users, for example how maps help people to locate places in the community or interactive store directories help shoppers to find a particular store in a shopping centre",
+            "making judgements on their digital solutions against the requirements, for example how high their friends score in the game they created, by determining whether they need to increase or decrease the speed or complexity of a game",
+            "reflecting on how the systems in the school help the school to operate, for example how a librarian keeps track of books borrowed"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students securely access and use multiple digital systems and accounts, and describe their components. They describe how data is transmitted within networks.\nStudents describe how digital systems represent data. They acquire and manipulate data using spreadsheets. Students interpret and visualise data using spreadsheets. They select and use appropriate digital tools to create, locate and communicate content, applying common conventions. Students use digital tools to plan tasks, share content online and collaborate on projects, following agreed behaviours. They identify their digital footprint, recognise its permanence and consider privacy when collecting data.\nStudents define problems with functional requirements. They design algorithms involving complex branching and iteration. Students design and modify user interfaces and evaluate the designs. They implement algorithms as visual programs including variables and input. Students explain how student-created digital solutions meet the functional requirements of users.",
+      "contentDescriptions": [
+        {
+          "code": "VC2TDI6S01",
+          "strand": "Digital Systems and Security",
+          "text": "investigate the main internal components of common digital systems and their function",
+          "elaborations": [
+            "investigating the main components in a videoconferencing system and their functions, for example a telehealth system used to access imaging services by communities in areas classified as rural or remote such as those of some Aboriginal and Torres Strait Islander Peoples",
+            "explaining how digital systems are made up of parts that perform specific functions, for example the central processing unit (CPU), memory and input/output components working together to perform calculations and manipulate data",
+            "exploring the difference between the internal components of a range of digital systems, for example desktop computers, laptop computers and tablet devices"
+          ]
+        },
+        {
+          "code": "VC2TDI6S02",
+          "strand": "Digital Systems and Security",
+          "text": "examine how digital systems form networks to transmit data",
+          "elaborations": [
+            "investigating the use of satellite phones where mobile phone networks are not available, inaccessible or unreliable; for example, rural and remote Aboriginal and Torres Strait Islander communities have limited access to mainstream communication networks",
+            "explaining how separate systems can be connected in different ways to exchange data, for example how a laptop can be connected to a network via a cable or wireless via radio waves",
+            "describing the way data is structured and transmitted through a network, for example broken up into packets (small pieces) and passed from the source, through multiple devices, to the destination"
+          ]
+        },
+        {
+          "code": "VC2TDI6S03",
+          "strand": "Digital Systems and Security",
+          "text": "access multiple personal accounts using unique passphrases and explain the risks of password re-use",
+          "elaborations": [
+            "using multiple accounts, each with different passphrases, to access each website or app used for school and home, for example having a different username and password combination for school, gaming and music accounts",
+            "explaining why re-using a password is risky, for example how a compromised password from one social media account might be able to be used to access their bank or school account if the password is the same, which means that other details are also compromised"
+          ]
+        },
+        {
+          "code": "VC2TDI6D01",
+          "strand": "Data, Information and Privacy",
+          "text": "explain how digital systems represent all data using numbers and explore how data can be represented using binary",
+          "elaborations": [
+            "making collaboratively a long thread with beads representing binary for the letters that spell the Country name in the language of the local Aboriginal People and in English, and that could be displayed as a 'binary banner' as an Acknowledgement of Country that they are on the Traditional Lands of the &lt;insert name&gt; People",
+            "representing data using whole numbers and recognising this is how digital systems represent data, for example converting letters in a message to numbers using their positions in the alphabet",
+            "recognising how digital systems represent data, for example converting letters in a message to Unicode or ASCII",
+            "demonstrating that an on/off state in a circuit can represent the digits 1 and 0 and that this is how digital systems represent data",
+            "recognising how the answer to a yes/no question can be represented using on/off states, for example switching a light in an electric circuit on or off"
+          ]
+        },
+        {
+          "code": "VC2TDI6D02",
+          "strand": "Data, Information and Privacy",
+          "text": "acquire and manipulate different types of data from a range of sources using software tools, including spreadsheets",
+          "elaborations": [
+            "acquiring data from a range of online sources by narrowing the focus, for example filtering data using provided options or performing queries using advanced search functions",
+            "recognising the difference between numerical, text and date formats in spreadsheets",
+            "using spreadsheets to sort data when solving problems, for example sorting numerical data into ascending or descending order",
+            "using spreadsheets to automate calculations to help with interpreting data, for example using functions to make arithmetic calculations using multiple cells and summing cell ranges",
+            "understanding how artificial intelligence (AI) uses machine learning to train algorithms to recognise patterns in data to improve decision-making, for example selecting results to include in a data set"
+          ]
+        },
+        {
+          "code": "VC2TDI6D03",
+          "strand": "Data, Information and Privacy",
+          "text": "analyse and visualise data using a range of software, including spreadsheets to create information and solve problems",
+          "elaborations": [
+            "exploring online resources to identify and examine the characteristics of data visualisations, for example analysing the Bureau of Meteorology's weather planning data visualisations",
+            "using spreadsheets to format data, for example using conditional formatting",
+            "using data visualisation software to present information visually, for example creating a range of charts on a topic in a spreadsheet",
+            "using AI tools in spreadsheets to assist in the creation of information, for example using AI tools to generate formulas and charts"
+          ]
+        },
+        {
+          "code": "VC2TDI6D04",
+          "strand": "Data, Information and Privacy",
+          "text": "select and use appropriate digital tools effectively to create, locate and communicate content, applying common conventions for a diverse audience",
+          "elaborations": [
+            "locating content through search engines and in electronic documents by revising queries and using required search terms, for example reviewing search results and modifying search terms to make the query more accurate",
+            "creating appropriate content that reflects planning as well as new external factors, for example uploading or sharing a draft of a report on a local government issue to the teacher for feedback as part of an iterative process",
+            "creating content for a school celebration, for example designing a collaborative spreadsheet that can be used by a small group to plan and cost their graduation party, together with a folder of tagged resources that support the planning",
+            "naming, organising and storing files in a way that allows for easy retrieval of shared content, for example labelling the main folders by topic, such as 'school garden project', and then creating subfolders for each section of the project, such as 'plans', 'designs' and 'implementation'",
+            "understanding the tone and appropriateness for the intended audience of text generated using AI tools, for example deciding that predictive text is too formal for a conversation with a friend and rewriting it in a less formal way"
+          ]
+        },
+        {
+          "code": "VC2TDI6D05",
+          "strand": "Data, Information and Privacy",
+          "text": "select and use appropriate digital tools effectively to share content online, plan tasks and collaborate on projects, demonstrating agreed behaviours, supported by trusted adults",
+          "elaborations": [
+            "demonstrating agreed behaviours; following cultural protocols, including relevant permissions and attributions; acknowledging diversity, capability and strength; and addressing risks and responsibilities such as privacy, security and accuracy of data, for example when sharing images of Aboriginal and Torres Strait Islander Peoples' cultural artefacts",
+            "creating achievable steps and timelines and identifying digital tools needed to produce a solution to a given problem, for example planning what they need to do to create a report on the effectiveness of the school's recycling initiatives",
+            "following a previously created plan to report back to the class on a given problem, using digital tools, for example small groups reporting on the best location for a new skate park in the local government area",
+            "defining and acting collectively using online community standards and valuing the work of others, for example moderating language and behaviour in an online class forum, not deleting the work of collaborators, and respecting others' intellectual property",
+            "using a range of communication tools to share ideas and information with other students, for example presenting content for a school celebration such as a graduation celebration"
+          ]
+        },
+        {
+          "code": "VC2TDI6D06",
+          "strand": "Data, Information and Privacy",
+          "text": "explain the creation and permanence of their personal digital footprint and consider privacy when collecting personal data",
+          "elaborations": [
+            "describing scenarios where data, images or both that have been posted online can lead to information reappearing at a later date, for example how a comment made on a social media post or video associates a person with both their comment and the content",
+            "explaining why collecting the smallest amount of data needed for a purpose is important to protect someone's privacy, for example how choosing not to collect information about someone's birthdate when it is not necessary ensures that private data cannot be stolen in a cyber attack",
+            "understanding the implications of how AI models are trained through the collection of data, for example the sharing of personal data increases the likelihood that private information will be collected and revealed through AI models both now and in the future"
+          ]
+        },
+        {
+          "code": "VC2TDI6C01",
+          "strand": "Creating Digital Solutions",
+          "text": "define problems with teacher-provided or co-developed functional requirements",
+          "elaborations": [
+            "developing a problem statement and co-developing functional requirements as a class activity for developing a solution for tracking the impact of feral animals on native flora and fauna that could be used by Aboriginal and/or Torres Strait Islander rangers",
+            "describing in simple terms the nature of a problem and what a solution needs to achieve, for example what need the problem is addressing, who the solution is needed for, what data is needed and what features the solution would need to include",
+            "using teacher-provided functional requirements to identify the features needed for a new digital solution, for example identifying what is required for a new game to be developed for children of primary school age",
+            "using a provided stimulus to identify a need, and writing functional requirements in groups, for example developing requirements for a class app to share ideas and work collaboratively"
+          ]
+        },
+        {
+          "code": "VC2TDI6C02",
+          "strand": "Creating Digital Solutions",
+          "text": "design and represent algorithms involving multiple alternatives (branching) and iteration",
+          "elaborations": [
+            "designing an algorithm, including branching and iteration, that responds to data, for example how Aboriginal and/or Torres Strait Islander rangers use structured procedures to respond to live tracking data that indicates feral buffalo are approaching an environmentally or culturally sensitive site",
+            "designing an algorithm or understanding and modifying an existing algorithm to fix an error or change functionality, for example finding and fixing an error in branching involving a boundary condition",
+            "constructing more than one sequence of steps that solve the same problem and explaining why one is better than the other, for example specifying an exact route through a maze versus using the right-hand rule, which works for all mazes",
+            "modelling a decision that has more than 2 options to select the next step, for example selecting transport: 'IF distance is less than 2 km THEN walk, ELSE IF distance is less than 5 km THEN ride a bike, ELSE catch the bus'",
+            "planning algorithms that repeat until a condition is met, for example continuing to mix UNTIL ingredients are combined or subtracting a number UNTIL the result reaches zero"
+          ]
+        },
+        {
+          "code": "VC2TDI6C03",
+          "strand": "Creating Digital Solutions",
+          "text": "design and modify a user interface for a digital system, and generate, communicate and evaluate the designs",
+          "elaborations": [
+            "designing a user interface on paper or using digital tools, for example drawing the designed layout of the landing page of an app to order lunches from the school canteen or using customisable font size and colour contrast to help users with impaired vision",
+            "modelling how user interfaces allow people of different cultures and with different language backgrounds to access information, for example using consistent symbols to represent common actions such as copying, pasting and saving",
+            "ideating a range of possible design ideas, discussing them and judging them against the teacher-provided or co-developed functional requirements, for example using the functional requirements to put design ideas in order of preference in a group discussion",
+            "suggesting modifications to a preferred design idea if it does not satisfy all the functional requirements, for example modifying a game or game controller so that it can be used by a wider range of players"
+          ]
+        },
+        {
+          "code": "VC2TDI6C04",
+          "strand": "Creating Digital Solutions",
+          "text": "implement algorithms as visual programs involving control structures, variables and input",
+          "elaborations": [
+            "programming digital systems to perform automated tasks, such as closing gates, for example simulating the work of Aboriginal and/or Torres Strait Islander rangers attempting to lure and capture feral animals",
+            "writing and editing programs to solve problems using branching, iteration and variables in a visual programming environment, for example writing a program to draw a shape and rotate it a given number of times",
+            "writing programs that repeat multiple steps based on the user's input, for example repeatedly drawing a shape a given number of times, shifting the position between each iteration",
+            "writing programs that take input from the user or environment and storing that input in a variable for later use, for example asking the user how many shapes to draw in a circle and using that to calculate the number of iterations and the angle to rotate each time",
+            "writing programs that make decisions involving multiple alternatives, for example an interactive quiz that checks if an answer is correct, gives feedback and updates the score, or gives a final grade based on the score",
+            "using an AI tool with a natural language interface to convert speech to text when implementing an algorithm in a visual programming environment"
+          ]
+        },
+        {
+          "code": "VC2TDI6C05",
+          "strand": "Creating Digital Solutions",
+          "text": "evaluate existing and student-created solutions against the requirements and their broader community impact",
+          "elaborations": [
+            "evaluating the effectiveness of their own solutions to address the identified problem from the requirements, for example checking if the information created for a local interactive history walk is relevant and meets the local council's needs",
+            "evaluating how an existing solution provides users with safety tools and features such as those described in the eSafety Commissioner's Safety by Design vision for young people, for example having a clearly visible button to easily report and block inappropriate behaviour in an app or on a website",
+            "reflecting on the many systems that are used in the wider community to address a range of needs, for example timetables to manage transport and other services, and storing licence information so that police can enforce traffic laws",
+            "verifying the correctness of AI-generated content against information known to be factually correct, for example comparing the text generated from an AI tool with information published on an official website or other authoritative sources"
+          ]
+        }
+      ]
+    }
+  ]
+}

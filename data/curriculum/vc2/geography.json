@@ -1,0 +1,575 @@
+{
+  "subject": "Geography",
+  "slug": "geography",
+  "learningArea": "Humanities",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students define places and describe natural and constructed features of places, including weather and seasons; the importance of people's attachments to places; and how places can change and be cared for. Students identify and describe people's interconnections with places in Australia and the world, both at local and broader scales.\nStudents ask geographical questions, and they collect, sort and record related information and data from observations and provided sources. They represent and describe the information collected to draw conclusions and make proposals. Students use sources and geographical knowledge and concepts, and share observations about places.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HG2K01",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Places and our connections to them",
+          "text": "the places in which they live, why their places are important to them, the features of places, and how places can be looked after",
+          "elaborations": [
+            "identifying the place they live in and belong to, such as a neighbourhood, suburb, town, rural locality or an Aboriginal or Torres Strait Islander People's Country and Place",
+            "discussing how places support people's lives, with housing, water, shops, schools, recreation and other services and facilities, and understanding that their closest relationships are with people in or near their place",
+            "exploring why people have attachment to places, such as through reading and viewing poems, songs, paintings and stories about people's feelings about their place",
+            "identifying some significant features of their place, such as a river, hill, shopping centre, park, school or religious building",
+            "identifying places they consider to be 'special', such as their bedroom, a play area, a holiday location or a place of family significance",
+            "writing or drawing about their feelings about their place and explaining why the place is special to them",
+            "discussing why it is important to care for the places people live in and how places can be looked after",
+            "making a pictorial map of the location of the people who are most important in their lives and describing any patterns they observe"
+          ]
+        },
+        {
+          "code": "VC2HG2K02",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Places and our connections to them",
+          "text": "how places are identified and named, including by Aboriginal and Torres Strait Islander Peoples",
+          "elaborations": [
+            "examining the names of places in the local area and their meanings",
+            "investigating the names and meanings given to local features and places by local Aboriginal or Torres Strait Islander Peoples",
+            "discussing the differences between European and Aboriginal and Torres Strait Islander placenames",
+            "identifying the Country and Place in which their school is located and using the name of the local Aboriginal or Torres Strait Islander People's language group"
+          ]
+        },
+        {
+          "code": "VC2HG2K03",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Places and our connections to them",
+          "text": "the interconnections between Aboriginal and Torres Strait Islander Peoples and Country and Place, and the importance of Country and Place",
+          "elaborations": [
+            "discussing why the words Country and Place are used by Aboriginal and Torres Strait Islander Peoples for the places to which they belong",
+            "recognising that some Aboriginal and Torres Strait Islander Peoples have special connections to many Countries and Places through marriage, birth, parents, residence and chosen or forced movement, and that they can identify with more than one Country",
+            "describing the connections that local Aboriginal and Torres Strait Islander Peoples have with the land, sea, sky and animals of their Country and Place",
+            "inviting members of the Traditional Owner group to talk about their Country and Place and places of cultural and historical significance to their community, and discussing why and when Acknowledgement of Country and Welcome to Country are used at ceremonies and events"
+          ]
+        },
+        {
+          "code": "VC2HG2K04",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Places and our connections to them",
+          "text": "how places can be spatially represented from local to national scales, the representation of Australia as states and territories and Countries and Places, and Australia's major features and places",
+          "elaborations": [
+            "understanding that a place is an area of space that has been identified, named and given meaning by people",
+            "using their home address to describe the scale of places, from the personal scale of their home to the local scale of their suburb or town, the regional scale of their state, and the national scale of their country, and identifying each scale on a map",
+            "using a map to locate and name the states and territories in Australia, along with their capital cities, and using the Australian Institute of Aboriginal and Torres Strait Islander Studies (AIATSIS) Map of Indigenous Australia to identify Aboriginal and Torres Strait Islander Countries and Places",
+            "using European and Aboriginal and Torres Strait Islander names, where available, to identify the major natural features of Australia, such as rivers, deserts, the Great Dividing Range, the Great Barrier Reef, Uluru and Kati Thanda, and locating them with annotations on a map"
+          ]
+        },
+        {
+          "code": "VC2HG2K05",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Places and our connections to them",
+          "text": "the natural and constructed features of places, how they change and how they can be cared for",
+          "elaborations": [
+            "using observations of the local place to identify and describe its features, such as hills, rivers, parks, forests and buildings, and locating them on a map",
+            "listening to and viewing Aboriginal Dreaming and Creation stories of Aboriginal and Torres Strait Islander Peoples that identify the natural features and landmarks of a place, and traditional, sacred and significant sites",
+            "using observations and/or photographs to identify changes in the natural and constructed features in their place, such as vegetation clearance, new buildings, new or upgraded roads, recent erosion, tree planting or crops",
+            "describing local features people look after, such as bushland, wetlands, a park or a heritage building, and finding out why and how these features need to be cared for and who provides this care"
+          ]
+        },
+        {
+          "code": "VC2HG2K06",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Places and our connections to them",
+          "text": "weather and seasons, including Aboriginal and Torres Strait Islander Peoples' seasonal calendars",
+          "elaborations": [
+            "describing the daily and seasonal weather of their place by its rainfall, temperature, sunshine and wind and comparing it with the weather of other places that they know or are aware of",
+            "comparing the European seasonal calendar with the Aboriginal or Torres Strait Islander People's seasonal calendar for their location"
+          ]
+        },
+        {
+          "code": "VC2HG2K07",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Places and our connections to them",
+          "text": "people's interconnections with places in Australia and the world",
+          "elaborations": [
+            "examining the ways in which they are connected to other places through friends, relatives, family origin, religion, holidays, sport and things that people buy or obtain",
+            "discussing how their place may be connected to events that have happened in other places, such as the Olympic Games or a major earthquake"
+          ]
+        },
+        {
+          "code": "VC2HG2S01",
+          "strand": "Geographical Skills",
+          "subStrand": "Geographical inquiry",
+          "text": "ask geographical questions about places and our connection to them",
+          "elaborations": [
+            "posing questions about the features of places and how students can look after them, after being encouraged to observe them using various senses",
+            "posing questions with the stems 'where', 'what', 'how' and 'why' about places when provided with everyday objects and other sources, such as photos, maps and observation sketches",
+            "asking questions before, during and after listening to stories about places",
+            "developing inquiry questions about places, for example 'What are the features of the place?', 'How far away is it?', 'How easy is it to get to?', 'How am I connected to it?' and 'How is it connected to other places?'",
+            "developing questions about who looks after local features and how, what they like and do not like about their place, and why their place is important to them",
+            "developing questions about the names given to local features and places by Aboriginal and Torres Strait Islander Peoples"
+          ]
+        },
+        {
+          "code": "VC2HG2S02",
+          "strand": "Geographical Skills",
+          "subStrand": "Geographical inquiry",
+          "text": "collect, sort and record information and data from observations, including from fieldwork and maps",
+          "elaborations": [
+            "collecting data and information by making observations outside the classroom, by interviewing people or from sources such as photographs, plans, satellite images, books and films",
+            "gathering evidence of features in a local place (e.g. using observations, online aerial photographs and sketches) and noting how they change (e.g. by comparing current observations of a place with photographs of it taken in the past, or recording observations of weather and seasons)",
+            "locating the places to which they are connected, such as through family, travel or friends, or the places they visit, such as for shopping, recreation, travel to school or other reasons, on a print, electronic, outline or wall map",
+            "interviewing older relatives or significant Elders about their feelings towards their place",
+            "collecting pictures of places they know or are aware of and annotating them to record or show information about the weather",
+            "identifying a place in their local area that they like, mapping the location and discussing why they like it and how they could care for it"
+          ]
+        },
+        {
+          "code": "VC2HG2S03",
+          "strand": "Geographical Skills",
+          "subStrand": "Geographical inquiry",
+          "text": "represent and describe the information and data from observations in different formats, including sketches and labelled maps or photographs",
+          "elaborations": [
+            "identifying features on a provided pictorial map or oblique aerial photograph of a familiar place and linking the representation of specific features to pictures they have drawn of those features; for example, using a pictorial map of a visited site such as a public garden or an oblique aerial photograph of their school to find familiar features, and then linking drawings of those features with lines to the features in the map or aerial photograph",
+            "interpreting symbols and codes that provide information, such as map legends",
+            "gathering evidence of features in a local place (e.g. using observations, online aerial photographs and sketches) and noting how they change (e.g. by comparing current observations of a place with photographs of it taken in the past, or recording observations of weather and seasons)",
+            "recording data about the locations of places and their features on maps and/or plans; for example, labelling the location of their home on a map of the local area, or using a provided plan of their classroom and labelling its activity spaces, incorporating symbols to show locations of objects, places or significant features",
+            "developing a pictorial table to categorise information; for example, matching clothes with seasons, activities with the weather and features with places",
+            "interpreting geographical maps, concept maps, and other digital or visual displays to explore system connections, for example places their classmates are connected to, where some food comes from, or how Aboriginal and Torres Strait Islander Peoples' songlines connect places",
+            "interpreting distance on maps using terms such as 'distant', 'close', 'local', 'many hours in a bus/car/plane' and 'walking distance' to decide on the accessibility of different features and places"
+          ]
+        },
+        {
+          "code": "VC2HG2S04",
+          "strand": "Geographical Skills",
+          "subStrand": "Concluding and decision-making",
+          "text": "draw conclusions and make proposals about places",
+          "elaborations": [
+            "considering the general conclusions made from information collected, such as listing what makes a place significant and drawing conclusions about how people were, or are, connected to a local place and other places in the region and/or state or territory",
+            "discussing information collected and using it to answer a geographical question",
+            "describing features of a space or place that is important to them (e.g. a chicken coop, a play area, their bedroom, the reading corner or the beach) and suggesting or explaining what they could do to care for it",
+            "exploring the location and features of places they belong to and what makes those places special",
+            "identifying how knowledge of special places and natural systems in their local area contributes to behaviour, and ideas about how to care for these places and preserve their significance",
+            "imagining how a local feature or place might change in the future and proposing actions they could take to improve a place or influence a positive future",
+            "discussing how important their interconnections with places in Australia and the world are and discussing why this is so"
+          ]
+        },
+        {
+          "code": "VC2HG2S05",
+          "strand": "Geographical Skills",
+          "subStrand": "Communicating",
+          "text": "develop narratives and share observations about places, using sources such as maps and photographs",
+          "elaborations": [
+            "creating a display about a place that is special to them using maps, photographs, artefacts and/or drawings",
+            "using appropriate terms to describe the direction and location of a place, such as 'near' and 'far', 'above' and 'below', or 'beside' and 'opposite'",
+            "sharing observations about a place, such as how access to and use of a place has changed over time, using sources such as maps and photographs",
+            "preparing a narrative about how places can be managed",
+            "designing an infographic about the different weather and seasons in their area"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students identify and describe characteristics of diverse places and environments. They describe the functions and the characteristics of world climates and vegetation, interconnections between Australia and other parts of the world, and the sustainability of natural resources.\nStudents develop questions and locate, collect and record information and data from a range of sources in a range of formats. They represent and analyse the information collected and draw conclusions. Students propose considered actions or responses and their impact. They use ideas from sources, geographical knowledge and concepts (space, interconnection and environment) to describe the diversity of places and environments.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HG4K01",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Diversity of places and environments",
+          "text": "the relationships between people and their place and its environment",
+          "elaborations": [
+            "understanding human dependence on the environment as a source of resources and a sink for wastes",
+            "describing how vegetation supports people's lives and wellbeing",
+            "identifying the differences between the ecological seasonal calendars of Aboriginal and Torres Strait Islander Peoples and the European seasonal calendar, and discussing how different cultures perceive the environment differently",
+            "using the Australian Institute of Aboriginal and Torres Strait Islander Studies (AIATSIS) Map of Indigenous of Australia and a map of rainfall in Australia to investigate the relationship between rainfall and the areal size of language groups"
+          ]
+        },
+        {
+          "code": "VC2HG4K02",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Diversity of places and environments",
+          "text": "activities in the local place (such as retail, recreation, manufacturing, farming, education and commercial) and reasons for their location",
+          "elaborations": [
+            "identifying activities in their place, locating them on a pictorial map and suggesting reasons for their location",
+            "discussing whether accessibility to specific people influences where specific activities are located, for example accessibility to customers for retail shops or accessibility to young people for sports facilities"
+          ]
+        },
+        {
+          "code": "VC2HG4K03",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Diversity of places and environments",
+          "text": "the importance of environments, including natural vegetation and water sources, to people and animals in Australia and on another continent",
+          "elaborations": [
+            "identifying the main types of vegetation (including forest, savannah, grassland, woodland and desert) and exploring natural vegetation in Australia and another continent",
+            "explaining how people's connections with their environment can also be aesthetic, emotional and spiritual",
+            "exploring strategies to protect particular environments that provide habitats for animals; for example, planting bird-attracting vegetation",
+            "identifying the importance of water to the environment and to sustaining the lives of people and animals"
+          ]
+        },
+        {
+          "code": "VC2HG4K04",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Diversity of places and environments",
+          "text": "the functions of vegetation in the environment and the characteristics, spatial distribution and location of the main types of vegetation in Australia and the world, such as forest, woodland, savannah, grassland and desert, including the uses of vegetation by Aboriginal and Torres Strait Islander Peoples",
+          "elaborations": [
+            "exploring how vegetation produces the oxygen that all land animals (including people) breathe; protects land from erosion by water or wind; retains rainfall; provides habitats for animals; shelters crops and livestock; provides shade for people; cools urban places; produces medicines, wood and fibre; and creates attractive and calming environments",
+            "identifying the main types of vegetation (including forest, savannah, grassland, woodland and desert) and explaining the relationship between climate and vegetation",
+            "describing and explaining the spatial distribution of vegetation in the local place",
+            "investigating factors other than climate (such as soils, aspect and slope) that might influence the vegetation of a place",
+            "investigating the uses of native vegetation in the local area by Aboriginal and Torres Strait Islander Peoples, for example as a source of food or for building materials, medicine, tools and weapons"
+          ]
+        },
+        {
+          "code": "VC2HG4K05",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Diversity of places and environments",
+          "text": "the major geographical divisions of the world (including the equator, tropics, poles, hemispheres, continents and oceans) and how these are represented by using compass directions and different map projections",
+          "elaborations": [
+            "investigating the definition of a continent and discussing how many continents there are",
+            "using a globe to locate the continents, oceans, equator, North Pole and South Pole, tropics and hemispheres, and labelling them on an outline map",
+            "comparing different map projections of the world to understand how portraying the round world on flat paper produces distortions in areal size, shape, direction and distance",
+            "identifying the tropical, temperate and polar zones of the world and labelling them on an outline map",
+            "using the terms 'north', 'south', 'east' and 'west' to describe direction, such as describing the direction for landmarks in and around the school"
+          ]
+        },
+        {
+          "code": "VC2HG4K06",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Diversity of places and environments",
+          "text": "climate and the characteristics and location of the main climatic types in Australia and the world, such as the temperate, Mediterranean and arid climates",
+          "elaborations": [
+            "identifying the difference between climate and weather, and understanding climate as the long-term average pattern of seasonal weather in a specific place",
+            "identifying and locating examples of the main types of climates in Australia and the world, such as equatorial, tropical, arid, semi-arid, temperate and Mediterranean",
+            "identifying a place with a different climate to their own, describing how its climate is different and discussing what it would be like to live in that place",
+            "describing and explaining the spatial distribution of world climates by considering the relationship between world climates and topography and world climates and latitude",
+            "comparing the climate of their place with the climate of another place located at the same latitude south or north of the equator as their place, and explaining any differences"
+          ]
+        },
+        {
+          "code": "VC2HG4K07",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Diversity of places and environments",
+          "text": "the interconnection between the characteristics of the major types of vegetation and global climate",
+          "elaborations": [
+            "explaining the relationship between maps of global climate and global vegetation – that is, the interconnection between global climate and global vegetation – and discussing what elements of the environment, other than climate, might influence the type of vegetation in a place, such as soils, drainage, slope, elevation and aspect",
+            "understanding in simple terms why temperatures decrease with increasing latitude and altitude and the effect on vegetation"
+          ]
+        },
+        {
+          "code": "VC2HG4K08",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Diversity of places and environments",
+          "text": "the similarities and differences between places in Australia and neighbouring countries in terms of their natural, managed and constructed features",
+          "elaborations": [
+            "identifying and locating examples of the main climate types in Australia and neighbouring countries (e.g. equatorial, tropical, arid, semi-arid, temperate) and the features of those climate types and their impact on other natural features",
+            "identifying and describing the similarities and differences of the natural features in places in Australia and places in neighbouring countries, such as Indonesia and Pacific Island nations, for example the similarities and differences in rocks, landforms, bodies of water, climate, soils, natural vegetation and animal life",
+            "investigating differences in the types of housing that people use in different climates and environments",
+            "exploring different types of settlement and classifying them into hierarchical categories, such as isolated dwellings, outstations, villages, towns, regional centres and large cities",
+            "choosing a place in a neighbouring country, such as Indonesia or a Pacific Island nation, to compare with a place in Australia in terms of managed and constructed features, to explore the reasons for similarities and differences"
+          ]
+        },
+        {
+          "code": "VC2HG4K09",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Diversity of places and environments",
+          "text": "sustainability and its application to the use of natural resources and the management of waste",
+          "elaborations": [
+            "understanding how the environment supports their lives as a source of materials and a sink for waste, and how sustainability means the maintenance of these functions into the future",
+            "understanding that the sustainability of a renewable resource depends on it not being used faster than it can be renewed",
+            "understanding that the sustainability of waste disposal depends on biodegradable waste not being added to the environment faster than it can be broken down and on non-biodegradable waste not being added to the environment at levels that are harmful to human, animal or plant life",
+            "investigating where a specific renewable natural resource comes from and the different ways in which its use and disposal can be made sustainable; for example, the use of water resources can be made more sustainable by reducing consumption or recycling wastewater",
+            "exploring how some resources are used and managed in sustainable and non-sustainable ways; for example, auditing use of renewable and non-renewable resources in the classroom, investigating recycling and waste disposal of non-renewable resources in the school and by local government, reducing waste through using 'nude food' lunch boxes and recycled toilet paper, and examining how renewable resources such as timber are managed"
+          ]
+        },
+        {
+          "code": "VC2HG4S01",
+          "strand": "Geographical Skills",
+          "subStrand": "Geographical inquiry",
+          "text": "identify and develop questions to guide a geographical inquiry on the diversity of places and environments",
+          "elaborations": [
+            "developing geographical inquiry questions related to the local environment",
+            "developing questions about their dependence on the environment",
+            "developing questions prompted by an examination of the Australian Institute of Aboriginal and Torres Strait Islander Studies (AIATSIS) Map of Indigenous Australia",
+            "developing questions about why specific activities and venues in the local area are located where they are located, for example sporting facilities, schools, day care facilities and shopping centres",
+            "developing questions about the geographical similarities and differences between the continents of Australia and South America or Africa, considering how to explain the differences and planning how to answer questions about them"
+          ]
+        },
+        {
+          "code": "VC2HG4S02",
+          "strand": "Geographical Skills",
+          "subStrand": "Geographical inquiry",
+          "text": "locate, collect and record information and data from a range of sources, including from fieldwork, maps, photographs and graphs",
+          "elaborations": [
+            "brainstorming ways that information might be collected for an inquiry, such as through surveys, interviews and tallying, and choosing, with teacher guidance, the most effective sources of data",
+            "brainstorming the most effective ways in which data might be represented for the purpose of the investigation, such as creating maps, graphs, tables or picture and column graphs to show patterns in data collected from a class vote on participation in community activities",
+            "collecting information about activities in the local area, using fieldwork, maps and satellite images such as those from Google Earth, and creating a map and/or making sketches to show their location, using symbols to identify each type of activity, and taking photographs or interviewing or surveying people to seek information about feelings, preferences, perspectives and actions",
+            "gathering information from maps, aerial photographs, satellite images or digital application objects to support the investigation of the natural, managed and constructed features of places",
+            "using satellite images to compare the density of a city in Australia with the density of another city in Australia or the world",
+            "constructing a table to show the differences between the seasonal calendars of Aboriginal and Torres Strait Islander Peoples and the European seasonal calendar",
+            "acquiring geographical information from schools in geographically contrasting parts of Australia and neighbouring countries and recording that information by constructing and annotating maps, using the appropriate cartographic conventions, including map symbols, title and north point"
+          ]
+        },
+        {
+          "code": "VC2HG4S03",
+          "strand": "Geographical Skills",
+          "subStrand": "Geographical inquiry",
+          "text": "represent and analyse information and data collected in different formats",
+          "elaborations": [
+            "interpreting climate data to describe the temperature and rainfall for a place in Australia and a place in a neighbouring country",
+            "using a range of thematic maps (such as rainfall, vegetation, population, language and religion maps) to describe and suggest explanations for the similarities and differences between the geography of Australia and other parts of the world, for example the influence of latitude and climate on vegetation, the influence of Australia's geographical isolation on animal life or religions, or the influence of activities in a local place on language or religion",
+            "interpreting the data presented in picture, line, bar or column graphs to identify trends; for example, explaining survey results about types of waste produced in the school or how people participate in the community",
+            "interpreting thematic maps and using online satellite images to describe the environmental characteristics of a continent or region or to identify a particular characteristic such as equatorial rainforests or clearance of natural vegetation for farming and settlement",
+            "comparing environments in places of similar climate and vegetation that are located on different continents; for example, comparing sandy, icy and stony deserts of Australia, Africa and South America"
+          ]
+        },
+        {
+          "code": "VC2HG4S04",
+          "strand": "Geographical Skills",
+          "subStrand": "Concluding and decision-making",
+          "text": "draw conclusions based on analysis of information on places and environments, using the concepts of space, interconnection and environment",
+          "elaborations": [
+            "identifying the variations in the areal size of Aboriginal and Torres Strait Islander Peoples' Countries and Places",
+            "explaining the relationships between global climate and global vegetation",
+            "discussing how to explain the difference between the seasonal calendars of Aboriginal and Torres Strait Islander Peoples and the European seasonal calendar",
+            "drawing conclusions about the preservation of unique features of the natural environment",
+            "drawing conclusions about the ways people are connected with places, and the similarities and differences of places in Australia and those of neighbouring countries",
+            "analysing sources to draw conclusions; for example, considering 'What are the relationships between vegetation and climate in an ecosystem?'"
+          ]
+        },
+        {
+          "code": "VC2HG4S05",
+          "strand": "Geographical Skills",
+          "subStrand": "Concluding and decision-making",
+          "text": "propose actions or responses to an issue or challenge that consider possible impacts of actions",
+          "elaborations": [
+            "participating in cooperative strategies that enable decision-making about roles and responsibilities in relation to an issue that may be of concern to students (e.g. waste management in their school or protecting a habitat for an endangered species) and identifying resources needed to support the actions and likely outcomes",
+            "considering anticipated impacts of actions designed to protect and improve places that people perceive as important, such as places of environmental, cultural or religious value or places of historical significance",
+            "forecasting a probable future and a preferred future relating to an environmental, local government or cultural issue; for example, developing a future scenario of what oceans will be like if humans continue to allow waste plastic to enter waterways and a preferred scenario of what oceans would be like if plastics were to be replaced by biodegradable materials",
+            "proposing possible actions that could be taken to address an issue (e.g. improving the management of waste in the school or choosing products that do not reduce wild animals' habitats) and identifying resources needed to support the actions and likely outcomes (e.g. composting lunch waste and using it on the school garden or making socially responsible decisions)",
+            "developing a plan of action to achieve a set goal, for example a plan to protect a place, to raise awareness about an issue or to raise money for a purpose"
+          ]
+        },
+        {
+          "code": "VC2HG4S06",
+          "strand": "Geographical Skills",
+          "subStrand": "Communicating",
+          "text": "present descriptions using sources and geographical knowledge and concepts",
+          "elaborations": [
+            "selecting information from sources such as graphs, tables, photographs and pictures",
+            "describing the relative location of different features in a place by distance and compass direction; for example, describing the distance from their home to the local waste management site",
+            "creating an infographic to show the relationship between global climates and vegetation",
+            "designing a compass graphic of activities to demonstrate sustainability, use of natural resources and management of waste",
+            "constructing a table that describes the advantages and disadvantages of the various map projections, such as the Mercator projection, Robinson projection, Stereographic projection and Conic projection"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students explain the influence of people on the characteristics of places, how they change and their sustainable management. They identify the major geographical divisions of the world and explain the geographical diversity of places and the impacts of interconnections between Australia and other countries. Students explain bushfires and other climate hazards and consider how their impacts can be reduced. They analyse some of the major economic, demographic and social differences between countries around the world.\nStudents develop questions, and locate, collect and organise information and data from a range of primary and secondary sources. They represent and interpret information in different formats to describe patterns, trends and relationships. They analyse information and develop evidence-based conclusions. Students propose actions or responses to an issue or challenge and use criteria to assess the possible impacts. They select and organise ideas and findings from sources, using geographical knowledge and concepts (place, interconnection, environment and sustainability) to present descriptions and explanations.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HG6K01",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Management of places",
+          "text": "how places and environments are changed and managed by people",
+          "elaborations": [
+            "describing how decisions that affect the characteristics of their place are made, for example decisions about the location of new developments or the zoning of land use",
+            "describing how places and environments are changed by people, for example through urbanisation or land protection"
+          ]
+        },
+        {
+          "code": "VC2HG6K02",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Management of places",
+          "text": "the impacts of the interconnections between places on their characteristics",
+          "elaborations": [
+            "debating which countries in the world have the closest relationships with Australia, and the impacts of these relationships on places",
+            "discussing the impacts of interconnections between their place and other places, both within Australia and overseas, and the impacts these have on the characteristics of place"
+          ]
+        },
+        {
+          "code": "VC2HG6K03",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Management of places",
+          "text": "the specific geographical and other characteristics that shape their place, how their place is changing and how change is managed",
+          "elaborations": [
+            "investigating the influence of the environment (e.g. landforms, climate or water resources), relative location and interconnections between their place and other places (e.g. through employment, trade, services, migration or tourism) and the impacts these have on the characteristics of their place",
+            "exploring how decisions that affect the characteristics of their place are made, for example the approval of new developments or the zoning of land use",
+            "investigating a current local planning issue (such as the redevelopment of a site, construction of a new road or protection of a unique environment), exploring why people have different views on the issue and developing a class response to the issue"
+          ]
+        },
+        {
+          "code": "VC2HG6K04",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Management of places",
+          "text": "the importance of sustainability to places and environments, including the custodial responsibility Aboriginal and Torres Strait Islander Peoples have for Country and Place and how it influences their sustainability practices",
+          "elaborations": [
+            "identifying positive and negative impacts of people on places in other countries, including countries in Asia, Europe and North America",
+            "debating natural threats to the economic and social sustainability of places, such as floods, drought and extreme weather events such as heatwaves and weather conditions that trigger thunderstorm asthma",
+            "debating human threats to the economic and social sustainability of places, including outmigration, loss of an industry, loss of services and facilities, rapid population growth, environmental pollution and new roads",
+            "understanding the meaning of custodial responsibility for Aboriginal and Torres Strait Islander Peoples",
+            "identifying how Aboriginal and Torres Strait Islander Peoples altered the environment and sustained ways of living through their methods of land and resource management, for example firestick farming",
+            "investigating how the relationship between Aboriginal and Torres Strait Islander Peoples and their Country and Place underpins practices that ensure sustainable resource use, such as prohibiting hunting and burning in specific areas and at specific times; prohibiting catching animals when they are breeding; prohibiting harvesting plants that are seeding; controlled burning; and planned mobility to allow plant and animal resources to regenerate",
+            "recognising the extensive knowledge that Aboriginal and Torres Strait Islander Peoples have about plant and animal resources, seasons and water supplies that enable them to use sustainable practices effectively, and the ways in which this knowledge is passed from generation to generation",
+            "exploring examples of positive influences people have on the characteristics of places, for example through reforestation, landcare groups, and rehabilitating former mining, industrial or waste disposal sites"
+          ]
+        },
+        {
+          "code": "VC2HG6K05",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Management of places",
+          "text": "the impacts of bushfires and other climate hazards on environments and communities, and how people and communities manage prevention, preparedness, response and recovery",
+          "elaborations": [
+            "mapping and explaining the location, frequency and severity of bushfires, floods, droughts or cyclones",
+            "examining the economic, social and environmental costs of bushfires, floods, droughts or cyclones",
+            "researching how applying the principles of prevention, preparedness, response and recovery can minimise the harmful impacts of bushfires, floods, droughts and cyclones"
+          ]
+        },
+        {
+          "code": "VC2HG6K06",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Management of places",
+          "text": "the main characteristics of the geography of the continents of the world, the locations of their major countries and the interconnections between Australia and these countries",
+          "elaborations": [
+            "using maps or geospatial tools such as Google Earth or National Geographic's Mapmaker tool to identify the main geographical characteristics of the world's continents, for example major rivers, climates, vegetation, population density and location of languages and religions",
+            "identifying the major countries of one continent and using printed or electronic maps to identify their locations in relation to Australia",
+            "identifying the countries that have the closest interconnections with Australia in migration, trade, tourism, aid, education, defence or culture, and examining the impacts of at least one of these on their own place"
+          ]
+        },
+        {
+          "code": "VC2HG6K07",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Management of places",
+          "text": "the geographical diversity of the Asia-Pacific region, the location of its major countries and the interconnections between these countries and Australia",
+          "elaborations": [
+            "using maps to identify the main geographical characteristics of the Asia-Pacific region (defined as South, South-East and East Asia, the Pacific Islands and New Zealand), for example major rivers, climates, vegetation, population density and location of languages and religions",
+            "identifying the major countries of the Asia-Pacific region and using maps or geospatial tools such as Google Earth or National Geographic's Mapmaker tool to identify their location",
+            "describing the absolute location of places in countries of the Asia-Pacific region, using latitude and longitude",
+            "exploring the diversity of environments and types of settlement in the Asia region, in part of the region, or in a country in North-East, South-East or South Asia, or the Pacific, and discussing any patterns",
+            "investigating the differences in the population size and life expectancy of people in different Asia-Pacific countries",
+            "researching the proportion of the Australian population and of the population from their local area who were born in each world cultural region, using data from the Australian Bureau of Statistics, and then comparing aspects of selected cultures"
+          ]
+        },
+        {
+          "code": "VC2HG6K08",
+          "strand": "Geographical Knowledge and Understanding",
+          "subStrand": "Management of places",
+          "text": "interconnections and differences in the economic, demographic, social and cultural characteristics of countries across the world",
+          "elaborations": [
+            "classifying countries by their per capita income and comparing people's lives in places with different levels of income, through categories such as health, energy consumption, education levels and access to clean air",
+            "discussing the differences between countries in rates of population growth or decline, health (as measured by life expectancy) and energy consumption, and investigating how these have changed over time",
+            "mapping and discussing the distribution of the world's major religions",
+            "identifying Indigenous Peoples in different countries around the world (e.g. the Māori of Aotearoa/New Zealand, the Indigenous Peoples of North America, the Orang Asli of Malaysia and Indonesia, the Tibetans and the Mongols) and investigating their similarities and differences, and the ways they have lived sustainably over time",
+            "researching connections between Australia and countries in the Asia-Pacific region in terms of migration, trade, tourism, aid, education, defence or cultural influences, and explaining the impacts of at least one of these connections on their own place and another place in Australia",
+            "exploring the provision of Australian government or non-government aid to a country in the Asia-Pacific region or elsewhere in the world and analysing its impacts on places in that country"
+          ]
+        },
+        {
+          "code": "VC2HG6S01",
+          "strand": "Geographical Skills",
+          "subStrand": "Geographical inquiry",
+          "text": "develop a range of geographical questions on how places are managed",
+          "elaborations": [
+            "developing different types of questions for different purposes (such as probing questions to seek details, open-ended questions to elicit more ideas and practical questions to guide financial choices) or relating to one or more of the geographical concepts",
+            "developing questions to guide the identification and location of useful sources for an investigation or project, for example 'Is this source useful?', 'Who can help us do this project?', 'What rules/protocols must we follow when we do this inquiry/project?' and 'What resources do we need to conduct this project?'",
+            "developing geographical questions that relate to a geographical challenge or issue such as bushfire management",
+            "developing a question about which countries are most interconnected with Australia, and planning how to measure these interconnections",
+            "developing a question about a local environmental or planning issue, and discussing how to identify and collect the information needed to answer it",
+            "developing a question about the location and spatial extent of bushfires or other climate hazards in Australia and whether this is changing, and identifying the information needed to answer the question"
+          ]
+        },
+        {
+          "code": "VC2HG6S02",
+          "strand": "Geographical Skills",
+          "subStrand": "Geographical inquiry",
+          "text": "locate, collect and organise information and data from primary and secondary sources, including from fieldwork",
+          "elaborations": [
+            "finding information in primary sources about geographical phenomena (e.g. fieldwork and photographs) and in secondary sources (e.g. books, internet articles, maps, plans and reports in digital and non-digital form), such as collecting Australian Bureau of Statistics QuickStats and other data on the population and economy of the local area",
+            "determining the most appropriate range of methods to find information, including using digital tools, such as through personal observation, interviews and surveys, internet searches, census data, and primary and secondary sources, and using excursions and field trips (e.g. a field trip to wetlands)",
+            "using geospatial tools such as a globe, wall map or digital application to collect information (e.g. to identify the influences of people on the characteristics of places in other countries) or to locate the information they have collected through fieldwork",
+            "conducting surveys or interviews to gather primary data to support decision-making processes when investigating an issue, and summarising the key points or particular points of view; for example, surveying the views of conflicting parties in a planning or environmental dispute",
+            "summarising the points of view on an issue, such as a planning or environmental dispute",
+            "using maps, satellite images and other sources to identify the location and spatial extent of bushfires or other climate hazards in Australia in recent years"
+          ]
+        },
+        {
+          "code": "VC2HG6S03",
+          "strand": "Geographical Skills",
+          "subStrand": "Geographical inquiry",
+          "text": "represent information and data collected using maps that conform to cartographic conventions, graphs, tables, sketches and other formats",
+          "elaborations": [
+            "categorising information using appropriate digital and non-digital graphic organisers, such as flow charts, consequence wheels, futures timelines, Venn diagrams, decision-making matrixes and bibliography templates",
+            "constructing a map to show the strength of Australia's interconnections with other countries and ensuring that it conforms to cartographic conventions, including Border, Orientation, Legend, Title, Scale and Source (BOLTSS), and discussing why these conventions make map interpretation easier",
+            "creating maps, using geospatial technologies and cartographic conventions as appropriate, including BOLTSS, to show information and data such as location; for example, creating a large-scale map to show the location of places and their features in Australia and countries of Asia or creating a flow map or small-scale map to show the connections Australia has with Asian countries such as through shipping or migration"
+          ]
+        },
+        {
+          "code": "VC2HG6S04",
+          "strand": "Geographical Skills",
+          "subStrand": "Geographical inquiry",
+          "text": "interpret and analyse information and data in a range of formats to identify and describe patterns and trends, or to infer relationships",
+          "elaborations": [
+            "interpreting data presented in a line graph, bar graph, column graph or pie chart",
+            "examining visual and written sources to infer relationships; for example, examining photographs to see how people respond to droughts in enterprising ways or examining maps to investigate patterns in the characteristics of a place",
+            "exploring maps and sources showing Aboriginal and Torres Strait Islander Peoples and language groups and Countries and Places, to explain the diversity of their connections to Country and Place",
+            "investigating how to interpret choropleth and isopleth maps of data for different countries and continents, for example choropleth maps of economic, demographic, social and cultural data for different countries or continents or isopleth maps of elevation, temperature and rainfall",
+            "identifying relationships between different natural and human geographical phenomena by comparing maps of their spatial distributions",
+            "interpreting individual thematic maps, such as choropleth and isopleth maps, to identify patterns that suggest possible causes of natural and human geographical phenomena, for example weather patterns, population density or immigration"
+          ]
+        },
+        {
+          "code": "VC2HG6S05",
+          "strand": "Geographical Skills",
+          "subStrand": "Concluding and decision-making",
+          "text": "develop evidence-based conclusions on the management of places using the concepts of place, interconnection, environment and sustainability",
+          "elaborations": [
+            "identifying valid evidence that can be used to form a conclusion, and considering the difference between a conclusion based on evidence and one based on personal bias or preference, or one that is based on the use of limited sources",
+            "drawing conclusions that demonstrate consideration of questions, understanding of geographical concepts and evidence",
+            "debating opposing views on an issue and determining how to decide between them",
+            "drawing conclusions based on identified evidence; for example, using a local government management plan to inform how best to respond to a local planning issue",
+            "identifying valid evidence from reliable global sources such as the United Nations to measure differences between countries in rates of population growth or decline, life expectancy and energy consumption"
+          ]
+        },
+        {
+          "code": "VC2HG6S06",
+          "strand": "Geographical Skills",
+          "subStrand": "Concluding and decision-making",
+          "text": "propose actions or responses to issues or challenges in land management and use criteria to assess the possible impacts",
+          "elaborations": [
+            "forecasting probable futures for an issue, for example how native fauna populations might change if an introduced species, such as the cane toad, carp, feral cats or rabbits, continues to increase in population and proposing preferred futures that relate to the issue",
+            "undertaking a project that responds to an identified challenge or issue with strategies to be used that will achieve desired outcomes, for example an ecological preservation project",
+            "asking questions in order to consider potential impacts, for example 'How can I contribute to a sustainable environment?'",
+            "brainstorming solutions to an issue that is significant to a group; collecting evidence to build a case for action that takes account of alternative views, minimises risks and mitigates any negative outcomes; and using negotiation to reach consensus on a preferred approach to resolving the issue",
+            "determining a preferred option for action by identifying the advantages and disadvantages of different proposals, surveying people's views and opinions, analysing the data, and debating and voting on alternatives",
+            "using criteria to evaluate the possible options that people could take to resolve challenges, such as improving water quality, managing excess waste and providing resources, and using criteria to improve responses in communities to environmental hazards, for example considering economic factors such as needs, wants and costs, as well as environmental, economic and social factors"
+          ]
+        },
+        {
+          "code": "VC2HG6S07",
+          "strand": "Geographical Skills",
+          "subStrand": "Communicating",
+          "text": "develop explanations that draw ideas and findings from sources and use relevant geographical knowledge and concepts",
+          "elaborations": [
+            "designing a management plan to support a change in their local area",
+            "developing a documentary about different economic, demographic, cultural and social characteristics of 2 different countries",
+            "creating an infographic to illustrate ways of reducing the impacts of bushfires or other climate hazards on a community",
+            "composing informative and persuasive texts, supported by evidence, to describe and explain conclusions from their geographical inquiries",
+            "selecting and referencing ideas and viewpoints from letters, graphs, tables, timelines, photographs and pictures, in descriptions and explanations"
+          ]
+        }
+      ]
+    }
+  ]
+}

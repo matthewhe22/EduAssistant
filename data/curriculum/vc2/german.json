@@ -1,0 +1,595 @@
+{
+  "subject": "German",
+  "slug": "german",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the German language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes and discovering how languages are influenced by each other. They explore German through play, first imitating sounds and patterns, then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that German sounds are represented by letters, and they can match these with words, combining them in increasingly complex ways. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken German. They expand their repertoire of German words and phrases through listening and reading, and then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of German using simple metalanguage. They start to develop written competence by copying letters and words, and then produce the language with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the written German language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that German is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s).",
+      "contentDescriptions": [
+        {
+          "code": "VC2LG2E01",
+          "strand": "Engaging with German Language and Culture",
+          "subStrand": "Engaging with German language",
+          "text": "notice that German looks and sounds different to other languages",
+          "elaborations": [
+            "noticing when German and English are being used in the classroom, for example, 'sandwiching' a word by saying it in German, then in English, and then again in German",
+            "reproducing the sounds and rhythms of German by repeating after and imitating the teacher, through choral repetition or chants",
+            "exploring the different languages spoken by members of the class, and listening to the different sounds and ways of saying common expressions such as 'Good morning' or 'My name is …'",
+            "experimenting with sounds that are unique to German, imitating the shape of the teacher's mouth and the sounds produced",
+            "singing German songs such as an alphabet song, a counting song or a song that focuses on specific sounds",
+            "creating books to illustrate the German alphabet, for example, A = Apfel",
+            "repeating short German tongue twisters and poems out loud",
+            "noticing that the use of diacritics can change the sound of letters: Ä/ä, Ö/ö, Ü/ü",
+            "creating posters in small groups, illustrating individual letters, with special attention to diacritics and letters used in German but not English (i.e. Ä/ä, Ö/ö, Ü/ü, ß)",
+            "colouring, tracing or copying the letters, colouring outlined words of the focus letters (e.g. Fußball) and adding pictures of their own"
+          ]
+        },
+        {
+          "code": "VC2LG2E02",
+          "strand": "Engaging with German Language and Culture",
+          "subStrand": "Engaging with German language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "practising the sounds in the German alphabet through rote repetition, songs and grouped words focusing on one sound, paying special attention to the letters that are pronounced differently in German (e.g. f, v, w, j) and vowel combinations (e.g. ie, ei)",
+            "playing bingo with sounds, words or phrases",
+            "sorting flashcards with images and/or words into categories related to, for example, the sounds of different vowels, starting consonants and rhyming pairs",
+            "creating short wordlists of words grouped into like sounds and practising saying the words, noticing similarities in sounds and spelling",
+            "clapping the number of syllables in common words, for example, Mor-gen has 2 syllables, Tag has one",
+            "exploring the intonation patterns and understanding the difference between statements, questions and exclamations, for example, Du bist 6 Jahre alt. / Bist du 6 Jahre alt? / Du bist 6 Jahre alt!",
+            "transforming simple statements into questions by raising the pitch of their voice at the end, for example, Er mag Schokolade. / Er mag Schokolade?",
+            "walking around the classroom, greeting each other by shaking hands (a standard gesture upon meeting someone in a German-speaking country), asking for the other person's name, and giving their own name",
+            "making a class video in which each student introduces themselves in German",
+            "playing Schnipp-Schnapp, the German version of the card game snap, by slapping their own card pile and saying 'Schnapp' when their card matches another person's card – the fastest player takes both piles; if a player makes an incorrect call, their pile goes into the middle – when someone's card matches the middle card, all players can call 'Schnipp' to gain both piles; if a card matches both another player's and the middle card, all players can call 'Schnipp-Schnapp' to gain the matching piles"
+          ]
+        },
+        {
+          "code": "VC2LG2E03",
+          "strand": "Engaging with German Language and Culture",
+          "subStrand": "Engaging with German language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "recognising and responding to classroom instructions by playing Simon sagt with classroom instructions",
+            "singing the action song 'Kopf, Schulter, Knie und Fuß'",
+            "answering common questions in a variety of contexts, for example, the teacher asks the class; the teacher asks individual students; the students ask a peer; and the students listen to a recording of questions, and speak or record their answers, for example, Wie heißt du? Ich heiße Tom / Ich bin Tom / Mein Name ist Tom; Wo wohnst du? Ich wohne in Ballarat; Wie alt bist du? Ich bin fünf Jahre alt.",
+            "modelling the 3 forms of 'the' (der, die, das) by tracing dotted outlines or copying modelled language to create labels, and then using these to label classroom furniture (e.g. der Stuhl, der Tisch) and fixtures (e.g. der Fußboden, die Tür, das Fenster)",
+            "playing memory games that match words with pictures, based on target vocabulary such as simple classroom instructions and phrases, or classroom furniture",
+            "repeating common phrases such as greetings in response to the teacher's greeting or prompt, for example, Guten Morgen; Guten Tag",
+            "stating, selecting or writing greetings appropriate for the time of day as guided by images, for example, Guten Morgen for a sunrise picture; Gute Nacht for a picture showing the moon and stars",
+            "using gestures to demonstrate understanding of given greetings for different times of day, for example, stretching and yawning to signify waking up, or putting joined hands together on their cheek and tilting the head to signal going to bed",
+            "following common classroom instructions, supported by visual cues displayed in the classroom, for example, Bücher raus; Setz dich hin"
+          ]
+        },
+        {
+          "code": "VC2LG2E04",
+          "strand": "Engaging with German Language and Culture",
+          "subStrand": "Engaging with German culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "using gestures, facial expressions and body language through games such as charades, or by incorporating them into stories, plays or songs to enhance meaning",
+            "playing and engaging with cultural items from German-speaking countries, such as euros, postcards and authentic items",
+            "identifying different parts of an item of Tracht (traditional costume); understanding the basic historical influences of Tracht (e.g. the Dirndl from the alpine regions of Bavaria in Germany, Austria, Switzerland, Liechtenstein, and South Tyrol in Italy has an apron because it was worn for work, and the apron protects the skirt from stains and dirt); watching videos about different Trachten, pasting pictures of each one onto a map of German-speaking countries and regions, and then displaying the map on the classroom wall or in their books; watching music videos of German-language singers in Tracht and discussing where they are likely to be from, based on their traditional costume",
+            "matching pictures to a word and category and discussing the clues found in compound words, for example, types of bread such as Brezel, Semmel, Brötchen, Brot, belegtes Brot, Schinkenbrot and Käsebrot",
+            "creating a circular diagram of German seasons, copying or pasting the German names of the months within each season, and then decorating each section of the diagram with typical activities associated with that season, for example, snow and ice-skates for winter (Dezember, Januar, Februar)",
+            "creating an advent calendar or a class calendar with festivities from German-speaking countries occurring in particular months; participating in and reflecting on activities that demonstrate how German children celebrate various festivals, such as dyeing hard-boiled eggs for Easter and creating an Easter tree (2D on paper or 3D with twigs); receiving lollies and chocolate in their polished shoes on 6 December, Sankt Nikolaustag; or baking Christmas cookies as a class, using simple instructions and target vocabulary in German",
+            "watching videos of traditional dancing, for example, the Schuhplattler from southern Germany and Austria, maypole dances for spring festivals and Maitag; learning the history and culture of the dances; learning Germanic folk dances with simple steps",
+            "labelling pictures of flora and fauna and identifying animals and plants from German-speaking countries",
+            "playing memory games that match words with pictures, based on target vocabulary concerning culture, such as animals (der Wolf), plants (das Edelweiß) and traditional costumes (die Tracht) from German-speaking countries",
+            "taste-testing different pretzel flavours (e.g. plain, plain with rock salt, chocolate-coated, cheesy), rating them on a continuum of how delicious they are, and then collating the responses in a simple pictograph"
+          ]
+        },
+        {
+          "code": "VC2LG2C01",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Interacting in German",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "responding to Wie geht's? with a variety of expressions (e.g. Mir geht's gut; Mir geht's nicht so gut; Ich bin glücklich/müde), as they enter the classroom or during a 'one-minute challenge' classroom activity (e.g. greeting as many people in German as they can in one minute)",
+            "engaging in verbal exchange, practising turn-taking using formulaic questions and sentence starters, for example, Wo wohnst du? Ich wohne in Melbourne.",
+            "following, creating, presenting or recording simple scripts in pairs, asking and answering questions about their name and age, where they live, their siblings and pets, and other modelled language relating to aspects of their personal world",
+            "using puppets or printouts from popular shows or cartoons to role-play greetings and exchange information, imagining themselves as the character",
+            "interpreting and sharing simple expressions and songs with friends and family, for example, singing 'Zum Geburtstag viel Glück' and using appropriate greetings (e.g. Hallo!; Guten Abend!; Herzlichen Glückwünsch!) for different times and occasions",
+            "naming family members and friends and noticing the difference between the formal and informal such as Mama/Mutter and Oma/Großmutter",
+            "using PowerPoint slides or image flashcards to show different pictures (using taught vocabulary) to elicit responses, creating and recording simple scripts in pairs, asking and answering questions about name, age, where they live, siblings, pets, and using other modelled language relating to aspects of their personal world"
+          ]
+        },
+        {
+          "code": "VC2LG2C02",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Interacting in German",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "practising vocabulary, for example, practising high-frequency verbs using flashcards with images and/or written words, and using gestures to accompany the verbs where appropriate",
+            "playing simple memory games (e.g. Ich gehe einkaufen und ich kaufe … to practise vocabulary for fruit and vegetable names), or playing cards to match words or phrases with images",
+            "matching simple verbal or written statements to the relevant pictures, for example, Ich bin Maria and Ich bin zehn Jahre alt, matched to the picture of a girl",
+            "matching physical or electronic flashcards of questions to their appropriate answers",
+            "illustrating question-and-answer pairs to demonstrate the meaning of the content",
+            "completing fill-the-gap activities based on aural clues",
+            "using a scaffold to interchange sentence content (e.g. Ich mag Obst/Schokolade/Wasser), and using accompanying images to make concrete connections"
+          ]
+        },
+        {
+          "code": "VC2LG2C03",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "matching English and German translations of formulaic questions and answers about their personal world, for example, Wie heißt du? Ich heiße … / Ich bin … / Mein Name ist …; Wie alt bist du? Ich bin … Jahre alt.",
+            "identifying words in a variety of texts by matching images with words, for example, reading texts with pictograms to facilitate understanding of difficult or previously unseen words",
+            "responding to scaffolded questions in audiovisual texts using gestures, images, words and/or formulaic phrases",
+            "listening to and/or viewing information presented in an audio or video recording, sequencing key information or writing the topics in order",
+            "inserting provided answers into cloze or information-gap activities",
+            "categorising simple metalanguage, for example, identifying and illustrating verbs in a text such as a simple story",
+            "responding to texts by sequencing pictures and simple text in the order that the events occurred, or by creating a storyboard to retell a story or information",
+            "identifying nouns in simple English and German stories, and then illustrating the nouns to provide a pictorial representation of the story"
+          ]
+        },
+        {
+          "code": "VC2LG2C04",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in German through play, and discover how languages influence each other",
+          "elaborations": [
+            "exploring and comparing familiar onomatopoeia in German and English, and then making the relevant noise when their teacher says the name of the animal, or listening to recordings of animals and saying their names in German",
+            "recognising that languages have loan words and that many German words are used in English (e.g. kindergarten) by creating a categories chart to list words from different languages, or playing a sorting game to sort words into their language of origin",
+            "playing Hatschi Patschi (each round can have a time/question limit), where one student asks Wie heißt du? to their classmates to identify the 3 to 5 students who were chosen as Hatschi Patschi for that round while the student was out of the room; other students reply with their own names; and students have the option to answer with various sentence starters (e.g. Ich heiße …; Ich bin …; Mein Name ist …)",
+            "matching pictures of people to statements to create a 'family' or group of friends, for example, Er ist fünfzig Jahre alt, matched to a picture of a man/father",
+            "viewing pictures of people and saying or writing simple statements about them, using modelled phrases"
+          ]
+        },
+        {
+          "code": "VC2LG2C05",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Creating text in German",
+          "text": "create spoken and written texts using words, familiar phrases and modelled language",
+          "elaborations": [
+            "completing cloze or information-gap activities by filling in the gaps of a conversation with words, familiar phrases and modelled language",
+            "recording provided or created conversations, asking and answering questions about various topics related to their personal world using modelled language, for example, their name and age, where they live, and their siblings and pets",
+            "creating a comic strip where characters ask and answer questions about their name and age, where they live, their siblings and pets, and using other modelled language relating to their personal world",
+            "creating a poster or profile about themselves using words, familiar phrases and modelled language, for example, Ich stelle mich vor; Ich mag…",
+            "creating simple statements about people in a picture, using modelled phrases",
+            "using cognates in English and German (e.g. fair – fair) to create original sentences",
+            "making simple evaluative statements about their favourite characters in stories, rhythms or songs, for example, Die Geschichte ist toll!; Ich mag Rotkäppchen!; Sie ist freundlich!"
+          ]
+        },
+        {
+          "code": "VC2LG2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of spoken German, and understand how sounds are produced",
+          "elaborations": [
+            "comparing and contrasting the sounds of individual letters in English and German",
+            "putting a hand on their throat to identify voice-box vibrations associated with voiced (e.g. b, p) and unvoiced (e.g. t, k) consonants",
+            "practising the sound of the Umlaut letters (ä, ö, ü) through identifying that these sounds come from the front and top of the mouth, whereas other vowels (a, o, u) come from the back of the throat",
+            "practising the facial movements involved with making sound blends in German, especially with vowel sounds (e.g. ei in drei)",
+            "practising the 'ch' sound by identifying how ch is pronounced in different German-speaking regions and communities and listening to modelled examples",
+            "identifying that ch at the end of a word is pronounced much more strongly than ch at the beginning or in the middle of a word; revising this by sorting flashcards into 2 piles based on spelling and/or pronunciation; and then practising the words in each pile, emphasising the soft ch by whispering and the harder ch by speaking more loudly",
+            "copying words with a 'sh' sound, which in German are all written as sch, and comparing and contrasting cognates with English spelling (e.g. washing machine – Waschmaschine)"
+          ]
+        },
+        {
+          "code": "VC2LG2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "practising the sounds of diphthongs (a double-vowel sound, where the sound changes from the beginning to the end) in German by listening to the beginning and ending vowels at slow speed (e.g. au = 'aah-ooh', as in Haus: 'H-aah-ooh-s'; eu/äu = 'oh-ee', as in Häuser: 'H-oh-ee-s-er')",
+            "producing words and phrases in a variety of texts, for example, emphasising common sounds in alliterative sentences (e.g. Heidi hüpft hoch; Die Siegerin liest eine Liste und singt ein Lied); using cloze or information-gap activities where they insert words from (pictorial and/or written) flashcards, or working in pairs or small groups to produce sentences about a prompt",
+            "performing different actions depending on the sound heard, for example, jumping when they hear sch, or crouching when they hear ch",
+            "singing in a 'vowel choir', where they are grouped according to the first vowel of their name, and then guided by the teacher with hand signals to sing high (teacher's hand above the head), low (teacher's hand at thigh level), loudly (teacher opens arms and spreads hands wide), softly (teacher draws arms into chest), a continuous note (teacher moves hand through the air in a continuous line), a pulsing note (teacher opens and closes hand) and so on",
+            "using common adjectives for colour (e.g. rot, blau, grün, gelb) and size (e.g. groß, klein) in various contexts, such as to describe classroom items",
+            "using frequently used verbs in a variety of contexts",
+            "identifying and underlining rhyming words or graphemes in short texts or poems"
+          ]
+        },
+        {
+          "code": "VC2LG2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how the Roman alphabet and features of language are used to construct meaning in German",
+          "elaborations": [
+            "alphabetising a group of target words by their first letter",
+            "becoming familiar with the German alphabet, noticing similarities to and differences from English, by singing the alphabet, and discussing similarities and differences in the sounds",
+            "spelling out German words chunk by chunk to create a full word (e.g. N-a-m-e for Name)",
+            "arranging individual letters into words, for example, playing a spelling game with target words, racing to spell the word the teacher says with letter cards",
+            "arranging words into short phrases or sentences"
+          ]
+        },
+        {
+          "code": "VC2LG2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that written and spoken German has grammatical structures and other language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "identifying phrases that can cause confusion, for example, Ich heiße Martin (I am called Martin) contains one verb in the German phrase and 2 in the English phrase, and a common error in translation is Ich bin heiße Martin (I am am called Martin)",
+            "using conjugations of the verb 'to be' – sein from English, German and/or other languages to match different pronouns (e.g. I am – ich bin; you are – du bist; he/she is – er/sie ist), modelling pronoun–verb agreement; or using pictures to illustrate the different conjugations",
+            "matching pronouns to verbs in formulaic phrases using 'to be' – sein, through, for example, matching flashcards, labelling pictures or filling in a table in English, German and/or other languages",
+            "creating a table with 4 columns – English, German, Other languages, Picture (to illustrate meaning) – and then writing translations of the same word in each row, noting language features, and supporting the words by associating them with visual images or categorising them with simple metalanguage, for example, putting flashcards with words/pictures into different piles depending on their part of speech; or identifying verbs in a sentence, and then creating sentences of their own using these verbs",
+            "identifying nouns in English and German texts, and then highlighting the upper-case letters of the German nouns and contrasting how the nouns are written in both languages",
+            "ordering pictures of a story into Beginning – Middle – End, and then writing the main idea underneath the picture or matching sentences from the story to each picture",
+            "continuing a story by, for example, stating what happens to different characters next or using a timeline to plot additional action before or after the story action",
+            "participating in conversations about character, plot and setting, labelling key ideas and/or annotating pictures with single words and/or short phrases",
+            "giving opinions about different texts using formulaic language, for example, Ich mag das Buch",
+            "writing short responses, including poetry, for example, writing a poem using one German word for each of the letters of their name"
+          ]
+        },
+        {
+          "code": "VC2LG2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how German-speaking communities are similar to or different from others",
+          "elaborations": [
+            "noticing their own use of words, expressions or behaviours that make them who they are, including words from different languages known to the class and ways of celebrating or talking that may not be familiar to other people",
+            "listening to the ways a word is said in different dialects (e.g. ich is pronounced 'ick' in Berlin, 'isch' in central Germany, 'i' in Bavaria and 'ich' in northern Germany, and in Switzerland it becomes very guttural, emphasising the 'ch' sound), and repeating the different pronunciations",
+            "listing German words that have been borrowed from other languages, especially English (e.g. fair), including many information technology (IT) words (e.g. der Computer), and noting differences in pronunciation and intonation between English and German",
+            "listening to cognates in English and German (e.g. April – April) to identify differences in intonation (i.e. which syllables are emphasised), and vowel and consonant sounds",
+            "noticing how local names of streets, places and landmarks can have their origins in language(s) of Aboriginal and Torres Strait Islander Peoples, identifying the meanings of these place names, for example, 'You Yangs' comes from the Wadawurrung words Wurdi Youang, meaning 'big hill', and then discussing the German names of landforms that also denote physical characteristics, such as der Schwarzwald",
+            "recognising that languages and communities have different protocols regarding terms of respect, for example, there are ways of addressing Aboriginal and Torres Strait Islander Peoples using familial terms (e.g. 'Uncle' or 'Aunty') depending on the relationship, and comparing these terms with those in German and/or other languages"
+          ]
+        },
+        {
+          "code": "VC2LG2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where German is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "colouring in countries and regions on a world map where German is the official language or a co-official language (e.g. Germany, Austria, Switzerland, Belgium, Liechtenstein, Luxembourg, South Tyrol in Italy)",
+            "researching basic facts about the German-speaking diaspora in Australia, for example, the Lutherans in the Barossa Valley and the Temple Society in Melbourne and Sydney",
+            "creating simple timelines using the given information of a German-speaking community in Australia: dates of immigration, important milestones (e.g. launching a German school), and their legacy (e.g. industry, buildings, bakeries)",
+            "discussing different products we use in our everyday lives that have been made in or have their origins in a German-speaking country or region, such as pens or pencils, bakery items and cars",
+            "identifying symbols and colours used by Aboriginal and Torres Strait Islander Peoples and by German-speaking communities in a range of contexts, for example, identifying the colours on a range of flags from different countries and communities in German, and discussing what these colours represent"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use German to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts.\nStudents imitate the sound combinations and rhythms of spoken German. They demonstrate their understanding that German has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in German and make comparisons between German and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LG4C01",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Interacting in German",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "communicating with their peers and the teacher using formal and informal simple greetings and formulaic expressions, for example, Wie geht's?; Wie geht es Ihnen?",
+            "exchanging information in modelled expressions in written or spoken form about their family, hometown, pets and activities, for example, Hast du Geschwister? Ich habe einen Bruder und zwei Schwestern.; Hast du ein Haustier? Wir haben einen Hund und vier Vögel.; Wo wohnst du? Ich wohne in …; Was sind deine Hobbys? Ich mag …",
+            "using German expressions and repair strategies to support interaction with their peers and the teacher, for example, Ich verstehe; Ich weiß das nicht; Langsamer bitte; Nochmal bitte",
+            "asking and responding to questions relating to a learning activity or lesson, for example, Wie bitte?; Ich verstehe das nicht; Welche Seite?; Wie sagt man das auf Deutsch?; Bist du fertig?; Wer ist dran? Ich bin dran.",
+            "using modelled sentences to communicate about the self in descriptive language, for example, Ich habe eine Katze. Sie ist braun und frisst Fleisch.",
+            "using common responses to frequently asked questions, imitating modelled intonation and stress patterns, for example, Wie geht's? Gut, danke.; Stimmt das? Ja, das stimmt.",
+            "commenting constructively on their own and others' learning, for example, Super!; Tolle Arbeit!; Gut gemacht!; Danke.",
+            "apologising and making polite requests, including attracting attention and asking for assistance and permission, for example, Entschuldigung, Frau Lenz!; Hilfe bitte!; Darf ich bitte auf dieToilette gehen?",
+            "asking and responding to questions relating to concepts such as time, number, days of the week, months and seasons, for example, Wann spielst du Basketball? Am Montag.; Wer hat im August Geburtstag?; Welche Hobbys hast du?; Wann ist es kalt in Deutschland? Im Dezember, im Winter."
+          ]
+        },
+        {
+          "code": "VC2LG4C02",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Interacting in German",
+          "text": "participate in activities that involve expressing interests and exchanging information, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "participating in role-played situations such as choosing a present for a friend or visiting a doctor's clinic, for example, Alex mag Puppen. Was kostet die Puppe?; Was ist los? Mein Bein tut weh.",
+            "collaborating with peers to prepare an item to perform for an audience, for example, a German-language song or a modified fairytale play",
+            "acting out or providing illustrations for songs or stories (e.g. holding up pictures of each animal as it is mentioned), or creating a stop-motion film narrated by subtitles or purely by the action (e.g. an art gallery of students' interpretations of Die Bremer Stadtmusikanten)",
+            "making card-matching or digital games to play with peers, using German and English words or images, for example, days of the week, months, seasons or vocabulary associated with weather",
+            "following procedures and instructions with peers, guided by the teacher, for example, how to create a Hampelmann or Lebkuchenhaus",
+            "collaborating to create a shared text in German, for example, a digital photo story after a class activity or event such as a visit to a German restaurant",
+            "interacting with others to produce classroom signs, for example, Bitte mach die Tür zu!; Hier sind die Scheren/Klebestifte/Stifte!",
+            "planning and negotiating with peers to organise a class celebration such as a traditional festival from a German-speaking country or region or an end-of-term class party, for example, Wer bringt was mit? Ich bringe … mit.",
+            "playing class games, such as listening to, then repeating, answers from previous students, and then adding their own sentence using specific structures guided by flashcards, for example, Was bringst du zur Party? Peter bringt Brot. Elsa bringt Salat und ich bringe Fisch."
+          ]
+        },
+        {
+          "code": "VC2LG4C03",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "identifying points of information with some unfamiliar language in short spoken texts in German, for example, the name and number on a recorded phone message, the age of a child in an interview, or items on a recorded shopping list",
+            "constructing a timeline of the main events of a story using pictures, words and/or simple sentences or working with information to create a graph, for example, Lieblingstiere, Lieblingssport, Lieblingsserie, Lieblingsmusik",
+            "responding to an informative or imaginative text in various ways, such as describing what emotions they feel while listening to a story or song, for example, Das macht mich glücklich/traurig/nervös",
+            "collecting information from informative texts and creating a display with names and appropriate adjectives, for example, reading or listening to texts about different animal species (e.g. Der Löwe ist mutig und stark; Das Känguru ist schnell) and creating a classroom display with the information",
+            "comparing wall calendars from a German-speaking country and Australia, identifying similarities or differences in structure, public holidays, the pictorial representation of seasons, and cultural influences",
+            "identifying key information in audio or written texts, for example, listening to and/or viewing a song or music video and identifying the number or types of animals or the activities someone completes; or viewing a film poster and reflecting on their understanding using the 'see-think-wonder' routine, for example, identifying the title and characters, predicting the genre of the film, and then discussing or presenting this information",
+            "viewing or listening to texts related to aspects of school life, such as timetables, canteen menus, extracurricular activities and sports, and comparing information about activities and practices across cultures",
+            "locating information about a person or character from a written or spoken text, to use in a modelled format such as a Steckbrief",
+            "working in groups to obtain and use factual information from texts related to other learning areas, for example, completing a simple science experiment, naming countries and significant land features, or calculating distances/speeds from a sports lesson",
+            "finding examples of German used at home or in the community and creating a class collection or display, for example, products, labels or words used in English-language advertisements, shop signs, recipe books or menus",
+            "classifying a range of German texts (e.g. fairytales, recipes, instructions, advertisements, greeting cards, maps or songs), according to their purpose(s) (e.g. to entertain, describe or instruct), and discussing and justifying their reasoning in English; comparing the features of different types of German and English texts such as a song, picture book, cookbook or comic, and identifying how different textual elements such as title, layout, script and images can combine to make meaning"
+          ]
+        },
+        {
+          "code": "VC2LG4C04",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce German, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "learning to use a dictionary to find and understand unknown words in texts, for example, playing dictionary games to locate target words",
+            "recognising and comparing similarities and differences between ways of showing politeness or formality in German and English or other languages known to students, for example, the use of family names after Frau and Herr; responding to Danke schön with Bitte schön; using Sie in an appropriate context",
+            "reading simple texts in German and English alongside their translations, noticing similarities and differences, and identifying challenges to translations such as 'false friends' (e.g. das Handy = mobile phone)",
+            "recognising that there are different and/or multiple words that communicate ideas across cultures, for example, Karneval, Fasching and Fastnacht; das Christkind and der Weihnachtsmann",
+            "comparing different words with the same meaning in English, noting subtle variations in meaning (e.g. sidewalk, footpath and pavement; hiking, tramping and trekking) and similar patterns in German (e.g. süß, niedlich and hübsch)",
+            "matching parallel expressions in English and German, for example, Hi – Tag; morning tea – Kaffeepause; Bless you – Gesundheit",
+            "using cultural gestures in familiar contexts, for example, starting with your thumb when counting in German",
+            "discovering how their own language use influences expectations about German-language use, for example, wanting to use one word for 'you', and not expecting to capitalise all nouns"
+          ]
+        },
+        {
+          "code": "VC2LG4C05",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Creating text in German",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences, and modelled textual conventions",
+          "elaborations": [
+            "learning or revising target vocabulary by participating in a Schnitzeljagd in the schoolyard or creating an alphabet list or book with illustrations in German, for example, featuring traditions and customs from German-speaking countries and regions (e.g. L = Lederhosen), or a single topic such as animals (e.g. L = Löwe)",
+            "creating and illustrating short personal, imaginative or informative texts, such as using secure digital tools to produce Mein Traumhaus, and annotating the presentation, for example, Mein Alltag; Mein Schloss ist sehr alt, groß und schön; Es ist rosa und lila",
+            "creating and/or sharing an item (e.g. Schultüte or Zuckertüte) relating to German-speaking communities' language and culture through the school newsletter, at a school assembly or in a display, or displaying links to digitally produced student items such as films or photo–text collages",
+            "designing simple written correspondence such as invitations or greeting cards in print or digital form, incorporating formulaic expressions, simple phrases and sentences, and modelled textual conventions, for example, an invitation to Grandparents' Day at school",
+            "producing and presenting illustrated or multimodal texts using a modelled structure, for example, an acrostic poem based on their given name or an Elfchen (an 11-word poem with a specific structure) about a family member or pet",
+            "using modelled structures and picture prompts to retell the basic plot of a narrative or make simple summary statements, for example, Der König und die Königin sind im Schloss",
+            "creating and presenting a performance using modelled German language, for example, a puppet play involving die Maus from Die Sendung mit der Maus, meeting a current Australian fictional character, or an Igel meeting an echidna",
+            "acting out a text with a repetitive plot and/or dialogue, and adapting aspects of the story, for example, Die kleine Raupe Nimmersatt or another well-known story from German-speaking countries or regions, noting cultural references (e.g. a bread roll is called die Semmel in Bavaria or Austria, das Brötchen in northern Germany, das Rundstück in Hamburg and Schleswig-Holstein, and die Schrippe in Berlin and Brandenburg)"
+          ]
+        },
+        {
+          "code": "VC2LG4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations, and use patterns of pronunciation and intonation to form words, phrases and simple sentences",
+          "elaborations": [
+            "recognising and using the Umlaut and Eszett to pronounce and write familiar German words, noting differences in their pronunciation, for example, words with and without an Umlaut (e.g. der Bruder vs. die Brüder)",
+            "developing pronunciation, phrasing and intonation skills by singing, reciting poetry or reading a short text aloud",
+            "understanding and practising sounds in German that are different from English sounds, for example, Wasser, where w sounds like an English 'v'; Vater, where v sounds like an English 'f'; other words such as ja, rot, singen, Sport and zwei",
+            "understanding that intonation patterns create different meanings between statements, questions and exclamations, for example, Du bist acht. / Du bist acht? / Du bist acht!",
+            "identifying differences in regional accents and dialects to begin understanding language variation across German-speaking communities, for example, in everyday greetings",
+            "comparing the rhythms and vocal effects in German and English versions of a favourite story such as 'Rotkäppchen' or in a game such as Wie spät ist es Herr Wolf?",
+            "using phonic knowledge to spell and write some unfamiliar words containing, for example, ch, r, th, u and z, and consonant clusters such as sch",
+            "applying learned memory aids such as 'When E and I go walking, the second one does the talking' (e.g. Reise vs. Riese)",
+            "applying spelling rules for frequently used words",
+            "listening to the way animal sounds are expressed in German (e.g. in the story 'Die Bremer Stadtmusikanten' or the song 'Das kleine Küken piept') and comparing them with English and other languages represented within the class, for example, Ein Hahn sagt: „kikeriki“; Ein Hund bellt: „wau wau“"
+          ]
+        },
+        {
+          "code": "VC2LG4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "completing sentences that start with formulaic sentence starters, for example, adding an adjective to Der Apfel ist …",
+            "matching question-and-answer pairs to create simple conversations, for example, Wo wohnst du? Ich wohne in Shepparton.",
+            "applying punctuation in modelled writing activities, for example, full stops, exclamation marks and question marks",
+            "gaining an awareness of terms referring to quantities such as mehr, viel/e, nichts and kein/e, using singular and plural countable nouns (e.g. ein Apfel, viele Äpfel), and uncountable nouns (e.g. Wasser, Orangensaft) to demonstrate understanding",
+            "recognising that all German nouns start with upper-case letters, demonstrating understanding by highlighting nouns within a text",
+            "applying capitalisation when writing German nouns",
+            "connecting German nouns to their articles and recognising that the article applies to the concept of the noun rather than to an individual item",
+            "recognising that genders are used with nouns but not with other parts of speech",
+            "recognising that indefinite/definite articles and possessive adjectives agree with the gender of the noun they precede, for example, der Bruder, ein Bruder, mein Bruder and dein Bruder",
+            "using some adverbs to elaborate on simple statements, for example, Ich laufe schnell; Ich singe leise; Ich spreche laut"
+          ]
+        },
+        {
+          "code": "VC2LG4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar German language structures and features with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "identifying German punctuation for direct speech by highlighting the speech marks within a text (e.g „Ich bin Heidi.“ or »Ich bin Heidi.«), noting that the »…« formation is commonly found in novels",
+            "translating a simple English text featuring direct speech into German, changing English punctuation for direct speech to German punctuation (e.g. He said, 'I like chocolate.' becomes Er sagt: „Ich mag Schokolade.“ or Er sagt: »Ich mag Schokolade.«)",
+            "comparing the pluralisation of nouns in German to English and/or other languages, for example, der Apfel / die Äpfel",
+            "understanding and using pronouns to refer to people (singular: ich, du, er, sie, es, Sie; plural: wir, ihr, Sie, sie), for example, Sie heißt Anna; Sie heißen Ben und Sarah; Das Baby ist klein. Es schläft.",
+            "comparing and matching keywords in German, English and/or other languages, for example, names for German-speaking countries and regions (e.g. Deutschland), well-known cities (e.g. Wien), animals (e.g. der Hund, die Katze), family members (e.g. die Mutter, der Bruder) and leisure activities (e.g. Musik hören, schwimmen)",
+            "comparing the features of different types of German, English and/or other language texts such as a song, picture book, cookbook or a comic, and identifying how different textual elements such as title, layout, script and images can combine to make meaning"
+          ]
+        },
+        {
+          "code": "VC2LG4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "viewing a map that shows Aboriginal and Torres Strait Islander languages and noticing how many languages are represented in Victoria, and then learning about the diversity of languages that students in the classroom have a connection to",
+            "identifying the Aboriginal or Torres Strait Islander Country on which they live and naming this in German, and incorporating this into their self-introduction",
+            "creating a 'language portrait' of themselves through the use of a whole-body silhouette, where students represent their personal experiences of language and culture by adding colours, shapes and words within and around the outline",
+            "recognising that language carries cultural ideas, for example, Sommerbeginn, which is officially 1 December in Australia but 21 or 22 June in Europe; hitzefrei, or 'heat-free', referring to the practice of dismissing students early from school if a certain temperature is reached or forecast",
+            "exploring cultural practices and language related to foods in German-speaking countries and regions, for example, Abendbrot and Spaghettieis, or saying Guten appetit before a meal",
+            "identifying ways in which German language and culture influence the lives of Australians, for example, types of food consumed such as Sauerkraut, types of sausage, and sweets (e.g. Gummibärchen)",
+            "recognising that politeness and formality may be communicated differently in different languages, for example, the use of Frau/Herr Schmidt (Ms/Mr Smith) and the use of du/Sie to indicate the level of formality between speakers in German-speaking communities",
+            "recognising that German is the official language or a co-official language of multiple countries and regions, including Germany, Austria, Switzerland, Belgium, Liechtenstein, Luxembourg, and South Tyrol in Italy, and identifying their locations on a world map",
+            "learning about the school system in German-speaking countries, where the Grundschule is generally for Grades 1 to 4",
+            "illustrating mythical creatures from different cultures based on verbal and/or written descriptions",
+            "recognising character traits and values and comparing them with familiar stories in English or in other languages, for example, the wolf in 'Rotkäppchen' as told by the Brothers Grimm in German compared to popular retellings of 'Little Red Riding Hood'",
+            "understanding that some English words originate from Aboriginal or Torres Strait Islander languages, such as the names of animals (e.g. 'koala' – der Koala from the Dharug word gula meaning 'no water'; 'kangaroo' – das Känguru from the Guugu Yimithirr word gangurru), comparing them to the German words and discussing why more Australian animal words come from some areas than others"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in German that are related to their immediate environment. They use appropriate sound combinations, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in German or English, adjusting their responses to context, purpose and audience.\nStudents use modelled structures when creating and responding in German. They create texts, selecting and using a variety of vocabulary and sentence structures to suit different contexts. They use conventions appropriate to text type. They apply rules for pronunciation and intonation in spoken language and apply conventions of spelling and punctuation in written language. They compare language structures and features in German and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LG6C01",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Interacting in German",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "exchanging information with others in a secure, teacher-moderated online environment, in writing or face-to-face, about daily routines and leisure activities, using modelled language associated with time and sequence, for example, Was machst du am Wochenende?; Ich stehe um 7.30 Uhr auf. Dann frühstücke ich.; Ich schwimme und surfe oft; or sharing opinions with German-speaking peers about school subjects and rules, for example, Wie findest du Mathe? Mathe ist toll.; Man muss eine Uniform tragen. Das ist doof. Was denkst du?",
+            "using communication strategies such as active listening skills and interjections (e.g. Ja, ja ich verstehe; Ach ja das stimmt; Genau), turn-taking cues, and requests for clarification or more detail to support interactions (e.g. Ich verstehe das nicht; Wie heißt das auf Englisch?)",
+            "practising modelled repair strategies, for example, Wie bitte?; Kannst du die Frage nochmal sagen?; Bitte sag das nochmal",
+            "giving and receiving instructions, for example, Mach(t) die Tür zu!; Trink(t) mehr Wasser!",
+            "describing significant people such as family members, friends and teachers, using simple descriptive and expressive modelled language, for example, Das ist meine Schwester. Sie ist sehr sportlich und intelligent. Sie spielt sehr gern Fußball und liest gern Comics. Ich habe meine Schwester lieb.",
+            "asking questions using question words to request further detail, and responding using modelled intonation and stress patterns, for example, Welche Farbe hat dein Haustier?; Wie ist es?; Wo wohnt es?",
+            "recognising subject–verb inversion of questions (e.g. Er ist zehn Jahre alt / Ist er zehn Jahre alt?)",
+            "identifying and discussing learning strengths and experiences, for example, Ich mag Deutsch. Deutsch macht Spaß. Ich lerne gern Deutsch.",
+            "apologising and expressing concern or sympathy to friends and family members, for example, Tut mir leid; Schade!; Du Arme(r)!",
+            "expressing feelings (e.g. Wie geht's?; Es geht mir nicht gut; Ich bin krank), using adjectives such as aufgeregt, glücklich, nervös, sauer and traurig"
+          ]
+        },
+        {
+          "code": "VC2LG6C02",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Interacting in German",
+          "text": "participate in activities that involve discussion with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "participating in real-life or role-played transactions such as buying food from a range, for example, Ich esse Käse. Ich nehme ein Käsebrötchen.; Was kostet ein Eis? Das macht 6,50 Euro.; Gibt es Vanilla? Vanilla ist mein Lieblingseis.",
+            "organising and conducting collaborative activities such as a Deutsch macht fit session for a younger class, using language such as Lauft schnell! and Springt zehnmal!",
+            "discussing and planning collaboratively with peers to develop an activity for a school assembly, or a school/class event or performance, using language related to people, items, time and numbers to create promotional materials, for example, working collaboratively to produce a poster or video to encourage recycling (e.g. Trinkt lieber Wasser!; Recycelt alle Dosen!) or dancing the action song 'Das Fliegerlied' as a lunchtime flash mob",
+            "checking on peer progress using comments and questions (e.g. Bist du fertig? Ich bin fertig.; Verstehst du das? Ja.) and sharing ideas about the experience of learning and using German, identifying their own strengths and preferred learning styles, for example, Ich kann gut Deutsch sprechen",
+            "responding to feedback on a written draft or class activity by making changes to improve the product or activity",
+            "consulting online catalogues and websites, comparing prices and values, and discussing potential purchases (e.g. Das Handy ist zu teuer; Der Pullover ist preiswert) and using modelled phrases such as Der Hut sieht gut aus",
+            "stating preferences from a range of items, for example, designing outfits from a clothing catalogue (e.g. Mein Lieblingsoutfit ist lila und weiß)",
+            "asking peers to do something politely and responding to requests, for example, giving and receiving things (e.g. Gib mir bitte den Stift!; Bitte schön; Danke schön)",
+            "discussing and creating class and school rules using modelled language with the modal verbs müssen and dürfen, for example, Dürfen wir auf dem Boden sitzen?; Wir müssen immer aufpassen; Wir dürfen in der Klasse nicht am Handy sein",
+            "comparing the exchange rate of currencies, for example, converting Euro or Schweizer Franken into Australian dollars, and calculating the cost of specific items in both currencies"
+          ]
+        },
+        {
+          "code": "VC2LG6C03",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "viewing or reading informative texts and sequencing steps in a process, for example, watching a short video about the water cycle in German and labelling a diagram with vom Meer zum Land; Regen; Fluss; Grundwasser",
+            "viewing a news item, image or short documentary about a festival in a German-speaking country or region, such as die Basler Fasnacht or der Karneval in Köln, and describing and giving an opinion about the main aspects, for example, Ich finde die Fasnacht in Basel super. Ich mag die Masken und die Musik.",
+            "responding to a text such as a poem by selecting an appropriate image to illustrate an aspect such as the key message or mood, and explaining choices, for example, Das ist die Sonne. Die Sonne ist heiß und gelb. Die Sonne scheint im Sommer. Ich freue mich, wenn die Sonne scheint.",
+            "researching topics (eg. recycling, the water cycle, the solar system, or geographical features in German-speaking countries and regions), using a range of sources (e.g. magazine articles, books or websites), and then organising and sharing the information in print or secure digital format in modelled German texts",
+            "viewing subtitled media such as music clips or informative texts on different German-speaking communities, and identifying new vocabulary and expressions for use in shared texts",
+            "identifying information in German texts such as advertisements, dialogues, brochures and announcements, and sharing this information with others in another format, for example, presenting a chart of favourite television programs, leisure activities or food preferences",
+            "compiling and presenting information from a survey of peers and displaying results, for example, using graphs showing modes of transport to school (e.g. zu Fuß; mit dem Rad/Bus/Auto; mit der Bahn/Fähre), and reporting whether they are environmentally friendly",
+            "using modelled structures (e.g. Das Ende war lustig/traurig/blöd; Die Hauptperson war sehr mutig/schön/schlau) to express a personal opinion on aspects of a text such as the beginning, ending, plot and characters",
+            "producing a timeline of main events in a story or creating storyboards to represent key events in different types of imaginative texts, including captions or word bubbles to indicate moods or feelings"
+          ]
+        },
+        {
+          "code": "VC2LG6C04",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in German in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "observing how language use reflects politeness and the closeness of social relationships, such as different levels of formality through the use of du/ihr and Sie",
+            "using common scaffolded phrases such as using Sie in short role-plays with adults outside the family, including people in a position of authority such as a teacher or doctor, for example, Guten Morgen, wie heißen Sie?",
+            "observing familiarity with friends, for example, Spitznamen and various uses of the diminutives -chen and -lein",
+            "identifying when literal translation is or is not possible, for example, in idiomatic expressions such as Bist du satt? (not voll) and Es geht mir gut (not Ich bin gut), or Ich bin krank, which literally translates to 'I am sick'",
+            "noticing and practising the use of German expressions and gestures when interacting with people from German-speaking communities, for example, exclamations such as Ach so!, Echt! and Doch!; pressing thumbs inside one's fists, compared with crossing one's fingers for good luck; and the similarity of thumbs up meaning 'great' or 'good'",
+            "using German–English cognates to predict meaning (e.g. Brot, kalt, Maske, trinken)",
+            "explaining in English the use and meaning of German expressions (e.g. Gesundheit; Hals- und Beinbruch; Toi, toi, toi!), and noting equivalents or expressions used in the same circumstances from Australia or other cultures, such as Sie spricht durch die Blume – She's talking in a roundabout way; or noting that German, like all languages, is constantly expanding to include new words and expressions in response to changing intercultural experiences (e.g. Fast Food; Fairness)",
+            "creating and using bilingual resources for language learning, for example, glossaries or personal German–English and English–German wordlists with examples and explanations of parts of speech and language use",
+            "recognising long compound words, collecting and analysing interesting examples such as das Schlagzeug, babyleicht and der Seehund, and discussing strategies for understanding and translating them into English",
+            "understanding that the gender of compound nouns is determined by the last noun in the chain, for example, die See (ocean) + der Hund (dog) = der Seehund (seal)"
+          ]
+        },
+        {
+          "code": "VC2LG6C05",
+          "strand": "Communicating Meaning in German",
+          "subStrand": "Creating text in German",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type",
+          "elaborations": [
+            "identifying and highlighting typical features of a letter or article, labelling different sections (e.g. heading, introduction, body, conclusion, author), and then annotating a text to identify its structure and linguistic features",
+            "identifying features common to a range of text types (e.g. title, author, and main content organised into paragraphs), and then completing a jigsaw activity using features of various text types, placing fragments of the text into the correct order based on modelled examples",
+            "creating a multimedia profile for a group of young German speakers or writing a blog entry for a youth website, for example, about Freizeit, Schule or Freunde",
+            "creating a video clip to present information or ideas to a particular audience, including elements that may be unfamiliar to German-speaking students, for example, a virtual tour of the school or classroom for exchange student groups, which may also demonstrate that Australian students generally wear school uniforms",
+            "presenting about German-speaking countries and Australia, for example, population statistics and physical size, daily temperatures, types of housing, pet ownership or most popular leisure activities",
+            "recording a multimedia presentation or writing a diary about a real or imaginary trip to a German-speaking country or region, incorporating some famous places they visited and cultural experiences, for example, Das ist eine alte Kirche in Hamburg; Hier bin ich, ich esse eine Brezel",
+            "adapting a text such as a story, and presenting it to a younger audience, for example, changing the gender or age of the main character; changing the place or time of the setting; adding a new character or dilemma",
+            "role-playing characters from different areas in German-speaking communities and demonstrating regional variations in language use, for example, in greetings such as the Swiss Grüezi and Austrian or Bavarian Servus, and cultural events such as the Weihnachtsmarkt and the Christkindlmarkt",
+            "creating and performing a new version of a familiar song or poem, for example, using secure digital tools and apps for video editing and voice recording",
+            "inventing a board game focusing on key language and using expressions for playing games, for example, Du bist dran; Schade; Gut gemacht; Ich gewinne"
+          ]
+        },
+        {
+          "code": "VC2LG6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency in words, phrases and sentences",
+          "elaborations": [
+            "recognising how pitch, stress and rhythm help to convey meaning even if individual words are unfamiliar",
+            "applying phonic and grammatical knowledge to spell, write and say unfamiliar words containing, for example, ch, j, w and z, and diphthongs such as au and eu, and ei and ie",
+            "using phrasing and intonation to link multiple sentences when reading a short text aloud or holding a reciprocal conversation with a partner",
+            "identifying differences in regional accents and dialects to begin understanding language variation across German-speaking communities, for example, watching video clips and identifying the commonalties with other geographically adjacent languages or the potentially different pronunciations of ch in different dialects (e.g. in Technologie and ich)",
+            "listening to the ways a word is said in different dialects, for example, ich is pronounced 'ick' in Berlin, 'isch' in central Germany, 'i' in Bavaria and 'ich' in northern Germany, and in Switzerland it becomes very guttural, emphasising the 'ch' sound",
+            "locating places on a map to identify where accents are from, while listening to one word said in different dialects",
+            "practising different intonation for statements, questions, exclamations and instructions, for example, Du trinkst Wasser. / Du trinkst Wasser? / Du trinkst Wasser! / Du, trink Wasser!",
+            "reciting well-known German tongue twisters, applying knowledge of pronunciation patterns and working on fluency, for example, Zehn Ziegen zogen zehn Zentner Zucker; Acht alte Ameisen"
+          ]
+        },
+        {
+          "code": "VC2LG6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "applying punctuation rules, including the meaning and use of full stops and commas in ordinal and decimal numbers (e.g. die 3. Klasse; 9,50 Euro); understanding that German numbers invert the comma and full stop compared to English, for example, Es kostet €6,50 (sechs Euro fünfzig) vs. 'It costs $6.50'; '10,200' in English vs. 10.200 in German; and recognising that ordinal numbers include a full stop (e.g. '6th' in English vs. 6. in German), clarifying that the full stop in the number does not mean the end of a sentence (e.g. Sankt Nikolaustag ist am 6. Dezember)",
+            "noticing distinctive punctuation features of personal correspondence in German (e.g. Lieber Klaus, followed respectively by a lower-case letter to begin the first sentence, unless the first word is a noun",
+            "referring to a person, place or object using the nominative and accusative forms of the definite and indefinite article (e.g. Ich habe einen Bruder; Der Hund hat den Ball) and when negating using kein and noting the differences in structure from English, for example, Ich habe keinen Bruder, literally, 'I have no brother', means 'I don't have a brother'",
+            "recognising and understanding the different forms of 'you', such as du (singular informal), Sie (singular/plural formal) and ihr (plural informal), for example, Setz dich; Setzen Sie sich; Setzt euch; Was meint ihr?",
+            "making connections between possessive adjectives and context, for example, mein/e, dein/e, sein/e, ihr/e; Mein/Dein Bruder ist 12; Seine/Ihre Lieblingsfarbe ist blau",
+            "making comparisons using simple structures and limited forms of modal verbs mögen and können, for example, Sie mag Kricket; Ich kann gut schwimmen; Ich mag Erdbeeren lieber als Kiwis; Ich kann besser laufen als Radfahren",
+            "recognising that German time uses 'half to' and not 'half past', for example, Die Schule beginnt um halb neun (literally, 'The school begins at half nine', i.e. half past eight), and telling the time using the 12-hour clock and including the half hour, such as Die Schule endet um 3.30",
+            "using prepositions such as nach and vor within formulaic expressions to indicate the timing of events, such as nach der Schule or describing locations using simple formulaic prepositional phrases such as im Wasser, in der Luft, auf dem Land or neben dem Tisch",
+            "understanding the meaning of the conjunctions dass and weil, and noticing that the conjugated verb moves to the end of the subordinate clause when they are used, for example, Ich esse einen Apfel, weil ich Hunger habe",
+            "referring to quantities of people, objects and prices using cardinal numbers up to 100, including length/height/distance (Meter, Kilometer) and area (Quadratmeter, Quadratkilometer), decimals and common fractions, for example, 85,5 Prozent haben eine Katze; Die Tages temperatur liegt bei minus 8 Grad; Ich habe eine Halbschwester; or referring to a date, including the year, for an event such as a birth date, for example, Meine Oma ist am elften April 1956 geboren",
+            "describing current actions using a range of regular and irregular verbs, such as machen, kaufen, bringen, tragen, lesen, sehen, fahren and essen",
+            "describing experiences using the simple past tense of sein, for example, Ich war krank; Der Film war interessant; Es war windig",
+            "noticing that articles and pronouns change after certain verbs (Ich danke dir), and after particular prepositions associated with location, for example, Wir gehen in die Stadt; Wir sind in der Stadt",
+            "understanding questions using warum and responding with a simple sentence, for example, Warum bist du müde? Ich bin krank.",
+            "playing 'open hide-and-seek' where students arrange themselves on and around furniture and the seeker states modelled descriptive sentences to release them, for example, Eric sitzt am Tisch; Flora steht vor der Tafel",
+            "researching animals, plants and/or national parks from German-speaking countries and regions, and then creating alphabetical lists of them; playing games based on target vocabulary from class research, such as animals (e.g. der Wolf) and plants (das Edelweiß); arranging content from class research according to specific instructions, or building modelled texts"
+          ]
+        },
+        {
+          "code": "VC2LG6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare German language structures and features with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "discovering some loan words from English and/or other languages used by German speakers (e.g. das Internet; die App; Stopp!; Sorry!), and considering if they are similar to loan words from German used by English speakers",
+            "comparing familiar English texts with similar texts in German and/or other languages (e.g. video clips of songs or animated short stories), and noting key text-type conventions or ideas such as target audience and style",
+            "identifying the context, purpose and intended audience of a range of familiar texts in German and English (e.g. fairytales, sports reports or recipes), and noticing similarities and differences across the languages",
+            "noting that the word order in German instructions (e.g. recipes) often has the verb, in infinitive form, at the end of the instruction (e.g. Butter und Zucker schaumig rühren), and comparing this with English recipes, which use the imperative (e.g. Cream the butter and sugar)",
+            "reading, viewing and/or listening to different digital and other texts with a common topic, and discussing structural and linguistic similarities and differences, for example, comparing print, radio, television and social media announcements for the same event",
+            "building metalanguage to comment on grammar and vocabulary (e.g. Substantive/Nomen, Verben, Ordinalzahlen, Präpositionen, Fragewörter and groß/klein schreiben), and comparing this with equivalents in English and/or other languages",
+            "understanding the concept of regular and irregular verbs, and noticing that this is a feature of both German and English, for example, sein – ich bin (to be – I am); du bist (you are)",
+            "comparing the meaning of modal verbs (e.g. müssen, sollen, mögen, können) with English equivalents, noting the level of commitment to an action each modal verb indicates",
+            "comparing the German and Australian ways of writing a postal address, for example, the Hausnummer (house number) appears after the street name in Germany, but before the street name in Australia; the Postleitzahl (postcode) appears before the suburb/town in Germany, but after the suburb/town in Australia",
+            "providing feedback to support peers, using metalanguage, for example, editing each other's written or spoken texts, and justifying their reasons for editing or changing textual elements"
+          ]
+        },
+        {
+          "code": "VC2LG6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal and non-verbal communication",
+          "elaborations": [
+            "recognising that language use can have connections to cultural practices, for example, comparing the traditional songs 'Wie schön, dass du geboren bist' and 'Happy birthday to you', and considering how birthdays are celebrated in German-speaking countries and regions or communities",
+            "understanding the required level of politeness, depending on the relationship between speakers, in a range of familiar contexts (e.g. at school, on the street or at home)",
+            "discussing situations of culturally inappropriate language, noticing what makes it inappropriate, for example, addressing an adult who is not a family member with du instead of Sie",
+            "noticing the impact of their own assumptions about people from German-speaking countries and regions, their language and culture, and considering how German speakers may also make assumptions and generalisations about Australians",
+            "identifying, in German or English, how language and culture are expressed through Aboriginal and Torres Strait Islander song, dance or artworks, considering similarities and differences with certain cultural expressions of German-speaking people or communities",
+            "identifying examples of current and historical influences of German-speaking countries and regions in the language and culture of the local and broader communities, for example, in family heritage, place names, restaurants, businesses, and food and other products",
+            "exploring how geography and language are connected to lifestyle, education and language use, for example, students' activities during recess or lunchtime; languages learned in schools; and the German school system of Hauptschule, Realschule, Gymnasium and Gesamtschule for different educational goals or gaining an awareness of some regional variations in language, for example, in greetings such as the Swiss Grüezi and Austrian or Bavarian Servus, or the lack of the Eszett in Switzerland and Liechtenstein",
+            "recognising that texts such as stories have a social and cultural purpose, for example, the moral of a story such as 'Die Bremer Stadtmusikanten', and comparing personal characteristics that are depicted in texts",
+            "exploring examples of traditional and contemporary images or texts in print and online, and discussing how identity and gender are represented in the language",
+            "appreciating that gestures differ across cultures, for example, shaking hands is generally more common in German-speaking countries than in Australia and not shaking hands may be considered impolite; German-speaking people may count on their fingers from the thumb, whereas Australians tend to start with the forefinger",
+            "looking at an Aboriginal song, dance, artwork or tradition (e.g. a possum skin coat), and identifying why it is considered a significant cultural artefact that helps maintain and preserve culture; and then considering methods of preserving culture in German-speaking countries and communities, and comparing them with examples in other languages and cultures represented in the classroom"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,17 +8,30 @@
 - Schools must show, through their timetables, how all 8 learning areas are delivered
   (Curriculum Programs F–10 policy).
 
-## Levels
+## Levels and bands
 Victoria uses *levels* rather than years. In primary they map one to one: Foundation = Prep,
 Level 1 = Year 1 … Level 6 = Year 6. Foundation Levels A–D sit below Foundation for students with
 intellectual disability.
 
-Each subject, at each level, has:
-1. **Level description**: the focus of learning at that level.
-2. **Content descriptions**: what is taught. Each has a code (see below).
-3. **Achievement standard**: what students can do by the end of the level. Use it for success
-   criteria and rubrics.
-4. **Elaborations** (not in the dataset): non-mandatory examples of teaching ideas.
+**Some subjects are written per level and others per band:**
+
+| Written per level (F, 1, 2 … 6) | Written per band |
+|---|---|
+| English, Mathematics | Science, History, Geography, Design and Technologies, Digital Technologies, Languages, Critical and Creative Thinking, Ethical Capability, Intercultural Capability: **F–2, 3–4, 5–6** |
+| | The Arts (all five), Health and Physical Education, Personal and Social Capability: **F, 1–2, 3–4, 5–6** |
+| | Civics and Citizenship: 3–4, 5–6 (starts at Level 3) · Economics and Business: 5–6 only |
+
+A Year 3 Science teacher therefore plans from the **Levels 3 and 4** band. Its achievement
+standard describes the end of Level 4, so a Year 3 plan should pitch towards it but not assume
+mastery.
+
+Each subject, at each level or band, has:
+1. **Content descriptions**: what is taught. Each has a code (see below).
+2. **Achievement standard**: what students can do by the end of the level or band. Use it for
+   success criteria and rubrics.
+3. **Elaborations** (included): non-mandatory examples of teaching ideas, a strong seed for
+   activities.
+4. Level description: on the VCAA website only, not in the dataset.
 
 ### Code format
 `VC2` + subject letter(s) + level + strand abbreviation + number. For example:
@@ -54,7 +67,11 @@ with Asia, and Sustainability. Plans can tag these where they fit naturally. Don
   teacher's idea, plus the achievement standard.
 - **Learning intentions** come from the content description. **Success criteria** come from the
   matching part of the achievement standard, written in student language ("I can …").
+- Pass the matching **elaborations** as teaching ideas. Rewrite them; don't present them verbatim
+  as the plan.
 - **Difficulty** controls:
-  - *below*: draw scaffolds from the previous level's content descriptions.
-  - *above*: add extension from the next level.
+  - *below*: draw scaffolds from the previous level or band.
+  - *above*: add extension from the next level or band.
   - *mixed*: produce three tiers (support, core, extension).
+- For banded subjects, ask (or default by year) whether this is the first or second year of the
+  band, and pitch accordingly.

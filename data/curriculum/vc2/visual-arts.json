@@ -1,0 +1,276 @@
+{
+  "subject": "Visual Arts",
+  "slug": "visual-arts",
+  "learningArea": "The Arts",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation",
+      "levels": [
+        "F"
+      ],
+      "achievementStandard": "By the end of Foundation, students describe experiences, observations, ideas and feelings about artworks they encounter at school, home and in the community, identifying what they enjoy and why. They develop an understanding of visual arts conventions, skills and processes.\nStudents use play, imagination and experimentation with materials and processes to create artworks. They make and share artworks that communicate their experiences, observations and ideas.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AVAFE01",
+          "strand": "Exploring",
+          "text": "explore how and why the visual arts are important for people and communities",
+          "elaborations": [
+            "identifying artworks and experiences in their lives, such as images, public art, 2D, 3D or screen-based works they encounter at school or in community settings, and sharing ideas and feelings about the works with peers and teachers",
+            "exploring how illustrations/images in a text (fiction or non-fiction, print or screen) help to communicate narrative or information about characters, settings and/or mood",
+            "listening to Aboriginal and Torres Strait Islander Peoples talk about the importance of the arts for connecting to people, culture, Country and Place; for example, using resources created or co-created by Aboriginal and Torres Strait Islander Peoples"
+          ]
+        },
+        {
+          "code": "VC2AVAFE02",
+          "strand": "Exploring",
+          "text": "explore ideas for artworks through play and visual arts processes",
+          "elaborations": [
+            "exploring how facial expressions, gestures and other ways of moving, and using voice or language, can communicate emotions and feelings in artworks, for example characters in portraits, cartoons, songs, chants or dances from different times and cultures",
+            "using play to explore ideas or understandings they observe or perceive in a text or image (print or screen); for example, exploring questions such as 'What is happening?'"
+          ]
+        },
+        {
+          "code": "VC2AVAFD01",
+          "strand": "Developing Practices",
+          "text": "use play, imagination, experimentation, materials and processes to discover possibilities and develop ideas",
+          "elaborations": [
+            "playing with the tactile qualities of a range of materials (e.g. rough, smooth, spiky, gooey) and exploring how they feel about these qualities to develop ideas for a visual arts work; for example, using art materials to depict or embody the tactile qualities they discovered or moving their body in ways that represent the smooth nature of a stone or ball",
+            "imagining how the characters in a story they are reading might dress or move, and making still or moving images to communicate ideas about the character",
+            "identifying and describing shapes, colours and lines they observe in their environment and exploring ways to use these shapes creatively; for example, imagining and trialling ways to use geometric and organic shapes and collage techniques to represent a familiar object such as a face; improvising movements that trace a series of shapes such as circle, rectangle and triangle; or working collaboratively to form frozen or still images of each shape",
+            "responding to the emotions they experience while listening to different pieces of music and using movement to share their response; for example, creating visual images combining body movements and materials such as crayons or paint",
+            "improvising rhythmic patterns for clapping or stamping or inventing new movements for familiar action songs, and interpreting these visually using art elements such as shapes, lines and/or colours, and materials such as paper and pencil or string",
+            "improvising movements to explain the steps in a process and then using a camera to capture a series of images or a photographic story"
+          ]
+        },
+        {
+          "code": "VC2AVAFC01",
+          "strand": "Creating",
+          "text": "create artworks that communicate experiences, ideas and observations and explore meaning",
+          "elaborations": [
+            "creating artworks in a range of forms to communicate ideas from lived personal or social experiences; for example, using digital devices to record their peers playing a game and creating a voice over that describes what is happening; drawing a home scene of people and animals; or devising a character of a fictional hero for an animated series or text that could be used to communicate a health or sustainability message",
+            "creating artworks in response to inspiration from sources such as play, imagination, observation, literature, artworks from their cultures and communities or arts knowledge and skill development activities",
+            "manipulating objects, puppets or 2D images or creating animations using available technologies to create or retell stories",
+            "repurposing materials and objects such as clothing or packing boxes as starting points for imagining and developing scenes and scenarios; for example, using packing boxes to create an imagined environment or vehicle",
+            "viewing an exhibition at a gallery or museum, discussing the expression of ideas in the artworks exhibited and creating visual responses"
+          ]
+        },
+        {
+          "code": "VC2AVAFP01",
+          "strand": "Presenting",
+          "text": "share their visual arts works with viewers and audiences",
+          "elaborations": [
+            "sharing their work with their teacher and responding to questions such as 'What is going on in your work?', 'Tell me the story of what is happening' and 'What did you enjoy about making this work?'",
+            "sharing their artworks with the class via a 'gallery' or 'performance walk'; for example, walking around the space looking at the works and using positive language to comment on the works and identify features such as similarities or differences, and use of materials and art elements such as line",
+            "taking images of class arts events (with permission from the people involved), creating an image sequence to document the occasion and adding sound; for example, importing the images to a software program, sequencing the images and using instruments and voices to create a soundscape to accompany the images",
+            "talking about ideas such as themes, processes used to make the work, or features of the work such as patterns, pathways or lines; for example, talking with the teacher and explaining the important features of their work",
+            "using digital devices to record their arts explorations, for example by curating (selecting, ordering) a sequence of digital images (photos) to show the steps in a process, such as images that show how they created new colours by mixing primary colours (using playdough or paint) and adding commentary that expresses their feelings, emotions and understandings"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 1 and 2",
+      "levels": [
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify where they experience artworks. They describe why and how people across cultures, communities, times, places and/or other contexts experience visual arts.\nStudents experiment with visual arts processes, materials and visual conventions to create artworks. They make and share artworks that communicate experiences, ideas and observations in informal settings.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AVA2E01",
+          "strand": "Exploring",
+          "text": "explore where, when, why and how people across cultures, communities, times, places and/or other contexts experience visual arts, including artworks created by Aboriginal and Torres Strait Islander Peoples",
+          "elaborations": [
+            "using viewpoints to explore and/or develop questions to investigate ideas and understandings about artworks, craft works or designs, such as 'What do I think is the story in this artwork?' and 'What do I recognise in this artwork?'",
+            "using viewpoints to explore and/or develop questions about an artist and their practice; for example, using protocols such as 'See, Think, Wonder' to generate questions such as 'Who is the artist?', 'When and where was this artwork created?' and 'What materials and techniques might this artist have used?'",
+            "investigating a diverse range of artworks made by living Australian artists, for example artworks from a local, regional, state or national collection",
+            "exploring when, where, how and why Aboriginal and Torres Strait Islander Peoples use visual arts, crafts and designs to share knowledge about cultures, for example during, but not limited to, celebrations such as National Aboriginal and Torres Strait Islander Children's Day, National Aborigines and Islanders Day Observance Committee (NAIDOC) Week and National Reconciliation Week or to acknowledge significant occasions such as National Sorry Day",
+            "identifying similarities and differences in artworks that represent subject matter or ideas they may be exploring in other learning areas; for example, exploring artworks that represent significant events from different times",
+            "observing how visual conventions are used in artworks and designs created by Aboriginal and Torres Strait Islander Peoples, for example by exploring colours, symbols and patterns used in artworks, with representatives of Aboriginal and Torres Strait Islander communities or through resources that are created or co-created by Aboriginal and Torres Strait Islander Peoples"
+          ]
+        },
+        {
+          "code": "VC2AVA2D01",
+          "strand": "Developing Practices",
+          "text": "explore ways of using visual conventions, visual arts processes and materials",
+          "elaborations": [
+            "using viewpoints to develop thinking routines and to reflect on their arts experiences, for example 'What was challenging about working in a limited timeframe?', 'What was something new that I discovered about the material?' and 'What failures led to new discoveries?'",
+            "playing with a range of natural and/or constructed materials to experiment with visual conventions and visual arts processes; for example, creating mud sculptures or using sticks, leaves and playdough to explore texture",
+            "examining artworks and trialling layering as a way of building surfaces, colour, texture and interest; for example, experimenting to create a layered world with pastels, then watercolour, ink and wax, and identifying how each material could be used in a future artwork once the experiment is complete",
+            "exploring visual conventions using a wide range of materials, for example by creating lines using media such as pastels, chalk, paint, ripped paper, textiles and markers, or going on a 'line hunt' to identify and photograph the different lines they see around their school environment using a digital camera or creating rubbings"
+          ]
+        },
+        {
+          "code": "VC2AVA2C01",
+          "strand": "Creating",
+          "text": "use visual conventions, visual arts processes and materials to create artworks that communicate ideas, experiences and observations",
+          "elaborations": [
+            "using viewpoints and brainstorming to develop ideas for artworks as they experiment with visual conventions, subject matter and materials, for example 'What happens if I make the subject fill the page?', 'Can I change the meaning of my work by using darker or lighter tones?', 'What happens if I combine these ideas?', 'How can I adapt this idea?' and 'What happens if I remove part of this design?'",
+            "using a combination of chaotic/accidental mark-making with more detailed intentional mark-making; for example, using blobs of paint with added outlines and detail, then using imagination and creativity to build on the shapes to see what emerges",
+            "creating a relief print through nature-printing or creating collagraphs with a raised textured surface using glue, thread/string and textured paper to print monoprints, cutting these shapes out and making a collage with a recognisable form, such as a face or an animal",
+            "using 3D construction (sculpture) methods to represent subject matter or ideas being explored in another learning area; for example, building on their understanding of living things as a starting point to use modelling materials such as potato, clay and found objects to represent the life cycle of an insect",
+            "using a combination of digital and physical materials and processes to make artworks, such as using photography or drawing apps for painting and drawing to create a collaged abstract work that represents feelings and emotions; for example, responding to music with colour, line and shape to create an artwork that communicates how the music makes them feel"
+          ]
+        },
+        {
+          "code": "VC2AVA2P01",
+          "strand": "Presenting",
+          "text": "present and share artworks in informal settings",
+          "elaborations": [
+            "presenting and describing an artwork they have made to the class, a small group or their teacher and explaining what they like about it",
+            "creating and presenting a spontaneous and experimental artwork, such as using unlikely objects for brushes, testing colours and 'brushstrokes' using expressive movements, then applying a cardboard 'window' across the finished painting",
+            "using an everyday object as the starting point, drawing the object, then taking it in turns to match each student's artwork with the appropriate object, explaining how they arrived at their decision",
+            "deciding on an appropriate audience and ways to share their artworks; for example, sharing a work in progress with the class or posting their work on a school learning management system"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students identify and describe the use of visual conventions, visual arts processes and materials in artworks they create and/or experience. They recall where, when, why and/or how visual artists create and/or display artworks across cultures, times, places and other contexts, including the work of Aboriginal and Torres Strait Islander Peoples.\nStudents explore and experiment with visual conventions, materials and processes to develop their visual arts practice. They use visual conventions, visual arts processes and materials to create artworks that communicate ideas, perspectives and meaning. They present and/or display their artworks and/or visual arts practice in formal and/or informal settings.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AVA4E01",
+          "strand": "Exploring",
+          "text": "explore and describe artworks, and why, when and how visual arts are created and/or presented across cultures, times, places and other contexts",
+          "elaborations": [
+            "exploring artists' practice and using viewpoints to develop questions to strengthen understanding of the practices, such as 'What does the artists' studio or space look like?', 'How do they develop their ideas?', 'What are they doing when they are developing and trialling their techniques and working with materials?' and 'How do they engage with galleries (physical or virtual) to exhibit their work?'",
+            "observing and exploring details such as use of materials, techniques and processes in artworks, and using viewpoints to develop questions, such as 'What is the artwork made of?', 'How can I look more closely at this work to see something I did not notice the first time?', 'What do I see when I look at the work through half-shut eyes?' and 'How does the work look like it feels, and how does it actually feel?'",
+            "exploring a diverse range of artworks created by artists working collaboratively and discussing the ideas the artists represent in their artworks",
+            "making connections and comparisons between artists working across cultures, times, places and other contexts, for example by finding similarities and differences between the artists' approach to a theme such as sustainability or community celebrations, or finding similarities and differences between the ways that different artists use materials and techniques, such as approaches to creating sustainable sculpture using found objects, and natural and human-made materials",
+            "exploring ways to represent the world as they see it, for example by using ideas about and experience of a recent event (such as a sports or cultural event or celebration) and making an artwork that communicates their perspective of the event and then identifying how their work is different from the works created by other students in the class, or how their works compare to works by other artists that feature similar subject matter"
+          ]
+        },
+        {
+          "code": "VC2AVA4E02",
+          "strand": "Exploring",
+          "text": "explore how Aboriginal and Torres Strait Islander Peoples use visual arts to communicate their connection to and responsibility for Country and Place",
+          "elaborations": [
+            "using viewpoints to develop questions that explore what is important to Aboriginal and Torres Strait Islander artists, including their identities, stories and communities, such as 'How does this work represent identity?', 'Are there Country-based narratives in this artwork?', 'What do we see?' and 'What have we learnt that makes us think this?'",
+            "considering what their own cultural connections are as individuals (for example, considering Country and Place, language, family customs, values and beliefs), how they can use visual arts processes, subject matter and visual conventions to create artworks that communicate their personal connection to Country and Place, and using viewpoints to develop questions, such as 'Where do I feel most connected to my family, and what symbols, colours, shapes and subject matter could I create to represent this connection?'",
+            "accessing examples of contemporary Aboriginal and Torres Strait Islander artists' ideas about Country and Place through cultural expressions, for example works that express spiritual and intellectual connections to the land, sea, sky and waterways, and using viewpoints to develop questions about the work, such as 'Who are the artists and on what Country or Place was the work created?', 'What can I learn from the artists about this work?' and 'What does this work make me think about my own connections to significant Countries?'",
+            "looking at visual arts works that represent the importance of Country and Place and story for Aboriginal and Torres Strait Islander Peoples as a starting point for talking about different ways of seeing the same Country and Place and telling stories",
+            "examining a diverse range of symbols and emblems and learning from people with cultural authority about their importance to Aboriginal and Torres Strait Islander Peoples' identities and cultures",
+            "exploring topics in other learning areas, such as the diversity of nations, by examining a diverse range of cultural expressions or artworks of and by Aboriginal and Torres Strait Islander artists to learn from the artists what the works teach us about the subject matter"
+          ]
+        },
+        {
+          "code": "VC2AVA4D01",
+          "strand": "Developing Practices",
+          "text": "develop visual arts practices by exploring and experimenting with visual conventions, visual arts processes and materials to create artworks",
+          "elaborations": [
+            "learning to use visual arts language when describing and documenting their art making by using viewpoints to develop questions to annotate their visual experiments, such as 'What media did I use?', 'What worked well?' and 'What went wrong and how could I explore other options next time?'",
+            "using viewpoints to develop questions to document their exploration of visual conventions, materials, techniques and processes or to reflect on the effectiveness of their experimentation, such as 'What was I trying to achieve?' and 'What did I learn from pushing the boundaries of the materials and processes?'",
+            "exploring the ways that artists use composition by observing space and balance within an artwork, such as foreground and background, positive and negative space or areas of emphasis, and using the investigation as a basis for the composition of a new artwork",
+            "exploring materials based on visual conventions; for example, creating a tactile (texture) board from a collection of materials and objects, brainstorming adjectives to describe the textures and/or collecting samples of colours they connect with and inventing new names for those colours that are meaningful to them",
+            "exploring and experimenting with the properties of materials; for example, finding different ways of using recycled materials, such as cardboard and chenille sticks, to create a sculpture",
+            "manipulating and experimenting with combinations of various materials and technologies to create visual effects; for example, using crosshatching to create tone or using design elements to focus the viewer's attention on a composition"
+          ]
+        },
+        {
+          "code": "VC2AVA4C01",
+          "strand": "Creating",
+          "text": "use visual conventions, visual arts processes and materials to create artworks that communicate ideas, perspectives and meaning",
+          "elaborations": [
+            "using viewpoints to develop questions to explore multiple possibilities for artworks, such as 'What are my questions about this idea?', 'What visual conventions would best communicate these ideas?' and 'What do I already know about this idea?'",
+            "using viewpoints to develop questions as they experiment with visual conventions, subject matter and materials to communicate meaning, such as 'What happens if I make the subject fill the frame?' and 'Can I change the meaning of my work by using darker or lighter tones?'",
+            "using viewpoints to develop questions to reflect on their art making, such as 'In what ways can I use colour to change the feeling of this artwork?' and 'How does using darker tones contrasting with lighter ones create an illusion of depth?'",
+            "drawing on a selection of topics they may be exploring in other learning areas and brainstorming ideas for artworks",
+            "developing compositional ideas, selecting one idea, documenting their reasons for the selection and making the artwork",
+            "exploring perspective in artworks; for example, using physical or digital tools to explore perspective in an area in the school and considering how to represent the space in depth in an artwork",
+            "combining their understanding of visual conventions and visual arts processes to create different meanings in an artwork; for example, using a range of 2D media such as charcoal and coloured pastels to create gradation of tone in their artwork"
+          ]
+        },
+        {
+          "code": "VC2AVA4P01",
+          "strand": "Presenting",
+          "text": "present and/or display artworks in formal and informal settings",
+          "elaborations": [
+            "selecting examples from their visual arts practice, for example experimentation with materials and processes or different compositional approaches for a final artwork, and arranging these in a visual display to share the development of their ideas",
+            "deciding on appropriate ways to share their artworks and their learning, for example by including experiments and self-reflections in folios or visual diaries, sharing their progress with their peers and deciding on appropriate audiences and locations for the display of their artworks, such as decorative or communicative exhibitions/displays for the school community or social media posts for the broader community",
+            "trialling different ways of presenting artworks in different locations; for example, presenting a school wall display of artworks and considering what might need to change so that it can be shared on a digital platform such as the school learning management system",
+            "discussing and documenting the ideas and themes of their artwork (for example, taking the form of a written or spoken artist statement and exploring different ways of presenting their artwork and artist statement), identifying and explaining their own and other artists' choices in art making, including visual arts processes, visual conventions and materials"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students explore the ways that visual conventions, visual arts processes and materials are combined in artworks they create and/or experience. They describe how artworks created across cultures, times, places and other contexts communicate ideas, perspectives and meaning. They identify how visual arts are used to continue and revitalise cultures, including the work of Aboriginal and Torres Strait Islander Peoples.\nStudents develop ideas in artworks using visual conventions and visual arts processes. They select and use visual conventions, visual arts processes and materials to create artworks that communicate ideas, perspectives and meaning. They present and/or display and discuss artworks in informal and formal settings.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AVA6E01",
+          "strand": "Exploring",
+          "text": "explore ways that visual conventions, visual arts processes and materials are used to communicate ideas, perspectives and meaning in visual arts practices across cultures, times, places and other contexts, including from Aboriginal and Torres Strait Islander Peoples",
+          "elaborations": [
+            "using viewpoints to develop questions about ideas and issues in artworks from different periods of time, such as 'What does this artwork tell us about the impact of this person/culture on society?' and 'What can I learn about this person's experiences or about what it means to be Australian?'",
+            "using viewpoints to develop questions to examine, compare and contrast what they notice in an artwork, for example critically navigating multiple perspectives of the same artwork as a class and questioning why they see these works so differently",
+            "investigating how a diverse range of Australian artists have expressed historical, social and environmental concerns over time",
+            "identifying ways that artworks by different artists can present multiple perspectives of the same subject or topic, for example portraits over time or the changing Australian landscape",
+            "exploring a range of Australian and international artworks, such as artworks from countries or regions in Asia, that communicate a topic or issue and individually expressing their own views of the issue in their own artworks"
+          ]
+        },
+        {
+          "code": "VC2AVA6E02",
+          "strand": "Exploring",
+          "text": "explore ways that Aboriginal and Torres Strait Islander Peoples use visual arts to continue and revitalise cultures",
+          "elaborations": [
+            "using viewpoints to question understandings about artists, designers and artworks, and explore what needs to be investigated further, such as 'What do I already know about this artist/designer?', 'What do I need to learn to have a better understanding about this artist/designer, their Country or Place and Culture?' and 'What questions would I ask the artist/designer about this artwork/design?'",
+            "exploring how Aboriginal and Torres Strait Islander Peoples have represented themselves in artworks as a visual declaration of identity, for example in works with traditional songlines compared to representations in graphic texts, animations and popular culture",
+            "exploring the ways that visual arts created by Aboriginal and Torres Strait Islander artists may have multiple purposes, for example art as cultural practice, art to communicate cultural understandings or art as narrative",
+            "investigating a range of site-specific artworks created by Aboriginal and Torres Strait Islander artists, exploring how they communicate and celebrate cultural knowledge and understandings, for example street artworks, murals and installations",
+            "investigating how meaning and purpose are communicated in artworks and designs created or co-created by Aboriginal and Torres Strait Islander Peoples; for example, learning about how visual conventions are used in artworks and designs, such as textiles and fashion, to share cultural knowledge with the broader community"
+          ]
+        },
+        {
+          "code": "VC2AVA6D01",
+          "strand": "Developing Practices",
+          "text": "develop visual arts skills by experimenting with visual conventions, visual arts processes and materials",
+          "elaborations": [
+            "using viewpoints to develop questions to reflect on how colour, tone and composition can be manipulated to express how mood and emotions are communicated and experienced in artworks, such as 'What would I like people to feel as they experience my work?', 'What colours best communicate the ideas in the artwork?' and 'What composition will I use to best express my emotions about the subject of the artwork?'",
+            "using viewpoints to reflect on the ideas developed in artworks to explore how they can use visual conventions and visual arts processes to communicate ideas",
+            "integrating ideas and themes from other learning areas and brainstorming ideas for artworks",
+            "exploring a range of approaches to printmaking, such as transferring previously created drawings onto printing foam and creating multiple prints that explore visual conventions; for example, using different coloured inks or paints, gradually adding pattern and texture to increase the complexity of detail, or cutting out and combining aspects of prints and other 2D media to explore a collaborative approach",
+            "making informed choices about using various combinations to represent an idea or subject matter; for example, exploring and reflecting on observational and gestural drawing processes as different ways to describe an object or figure; combining materials, such as imaginative drawing over realistic photographs; exploring different approaches to working in 3D forms by developing a range of techniques in modelling using materials such as earthenware clay or modelling clay; or developing skills in hand-building and surface decoration to reflect on ways to communicate ideas, subject matter and meaning",
+            "experimenting with styles of expression from different cultures and times in their artworks, for example realistic, symbolic, narrative and abstract"
+          ]
+        },
+        {
+          "code": "VC2AVA6C01",
+          "strand": "Creating",
+          "text": "plan and create artworks using visual conventions, visual arts processes and materials to communicate ideas, perspectives and meaning",
+          "elaborations": [
+            "applying their understanding of visual arts processes and materials to create artworks that demonstrate an understanding of aesthetic qualities; for example, using a range of joining techniques to create a sculptural construction using cardboard and textiles or carefully considering the use of joining techniques in creating an environmental sculpture using natural materials",
+            "using visual conventions and visual arts processes to communicate ideas and meaning in their artwork; for example, exploring the ways that different brushstrokes can communicate meaning in a painting, such as long, smooth, horizontal blended lines in a watercolour wash contrasted with textural brushstrokes with thick paint in contrasting colour",
+            "examining a series of diverse artworks that employ frames, windows, mirrors or sections as containers or portals into space and using this tool as inspiration to create artworks; for example, creating different-sized frames to view the world around them and considering how they can include frames within frames",
+            "exploring a range of materials, such as paints, drawing materials or clay, and comparing virtual simulations of these materials, documenting their exploration and using the findings to create an artwork that combines physical and digital materials",
+            "experimenting with materials and planning an artwork, documenting their choices of materials that best communicate their ideas"
+          ]
+        },
+        {
+          "code": "VC2AVA6P01",
+          "strand": "Presenting",
+          "text": "select, present and display artworks and visual arts practice in informal and formal settings",
+          "elaborations": [
+            "preparing artworks for display within the school environment, for example by measuring and making frames or stands for artworks, measuring artworks and planning the display of artworks, writing and positioning written labels for each artwork and considering the best way to arrange the space to engage the audience",
+            "exploring digital methods of encoding information in artworks to share with audiences, for example by using image coding software or QR codes",
+            "working collaboratively to create an online exhibition of student work, such as on a school learning management system",
+            "exploring options for sharing work in public spaces, such as in cafe galleries, in public exhibition spaces or through community arts events",
+            "selecting, documenting and presenting their learning from their investigations, experiments and reflections in a visual diary, oral presentation or multimedia presentation",
+            "creating a set of labels to accompany artworks in a class exhibition of student work, for example labels that provide viewers with information about the background of the artists and the ideas in the artworks, an exhibition introduction, advertising material and reviews"
+          ]
+        }
+      ]
+    }
+  ]
+}

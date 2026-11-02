@@ -1,0 +1,599 @@
+{
+  "subject": "Indonesian",
+  "slug": "indonesian",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the Indonesian language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes and discovering how languages are influenced by each other. They explore Indonesian through play, first imitating sounds and patterns, then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that Indonesian sounds are represented by letters, and they can match these with words, combining them in increasingly complex ways. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken Indonesian. They expand their repertoire of Indonesian words and phrases through listening and reading, then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of Indonesian using simple metalanguage. They start to develop written competence by copying letters and words, and then produce the language with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the written Indonesian language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that Indonesian is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s)",
+      "contentDescriptions": [
+        {
+          "code": "VC2LIN2E01",
+          "strand": "Engaging with Indonesian Language and Culture",
+          "subStrand": "Engaging with Indonesian language",
+          "text": "notice that Indonesian looks and sounds different to other languages",
+          "elaborations": [
+            "recognising that Indonesian uses the Roman alphabet like English, but noticing that some of the sounds are different",
+            "watching a video clip of Indonesian children at school and discussing what they notice",
+            "collaboratively completing a wall chart by matching labels to pictures, such as food and drink items and classroom furniture, for example, pintu, jendela, rak buku, meja, kursi",
+            "sharing information about the language(s) they speak at home, for example, Saya berbicara bahasa Italia",
+            "exploring the different languages spoken by members of the class, and listening to the different sounds and ways of saying common expressions such as 'Good morning' or 'My name is …'",
+            "counting in English, then listening to the teacher count in Indonesian, with the students and the teacher showing the numbers on their fingers",
+            "singing songs such as an Indonesian alphabet song, counting songs or songs focusing on specific sounds or repetition",
+            "performing songs, rhymes and action stories, using non-verbal forms of expression such as gestures, facial expressions and body language to support understanding"
+          ]
+        },
+        {
+          "code": "VC2LIN2E02",
+          "strand": "Engaging with Indonesian Language and Culture",
+          "subStrand": "Engaging with Indonesian language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "greeting the teacher in Indonesian, when their name is called on the roll or through choral class greetings",
+            "participating in songs and chants, for example, 'Topi Saya Bundar', 'Lingkaran Kecil Lingkaran Besar' and 'Satu Satu Aku Sayang Ibu'",
+            "using spontaneous Indonesian exclamations when interacting with peers, for example, Aduh!; Wah!; Bagus!; Hebat!; Hati-hati!",
+            "clapping the number of syllables in common words as they say them, for example, clapping the syllables in greetings",
+            "playing bingo with images, sounds, words or phrases",
+            "practising short tongue twisters or rhymes",
+            "exploring sounds with onomatopoeia, for example, learning the sounds of different animals",
+            "engaging with new sets of vocabulary by making concrete associations with them, such as touching and identifying colours in the classroom, or touching and identifying soft-toy animals and naming them"
+          ]
+        },
+        {
+          "code": "VC2LIN2E03",
+          "strand": "Engaging with Indonesian Language and Culture",
+          "subStrand": "Engaging with Indonesian language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "greeting teacher and peers, for example, Selamat pagi, Bu/Pak; Selamat siang, Ari",
+            "responding to routine questions, for example, Apa kabar?; Siapa nama kamu?",
+            "responding to classroom instructions, for example, Duduk; Berdiri; Diam; Ambil lem; Tutup pintu, with appropriate actions",
+            "forming a circle and creating a question-and-answer routine, asking the student next to them and so forth, for example, Namaku Alya. Siapa namamu?",
+            "responding to games or songs with actions, for example, 'Kepala, Pundak, Lutut, Kaki'"
+          ]
+        },
+        {
+          "code": "VC2LIN2E04",
+          "strand": "Engaging with Indonesian Language and Culture",
+          "subStrand": "Engaging with Indonesian culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "using gestures, facial expressions and body language through games such as charades, or by incorporating them into stories, plays or songs to enhance meaning",
+            "playing suit/suten/suwitan or hompimpa to decide who goes first in games",
+            "playing and engaging with cultural items from Indonesia, such as coins, postcards and authentic items",
+            "play-acting with dress-ups and props or with puppets when participating in role-plays",
+            "recognising that music, dance, food, celebrations and games are connected to various languages, cultures and traditions according to specific ethnic groups and regions in Indonesia, for example, in Javanese culture eating nasi tumpeng on celebratory occasions like birthdays or ketupat during Eid",
+            "learning Indonesian terms through the arts and culture, for example, topeng when making masks, batik when making modified batik art, wayang when playing with leather puppets",
+            "exploring similarities and differences in onomatopoeia in Indonesian and other languages represented in the classroom, for example, gong-gong (woof, woof), meong (miaow), kwek-kwek (quack, quack), cit-cit (tweet, tweet), hacciihh (achoo) and kring-kring (ding, ding)"
+          ]
+        },
+        {
+          "code": "VC2LIN2C01",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Interacting in Indonesian",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "greeting classmates and teacher, for example, Selamat pagi, Apa kabar? Baik, terima kasih.",
+            "asking for permission, for example, Boleh saya ke kamar kecil?, Boleh saya pinjam pensilmu?",
+            "using everyday Indonesian formulaic expressions, for example, Maaf; Permisi; Terima kasih; Silakan; Sama-sama; Ayo",
+            "interviewing members of the class, introducing themselves and responding to everyday personal questions such as Berapa umurmu? Di mana kamu tinggal? Apakah Anda punya hewan peliharaan?",
+            "naming family members and friends and noticing the difference between the formal and informal forms, such as Ibu/Bu; Bapak/Pak; Nenek/Nek; Kakek/Kek; Adik/Dek",
+            "interpreting and sharing simple expressions and songs with friends and family, for example, singing 'Selamat ulang tahun' and using appropriate greetings (e.g. Halo!; Selamat pagi / siang / sore / malam!) for different times or occasions",
+            "using puppets or printouts from popular shows or cartoons to role-play greetings and exchange information, imagining themselves as the character",
+            "using PowerPoint slides or image flashcards to show different pictures (using taught vocabulary) to elicit responses",
+            "using simple descriptive or expressive statements to describe themselves and to express their likes, preferences or feelings (e.g. Saya berusia lima tahun; Saya orang Australia; Saya suka olahraga; Saya lebih suka menari; Saya senang sekali), for example, creating a flipbook (on paper or digitally), drawing/pasting in images to support their sentences"
+          ]
+        },
+        {
+          "code": "VC2LIN2C02",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Interacting in Indonesian",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "generating phrases (e.g. Saya sedih; Saya sakit) using props such as images of faces with different expressions, for example, randomly distributing emoji faces attached to an icy pole stick and asking each student, Bagaimana keadaanmu?",
+            "practising vocabulary, for example, practising high-frequency verbs using flashcards with images and/or written words, and using gestures to accompany the verbs where appropriate",
+            "responding to questions such as Apa ini/itu?, Ada berapa …?, Apa warna pensil ini? and Siapa ini?",
+            "expressing preferences such as choosing objects, for example, Saya mau … / Saya tidak mau … / Saya suka … / Saya kurang suka …",
+            "participating in shared performance of songs and chants with appropriate gestures, for example, 'Kepala, Pundak, Lutut, Kaki'; Selamat Pagi, Pak. Selamat Pagi, Bu",
+            "participating in role-plays using modelled expressions and appropriate gestures in known scenarios such as introductions or shopping at a market, for example, Mau beli apa? Satu nanas dan dua pisang; Berapa harganya? Wah, mahal!",
+            "playing number games (e.g. buzz and bingo), and using Indonesian to count places in dice games such as snakes and ladders",
+            "playing guessing games such as hot and cold or celebrity heads"
+          ]
+        },
+        {
+          "code": "VC2LIN2C03",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "using mime and actions to demonstrate understanding, for example, miming a cat pose in response to the word kucing, responding to instructions such as duduk or berdiri with appropriate action, engaging in movement games such as jumping to a coloured spot, forming groups corresponding to teacher commands such as merah, tiga",
+            "locating information in a spoken or written text to label, or draw a picture, for example, dia bermata biru",
+            "viewing images in catalogues, naming toys and games such as Kelereng Gundu, and selecting and listing items and prices",
+            "recognising and assigning symbols, titles, words and labels to classroom items and resources or personal possessions, such as meja, buku, komputer, and peta",
+            "listening to stories, rhymes or songs, for example, Kancil dan Buaya, 'Cicak-Cicak di Dinding', Balonku ada Lima, and responding through movement, drawing and labelling or sequencing images to match the storyline or lyrics",
+            "participating in shared reading of texts such as big books, and asking and answering questions about the text using contextual cues for support, for example, Pada hari Senin, si ulat makan apa?; Dia makan berapa stroberi?; Apakah si ulat lapar pada hari Jumat?",
+            "using a class survey to write statements about self and others, for example, Tiga belas murid suka makan apel. Enam murid warna favoritnya hijau. Dua puluh murid hobinya bermain sepak bola.",
+            "responding to texts by sequencing pictures and simple text in the order that events occurred, or by creating a storyboard to retell a story or information"
+          ]
+        },
+        {
+          "code": "VC2LIN2C04",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in Indonesian through play, and discover how languages influence each other",
+          "elaborations": [
+            "playing a range of games (e.g. matching pairs, filling in gaps, drag-and-drop, memory games, bingo), using secure digital tools and applications to reinforce vocabulary",
+            "grouping vocabulary (e.g. classroom objects, animals) into sets by using word cards and/or images, and playing games (e.g. buzz, around the world) to practise numbers or other vocabulary sets",
+            "following numerical notation to perform a collaborative musical piece on the angklung",
+            "participating in a treasure hunt finding objects related to colour, number, classroom items, for example, tiga buku merah",
+            "using familial terms of address in wider contexts, for example, Ibu/Bapak for teachers and adults",
+            "recognising that languages have loan words and that many Indonesian words are used in English (e.g. bamboo, orangutan, gecko, papaya) by creating a categories chart to list words from different languages, or playing a sorting game to sort words into their language of origin",
+            "noticing that many English words are used in Indonesian and may include variations in spelling (e.g. foto; akses; buku; kartun; dokter)",
+            "playing physical or digital board games (e.g. 4 in a row, concentration, snakes and ladders, bingo) that have been modified to help students learn vocabulary or practise question-and-answer exchanges",
+            "performing role-plays such as buying fruits and vegetables, or acting as a character from a story that is familiar to the class",
+            "creating a poster to explain greetings at different times of the day (e.g. Selamat pagi; Selamat siang; Selamat sore; Selamat malam) and discussing the meaning of the word selamat"
+          ]
+        },
+        {
+          "code": "VC2LIN2C05",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Creating text in Indonesian",
+          "text": "create spoken and written texts using words, familiar phrases and modelled language",
+          "elaborations": [
+            "demonstrating early literacy skills by labelling, matching, tracing, copying and drawing, for example, labelling items in the classroom, drawing a picture to match animal words, tracing colour words with the corresponding colour",
+            "introducing themselves, a puppet or a toy with Nama saya …",
+            "using game-playing expressions (e.g. Selamat!; Saya menang!; Tidak apa-apa!; Kamu pandai!; Ayo main lagi!), then taking turns to lead a game, for example, Simon says: Bambang berkata angkat tangan",
+            "using puppets or soft toys to perform a dialogue, for example, Selamat siang, apa kabar?; Baik-baik saja, dan kamu?",
+            "creating a personal profile using modelled phrases to label pictures, for example, Umur saya tujuh tahun. Warna favorit saya merah. Saya suka makan nasi goreng dan bermain sepak bola",
+            "introducing and giving descriptions of family members and pets, for example, Ini keluarga saya. Saya punya satu adik perempuan dan satu kakak laki-laki. Bapak saya pandai memasak. Anjing saya besar dan lucu",
+            "discussing what is entertaining or appealing in imaginative texts, for example, the characters, story or illustrations in books, songs, cartoons or comics such as Herman lucu; Saya suka si Kancil",
+            "creating own version of a story by sequencing a series of pictures with captions or by creating a storyboard with labels using modelled language or by creating a different ending of a story, for example, Pada hari Senin, si ulat makan satu rambutan",
+            "writing captions, with support, for a photographic display to show parents/others about a class event or experience (e.g. sports day, keeping a class pet, an excursion to the zoo), for example, Ini kelas kami di kolam renang; Ini marmot kelas kami, namanya Henry",
+            "using secure digital tools to record and present a 'show and tell', for example, Ini kuda saya …; Makanan favorit dia …"
+          ]
+        },
+        {
+          "code": "VC2LIN2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of spoken Indonesian, and understand how sounds are produced",
+          "elaborations": [
+            "reciting the Indonesian alphabet and/or singing alphabet rhymes/songs, and noticing that the Indonesian and English alphabets are both based on the Roman alphabet, but that the letters have different names in Indonesian and represent different sounds",
+            "repeating words and phrases to imitate authentic Indonesian pronunciation, intonation and rhythm",
+            "imitating Indonesian pronunciation, for example, vowels, trilled r, c ('ch') and the unaspirated sounds p, t and k especially at the end of a word (e.g. empat, nenek)",
+            "noticing that Indonesian has pure vowel sounds and each vowel sound is represented by one letter",
+            "noticing that the vowel e has 3 different pronunciations: enam, sate, enak",
+            "recognising diphthongs, for example, au in mau and ai in main",
+            "clapping the rhythm of syllables to notice even word stress",
+            "noticing that statements, commands and questions have different intonations"
+          ]
+        },
+        {
+          "code": "VC2LIN2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "using nouns and pronouns to identify people, pets or things, for example, ibu, ayah, bapak, adik, kakak; anjing, kucing; buku, tas, pintu",
+            "applying word order in familiar phrases to express possession, for example, nama saya …; ibu saya …; buku saya",
+            "recognising prepositions of place, for example, di atas, di bawah, di dalam, di belakang",
+            "using base verbs to describe actions such as makan; duduk; minum; suka; tidur; bangun",
+            "recognising auxiliary verbs such as mau, boleh, bisa and harus",
+            "using high-frequency verbs in a variety of contexts",
+            "understanding question words and anticipating responses, for example, Siapa? (people); Apa? (objects, actions); Di mana? (location); Berapa? (quantity); Apakah? (yes/no responses)",
+            "using cardinal numbers to count and in familiar phrases, for example, Umur saya tujuh tahun; Saya di kelas dua",
+            "describing a person, place or thing using noun+adjective phrases, for example, buku merah; anjing nakal; kucing lucu; bapak rajin; saya pendek; adik pandai",
+            "joining words or phrases, using conjunctions such as dan, tetapi, juga and karena",
+            "referring to things using demonstratives ini and itu, for example, Ini buku merah",
+            "negating verbs and adjectives using tidak and nouns using bukan"
+          ]
+        },
+        {
+          "code": "VC2LIN2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how the Roman alphabet and features of language are used to construct meaning in Indonesian",
+          "elaborations": [
+            "noticing that Indonesian has the same alphabet as English, for example, singing displayed alphabet songs; sequencing alphabet cards",
+            "tracing letters and simple words in both Indonesian and English, noticing similarities and differences",
+            "recognising that Indonesian uses different words for cardinal numbers and sequencing number cards in Indonesian or matching a numeral with an Indonesian word",
+            "identifying and naming letters, tracing words, and playing alphabet and spelling games",
+            "noticing that Indonesian uses similar punctuation to English, for example, capitalisation of the first letter at the beginning of a sentence; full stop at the end of a sentence; commas"
+          ]
+        },
+        {
+          "code": "VC2LIN2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that written and spoken Indonesian has grammatical structures and other language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "observing similarities in raising intonation at the end of questions and understanding the difference between statements, questions and exclamations",
+            "observing noun+adjective word order differences, for example, kucing hitam; mobil merah; bis besar",
+            "noticing difference in spontaneous exclamations in Indonesian and English, for example, Wah!; Aduh!, and sharing other examples from languages represented within the classroom",
+            "recognising that Indonesian sentences use a subject+verb+object structure; noticing that this is similar to English sentences; and discussing similarities and differences with other known languages",
+            "recognising that Indonesian and English represent cardinal numbers in the same way",
+            "noticing that Indonesian forms plurals in different ways from English such as by duplicating, using a number or a qualifier, for example, kursi-kursi, dua kursi, banyak kursi",
+            "recognising that Indonesian and English divide the day differently, for example, comparing 'good morning' and 'good afternoon' with Selamat pagi and Selamat siang",
+            "noticing that in Indonesian siblings are identified in relation to position in the family, for example, kakak (older sibling), and discussing any other known languages that may identify family members in the same way",
+            "observing that features of familiar texts may be similar or different in Indonesian and English, for example, the chorus of a song; the lines of a nursery rhyme or poem",
+            "recognising that Indonesian has some loan words from English (e.g. komputer, televisi), and that English has some from Indonesian (e.g. orangutan, satay, rambutan) with some changes in spelling, then noticing that some Australian English terms or expressions have no equivalent in Indonesian (e.g. koala, meat pie, farm), and that this is also the case with some Indonesian terms or expressions (e.g. becak, Kancil, mudik)"
+          ]
+        },
+        {
+          "code": "VC2LIN2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how Indonesian-speaking communities are similar to or different from others",
+          "elaborations": [
+            "sharing with the class words and phrases they know in other languages and cultures, for example, greetings, numbers",
+            "exploring food words and their origins, for example, nasi goreng, sushi, lasagne",
+            "recognising that words reflect aspects of culture, for example, main bola compared to 'play footy'",
+            "observing that Indonesian primary school uniforms are red and white, comparing with the colours of the Indonesian flag, learning that the flag is named Sang Merah Putih, and discussing the representation of colours in different cultures",
+            "engaging with celebrations in Indonesian-speaking communities (e.g. traditions, customs, costumes, food), and noticing similarities and differences with celebrations in their own communities",
+            "identifying symbols and colours used by Aboriginal and Torres Strait Islander Peoples and by Indonesian-speaking communities in a range of contexts, for example, identifying the colours on a range of flags from different countries and communities in Indonesian, and discussing what the colours represent in English",
+            "making their own bilingual/picture dictionaries, captions, signs, labels and descriptions to convey cultural references such as mandi, guling, kakak, adik, sepak takraw, durian",
+            "noticing and recognising that ways of greeting and addressing others may change according to cultural norms such as using respectful forms of address, culturally appropriate gestures and expected formalities in the Indonesian classroom, for example, taking leave from the teacher at the end of the lesson (e.g. Terima kasih Pak/Bu; Sampai jumpa besok; Selamat siang)",
+            "recognising that languages and communities have different protocols regarding the use of terms of respect, for example, there are ways of addressing Aboriginal and Torres Strait Islander Peoples using familial terms (e.g. Uncle, Aunty) depending on the relationship, and comparing these terms with those in Indonesian and/or other languages",
+            "exploring different cultural practices and related language use through games, for example, suit/suten/suwitan or hompimpa bekel"
+          ]
+        },
+        {
+          "code": "VC2LIN2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where Indonesian is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "locating Indonesia, Australia and countries/places of significance to students in the class, on a digital or print world map",
+            "understanding that Indonesia is a country made up of thousands of islands with many different cultures, and that most Indonesians speak regional languages as well as the national Indonesian language, Bahasa Indonesia",
+            "comparing some key words in Indonesian with Malay languages spoken in Malaysia, Singapore and Brunei, for example, numbers, greetings"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use Indonesian to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts.\nStudents imitate the sound combinations and rhythms of spoken Indonesian. They demonstrate their understanding that Indonesian has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in Indonesian and make comparisons between Indonesian and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LIN4C01",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Interacting in Indonesian",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "asking and responding to questions about themselves related to daily routine, family and friends, pastimes and aspects of school and home, for example, Saya tinggal di Geelong dengan keluarga saya; Rumah saya besar; Saya bermain bola basket; Saya suka es krim; Saya berasal dari …; Saya berumur … tahun; Saya anggota klub …; Saya anak ke … di keluarga saya",
+            "participating in class routines such as asking and answering the question Apa kabar? and follow-up questions such as Ada apa? with their teacher and classmates at the start of a lesson",
+            "sharing feelings with others using modelled language, for example, Saya merasa sedih karena …",
+            "making and responding to requests, for example, Boleh pinjam …?, and asking for rephrasing, repetition and clarification, for example, Maaf Bu/Pak, apa artinya …?; Boleh tolong ulangi sekali lagi?",
+            "using kinship terms and names in place of personal pronouns, for example, using Bapak and Ibu for 'you' and 'your' when speaking to adults, using a person's name instead of kamu",
+            "asking and responding to questions, for example, when selecting dress-ups for an activity, Mau yang mana? (Saya mau) yang biru. Kamu lebih suka yang mana? (Saya lebih suka) yang pendek",
+            "discussing a game while playing, for example, Siapa mau mulai?; Giliran siapa? Giliran saya; Sally menang!; Hebat!; Bagus!",
+            "exchanging simple correspondence with peers, such as notes, invitations or birthday cards in print or digital form"
+          ]
+        },
+        {
+          "code": "VC2LIN4C02",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Interacting in Indonesian",
+          "text": "participate in activities that involve expressing interests and exchanging information, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "using appropriate gestures, for example, bending and saying permisi when passing someone, responding to Di mana …? by pointing appropriately",
+            "contributing to preparing and displaying a set of class rules, for example, Jangan berlari di ruang kelas",
+            "praising each other (e.g. Hebat!; Luar biasa!; Bagus sekali!; Salut!) when working collaboratively with the class on tasks that require following instructions such as cooking or other step-based activities such as crafts or drawing tasks",
+            "participating in group activities such as role-plays, and asking and responding to questions and invitations, for example, Mau ke mana?; Mau ikut?; Mau beli apa?; Saya mau beli dua kilo apel",
+            "negotiating with others to make decisions such as choosing the menu for a class party, for example, Berapa paket kentang goreng? Sepuluh! Jangan! Lima cukup!",
+            "creating wayang puppets and discussing character traits and appearance in preparation for a collaborative performance, for example, Wayang saya bernama …; Apakah wayang kamu sportif? Wah, wayangmu berhidung besar!",
+            "writing a description of an imaginary creature for another student to draw, for example, Dia punya satu mata dan dua mulut. Dia berhidung besar dan rambutnya panjang",
+            "designing a treasure hunt, developing instructions and giving and following directions, for example, Dari pintu belok ke kiri, jalan terus sampai meja guru",
+            "preparing, rehearsing and presenting an Indonesian-themed item at the school assembly",
+            "working collaboratively and sharing decisions about content and vocabulary when designing a poster for a specific event, creating a picture book or word wall, for example, Saya pikir …; Lebih baik …"
+          ]
+        },
+        {
+          "code": "VC2LIN4C03",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "gathering information about activities of others such as surveying peers about time spent on activities and presenting the results to the class, for example, Berapa jam kamu menonton televisi / membaca buku / bermain komputer / bermain olahraga / makan / belajar / tidur? Kamu naik apa ke sekolah?",
+            "responding to information in texts about aspects of culture such as lifestyle, diet or use of transport, for example, Dia naik apa ke sekolah? Dia naik …; Dan kamu? Saya naik …; Mereka makan apa untuk sarapan / makan malam? Mereka makan …; Dan kamu? Kadang-kadang saya makan …; Kamu lebih suka … atau …? Saya lebih suka …",
+            "comparing information about activities and practices of a school in Indonesia with those of their own school, for example, listening to, reading or viewing texts related to aspects of school life such as timetables, canteen menus, extracurricular activities and sports, and making a Venn diagram or infographic",
+            "working collaboratively to obtain and use information from texts related to other learning areas, for example, following instructions for a simple science experiment or skill-building in Health and Physical Education such as Pertama-tama kita harus …; Lompat tiga kali; Letakkan tangan di belakang kepala; Lempar bola ke keranjang",
+            "listening to, reading or viewing texts and responding to questions about characters, ideas and events in Indonesian or English, for example, Kamu paling suka karakter siapa? Mengapa? Apakah … merasa senang sesudah bertemu temannya? Mengapa?",
+            "responding to imaginative texts by expressing personal opinions about and reactions to the characters or plot, for example, Tokoh favorit saya Sinta karena dia cantik; Saya pikir Arjuna hebat karena dia berani dan pandai",
+            "responding to an imaginative text and demonstrating understanding by performing a role-play or illustrating and captioning aspects of the plot",
+            "responding to an informative text about topics such as geography or arts and crafts by answering true-or-false questions, completing crossword puzzles or by creating their own questions for a trivia quiz",
+            "observing the use of forms of address in exchanges and comparing their presence or absence in equivalent exchanges in English or other languages spoken by the students, for example, Silakan makan Ibu; Duduk sini, kak; Bapak mau ke mana?"
+          ]
+        },
+        {
+          "code": "VC2LIN4C04",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce Indonesian, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "using texts such as public signs to understand meaning and context and adapting to their own environment, for example, changing Awas gajah! to Awas kangguru! Hati-hati banyak sepeda motor! Hati-hati banyak mobil!",
+            "collecting and using Indonesian words and expressions that do not translate easily into English, for example, kaki lima; warung; Kamu anak keberapa di keluargamu?",
+            "compiling a glossary or word bank of common Indonesian expressions and idioms that convey Indonesian cultural practices",
+            "using multimodal resources to compile customised word banks that they can use when talking about areas of personal interest",
+            "using contextual clues to predict meaning in familiar text types (e.g. sound effects in a comic; background visuals in a song video; layout of an invitation) and adapting to create their own texts",
+            "responding to informative and imaginative print and digital books, short-scripted plays, or animations that use familiar Indonesian words, by creating a class display of the key information and providing a glossary of new words and expressions",
+            "learning to use print and online dictionaries to look up unfamiliar words",
+            "engaging with a familiar story, writing or acting out a plausible different ending, and using new words, expressions and gestures to convey the key messages of the story"
+          ]
+        },
+        {
+          "code": "VC2LIN4C05",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Creating text in Indonesian",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences, and modelled textual conventions",
+          "elaborations": [
+            "sequencing modelled texts, for example, creating a storyboard using pictures and captions",
+            "using formulaic expressions to create a personalised greeting card such as a birthday card or Idul Fitri card designing Indonesian signs and instructions in the classroom and around the school, for example, Cuci tangan; Tong sampah; Selamat datang di sekolah kami",
+            "presenting information such as a display or slideshow about home, school and local environment, for example, rumah saya di …; Di sekolah kami ada …; Kota kami adalah …",
+            "writing a series of simulated diary entries using modelled language to talk about their personal worlds and express own ideas, for example, Pada hari Sabtu keluarga saya berenang di …",
+            "recording a self-introduction for a character and using digital tools to link the recording to an image or video, for example, Kenalkan, nama saya …, saya terkenal karena saya bisa …",
+            "listening to, reading or viewing a text and creating a profile of the main characters, for example, Rama kuat dan berani. Dia suami Sinta",
+            "composing a role-play scenario associated with Indonesian practices such as using appropriate language and gestures at a meal, for example, Silakan makan, tambah lagi and using the right hand when serving tea, or paying for stamps at the post office",
+            "recognising and using different text types (e.g. postcards, emails), styles of writing (e.g. informative, persuasive, imaginative) and the specific language conventions associated with them",
+            "creating a new version of a known imaginative text, for example, adding characters; changing setting; composing a different ending",
+            "performing a play for classmates or the wider school community using wayang puppets made in class"
+          ]
+        },
+        {
+          "code": "VC2LIN4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations, and use patterns of pronunciation and intonation to form words, phrases and simple sentences",
+          "elaborations": [
+            "creating an alphabet bank, collecting words that begin with each letter (e.g. Aku/apa/apel, bagaimana/beruang/buaya/burung, cacing/cicak)",
+            "using Indonesian pronunciation for trilled r, c ('ch'), u (as in 'put'), a (as in 'aqua'), e (as in 'egg') and unaspirated sounds p, t and k when reading aloud from written text",
+            "pronouncing aa sound, for example, maaf, saat and words from Arabic, for example, Jumat (Jum'at)",
+            "imitating Indonesian pronunciation of initial ny sounds, for example, nyamuk, Nyoman",
+            "recognising different intonation for statements and questions, for example, Kamu suka apel (with falling intonation) and Kamu suka apel? (with rising intonation)",
+            "recognising imperatives, for example, Angkat tangan!; Buka bukumu!; Ayo cepat!",
+            "identifying onomatopoeic words such as those related to transport, for example, tut-tut ('toot toot' – car horn), brum-brum ('brum brum' – motorcycle), jes-jes ('choo choo' – puffing train), kring-kring ('ding ding' – bike bell)"
+          ]
+        },
+        {
+          "code": "VC2LIN4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "using pronouns and adjectives of character and appearance to describe people and animals, for example, Ini bapak saya. Dia tinggi dan baik hati.",
+            "using possessive word order to describe objects related to home, school and local environment, for example, Kota saya kecil",
+            "using prepositions to describe position, for example, Ada monyet di atas meja; and prepositions dengan and untuk, for example, Jus ini untuk siapa? Untuk saya!",
+            "describing actions using base verbs such as tinggal, bangun, mandi, naik and ber verbs, for example, bermain, berjalan, bersepeda, berenang",
+            "using questions when presenting a role-play, for example, Siapa …?; Apa?; Di mana?; Berapa?",
+            "linking ideas using conjunctions, for example, dan, karena, tetapi, atau, dengan",
+            "locating events in time using adverbs, for example, hari ini, kemarin, besok, sudah, belum",
+            "recognising language features associated with texts such as sequencing phrases, for example, Pertama-tama … lalu … akhirnya …",
+            "using ordinal numbers (e.g. pertama, kedua), and using cardinal numbers in a range of contexts such as arithmetic or saying prices, for example, Saya anak ketiga di keluarga saya; Satu tambah dua sama dengan tiga; Harganya lima ribu rupiah",
+            "exploring the connection between spelling convention and meaning in duplicated verbs expressing leisurely action, for example, comparing melihat with melihat-lihat; berjalan with jalan-jalan",
+            "understanding that subject+verb+object sentence construction is similar in Indonesian and English but Indonesian verbs do not change depending on tense, for example, saya makan nasi kemarin; saya suka makan nasi; saya sedang makan nasi",
+            "understanding that the verb 'to be' is implied when linked to a noun phrase, adjective or prepositional phrase, for example, Saya murid; Saya tinggi; Buku di laci"
+          ]
+        },
+        {
+          "code": "VC2LIN4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar Indonesian language structures and features with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "recognising that Indonesian and English have the same punctuation rules, for example, using capital letters and full stops for sentences and identifying these in sentences or short texts",
+            "recognising similarities and differences between Indonesian, English and/or other languages in ways of showing politeness, for example, making requests and expressing gratitude, Tolong/Silakan …; Terima kasih. Boleh saya …",
+            "recognising how own language influences expectations about Indonesian language, for example, perceiving word order as 'back-to-front' compared with English; wanting to use one word for 'you'",
+            "recognising features of a simple spoken or written text in Indonesian (e.g. a verbal greeting or a written message), for example, noting terms of address and ways of signing off, and comparing them with similar texts in English",
+            "identifying examples of how Indonesian has influenced Australian English, for example, sarong, satay, batik, orangutan, nasi goreng, and playing word-find games with these words",
+            "noticing that Indonesian uses affixes to change parts of speech, for example, kolam renang and berenang; sepeda and bersepeda; makan and makanan",
+            "identifying and explaining expressions which do not easily translate into English, for example, Sudah mandi?; Makan di warung; Selamat jalan",
+            "comparing parts of a sentence using metalanguage (e.g. noun, verb, adverb, adjective) to describe words, and noticing the word order and patterns",
+            "understanding that some words originate from Aboriginal and/or Torres Strait Islander languages from different areas around Australia, for example, dingo (dingo) from the Dharug word din-gu, and comparing these words to English and/or other languages and discussing their historical context"
+          ]
+        },
+        {
+          "code": "VC2LIN4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "exploring the use of kinship words for terms of address (e.g. Bapak, Ibu, Kak, Dik) and comparing with other cultures, then discussing the connection between culture and naming systems, for example, Balinese birth order for names",
+            "exploring how gestures differ between cultures, for example, Indonesian people beckon with palm down and moving all fingers, and practising using culturally appropriate gestures in the classroom",
+            "creating a 'language portrait' of themselves through the use of a whole-body silhouette, where students represent their personal experiences of language and culture by adding colours, shapes and words within and around the outline",
+            "comparing their own 'family culture' with that of peers and considering how family culture can impact on identity, offering reasons for similarities and differences, for example, comparing different ways in which birthdays are celebrated",
+            "exploring appropriate etiquette in different contexts and cultures and participating in interactions associated with Indonesian practices, for example, waiting for the host to say Silakan makan and using the right hand to eat",
+            "identifying the Aboriginal or Torres Strait Islander Country or Place on which they live and incorporating this into their self-introduction in Indonesian",
+            "noticing the exchange of terms between Indonesian and Aboriginal and Torres Strait Islander languages such as the use of Makassan terms in Yolngu, for example, balanda, rupiah, nenek",
+            "recognising that there are regional differences in language and cultural practices throughout Indonesia (e.g. Mbak and Mas as terms of address in Javanese-speaking communities) and discussing how Australian terms and expressions might be understood from an Indonesian perspective, for example, 'bushwalking', 'kick a footy', 'no worries' or 'BBQing'",
+            "showing awareness that language carries cultural ideas that may have no direct equivalent in English (e.g. upacara compared with 'assembly', padi/beras/nasi compared with 'cooked/uncooked rice', and kaki lima/warung compared with 'food carts/food stalls'), or noticing how their Indonesian language learning has enriched their understanding of 'untranslatable terms', for example, using becak in English language conversation",
+            "identifying character traits and values in Indonesian stories, for example, Kancil stories feature animals native to Indonesia, and comparing these with familiar Australian stories such as Diary of a Wombat"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in Indonesian that are related to their immediate environment. They use appropriate sound combinations, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in Indonesian or English, adjusting their responses to context, purpose and audience.\nStudents use modelled structures when creating and responding in Indonesian. They create texts, selecting and using a variety of vocabulary and sentence structures to suit different contexts. They use conventions appropriate to text type. They apply rules for pronunciation and intonation in spoken language and apply conventions of spelling and punctuation in written language. They compare language structures and features in Indonesian and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LIN6C01",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Interacting in Indonesian",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "expressing opinions about aspects of their personal worlds such as likes and dislikes, interests and leisure activities, for example, Saya lebih suka bermain bola basket daripada sepak bola",
+            "agreeing or disagreeing politely with other opinions when discussing important topics related to the school environment and their personal worlds, for example, Saya setuju/tidak setuju; Saya suka/tidak/kurang suka …",
+            "exchanging information about significant people such as family members, friends and teachers, and describing their relationship, physical appearance and characteristics/qualities, for example, Teman saya baik hati dan lucu; Dia bermata biru dan rambutnya merah",
+            "recounting experiences with family and friends, for example, Pada hari Sabtu, saya berbelanja di pasar dengan teman. Saya membeli …",
+            "conducting a simulated interview with someone they consider a role model such as a sports figure, a musician, artist, teacher, family or friend, for example, Kapan kamu mulai suka berselancar?; Siapa membantu kamu berlatih gitar?",
+            "exchanging emails with a real or imagined Indonesian student of similar age, under teacher supervision",
+            "using strategies such as asking questions, fillers and interjections to sustain interactions with others, for example, Oh begitu!; Maaf?; Dan kamu?; Saya setuju!; Terus …",
+            "asking and responding to questions, and asking for repetition or clarification, for example, Sekali lagi, Bu; Maaf, Pak, saya tidak mengerti; Tolong lebih pelan!",
+            "asking permission, for example, Boleh saya ke kamar kecil?; Boleh pinjam kamus/penggaris/pena merah?",
+            "creating and participating in role-plays that replicate everyday situations such as purchasing pastries in a bakery, requesting information about train or bus schedules, or asking for directions to a place in town"
+          ]
+        },
+        {
+          "code": "VC2LIN6C02",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Interacting in Indonesian",
+          "text": "participate in activities that involve discussion with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "organising displays, presentations or performances for family, friends or the school community to showcase their progress in learning and using Indonesian",
+            "interacting in class activities and games, for example, Mau ikut tim kami?; Giliran siapa sekarang?; Bagaimana kalau kita …; Ayo mulai!; Mari kita bermain …",
+            "giving advice and reminders to peers, for example, Pakailah sepatumu; Kamu harus menulis di bukumu; Jangan berbicara keras; Lebih baik kamu belajar sekarang",
+            "participating in and adapting scenarios related to purchasing goods and services such as bargaining scenarios, buying souvenirs or ordering food at a kaki lima/warung, for example, Boleh saya minta nasi goreng dan teh manis; Minta bonnya; Berapa harga baju batik itu?",
+            "engaging in shared tasks which involve planning, collaborating and evaluating, for example, planning a real or imagined visit to a location, then acting as tour guides for their classmates in simulated scenarios",
+            "making print or digital invitations and arrangements for a shared event or experience such as a class party, an Indonesian visitor or a film afternoon",
+            "planning a real or imagined trip to Indonesia, agreeing on itinerary and packing list, for example, Bagaimana kalau kita ke Yogyakarta? Saya mau mengunjungi Borobudur; Sebaiknya kita membawa apa? Tidak perlu membawa jaket karena di Indonesia cuaca panas",
+            "exchanging information to organise a meeting with friends, discussing where and when it will take place, for example, Kita kumpul di mana?; Maaf saya tidak bisa pada hari Jumat; Bagaimana kalau hari Sabtu jam 10 pagi?",
+            "planning and organising a performance item for school assembly showcasing what they have learnt in their Indonesian class, allocating roles and negotiating with class members (e.g. who will recite a poem, who will sing, who will perform a rap, who will perform a role-play), for example, Saya mau bernyanyi. Siapa yang mau berdansa?; Kita akan berlatih sesudah makan siang di depan kantin"
+          ]
+        },
+        {
+          "code": "VC2LIN6C03",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "responding to instructions and commands, for example, Masuk!; Buka laptop kamu!; Jangan lari!; Tulis di bukumu!; Baca lebih keras!; Maju ke depan!; Dengarkan!; Ulangi!",
+            "responding to questions about main characters and events in texts, for example, Siapa?; Di mana?; Berapa lama?; Apa?; Kapan?; Bagaimana?",
+            "conveying understanding of plot and sequence in texts such as recreating the sequence using a storyboard, labelling key events or creating a timeline",
+            "listening to, reading and viewing texts and extracting key points about an issue or topic, for example, watching a video about Indonesian Independence Day activities and writing a recount of events using modelled phrases",
+            "gathering information about activities and their environment to share with others, for example, making a short documentary about their neighbourhood/region to present to students at a sister school in Indonesia",
+            "identifying information in texts such as advertisements, conversations, brochures and announcements, and sharing this information with others in another format, for example, watching a range of advertisements and exchanging opinions about which one they liked best and why",
+            "identifying and comparing perspectives about information in spoken and written texts, for example, Apakah informasi ini benar?; Informasi ini dari mana?; Siapa yang menulis teks ini?; Berapa orang setuju?",
+            "identifying the history of trade, economic and/or cultural connections between Indonesians and Australians, for example, developing a multimodal presentation to explain the history of contact between Aboriginal and Torres Strait Islander Peoples from northern Australia and Indonesians through the trepang fishing trade",
+            "researching cultural activities and events of significance in Indonesian-speaking communities and comparing with their own experience, for example, daily routines, celebrations, sporting events",
+            "documenting information found through their own or group research, for example, facts about city versus village life in Indonesia documented through captioned images, charts and/or an oral presentation"
+          ]
+        },
+        {
+          "code": "VC2LIN6C04",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in Indonesian in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "using a variety of tools such as dictionaries and online translators to effectively assist interpretation of meaning in context, for example, checking meaning of word(s) that may have multiple meanings (e.g. the English word 'see') and choosing the correct word for the context",
+            "comparing texts in Indonesian and English and discussing similarities and differences, for example, menus may have words and phrases from other languages; procedural texts are often presented as ordered lists",
+            "comparing translations of written texts, such as advertisements and food packaging, from Indonesian into English and from English into Indonesian, and considering how meanings may be interpreted from a different cultural perspective",
+            "accessing creative texts and discussing key points such as a quality of a character or special features of the plot, for example, Cerita menarik karena …; Pada pendapat saya tokoh itu kurang jujur karena …",
+            "interpreting meanings in Indonesian texts by 'reading' the context (including non-verbal cues), for example, interpreting the phrase Ayo cepat! as encouraging or scolding, depending on context and body language",
+            "interpreting aspects of spoken texts in Indonesian, for example, providing a bilingual spoken or written commentary for an Indonesian item at a school assembly",
+            "using drawings or animations to explain the meanings of idiomatic expressions, for example, masuk angin; jam karet",
+            "comparing bilingual versions of an imaginative text, noticing any differences, and explaining why particular language may have been added or omitted and how the meaning may have changed",
+            "creating bilingual texts for the school community, for example, a virtual tour for a school website or location signs within the school",
+            "performing a role-play for a specific audience such as parents or younger students and providing a bilingual commentary, for example, explaining the use of specific terms or gestures"
+          ]
+        },
+        {
+          "code": "VC2LIN6C05",
+          "strand": "Communicating Meaning in Indonesian",
+          "subStrand": "Creating text in Indonesian",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type",
+          "elaborations": [
+            "using graphic organisers to convey information in different ways, for example, to show priorities (list/table), to compare statistics or ideas (Venn diagram), or to highlight frequency (graphs)",
+            "composing texts for their own and others' enjoyment and interest, for example, describing an imaginary character, animal or event",
+            "creating and presenting a poem, song or rap, experimenting with rhyme and rhythm",
+            "producing recounts of events and experiences such as articles for a school newsletter or captions for a photo story",
+            "writing a review of a song, story or film using modelled language, for example, Lagu ini tentang …; Film ini terlalu panjang",
+            "responding to a creative text by manipulating the original text, for example, rearranging the sequence of events, adding a new element, changing the location, creating an alternative ending",
+            "listening to or viewing Aboriginal and/or Torres Strait Islander authors' stories in English and sharing them with a real or imagined Indonesian-speaking audience using words, formulaic expressions and modelled sentences in Indonesian",
+            "creating multimodal texts, such as a commercial for a new product, a short film, or a poster for an imagined event",
+            "creating a procedural text, for example, a cooking show segment, instructions for making a kite",
+            "presenting a topic of personal interest using secure digital tools for audio and visual presentation, and text-based components"
+          ]
+        },
+        {
+          "code": "VC2LIN6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency in words, phrases and sentences",
+          "elaborations": [
+            "recognising how pitch, stress and rhythm help to convey meaning even if individual words are unfamiliar",
+            "differentiating pronunciation of phonemes ng and ngg in the middle of words, for example, dengan, tangan, tinggal, tanggal",
+            "placing appropriate stress on polysyllabic words, for example, mendengarkan, berbelanja, berselancar",
+            "developing intonation and fluency of set phrases in a shadow speaking activity, for example, listening and then speaking along to a recording of a native speaker, gradually reducing the sound until only their own voices can be heard, such as Saya suka berbelanja dengan teman pada hari Sabtu",
+            "pronouncing the phonemes ny and ng at the beginning of words, for example, nyamuk, Nyoman, ngantuk",
+            "modelling the phonemes kh and sy, for example, khawatir, akhir, masyarakat",
+            "applying the glottal stop k and unaspirated t at the end of a word, for example, tidak, selamat",
+            "recognising and applying the Indonesian pronunciation of loan words from English and/or other languages, for example, komputer, game, musik, ideal, mie, Senin, Selasa, Rabu",
+            "enhancing meaning and effect by elongating a syllable, for example, Besaaaarrr!; Takuuuut!"
+          ]
+        },
+        {
+          "code": "VC2LIN6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "extending subject-focus construction by adding a preposition or adverb to subject+verb+object word order, for example, Saya menonton film di bioskop; Pada hari Minggu saya berselancar dengan bapak di pantai",
+            "using affixation to form possessive pronouns, for example, -nya, -mu",
+            "using prepositions to describe location and follow directions, for example, Belok ke kiri di depan gereja; Kolam renang ada di antara bioskop dan taman",
+            "referring to relationships between people and things using prepositions, for example, buku in untuk …",
+            "describing actions using me- verbs, for example, menonton, melihat, menjual, mendengarkan, membeli, memakai",
+            "directing others using imperatives, for example, Jangan duduk di atas meja, Dilarang masuk; using polite forms -lah, Silakan, for example, Diamlah! Silakan duduk",
+            "using question words to seek information or explanation, for example, Berapa lama?; Untuk apa?; Dengan siapa?; Dengan apa?; Yang mana?",
+            "indicating time and tense using adverbs, for example, tadi pagi; nanti sore; pada hari Senin; sekarang; yang lalu; yang akan datang",
+            "expressing frequency using adverbs, for example, selalu, sering, kadang-kadang",
+            "creating cohesion using conjunctions, for example, lalu, sebelum, sesudah, sesudah itu",
+            "using comparatives and superlatives, for example, lebih … daripada; paling …",
+            "playing games such as matching pairs to reinforce grammatical rules, for example, matching nouns and subject pronouns"
+          ]
+        },
+        {
+          "code": "VC2LIN6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare Indonesian language structures and features with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "comparing language use in similar social situations in Indonesian and English, for example, Wkwkwk and LOL in text messaging; salutations in emails and letters",
+            "recognising that Indonesian is influenced by other languages and cultures, for example, wortel (Dutch), bakso (Chinese), kriket (English), magrib (Arabic), agama (Sanskrit)",
+            "identifying the use of loan words from other languages in texts such as advertisements and popular music to suggest values such as 'modern', 'sophisticated' and 'educated'",
+            "understanding that word order, rather than word form, determines personal and possessive pronouns, for example, saya guru and guru saya",
+            "understanding that 'please' in English has a different Indonesian equivalent depending on context, for example, silakan, tolong, coba",
+            "developing understanding of how different text types use linguistic features to create effects, for example, superlatives in advertisements designed to persuade (terbaru, paling sehat), the imperative in signs designed to advise or prohibit (Dilarang), salutations in emails designed to maintain relationships (yang baik, salam dari)",
+            "understanding the forms used for giving instructions vary depending on the social situation, for example, Duduk; Duduklah; Silakan duduk",
+            "observing how different degrees of formality are expressed when making requests, for example, Minta; Mohon; Boleh minta …; Bolehkah?",
+            "talking about grammar, using metalanguage such as pronouns, identifying language elements, and talking about how they are used",
+            "using metalanguage to discuss the features of familiar texts, for example, a shopping list serves as a reminder; a role-play at a market involves interaction and negotiation; an email or text message to a friend involves interaction and an exchange of information"
+          ]
+        },
+        {
+          "code": "VC2LIN6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal and non-verbal communication",
+          "elaborations": [
+            "comparing the impact of gestures across cultures, for example, beckoning by pointing with index finger or with palm down, touching the top of the head or laughing loudly, and noticing their own comfort with these",
+            "describing ways of showing politeness, for example, avoiding giving a negative answer as a way of saving face, or softening negatives by using belum or kurang",
+            "recognising that their language use reflects their own cultural perspective and experiences, for example, 'school camp', 'the bush', 'footy'",
+            "identifying and discussing the position and/or location of Indonesia in Indonesian compared with the lands of Aboriginal and Torres Strait Islander Peoples in northern Australia on a map of Australasia",
+            "reading and/or listening to Indonesian folktales and considering similarities and differences with Aboriginal and/or Torres Strait Islander Peoples' stories, for example, comparing the legend of the Bali Strait with Gundijtmara stories explaining the formation of the Budj Bim landscape",
+            "noticing the exchange of terms between Indonesian and Aboriginal and Torres Strait Islander languages such as the use of Makassan terms in Yolngu, for example, balanda, rupiah, nenek",
+            "noticing how regional language, ethnic group and religious affiliation can influence use of Indonesian language, for example, Mbak and Mas as terms of address in Java, Assalamualaikum in greetings (especially for Muslim Indonesians), Selamat Hari Paskah (for Catholic and Christian Indonesians)",
+            "understanding that Indonesian as a national language enables communication across diverse groups of people and languages, and is part of national identity",
+            "reflecting on what they have learnt about Indonesian cultures through learning Indonesian and noticing how their assumptions might have changed",
+            "exploring examples of traditional and contemporary images or texts in print and online, and discussing how identity and gender are represented in the language"
+          ]
+        }
+      ]
+    }
+  ]
+}

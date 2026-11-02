@@ -1,0 +1,263 @@
+{
+  "subject": "Music",
+  "slug": "music",
+  "learningArea": "The Arts",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation",
+      "levels": [
+        "F"
+      ],
+      "achievementStandard": "By the end of Foundation, students describe the music they listen to at school, at home and in the community, identifying what they enjoy and why. Students sing with pitch awareness and respond to the beat and simple rhythm patterns. They explore contrasting sounds and improvise with them, using imagination and skills to create music. They sing and play instruments to communicate their experiences and ideas.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AMUFE01",
+          "strand": "Exploring",
+          "text": "explore how and why music is important for people and communities",
+          "elaborations": [
+            "sharing observations of music performances they have participated in or heard in the community, for example by asking questions such as 'Where is this music from?' and 'Why was it made?'",
+            "exploring how facial expressions, gestures and other ways of moving, and voice and language can communicate emotions and feelings in artworks, for example characters in songs, chants or dances from different times and cultures",
+            "identifying music works and experiences in their lives, such as songs they sing, dances or drama they watch or perform, animations, computer games or music videos they encounter at school or in community settings, and sharing ideas and feelings about the works with peers and teachers",
+            "singing songs that are used for celebrations, such as school songs, anthems, sports teams' songs, birthday songs and songs that help teach content or concepts from other learning areas, such as health messages",
+            "describing how they have used different qualities of sound to represent ideas in a soundscape, for example instrumentation, high/low, long/short or loud/soft"
+          ]
+        },
+        {
+          "code": "VC2AMUFE02",
+          "strand": "Exploring",
+          "text": "explore ideas for music through play",
+          "elaborations": [
+            "playing games involving rhyme to explore beat and rhythm",
+            "improvising movement to represent rhythmic patterns in songs and games"
+          ]
+        },
+        {
+          "code": "VC2AMUFD01",
+          "strand": "Developing Practices",
+          "text": "use play, imagination, music knowledge and processes to discover possibilities and develop ideas",
+          "elaborations": [
+            "using questions such as 'What did this music make you think about and why?' as a starting point for making decisions about how music will be performed, drawing on teacher guidance provided in response to their music-making",
+            "practising techniques for singing songs and playing classroom instruments, for example through music games",
+            "singing and playing music to explore the expressive possibilities of their voices and instruments, including experimenting with speaking and singing voices to recognise the differences, and attempting to match them in pitch and quality",
+            "improvising patterns and soundscapes and documenting them; for example, using graphic notation to represent different qualities of sounds in music they are improvising, such as high/low or long/short",
+            "improvising movement to represent rhythmic patterns in songs they are learning",
+            "creating long, short, loud and soft sounds with their voices or instruments"
+          ]
+        },
+        {
+          "code": "VC2AMUFC01",
+          "strand": "Creating",
+          "text": "create music that communicates ideas and explores meaning",
+          "elaborations": [
+            "creating music in a range of forms to communicate ideas from lived personal or social experiences; for example, composing a song or chant about a favourite food or activity",
+            "creating music in response to inspiration from sources such as play, imagination, observation, literature and artworks from their cultures and communities",
+            "extending and varying known songs, chants or rhymes; for example, changing words, interpreting without using voice, adding movements/actions or improvising rhythmic patterns as accompaniment using body percussion",
+            "devising a chant or rap to learn the steps in a process or that a fictional hero character from an animated series or a text could use to communicate a health or sustainability message, recording the chant or rap using an available digital device and sharing it live or via a school-managed space such as a learning management system"
+          ]
+        },
+        {
+          "code": "VC2AMUFP01",
+          "strand": "Presenting",
+          "text": "share their music with audiences",
+          "elaborations": [
+            "sharing their music work with their teacher and responding to prompts such as 'What is going on in your work?', 'Tell me the story of what is happening' and 'What did you enjoy about rehearsing and performing this work?'",
+            "performing songs, soundscapes, chants or raps using music skills they have learnt and practised, such as listening and aiming to match the starting pitch, staying in time with the group or following the agreed plan; for example, following a graphic score when performing a soundscape",
+            "taking images of class arts events (with permission from the people involved), creating an image sequence to document the occasion and adding sound, for example the teacher imports the images to a software program and students use instruments and voices to create a soundscape to accompany them",
+            "experimenting with different dynamics and tempi to make decisions about what best communicates an intended mood or feeling"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 1 and 2",
+      "levels": [
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify where they experience music. They describe where, why and how people across cultures, communities and other contexts experience music. Students demonstrate listening skills when hearing and when making music. They use the elements of music to improvise and/or compose music. They share their music-making with audiences in informal settings.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AMU2E01",
+          "strand": "Exploring",
+          "text": "explore where, when, why and how people across cultures, communities and other contexts experience music, including music composed and performed by Aboriginal and Torres Strait Islander Peoples",
+          "elaborations": [
+            "exploring ways that people in their local community are making and experiencing music, using viewpoint questions such as 'What instruments and voices can I hear?' and 'How is this music similar to or different from other music I listen to?'",
+            "listening to and talking about a variety of music that features instruments and/or voices from diverse contexts and cultures",
+            "describing shapes and patterns in music they have listened to, composed or performed; for example, clapping a repeating rhythmic pattern in a song",
+            "identifying where they might experience music in their lives and community and discussing their experiences",
+            "identifying where and how they can experience music composed and/or performed by Aboriginal and Torres Strait Islander Peoples"
+          ]
+        },
+        {
+          "code": "VC2AMU2D01",
+          "strand": "Developing Practices",
+          "text": "develop listening skills and skills for singing and playing instruments",
+          "elaborations": [
+            "experimenting with their speaking and singing voices to create a range of expressive effects; for example, varying dynamics or exploring different ways of sliding, scooping, bending, snapping or blending to create mood and atmosphere",
+            "playing music games or taking part in activities to develop skills in listening, composing and performing",
+            "participating in singing games or activities that involve pitch awareness or matching pitch",
+            "listening to features of music such as dynamics or articulation and replicating or varying what they hear",
+            "playing games that involve repeating or extending a given idea, such as a melodic or rhythmic pattern",
+            "developing listening skills for specific purposes, such as listening to count-ins, listening to hear that their voice or part is blending when playing or singing with others, or being quiet when listening to music"
+          ]
+        },
+        {
+          "code": "VC2AMU2C01",
+          "strand": "Creating",
+          "text": "select and combine elements of music when composing and practising music for performance",
+          "elaborations": [
+            "contributing to decisions about how to interpret the elements of music, such as tempo (duration/time), dynamics and/or articulation, when performing songs, chants, rhymes or instrumental music",
+            "improvising and making decisions about how to combine sounds to create compositions by combining pitch and rhythm patterns, improvising melodies and drone accompaniments, and making decisions about instrumentation, articulation, texture and dynamics",
+            "using voices and body percussion to create music that features contrasting examples of elements of music, such as sound/silence, fast/slow, long/short, high/low and loud/soft",
+            "notating or documenting patterns or soundscapes; for example, using graphic notation and/or using an available device to record work in progress so that they can listen and make decisions about what to do next"
+          ]
+        },
+        {
+          "code": "VC2AMU2P01",
+          "strand": "Presenting",
+          "text": "sing and play music to communicate to audiences in informal settings",
+          "elaborations": [
+            "making decisions about how and where to sit or stand in a performance space in response to prompts such as 'Can we see cues or signals from other performers or a conductor more easily if we are standing in curved or straight rows?' or 'Can we perform an instrumental part more accurately or comfortably when standing or sitting?'",
+            "singing songs, performing chants or raps or playing instrumental music they have learnt or composed for an audience of peers and teachers",
+            "following agreed decisions about how the music should sound, such as using a singing voice rather than speaking voice, holding beaters or instruments in ways that produce clear and clean sound and performing at the agreed tempo",
+            "listening intentionally and respectfully during performances and, when invited, participating in the performance by using body percussion (clapping, tapping, stamping) or singing"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students identify and describe how elements of music are used in music they compose and/or perform. They recall where, when, why and how music is created and presented across cultures, times, places and other contexts, including the music of Aboriginal and Torres Strait Islander Peoples. Students use listening skills when performing, composing and listening to music. Students use music knowledge and skills to create music in a range of forms that communicates ideas, perspectives and meaning. They perform their work in formal and informal settings.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AMU4E01",
+          "strand": "Exploring",
+          "text": "explore where, when, why and how music is composed and performed across cultures, times, places and other contexts",
+          "elaborations": [
+            "exploring the role of music in different cultural traditions and celebrations, such as Aboriginal and Torres Strait Islander ceremonies, Lunar New Year and Christmas, and discussing how music is used to create a festive atmosphere and bring people together, using viewpoint questions such as 'How are different types of music (from different cultures, times and places) used for different purposes?'",
+            "investigating the history of music and how it has evolved over time, from ancient music traditions to contemporary pop music, and discussing the social and cultural factors that have influenced these changes",
+            "exploring the different types of music used in media, such as film and television soundtracks, and discussing how music is used to enhance the mood, create tension or evoke emotions in the audience",
+            "listening to music from people in their own community and talking about how it makes them feel and what they like about it"
+          ]
+        },
+        {
+          "code": "VC2AMU4E02",
+          "strand": "Exploring",
+          "text": "explore how Aboriginal and Torres Strait Islander Peoples use music to communicate their connection to and responsibility for Country and Place",
+          "elaborations": [
+            "exploring a diverse range of music by Aboriginal and Torres Strait Islander musicians to understand their connection to and responsibility for Country and Place, including listening to music with lyrics about Country and Place or music used for dances that communicate knowledge about Country and Place; for example, asking viewpoint questions such as 'How can Aboriginal and Torres Strait Islander musicians who have created music highlight their connection to Country and Place?'",
+            "using music as a starting point for discussing different ways of seeing and telling stories",
+            "learning from Aboriginal and Torres Strait Islander Peoples about how they use music to communicate their connection to Country and Place, culture and people, including resources such as interviews and podcasts featuring Aboriginal and/or Torres Strait Islander people talking about their music and performances",
+            "creating music that communicates a connection to Country and Place to tell a story about a special place in the local community and exploring how certain feelings can be created through music"
+          ]
+        },
+        {
+          "code": "VC2AMU4D01",
+          "strand": "Developing Practices",
+          "text": "develop listening skills and skills for working with elements of music when singing and playing instruments",
+          "elaborations": [
+            "developing the skill of singing in tune by listening to a note and matching it with their voice through activities such as singing games or call-and-response songs",
+            "exploring the elements of music with the use of their voice and how it can be used in different ways such as speaking, singing, rapping or chanting softly or loudly and using warm-up activities and games to practise this skill",
+            "experimenting with different dynamics (volumes), tempi (speeds) and articulation when singing and playing instruments to create different moods in music",
+            "discussing and exploring the use of the elements of music in different pieces of music, such as identifying the melody, rhythm, accompaniment and tone colours, and how they contribute to the overall effect of the music",
+            "practising reading staff, graphic and invented notation while rehearsing and performing, and exploring options for visually representing sounds"
+          ]
+        },
+        {
+          "code": "VC2AMU4C01",
+          "strand": "Creating",
+          "text": "work with elements of music to communicate ideas, perspectives and/or meaning when composing and practising for performance",
+          "elaborations": [
+            "writing lyrics or melodies for songs, raps or chants to communicate an idea, and using formats such as graphic or staff notation, a lead-sheet or an audio recording to notate, document or record their work",
+            "using available technologies to create accompaniments; for example, improvising patterns (body percussion, classroom instruments) and recording as a loop or using digital tools to notate or document music appropriate to the style",
+            "improvising phrases of music on an instrument to practise known notes and rhythmic patterns or to extend the range of notes they can play on an instrument",
+            "manipulating the elements of music, such as dynamics and tempi, to express different characters or dramatic action and emotions when composing music for a screen-based work or to accompany drama, such as a retelling of a familiar children's story"
+          ]
+        },
+        {
+          "code": "VC2AMU4P01",
+          "strand": "Presenting",
+          "text": "sing and play music they have learnt and/or created to audiences in formal and informal settings",
+          "elaborations": [
+            "performing music such as unison songs, rounds and instrumental music arranged for small ensembles that feature melody and accompaniment parts, such as ostinato or drones",
+            "introducing performances by sharing information such as the intended purposes of their compositions with others, and documenting how they used the elements of music when composing and/or performing",
+            "planning and rehearsing their music for a live or virtual performance; for example, deciding where the performers will stand and how they will begin and end, practising following cues from the music and other members of the group, and planning how to introduce their performances to audiences using spoken, written or audiovisual formats",
+            "refining their compositions and performances based on peer and teacher suggestions and with a focus on specific music techniques such as ways to hold beaters to elicit the required sound from a percussion instrument and exploiting specific elements of music"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students demonstrate how elements of music contribute to music they compose, perform and experience. They recall how music composed and/or performed across cultures, times, places and other contexts communicates ideas, perspectives and meaning. They identify how music is used to continue and revitalise cultures, including in the works of Aboriginal and Torres Strait Islander Peoples.\nStudents demonstrate listening and aural skills when listening, composing and performing. They select and use elements of music and compositional devices to compose music that communicates ideas, and when practising music for a performance, and documenting and/or recording the music they compose. They perform music in formal and informal settings, identifying different audiences.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AMU6E01",
+          "strand": "Exploring",
+          "text": "explore ways that the elements of music are combined to communicate meaning in music across cultures, times, places and other contexts including from Aboriginal and Torres Strait Islander Peoples",
+          "elaborations": [
+            "listening to music that uses a range of instrumentation or forms (such as song forms, theme and variations, binary, verse chorus, cumulative), describing the use of elements, identifying roles of instruments (melody or accompaniment), and exploring different versions such as reimagined versions with viewpoint questions, for example 'How does this music draw on music traditions or styles from other times, cultures or locations?'",
+            "evaluating and discussing (using their own words and learnt music terminology) personal preferences for music from a range of contexts and cultures in music they play or hear, or music they encounter in their lives, including screen-based content",
+            "identifying and describing features of music that create effects, including manipulation of elements of music, use of devices such as riffs, and specific instrumental techniques such as strumming or plucking",
+            "listening to and/or performing and responding to music from a variety of contexts and cultures, such as Asian cultures, using their own words and learnt music terminology, and giving reasons for their opinions, discussing what they like about the music and hypothesising as to why they think the composer/performer chose to write/perform it",
+            "considering ways in which music is used in celebrations, ceremonies or rituals at their school or in their local community, and how it is used to give structure to the occasion or to communicate themes such as identity or belonging",
+            "investigating the range of music styles and instruments that living Aboriginal and Torres Strait Islander composers and/or performers are using in their work, making sure to investigate the local area first, and to highlight the culturally appropriate use of instruments"
+          ]
+        },
+        {
+          "code": "VC2AMU6E02",
+          "strand": "Exploring",
+          "text": "explore ways Aboriginal and Torres Strait Islander Peoples use music to continue and revitalise cultures",
+          "elaborations": [
+            "investigating how Aboriginal and Torres Strait Islander composers and/or performers share knowledge about their culture as part of performances, for example a Welcome to Country or Acknowledgement of Country before a performance, or sharing information about the language they are using in their performance or their inspiration for composing a song or instrumental work",
+            "viewing a performance at a Tanderrum and talking with a representative from the local Koorie community about how the performance strengthens culture"
+          ]
+        },
+        {
+          "code": "VC2AMU6D01",
+          "strand": "Developing Practices",
+          "text": "develop listening skills and skills for working with elements of music to achieve expressive effects when composing, singing and playing instruments",
+          "elaborations": [
+            "developing vocal and/or instrumental skills by focusing on specific elements of music such as copying rhythmic or melodic patterns, phrases or melodies and using them in improvisations",
+            "combining listening and performance skills to hear other parts when singing or playing in a group and adjusting their own volume to achieve a balanced sound",
+            "exploring vocal/instrumental techniques they can use to manipulate elements of music to create contrast, repetition and balance in their compositions; using focused listening skills to evaluate the effects they are creating; practising and refining techniques required to achieve accuracy; and making decisions about how to refine their ideas to accommodate their level of technical skill",
+            "practising techniques for singing and playing to develop vocal and/or instrumental skills in solo and ensemble music, for example to accurately interpret rhythm and pitch, to create and vary mood or atmosphere, and using observations from listening and questions based on viewpoints to set goals, track progress or explore areas of interest"
+          ]
+        },
+        {
+          "code": "VC2AMU6C01",
+          "strand": "Creating",
+          "text": "work with elements of music and use compositional devices to communicate ideas, perspectives and meaning when composing and practising music for performance, and, as appropriate to the style, document and/or record the music they compose",
+          "elaborations": [
+            "working collaboratively to compose music in response to an image, theme or question",
+            "improvising and experimenting with combinations of sounds and/or digital tools to create moods and atmosphere",
+            "rehearsing a range of unison and part music individually and/or in an ensemble, and using listening skills and questions based on viewpoints to assist decision-making about how specific elements of music will be interpreted and to refine their work",
+            "using a limited range of pitches to compose melodies for a selected instrument such as one they are learning to play, for example a pitch range that only uses notes they can play",
+            "using voices and instruments or notation software to create a score for performance by voice and instruments"
+          ]
+        },
+        {
+          "code": "VC2AMU6P01",
+          "strand": "Presenting",
+          "text": "rehearse and perform music in a range of forms they have learnt and/or composed to audiences in informal and formal settings",
+          "elaborations": [
+            "rehearsing and refining performances to engage audiences and communicate ideas, viewpoints and/or meaning, for example by asking questions such as 'How can I share my feelings with the audience?'",
+            "providing and responding to feedback to refine performances and compositions, for example by discussing how performers communicate the composer's dynamic intentions and the mood of the music using questions such as 'How did that performer get that sound?'",
+            "considering the layout and sound quality of performance spaces when planning live performances",
+            "presenting performances via digital platforms including, if appropriate, interacting with audiences using platforms such as the school intranet or website, and considering online safety protocols; for example, streaming or uploading recordings of performances and posing questions for the audience to respond to in a chat space"
+          ]
+        }
+      ]
+    }
+  ]
+}

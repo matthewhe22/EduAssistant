@@ -1,0 +1,444 @@
+{
+  "subject": "Design and Technologies",
+  "slug": "design-and-technologies",
+  "learningArea": "Technologies",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify and describe the purpose of familiar products, services and environments. For each of the 4 Technologies Contexts sub-strands, they identify the features and uses of technologies, and create designed solutions. Students explore and select design ideas based on their personal preferences, and communicate these using simple models and drawings. Students follow sequenced steps to use tools and materials to safely produce designed solutions.",
+      "contentDescriptions": [
+        {
+          "code": "VC2TDE2S01",
+          "strand": "Technologies and Society",
+          "text": "how familiar products, services and environments are designed and produced by people to meet personal or local community needs and sustainability",
+          "elaborations": [
+            "investigating how Aboriginal and Torres Strait Islander Peoples have long understood their dependence on living systems to meet their local and community needs, for example investigating the cultural artefacts of the Wurundjeri People in the sustainable making of woven baskets from grass fibres, or investigating the complex system of eel traps engineered by the Gunditjmara People",
+            "exploring how particular services meet different needs of people in communities, for example describing why doctors provide medical care to people in many ways including by phone, videoconference, visiting patients by plane or car and providing outdoor clinics, or describing different forms of public transport such as trains, buses, scooters and walking tracks",
+            "asking questions about the design of a range of shelters provided for the public and how they meet the needs of people in communities, for example the structures of a school or local sportsground, or asking questions about how to improve accessibility in the local community such as at a shopping centre or school",
+            "exploring how local delivery services meet different needs of people, for example describing how online shopping items arrive at a person's home, or how gift packages can be sent to and from people who live in different locations",
+            "exploring how local products are designed, for example brainstorming the materials and processes needed to create a costume for a school or community event, including using recycled clothing or components to minimise waste",
+            "describing how community gardens, public swimming pools, parks, playgrounds and bike tracks are designed to improve the health of people",
+            "exploring how people come up with new ideas or modify existing designs, for example preventing water wastage when caring for plants, and minimising food spoilage or wastage at home"
+          ]
+        },
+        {
+          "code": "VC2TDE2C01",
+          "strand": "Technologies Contexts",
+          "subStrand": "Engineering principles and systems",
+          "text": "explore how technologies affect movement in products and systems",
+          "elaborations": [
+            "investigating, through play, Aboriginal and/or Torres Strait Islander Peoples' traditional toys and how such toys are designed and made to produce movement, for example consulting with local community to construct a football with tightly bound recycled wool or felt to represent the ball used in marngrook (a football game traditionally played by some Aboriginal groups at gatherings and celebrations)",
+            "exploring how to manipulate materials using a range of tools and techniques to create movement, for example when constructing a toy boat that floats or a kite that flies",
+            "exploring a system such as a marionette, Indonesian wayang kulit shadow puppet or simple balloon-powered toy car to see that movement can be created by combining materials with forces",
+            "exploring systems used in the classroom or community for creatively dealing with problems and needs, for example storage systems for tools, traffic flow for drop-and-go zones, and the use of hoists and ramps to facilitate access",
+            "testing materials to see how they affect movement and speed, for example the movement of a wheeled toy on different surfaces such as timber, carpet, rubber and plastic"
+          ]
+        },
+        {
+          "code": "VC2TDE2C02",
+          "strand": "Technologies Contexts",
+          "subStrand": "Food and fibre production",
+          "text": "explore how plants and animals are grown for food, clothing and shelter",
+          "elaborations": [
+            "investigating conservation and hunting practices for food of Aboriginal and/or Torres Strait Islander Peoples, for example how land is managed and taken care of to utilise natural resources such as murnong (yam daisy) on Wurundjeri Country (Melbourne region), or how natural landscapes have been used by the Gunditjmara People to hunt and acquire fish and other local food sources",
+            "investigating where plants and animals are grown for food, clothing and shelter, for example citrus fruits or cotton (which is harvested and made into yarn and fabric for clothing in northern Victoria), and timber for building homes from plantation forests in Gippsland in south-eastern Victoria",
+            "identifying which plants and animals can provide food or materials for clothing and shelter, for example looking at a range of household items and sorting them according to source (plant or animal)",
+            "identifying products that can be designed and produced from plants and animals, for example food products, paper and wood products, fabrics and yarns",
+            "considering a range of tools that can be used to grow plants for a purpose, and their suitability, for example naming and describing tools such as a spade and rake used to cultivate or mulch a home vegetable garden, or tools such as a seed spreader and a global positioning system tractor to sow wheat, or a tubestock planting tool and drones to manage forestry plantations"
+          ]
+        },
+        {
+          "code": "VC2TDE2C03",
+          "strand": "Technologies Contexts",
+          "subStrand": "Food specialisations",
+          "text": "explore how food can be selected and prepared for healthy eating",
+          "elaborations": [
+            "identifying a wide range of foods from their own cultural background/s, categorising them into the 5 food groups according to the Australian Guide to Healthy Eating or the Aboriginal and Torres Strait Islander Guide to Healthy Eating, and then discussing ways to eat a variety of food groups, including cooking methods and tools needed to prepare the foods for healthy eating",
+            "examining foods that are native to Australia that have sustained Aboriginal and Torres Strait Islander Peoples for at least 65 000 years",
+            "exploring the local supermarket to observe the variety of foods including those representing their cultural background/s, and also the placement of foods on shelves, in aisles and displays, and considering how supermarket design may influence the purchase of foods for healthy eating",
+            "exploring the influence of students' cultural practices, and using locally available tools and different ways of preparing produce from the school kitchen garden, locally grown fresh food, and a source such as a farmers' market or a supermarket, for example preparing vegetables for an Asian-style salad and identifying different colours of ingredients, or steaming or stir-frying vegetables and noticing the changes in flavour and texture",
+            "conducting a taste-testing session to explore different types of vegetables or fruits, and identifying different colours, textures, tastes and preferences"
+          ]
+        },
+        {
+          "code": "VC2TDE2C04",
+          "strand": "Technologies Contexts",
+          "subStrand": "Materials and technologies specialisations",
+          "text": "explore the characteristics and properties of materials and components that are used to create designed solutions",
+          "elaborations": [
+            "exploring designed solutions to meet individual, family and community needs with a focus on materials, for example fabrics used for sports clothing, impact-absorbing rubber for play spaces and materials used for drinking cups",
+            "exploring different materials or objects (e.g. paper, plastic, wood and fabric) in the classroom or at home and investigating the properties of each material, for example texture, flexibility and transparency, or sorting them into groups based on their properties, for example rough/smooth, hard/soft and transparent/opaque, or on their characteristics, for example colour",
+            "investigating how material properties are appropriate for designed solutions, for example materials that enable sliding, floating or flying",
+            "developing new meanings for objects and action during play, for example exploring how household packaging such as cardboard boxes can be used to represent other objects such as a car and a house",
+            "exploring materials, components and tools through play to discover potential uses when making products or modelling services and environments, for example when designing and making clothes, toys and shelters or modelling a design of a park or walking/exercise track"
+          ]
+        },
+        {
+          "code": "VC2TDE2D01",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Investigating and defining",
+          "text": "explore needs or opportunities, materials, components, tools and processes for designing and creating designed solutions",
+          "elaborations": [
+            "investigating designs and types of materials used by Aboriginal and/or Torres Strait Islander Peoples to make jewellery, for example shells, stones, bones, native seeds and feathers",
+            "discussing the design and construction of coolamons and their traditional uses by some Aboriginal Peoples to carry water, fruits and nuts, as well as to cradle babies",
+            "exploring different uses of materials used in a range of products, for example clothing, musical instruments, shelters, handmade tools and jewellery",
+            "exploring different ways to mulch a garden bed or to water vegetable seedlings and identifying the types of tools and steps required to do each task",
+            "exploring different uses of or recipes for a variety of foods or ingredients including those representing students' cultural backgrounds, for example milks, eggs, bread, apples, pumpkin or other fruits or vegetables, or identifying different ways to cook or prepare foods and the different kitchen equipment required",
+            "identifying different purposes for common household equipment, for example buckets, tea towels, cushions and string"
+          ]
+        },
+        {
+          "code": "VC2TDE2D02",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Generating and designing",
+          "text": "explore, generate and communicate design ideas through describing, drawing or modelling, using manual and digital tools",
+          "elaborations": [
+            "identifying a purpose or reason for designing and making a solution, for example 'People with disability need to know where they can park at school', 'Birds keep flying into the waste bins and taking food scraps' or 'Sand keeps blowing out of the sandpit'",
+            "exploring ideas by drawing or modelling, and choosing the most suitable idea, for example drawing or modelling designs for bee hotels to attract native bees to the school garden and choosing one to make",
+            "practising a range of technical skills for using tools safely, for example joining techniques when using materials to make a product such as a greenhouse to keep seedlings warm or a trellis to support tomato plants",
+            "comparing and contrasting features of existing products to develop new ideas, for example designing a puppet with a movable part after experimenting with other toys with several movable parts, or designing a garden salad by exploring and experimenting with different types and shapes of vegetables, and exploring different dressings for a salad",
+            "communicating design ideas by modelling or producing and labelling 2D drawings using a range of technologies, for example designing a new environment such as a cubbyhouse or animal shelter and showing different views (front view and top view), with descriptions of materials and features",
+            "exploring how materials can be used or re-used in construction play, for example using blocks and rain gutters or cardboard to make a ramp to roll a ball or toy car down and evaluating success using a smiley-face Likert scale",
+            "assembling components of systems and checking they function as planned, for example making and testing a bowling, stacking or obstacle game with discarded food containers or packaging",
+            "communicating an opinion about their design ideas, for example making an audio recording to express their own likes and dislikes about a design idea for felt finger puppets, including how they have made changes to their design ideas",
+            "describing the results of exploring design ideas, for example recording the results of people's taste-testing of a food product such as vegetable juice or evaluating design ideas using personal preferences with a smiley-face Likert scale"
+          ]
+        },
+        {
+          "code": "VC2TDE2D03",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Producing and implementing",
+          "text": "use materials, components, tools and techniques to safely make designed solutions",
+          "elaborations": [
+            "exploring how materials can be used or re-used in construction play to minimise waste, for example re-using wrapping paper and gift cards to design and make decorations or signage for the classroom or a school event, or repurposing plastic containers such as water bottles and yoghurt cups to create an organiser for small items",
+            "practising a range of technical skills for using tools safely, for example joining techniques when making products, watering and mulching gardens, and using a knife safely while following a recipe to prepare food",
+            "assembling components and checking they function as planned, for example containers, contents and the joining materials when making musical shakers",
+            "threading pieces of fruit onto plastic or wooden skewers, with teacher supervision, to make colourful fruit kebabs, or threading old beads, buttons or fabric scraps onto string or elastic to make bracelets or necklaces",
+            "exploring growth of plants by planting vegetable or flower seeds in recycled containers such as yoghurt cups, egg cartons and small pots"
+          ]
+        },
+        {
+          "code": "VC2TDE2D04",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Evaluating",
+          "text": "describe and select design ideas and solutions based on personal preferences and including sustainability",
+          "elaborations": [
+            "reflecting on and recording a judgement about design ideas, for example using audio-recording or video-recording software to describe how design ideas meet the needs of those who will use a solution",
+            "sharing design strengths and weaknesses, for example explaining how the equipment in a playground might be unsuitable for some children to use, and suggesting areas for design improvement",
+            "considering the positives and negatives, including environmental impacts, of diverse food packaging options, for example glass, soft and hard plastics, aluminium and paper/cardboard, as well as compostable and/or biodegradable materials",
+            "reflecting on the environmental impacts of the production of a solution, for example types of plants, mulching techniques and timing of water usage when designing a vegetable garden",
+            "reflecting on the challenges of designing and producing a solution and recording these reflections, for example when growing a food product, designing a structure to take a load or making a nutritious snack"
+          ]
+        },
+        {
+          "code": "VC2TDE2D05",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Planning and managing",
+          "text": "sequence steps for making designed solutions cooperatively",
+          "elaborations": [
+            "using lists or storyboarding when planning and making, for example when creating an electronic planting calendar",
+            "recording the procedure for making a product, for example the ordered steps for making a salad or propagating a seedling, or instructions for making a container or bag",
+            "identifying roles for each member of a group when working together, for example when making several items for a school fair or when planting vegetable seedlings in a garden"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students explain how people design products, services and environments to address needs or opportunities that consider sustainability. For each of the 4 Technologies Contexts sub-strands, they describe the features and uses of technologies, and create designed solutions. Students describe needs or opportunities for designing, and they produce, document and select design ideas against design criteria. They communicate design ideas, using models and drawings as well as annotations and symbols, and they test materials and processes needed to create designed solutions. Students plan and sequence steps, and use technologies and techniques to safely produce designed solutions.",
+      "contentDescriptions": [
+        {
+          "code": "VC2TDE4S01",
+          "strand": "Technologies and Society",
+          "text": "the role of people in design and technologies occupations and factors including sustainability that impact on the design of solutions to meet community needs",
+          "elaborations": [
+            "investigating the reasons why many Aboriginal and/or Torres Strait Islander Peoples have been and continue to be recognised for their specialist skills in designing and producing products made from local materials and providing related services, and using sustainable practices to ensure future access to meet community needs, for example traditional woven baskets, jewellery made from shells and eel trap design",
+            "discussing Aboriginal scar trees across Victoria, such as Yingabeal in Heidelberg (Melbourne), the bark of which was removed by the Wurundjeri and Woiwurrung Peoples to make shields and coolamons (carrying vessels)",
+            "exploring how design and technologies occupations in the local area (urban, suburban, regional or rural) meet community needs, for example those of bakers, builders, engineers, farmers, seafood industry workers, mechanics, radiographers, textile designers and vegetable growers",
+            "examining the suitability of a service or system and proposing improvements, for example a water-saving system for a bathroom at home or school, traffic management systems to reduce traffic jams around the school, and remote and regional services including medical services",
+            "exploring how Australian designers consider sustainability when designing products, services or environments, for example designing products from 100% recycled materials, designing services that use minimal energy, and designing landscapes that require minimal water",
+            "examining products and environments to discover the factors that may have influenced the design and choice of technologies used, for example discussing energy-efficient cooking with a wok, or sustainable wood products for home use including furniture made from plantation timbers, bamboo toothbrushes and coconut-shell bowls",
+            "conducting a survey to identify a community need that involves accessibility and social sustainability, for example design features that improve access to the school, a community playground, local park or nature reserve, or use of public transport"
+          ]
+        },
+        {
+          "code": "VC2TDE4C01",
+          "strand": "Technologies Contexts",
+          "subStrand": "Engineering principles and systems",
+          "text": "describe how forces affect function in a product or system",
+          "elaborations": [
+            "researching how Aboriginal and/or Torres Strait Islander Peoples consider buoyant forces as they select materials for traditional watercraft, for example making bark or dugout canoes",
+            "investigating bark canoes built by the Wadawurrung People and the role of these canoes in moving across waterways and during floods",
+            "looking at models to identify how forces and materials are used and movement is started, for example in the design of a toy with wheels or moving parts",
+            "exploring through play how movement can be started by combining materials and using forces, for example releasing a wound rubber band to propel a model boat, how different materials may impact marble roll speed, or how various surfaces such as carpet, grass and concrete might affect a robot's movement",
+            "deconstructing a product or system to identify how motion and forces affect performance, for example in a puppet such as a Japanese bunraku puppet or a model windmill with moving sails",
+            "identifying engineered systems and experimenting with available local materials and tools to solve problems, for example designing a container or parachute that will keep an egg intact when dropped from a height, or designing a pop-up card, tower or vehicle",
+            "conducting investigations to understand the characteristics and properties of materials, and forces that may affect the behaviour and performance of a product or system, for example woomera design",
+            "identifying and exploring properties and construction relationships of an engineered product or system, for example a structure that floats or a bridge that carries a load"
+          ]
+        },
+        {
+          "code": "VC2TDE4C02",
+          "strand": "Technologies Contexts",
+          "subStrand": "Food and fibre production",
+          "text": "describe the ways of producing food and fibre",
+          "elaborations": [
+            "researching food and fibre production techniques and technologies developed by Aboriginal and/or Torres Strait Islander Peoples, such as burning, tilling, planting, transplanting, watering, irrigating, weeding, thinning, cropping, storing and trading",
+            "discussing the values and principles of traditional practices to ensure the sustainability of food and fibre sources, such as the creation of Aboriginal possum skin cloaks and using the remaining parts of the animal material for other purposes",
+            "describing tools and procedures to improve plant and animal production, for example when growing vegetables in the school garden and producing environments such as a glasshouse (protected cropping) or animal housing, including safe chicken shelters",
+            "comparing farming methods for food in Australia and a country in Asia, for example the use of different types of plants and animals and how diverse technologies are used to produce them",
+            "researching how animal fibres (e.g. sheep wool and alpaca fleece) and plant fibres (e.g. timber, cotton, hemp and bamboo) are produced in Australia, for example how production of plantation timbers may be different from bamboo production"
+          ]
+        },
+        {
+          "code": "VC2TDE4C03",
+          "strand": "Technologies Contexts",
+          "subStrand": "Food specialisations",
+          "text": "describe the ways food can be selected and prepared for healthy eating",
+          "elaborations": [
+            "investigating how Aboriginal and/or Torres Strait Islander Peoples consider the nutrient content of seasonal foods as a means of maintaining a balanced diet",
+            "describing foods using the senses, for example describing the colour, aroma, sound, texture and taste of the ingredients in a salad or stir-fry and how our senses influence what we select to eat",
+            "recognising the benefits of technologies to food safety and health and to helping ensure that a wide variety of food is available and can be prepared for healthy eating, for example refrigeration of meats and dairy products to enable them to last longer and reduce waste, pasteurisation of milk for food safety, and freezing, pickling or fermentation of vegetables to retain nutrients and reduce food wastage",
+            "exploring the differences between fresh and minimally processed foods and ultra-processed foods by researching nutrient content using a nutrition calculator app and/or examining nutrition information panels",
+            "considering creative ways foods can be prepared for maximum taste and appeal, for example locating and discussing images online that show colourful or fun ways to present food that might encourage healthy eating",
+            "investigating the different colours of vegetables and selecting vegetables to make a colourful salad or stir-fry"
+          ]
+        },
+        {
+          "code": "VC2TDE4C04",
+          "strand": "Technologies Contexts",
+          "subStrand": "Materials and technologies specialisations",
+          "text": "describe how the properties of materials affect function in a product or system",
+          "elaborations": [
+            "exploring the properties of materials to determine suitability, for example the absorbency of different fabrics or the strength of different resistant materials",
+            "conducting experiments and tests to understand some physical properties of materials, for example strength, durability, insulating ability and elasticity",
+            "investigating the mass-production of products to ensure standardisation, for example students setting up a production line to produce a product for a school fair",
+            "comparing how different components interrelate and complement each other in a designed solution, for example investigating and playing with joining processes for a variety of materials in the production of common products such as cushions, sneakers, wooden toys and bicycles",
+            "investigating local constructed environments to compare building construction in the past and in the present, and noting innovations such as use of energy-efficient insulation and green roofs, for example rooftop gardens, to contribute to environmental sustainability",
+            "analysing designed solutions from a range of technologies contexts with consideration of possible innovative solutions and impacts on the local community and environmental sustainability, for example electric vehicles (including buses), bike-sharing programs, composting programs, vertical farming and rooftop gardens"
+          ]
+        },
+        {
+          "code": "VC2TDE4D01",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Investigating and defining",
+          "text": "explore needs or opportunities for designing and testing materials, components, tools and processes needed to create designed solutions",
+          "elaborations": [
+            "investigating the designs and performance of models of Aboriginal and/or Torres Strait Islander Peoples' watercraft, and the opportunities for these designs to inform the design of a floating toy",
+            "examining the production of local products, services and environments to enhance their own design ideas, for example discussing the processes and systems that might be used to distribute hot food, such as vegetable soup, to a large number of people at a community event",
+            "testing different planting techniques, such as direct sowing or transplanting, to observe the impact of these on seedling establishment and plant growth",
+            "testing different cooking methods when making vegetable fritters, for example frying, baking and air-frying, to determine which method yields the best texture and taste",
+            "selecting and making decisions about appropriate joining techniques for materials to produce designs, prototypes or working models, for example joining fabric, paper or cardboard in various ways",
+            "exploring and testing a range of materials under different conditions for suitability including sustainability considerations, for example the compostability of paper-based materials or the strength and durability of natural materials such as bamboo, timbers and stone",
+            "exploring the different uses of materials in a range of products, including those from a country in Asia, to inform design decisions, for example in shelters, boats, handmade tools, baskets, wooden items, musical instruments, clothing and fabric"
+          ]
+        },
+        {
+          "code": "VC2TDE4D02",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Generating and designing",
+          "text": "generate and communicate design ideas and decisions using technical terms and graphical representation techniques, using manual and digital tools",
+          "elaborations": [
+            "communicating design ideas using annotated diagrams, for example labelling a diagram for a billycart with technical terms and explanations about components such as the chassis, axle, wheels and steering",
+            "generating design ideas for solutions using Safety by Design principles, for example designing communication that is accessible for all parents and carers",
+            "visualising creative design ideas by producing thumbnail sketches, models and labelled drawings to explain features and modifications, for example drawing one or more designs for a machine to collect waste, and including labels and descriptions to explain materials used, their properties and the intended function of components or the whole system",
+            "planning, sharing and documenting creative design ideas and processes using digital tools, and appropriate terms and privacy considerations, for example a class blog or collaborative document that has been selectively shared with peers",
+            "developing design criteria that consider universal design principles to address social sustainability, for example including criteria that specify flexible or intuitive use, or low physical effort"
+          ]
+        },
+        {
+          "code": "VC2TDE4D03",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Producing and implementing",
+          "text": "select and use materials, components, tools and techniques to safely make designed solutions",
+          "elaborations": [
+            "exploring ways of joining, connecting and assembling components that ensure success including the impact of digital tools on these processes, for example using virtual reality or simulations to experience assembling materials or using tools",
+            "using tools accurately when measuring, marking and cutting, for example when creating a template or pattern, measuring ingredients in a recipe or preparing a garden bed for sowing seeds",
+            "explaining the importance of safe, responsible, inclusive and cooperative work practices when designing and making, for example when handling sharp tools such as knives and scissors",
+            "selecting and using materials, components, tools and processes with consideration of the environmental impact at each stage of the production process, for example considering how packaging and offcuts could be recycled or used for other purposes before choosing materials for a project",
+            "using appropriate technologies terms to describe and share with other students the procedures and techniques for making, for example how to safely make an engineered solution such as a robotic device"
+          ]
+        },
+        {
+          "code": "VC2TDE4D04",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Evaluating",
+          "text": "use given or predetermined design criteria including sustainability to evaluate design ideas and solutions",
+          "elaborations": [
+            "using design criteria to evaluate, revise and select design ideas, for example when designing an e-textile toy for a young child to ensure it will be safe",
+            "comparing the amount of waste that would be produced from different design ideas and the potential for recycling waste, for example exploring the choice of materials to construct a toy, as part of the evaluation process and whether the materials are repairable or able to be recycled after the product stops working or is no longer wanted",
+            "reflecting on how well their designed solution meets design criteria, such as ensuring the safety and wellbeing of end users and meeting the needs of communities or different cultures, for example reviewing and discussing the choice of fabrics used to make re-usable bags and how they could be made more appealing to all cultural groups by considering modifications to style"
+          ]
+        },
+        {
+          "code": "VC2TDE4D05",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Planning and managing",
+          "text": "sequence steps to individually and collaboratively make designed solutions",
+          "elaborations": [
+            "determining and collaboratively planning processes as a class, for example recording when parts of a project need to be completed on a timeline, as a flow chart, or in a spreadsheet, calendar or list",
+            "discussing the importance of managing time and resource allocation throughout production, for example discussing the roles different people might take in a team such as identifying and designing the tasks they will complete and the resources each person will need",
+            "identifying the steps in a mass-production process, for example drawing a flow chart or making a video recording of a procedure for packing identical boxes of food for community members in need, where each student in a group has a separate task as part of the production process"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students explain how people address ethical considerations when designing products, services and environments to meet the needs or opportunities of communities. For each of the 4 Technologies Contexts sub-strands, they explain how the features of technologies impact on design decisions, and work collaboratively and in teams to create designed solutions to address identified needs or opportunities. Students work collaboratively to negotiate and develop design criteria that include worldviews or sustainability considerations. They select and explain design ideas, and communicate these design ideas to an audience using technical terms and graphical representation techniques. Students develop project plans, including production processes, and follow the project plans to select technologies and techniques to safely produce designed solutions.",
+      "contentDescriptions": [
+        {
+          "code": "VC2TDE6S01",
+          "strand": "Technologies and Society",
+          "text": "how people in design and technologies occupations consider competing ethical factors including sustainability in the design of products, services and environments",
+          "elaborations": [
+            "consulting with the local Aboriginal community to investigate and learn about their sustainability practices, which may include harvesting of bush tucker, use of other seasonal resources, fire management, land stewardship and water conservation",
+            "investigating how the Gunditjmara People have long considered competing factors, especially those related to sustainability, in the design of hunting technologies, for example eel traps that allow for selective harvesting to match food needs as compared with high-yield, non-selective harvesting practices such as trawling",
+            "describing the impact and sustainability implications of designed products, services or environments on local, regional and global communities, for example the emergence of small businesses that are recycling materials such as plastic tags and bottle tops into prosthetics or homewares",
+            "explaining the importance of aesthetics, function and sustainability in product design, for example a textile product that gives ultraviolet protection and is appealing, an odour-fighting wool fabric that minimises washing, a motor that moves a vehicle and uses a sustainable power source, a modification to a home to reduce environmental impact, or restoring a natural environment and enabling low-impact access for the public such as boardwalks in fragile wet heath or swamp ecosystems",
+            "identifying the components of a service that contribute to its success and assessing potential risk or failure, for example a community service announcement to communicate a message in the school or to a wide audience, or a service such as Clean Up Australia Day that manages an aspect of the environment in different communities",
+            "considering how engineers resolve competing factors to produce innovative solutions, for example investigating ways biomimicry could be used to design a new transportation system, considering competing factors such as energy efficiency, reducing carbon emissions, and minimising environmental impact by examining the efficient aerodynamics of birds or the streamlined shape of fish to inspire designed engineered solutions, or researching soft robotic devices, like the soft robotic glove developed for rehabilitation, which are designed to replicate and support human movements based on the natural functionality of muscles and tendons",
+            "considering how Safety by Design principles have been used in the design of products, services or environments, for example considering how prevention, protection and proactive change can be used to improve safety of designed solutions"
+          ]
+        },
+        {
+          "code": "VC2TDE6C01",
+          "strand": "Technologies Contexts",
+          "subStrand": "Engineering principles and systems",
+          "text": "explain how electrical energy can be transformed into movement, sound or light in a product or system",
+          "elaborations": [
+            "investigating how advancements in engineering systems, including photovoltaic systems, are expected to provide opportunities for Aboriginal and Torres Strait Islander people to support and contribute to the use of clean energy, both domestically and potentially in industrial and commercial settings, through the Traditional Owner Renewable Energy program, as seen with the Wadawurrung People",
+            "explaining how Sun tracking of solar panels assists renewable energy production in communities that are classified as remote",
+            "describing the process needed to carefully plan and select components for a system to perform a specific task, for example planning the arrangement of switches, light bulbs and a power source in a lighting design",
+            "producing models using materials and tools to show how to control movement, sound or light, for example constructing an automation or lifting system including a simple hand pulley to raise a bucket or toy",
+            "deconstructing a product or system to investigate how movement, sound or light can be controlled, for example deconstructing a torch or buzzer and exploring circuit design",
+            "investigating the properties of materials to solve problems requiring the control of movement, sound or light, for example directing light through a maze using mirrors"
+          ]
+        },
+        {
+          "code": "VC2TDE6C02",
+          "strand": "Technologies Contexts",
+          "subStrand": "Food and fibre production",
+          "text": "explain how and why food and fibre are produced in managed environments",
+          "elaborations": [
+            "investigating how, before European colonisation, Aboriginal and Torres Strait Islander Peoples lived in individual communities and nations that cared for, protected and sustainably harvested food and fibre resources, some of which are now cultivated to meet domestic and international demand, for example bunya nuts, macadamias and woven baskets",
+            "investigating and experimenting with different tools and methods of preparing soil and the effect on soil quality and sustainability, including conserving and recycling nutrients, for example building a food composting system, including mulch, when designing a sustainable school vegetable garden or cropping area",
+            "describing relationships between plant types and animal breeds and their environmental suitability when selecting suitable plants or animals for an environment, for example growing tropical fruits in northern Australia due to the warmer climate, and raising certain livestock such as Jersey dairy cattle, Merino sheep, Huacaya alpacas and Rhode Island Red chickens in the cooler regions of Australia",
+            "sequencing the process of converting on-farm food or fibre products into a product suitable for retail sale, for example creating a digital flow chart to record a paddock-to-plate supply chain or the fibre-to-garment life cycle (fibre, yarn, fabric, garment)",
+            "visiting a farm or participating in a virtual tour to ask questions about how and why food and fibre are produced in that environment"
+          ]
+        },
+        {
+          "code": "VC2TDE6C03",
+          "strand": "Technologies Contexts",
+          "subStrand": "Food specialisations",
+          "text": "explain how the properties of foods influence selection and preparation for healthy eating",
+          "elaborations": [
+            "investigating Aboriginal and/or Torres Strait Islander practices for selecting and preparing foods for healthy eating, for example based on their nutritional value, availability, spoilage, preparation and processing requirements in consultation with local community, discussing sources of food from Country and Place",
+            "determining, using the Australian Guide to Healthy Eating, what is a serve of vegetables and discussing different ways to achieve one serve of particular vegetables, considering fresh and processed options, such as frozen and canned food, and including various cooking methods such as steaming, boiling and stir-frying",
+            "investigating how foods with different textures require different preparation methods; for example, crisp vegetables like carrots or capsicums can be used as raw ingredients in salads to retain their crunchiness, while starchy vegetables like potato and sweet potato are often cooked to a softer texture",
+            "discussing ways that sounds produced when preparing or consuming food can influence sensory experiences, for example the crunch of biting into a crisp apple, the sizzle of food cooking on a hot grill and the popping sound of popcorn kernels when heated",
+            "experimenting with tools, ingredients and techniques to design and make food products or meals for selected groups for healthy eating, taking into consideration environmental impacts and nutritional benefits, for example experimenting with preserving techniques including pickling, fermentation, air-drying and sun-drying, and presenting information on the benefits to an audience",
+            "exploring a variety of tastes and how they may influence the selection or preparation of food, for example the sour, salty, sweet, spicy and umami flavours of many foods from countries across Asia",
+            "exploring the food service options of a local restaurant, cafe, fast food or takeaway establishment and identifying the food preparation skills needed to prepare food for healthy eating"
+          ]
+        },
+        {
+          "code": "VC2TDE6C04",
+          "strand": "Technologies Contexts",
+          "subStrand": "Materials and technologies specialisations",
+          "text": "explain how characteristics and properties of materials, systems, components and tools affect their use when producing designed solutions",
+          "elaborations": [
+            "investigating how the Gunditjmara People have long used material science knowledge to identify materials and preparation techniques to meet performance needs, for example twining techniques for string and rope fibres to ensure suitability for use in wet, dry, freshwater and saltwater applications",
+            "investigating traditional use of sinew and resin in the coating materials of bark canoes by Aboriginal and/or Torres Strait Islander people to ensure waterproofing",
+            "identifying and examining the properties of materials for the design and construction of a household product or system to improve household sustainability, for example a product for storing harvested water or reducing energy consumption",
+            "describing the materials and systems used in public places and facilities that affect the way people live, for example community exercise environments, arts facilities, water treatment plants and garbage collection services",
+            "comparing and describing the tools and techniques used to manufacture products in factories with those used by local and regional enterprises, including cost and impacts, for example clothing made in factories",
+            "comparing the design and production of products, services or environments in Australia and a country in Asia, for example comparing the diversity, availability and properties of preferred materials and the design of public shelters and housing in Indonesia and Australia",
+            "investigating the properties of fibres and how these are used to create products, for example designing an experiment to test which fabrics are the best insulators, and explaining how those properties influence their uses"
+          ]
+        },
+        {
+          "code": "VC2TDE6D01",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Investigating and defining",
+          "text": "investigate needs or opportunities for designing, and the materials, components, tools and processes needed to create designed solutions",
+          "elaborations": [
+            "investigating traditional fibre sources as potential commercial solutions for biodegradable string or rope, and researching the materials, systems, components and tools needed",
+            "surveying people in the school community about their needs in order to design an appropriate product, service or environment that addresses the need, for example planning the requirements for a community meal, creating more shade in the school by determining where trees could be planted or designing a security system for a community garden",
+            "investigating designed solutions from around the world to make suitable, quality decisions that meet needs or opportunities, for example locating information online about small-space gardening ideas from different countries and judging the suitability of these ideas for the local environment",
+            "investigating the importance of complementary parts of working systems by deconstructing the components, structure and purpose of products, services or environments, for example labelling a diagram of a robotic weeder or vacuum cleaner and explaining the function of its parts",
+            "testing a range of materials, components and tools to determine the appropriate technologies needed to make products, services or environments, for example the materials for a product such as a rubber-band-powered vehicle or item of protective clothing",
+            "investigating how to minimise material use and manage waste by comparing the environmental and social impacts of materials, components and tools, for example comparing the cost and environmental impact of repurposing an old item of clothing to create a carry bag with that of buying a new bag, or using wilted vegetables to make a vegetable soup instead of buying takeaway soup"
+          ]
+        },
+        {
+          "code": "VC2TDE6D02",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Generating and designing",
+          "text": "generate, iterate and communicate design ideas, decisions and processes using technical terms and graphical representation techniques, using manual and digital tools",
+          "elaborations": [
+            "generating a range of design ideas for products, services or environments using prior knowledge, skills and research, for example a security system for a community garden, a product made from a repurposed item of clothing, a permaculture vegetable patch or a healthy meal for a family picnic",
+            "analysing, modifying and developing design ideas to enhance and improve the sustainability of a product, service, environment or system, for example conducting a life cycle assessment and analysing eco-friendly alternatives to non-recyclable decorations for a community event or replacing paper-based newsletters with online formats",
+            "representing and communicating design ideas using modelling and drawings, including the use of digital tools, for example including a scale, symbols and codes in plans and diagrams, using thumbnail sketches and labelled drawings, using pictorial maps and aerial views, and using digital mapping applications or infographics to present research and ideas to others",
+            "developing and using models to iterate and improve design ideas, for example using modelling applications to design the layout and features of an enclosure for a chosen animal",
+            "experimenting with materials and tools to refine design decisions and processes, for example considering the selection of materials and joining techniques to suit the purpose of a product, such as a pop-up book, fabric bag or electric circuit",
+            "considering the social values and ethical considerations of end users when designing an environment, for example interviewing end users of a space or seeking permission to use designs or images created by others, including respect of cultural and intellectual property"
+          ]
+        },
+        {
+          "code": "VC2TDE6D03",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Producing and implementing",
+          "text": "select, explain and use suitable materials, components, tools and techniques to safely make designed solutions",
+          "elaborations": [
+            "matching material and joining techniques to a design intention, for example accurately and safely cutting and sewing fabric pieces to make a community banner or joining components to produce an electric circuit",
+            "using appropriate personal protective equipment required for the use of some tools, for example protective eyewear, and working safely, responsibly and cooperatively to ensure safe work areas, for example safely using tools when making a water-resistant floating craft",
+            "choosing appropriate materials, tools and techniques for a specific purpose, for example when safely and hygienically preparing food, cultivating garden beds or constructing electronic products",
+            "identifying work practices that show an understanding of environmental considerations and food safety when designing and making a food product, for example washing freshly picked fruit, vegetables and herbs to remove soil, safely disposing of cooking oils to avoid environmental damage, refrigerating highly perishable foods and being aware of food allergies"
+          ]
+        },
+        {
+          "code": "VC2TDE6D04",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Evaluating",
+          "text": "negotiate design criteria that address ethical considerations, including sustainability, to evaluate design ideas, processes and solutions",
+          "elaborations": [
+            "deciding on design criteria collaboratively for a designed solution, for example including an environmental sustainability criterion such as 'a product should be recyclable' or 'materials selected should be renewable or recycled', a criterion related to fair and equal access to a product such as inclusive design, accessibility considerations or affordability, or a criterion related to addressing ethical supply chain considerations such as those for responsibly sourced timber",
+            "developing design criteria with others to evaluate the suitability of materials and tools for specific purposes, for example considering the most suitable fabric and tools needed to make beeswax wraps",
+            "iterating and modifying design ideas based on evaluation to improve solutions, for example modifying the sensitivity of sensors in the design of an automated light",
+            "evaluating their designed solutions including considering the benefits and costs of production processes and the environmental impact, for example to produce an animal shelter, in considering ergonomic design or when conducting product testing to ensure safety standards are met",
+            "reflecting on designed solutions to evaluate and assess suitability and sustainability, and determine how well these solutions meet design criteria, for example gathering relevant data to make judgements about a school or community fundraising event in relation to waste reduction, attendance and funds raised, and considering how these aspects could be handled for future events"
+          ]
+        },
+        {
+          "code": "VC2TDE6D05",
+          "strand": "Creating Designed Solutions",
+          "subStrand": "Planning and managing",
+          "text": "develop project plans that include consideration of resources to individually and collaboratively make designed solutions",
+          "elaborations": [
+            "setting milestones for production processes and allocating roles to team members, for example using a cloud-based or server-based document or spreadsheet to list tasks, deadlines and roles for team members working on a project collaboratively, including setting document-sharing permissions for selected people",
+            "identifying the human resources, materials and tools needed to make a designed solution as part of the project plan and specifying when these will be needed, for example access to a wildlife expert at the planning stage, and scheduling access to shared tools when building a habitat for local animals",
+            "planning production steps needed to produce a product, service or environment using digital tools, for example making a flow chart or using a digital planner to record the sequence of tasks and deadlines needed to complete a project",
+            "using a storyboard to visually plan the process of making a product, service or environment, for example the process to make a healthy vegetable fritter or to prepare a garden bed and plant vegetable seedlings"
+          ]
+        }
+      ]
+    }
+  ]
+}

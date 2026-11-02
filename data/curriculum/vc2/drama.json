@@ -1,0 +1,275 @@
+{
+  "subject": "Drama",
+  "slug": "drama",
+  "learningArea": "The Arts",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation",
+      "levels": [
+        "F"
+      ],
+      "achievementStandard": "By the end of Foundation, students describe experiences, observations and feelings about the drama they encounter at school, home and in the community, identifying what they enjoy and why. They develop an understanding of characters and situations. Students use play, imagination, experimentation and selected dramatic elements to create drama. They make and share drama.",
+      "contentDescriptions": [
+        {
+          "code": "VC2ADRFE01",
+          "strand": "Exploring",
+          "text": "explore how and why drama is important for people and communities",
+          "elaborations": [
+            "exploring how facial expressions, gestures and other ways of moving, and voice and language can communicate emotions and feelings in drama, for example through characters, rhymes, songs or chants from different times and cultures",
+            "using dramatic play to explore ideas or understandings they observe or perceive in a story; for example, asking questions such as 'What is happening?' and 'What will happen next?'",
+            "identifying stories and drama experiences that they encounter at school or in community settings, and sharing ideas and feelings about the works with peers and teachers",
+            "exploring how storytelling can help to communicate information about characters, settings and/or mood",
+            "listening to Aboriginal and/or Torres Strait Islander people talk about the importance of drama and storytelling for connecting to people, culture and Country or Place; for example, using resources created or co-created by Aboriginal and Torres Strait Islander Peoples"
+          ]
+        },
+        {
+          "code": "VC2ADRFE02",
+          "strand": "Exploring",
+          "text": "explore ideas for characters and situations through dramatic play",
+          "elaborations": [
+            "exploring and talking about how voices, movement and space are used in drama they observe; for example, asking questions such as 'What sort of facial expressions did the characters use?' and 'How did the drama make me feel?'",
+            "using stimuli such as stories, poems, music and images to explore characters and narratives; for example, using a well-known fairytale as a starting point to explore contrasting characters and story structure",
+            "exploring and playing with different types of puppetry to communicate characters and situations; for example, connecting to Asia and Australia's engagement with Asia through shadow puppetry or exploring sustainability through recycled puppets",
+            "exploring how facial expressions, gestures and other ways of moving can communicate emotions and feelings and suggest different places and locations"
+          ]
+        },
+        {
+          "code": "VC2ADRFD01",
+          "strand": "Developing Practices",
+          "text": "use play and imagination to discover possibilities and ideas for characters and situations",
+          "elaborations": [
+            "imagining how the characters in a story they are reading might move",
+            "working in small groups to make still or moving images to communicate ideas about characters in an important moment from the story",
+            "communicating verbally using different voices and sounds to explore ways in which characters speak, for example when taking on roles in a whole-class role-play",
+            "communicating without sound using facial expression, gesture and movement to explore and show a character's feelings and actions within a story or situation",
+            "developing a range of different characters from real and imagined situations"
+          ]
+        },
+        {
+          "code": "VC2ADRFC01",
+          "strand": "Creating",
+          "text": "create drama stories that communicate ideas and explore meaning",
+          "elaborations": [
+            "working in small groups to create stories from a given stimulus; for example, creating a story from a picture or painting",
+            "identifying an idea in a story to communicate to an audience",
+            "using picture storybooks as a starting point to recreate stories and convey their meaning through still images or short improvised scenes",
+            "manipulating objects to communicate different ideas, places and characters; for example, using a cardboard tube to create a telescope, a walking stick or an oar for a boat, or using fabric as a river or fire",
+            "using available technologies to create or retell stories such as recorded sound or music"
+          ]
+        },
+        {
+          "code": "VC2ADRFP01",
+          "strand": "Presenting",
+          "text": "share their drama stories with audiences",
+          "elaborations": [
+            "using viewpoint questions to guide the presentation of drama stories, such as 'What do I want the audience to think about?'",
+            "using viewpoint questions to evaluate presentations and performances they share, such as 'What did I enjoy most about the drama and why?'",
+            "presenting a scene developed in response to a stimulus, such as an image or a poem, to the class",
+            "using facial expression, objects and props to enhance a presentation and engage an audience such as a partner or the class",
+            "responding to questions such as 'What voice and movement have you noticed in others' presentations and performances that could be used in your drama?'",
+            "becoming aware of an audience, including when to face the audience and using their voice so an audience can hear"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 1 and 2",
+      "levels": [
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify where they experience drama. Students describe where, why and how people across cultures, communities and other contexts experience drama. Students use expressive and performance skills to create drama works. They use the elements of drama to improvise and create drama works. Students present their work to audiences in informal settings.",
+      "contentDescriptions": [
+        {
+          "code": "VC2ADR2E01",
+          "strand": "Exploring",
+          "text": "explore where, when, why and how communities and cultures make drama, including the drama of Aboriginal and Torres Strait Islander Peoples",
+          "elaborations": [
+            "asking viewpoint questions about the drama they experience, such as 'Where is the drama happening?', 'Who are the characters?' and 'What is the story about?'",
+            "exploring how drama communicates culture in their own communities through storytelling, including the drama of Aboriginal and Torres Strait Islander Peoples",
+            "exploring a selection of the elements of drama: character and relationships, climax, conflict, context and setting, contrast, dramatic meaning, mood, sound, space and time, symbol and tension",
+            "participating in small-group improvisations and storytelling to create moments of conflict and tension, offering and accepting ideas in pairs by responding to prompts about character and relationships, context and setting",
+            "exploring characters and relationships to inform dramatic meaning when participating in whole-class, teacher-led process drama and role-play",
+            "recognising how drama can show feelings such as tension, fear or joy"
+          ]
+        },
+        {
+          "code": "VC2ADR2D01",
+          "strand": "Developing Practices",
+          "text": "develop practices for creating and performing, using the elements of drama",
+          "elaborations": [
+            "using viewpoint questions to develop their own and others' drama they have experienced and viewed, such as 'What is this dramatic work about?' and 'What does this work mean to me and to others?'",
+            "communicating using voice and/or facial expression and movement to explore and show characters and relationships",
+            "developing an awareness of bodies and the space between performers and the audience",
+            "taking part in purposeful dramatic play, focusing on creating story, characters and situations using storybooks, images, rhymes or songs",
+            "using drama language when talking about drama they have created and experienced; for example, using the names of specific elements of drama"
+          ]
+        },
+        {
+          "code": "VC2ADR2C01",
+          "strand": "Creating",
+          "text": "use a variety of dramatic forms and elements of drama to create real and imagined stories",
+          "elaborations": [
+            "using viewpoint questions to propose situations to explore in dramatic play and process drama, such as 'What else might happen to these characters?', 'What might happen next?' and 'What might have happened before the story began?'",
+            "using puppets to create new stories, including stories that communicate their understanding of existing stories or personal experiences",
+            "using costume items and props to inform their character",
+            "identifying conflict in stories to explore new perspectives through dramatic play, improvisation or process drama",
+            "considering how materials and found objects might be used to create settings, costumes or props; for example, using fabric to transform into an underwater kingdom (setting), cape (costume) or boat (prop)",
+            "contributing ideas within group work and improvisation to support or extend the narrative; for example, taking on a character or an action",
+            "communicating using facial expressions and gestures when participating in movement-based drama"
+          ]
+        },
+        {
+          "code": "VC2ADR2P01",
+          "strand": "Presenting",
+          "text": "present and share drama that communicates ideas to audiences in informal settings",
+          "elaborations": [
+            "presenting scenes with a structure of beginning, middle and end",
+            "retelling a cultural or community story with the assistance of representatives from that culture or community",
+            "understanding the performer–audience relationship by following stage directions, speaking clearly, and responding to cues when presenting to an audience",
+            "enhancing ideas and stories in their presentations by using design areas such as costume, props, set pieces, sound and lighting",
+            "discussing ways drama can show people's different feelings about the world, based on their own experiences",
+            "responding to feedback as they develop their drama; for example, responding to questions such as 'Can we see the performers?', 'Can we hear the performers?', 'Will the audience understand the story?' and 'What do we want the audience to think about?'"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students identify and describe how expressive skills, performance skills and elements of drama are used to create, perform and experience drama works. They recall how drama is created and presented across cultures, times, places and other contexts, including the work of Aboriginal and Torres Strait Islander Peoples. Students experiment with the elements of drama when devising drama or interpreting scripts. They use the elements of drama and expressive and performance skills to create drama work using a range of forms to communicate ideas and meanings. They present and/or perform their work in informal and formal settings to different audiences.",
+      "contentDescriptions": [
+        {
+          "code": "VC2ADR4E01",
+          "strand": "Exploring",
+          "text": "explore how stories and narrative structures are created and performed across cultures, times, places and other contexts",
+          "elaborations": [
+            "thinking about and discussing their experiences of a live or recorded drama performance and asking questions such as 'What is the purpose of this drama?', 'What features and ideas in the drama come from other cultures, times and places?', 'How could we use these ideas in our drama?' and 'Why do I think people from diverse cultures create drama for similar purposes?'",
+            "exploring the skills for creating and performing drama using elements of drama such as character and relationships, climax, conflict, context/setting, contrast, dramatic meaning, mood, sound, space and time, symbol and tension",
+            "using stories and narrative structures from different cultures and times as stimuli for creating drama, such as myths, legends, fairytales and fables",
+            "watching and/or listening to actors talk about a performance, how they developed their character and what they found interesting or surprising about the imaginary world they created",
+            "exploring, discussing and sharing ideas with others about the meaning and purposes of their own drama, for example why they chose to explore particular characters, movements, gestures or facial expressions"
+          ]
+        },
+        {
+          "code": "VC2ADR4E02",
+          "strand": "Exploring",
+          "text": "explore how Aboriginal and Torres Strait Islander Peoples use drama and storytelling to communicate connection to and responsibility for Country and Place",
+          "elaborations": [
+            "exploring how Aboriginal and Torres Strait Islander Peoples use drama to express connection to and responsibility for Country and Place; for example, exploring how drama is used to communicate knowledge about Country and Place and the local environment",
+            "looking at performances that represent the importance of Country and Place and story for Aboriginal and Torres Strait Islander Peoples as a starting point for talking about different ways of understanding place and telling stories",
+            "discussing what place means to them"
+          ]
+        },
+        {
+          "code": "VC2ADR4D01",
+          "strand": "Developing Practices",
+          "text": "develop and refine expressive and performance skills by using the elements of drama to develop ideas for dramatic action",
+          "elaborations": [
+            "experimenting with developing different moods or scenes that explore conflict",
+            "experimenting with the loudness or softness, pace and pitch of their voices or vocalisations to create characters and relationships, times and locations",
+            "experimenting with ways to heighten tension in a drama work between characters, such as use of silence, pause, space or gesture",
+            "reading scripts or extracts from scripts and developing them by applying the elements of drama, and expressive and performance skills",
+            "improvising ways to connect and transition between short scenes, such as saying words or phrases and/or selecting specific movements or rhythms",
+            "developing an understanding of spatial awareness when creating drama; for example, considering how close or far apart they should stand to others in the performance space"
+          ]
+        },
+        {
+          "code": "VC2ADR4C01",
+          "strand": "Creating",
+          "text": "devise drama and/or create scripts using expressive skills, performance skills and elements of drama to communicate ideas, perspectives and meaning",
+          "elaborations": [
+            "creating drama by exploring a range of characters and relationships, contexts and settings that are improvised from a prompt or stimulus",
+            "considering how taking on characters and roles, accepting situations and 'standing in the shoes of others' may develop empathy for others; for example, comparing their own and their peers' responses to an event that is happening or happened locally or in another time or place",
+            "devising a script or dialogue for a scene from a story they know or a story they imagine",
+            "using selected elements of drama, such as contrast, conflict or tension, to communicate their intentions as drama-makers",
+            "establishing time and location through voice, movement and space"
+          ]
+        },
+        {
+          "code": "VC2ADR4P01",
+          "strand": "Presenting",
+          "text": "present and share improvised, devised and/or scripted drama to audiences in formal and informal settings",
+          "elaborations": [
+            "using voice, movement and language to establish and sustain contexts when presenting or performing drama; for example, varying facial expressions and movements to create characters and suggest settings",
+            "demonstrating commitment to the reality or world of the drama; for example, staying 'in character' throughout the presentation or performance (even when not actively participating in the dramatic action)",
+            "manipulating contrast, mood, sound, space, time and focus to engage an audience"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students explore how the elements of drama and drama terminology are used in creating and presenting drama works. They describe how drama is created and presented across different cultures and contexts to communicate ideas, perspectives and meaning. Students identify how drama is used to continue and revitalise cultures, including the work of Aboriginal and Torres Strait Islander Peoples. They document their ideas and understanding of how the elements of drama are used to create drama works using drama terminology. Students work collaboratively and individually to create drama using the elements of drama, expressive and performance skills, and improvisation, and devise and interpret scripts to develop an understanding of drama for different audiences. They present and perform drama in informal and formal settings, identifying different audiences.",
+      "contentDescriptions": [
+        {
+          "code": "VC2ADR6E01",
+          "strand": "Exploring",
+          "text": "explore how drama can be used to communicate ideas, perspectives and dramatic meaning, drawing on works from a range of contexts, including from Aboriginal and Torres Strait Islander Peoples",
+          "elaborations": [
+            "exploring physical and fictional contexts in which to create characters and relationships, contexts and situations; for example, asking viewpoint questions such as 'How is the voice, movement, gesture and the body used to represent a character, situation or idea?'",
+            "exploring the creation of characters and relationships, contexts and situations through the use of the expressive skills of energy, focus, facial expression, gesture, movement, stillness, silence and voice",
+            "discussing how the use of expressive skills assists in conveying story, meaning and intention",
+            "exploring drama from other places and times, including ceremonies or rituals that happen in other communities; for example, exploring traditional rituals, puppetry in Asian cultures or Aboriginal and Torres Strait Islander ceremonies"
+          ]
+        },
+        {
+          "code": "VC2ADR6E02",
+          "strand": "Exploring",
+          "text": "explore ways Aboriginal and Torres Strait Islander Peoples use drama to continue and revitalise cultures",
+          "elaborations": [
+            "identifying and discussing the role of storytelling in Aboriginal and Torres Strait Islander cultural traditions, through direct engagement with community and Elders or using online resources created or co-created by community and Elders"
+          ]
+        },
+        {
+          "code": "VC2ADR6D01",
+          "strand": "Developing Practices",
+          "text": "develop and document practices in expressive and performance skills, the elements of drama and design to communicate stories, narrative and dramatic meaning",
+          "elaborations": [
+            "using viewpoints to ask questions in relation to developing drama, such as 'How can I shape drama to express my point of view?', 'Why is this drama working successfully?', 'What am I doing creatively?', 'How do I feel about …?' and 'What would happen if …?'",
+            "developing characters and relationships in drama that consider contexts and situations from different perspectives",
+            "imagining and developing a 'new scene' to include in a dramatic retelling of a known narrative or story",
+            "using improvisation or engaging with teacher-led process drama to compare different ways in which drama enables the creation of characters, action, relationships, contexts, meaning, intention, understanding and empathy",
+            "evaluating drama they experience through live performance and considering how they can use specific drama techniques in their own work",
+            "documenting their work in a physical or electronic journal or other creative platform"
+          ]
+        },
+        {
+          "code": "VC2ADR6C01",
+          "strand": "Creating",
+          "text": "create devised and scripted drama that develops story and narrative using expressive and performance skills, styles, form and design areas",
+          "elaborations": [
+            "exploring physical or fictional spaces to create characters and stories and to respond to ideas, themes and other stimulus material",
+            "varying the expressive skill of voice using techniques such as projection, dynamics, pace, pause and pitch to create and communicate characters' intentions",
+            "collaborating as a group to devise a short ensemble drama",
+            "researching a script to learn about the playwright and why it was written in order to inform a response, reading or presentation",
+            "devising drama based on research about a project happening in their school or local community to encourage awareness, for example a debate about an environmental issue",
+            "working collaboratively to devise drama for a school ritual, gathering (such as an assembly) or ceremony, for example drama that explores a school motto, health message or campaign such as 'no-packaging lunch'"
+          ]
+        },
+        {
+          "code": "VC2ADR6P01",
+          "strand": "Presenting",
+          "text": "rehearse and present devised and scripted drama in informal and formal settings to engage different audiences",
+          "elaborations": [
+            "using viewpoints to ask questions when responding to others' presentations, such as 'How did the performers use the elements of drama and design areas effectively?', 'For what purposes did they make drama?' and 'What evidence supports your judgement about the drama?'",
+            "using design areas and available technologies to enhance dramatic action in a presentation",
+            "sourcing sustainable materials for design areas such as costume, props and set",
+            "focusing on communication with the audience by, for example, remembering lines, moves and cues in rehearsal and performance",
+            "showing understanding of the purpose of rehearsing and the need for collaboration",
+            "identifying how audiences and performers might interact and what knowledge the audience needs to have about the drama"
+          ]
+        }
+      ]
+    }
+  ]
+}

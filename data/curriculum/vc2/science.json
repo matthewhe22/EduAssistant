@@ -1,0 +1,792 @@
+{
+  "subject": "Science",
+  "slug": "science",
+  "learningArea": "Science",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students make and compare observations about the world around them. They describe situations in their lives where they ask questions about natural phenomena and use patterns from their observations to make scientific predictions.\nStudents group plants and animals based on observable features, and identify how living things meet their needs in the places they live. They explain how the features of plants and animals enable their survival. They describe the observable properties of the materials that make up objects. They provide examples of objects and mixtures that are made from a combination of materials, and distinguish between the properties of objects or mixtures and those of the materials from which they are made. They identify ways to change materials without changing their material composition. They identify daily and seasonal changes and describe ways these changes affect everyday life. They identify celestial objects and describe patterns they see in the sky. They suggest ways that the use of common materials can be reduced, re-used and recycled, and explain the importance of these actions for sustainability. They identify factors that influence the movement of objects. They describe and predict how different strengths and directions of pushes and pulls change the motion and shape of objects. They describe the effect of sound energy on objects and demonstrate how different sounds can be produced.\nStudents pose questions about observed patterns or relationships and make predictions related to familiar objects and events. They suggest steps to be followed in an investigation, and follow safe procedures to make and record observations, including informal measurements. They use provided tables and organisers to sort and order data, and represent simple patterns in data. With guidance, they compare their own observations and predictions with those of others, and identify further questions for investigation. They use everyday and some scientific vocabulary to communicate observations, findings and ideas.",
+      "contentDescriptions": [
+        {
+          "code": "VC2S2H01",
+          "strand": "Science as a Human Endeavour",
+          "subStrand": "Nature and development of science",
+          "text": "scientific knowledge is based on observations of the natural world using the senses, and scientific tools and instruments",
+          "elaborations": [
+            "exploring what an observation is, and different ways to make observations using the 5 senses, through guided discussion",
+            "viewing examples of observations, for example recorded in rock paintings, bark drawings, age-appropriate written reports, labelled drawings or photographs, to explore ways that people make and record observations",
+            "listening to people involved in scientific work – such as arborists, nurses, engineers and meteorologists – and asking questions about the importance of observations in their work",
+            "interacting with stories or documentaries about scientists and noticing the ways that they make their observations, such as through drawings, collections, sound recordings and photography, and how they ask questions about what they think they will observe and find",
+            "recognising that astronomers use patterns of movement of celestial objects, such as stars and comets, in the sky to make predictions about future appearances"
+          ]
+        },
+        {
+          "code": "VC2S2H02",
+          "strand": "Science as a Human Endeavour",
+          "subStrand": "Use and influence of science",
+          "text": "science is used by people in their daily lives, including asking questions and using patterns from observations of the world around them to make scientific predictions",
+          "elaborations": [
+            "identifying ways that scientific knowledge is used in the care of the local environment to meet the needs of native animals and in designing supports to meet the needs of those animals, such as building frog and insect hotels and nesting boxes or recycling materials to provide habitat",
+            "recognising how Aboriginal and/or Torres Strait Islander Peoples observe cyclic changes of night and day length, star patterns in the sky and seasons to predict when events occur, for example following seasonal calendars such as the Gariwerd calendar of the Djab Wurrung and Jardwardjali Peoples to associate the appearance of the emu constellation with the wildflower season during September to November",
+            "sharing examples of how people use scientific knowledge at home, such as by listening to or viewing weather forecasts or observing weather patterns when planning family events or outings, and wearing appropriate clothing for the season",
+            "discussing how people manage light and sound at home to ensure that they do not disturb each other or their neighbours, such as quietly closing doors, turning down the lights, taking off shoes on wooden floors and using window coverings",
+            "learning from people who work with materials, such as woodworkers, product designers and artists (such as fibre artists and sculptors), about how they observe and learn about properties of materials and how they use creativity when manipulating materials",
+            "investigating toys and digital tools that are sound-activated or voice-activated, and engaging in guided discussions about how some devices use voice patterns to recognise the unique features of an individual's voice or to help people manage daily activities such as turning on lights and communicating with others"
+          ]
+        },
+        {
+          "code": "VC2S2U01",
+          "strand": "Science Understanding",
+          "subStrand": "Biological sciences",
+          "text": "plants and animals have observable features that can be used to group them in different ways",
+          "elaborations": [
+            "observing fruits and vegetables and identifying them as parts of plants such as roots, flowers, fruit and leaves",
+            "grouping animals as vertebrates (animals that have backbones or spinal columns, such as amphibians, birds, fish, mammals and reptiles) or invertebrates (animals that have no backbones or bony skeletons inside them, such as insects, spiders, worms, snails, lobsters and jellyfish; some have outer shells while others have no hard parts in their bodies)",
+            "recognising humans as animals, describing external features of humans, and exploring similarities to and differences with other animals",
+            "using magnifying glasses or digital cameras to observe and identify external features of plants, including seeds, flowers, fruits and roots, or of animals, such as eyes, body coverings, legs and wings",
+            "sorting collections of model animals and explaining different grouping strategies",
+            "investigating how Aboriginal and/or Torres Strait Islander Peoples' observations of external features have been represented in expressions of material culture from Deep Time to today, such as through rock art or cultural dances, for example in paintings of Genyornis newtoni, a megafaunal species that lived during the most recent Ice Age"
+          ]
+        },
+        {
+          "code": "VC2S2U02",
+          "strand": "Science Understanding",
+          "subStrand": "Biological sciences",
+          "text": "plants and animals have basic needs, including air, water, food and shelter; the places where they live meet those needs",
+          "elaborations": [
+            "identifying the places where plants and animals live, including in homes and in local areas such as ponds, national parks, gardens and zoos",
+            "identifying what they do to look after pets or plants at home, and grouping these activities",
+            "identifying and comparing the needs of a variety of plants and animals, including humans, based on their own experiences",
+            "creating a diorama of a place a plant or animal lives, and identifying the features that enable it to meet its needs",
+            "recognising how cultural protocols (ethical principles that guide behaviour in particular situations when interacting with Aboriginal and/or Torres Strait Islander Peoples and that are designed to protect Aboriginal and Torres Strait Islander cultural and intellectual property rights) around caring for Country and Place result in the promotion, preservation and protection of living things and the environment",
+            "exploring why caring for plants and animals is important, including as sources of food and fibre"
+          ]
+        },
+        {
+          "code": "VC2S2U03",
+          "strand": "Science Understanding",
+          "subStrand": "Biological sciences",
+          "text": "plants and animals have external features that perform different functions to enable their survival; in plants these features include roots, stems, leaves, flowers, fruit, bulbs, trunks and branches while different features in animals enable them to move, breathe, eat and respond to their environment",
+          "elaborations": [
+            "comparing the roots, leaves, flowers and stems of different plants",
+            "investigating the movement of water in plants by observing what happens when a celery stick is placed in a glass of water to which food colouring has been added",
+            "exploring how the 5 human sensory organs (eyes, ears, skin, nose and tongue) detect and respond to what is happening around them, and comparing the importance of sensory organs for different animals, such as in echolocation used by bats",
+            "exploring why animals, including humans, have different teeth and how this relates to diets (herbivores, carnivores and omnivores)",
+            "investigating how Aboriginal and/or Torres Strait Islander Peoples' observations of external features of living things, such as the way that different animals move and behave, can be represented in traditional dance",
+            "grouping animals on the basis of common features, for example identifying how different animals use their tails or comparing body coverings of different animals, such as scales, fur, hair and skin"
+          ]
+        },
+        {
+          "code": "VC2S2U04",
+          "strand": "Science Understanding",
+          "subStrand": "Chemical sciences",
+          "text": "objects can be made of one or more different materials; these materials have observable properties",
+          "elaborations": [
+            "observing and manipulating objects to identify the materials these are made from and recognising that some objects are made of more than one type of material",
+            "identifying and naming materials in the classroom, and grouping objects made of similar materials or combinations of materials",
+            "recognising that tools such as magnifying glasses enable observation in more detail",
+            "sorting and grouping materials based on observed properties such as colour, hardness, texture and flexibility",
+            "investigating the ways that Aboriginal and/or Torres Strait Islander Peoples have constructed and continue to construct material culture (physical aspects of the objects that surround people including the creation and use of objects such as tools, housing and clothing, including the trade of articles, as well as the behaviours, norms and rituals associated with these objects) for different purposes by combining different materials, such as hafted stone artefacts (stone points that are put into a spear and secured with sinew) and eel baskets (fibre technologies crafted together, e.g. eel baskets woven by the Gunditjmara People from local river weeds and spear grass)",
+            "creating a display of different materials, naming each material and exploring language to describe the properties of materials",
+            "using a digital camera to collect images of objects on a materials scavenger hunt, and sorting the images into those that show objects made of one material and those that show objects made of 2 or more different materials"
+          ]
+        },
+        {
+          "code": "VC2S2U05",
+          "strand": "Science Understanding",
+          "subStrand": "Chemical sciences",
+          "text": "materials can be combined in a variety of ways for particular purposes; the properties of objects and mixtures can differ from the properties of the materials from which they are made",
+          "elaborations": [
+            "predicting and comparing how different materials can be combined for different purposes",
+            "investigating how food can be mixed to form different products such as jelly, ice cream and cake",
+            "suggesting why different parts of everyday objects such as toys and clothes are made from different materials",
+            "investigating the ways that Aboriginal and/or Torres Strait Islander Peoples have constructed and continue to construct material culture for different purposes by combining different materials, for example sewing together possum pelts with sinew to make cloaks and decorating them with ochre or constructing contemporary jewellery that includes feathers, woven fibre technologies and shells",
+            "investigating how different proportions of sand and water, as examples of mixtures, can affect the construction and stability of sandcastles"
+          ]
+        },
+        {
+          "code": "VC2S2U06",
+          "strand": "Science Understanding",
+          "subStrand": "Chemical sciences",
+          "text": "materials can be changed physically by different actions without changing their material composition, including by bending, twisting, stretching, crushing, squashing and breaking into smaller pieces",
+          "elaborations": [
+            "exploring how materials can be physically changed to suit a particular purpose, such as twisting strands of cotton or wool together to make the thread stronger, and folding paper to make it fly",
+            "manipulating materials such as paper and fabric, and determining ways that these can be physically changed by scrunching, twisting or bending, or broken into smaller pieces by cutting, tearing or crushing",
+            "crushing a stick of chalk into a powder, comparing the properties of the stick and the powder, and discussing whether it is still the same material",
+            "investigating how Aboriginal and/or Torres Strait Islander Peoples make physical changes to natural materials to produce material culture, for example in fibre technologies (such as basketry and fishing lines), pigments (such as ochre and medicines) and timberworking (such as working saplings to form boundary markers)",
+            "creating an 'odd one out' game by providing samples of the same material that has been physically changed in different ways and one sample of a different material, and challenging other students to identify the odd one out"
+          ]
+        },
+        {
+          "code": "VC2S2U07",
+          "strand": "Science Understanding",
+          "subStrand": "Earth and space sciences",
+          "text": "daily and seasonal changes in the weather and the environment can be observed and affect decisions made in everyday life",
+          "elaborations": [
+            "making and recording observations of phenomena such as changes to weather, and seasonal changes to plants such as colour and dropping of leaves, and growth of flowers and fruit",
+            "noticing how daily weather indicators and seasonal patterns help them to make plans for activities in their daily lives",
+            "exploring how Aboriginal and/or Torres Strait Islander Peoples use particular concepts of time and weather patterns to explain how things happen in the world",
+            "exploring how people make clothing choices using predictions of weather or knowledge of seasonal changes",
+            "investigating how seasonal changes affect plants and animals, including animals that hibernate and migrate",
+            "recognising the extensive knowledges of daily and seasonal changes in weather patterns and landscape held by Aboriginal and/or Torres Strait Islander Peoples, for example the use of local seasonal calendars to manage natural resources sustainably, such as knowing the best times for hunting specific animals or when certain plants are in season for harvesting"
+          ]
+        },
+        {
+          "code": "VC2S2U08",
+          "strand": "Science Understanding",
+          "subStrand": "Earth and space sciences",
+          "text": "Earth is one of 8 planets in our solar system; observing the sky reveals patterns in the changing positions of the Sun, Moon, planets and stars",
+          "elaborations": [
+            "exploring images, models and representations of the solar system and identifying Earth and other planets, such as images or videos of Earth from space, artworks depicting space, star trail images and physical models of the solar system",
+            "observing that some phenomena in the sky are only visible during the day and others during the night",
+            "creating a class Moon diary across a month, identifying patterns in the changing shape of the Moon and making predictions",
+            "observing and describing short-term and longer-term patterns of events, and regular and irregular events, that occur in the sky, such as the appearance of the Moon and stars at different times of the month or year, the appearance of a full moon, and 'blue', 'blood' and 'super' moons",
+            "exploring how cultural stories of Aboriginal and/or Torres Strait Islander Peoples describe the patterns in the changing positions of the Sun, Moon and stars",
+            "observing the retrograde motion of a visible planet (Mercury, Venus, Mars, Jupiter or Saturn) relative to the background stars each night for a period of time and discussing how this is explained by the oral stories of different Aboriginal and/or Torres Strait Islander groups, for example the Wardaman People's descriptions of this phenomenon as the old ancestor spirits walking the zodiacal path, both forwards and backwards"
+          ]
+        },
+        {
+          "code": "VC2S2U09",
+          "strand": "Science Understanding",
+          "subStrand": "Earth and space sciences",
+          "text": "taking care of Earth's water, land and air involves consideration of reducing, re-using and recycling materials to conserve Earth's resources",
+          "elaborations": [
+            "exploring why the release of helium balloons is illegal in Victoria and the alternatives to releasing balloons when celebrating special occasions",
+            "identifying different objects and materials that can be re-used and/or recycled, and then collecting a range of recyclable materials and re-using them to make an object, such as creating a toy or an object that can move in a particular way",
+            "exploring how compost can reduce the amount of food waste that is sent to landfill",
+            "brainstorming ways of reducing water usage and ways that water can be saved",
+            "exploring and asking questions about how physically changing materials helps people to re-use them in a variety of ways, and decrease waste",
+            "exploring where different foods grow at different times of the year and making a list of foods that are currently in season to reduce 'food miles'"
+          ]
+        },
+        {
+          "code": "VC2S2U10",
+          "strand": "Science Understanding",
+          "subStrand": "Physical sciences",
+          "text": "the way objects move depends on a variety of factors including their size, shape and material",
+          "elaborations": [
+            "observing how toys move, and grouping these based on their movements",
+            "observing and describing movements of different and unusually shaped objects such as blocks, tubes and boiled eggs when rolled down a slope",
+            "comparing the way different-sized, similar-shaped objects such as tennis balls, golf balls, marbles and basketballs roll and bounce",
+            "exploring how the material a ball is made from, such as plastic, foam, cloth or rubber, affects the way it moves",
+            "investigating how the size and shape of Aboriginal and/or Torres Strait Islander Peoples' traditional educational toys for children influence the toys' movement; for example, the ball used in marngrook, a football game played by some Aboriginal groups at gatherings and celebrations, was traditionally played with a possum-skin ball in south-western Victoria, but in some other areas the ball was made from materials such as kangaroo skin"
+          ]
+        },
+        {
+          "code": "VC2S2U11",
+          "strand": "Science Understanding",
+          "subStrand": "Physical sciences",
+          "text": "pushes and pulls are forces that can change an object's movement or shape and can be represented in terms of strength and direction",
+          "elaborations": [
+            "observing and manipulating everyday objects such as playground equipment, toys, windows and doors, and identifying the forces used to move these objects",
+            "investigating how the design of age-appropriate sporting equipment such as paddles, plastic bats and racquets helps to produce stronger pushes and pulls",
+            "recognising that pushing or pulling an object can start or stop its motion, or change its direction of travel",
+            "exploring ways that the shape of modelling dough can be changed when pushed or pulled",
+            "designing playground equipment, toys or games, and representing the push and pull forces involved, using models, digital drawings or role-play",
+            "exploring how traditional Asian toys and games such as a kendama, Daruma Otoshi and hanetsuki are played using a push or a pull"
+          ]
+        },
+        {
+          "code": "VC2S2U12",
+          "strand": "Science Understanding",
+          "subStrand": "Physical sciences",
+          "text": "sound can make materials vibrate and vibrating materials can make sound; different actions can be used to produce sounds of varying pitch and volume",
+          "elaborations": [
+            "identifying how sounds are made, associating some of them with something vibrating, and then investigating how sound energy makes things vibrate, such as when speaking, using tuning forks, observing vibrations produced by a 'twanged' ruler held on a desk, experimenting with different ways of holding or positioning the ruler to produce observably different vibrations and sounds, and observing music speakers",
+            "designing and making instruments that produce different sounds, such as drums, rainsticks, thongophones and box guitars, and using them to build vocabulary such as 'loudness' and 'pitch' to describe the sounds",
+            "exploring different ways to produce sound using familiar objects, and actions such as striking, blowing, scraping, plucking and shaking",
+            "making earmuffs from a variety of different materials to investigate which provides the best insulation against sound",
+            "finding patterns between the pitch of a sound and features of the object that produced it, or between the volume of a sound and the strength of the vibrations that produced it",
+            "discussing situations where echoes are produced and exploring how some people with vision impairment, and animals such as dolphins and bats, use echolocation to locate objects in their environments"
+          ]
+        },
+        {
+          "code": "VC2S2I01",
+          "strand": "Science Inquiry",
+          "subStrand": "Questioning and predicting",
+          "text": "experiences can be used as a basis for posing questions to explore observed patterns and relationships, and to make predictions",
+          "elaborations": [
+            "asking questions about everyday objects and the materials these are made from, such as 'What can shoes be made from?' and exploring materials that can be used to make shoes (e.g. leather, wood, fur, plastic) and materials that cannot be used to make shoes (e.g. glass)",
+            "asking questions that can be explored, such as how animals meet their needs in particular places: 'Where does it shelter? Where does it get water from?'",
+            "posing questions to explore patterns and relationships about the appearance or position of celestial objects in space across time, such as 'I wonder if the Moon will look the same tomorrow or next week as it does today?'",
+            "making predictions before fieldwork, such as about which plants and animals might be observed in the school grounds",
+            "making predictions about explorations, such as 'I think a plant will die if it doesn't get enough water'",
+            "making predictions based on experience, such as about what might occur when tissue paper is pulled with different amounts of force"
+          ]
+        },
+        {
+          "code": "VC2S2I02",
+          "strand": "Science Inquiry",
+          "subStrand": "Planning and conducting",
+          "text": "scientific questions and predictions can be investigated safely by following procedures that have sequenced steps",
+          "elaborations": [
+            "following safe procedures to record a plant's seasonal changes by taking photographs, videos, drawings or making measurements",
+            "exploring different ways of investigating science questions through guided discussion",
+            "following steps in a guided investigation to determine how different objects move when pushed or pulled or suggesting steps for setting up and packing away equipment",
+            "following visual or verbal steps to construct a musical instrument or manipulate a material",
+            "suggesting safe procedures to observe the Sun, and taking measurements such as drawing chalk lines and using a length of string to measure shadows",
+            "suggesting the materials and equipment that could be used to test predictions and measure the loudness of sounds made by different objects"
+          ]
+        },
+        {
+          "code": "VC2S2I03",
+          "strand": "Science Inquiry",
+          "subStrand": "Planning and conducting",
+          "text": "observations are made using the senses and recorded, including informal measurements, using digital tools as appropriate",
+          "elaborations": [
+            "exploring what an observation is, and different ways to make observations, through guided discussion",
+            "safely following instructions to record the touch, smell, sight or sound of materials and explaining why it is not appropriate to taste materials",
+            "using senses (except for taste), binoculars or magnifying glasses to identify plants and animals, and recording observations using numbers, dots or drawings",
+            "using informal measurements to measure and record the change in shape or movement of an object using handspans, blocks, pencil lengths or a length of string",
+            "exploring how digital tools can be used to make and record observations, such as simple clap-o-meter apps that measure sound volume, time-lapse digital photography for observing the apparent movement of celestial objects or slow-motion videos for observing a vibrating ruler"
+          ]
+        },
+        {
+          "code": "VC2S2I04",
+          "strand": "Science Inquiry",
+          "subStrand": "Processing, modelling and analysing",
+          "text": "data and information can be sorted and ordered using provided tables and organisers, and visual or physical models, to show simple patterns",
+          "elaborations": [
+            "using provided tables to record how an object moves in a straight line",
+            "suggesting tables or visual models that could be used to record weather or seasonal changes across days, months or a year",
+            "using, with guidance, provided tables, visual models or physical models to record how far a material can stretch before tearing",
+            "grouping the common features of plants and animals",
+            "finding patterns in the sounds that are made by different objects such as saucepan lids of different sizes or elastic bands of different thicknesses",
+            "sorting and ordering the changing appearance of the Moon to show a monthly cycle"
+          ]
+        },
+        {
+          "code": "VC2S2I05",
+          "strand": "Science Inquiry",
+          "subStrand": "Evaluating",
+          "text": "observations can be compared to predictions and the observations of others, which may lead to further questions being identified",
+          "elaborations": [
+            "comparing observations of weather at different times of day with those of others, and making predictions about weather patterns in the next week",
+            "comparing observations of different ways to physically change a material, such as by cutting and folding different types of paper, and exploring further questions to investigate physical changes to different materials",
+            "identifying differences between observations of plants and animals by different people",
+            "comparing, with guidance, observations with predictions about the way similar and different objects move",
+            "identifying, after exploration, further questions that arise from comparing observations of sound with observations of others and considering if everyone senses sound in the same way",
+            "suggesting, with guidance, reasons for differences between tracking methods recognised by Aboriginal and/or Torres Strait Islander Peoples to identify tracks or plants, and the counting of animals by students"
+          ]
+        },
+        {
+          "code": "VC2S2I06",
+          "strand": "Science Inquiry",
+          "subStrand": "Communicating",
+          "text": "observations, findings and ideas can be shared with others by using everyday and some scientific vocabulary",
+          "elaborations": [
+            "using discussions, circle groups, drawings, blocks, modelling clay, craft materials or paper to share observations of external features of animals and plants",
+            "using everyday language to describe push and pull forces, through role-play, labels, arrows or time-lapse drawings",
+            "using scientific language to describe a collage that represents and displays all the ways that a material can be physically changed"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students explain the role of data in scientific inquiry. They provide examples to explain how needs have been met or problems have been solved through applying scientific knowledge, skills and data.\nStudents classify and compare the characteristics of living, once-living and non-living things. They compare the life cycles of different plants and animals, and describe similarities and differences between parents and offspring at different stages of growth. They identify the roles of organisms in a habitat, and construct food chains. They classify solids, liquids and gases based on observable properties, and describe how heating and cooling can cause a change of state. They relate the use and re-use of materials to the materials' properties. They explain how Earth's resources can be used in a variety of ways. They list sources of water on Earth, identify key processes in the water cycle, and describe how water can cycle through the environment. They distinguish between weather and climate and explain how human activity can impact climate, and how these impacts may be reduced. They identify different sources of heat energy and measure temperature changes that may occur when heat is transferred from one object to another. They identify forces acting on objects and describe the effects of these.\nStudents pose questions to identify patterns and relationships, and make predictions based on observations. They plan investigations using planning scaffolds, identify key components of fair tests and describe how they conduct investigations safely. They use familiar classroom instruments and simple procedures to record observations and results, including formal measurements. They construct representations to organise data and information, and identify patterns and simple relationships. They compare their findings with those of others, assess the fairness of their investigations, propose further questions for investigation and draw conclusions. They communicate observations, findings and ideas for an identified purpose and audience, using scientific vocabulary and digital tools where appropriate.",
+      "contentDescriptions": [
+        {
+          "code": "VC2S4H01",
+          "strand": "Science as a Human Endeavour",
+          "subStrand": "Nature and development of science",
+          "text": "data from observations obtained through scientific inquiry can be used to develop explanations of natural phenomena",
+          "elaborations": [
+            "exploring how farmers use soil tests to determine whether their crops are growing in ideal conditions",
+            "investigating how Aboriginal and/or Torres Strait Islander Peoples used observations about the conduction of heat to determine the best materials to be used as conductors and insulators in ground ovens, for example the Torres Strait Islander Kup Murri earth oven used in traditional feasting ceremonies",
+            "recognising how food scientists use thermometers to monitor and manage the condition of food stored in refrigerators and freezers",
+            "investigating how ecologists use food chain data to develop explanations for decline in numbers of native plants and animals such as the Richmond birdwing butterfly, and to develop strategies to increase their numbers",
+            "exploring how hydrologists use rainfall and water-use data to explain the amount of water flowing in rivers and why this changes over time"
+          ]
+        },
+        {
+          "code": "VC2S4H02",
+          "strand": "Science as a Human Endeavour",
+          "subStrand": "Use and influence of science",
+          "text": "scientific knowledge, skills and data can be used by people to explain how they will meet a need or solve a problem",
+          "elaborations": [
+            "investigating how understanding of life cycles of insect pests such as fruit flies led to effective control strategies",
+            "investigating how engineers test the insulation properties of materials, and how this information is used to design food and beverage packaging, building insulation and clothing",
+            "exploring how knowledge of the properties of plastic has influenced people to change how they purchase, use and dispose of plastic products",
+            "recognising Aboriginal and/or Torres Strait Islander Peoples' knowledges and understandings of evaporation and how the effect of evaporation can be reduced to conserve water, such as by digging flask-shaped wells designed to limit evaporation by creating a narrow entrance",
+            "investigating human-constructed ways to store water such as dams, wells, artificial lakes, irrigation canals, pipes and water towers, and considering why people are encouraged to save and recycle water and to take actions that can be taken to reduce water consumption and waste",
+            "examining how people use knowledge of friction to improve car and bicycle safety on slippery surfaces such as wet or icy roads",
+            "investigating how knowledge of magnetic force is used to sort metals in recycling, mining and food processing"
+          ]
+        },
+        {
+          "code": "VC2S4U01",
+          "strand": "Science Understanding",
+          "subStrand": "Biological sciences",
+          "text": "living things have characteristics that distinguish them from non-living things and things that were once living, including fossils",
+          "elaborations": [
+            "classifying a collection of objects as living, once-living or non-living and explaining their reasoning",
+            "making fossil impressions using natural materials such as sea shells, leaves, flowers and bark, or using plastic or metal dinosaur or animal toys set into clay or modelling dough",
+            "exploring differences between living things, once-living things and products of living things"
+          ]
+        },
+        {
+          "code": "VC2S4U02",
+          "strand": "Science Understanding",
+          "subStrand": "Biological sciences",
+          "text": "plants and animals have different life cycles; offspring are similar, but not identical, to their parents",
+          "elaborations": [
+            "observing and describing differences between metamorphic life cycles of animals, such as those of butterflies, beetles and frogs, and non-metamorphic life cycles of animals, including those of humans",
+            "comparing the physical characteristics of an animal such as a frog or moth with its activity at different stages of its life cycle",
+            "representing stages of a plant or animal's life cycle using drawings, digital photographs, graphic organisers or physical three-dimensional models",
+            "observing photographs of different animals and their offspring, for example purebred and crossbred dog litters",
+            "investigating how Aboriginal and/or Torres Strait Islander Peoples understand the life cycles of certain species, and use that knowledge, for example Aboriginal Peoples' use of grass trees at various stages of the plant's life cycle in ways that support and sustain the growth of the trees and ensures that the plant continues to yield resources such as using the young, soft leaves for food; the older leaves for meat-cutting tools and roofing material; the butt of the tree to construct educational toys called kamma; the dried stem as drill sticks for starting fires; and resin from the tree for waterproofing and as an adhesive"
+          ]
+        },
+        {
+          "code": "VC2S4U03",
+          "strand": "Science Understanding",
+          "subStrand": "Biological sciences",
+          "text": "consumers, producers and decomposers have different roles and interactions within a habitat; food chains can be used to represent feeding relationships",
+          "elaborations": [
+            "describing how animals, including humans, obtain their food from plants and other animals",
+            "observing living things in a local habitat and categorising them as producers, consumers or decomposers",
+            "researching the different types of decomposers and the importance of these within a habitat",
+            "representing feeding relationships of producers and consumers as a food chain and comparing food chains across different habitats",
+            "investigating the impact of introduced predators such as foxes on small mammal species in Australia",
+            "researching how the removal of a food source from within a habitat, such as through an insect or rodent infestation, affects other living things within that habitat"
+          ]
+        },
+        {
+          "code": "VC2S4U04",
+          "strand": "Science Understanding",
+          "subStrand": "Chemical sciences",
+          "text": "solids, liquids and gases have observable properties; adding or removing heat energy leads to a change of state between solids, liquids and gases",
+          "elaborations": [
+            "investigating observable changes of state between solids and liquids, such as investigating ice melting or water freezing in a sealed bag and explaining their observations, or using ice cubes, butter or chocolate to explore how changes of state involve the removal or addition of heat",
+            "holding a balloon near a heat source and observing its inflation, then placing the balloon in a bucket of iced water to observe it deflating",
+            "demonstrating a chemical reaction that shows a change in state, for example reacting baking soda (a solid) with vinegar (a liquid) in a bottle and showing the production of carbon dioxide (a gas) by placing a balloon over the mouth of the bottle and watching the balloon inflate",
+            "observing the properties of substances and classifying the substances as solids (which hold their shape), liquids (which take the shape of their containers) or gases (which expand to fill the available space in a container)",
+            "investigating how changes of state in some materials used by Aboriginal and/or Torres Strait Islander Peoples are important for their use (e.g. beeswax and resins are heated to increase their malleability and subsequently used in the manufacture and repair of implements); to attach decorative materials to the hair, body and regalia; to waterproof items; and to improve the durability and longevity of such items",
+            "exploring how changes from solid to liquid and from liquid to solid can help in the recycling of materials such as glass, aluminium and plastics"
+          ]
+        },
+        {
+          "code": "VC2S4U05",
+          "strand": "Science Understanding",
+          "subStrand": "Chemical sciences",
+          "text": "the properties of natural and made materials, including fibres, metals, glass and plastics, influence their use and re-use",
+          "elaborations": [
+            "exploring vocabulary for describing properties; observing different fibres, metals, glass and plastics; and using appropriate terms to describe, compare and contrast the materials' properties",
+            "investigating familiar objects such as shoes, drink containers and backpacks, examining the combination of materials used to make them and suggesting reasons for those combinations based on properties of materials",
+            "considering how Aboriginal and/or Torres Strait Islander Peoples have used and continue to use materials, such as those used to make tools, clothes and shelter, for different purposes, based on a material's properties",
+            "investigating how changes of state in some materials used by Aboriginal and/or Torres Strait Islander Peoples, such as beeswax and resins, are important for the materials' uses",
+            "designing, building and testing an object or structure such as a tent, lunch box or bird-feeder for a specific purpose",
+            "investigating which materials can be recycled, and researching alternatives for materials such as single-use plastics"
+          ]
+        },
+        {
+          "code": "VC2S4U06",
+          "strand": "Science Understanding",
+          "subStrand": "Earth and space sciences",
+          "text": "rocks, minerals and soils are important Earth resources and have observable properties that enable them to be used in a variety of ways",
+          "elaborations": [
+            "examining different soils from local areas and using magnifying glasses to observe their non-living components, such as pebbles and sand, as well as living things such as plant matter, earthworms and insects, and describing ways that living things, including humans, depend on soils for things such as food production, habitats, and for storing and filtering water",
+            "recognising that minerals are the building blocks of rocks and that the different characteristics of rocks depend on the minerals within them",
+            "exploring the school grounds or a local area and observing or collecting different types of rocks, and describing similarities or differences such as texture, colour, grain and crystal size",
+            "identifying rocks as key components of built and natural environments and recognising uses of minerals, such as for gemstones in jewellery, graphite in pencils and table salt in food",
+            "investigating Aboriginal and/or Torres Strait Islander Peoples' use of different rock and mineral types and how they were and continue to be used, for example the use of igneous rocks for stone blades and sedimentary rocks for grindstones and in pigments",
+            "investigating which rocks or minerals are quarried or mined locally or regionally, and how those resources are used"
+          ]
+        },
+        {
+          "code": "VC2S4U07",
+          "strand": "Science Understanding",
+          "subStrand": "Earth and space sciences",
+          "text": "water is an important Earth resource that originates from various sources; water cycles through the environment by moving through the sky, landscape and ocean, and involves processes including precipitation, evaporation, transpiration, condensation, melting, freezing, crystallisation, infiltration and run-off",
+          "elaborations": [
+            "comparing the distribution of salt water and fresh water on Earth, and recognising that only 2.5% of Earth's water is fresh water, with only a little more than 1.2% of this fresh water available for use as surface water",
+            "recognising that the land, sea and water are central to Aboriginal and Torres Strait Islander Peoples' culture and spirituality and that connection to water includes the responsibility to care for water on Country and Place, particularly in remote areas where water can be scarce",
+            "identifying sources of fresh water (such as rivers, lagoons, lakes, wetlands, groundwater, groundwater currents, aquifers, icebergs, glaciers, ice caps and ice fields) and local water sources and exploring how they change over time, such as rain puddles that evaporate, a local creek that flows faster after rain and a river system that dries out after drought",
+            "exploring a game or simulation of the water cycle, identifying key processes and discussing representations of the water cycle",
+            "identifying everyday examples of precipitation (rain and snow), evaporation (drying of wet washing or paint) and condensation of water (water droplets forming on a cold water bottle)",
+            "exploring where tap water comes from and predicting what happens to water that goes down a drain",
+            "recognising that clouds are tiny water droplets suspended in air, observing a 'cloud in a bottle' demonstrated by a teacher and discussing what conditions are needed for clouds to form and for rain or snow to fall"
+          ]
+        },
+        {
+          "code": "VC2S4U08",
+          "strand": "Science Understanding",
+          "subStrand": "Earth and space sciences",
+          "text": "weather events and climate have impacts on the land, air, water and living things; human activity can affect climate",
+          "elaborations": [
+            "distinguishing between weather patterns over a week, and climate patterns over years, for a selected parameter such as temperature or rainfall",
+            "comparing how human activities such as deforestation, agriculture, urbanisation and pollution can cause changes in weather and climate",
+            "proposing strategies to reduce the effects of human activities such as deforestation, agriculture, urbanisation and pollution on climate",
+            "researching how the Australian climate has changed during the time that people have been on the Australian continent and adjacent islands, including the most recent Ice Age, the Holocene and the Anthropocene, and analysing how people have responded to changing climate"
+          ]
+        },
+        {
+          "code": "VC2S4U09",
+          "strand": "Science Understanding",
+          "subStrand": "Physical sciences",
+          "text": "heat energy can be generated from different sources; temperature changes may happen when heat is transferred from one object to another",
+          "elaborations": [
+            "exploring how we sense heat, and identifying sources of heat such as the Sun, fire, electrical devices and geothermal springs",
+            "recognising that temperature can be measured using a thermometer and, with assistance, measuring what happens when a cold object is placed in direct contact with a warm object, and proposing explanations",
+            "modelling the movement of heat from one object to another using drawing or role-play",
+            "investigating how well heat is transferred by different types of materials such as metals, plastics and ceramics, and identifying how materials are used to keep things hot or cold",
+            "exploring how Aboriginal and/or Torres Strait Islander Peoples developed clothing from animal skins such as possum furs and kangaroo-skin cloaks, which trap heat close to the body and keep the wearer warm, and comparing the thermal properties of these materials with other natural fibres such as wool and cotton",
+            "investigating traditional fire-starting methods used by Aboriginal and/or Torres Strait Islander Peoples and their understandings of the transformation of energy"
+          ]
+        },
+        {
+          "code": "VC2S4U10",
+          "strand": "Science Understanding",
+          "subStrand": "Physical sciences",
+          "text": "forces, including frictional, gravitational, electrostatic and magnetic, can be exerted by one object on another through direct contact or from a distance and affect the motion (speed and direction) of objects",
+          "elaborations": [
+            "investigating different forces, for example the effect of magnets on other magnets and how a magnet does not need to touch an object for the magnetic forces to pull the object, or observing how the pushing force of a liquid enables some objects to float",
+            "exploring the positive and negative effects of friction on everyday experiences, such as how friction causes objects to slow down and perhaps stop, for example examining shoe-sole design and identifying patterns in sole design and use related to friction",
+            "recognising that gravity is the force that pulls all objects towards the centre of Earth and that gravitational force acts on an object regardless of whether it is moving or not moving",
+            "watching a video of astronauts walking on the Moon or dropping objects on the Moon's surface, and discussing the forces that are acting",
+            "investigating the effect of forces on the movement of objects in Aboriginal and/or Torres Strait Islander Peoples' traditional toys and games, for example seeing who can kick a ball made from possum fur or similar materials the highest through direct contact forces after the ball is dropped onto the foot using non-contact gravitational force (as in the game marngrook, which was played in western Victoria) and hitting a ball through direct contact with a bat crafted from a stick on a beach where the frictional force from the sand impacts the speed of the ball (as in the game kokan played by the Mabuiag People)",
+            "exploring how force arrows can be used to represent the direction and magnitude of forces acting on an object"
+          ]
+        },
+        {
+          "code": "VC2S4I01",
+          "strand": "Science Inquiry",
+          "subStrand": "Questioning and predicting",
+          "text": "observations can be used as a basis for posing questions to identify patterns and relationships, and to predict the outcomes of investigations",
+          "elaborations": [
+            "posing questions to explore the relationship involving the distance between magnets and the way the magnets attract or repel each other",
+            "making predictions based on previous observations of potential changes about the mass of ice in a sealed container as the ice melts, such as predicting how quickly ice will melt at different ambient temperatures or predicting whether the mass of ice in the sealed container will change when the ice has melted",
+            "predicting which objects will reach the highest temperature when they are heated",
+            "predicting the effect on food chains when living things are removed from or die out in an area, based on current observations and discussion",
+            "posing questions about why some materials are used more often than others for particular products",
+            "posing questions about substances that are difficult to classify as solids, liquids or gases, such as toothpaste, slime, foam and hair gel"
+          ]
+        },
+        {
+          "code": "VC2S4I02",
+          "strand": "Science Inquiry",
+          "subStrand": "Planning and conducting",
+          "text": "scientific investigations to answer questions or test predictions can be planned and conducted using provided scaffolds, including identifying the attributes of fair tests, and considering the safe use of materials and equipment",
+          "elaborations": [
+            "using an investigation scaffold to plan and identify what to change and what to keep the same when identifying which type of shoe has the greatest or least friction",
+            "using a provided framework or graphic organiser to plan and identify what to change and what to keep the same when measuring if the mass of ice in a sealed container changes when melted",
+            "predicting the interactions of forces in a game or toy design, and building and testing a prototype",
+            "using equipment and demonstrating safe behaviours at field sites when identifying animals in field locations using call or scat identification or pitfall traps, for example wearing personal safety equipment and clothing such as gloves when working with soil",
+            "consulting with the local Aboriginal and/or Torres Strait Islander community to guide the planning of scientific investigations, including safety considerations for field investigations",
+            "predicting effects of changing numbers of producers and consumers, and using a virtual or role-play food chain simulation to explore possible outcomes by running the simulation several times"
+          ]
+        },
+        {
+          "code": "VC2S4I03",
+          "strand": "Science Inquiry",
+          "subStrand": "Planning and conducting",
+          "text": "observations, including formal measurements, can be made and recorded by following procedures to use familiar scaled instruments and digital tools as appropriate",
+          "elaborations": [
+            "using appropriate equipment to make and record observations, for example using digital cameras and audio- or video-recording devices to document the life cycle of a living thing or to compare observations of local water sources at different times of the day or on different days",
+            "using familiar scaled instruments with appropriate increments such as thermometers and measuring cups to make readings of ice or water in insulated containers",
+            "rounding up or down when reading scaled instruments",
+            "collaboratively designing a table to record observations in the form of numerical data, written descriptions, drawings or photographs"
+          ]
+        },
+        {
+          "code": "VC2S4I04",
+          "strand": "Science Inquiry",
+          "subStrand": "Processing, modelling and analysing",
+          "text": "data and information can be organised and represented to identify patterns and simple relationships by constructing tables, graphs and visual or physical models",
+          "elaborations": [
+            "using graphic organisers to compare the properties of solids and liquids",
+            "using virtual or role-play food chain simulations to investigate effects of the changing numbers of producers or consumers in a habitat",
+            "constructing pictorial maps to illustrate the locations of different climates across Australia",
+            "constructing a table that compares the measured distances moved by an object over surfaces that have different frictional forces",
+            "constructing a column graph that records the properties of a range of natural and made materials",
+            "using column graphs to show melting time for ice in containers with different insulating layers"
+          ]
+        },
+        {
+          "code": "VC2S4I05",
+          "strand": "Science Inquiry",
+          "subStrand": "Evaluating",
+          "text": "findings can be compared to those of others, including, as appropriate, whether a test was fair or not, to enable conclusions to be drawn, and may lead to the identification of further questions for investigation",
+          "elaborations": [
+            "comparing findings from role-play or virtual investigations with peers and asking questions about factors that may have led to any differences in findings",
+            "comparing findings, such as about best insulators, with those of others and asking further questions based on findings",
+            "discussing the use of different methods and conclusions when classifying substances that are difficult to classify, such as toothpaste, slime and hair gel",
+            "comparing the findings of water-use surveys between each other's homes and school to identify differences in methods and conclusions",
+            "developing a checklist to ensure that an investigation design is fair, and using the checklist to evaluate the investigation of a peer",
+            "determining how a method can be modified to be more fair"
+          ]
+        },
+        {
+          "code": "VC2S4I06",
+          "strand": "Science Inquiry",
+          "subStrand": "Communicating",
+          "text": "observations, findings and ideas can be communicated for an identified purpose and audience by using scientific vocabulary and digital tools as appropriate",
+          "elaborations": [
+            "representing heat transfer using diagrams, digital drawings, arrows or labels that include scientific vocabulary",
+            "discussing how to communicate scientific findings, for example presenting their results from their investigations of the properties of solids, liquids and gases to share their predictions, methods, results and conclusions with their peers by writing simple reports, producing collages or drawings that represent examples and properties of solids, liquids and gases, or creating a story that involves characters made from different states of matter, for example a character made of water who can turn into ice or steam depending on the situation",
+            "constructing an advertisement for a particular audience that describes why a high-friction surface is appropriate as flooring",
+            "writing a life-cycle story from the perspective of a living thing, including appropriate scientific terms for life stages",
+            "using digital tools to create a poster, song, slideshow or performance to illustrate the causes of soil erosion",
+            "creating an advertisement to promote a new insulated container design to parents of primary-school-aged children"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students describe examples of advances in science achieved by scientists who work individually and in teams, building on the work of others. They discuss examples that illustrate how individuals and communities use scientific knowledge, skills and data to inform their actions and make decisions.\nStudents explain how natural and human-induced changes in the physical conditions of a habitat affect the survival of organisms. They provide examples of how organisms have changed over time and explain how the structural features and behaviours of organisms enable them to survive. They relate the movement and arrangement of the particles present in solids, liquids and gases to their observable properties, and model the particles in different mixtures. They classify and compare reversible and irreversible changes to substances. They model key processes that change Earth's surface. They identify natural hazards and propose human actions that can reduce their impacts. They model the relationship between the Sun and planets of the solar system and explain how the relative positions of Earth and the Sun relate to the observable phenomena of variable day and night length. They identify sources of light and model different pathways of light to explain observed phenomena. They distinguish between electrical insulators and conductors, and identify the role of circuit components in the transfer and transformation of electrical energy.\nStudents make reasoned predictions, describe patterns and test relationships when investigating observable phenomena. They plan different scientific investigations including fair tests, describe how risks and ethical issues associated with investigations have been managed, and identify cultural considerations when planning fieldwork. They use equipment to generate and record data, including repeat trials. They construct representations to organise and process data and information, and describe patterns, trends and relationships. They compare their methods and findings with those of others including identification of possible sources of error, suggest improvements to their own and others' investigations, pose questions for further investigation and select evidence to develop reasoned conclusions. They communicate ideas, findings, patterns, trends and relationships for a specific purpose and audience, including using various presentation formats, scientific vocabulary and digital tools where appropriate.",
+      "contentDescriptions": [
+        {
+          "code": "VC2S6H01",
+          "strand": "Science as a Human Endeavour",
+          "subStrand": "Nature and development of science",
+          "text": "scientific knowledge changes over time, often resulting from collaboration or by building on the work of others, and leads to advances in science",
+          "elaborations": [
+            "researching how the discovery of a biofluorescent flying squirrel led to discoveries of more fluorescent mammals, such as wombats, bilbies, echidnas and bandicoots, as scientists collaborated with other scientists across fields of science and internationally",
+            "researching why European naturalists and scientists first thought the platypus was a fake animal, and how scientists such as those in the Australian Platypus Conservancy are collaborating in ongoing research to understand the features and behaviours of platypuses",
+            "exploring why developing new erosion mitigation techniques such as contour banks and strip-cropping requires the collaboration of geologists, hydrologists and farmers",
+            "researching how contemporary restorative ecology adapts and builds on the traditional ecological knowledges of Aboriginal and/or Torres Strait Islander Peoples",
+            "researching how scientists, manufacturers and farmers collaborated to use compressed gases such as carbon dioxide (CO2) in the development of fire extinguishers, planting crops and paintball",
+            "examining why ecologists collaborate with engineers and computer scientists to develop remote sensing techniques, identify patterns in habitat change and make predictions about the survival of organisms",
+            "constructing a timeline to show how contributions and collaborations of scientists, mathematicians, engineers and astronomers from many countries have advanced ideas about space and the solar system through development of models, gathering of evidence and, more recently, space exploration"
+          ]
+        },
+        {
+          "code": "VC2S6H02",
+          "strand": "Science as a Human Endeavour",
+          "subStrand": "Use and influence of science",
+          "text": "scientific knowledge, skills and data can be used by individuals and communities to identify problems, consider responses and make decisions",
+          "elaborations": [
+            "examining how communities use knowledge of erosion processes to design landscape features that reduce erosion in fragile environments",
+            "examining how knowledge of erosion is used by park rangers to design rules such as keeping to paths and not climbing sandstone, as well as built features such as channel drains on paths, railings and barriers to protect park environments and Aboriginal and/or Torres Strait Islander Peoples' cultural sites",
+            "researching the impacts of light pollution and exploring how communities have used scientific knowledge to reduce light pollution, such as by using covered light bulbs facing downwards in streetlights, automated systems to turn off streetlights, and motion sensors on outdoor lights in homes and in public places",
+            "investigating how people use knowledge of conditions that reduce mould or bacterial growth when considering food packaging and storage",
+            "investigating why underground power cables were developed and how local government authorities use scientific knowledge about power safety when considering converting to underground power",
+            "exploring how communities consider the impact of reversible reactions when designing guidelines about the ability of materials to be recycled"
+          ]
+        },
+        {
+          "code": "VC2S6U01",
+          "strand": "Science Understanding",
+          "subStrand": "Biological sciences",
+          "text": "habitats can be described by their physical conditions; changing the physical conditions of a habitat, including by human activity, may affect the growth and survival of organisms",
+          "elaborations": [
+            "identifying the physical conditions in an aquatic or terrestrial habitat and how they change over time",
+            "investigating how changes to physical conditions such as salinity, soil type, sunlight and temperature affect plant growth",
+            "examining how changes in physical conditions such as temperature, light availability and rainfall affect animals such as corals, honey bees and flying foxes, and predict impacts of these changes",
+            "investigating Aboriginal and/or Torres Strait Islander Peoples' knowledges and understandings of the physical conditions necessary for the survival of certain plants and animals, for example researching the collaborative work of the Aboriginal Peoples of the Murray–Darling Basin wetlands with government and scientific groups to restore the wetlands through water research, planning and management, including reintroducing salt-tolerant native flora to improve ecosystem health and biodiversity",
+            "investigating changes in physical conditions that are the result of human activity, and exploring the impact of these on organisms, such as the impact of urban lighting on nocturnal and migratory animals",
+            "investigating the effect of physical conditions on the growth of bread-mould colonies in sealed plastic bags",
+            "recognising that environmental conditions can affect stages of life, such as ponds drying up, seeds requiring water to germinate, and temperatures being too high or low for eggs to hatch"
+          ]
+        },
+        {
+          "code": "VC2S6U02",
+          "strand": "Science Understanding",
+          "subStrand": "Biological sciences",
+          "text": "organisms have evolved over time, as seen in fossils and scientific records; the structural features and behaviours of living organisms enable them to thrive in their environments",
+          "elaborations": [
+            "identifying physical and behavioural characteristics that enable a plant or animal to survive, such as being able to see in dim light or being nocturnal",
+            "exploring features of plants and animals that enable them to survive in Australia's desert environments, such as those of the bottle tree (boab) and the water-holding frog",
+            "analysing the advantages and disadvantages of particular adaptations, for example having 2 or 4 feet, having different-shaped beaks, having gills/lungs, having coloured/scented flowers or having smooth/hairy leaves",
+            "investigating how camouflage is used by animals to hide from predators and to ambush prey",
+            "using physical or digital simulations to investigate how the shapes of animals' body parts, such as the beak of a particular bird species, influence their ability to find food and survive in a specific environment",
+            "exploring how variation in offspring over time has resulted in animals being more or less able to survive in particular environments, for example how the necks of modern giraffes are longer than those of their ancestors, or the ability of chameleons to change colour and the long hibernation time of eastern pygmy possums",
+            "investigating Aboriginal and/or Torres Strait Islander Peoples' knowledges of the structural features of certain species and how those features can be utilised through biomimicry, for example construction of fishing spears that demonstrate the adoption of stingray defence mechanisms such as the barb on a stingray's tail"
+          ]
+        },
+        {
+          "code": "VC2S6U03",
+          "strand": "Science Understanding",
+          "subStrand": "Chemical sciences",
+          "text": "the observable properties of matter (solids, liquids and gases) can be explained by modelling the motion and arrangement of their particles; mixtures (including solutions) can be formed by combining 2 or more different substances",
+          "elaborations": [
+            "using role-play to model the arrangement and motion of particles in solids, liquids and gases, and exploring, with guidance, ideas about what exists between particles",
+            "using a large plastic syringe to observe the compressibility of air compared with that of liquids, and observing a virtual demonstration of coloured gases being compressed and providing an explanation for the change in colour intensity",
+            "exploring examples that demonstrate that gases have mass, such as blowing air through straws to move objects and using a balance to compare an empty balloon to one filled with air",
+            "investigating mixtures by setting up sensory bins with a variety of materials that can be sorted and mixed, such as beads, rice, pasta, buttons, coins and plastic lids",
+            "identifying common examples of mixtures and solutions in their daily lives",
+            "making lemonade (a solution) by dissolving lemon juice and sugar (solutes) into water (a solvent)",
+            "recognising Aboriginal and/or Torres Strait Islander Peoples' knowledges and understandings of solids, liquids and gases, and how these knowledges are applied in a range of processes and practices, including the use of ochres and in cooking"
+          ]
+        },
+        {
+          "code": "VC2S6U04",
+          "strand": "Science Understanding",
+          "subStrand": "Chemical sciences",
+          "text": "changes to substances may be reversible, in which case the substance may be recovered, or irreversible, in which case new substances are formed; for most substances a change of state or dissolving in water is reversible, while irreversible changes include cooking and rusting",
+          "elaborations": [
+            "discussing what makes a change reversible or irreversible, using everyday examples",
+            "examining the substances produced in cooking and rusting, and comparing them with the original substances",
+            "comparing how the amount of heat energy added may affect whether a change in state or an irreversible change occurs, such as when heating chocolate",
+            "investigating solubility by observing which common substances dissolve in water, for example sand, salt, sugar, oil, metals and plastic",
+            "describing how dissolved substances are reclaimed from solutions",
+            "exploring how reversible changes can be used to recycle materials",
+            "investigating Aboriginal and/or Torres Strait Islander Peoples' knowledges of reversible processes such as the use of resins as adhesives in toolmaking to allow repair and reshaping, and of irreversible processes such as when using fuels for torches"
+          ]
+        },
+        {
+          "code": "VC2S6U05",
+          "strand": "Science Understanding",
+          "subStrand": "Earth and space sciences",
+          "text": "geological processes including weathering, erosion, transportation and deposition can cause slow or rapid changes to Earth's surface",
+          "elaborations": [
+            "identifying types of weathering caused mechanically, such as in wind abrasion, cycles of extreme heat or cold and frost-wedging, and biologically, such as by plants and tree roots",
+            "exploring how erosion can be caused by moving air or moving water and how substances such as surface soil are relocated, and identifying examples of erosion on a local or regional scale",
+            "analysing the difference between weathering and erosion, and comparing the timescales over which these processes can occur",
+            "modelling the effects of erosion on a simulated landscape and exploring factors that mitigate them",
+            "investigating how humans have changed local landscapes and predicting the possible effects of these changes on rates of erosion",
+            "considering how Aboriginal and/or Torres Strait Islander Peoples have been and are impacted by the rapid erosion of sand dunes, and the effect of salt water on culturally significant freshwater swamps"
+          ]
+        },
+        {
+          "code": "VC2S6U06",
+          "strand": "Science Understanding",
+          "subStrand": "Earth and space sciences",
+          "text": "sudden geological changes or extreme weather conditions can affect Earth's surface and atmosphere; the impacts of natural hazards, including earthquakes, volcanic eruptions, wildfires and floods, can be reduced by human actions and technological innovations",
+          "elaborations": [
+            "considering the effects of significant rainfall, such as during the monsoon season, on the transportation and deposition of river sediments in the Asia–Pacific region",
+            "investigating major geological events such as earthquakes, volcanic eruptions and tsunamis",
+            "recognising that earthquakes can cause tsunamis",
+            "considering the effect of drought on living and non-living parts of the environment",
+            "recognising the impact that natural hazards can have on Aboriginal and Torres Strait Islander Peoples' cultural heritage and ways that this can be reduced, for example the impact of bushfires on rock art sites and the impact of severe storms on the erosion of coastal shell midden sites"
+          ]
+        },
+        {
+          "code": "VC2S6U07",
+          "strand": "Science Understanding",
+          "subStrand": "Earth and space sciences",
+          "text": "the force of gravity keeps Earth and other planets in the solar system in orbit around the Sun; cyclic observable phenomena, including variable day and night length, can be related to Earth's tilt, rotation on its axis and revolution around the Sun",
+          "elaborations": [
+            "exploring simulations of the solar system, such as a pocket solar system, to appreciate the distances and relationships between the Sun and planets",
+            "recognising that gravity keeps the planets in orbit around the Sun",
+            "using three-dimensional models or role-play to model how Earth's rotation on its axis causes day and night",
+            "using virtual simulations or real-time views of Earth from space to investigate why different regions on Earth, such as the South Pole, have a long period of sunlight and a long period of darkness during one revolution of Earth around the Sun",
+            "using three-dimensional models to investigate how the tilt of Earth points one hemisphere towards the Sun and the other away at different times of the year, and predicting how this affects the amount of sunlight on the surface of different regions on Earth",
+            "researching Aboriginal and/or Torres Strait Islander Peoples' understandings of the night sky and its use for timekeeping purposes as evidenced in oral cultural records, rock paintings, paintings and stone arrangements"
+          ]
+        },
+        {
+          "code": "VC2S6U08",
+          "strand": "Science Understanding",
+          "subStrand": "Physical sciences",
+          "text": "light can be produced from many sources; light travels in a straight path, can form shadows, and can be absorbed, transmitted, reflected or refracted by objects",
+          "elaborations": [
+            "distinguishing between natural sources of light (such as glow-worms, the Sun and stars) and artificial ones (such as light bulbs and candles)",
+            "investigating the shadows that are formed when light is completely or partially blocked by an object, such as when using a sundial or shadow puppets, and how shadow length changes with the changing position of the Sun",
+            "observing refraction of light using prisms or water droplets and examining the rainbow effect produced",
+            "exploring how hologram videos use the refractive properties of light to create an image that appears to be three-dimensional",
+            "exploring the use of reflection of light by mirrors, such as in periscopes and mirror mazes",
+            "recognising Aboriginal and/or Torres Strait Islander Peoples' understanding of refraction as experienced in spearfishing and in shimmering body paint, and of reflection as evidenced by materials selected for construction of housing"
+          ]
+        },
+        {
+          "code": "VC2S6U09",
+          "strand": "Science Understanding",
+          "subStrand": "Physical sciences",
+          "text": "materials may be electrical insulators or conductors; energy can be transferred and transformed in electrical circuits where the components of a circuit play particular roles in the function of the circuit",
+          "elaborations": [
+            "identifying necessary components for an electric circuit, such as a source of electrical energy; a conducting material such as metal wire, a key or a switch; and a light or electrical device such as a buzzer",
+            "constructing a real or virtual electrical circuit to examine requirements to allow the flow of electricity, including exploring the construction and role of switches",
+            "constructing representations of electrical circuits and their components using accepted conventions",
+            "using electrical circuits and components to demonstrate electrical energy transfer and the transformation of electrical energy into heat, light and sound",
+            "investigating different electrical conductors and insulators, and examining why they may be used",
+            "exploring how electricity is used in homes, and identifying electrical hazards and safety measures used to mitigate these hazards"
+          ]
+        },
+        {
+          "code": "VC2S6I01",
+          "strand": "Science Inquiry",
+          "subStrand": "Questioning and predicting",
+          "text": "investigable questions and reasoned predictions can be used in guiding investigations to identify patterns and test relationships",
+          "elaborations": [
+            "posing questions that can be investigated scientifically, such as 'Do all animals in desert habitats have ways to survive without water?'",
+            "posing investigable questions to identify patterns, such as 'What type of material is the best conductor and what is the best insulator of electricity?'",
+            "making predictions to test relationships, such as whether a particular arrangement of mirrors will enable viewing around corners",
+            "making reasoned predictions about the properties of an unknown solid, liquid or gas",
+            "predicting the relationship between the loudness of a sound and the distance of the sound from its source"
+          ]
+        },
+        {
+          "code": "VC2S6I02",
+          "strand": "Science Inquiry",
+          "subStrand": "Planning and conducting",
+          "text": "repeatable scientific investigations to answer questions can be planned and conducted, including, as appropriate, deciding the variables to be changed, measured and controlled in fair tests, considering potential risks, planning for the safe and ethical use of equipment and materials, and obtaining permissions for investigations conducted on Country and Place or in protected areas",
+          "elaborations": [
+            "considering different ways to undertake investigations, such as researching, using trial and error, experimental testing, field observations, using digital tools to record observations, conducting surveys and using simulations",
+            "using a map or aerial photographs to predict local sites likely to be affected by erosion, and collaboratively planning a field excursion to collect observations",
+            "identifying the variable being tested, the variable being measured and variables that need to be kept the same in their investigation of the amount of heat energy needed to cause a reversible or irreversible reaction",
+            "planning and recording the method used in an investigation about the amount of erosion on slopes so that the method is repeatable",
+            "identifying potential risks to themselves or others when identifying electrical hazards at home and explaining rules for safe processes and use of equipment and materials",
+            "recognising that scientific investigations on or about Country and Place should involve Aboriginal and/or Torres Strait Islander knowledge holders, and that there may be cultural protocols (ethical principles that guide behaviour in particular situations when interacting with Aboriginal and/or Torres Strait Islander Peoples and that are designed to protect Aboriginal and Torres Strait Islander cultural and intellectual property rights) in place restricting or prohibiting access"
+          ]
+        },
+        {
+          "code": "VC2S6I03",
+          "strand": "Science Inquiry",
+          "subStrand": "Planning and conducting",
+          "text": "equipment can be used to observe, generate, measure and record data with reasonable precision for repeated measurements, using digital tools as appropriate",
+          "elaborations": [
+            "recording data using standard units such as the volt, ampere, gram, second and metre, and developing the use of standard prefixes for metric units, such as 'kilo-' and 'milli-'",
+            "using digital tools such as digital thermometers and soil moisture probes to collect data over time, and recording data in spreadsheets",
+            "discussing why precision is important in measurement, and comparing the precision of different class data sets, for example the growth of radish seeds in different soil environments and the length of shadows at different times of the day"
+          ]
+        },
+        {
+          "code": "VC2S6I04",
+          "strand": "Science Inquiry",
+          "subStrand": "Processing, modelling and analysing",
+          "text": "data and information can be organised and processed to show patterns, trends and relationships by constructing representations including tables, graphs and visual or physical models",
+          "elaborations": [
+            "using annotated digital photography or field sketches to describe structural features of plants or animals",
+            "developing a physical model of the Sun and Earth using objects or role-play to describe their relative positions when a place on Earth is in day or night",
+            "organising information in graphic organisers",
+            "using maps to identify patterns in erosion-site locations or aerial photographs to show effects of erosion over time",
+            "representing electrical circuits using virtual simulations or circuit diagrams, and indicating the direction of electricity flow"
+          ]
+        },
+        {
+          "code": "VC2S6I05",
+          "strand": "Science Inquiry",
+          "subStrand": "Evaluating",
+          "text": "methods and findings can be compared with those of others to identify sources of error, to select evidence in support of reasoned explanations and conclusions, and to develop further questions for investigation",
+          "elaborations": [
+            "recognising errors that could have occurred while classifying solids, liquids and gases, such as incorrect measuring or misreading of measurements of volume or mass of gases",
+            "recognising errors that could have occurred during testing of the effects of temperature, light availability and rainfall on plants or animals, including changing too many variables, measuring incorrectly or misreading measurements, and in relation to changes in environmental factors",
+            "discussing the difference between data and evidence when considering weathering, erosion, transportation and deposition, and examining how evidence is selected",
+            "comparing and contrasting data collected by different individuals or groups to discuss similarities and differences in findings, and posing questions for further investigation"
+          ]
+        },
+        {
+          "code": "VC2S6I06",
+          "strand": "Science Inquiry",
+          "subStrand": "Communicating",
+          "text": "scientific ideas, findings, patterns, trends and relationships can be communicated for a specific purpose and audience, using various presentation formats, scientific vocabulary and digital tools as appropriate",
+          "elaborations": [
+            "constructing a persuasive text for local council to argue for the use of an erosion mitigation strategy in a local area",
+            "constructing a scientific report to share findings, such as how plants responded to changes in physical conditions such as temperature and salinity, and using appropriate vocabulary, data representations, units and sentence structures",
+            "exploring whether there is a 'correct' way of representing particles, and creating an animation to teach other students about the motion and arrangement of particles in solids, liquids and gases",
+            "acknowledging and exploring Aboriginal and/or Torres Strait Islander Peoples' ways of representing and communicating understandings of the night sky, and its use in timekeeping, as evidenced in rock paintings, paintings and stone arrangements",
+            "constructing a poster or slideshow comparing everyday examples of reversible and irreversible changes"
+          ]
+        }
+      ]
+    }
+  ]
+}

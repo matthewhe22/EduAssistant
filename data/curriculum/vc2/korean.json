@@ -1,0 +1,573 @@
+{
+  "subject": "Korean",
+  "slug": "korean",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the Korean language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes and discovering how languages are influenced by each other. They explore Korean through play, first imitating sounds and patterns, then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that Korean sounds are represented by Hangeul, and they can match these with words and images, and combine them to create meaning. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken Korean. They expand their repertoire of Korean words and phrases through listening and reading, and then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of Korean using simple metalanguage. They start to develop written competence by copying Hangeul, and then produce the language using simple words and phrases with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the written Korean language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that Korean is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s).",
+      "contentDescriptions": [
+        {
+          "code": "VC2LK2E01",
+          "strand": "Engaging with Korean Language and Culture",
+          "subStrand": "Engaging with Korean language",
+          "text": "notice that Korean looks and sounds different to other languages",
+          "elaborations": [
+            "looking at Hangeul words and listening to Korean words, recognising that Korean is a different language from English",
+            "understanding that Korean is spoken by people in the Korean Peninsula as well as other countries, including Australia",
+            "participating in songs and chants by singing and performing actions, for example, the '가나다라' song and greeting songs",
+            "playing colour-matching games to explore how to describe different colours in Korean, for example, the teacher showing 노란색 colour paper and asking students to find objects of the same colour in the room; cutting papers to make the shapes of Hangeul; talking about the shapes of Hangeul then comparing the shapes to the English and/or another language's alphabet",
+            "exploring the different languages spoken by members of the class, and listening to the different sounds and ways of saying common expressions such as 'Good morning' or 'My name is …'",
+            "responding to imaginative texts, such as stories, rhymes and songs, through play-acting, illustration or movement",
+            "using the numbers 0–10, for example, counting aloud with a teacher; tracing numbers on paper or in the air; making numbers with playdough",
+            "tracing simple words in both Korean and English, noticing similarities and differences",
+            "making a dance routine to represent Hangeul shapes in the order of ㄱㄴㄷㄹ",
+            "sharing what shapes or objects Hangeul letters remind them of (e.g. ㅎ looks like someone wearing a hat; ㅁ looks like a square), and listening to and watching the teacher's description of shapes and colours to draw the same shapes and colours"
+          ]
+        },
+        {
+          "code": "VC2LK2E02",
+          "strand": "Engaging with Korean Language and Culture",
+          "subStrand": "Engaging with Korean language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "singing the sounds of letters or syllable blocks of Hangeul and noticing that the sounds in Korean may be similar to or different from the sounds in English",
+            "singing popular children's songs in Korean and understanding the meanings associated with the English translation, for example, the birthday song or the 'Heads and shoulders, knees and toes' song",
+            "reproducing the sounds and rhythms of Korean rhymes and songs with a teacher by reciting, singing and imitating, for example, '리리리자로 끝나는 말은' 오리, 소리, 다리, 우리, 보따리",
+            "engaging with new sets of vocabulary by making concrete associations with them, such as touching and identifying colours in the classroom, or touching and identifying soft-toy animals and naming them",
+            "discussing likes and dislikes such as colours, animals, foods, sports and hobbies, possibly using images, props or digital prompts",
+            "facilitating turn-taking and sharing by integrating Korean language expressions into aspects of their play with classmates",
+            "rehearsing familiar onomatopoeia in animal sounds, for example, 멍멍, 야옹, 음매, 짹짹"
+          ]
+        },
+        {
+          "code": "VC2LK2E03",
+          "strand": "Engaging with Korean Language and Culture",
+          "subStrand": "Engaging with Korean language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "participating in routine exchanges such as responding to the class roll call, expressing thanks, greeting and taking leave, for example, 네, 아니요, 감사합니다, 안녕하세요, 안녕히 계세요, 안녕히 가세요",
+            "learning how to greet others, using appropriate forms of address and body language, for example, 안녕 with handwaving; 안녕하세요 with bowing",
+            "responding to basic classroom instructions with appropriate actions, for example, 손 드세요 ; 앉으세요 ; 일어 나세요",
+            "exploring different languages and cultures of class members and identifying different ways of expressing common words or phrases, such as yes/no, hello/goodbye",
+            "watching simple clips showing cultural activities and events in Korean-speaking communities and sharing their responses in guided discussions",
+            "participating in simple dialogues through play-acting, using toys and books, and practising greetings",
+            "recognising and making simple requests, for example, 안녕하세요 ; 오이 주세요 ; 바나나 주세요 ; 여기 있어요 ; 안녕히 가세요"
+          ]
+        },
+        {
+          "code": "VC2LK2E04",
+          "strand": "Engaging with Korean Language and Culture",
+          "subStrand": "Engaging with Korean culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "engaging with traditions and customs from Korean-speaking communities, for example, decorating a classroom to celebrate 어린이날 or making a paper drum and participating in a performance for 사물놀이",
+            "sharing words and phrases they know in other languages and cultures with the class",
+            "engaging actively and sharing the enjoyment of language, culture and texts in a range of ways, for example, listening to and responding to stories, cultural displays and experiences",
+            "using gestures, facial expressions and body language through games such as charades, or by incorporating them into stories, plays or songs to enhance meaning",
+            "noticing how local names of streets, places and landmarks can have their origins in language(s) of Aboriginal and Torres Strait Islander Peoples, identifying the meanings of these place names, for example, 'You Yangs' comes from the Wadawurrung words Wurdi Youang, meaning 'big hill', and then discussing the names of Korean landforms that also denote physical characteristics, such as 부산 (Pusan) which has the Sino-Korean meaning of 'Cauldron Mountain'",
+            "recognising that music, dance, food, celebrations and games are connected to culture, such as eating 떡국 (rice cake soup), playing 연날리기 (kite flying game) or 흔들북 (drum) for New year",
+            "making traditional Korean patchwork (조각보) using different coloured paper while practising naming the shapes and colours used in their artwork",
+            "reading Korean folktale picture books written in English and talking about differences and similarities of other famous folktales from around the world"
+          ]
+        },
+        {
+          "code": "VC2LK2C01",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Interacting in Korean",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "exchanging simple greetings using appropriate expressions and body language, for example, 안녕하세요? (with a bow), 반가워요 ; 안녕? (with handwaving) 반가워 , and using Korean words and phrases as greetings or farewell, for example, 안녕하세요? ; 안녕히 가세요 / 계세요 ; 안녕? ; 안녕 / 잘 가 / 잘 있어",
+            "conducting simple conversations about familiar objects, for example, bringing their favourite toy and doing a short show-and-tell; answering simple questions such as 뭐예요? -예요 / 이에요",
+            "talking about themselves and the immediate environment using modelled language, simple sentence structures, familiar vocabulary, resources and supporting gestures, for example, 우리 학교예요. ; 우리 집이에요. ; 여기는 교실이에요. ; 교실에 컴퓨터가 있어요. ; 저는 -예요 / 이에요.",
+            "recognising and responding to simple questions using 네 / 아니요 to express agreement or disagreement, for example, 한국어 공부해요? 네. ; 김치를 좋아해요? 아니요.",
+            "sharing information about themselves or another person, and belongings such as describing a person, for example, 마이클이에요. ; 선생님이에요. ; 김치 좋아해요.",
+            "responding with appropriate actions to simple instructions, such as 따라하세요. ; 일어나세요. ; 앉으세요. ; 인사하세요.",
+            "interacting in routine exchanges using simple sentence structures in a phone conversation role-play (e.g. ... 있어요 / 없어요, and words such as 네 / 아니요), for example, 미나 있어요? 네. ; 철수 있어요? 아니요. ; 연필 있어요? 아니요, 없어요.",
+            "asking about, and expressing likes and dislikes about, topics such as animals, for example, 뭐 좋아해요? 고양이를 좋아해요. ; 곰 좋아해요? 곰 안 좋아해요.",
+            "recognising and using simple spoken exchanges in Korean, including appropriate gestures, for example, how to bow and make hand gestures when saying 안녕하세요?",
+            "recognising differences in greetings and expressions in different social settings, such as with people of different ages and/or different degrees of familiarity, for example, 네, 맞아요. as opposed to 응, 맞아."
+          ]
+        },
+        {
+          "code": "VC2LK2C02",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Interacting in Korean",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "participating in songs, rhymes or chants by singing and repeating with actions, for example, 가나다 노래 ; 안녕 노래",
+            "practising vocabulary, for example, practising high-frequency verbs using flashcards with images and/or written words, and using gestures to accompany the verbs where appropriate",
+            "using a pocket chart with individual words and accompanying images to scaffold sentence building",
+            "using a scaffold to interchange sentence content and using accompanying images to make concrete connections",
+            "making simple requests with chants or rhymes using … 주세요 and expressing thanks using 감사합니다 or 고맙습니다, with students taking turns answering in a play-based activity such as a role-play of shopping at a market, for example, 호떡 하나 주세요. 여기 있어요. 감사합니다.",
+            "participating in shared reading, expressing opinions and responding to questions about a text, for example, 그림 보세요, 뭐있어요? 산 있어요. ; 뭐 보여요? 사람 보여요. ; 좋아요? 네. ; 재미있어요? 아니요. ; 어때요? 좋아요, 재미있어요.",
+            "sharing in the retelling of stories, rhymes and songs through mime or dance in a class performance, or creating a class big book, sequencing main events using key words, phrases and pictures"
+          ]
+        },
+        {
+          "code": "VC2LK2C03",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "demonstrating understanding and early literacy skills by labelling, matching, clicking and dragging, drawing, miming and using gestures to locate and use information, for example, using magnetic pictures with Korean words on a whiteboard to categorise items under different headings",
+            "responding, in Korean or English, to questions about a text, using contextual and visual cues (e.g. listening to a story or viewing a text and identifying and using key words), for example, reading a story that includes body parts and then playing Simon says or labelling a body picture with 머리, 손, 발, 머리",
+            "collecting information from others in a class survey on a topic (e.g. favourite foods), and sharing the information with the class, for example, 안나는 피자를 좋아해요 ; 존은 비빔밥을 좋아해요.",
+            "listening to and viewing different types of simple texts (e.g. songs, chants, advertisements, stories) in Korean, and identifying the text type, recognising that texts are used for different purposes and identifying key features of texts when used for different purposes, for example, the phrase 좋아해요 is used in advertisements rather than in a news story",
+            "responding to texts by sequencing pictures and simple text in the order that events occurred, or by creating a storyboard to retell a story or information",
+            "recognising that gestures and body language are integral to communicating for Aboriginal and Torres Strait Islander Peoples, and showing examples of how gestures and body language are also integral to communicating in Korean and the language(s) they may speak at home",
+            "responding to texts such as digital texts, short videos, stories, rhymes and songs, through play-acting, illustrating, facial expressions or movement, using key words or formulaic phrases"
+          ]
+        },
+        {
+          "code": "VC2LK2C04",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in Korean through play, and discover how languages influence each other",
+          "elaborations": [
+            "noticing formalities in the Korean classroom such as greetings and formulaic expressions, for example, using 안녕하세요? ; 안녕히 가세요 / 계세요 ; 안녕? ; 안녕 ; 잘 가 / 잘 있어",
+            "including some Korean words and expressions in English conversation when it feels appropriate (e.g. 선생님; I don't understand; 도와 주세요), noticing changes in behaviour or body language when speaking Korean",
+            "making traditional Korean toys such as 딱지 and practising using common game terms, for example, 이겼다, 졌다, 내 차례",
+            "playing well-known children's games such as hide-and-seek with classroom objects, or 4-square, but using only Korean expressions to communicate",
+            "performing role-plays, such as buying fruits and vegetables, or acting as a character from a story that is familiar to the class",
+            "playing Korean children's games and learning to respond to simple instructions, for example, '무궁화 꽃이 피었습니다' and '즐겁게 춤을 추다가 그대로 멈춰라'",
+            "teaching a family member some Korean expressions or songs such as '학교 종' or '생일 노래' and reporting to the class what they were able to teach",
+            "following instructions in language games such as 코코코 놀이 or 빙고 게임, for example, 코코코 눈! ; 코코코 입!"
+          ]
+        },
+        {
+          "code": "VC2LK2C05",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Creating text in Korean",
+          "text": "create spoken and written texts using words, familiar phrases and modelled language",
+          "elaborations": [
+            "developing a practice conversation to introduce themselves or others, for example, 안녕하세요? 저는 미나예요. ; 만나서 반가워요. 이 친구는 -예요 / 이에요.",
+            "copying and tracing Hangeul letters, syllable blocks and some simple sentences to match a picture, for example, ㄱ, 가, 강, 강 있어요",
+            "creating bilingual captions in Korean and English, for example, a photographic display with handwritten Korean and English captions to present to parents or others about a class event or personal experience such as a sports day or birthday",
+            "matching bilingual captions/labels to images of Aboriginal or Torres Strait Islander Country or Place locations in their local area or elsewhere in Australia",
+            "creating a bilingual picture dictionary or making flashcards to use in the classroom for objects such as classroom items (e.g. 창문, 책) and classroom instructions (e.g. 들으세요, 읽으세요, 여기 보세요, 조용히 하세요)",
+            "creating a survey or tally of members of the class (e.g. what fruits they like/dislike or their birthday month) and then creating a display wall with pictures and captions",
+            "recreating stories, rhymes or songs through mime, dance or drawing using simple captions, for example, changing the ending of a story or characters within it and presenting the updated story in a performance",
+            "choosing a character, animal or persona and introducing themselves as that character, using modelled language, for example, 저는 인어공주입니다. 바다에 살아요.",
+            "creating and displaying their own or group big books, storyboards or digital texts based on familiar contexts, for example, a digital or physical poster that uses simple descriptive sentences such as 엄마 상어 웃겨요. 아빠 상어 커요."
+          ]
+        },
+        {
+          "code": "VC2LK2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of spoken Korean, and understand how Hangeul sounds are produced and represented",
+          "elaborations": [
+            "comparing Korean and English words used in class to recognise that Korean has its own words, sounds and gestures that are used to make meaning, for example, comparing how Korean students greet teachers and other students to Australian students using English",
+            "deconstructing vowels and consonants in a letter to pronounce a syllable block, for example, deconstructing 감 to ㄱ, ㅏ, ㅁ and sounding 'g', 'a', 'm' to pronounce 감 as 'g-a-m'",
+            "developing pronunciation, phrasing and intonation skills by singing, reciting and repeating words and phrases in context",
+            "recognising familiar loan words originating from other languages (e.g. 피아노, 코알라, 초콜렛, 아이스크림) and practising appropriate Korean pronunciation and emphasising syllable blocks",
+            "differentiating between Korean and English sounds such as comparing names in Korean and English (e.g. 소피 compared with Sophie, 샘 compared with Sam) and using Korean pronunciation when referring to peers in class",
+            "understanding the letter and sound relationship in Hangeul (e.g. ㅁ is pronounced as 'm') by playing a matching game where half of the students in class are given Hangeul letter cards and the other half are given matching English sounds, and the students try to find their matching partner"
+          ]
+        },
+        {
+          "code": "VC2LK2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "differentiating Hangeul from other forms of written expression such as the Roman alphabet, and identifying languages that may be spoken by students within the class",
+            "noticing that the Korean copula alternates between 2 forms, –예요 and –이에요, and using it with their own names, for example, 케이트예요. ; 마이클이에요.",
+            "recognising 요 as the informal polite sentence ending and identifying that it is most commonly used to show mutual respect in Korean-speaking communities, for example, ending sentences with 요 to be respectful and making this a class norm with teachers modelling it (e.g. 따라하세요 and 안녕하세요?)",
+            "comparing different social situations and using the correct reference to themselves, for example, 저 is used to refer to self and 저는 is used when talking to the teacher; 나 is the casual way to refer to self and 나는 is used when talking to friends",
+            "identifying that a noun or a pronoun followed by a basic case marker such as -은 / 는, -이 / 가 or -을 / 를, is a chunk which has a syntactic function in a sentence, for example, 우리는, 우리가 or 우리를",
+            "understanding how to make a simple question using a common question word, for example, 뭐 좋아해요?, and practising changing simple phrases into simple questions using set of rules",
+            "using high-frequency verbs in a variety of contexts"
+          ]
+        },
+        {
+          "code": "VC2LK2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how Hangeul and features of language are used to construct meaning in Korean",
+          "elaborations": [
+            "understanding that Hangeul order is different from Roman alphabetical order, for example, 가, 나, 다, 라, ... as opposed to a, b, c ...",
+            "recognising Hangeul stroke order in writing syllable blocks",
+            "matching Korean and English texts, for example, having name tags of students in both Korean and English",
+            "noticing loan words in Korean originating from other languages, such as English, that have the same meaning, for example, 테니스, 컴퓨터, 코알라, and identifying similarities and differences in how to pronounce and spell those words",
+            "listening to and viewing the Roman alphabet and Hangeul and comparing how sounds are represented",
+            "understanding that syllable blocks are made up of at least one consonant and one vowel and that each syllable takes up one space in a written format, for example, 자전거 has 3 syllables and takes up 3 spaces"
+          ]
+        },
+        {
+          "code": "VC2LK2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that written and spoken Korean has grammatical structures and other language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "reading simple texts in Korean with support, and noticing similarities and differences between Korean and English text structure such as sentence structure and word order, for example, a verb is located at the end of a sentence in Korean",
+            "watching a Korean folktale presented in a language other than Korean or English, and noticing similarities and differences between the sounds of each of the languages",
+            "asking students who speak or are familiar with a language other than Korean or English to say a word, phrase or sentence (e.g. 'I am going to school') and comparing the grammatical structure of those languages to Korean and English, discussing the similarities and differences",
+            "translating words or phrases used in everyday situations from Korean into English and vice versa, noticing how some words do not have a direct translation (e.g. 잘 먹겠습니다, 잘 먹었습니다, 어서 오세요) and thinking about the context, not just the words and phrases when translating",
+            "recognising that spoken Korean uses intonation to show the function of the sentence, whereas punctuation is used in written Korean, for example, using a rising intonation at the end of a spoken question as opposed to a question mark in a written format",
+            "talking about the use of punctuation and intonation in different languages such as Vietnamese and Chinese",
+            "recognising plurals are shown by adding 들 after a noun (e.g. 친구들, 음식들) and identifying that it is similar to adding the letter 's' to English nouns to make them plural",
+            "identifying that punctuation rules are the same in written Korean and written English"
+          ]
+        },
+        {
+          "code": "VC2LK2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how Korean-speaking communities are similar to or different from others",
+          "elaborations": [
+            "noticing that there are different ways to greet people in Korean, recognising similarities with and differences from greetings in their own language(s) and culture(s)",
+            "understanding that the world contains many different languages spoken by many different communities of speakers and that many people in the world speak more than one language, for example, introducing themselves in whichever language(s) they speak; creating a classroom display with a photo or picture of each student in the class and speech bubbles saying 'I speak …' in Korean",
+            "comparing gestures and body language associated with language use in different cultures, for example, bowing and saying 안녕하세요? when greeting in Korean; learning different ways of kissing on the cheek when saying bonjour in French-speaking cultures; understanding hongi, pressing noses, and saying kia-ora in a traditional Māori greeting",
+            "sharing different cultural and religious holidays students celebrate at home and sharing different Korean holidays and holiday greetings",
+            "noticing changes in behaviour or body language when speaking Korean, for example, passing an object to the teacher using 2 hands while saying 선생님, 여기 있어요.",
+            "identifying symbols and colours used by Aboriginal and Torres Strait Islander Peoples and by Korean-speaking communities in a range of contexts, for example, identifying the colours on a range of flags from different countries and communities in Korean, and discussing what the colours represent in English",
+            "naming languages they have encountered in everyday life, for example, conducting a class survey to create a list of the languages spoken by their neighbours or classmates",
+            "showing examples of how gestures and body language are similar or different in Korean to the language(s) they speak at home"
+          ]
+        },
+        {
+          "code": "VC2LK2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where Korean is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "researching the countries where different languages are spoken and discussing why the world has many different languages",
+            "surveying peers about cultural backgrounds or connections, creating a culture representation map for the class and sharing which languages are used at home or with extended families, in television shows students watch, or by extended family members who live in different countries",
+            "identifying Korean foods they have tried or heard of and viewing Korean food products available in Australian supermarkets",
+            "discussing where they heard about Korea and where they heard Korean being used outside of Korean classes",
+            "learning about the Korean diaspora and mapping where Korean communities are located worldwide",
+            "learning about famous Korean singers, actors or sports people and finding out about where they live(d) or work(ed), for example, 손흥민, 방탄소년단",
+            "learning about various language-speaking communities in Australia and talking about different cultural and religious festivals organised and held by these community groups",
+            "listening to popular Korean songs that are translated into English such as 'Baby shark' and sharing any other popular Korean songs or culture they are familiar with",
+            "recognising that languages and communities have different protocols regarding the use of terms of respect, for example, there are ways of addressing Aboriginal and Torres Strait Islander Peoples using familial terms (e.g. Uncle, Aunty) depending on the relationship, and comparing these terms with those in Korean and/or other languages"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use Korean to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts in Hangeul, with support.\nStudents imitate Hangeul sounds, pronunciation and intonation patterns of spoken Korean. They demonstrate their understanding that Korean has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in Korean and make comparisons between Korean and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LK4C01",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Interacting in Korean",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "using simple descriptive language and supporting resources to introduce family members and friends such as identifying relationships (e.g. 우리 엄마예요, 친구예요) or cultural backgrounds (e.g. 호주 사람이에요, 한국 사람이에요)",
+            "viewing images of particular occasions, situations or times of day, and deciding which greetings and expressions would be appropriate for the situation or role-playing an interaction in that scenario",
+            "learning common ways to join and maintain a conversation, such as asking a question (e.g. 질문 있어요) and requesting repetition (e.g. 다시 말해주세요)",
+            "initiating conversation through questions while playing social bingo or other ice-breaker games, for example, 이름이 뭐예요? ;몇 살이에요? ; 뭐 제일 좋아해요?",
+            "practising responses to everyday questions, for example, selecting random questions written on icy pole sticks or generated by a digital program and replying to them using a variety of answers",
+            "participating in real or simulated situations such as borrowing and lending stationery items using simple Korean expressions, for example, 지우개 있어요? 아니요, 없어요. ; 연필 빌려 주세요. 네, 여기 있어요.",
+            "exchanging simple correspondence such as notes, invitations or birthday cards in print or secure digital form (mock text messages), for example, 누가 생일 파티에 와요? 제니요. ; 언제 파티해요? 내일 해요."
+          ]
+        },
+        {
+          "code": "VC2LK4C02",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Interacting in Korean",
+          "text": "participate in activities that involve expressing interests and exchanging information, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "engaging in conversations with peers in group activities, for example, taking turns to ask questions in number or word guessing games (e.g. 몇이에요? ; 숫자 뭐예요? ; 이게 뭐예요? ; 저게 뭐예요?) and giving simple answers (e.g. 사예요 ; 삼이에요 ; 의자예요 ; 책상이에요)",
+            "interacting in shared activities such as games, role-plays and chants/rhymes, for example, students taking turns role-playing the teacher and giving classroom commands",
+            "participating in shared or group reading, taking turns to read, and discussing questions about the content",
+            "making matching cards or digital games to play with peers, using Korean and English words or images regarding topics such as days of the week, months, seasons or vocabulary associated with weather, for example, 여름 (summer), 더워요 (it is hot), 수영복 (swimsuit)",
+            "following instructions given in Korean (e.g. 해 보세요, 들으세요, 쓰세요, 말하세요, 읽으세요) to complete a task such as making a craft item with peers",
+            "collaborating and contributing to presentations such as developing part of a presentation of a Korean item for a class show-and-tell, or creating part of a digital presentation about some aspects of a significant cultural event or celebration, for example, 태극기, 설날 음식, 설날 놀이",
+            "complimenting and encouraging peers while planning an activity, for example, 맞아요. ; 아주 잘했어요. ; 좋은 생각이에요.",
+            "creating a class profile with information collected from peers, for example, creating a chart or database to identify favourite sports, foods or colours",
+            "praising each other (e.g. (아주) 잘했어요) when working collaboratively with the class on tasks that require following instructions, for example, cooking or other step-based activities such as crafts or drawing tasks"
+          ]
+        },
+        {
+          "code": "VC2LK4C03",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "listening to short spoken texts and identifying key information based on context such as identifying the patient's name, age and symptoms in a hospital role-play containing some unfamiliar language, for example, 자, 앉으세요. 이름이 뭐예요? 유미예요. ; 몇 살이에요? 10 살이에요. ; 어디 아파요? 배가 아파요. ; 뭐 먹었어요? 어제 아이스크림을 많이 먹었어요.",
+            "compiling and reporting information such as surveying peers and making a shared class graph to identify favourite sports, foods or colours, for example, 안나는 피자를 좋아해요. ; 마크는 비빔밥을 좋아해요. ; 아루나는 피자를 좋아해요. ; 피자가 제일 인기 있어요.",
+            "collecting information about a topic from various sources of spoken, written, viewed and/or multimodal texts, including online resources such as interviews, surveys or brochures, and answering interview questions about the topic",
+            "learning that Aboriginal and Torres Strait Islander Peoples used symbols to record stories and thinking about how Koreans would have used viewed language, such as symbols, to represent objects or stories before the invention of Hangeul",
+            "obtaining and using factual information from spoken, written, viewed and multimodal texts related to other learning areas to gather information related to a topic, for example, reading or watching video clips about a science experiment method; looking at maps for geography; viewing old paintings for art",
+            "reading and listening to stories or texts and responding by playing silent mime games to represent key characters or vocabulary in the story using body language",
+            "viewing segments of television programs or a role-play of everyday interactions without sound and identifying or guessing what is happening by focusing on movement and gestures, for example, watching an apology, then identifying and practising the matching body language",
+            "listening to, reading and viewing texts such as traditional Korean tales (e.g. '호랑이와 곶감' or '흥부와 놀부') in different formats, including digital texts, and giving a personal response in Korean language, for example, 무서웠어요. ; 정말 재미있었어요. ; 또 얘기해주세요. ; 저도 곶감 좋아해요.",
+            "listening to, reading and viewing stories and responding to questions about characters, ideas and events, for example, illustrating and captioning aspects of the texts"
+          ]
+        },
+        {
+          "code": "VC2LK4C04",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce Korean, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "producing bilingual word lists or flashcards by identifying known Korean words or expressions and relating them to English equivalents and vice versa, noticing that direct translation sometimes cannot be achieved",
+            "viewing photos of people interacting and predicting the dialogue in English and in Korean, identifying what would be similar and/or different between the 2 languages",
+            "participating appropriately in familiar situations such as greetings or self-introductions, and identifying the different uses of language in specific contexts, for example, using polite formal forms 저는 민수예요 and 네 with the teacher; using informal forms 나는 민수야 and 응 with peers",
+            "translating Korean texts such as 노크하세요, understanding how meaning changes when translated into English and how some Korean expressions demonstrate cultural differences",
+            "discovering individual words and expressions that may be interpreted differently by people who do not know Korean culture, for example, 우리 집, 우리 선생님",
+            "watching interactions in Korean and identifying appropriate gestures that accompany language, for example, passing objects with both hands to show respect to a teacher or other adults and elders",
+            "identifying words that change their meaning such as 집 (home/house), depending on context, for example, 집에 가요 (I'm going home) as opposed to 우리 집이에요 (This is our house)",
+            "exploring adjectives and descriptions in Korean and English for familiar topics, identifying words with similarities or differences in meaning between the 2 languages, for example, a description about a friend 수미는 착해요. ; 착한 아이예요. meaning 'kind' in English and 'good, nice, helpful and kind' in Korean",
+            "reflecting on contexts where cultural elements are embedded in language use in Korean, for example, bowing when saying 안녕하세요? and comparing this with equivalent contexts and ways of using verbal and non-verbal language in English and/or other languages"
+          ]
+        },
+        {
+          "code": "VC2LK4C05",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Creating text in Korean",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences, and modelled textual conventions",
+          "elaborations": [
+            "presenting information on topics of possible interest to similar-aged Korean-speaking peers, for example, creating a multimodal presentation about popular sports or pets in Australia",
+            "creating individual texts such as comics, diary entries and short stories, using modelled language to express their own ideas and real or imagined experience (e.g. developing a comic with Korean language dialogue about going shopping to buy a friend's birthday gift), creating and illustrating short informative texts (e.g. creating a caption for a hand-drawn picture, 우리 집 강아지는 갈색이고 귀여워요.)",
+            "creating simple descriptions of geographical characteristics or places of cultural significance in Korean and matching them to known Aboriginal and Torres Strait Islander Country or Place locations in their local area or elsewhere in Australia",
+            "creating a personal profile introducing themselves using spoken or written forms of Korean language to identify their role(s) or membership(s) in groups such as friends, family, class and school, accompanied with illustrations using appropriate labels, for example, 친구, 우리 가족, 우리 반, 우리 학교",
+            "creating and performing alternative versions of stories or action songs, using voice, rhythm and gestures to animate characters, or using drawings or story maps to create visual context, for example, changing the ending of '호랑이와 곶감'",
+            "producing and presenting picture/digital books or short scripted plays or animations that use favourite Korean words and expressions, for example, 우와, 정말 최고예요. ; 정말 싫어요. ; 진짜?",
+            "composing, modifying and completing their own versions of skits, chants and songs with teacher guidance and scaffolding, for example, reinventing the Possum Magic book as Tiger Magic; telling the story of a real or imagined trip around Korea",
+            "designing simple written and multimodal correspondence (e.g. invitations, greeting cards) in print, such as writing a Parents' Day card incorporating formulaic expressions, simple phrases and sentences, and modelled textual conventions, for example, 엄마 아빠 사랑해요. ; 감사해요.",
+            "identifying differences between written and spoken texts, for example, comparing a written Korean folktale such as '심청전' with a spoken or sung version",
+            "comparing how texts within the same mode can differ, such as a birthday card and a set of instructions for a game on a card"
+          ]
+        },
+        {
+          "code": "VC2LK4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations, and use patterns of pronunciation and intonation to form words, phrases and simple sentences",
+          "elaborations": [
+            "practising reading and pronouncing combinations of Hangeul vowels and consonants using chants, songs and language games, for example, bingo, tic tac toe",
+            "discriminating between sounds in Korean, especially the 'tense' and 'soft' sounds, for example, 가 / 카 / 까, 다 / 타 / 따, 바 / 파 / 빠, 사 / 싸, 자 / 차 / 짜, 내 / 네, 너 / 노",
+            "drawing on a piece of paper or mini whiteboards the shape the mouth makes when pronouncing Korean vowels and recognising the similarities of the mouth shapes and Hangeul for each vowel, for example, ㅡ sounds that make the mouth shape flat and long",
+            "imitating modelled intonation, for example, using rising intonation at the end of a question and lowered intonation to answer (e.g. 학생이에요? 네, 학생이에요. ; 어디 가요? 학교에 가요. ; 피곤해요? 아니요, 괜찮아요.)",
+            "identifying how pronunciation and intonation are used in spoken, written and multimodal texts to clarify the function of the same word in an interaction or a sentence, for example, 좋아요. ; 아주 좋아요. ; 좋아요?",
+            "experimenting with Hangeul vowels and consonants to construct and deconstruct a Hangeul syllable block using Hangeul cards or blocks, for example, ㅊ + ㅏ = 차 ; ㄱ + ㅏ + ㅇ = 강 ; ㅅ + ㅜ = 수 ; ㄱ + ㅗ + ㅁ = 곰",
+            "understanding that some consonants are pronounced differently depending on where they are located in a word, for example, ㅅ in 사랑 is pronounced as 's'; ㅅ in 곳 is pronounced as 't'"
+          ]
+        },
+        {
+          "code": "VC2LK4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use Hangeul, modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "recognising similar Hangeul letters or syllable blocks and how they are used correctly, viewing vocabulary cards with pictures, for example, 게 / 개, 에 / 애, 예 / 얘, 고 / 코, 우 / 후",
+            "constructing simple sentences on topics of personal interest with an -아 / 어요 ending, with support such as modelling, scaffolding or cues, for example, 저는 사과를 먹어요.",
+            "recognising there are different counters used to express numbers in Korean and practising using number expressions with appropriate counters, for example, 한 개, 두 마리, 세 명, 아홉 살, 삼 학년",
+            "using common action and descriptive verbs to describe activities and experiences in daily life, for example, 가요, 일어나요, 들어요, 해요, 좋아요, 나빠요, 착해요",
+            "practising using the correct tense when using action and descriptive verbs, for example, 갔어요 / 갈 거예요, 먹었어요 / 먹을 거예요",
+            "using -(으)세요 for different types of sentences such as statements, questions, requests or commands, and recognising the honorific meaning embedded in -세-, for example, role-playing with the teacher using the honorific -세- form and 요 form and learning from the teacher's reaction to the different forms to understand the embedded honorific meaning of -세-",
+            "using the first-person pronouns 저 and 나 to refer to self in a manner appropriate to context, and recognising the honorific meaning embedded in 저, for example, reading part of a sentence and matching 저 or 나, depending on whether the sentence uses the honorific or not",
+            "using and understanding differences in meaning conveyed by phrases using the structure of noun/pronoun+case marker/particle, for example, using the same sentence and switching the case marker/particle to change the meaning of the sentence (e.g. changing 저는 친구를 그렸어요 to 저를 친구가 그렸어요)",
+            "asking simple questions about a person, object or number using basic question words such as 누구 / 누가, 무엇 / 뭐 or 몇, for example, using 누구예요? ; 지금 뭐 해요? ; 지금 몇시예요? to do a survey activity with peers and plan a class party",
+            "understanding that 이게, 저게 and 그게 are demonstrative pronouns, and that they replace other nouns as subjects in sentences, for example, 이게 뭐예요? ; 이게 연필이에요?, and playing a game describing what and where certain items are",
+            "using some adverbs as part of formulaic language, for example, filling in empty comic speech bubbles using phrases such as 지금 / 오늘 / 주말에 뭐 해요? 놀이공원에 가요. ; 아주 재미있어요.",
+            "giving peers recommendations for Korean foods or Korean songs using some adverbs as part of formulaic language, for example, 떡볶이는 조금 매운 음식이에요. ; 이 노래는 신나는 노래예요.",
+            "recognising that 우리 means 'my' when used with certain words (e.g. 우리 가족, 우리 나라), and sharing their ideas/experience about such use"
+          ]
+        },
+        {
+          "code": "VC2LK4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar Korean language structures and features with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "analysing language features typically associated with particular texts, for example, the use of imperatives in games such as 주사위를 던져요 and 말을 움직여요",
+            "recognising Korean in texts such as signage and product labels, and producing their equivalents in English and/or other languages, for example, making an English version of a Korean food product label and emphasising important information such as spice level",
+            "exploring the importance of politeness being explicitly expressed in Korean and comparing this with English and/or other languages, for example, 만나서 반가워요 as opposed to 'Nice to meet you'",
+            "role-playing to practise answering negative questions by agreeing or disagreeing, for example, 안 했어요? 네, 안 했어요. / 아니요, 했어요. ; 밥 안 먹었어요? 네, 안 먹었어요. / 아니요, 먹었어요.",
+            "understanding different aspects of Korean, English and/or other languages and culture such as naming conventions, and explaining differences in word order and spacing, for example, 박준호 as opposed to 'John Smith'",
+            "watching a short video clip and identifying non-verbal expressions that are typical or expected in communication in different cultures, for example, making or avoiding eye contact, bowing, nodding, pointing",
+            "comparing parts of a sentence using metalanguage (e.g. noun, verb, adverb, adjective) to describe words, and noticing the word order and patterns"
+          ]
+        },
+        {
+          "code": "VC2LK4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "viewing a map that shows Aboriginal and Torres Strait Islander languages, noticing how many languages are represented in Victoria, and then learning about the diversity of languages to which students in the classroom have a connection",
+            "discussing the influence of Korean on other languages, and the influence of other languages such as Chinese, Japanese, English, French and Italian on Korean over time, for example, sharing examples of words of Korean origin that have been added to the English dictionary (e.g. hallyu, kimchi, mukbang)",
+            "recognising the different ways of naming, greeting and addressing someone (e.g. by given name or title), including the selective use of honorifics and aspects of body language such as making or avoiding eye contact",
+            "identifying the Aboriginal or Torres Strait Islander Country or Place on which they live and incorporating this into their self-introduction in Korean",
+            "reflecting on different ways of communicating and their appropriateness in Korean or non-Korean contexts, for example, using 언니 / 누나 and 오빠 / 형 for older siblings in Korean compared with using their given names in English as terms of address",
+            "sharing ideas about how some Australian terms and expressions might be understood or confusing from a Korean perspective, such as 'bushwalking' or 'kick a footy'",
+            "creating a 'language portrait' of themselves through the use of a whole-body silhouette, where students represent their personal experiences of language and culture by adding colours, shapes and words within and around the outline",
+            "becoming aware of the variety of gender-inclusive ways in which people can be addressed, including the use of non-gendered expressions such as 그 사람, 그, or 그 분 (honorific) which can apply to all Korean speakers, and if the name is known, referring to them by their name with the suffix 씨 where appropriate"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in Korean that are related to their immediate environment. They use appropriate sound combinations, stress, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in Korean or English, adjusting their responses to context, purpose and audience.\nStudents use modelled structures when creating and responding in Korean. They create texts, selecting and using a variety of vocabulary and sentence structures to suit different contexts. They use conventions appropriate to text type. They apply rules for pronunciation, intonation and stress in spoken language and apply conventions of Hangeul spelling and punctuation in written language. They compare language structures and features in Korean and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LK6C01",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Interacting in Korean",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "interacting to exchange information about experiences (e.g. everyday life and leisure activities), using modelled past- and present-tense forms (e.g. giving a presentation about a photo or object during show-and-tell using some formulaic phrases), for example, -해요 / -했어요 ; 오늘 한국어를 공부해요. ; 어제 영어를 공부했어요.",
+            "using communication strategies such as active listening skills and turn-taking cues to support the exchange of ideas and information, for example, supporting a conversation using appropriate filler words",
+            "comparing likes and dislikes such as 저도 -아 / 어요 and 저도 -았 / 었어요, and providing reasons for opinions using 왜요? and 왜냐하면, for example, 저도 좋아요 ; 저도 좋았어요 ; 저도 축구해요;저도 요리했어요 ; 왜요? 왜냐하면 재미있어요.",
+            "recounting and comparing experiences with family and friends in spoken and written forms such as conversations, diaries or simulated blogs, for example, 토요일에 저는 친구하고 쇼핑했어요. ; 제니하고 시내에 갔어요.",
+            "communicating using a secure, teacher-moderated online environment with Korean-speaking peers living in Korea, using communication strategies such as active listening skills, turn-taking cues and requests for clarification or more detail to support interactions, for example, 미안해요. ; 하지만 잘 몰라요. ; 무슨 말이에요? ; 다시 말해 줘요.",
+            "apologising and expressing concern or sympathy to friends and family members, for example, 괜찮아요? ; 정말 안 됐어요.",
+            "watching Korean television shows to identify Korean people's reactions such as exclamations and body language to show understanding and interest during interactions, and practising using these in class, for example, 우아! ; 이제 알겠어요! ; 진짜요? ; 좋은데요.",
+            "creating and participating in role-plays that replicate everyday situations such as asking for information, purchasing items in a shop, recounting experiences and feelings about everyday life and leisure activities"
+          ]
+        },
+        {
+          "code": "VC2LK6C02",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Interacting in Korean",
+          "text": "participate in activities that involve discussion with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "participating in an activity for a school assembly, school or class event or performance, using language related to place, people, items, time or numbers and creating promotional materials, for example, producing a poster or video to encourage recycling (e.g. 플라스틱을 학교에 가져 오지 말아요. ; 어디에 이거 넣어요?)",
+            "inventing a questionnaire to create a spotlight or profile of a fellow student or teacher and then recording the interview as a video or a written article for the school newspaper or website",
+            "making collaborative decisions and arrangements using Korean, in traditional Korean games, in person or in a secure online environment, such as playing 윷놀이 by counting using 하나, 둘, ordering using 첫 번째, 두 번째, or numbering using 일, 이, …",
+            "responding to feedback to improve a draft, for example, asking for clarification and adding ideas",
+            "composing bilingual texts such as posters, for class or school assembly performances, events or displays, for example, 스승의 날, 어버이날",
+            "asking peers to do something and responding to requests (e.g. 더 크게 말해줘요 ; 다시 말해줘요), or giving instructions for peers to follow by miming the activities, for example, 한복 입어요. ; 쇼핑 가요. ; 김치 먹어요!",
+            "creating and performing role-plays simulating simple transactions involving asking for or giving prices, or asking for goods or services, for example, 얼마예요? 오천 원이에요. ; 아이스크림 한 개 주세요.",
+            "allocating and swapping roles in group activities, for example, 내 차례야. ; 제 차례예요. ; 네 차례가 아니야. ; ... 씨 차례예요.",
+            "discussing and creating shared class rules and procedures, including advice and reminders, for example, 빨리 해요 ; 천천히 해요 ; 숙제했어요?"
+          ]
+        },
+        {
+          "code": "VC2LK6C03",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "viewing images of different Korean primary school classroom environments (e.g. classrooms for different subjects) and using a 'see-think-wonder' thinking routine to reflect on the image, then discussing the similarities and differences between a Korean classroom and their Australian classroom",
+            "viewing subtitled video clips of Korean-speaking people conversing, and identifying new language such as interjections, to record and use with peers, for example, 우와! ; 말도 안 돼! ; 농담하지 마!",
+            "researching topics such as recycling, the water cycle, the solar system, or geographical features of Korea in English, and organising and sharing the information in Korean, using modelled language in print or digital infographics that use both written and viewed text, for example, pictures of Korean recycling symbols with written instructions for how to recycle",
+            "identifying information in different types of texts such as advertisements, conversations, brochures and announcements, and sharing this information with others in another format, for example, presenting a chart of favourite television programs or computer games",
+            "listening to or viewing Aboriginal and Torres Strait Islander authors' stories in English and responding to them using words, formulaic expressions and modelled sentences in Korean, for example, 너무 감동적이에요. ; 가장 기억에 남는 장면은 이 장면이예요.",
+            "listening to, reading and viewing a variety of texts about concepts related to other learning areas such as the arts, humanities and sciences that Korean students at the same level learn in Korean schools",
+            "collecting information and discussing the similarities and differences in the topics learnt in Australian and Korean schools",
+            "listening to and viewing texts such as performances, game shows, music videos and artwork, and sharing opinions or feelings about them using expressions such as 어땠어요? 너무 좋아요. / 너무 좋았어요. ; 정말 재미있어요. / 정말 재미있었어요.",
+            "producing storyboards to sequence key events in different types of informative or imaginative texts, including captions, subtitles or word bubbles to capture moods or feelings, for example, 무서워요, 행복해요, 이상해요",
+            "identifying and comparing perspectives represented in spoken and written informative texts and using formulaic expressions such as 누가 썼어요? ; 누가 말했어요? ; 네 생각에 -이 / 가 맞아요? ; 왜 맞아요?",
+            "comparing favourite characters in stories, plays or cartoons, listing words or expressions associated with their personality such as 착해요, 예뻐요, 멋있어요, 무서워요, 이상해요, and explaining how they can relate to them, for example, 저는 -이 / 가 좋아요, 싫어요"
+          ]
+        },
+        {
+          "code": "VC2LK6C04",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in Korean in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "applying strategies to communicate with adults (e.g. a teacher), such as verbally agreeing with what they say, nodding and politely declining, for example, 네, 그래요, 맞습니다. ; 아니요, 죄송합니다.",
+            "identifying words in Korean and English that cannot be readily translated and clarifying meanings for such words by providing examples, explanations or extra information, for example, recognising and explaining the difference between 벼 (rice as a crop), 쌀 (rice as raw grains), 밥 (cooked rice/meals)",
+            "using bilingual resources for language learning, for example, using glossaries or online dictionaries to find examples and explanations of parts of speech and language use",
+            "reflecting on diverse interpretations of everyday language use in Korean, for example, the possibility that certain phrases such as 어디 가요? and 밥 먹었어요? can be greetings or genuine questions depending on the context",
+            "finding examples of and reflecting on the significance of gestures across cultures, for example, bowing, when to use or avoid eye contact, shaking hands, making a 'V' gesture with 2 fingers, putting hands up at restaurants",
+            "finding signage from their local area, and interpreting and comparing it to signage in Korea, for example, comparing traffic and road signs or signs in public places",
+            "understanding that the Korean language is constantly expanding to include new words and expressions, for example, a growing number of English words being borrowed or adopted into Korean such as 핸드폰 for mobile phone, 노트북 for laptop, 아이쇼핑 for window shopping"
+          ]
+        },
+        {
+          "code": "VC2LK6C05",
+          "strand": "Communicating Meaning in Korean",
+          "subStrand": "Creating text in Korean",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type",
+          "elaborations": [
+            "creating a video clip to present information or ideas to a particular audience (e.g. a virtual tour of the school or classroom for exchange student groups), using empathy to consider elements that may be unfamiliar to Korean students, for example, Australian students generally bring lunch to school; schools start at 9am and finish around 3pm",
+            "using calligraphy pens and ink to write sentences about a topic or theme and designing and/or creating a picture to match",
+            "presenting comparisons between Korea and Australia, for example, population statistics and physical size, daily temperatures, types of housing, pet ownership, popular leisure activities",
+            "designing a recipe incorporating some typical Korean ingredients, using modelled procedural language, for example, 먼저 오이를 잘라요. ; 그리고 참기름을 넣어요. ; 고추장하고 소금을 넣어요. ; 다 같이 섞어요.",
+            "creating simple picture books to read to younger students to demonstrate the benefits of learning Korean",
+            "recording a multimedia presentation or writing a diary about an imaginary trip to Korea, incorporating some famous places and cultural observations, for example, 금요일에 명동에 갔어요. ; 쇼핑하고 맛있는 길거리 음식을 먹었어요. ; 특별한 시간이었어요.",
+            "inventing a board game, focusing on key language, and using expressions for playing games such as creating rules, procedures and instructions, for example, 한 칸 더 가요. ; 두 칸 뒤로 가요."
+          ]
+        },
+        {
+          "code": "VC2LK6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, stress, pronunciation and intonation patterns to develop fluency in words, phrases and sentences",
+          "elaborations": [
+            "pronouncing written Korean words and practising transitioning smoothly to the following syllables, for example, 한국어 as [한구거]; 같이 as [가치] ; 감사합니다 as [감사함니다]; 먹고 as [먹꼬]; 어떻게 as [어떠케]",
+            "understanding that ㅇ is a silent Hangeul and practising carrying the pronunciation over from the previous consonant when ㅇ is present, for example, pronouncing 어린이 as [어리니]",
+            "discriminating between words with different tonal sounds and meanings (e.g. 이 'two' and 이 'tooth'; 밤 'chestnut' and 밤 'night'), by composing a tongue twister and practising other students' tongue twisters",
+            "using rising intonation at the end of a question and responding to it with falling intonation, 학생이에요? 네, 맞아요. / 아니요, 선생님이에요.",
+            "applying reading skills by chunking the phrases in a sentence, for example, recognising the time expression 오늘 오후 세 시에 in 저는 오늘 오후 세 시에 친구하고 수영해요 as a chunk",
+            "examining the Korean computer keyboard system and recognising its patterns (e.g. all Korean vowels are located on the right side of the keyboard), and experimenting with typing out words, with support"
+          ]
+        },
+        {
+          "code": "VC2LK6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "recognising spacing and spelling rules in reading and writing using drawings or comic strips showing how one wrong spacing can change the whole context of the sentence, for example, 소라가 방에 있어요 compared to 소라 가방에 있어요",
+            "comparing spacing and spelling rules in Korean with similar rules in English and/or other languages",
+            "expressing simple events occurring in the past in a show-and-tell in front of peers using -었 / 았-, for example, 캔버라에 살았어요",
+            "recognising the formal polite ending -ㅂ / 습니다 and the casual ending -어 / 아, 해, and understanding the different contexts where different levels of politeness and formality are indicated by verb endings, for example, 미안합니다 compared to 미안해요 compared to 미안해",
+            "playing matching games using both counting systems correctly with counter words such as 장, 잔, 권, 그루, 송이, 원, 시, 분, 번째, ... and reading Arabic numerals with the appropriate pronunciation according to the numbering system that is used, for example, 책 3 권 is read as [책 세 권], 10 살 is read as [열 살], 6 학년 is read as [육 학년], 7 시 is read as [일곱 시]",
+            "using phrases with the noun+particle structure such as –하고, –에서, –(으)로 in a sentence, for example, 친구하고 쇼핑했어요. ; 학교에서 공부해요. ; 펜으로 쓰세요. ; 한국어로 뭐예요?",
+            "using simple negation by placing 안 or 못 before a verb (e.g. 비가 안 와요. ; 김치를 못 먹었어요.), and making a list of actions that fall under 내가 못 하는 것 as opposed to 내가 안 하는 것",
+            "expressing a sequence of events by using conjunctive adverbs (e.g. 그리고) at the beginning of a new sentence, for example, 밥을 먹어요. 그리고 운동을 해요, and using conjunctive suffixes (e.g. -고) in a coordinative structure, for example, using flashcards of action verbs to make one sentence describing sequences of events (e.g. 밥을 먹고 운동을 해요.)",
+            "using the complex structures -(으)ㄴ / 는 것 같다 and –도 되다 in the informal polite ending -어 / 아요 to express opinions and give or request permission, for example, 맞는 것 같아요. ; 가도 돼요?",
+            "recognising how word order and syntactic functions are different in simple sentences in Korean and English, for example, '저는 (subject) 사과를 (object) 먹어요 (verb)' as opposed to 'I (subject) eat (verb) an apple (object)', and playing sentence unjumbling games"
+          ]
+        },
+        {
+          "code": "VC2LK6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare some Korean language structures and features with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "identifying key features in specific text types and comparing these with English and/or other languages' equivalents, for example, the use of –에게 / 께 (to) in salutations and -(으)로부터 / 올림 (from) in closing in a letter, email or invitation",
+            "comparing text types and language features in Korean, English and/or other languages, for example, comparing a recipe for kimchi fried rice in Korean with a recipe for kimchi fried rice in English",
+            "matching Korean loan words to the original words in English and other languages, and exploring their origins, for example, 피아노, 피자, 케밥",
+            "understanding that some words originate from Aboriginal and/or Torres Strait Islander languages from different areas around Australia, for example, 코알라 (koala) from the Dharug word gula, meaning 'no water', or 캥거루 (kangaroo) from the Guugu Yimithirr word gangarru, and comparing these words to English and/or other languages and discussing their historical context",
+            "identifying Korean words used in Australia and sharing their own experiences of using or encountering them, for example, 비빔밥, 태권도",
+            "identifying key details, context and intended audience in a range of familiar texts in Korean (e.g. phone messages, sports reports, takeaway food orders), and comparing how this information is presented in Korean texts with how it is presented in English and/or other language texts, for example, comparing a Korean menu and an English menu from the same Korean food restaurant",
+            "providing feedback to support their peers using metalanguage, for example, editing each other's written or spoken texts and work samples and justifying their reasons"
+          ]
+        },
+        {
+          "code": "VC2LK6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal and non-verbal communication",
+          "elaborations": [
+            "understanding the significance of some social conventions and cultural concepts that young people follow in Korean-speaking communities, for example, 잘 먹겠습니다. ; 잘 먹었습니다. ; 학교 잘 다녀오겠습니다. ; 학교 잘 다녀왔습니다.",
+            "recognising and exploring cultural aspects embedded in or accompanying language use, such as the use of honorifics and different terms of address (e.g. identifying the change in tone and volume of the person's voice when they speak using honorifics as opposed to informal casual language), and discussing how it can show respect",
+            "researching or experiencing traditional Korean celebrations such as 설날 and learning about associated practices (e.g. 윷놀이, 한복, 떡국, 사물놀이), commenting on the experience with descriptions and recommendations (e.g. 한복이 멋있어요. ; 한복을 입어 보세요. ; 사물놀이가 흥겨워요.), and making connections to or comparisons with their own culture",
+            "reflecting on, in Korean or English, how language and culture are expressed through Aboriginal and Torres Strait Islander songs, dances or artworks, considering similarities and differences in an aspect of the cultural expressions of Korean-speaking people or communities",
+            "listening to and viewing stories about the creation of Hangeul, such as stories about 세종대왕, and reflecting on the background or rationale for the creation of Hangeul",
+            "exploring examples of traditional and contemporary images or texts in print and online, and discussing how identity and gender are represented in the language",
+            "discussing traditional methods that Korean speakers use to preserve language and culture; comparing these with examples of cultural artefacts such as dances, songs, artworks, artefacts or traditions, from a range of different cultures; and identifying how they strengthen connections to values and identity, for example, discussing the significance of a possum-skin coat for some Aboriginal Peoples and sharing similarities and differences between cultural artefacts in other languages and cultures represented in the classroom"
+          ]
+        }
+      ]
+    }
+  ]
+}

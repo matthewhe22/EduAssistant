@@ -1,0 +1,273 @@
+{
+  "subject": "Media Arts",
+  "slug": "media-arts",
+  "learningArea": "The Arts",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation",
+      "levels": [
+        "F"
+      ],
+      "achievementStandard": "By the end of Foundation, students describe experiences, observations, ideas and feelings about media arts works they encounter at school, home and in the community. Students develop an understanding of media arts processes. They use play, imagination and experimentation with media arts processes to create media arts works. Students make and share media arts works to communicate their experiences and ideas.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AMAFE01",
+          "strand": "Exploring",
+          "text": "explore how and why media arts are important for people and communities",
+          "elaborations": [
+            "identifying media arts works and experiences in their lives, such as stories they watch or perform, animations, computer games, music videos or screen-based works they encounter at school or in community settings, and sharing ideas and feelings about the works with peers and teachers",
+            "listening to Aboriginal and Torres Strait Islander people talk about the importance of media arts in connecting to people, culture, Country and Place; for example, using resources created or co-created by Aboriginal and Torres Strait Islander Peoples such as film, animation, texts or illustrated stories",
+            "identifying differences and similarities between media arts works from different cultures and societies",
+            "identifying media artists and features of their practice; for example, describing what artists such as photographers, animators and filmmakers do"
+          ]
+        },
+        {
+          "code": "VC2AMAFE02",
+          "strand": "Exploring",
+          "text": "explore ideas in media arts works through play and media arts processes",
+          "elaborations": [
+            "exploring how facial expressions, gestures and other ways of moving, and using voice or language, can communicate emotions and feelings in artworks, for example characters in portraits, cartoons, songs, chants or dances from different times and cultures",
+            "exploring ideas they observe or perceive in a text or image (print or screen); for example, exploring questions such as 'What is happening?' and 'What will happen next?'",
+            "exploring how illustrations/images in a text (fiction or non-fiction, print or screen) help to communicate narrative or information about characters, settings and/or mood",
+            "identifying characters and settings in media arts works"
+          ]
+        },
+        {
+          "code": "VC2AMAFD01",
+          "strand": "Developing Practices",
+          "text": "use play, imagination, experimentation and processes to discover possibilities and develop ideas",
+          "elaborations": [
+            "imagining how the characters in a story they are reading might dress or move, and making still or moving images to communicate ideas about the characters; for example, working in groups and using dramatic play to imagine possibilities about characters and situations or asking questions such as 'What happens next?'",
+            "identifying and describing shapes, colours and lines they observe in their environment and exploring ways to use these shapes creatively; for example, imagining and trialling ways to use geometric and organic shapes and collage techniques, then working collaboratively to form frozen or still images of each shape",
+            "exploring media arts practices such as developing fictional characters in a dramatic story",
+            "exploring their speaking and singing voices and discovering ways they can use their voices/vocalisation to communicate ideas and feelings in an audio production",
+            "improvising movements to explain the steps in a process and then using a camera to capture a series of images or a photographic story that can be displayed in the classroom"
+          ]
+        },
+        {
+          "code": "VC2AMAFC01",
+          "strand": "Creating",
+          "text": "use processes and materials to create media arts works that communicate ideas and explore meaning",
+          "elaborations": [
+            "considering as a class the characters and situations associated with a story and then re-imagining them by asking questions about the story, such as 'What is happening?', 'What happens next?' or 'What else might/could happen?', to support the development of their own sociodramatic or miniature-worlds play",
+            "creating artworks in a range of forms to communicate ideas from lived personal or social experiences; for example, creating scenes showing favourite activities such as games, using digital devices to record their peers playing a game and creating a voice over to describe the action",
+            "creating artworks in response to inspiration from sources such as play, imagination, observation, literature, artworks from their cultures and communities or arts knowledge and skill development activities",
+            "devising a chant or rap that a character or fictional hero from an animated series or text could use to communicate a health or sustainability message, then recording and presenting the chant or rap using media arts technologies",
+            "learning and recording the steps in a process or sequence of events using a digital device, then sharing it live or via a school learning management system",
+            "exploring with sound-recording technology to create and record sound effects to support a story or using computer software to add images in a photo story"
+          ]
+        },
+        {
+          "code": "VC2AMAFP01",
+          "strand": "Presenting",
+          "text": "share their media arts works with audiences",
+          "elaborations": [
+            "sharing their work with their teacher and responding to questions such as 'What is going on in your work?', 'What is happening?' and 'What did you enjoy about making this work?'",
+            "taking images of class arts events, creating an image sequence to document the occasion and adding sound; for example, importing the images to a software program, sequencing the images and using instruments and voices to create a soundscape to accompany the images",
+            "creating a series of images to illustrate a story, recording the images in a sequence using camera software or scanning and recording the story narrative",
+            "designing posters about a class topic explored in another learning area such as healthy eating, the importance of exercise, student wellbeing or sustainability",
+            "using digital devices to record their arts explorations, for example by curating (selecting, ordering) a sequence of digital images (photos) to show the steps in a process, such as images that show how they created new colours by mixing primary colours (using playdough or paint) and adding commentary that expresses their feelings, emotions and understandings"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 1 and 2",
+      "levels": [
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify where they experience media arts. They describe where, when, why and how people across cultures, times, places and/or other contexts experience media arts. Students experiment with media production processes. They use media arts languages and technologies to construct representations in media arts works. Students share their work with audiences in informal settings.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AMA2E01",
+          "strand": "Exploring",
+          "text": "explore where, when, why and how people across cultures, times, places and other contexts experience media arts, including examples of media arts by Aboriginal and Torres Strait Islander Peoples",
+          "elaborations": [
+            "using viewpoints to ask questions about societies and cultures, such as 'What story is this media arts work telling me/us?', 'Who made this media arts work?' and 'Where is this media arts work from?'",
+            "discussing the roles of media artists and what permission means; for example, deciding on a class set of rules for using and creating images, sounds and text in media arts works",
+            "exploring where, when, why and how Aboriginal and Torres Strait Islander Peoples use media arts works to share knowledge about their cultures, for example during celebrations such as National Aboriginal and Torres Strait Islander Children's Day, National Aborigines and Islanders Day Observance Committee (NAIDOC) Week and National Reconciliation Week or to acknowledge significant occasions such as National Sorry Day",
+            "exploring children's television programs, cartoons, animations and child-focused print media, such as an advertisement encouraging people to adopt a healthy lifestyle, created and distributed by Aboriginal and Torres Strait Islander Peoples",
+            "observing how visual, audio and/or interactive elements are used in media arts works created by Aboriginal and Torres Strait Islander Peoples; for example, exploring colours, symbols and patterns used in media arts works with representatives from Aboriginal and Torres Strait Islander communities or through resources that are created or co-created by Aboriginal and Torres Strait Islander Peoples",
+            "exploring media arts works created or co-created by Aboriginal and Torres Strait Islander Peoples that communicate cultural narratives"
+          ]
+        },
+        {
+          "code": "VC2AMA2D01",
+          "strand": "Developing Practices",
+          "text": "explore ways of using media technologies to capture and organise images, sounds, text and/or interactive elements",
+          "elaborations": [
+            "using viewpoints to develop questions as they experiment with media technologies, such as 'What happens if I take a photo close to the object and how does it change as I move further away?' and 'How can I change the meaning of this image by adding different text headings?'",
+            "exploring ways to use digital tools to capture moving images; for example, using a digital device to capture and manipulate short videos, or adding sound effects or voice overs to communicate ideas or a narrative",
+            "experimenting with images; for example, retelling the story of a school day using a digital camera to capture still or moving images and adding appropriate captions",
+            "experimenting with ways that media artists communicate with audiences by combining text, symbols and images"
+          ]
+        },
+        {
+          "code": "VC2AMA2C01",
+          "strand": "Creating",
+          "text": "use media languages and media technologies to construct representations",
+          "elaborations": [
+            "using viewpoints to develop questions when making decisions about the construction of a media narrative, for example asking questions about the use of elements and content, such as 'What images will I keep or delete?' and 'Which image interests me and why?'",
+            "selecting and editing images, sound and text to recreate the characters in well-known stories or songs",
+            "capturing and sequencing images and text to create a media arts work, such as a comic book that retells familiar or traditional stories",
+            "producing and presenting a media arts work for a particular purpose; for example, creating an advertisement that recommends appropriate behaviour when using cameras",
+            "using features such as shot types in media arts works, for example identifying long shots, medium shots and close-ups, and discussing what the shots tell the audience about the story"
+          ]
+        },
+        {
+          "code": "VC2AMA2P01",
+          "strand": "Presenting",
+          "text": "share media arts works with audiences in informal settings",
+          "elaborations": [
+            "collecting and sharing class stories and presenting them in the form of a class news bulletin, with permission of the people involved and observing relevant protocols, such as obtaining permission to use cultural material that belongs to a collective or a cultural group rather than an individual",
+            "presenting a media arts work they have made to the class, a small group or their teacher, explaining how they made it and what they enjoyed about making it",
+            "creating, rehearsing and recording a radio play, then sharing it with another class",
+            "exploring what permission means, for example consulting relevant people such as cultural knowledge holders or using online safety resources, and deciding on a class set of rules for using and creating images, sounds and text in media arts works"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students identify and describe the media languages and media technologies used to construct representations in media arts works they experience and/or produce. They recall where, when, why and how media arts works are created and distributed across cultures, times, places and other contexts, including the work of Aboriginal and Torres Strait Islander Peoples.\nStudents explore and experiment with media arts production processes and technologies. They use media languages, technologies and production processes to communicate ideas, perspectives and meaning in media arts works. Students share their work in informal and formal settings with different audiences using responsible media practice.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AMA4E01",
+          "strand": "Exploring",
+          "text": "explore where, when, why and how media arts are created and distributed across cultures, times, places and other contexts",
+          "elaborations": [
+            "sequencing images, sounds and/or text to clearly establish the beginning, middle and end of a story or event",
+            "identifying meaning and describing representations in media arts works from different social, cultural or historical contexts; for example, examining the different ways traditional stories are retold or the use of stereotypes in advertising",
+            "identifying media conventions in media arts forms and comparing media arts works made for different purposes using appropriate language",
+            "investigating digital or analog storyboarding as a planning tool; for example, preparing a storyboard for a short film, stop-motion animation or comic strip to create a sequence of actions, changes or events"
+          ]
+        },
+        {
+          "code": "VC2AMA4E02",
+          "strand": "Exploring",
+          "text": "explore how Aboriginal and Torres Strait Islander Peoples use media arts to communicate their connection to and responsibility for Country and Place",
+          "elaborations": [
+            "identifying meaning and describing representations in media arts works created or co-created by Aboriginal and Torres Strait Islander Peoples, such as how traditional stories of Aboriginal and Torres Strait Islander Peoples are being retold using media technologies and media arts concepts",
+            "exploring how Aboriginal and Torres Strait Islander Peoples use media arts concepts to communicate their connection to and responsibility for Country and Place, such as use of media languages, media technologies or relationships",
+            "recognising, through media arts, how Aboriginal and Torres Strait Islander Peoples' cultural expressions often contain and communicate connection to and responsibility for Country and Place, such as by naming the Country or Place and Traditional Owners, showing respect to the Traditional Owners and acknowledging their Ancestors",
+            "exploring Aboriginal and Torres Strait Islander Peoples' use of media arts to express connection to and responsibility for Country and Place, such as using screen-based storytelling to maintain language and unique ways of life; communicate knowledge about local seasons and of land, sea, sky and waterways; share cultural stories of cyclic phenomena; and describe how Aboriginal and Torres Strait Islander Peoples perceive themselves and their environment",
+            "collecting and sharing information about media arts works created and produced by Aboriginal and Torres Strait Islander Peoples for occasions such as festivals or ceremonies, and reflecting on how these media arts works can communicate important information or knowledge about Country and Place",
+            "exploring how stories and ideas can communicate connection to and responsibility for Country and Place – for example, by exploring a media arts work that includes images, sound and/or text that communicates the diversity of Aboriginal and Torres Strait Islander Peoples' cultures (such as an interactive map of Aboriginal and/or Torres Strait Islander languages) and considering how media technologies and languages are used to communicate and create a relationship with the viewer"
+          ]
+        },
+        {
+          "code": "VC2AMA4D01",
+          "strand": "Developing Practices",
+          "text": "develop media production skills by exploring ways of shaping ideas using media languages and technologies, including images, sounds, text and/or interactive elements",
+          "elaborations": [
+            "using viewpoints to develop questions to respond to their experiences as they work, such as 'In what ways does the meaning of the image change when I manipulate the sound effects?', 'Where is the suspense happening in this work, and how do I know?' and 'Which images will best represent the story I am trying to tell?'",
+            "experimenting with suspense to create meaning and sustain representations; for example, exploring the way colour, shot type and editing techniques are used to communicate meaning in different genres",
+            "investigating how the conventions of a news story or video game communicate meaning; for example, examining the different ways speech bubble text can be written and how this can reflect the way a character is speaking",
+            "exploring different ways of creating sounds when making a soundscape; for example, creating Foley sounds with available resources, such as rustling plastic for the sound of fire or using different types of shoes and surfaces to create a variety of footstep sounds",
+            "exploring media technologies and languages when creating sound effects or images to convey a mood or the main idea of a story (for example, reviewing captured images, storyboarding, zooming in and out, deleting unwanted images, or adding sound or text to images to create or support a story), considering how different options might be perceived by the intended audience"
+          ]
+        },
+        {
+          "code": "VC2AMA4C01",
+          "strand": "Creating",
+          "text": "use media arts language, production processes and technologies to construct representations that communicate ideas, perspectives and meaning",
+          "elaborations": [
+            "taking a series of photographs that show themselves and their friends as comic-strip superheroes and villains through setting, costume and body language",
+            "creating a soundscape to accompany a moving image that includes Foley sounds and recorded sounds on a variety of devices to explore volume, layering and the use of voice to create a sense of environment",
+            "experimenting with a camera and framing the subject, using shot types, angles and lighting, and experimenting to apply text to still or moving images, such as credits in a title sequence",
+            "filming a short sequence that focuses on conflict by selecting camera angles, lighting and costume to convey meaning without dialogue",
+            "collaborating with others to make a small publication to explore ideas that are significant in their lives, for example a zine or website, using collaged images, drawings and text"
+          ]
+        },
+        {
+          "code": "VC2AMA4P01",
+          "strand": "Presenting",
+          "text": "share media arts works in formal and informal settings considering responsible media practice",
+          "elaborations": [
+            "using appropriate language to discuss the meaning of their own media arts works, for example in writing or through an oral, visual or multimedia presentation",
+            "creating credits in a title sequence and selecting appropriate fonts, colour and length of display time to accompany a screening of a series of moving images that the class has created",
+            "seeking permission to take photos of class members; for example, documenting a school excursion for publication on the school intranet and acknowledging that this permission has been obtained when sharing the work",
+            "considering media concepts, such as audience and relationships, when formatting and laying out a story; for example, using appropriate text conventions for a front-page news story or print advertisement",
+            "using responsible media practices when making media arts works; for example, considering how to represent multiculturalism in a documentary of a community event"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students explain how media languages and media technologies are used in media arts works they construct and experience. They describe how media arts works are created across cultures, times, places and other contexts to communicate ideas, perspectives and meaning. They identify how media arts are used to continue and revitalise cultures, including the work of Aboriginal and Torres Strait Islander Peoples.\nStudents develop ideas in media arts works using media languages and production processes. They select and use media languages, media technologies and production processes to construct representations in media arts works for specific purposes and audiences. Students present their work in informal and formal settings for different audiences using responsible media practice.",
+      "contentDescriptions": [
+        {
+          "code": "VC2AMA6E01",
+          "strand": "Exploring",
+          "text": "explore ways that media languages and media technologies are used to communicate ideas, perspectives and meaning in media arts practices across cultures, times, places and other contexts, including from Aboriginal and Torres Strait Islander Peoples",
+          "elaborations": [
+            "using viewpoints to develop questions that explore the impact of media technologies on the way the audience experiences a story in media arts, such as 'How can I change the meaning of a story by changing or adding a soundtrack to my images?' and 'How can I use framing to demonstrate a power relationship between characters in the story?",
+            "using viewpoints to develop questions to explore new ideas, such as 'How are values demonstrated in this media representation?' and 'Can we judge a culture from popular media images?'",
+            "researching and comparing media representations created in different times and places, and explaining how the context influences the characters, stories and values portrayed in media arts works; for example, comparing representations of family on screen",
+            "investigating characters in media products, considering issues such as stereotyping or bias as background to designing and drawing a character for a particular genre, and considering the appropriate framing, costume, cultural background or sample dialogue",
+            "exploring how context influences the characters, stories and values portrayed in media arts works, discussing the role of media arts works in sharing cultural information about a group of people, and enhancing the value placed on people and the environment"
+          ]
+        },
+        {
+          "code": "VC2AMA6E02",
+          "strand": "Exploring",
+          "text": "explore ways Aboriginal and Torres Strait Islander Peoples use media arts to continue and revitalise cultures",
+          "elaborations": [
+            "using viewpoints to develop questions that explore understandings about themes or issues in media arts works and considering what needs to be investigated further, such as 'What do I know about this story?', 'What do I need to explore further?' and 'What questions would I ask the artist about the story?'",
+            "investigating the ways that Aboriginal and Torres Strait Islander media artists embed themselves and their communities in media arts works in a range of representative forms as a visual declaration of identity, storytelling and resilience",
+            "identifying examples that illustrate how cultural expressions change over time, for example by using available resources published by Aboriginal and Torres Strait Islander communities and organisations",
+            "exploring how and why cultural expressions and media arts works are critical for sharing, maintaining, continuing and revitalising cultures, for example by talking with Aboriginal and Torres Strait Islander people, or accessing published resources accredited by Aboriginal and/or Torres Strait Islander organisations"
+          ]
+        },
+        {
+          "code": "VC2AMA6D01",
+          "strand": "Developing Practices",
+          "text": "develop media production skills through manipulation of media languages and media technologies including images, sounds, texts and/or interactive elements",
+          "elaborations": [
+            "using viewpoints to develop questions when solving problems or making decisions about preferred options, such as 'How can I represent meaning in my story using images and text?'",
+            "experimenting with approaches to capturing and sequencing images and text to create comic books, animations or stop-motion videos that retell familiar stories",
+            "trialling options for applying the conventions of an established genre to an everyday event in order to create an effect",
+            "identifying media codes and conventions that contribute to the formation of genre and style in media arts works and experimenting with ways to use this when planning media arts works"
+          ]
+        },
+        {
+          "code": "VC2AMA6C01",
+          "strand": "Creating",
+          "text": "use media languages, media technologies and production processes to construct media arts works that communicate ideas, perspectives and meaning for specific audiences",
+          "elaborations": [
+            "using viewpoints to develop questions when reflecting on their production process, such as 'How can I adapt and manipulate story principles to make my intention clear?', 'What is working well in my storyboard?' and 'Which areas do I need to improve?'",
+            "producing a media arts work for a particular purpose and audience; for example, creating an advertisement for a new toy or computer game",
+            "designing a storyboard that reflects a key scene in a sequence; for example, storyboarding an opening scene for a film that shows the important camera angles, transitions, edits, voice and soundtrack",
+            "designing and drawing a character in pre-production for a particular genre and considering the appropriate costume, mannerisms and typical dialogue",
+            "developing a plan for a game using multiple levels and obstacles",
+            "considering the codes and conventions of music videos to create their own music video"
+          ]
+        },
+        {
+          "code": "VC2AMA6P01",
+          "strand": "Presenting",
+          "text": "select and present media arts works for specific audiences in informal and formal settings using responsible media practice",
+          "elaborations": [
+            "applying responsible media practices relating to the media arts works they are creating, such as legal, ethical and moral considerations",
+            "planning and presenting a short film they have created to different audiences on different platforms, for example an informal setting in the classroom, a formal setting such as a school assembly or a virtual setting",
+            "planning and presenting their media arts works using internet-based media technologies or interactive elements, for example on curated digital platforms, such as school learning management systems, while considering responsible media practice and online safety, and engaging with audience responses",
+            "considering protocols for representing community or cultural stories in media arts works",
+            "reflecting on how and why understandings of culture were used within their media arts works and their effect on the audience"
+          ]
+        }
+      ]
+    }
+  ]
+}

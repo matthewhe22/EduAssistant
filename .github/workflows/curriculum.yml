@@ -1,17 +1,14 @@
 name: Build curriculum dataset
 
-# Scrapes the Victorian Curriculum F–10 Version 2.0 (Foundation to Level 6) from VCAA
-# and commits data/curriculum/vc2/*.json back to the branch.
+# Downloads the Victorian Curriculum F–10 Version 2.0 CSV export from VCAA
+# (Foundation to Level 6, every learning area and capability), converts it to
+# data/curriculum/vc2/*.json and commits the result to the branch.
 on:
   workflow_dispatch:
-    inputs:
-      domains:
-        description: "Comma-separated VCAA domain codes (blank = discover all)"
-        required: false
-        default: ""
   push:
     paths:
-      - "scripts/curriculum/**"
+      - "scripts/curriculum/download-f10.ts"
+      - "scripts/curriculum/import-csv.ts"
       - ".github/workflows/curriculum.yml"
 
 permissions:
@@ -22,9 +19,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  scrape:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -35,22 +32,25 @@ jobs:
       - run: npm test
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
-      # Version 2.0 for all learning areas: CSV export from f10.vcaa.vic.edu.au
-      - name: Download curriculum CSV (f10 site)
-        id: download
-        continue-on-error: true
+      - name: Download curriculum export (f10.vcaa.vic.edu.au)
         run: npm run curriculum:download
-      # Mathematics Version 2.0 level pages (also gives level descriptions)
-      - name: Scrape level pages
-        run: npm run curriculum:scrape -- --domains=${{ inputs.domains || 'M2' }}
+      - name: Unzip
+        run: unzip -o data/curriculum/raw/vc2-all.zip -d data/curriculum/raw
+      - name: Convert to JSON
+        run: npm run curriculum:import
+      - name: Upload debug output
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: curriculum-debug
+          path: data/curriculum/raw/debug
+          if-no-files-found: ignore
       - name: Commit dataset
-        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/curriculum
+          git add data/curriculum/vc2
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Update Victorian Curriculum 2.0 dataset (F–6)"
-          # The branch may have moved while scraping; data/ is only written here.
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push origin HEAD:"${GITHUB_REF_NAME}"

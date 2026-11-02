@@ -1,0 +1,606 @@
+{
+  "subject": "Hindi",
+  "slug": "hindi",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the Hindi language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes and discovering how languages are influenced by each other. They explore Hindi through play, first imitating sounds and patterns, and then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that Hindi sounds are represented by the Devanāgarī script, and they can match these with words, copying and combining them in increasingly complex ways. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken Hindi. They expand their repertoire of Hindi words and phrases through listening, viewing and reading, and then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of Hindi using simple metalanguage. They start to develop written competence by copying letters and words, and then produce the language with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the spoken and written Hindi language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that Hindi is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s).",
+      "contentDescriptions": [
+        {
+          "code": "VC2LH2E01",
+          "strand": "Engaging with Hindi Language and Culture",
+          "subStrand": "Engaging with Hindi language",
+          "text": "notice that Hindi looks and sounds different to other languages",
+          "elaborations": [
+            "observing that Hindi uses the Devanāgarī script for writing that looks very different from English and has more letters than English",
+            "tracing Hindi letters, or creating letter artwork using tactile materials such as chalk, pipe cleaners, pebbles and noodles, using the Hindi Varnmala chart as a visual support tool",
+            "engaging with mnemonic devices to recall the appearance and sound of letters, associating images or clues with written script and sounds",
+            "experimenting with Hindi sounds and pronunciation through rhyming, singing, imitating, using instruments, music, movement and sound–letter matching games",
+            "understanding that English uses the Roman alphabet, which has 5 vowels and 21 consonants, whereas Hindi uses the Devanāgarī script, which has 13 vowel sounds and 33 consonant sounds, as well as 7 additional sounds",
+            "building phonic awareness by recognising and experimenting with sounds and focusing on those that are new and challenging (e.g. त, थ, ग, घ, ट, द, ध)",
+            "understanding that Hindi letters are pronounced in the same way that they are written",
+            "copying Hindi letters (e.g. आ, ज, ल, स, म) and short words to create simple texts such as labels, captions and descriptions, comparing the appearance of typed and handwritten Hindi in different fonts and styles"
+          ]
+        },
+        {
+          "code": "VC2LH2E02",
+          "strand": "Engaging with Hindi Language and Culture",
+          "subStrand": "Engaging with Hindi language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "listening to words and their pronunciations with meanings, using online apps",
+            "experimenting with Hindi sounds and pronunciation through rhyming, singing, imitating, using instruments, music, movement and sound–letter matching games",
+            "listening to and using onomatopoeia such as sounds of animals or objects, for example, भौ भौ (woof woof), बा बा (baa baa) and म्याऊँ म्याऊँ (meow meow), and comparing these with sounds in English and other languages represented in the class",
+            "exploring the sound and pronunciation of words in Hindi and how the tongue moves when making these sounds (e.g. क, ख, ट, त), and practising by imitating how the tongue and mouth move to produce words with different letters, particularly those that are pronounced differently in other languages such as English",
+            "practising tongue twisters in Hindi with a partner, in a small group or as a class, for example, चंदू के चाचा ने, चंदू की चाची को, चांदनी चौक में,चांदनी रात में, चांदी के चम्मच से चटनी चटाई",
+            "participating in songs and rhymes to imitate the pronunciation in Hindi",
+            "listening to and singing along with well-known Hindi songs and lullabies (e.g. चंदा मामा दूर के; नानी तेरी मोरनी को), and songs from Aboriginal and Torres Strait Islander cultures, such as 'Inanay', recognising that all cultures have children's songs",
+            "exploring intonation patterns, facial expressions and body language to identify the difference between questions and exclamations, for example, comparing क्या as a question and as an exclamation"
+          ]
+        },
+        {
+          "code": "VC2LH2E03",
+          "strand": "Engaging with Hindi Language and Culture",
+          "subStrand": "Engaging with Hindi language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "responding to and using common greetings and gestures relevant to the time of day, for example, नमस्ते; सुप्रभात; शुभरात्रि",
+            "using modelled language to introduce themselves, for example, मेरा नाम ... है। मैं ... साल का/की हूँ।",
+            "singing along to a song containing keywords and simple phrases for greetings, farewells and self-introductions; moving around the classroom as the song is played; and, when the music is paused, finding a partner or peers to say keywords or phrases, for example, नमस्ते; प्रणाम; आप कैसे हैं?",
+            "using a combination of English and Hindi in the classroom and noticing different ways that the teacher and peers may say some greetings, words or phrases, for example, सुप्रभात; जन्मदिन की बधाई",
+            "recognising some words and phrases in Hindi that are associated with cultural beliefs, practices and traditions, for example, the suffix -ji, नमस्ते जी",
+            "greeting and farewelling others, using appropriate expressions and body language, for example, joining both hands and bowing the head while saying नमस्ते, गुरुजी, अध्यापिका जी! आप कैसी हैं? नमस्ते विनोद, and using terms such as फिर मिलेंगे and तुम कैसे हो?",
+            "using appropriate phrases in everyday social interactions for thanking, apologising, and offering well wishes, for example, धन्यवाद; माफ़ कीजिए; बधाई हो; दिवाली की शुभकमनाएँ; ईद मुबारक; जन्मदिन की बधाई",
+            "participating in classroom routines and following instructions such as at the opening and closing of lessons, during roll call, naming the months and days of the week, and describing the weather, for example, है आज सोमवार है; आज बहुत सर्दी है; नमस्ते बच्चों, बैठ जाओ",
+            "using appropriate language to apologise or make excuses, for example, माफ़ कीजिए, मुझे देर हो गयी क्यूँकि …, or to ask for help, for example, मुझे समझ नहीं आया, क्या आप मेरी मदद कर सकते हैं?"
+          ]
+        },
+        {
+          "code": "VC2LH2E04",
+          "strand": "Engaging with Hindi Language and Culture",
+          "subStrand": "Engaging with Hindi culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "exploring culture through visuals such as diagrams, photos, video clips, routines and practices, using thinking routines such as 'see-think-wonder'",
+            "using appropriate body language, facial expressions and simple words when role-playing a shop or shopping trip, playing at home, or dressing up as different characters",
+            "exploring the different languages and cultures of class members and identifying different ways of saying common everyday words (e.g. माँ – माता; पापा – पिताजी; सफ़ेद – उजला-श्वेत; पानी – जल) in languages spoken by students in the class",
+            "locating India on a world map or globe, and recognising that there are different regions with unique cultures and languages",
+            "exploring and labelling different places where Hindi is spoken using a world map",
+            "exchanging simple written correspondence such as greeting cards and notes with peers using modelled language, for example, जन्मदिन की बधाई, मेरे जन्मदिन पर ज़रूर आना",
+            "playing a simple vocabulary-matching game, for example, racing against a partner to find a picture that corresponds to the Hindi word the teacher says or playing picture bingo",
+            "listening to children's stories in Hindi (e.g. मोर के पंख का रहस्य; चतुर सियार) and identifying different characters in the corresponding images or acting out different actions from the story, and then discussing cultural references"
+          ]
+        },
+        {
+          "code": "VC2LH2C01",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Interacting in Hindi",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "sharing some basic personal information such as birthday, nationality, family, year level and place of residence using modelled sentences, for example, मेरा जन्म दिन १ मई को है; मैं गुजरात से हूँ",
+            "exchanging simple written correspondence such as greeting cards and notes with peers using modelled language, for example, जन्मदिन की बधाई, मेरे जन्मदिन पर ज़रूर आना",
+            "using simple statements to share information about likes, dislikes and feelings (e.g. मुझे खेलना पसंद है; मुझे किताबें पढ़ना पसंद नहीं है; मैं उदास हूँ; मैं बहुत ख़ुश हूँ) when playing games to express opinions",
+            "asking and answering questions about each other's daily routines at home and at school, for example, तुम्हेँ अपने खाली समय में क्या करना पसंद है?; मैं आठ बजे सो जाता हूँ; तुम विद्यालय कैसे जाते हो?",
+            "following teacher directions and responding with non-verbal and spoken responses, for example, गोल घेरा बनाओ; बैठ जाओ; बैग ज़मीन पर रखो; कृपया खड़े हो जाओ; धीरे बोलो; ध्यान से सुनो; मेरी ओर देखो; बात मत करो; चुपचाप बैठो; किताब खोलो; जी, ठीक है; अपने अपने आई पैड्स निकालो; पाठ ख़त्म हुआ; अब तुम सब जा सकते हो; कल मिलेंगें",
+            "introducing themselves and important people in their lives, for example, मेरा नाम कविता है। ये मेरी छोटी बहन है, इसका नाम सुधा है। यह पाँच साल की है। यह मेरा मित्र है। इसका नाम रमन है।"
+          ]
+        },
+        {
+          "code": "VC2LH2C02",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Interacting in Hindi",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "using non-verbal cues such as clapping, head gestures, eye contact and facial expressions to convey meaning and understanding and to express emotion",
+            "participating in songs, rhymes and chants, imitating and repeating sound patterns, and experimenting with modelled alliteration and rhyme, for example, मछली जल की रानी है; लकड़ी की काठी; चंदा मामा दूर के; बंदर मामा पहन पाजामा; मैं तो सो रही थी",
+            "participating in traditional and contemporary games (e.g. खो-खो, पिट्ठू, लंगड़ी टांग, गिल्ली-डंडा), which involve repetitive phrases and actions, for example, भागो; जल्दी करो; गेंद पकड़ो; बहुत अच्छे",
+            "participating in activities that involve sorting, guessing, matching or choosing objects, using modelled questions and responses, and phrases such as मैं जीत गया; तुम हार गए; बाहर फेंको; अब कौन ढूँढेगा; चलो दौड़ लगाते हैं; बेईमानी मत करो",
+            "participating in group games that involve turn-taking (e.g. लूडो, साँप-सीढ़ी, कैरम-बोर्ड, शतरंज), using appropriate phrases and expressions",
+            "using the Devanāgarī script or numerals in a group or individually to crack codes, solve puzzles or play spinning-wheel games",
+            "participating in a show-and-tell, describing visual prompts using formulaic phrases, for example, यह मेरी गुड़िया है। इसका नाम तारा है। मेरी गुड़िया मुझे बहुत प्यारी है।",
+            "participating in traditional dances, using modelled language, for example, singing the words to the song as they dance",
+            "using digital tools for matching pictures to words, listening to simple Hindi texts, and tracing the words on the screen"
+          ]
+        },
+        {
+          "code": "VC2LH2C03",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "identifying keywords in songs, chants, rhymes and stories, and responding with the associated gestures or miming the actions",
+            "recognising key information in print or digital texts (e.g. stories, conversations, picture books, video), and responding to questions in Hindi with simple words or phrases (e.g. हाँ / नहीं; सही / ग़लत)",
+            "listening for specific points of information in stories, rhymes or songs, such as तितली रानी; एक कौआ प्यासा था; चूहा और शेर, using intonation, gestures and facial expressions to aid comprehension",
+            "recognising that gestures and body language are integral to communicating in Hindi, and showing examples of how they are also integral to communicating in Aboriginal and Torres Strait Islander languages and/or other language(s) they may speak at home",
+            "locating simple keywords in familiar contexts, such as labels, captions and titles in stories, for example, लाल रंग; चतुर बंदर",
+            "demonstrating comprehension and early literacy skills by labelling, matching, drawing or miming, or by pointing to, clicking or dragging information onscreen, for example, matching pictures to words",
+            "re-enacting parts of a story or pretending to be a character, for example, खट्टे अंगूर; बंदर और टोपीवाला"
+          ]
+        },
+        {
+          "code": "VC2LH2C04",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in Hindi through play, and discover how languages influence each other",
+          "elaborations": [
+            "participating in traditional Hindi songs and rhymes and learning fingerplays to develop language through repetition and memorising the words of the rhyme, for example, एक, एक, एक, नाक हमारी एक। दो, दो, दो, कान हमारे दो।",
+            "practising counting in Hindi and using numbers to count objects, by using counters to match the numbers of items such as flowers or pencils",
+            "playing digital or physical board games (e.g. connect 4, bingo, snakes and ladders) that have been modified to help students to enhance vocabulary",
+            "grouping words into sets (e.g. colour, animals) by using flashcards and/or images, and playing games (e.g. buzz, around the world) to practise sets of vocabulary",
+            "using and manipulating classroom aids such as coloured shapes to create understanding of number, adjectives and word order, for example, मेरे पास २ वृत्त और ३ त्रिभुज हैं।",
+            "exploring and comparing familiar onomatopoeia in Hindi and English (e.g. भौ भौ – woof woof; हिन् हिन् – neigh neigh), and then making the relevant noise when their teacher says the name of the animal, or listening to recordings of animals and saying their names in Hindi",
+            "noticing that many English words such as 'bus' (बस) and 'strawberry' (स्ट्रॉबेरी) are used in Hindi and playing a guessing game such as 'I know a word that starts with the letter ब and is the same in English'",
+            "recognising that many languages have loan words and that many Hindi words are used in English (e.g. yoga, guru, karma), making a list of words from other languages, and then playing sorting games",
+            "participating in a role-play, setting up a fruit and vegetable shop with toy fruits, vegetables and play money"
+          ]
+        },
+        {
+          "code": "VC2LH2C05",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Creating text in Hindi",
+          "text": "create spoken and written texts, copying the Devanāgarī script as appropriate, and using words, familiar phrases and modelled language",
+          "elaborations": [
+            "identifying and reproducing the sounds of the Hindi language in written form, for example, tracing a vowel and imitating the sound that it makes",
+            "creating or reproducing all the matra forms of vowels with consonants such as kaa (का), ki (कि) and kee (की)",
+            "forming letters or creating simple words using playdough or a sand tray",
+            "making a family tree and labelling family members with pictures, tracing paternal and maternal sides of the family tree, and then writing the names used to refer to them, for example, नानी, नाना, मामा, मामी, चाचा, चाची",
+            "labelling images with words, for example, drawing an outline of a human or using a printout of an outline of a body, and then labelling body parts, for example, सिर, आँख, नाक, पैर, हाथ",
+            "sharing information about themselves using Hindi, for example, मेरा नाम … है। मैं … साल की/का हूँ।",
+            "creating and presenting role-plays that include everyday interactions such as greetings and wishes at different times of the day",
+            "creating a print or digital glossary of new Hindi words and phrases with accompanying drawings, pictures or photos, for example, creating a class book for fruits and vegetables or shapes",
+            "creating flashcards in Hindi for daily activities, and then using these to play games",
+            "creating words from known vowels, consonants and clusters, for example, arranging laminated or magnetic letters to form vocabulary and combining them to make phrases"
+          ]
+        },
+        {
+          "code": "VC2LH2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of spoken Hindi, and understand how sounds are produced",
+          "elaborations": [
+            "imitating Hindi pronunciation by singing along with videos or recordings, for example, Hindi alphabet songs such as मछ्ली जल की रानी है or लकड़ी की काठी",
+            "recognising and reproducing the sounds of the 53 Hindi letters, reciting Hindi alphabet rhymes and songs, and matching them with written letters",
+            "practising the pronunciation of sounds in Hindi by viewing short video clips with Hindi subtitles, and then repeating simple words",
+            "observing and practising the movement of the mouth, tongue and vocal cords to make the alphabet clear, such as the set त and थ",
+            "understanding how vowels are pronounced without any obstruction of air coming out of the mouth and how consonants are pronounced with the obstruction of air by different parts of the mouth",
+            "comparing aspirated (e.g. ख, घ, छ, झ, ठ, ढ, थ, ध) and unaspirated letters (e.g. क, ग, च, ज) in the Hindi alphabet by using a chart or flashcards",
+            "comparing the pronunciation of vowel and consonant sounds in Hindi by creating nonsense words using similar-sounding phonemes and then sounding them out",
+            "imitating Hindi sounds and intonation patterns through nursery rhymes or tongue twisters such as क से कबूतर उड़ता जाये or पीतल के पतीले में पपीता पीला पीला",
+            "imitating the sounds, rhythms and intonation of Hindi, using hand gestures and non-verbal cues to assist learning",
+            "noticing how intonation and tone may change the meaning or intent of some words and expressions, for example, अच्छा; रुक",
+            "playing a game to listen to the sound of letters or words, and then clapping out syllables of words; or playing 'I spy', and identifying and saying the correct letters of the spoken words"
+          ]
+        },
+        {
+          "code": "VC2LH2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "building phonic awareness by recognising and experimenting with sounds and focusing on those that are new and initially difficult, for example, त, थ, ग, घ, ट, द, ध",
+            "comparing sounds and phonetic words and noticing their similarities and differences",
+            "developing pronunciation through singing, reciting and mimicking alphabetic elements in context, using the Hindi Varnmala chart for support",
+            "creating a list of words that have similar phonemes, such as फल, कल and जल",
+            "recognising that there are spelling rules in Hindi that affect pronunciation, such as कि and की",
+            "recognising that spelling rules impact meaning, such as दिन (day) and दीन (poor)",
+            "recognising that some letters have nasal sounds, and that these make a difference to the words, for example, चंद and चाँद",
+            "underlining rhyming words in a short text or poem, creating a list of rhyming words, and then comparing with each other",
+            "playing a game on a familiar topic such as fruits or animals to develop and expand vocabulary",
+            "participating in group reading of familiar stories or sensory books in Hindi, repeating keywords and simple descriptions such as नहीं-नहीं, कभी नहीं; मैं यहाँ हूँ!"
+          ]
+        },
+        {
+          "code": "VC2LH2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how the Devanāgarī script and features of language are used to construct meaning in Hindi",
+          "elaborations": [
+            "recognising the name of the script used for Hindi is Devanāgarī, and understanding how punctuation is used to separate different parts of sentences",
+            "recognising that a line on the top of written letters joins them to make words and establishes spaces between words, for example, नल, फल, अब, घर, चलl",
+            "practising the writing of Devanāgarī letters 'hanging' from a line (a headstroke), noticing the difference between this and English, where letters are written above the line, for example, क, ख, ग – a, b, c",
+            "recognising the matra form of vowels, such as ि and ी, and distinguishing long and short vowel sounds, such as ि and ी",
+            "noticing that many Hindi consonants have a half letter, for example, क in पक्का; च in कच्चा",
+            "noticing how simple verbs such as दौड़ना or खेलना change their form in sentences such as मैं दौड़ रहा हूँ, and change according to gender and number, for example, लड़का खा रहा है; लड़कियाँ खेल रहीं हैं",
+            "noticing that adjectives are used to describe people, objects or places and are usually placed before the nouns, for example, सुंदर फूल; प्यारा बच्चा",
+            "identifying people by using singular and plural forms of pronouns, such as मैं – हम; मेरा – हमारा",
+            "exploring letters such as ट (ta), ठ (tha), ड (da), ढ (dha), त (Ta), थ (Th), द (Da) and ध (DH), and how they are pronounced in Hindi",
+            "using simple negation words in familiar contexts, for example, नहीं; मत; ना"
+          ]
+        },
+        {
+          "code": "VC2LH2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that written and spoken Hindi has grammatical structures and other language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "comparing language features in Hindi and English using simple sentences in both languages and identifying similarities and differences, for example, identifying that Hindi does not use upper-case or lower-case letters",
+            "noticing that Hindi and English use some similar punctuation conventions such as commas, full stops and question marks",
+            "exploring the similarities between Hindi and English conjunction words (e.g. और – and; कि – if)",
+            "understanding that Hindi follows the 'subject + object + verb' sentence structure (e.g. राम किताब पढ़ रहा है) and is different from English",
+            "understanding that verb agreement for the masculine and feminine in Hindi are different to English, for example, using खेलता है for boys and खेलती है for girls, through using coded flashcards to make examples",
+            "understanding and responding to imperative verb forms, such as बैठ जाओ; यहाँ आओ; मेरी बात सुनो",
+            "understanding the role of different words for asking questions, such as कहाँ?; कौन?; कब?; क्या?",
+            "recognising simple prepositions such as ऊपर, नीचे, आगे and पीछे",
+            "exploring how to use singular and plural forms (e.g. मैं – हम; मेरा – हमारा)",
+            "becoming aware of grammatical gender, noticing and using masculine or feminine forms of nouns and adjectives, for example, अच्छा लड़का; अच्छी लड़की; अच्छे बच्चे",
+            "becoming aware of different words for male and female relatives such as मौसा – मौसी and नाना – नानी"
+          ]
+        },
+        {
+          "code": "VC2LH2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how Hindi-speaking communities are similar to or different from others",
+          "elaborations": [
+            "participating in cultural experiences and celebrations, such as a cooking demonstration, dressing in traditional clothes or learning a new dance, and using some associated language and gestures, for example, अतिथि देवो भव, पारंपरिक स्वागत नृत्य, पारंपरिक वेश भूषा साड़ी या लहंगा पहनना",
+            "exploring the meaning of culture and how it can involve visible elements such as clothing, food and dance",
+            "comparing language use and cultural gestures in common social situations in Hindi, English and/or other cultures, for example, comparing the language used when giving or receiving a gift or offering congratulations at a significant life event",
+            "noticing how gestures and body language can be similar or different among cultures and how these reflect culture, such as the way Hindi speakers move their heads when saying अच्छा, fold their hands and bow when saying नमस्ते to an older person, touch the feet of older people and say प्रणाम, or hold their earlobe when apologising",
+            "creating a 'language portrait' of themselves through the use of a whole-body silhouette, where students represent their personal experiences of language and culture by adding colours, shapes and words within and around the outline",
+            "identifying symbols and colours used by Aboriginal and Torres Strait Islander Peoples and by Hindi-speaking communities in a range of contexts, for example, identifying the colours in Hindi on a range of flags from different countries and communities and discussing what the colours represent in English",
+            "identifying themselves as belonging to family, community or peer groups, and adding simple sentences as captions to photos, pictures or digitally created multimodal texts to develop visual illustrations of their identity, for example, मैं भारतीय ऑस्ट्रेलियन हूँ, मैं एक लड़का हूँ और पहली कक्षा में पढ़ता हूँ"
+          ]
+        },
+        {
+          "code": "VC2LH2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where Hindi is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "looking at a world map and identifying places where Hindi is spoken, and then discussing those places",
+            "researching the countries where different languages are spoken and brainstorming why the world has numerous languages",
+            "researching different shops and restaurants that use Hindi in Australia, and viewing bilingual signs in Australia",
+            "noticing that many languages from different parts of the world are spoken in Australia, including Hindi, and representing these as a wall display in the classroom",
+            "noticing that different languages and communities use different terms of respect, for example, younger people using respectful terms such as चाचा जी, शिक्षिकाजी and पिताजी in Hindi, and comparing these with other languages or communities",
+            "identifying similarities and differences in gestures and body language between Hindi and languages they speak at home",
+            "recognising that languages and communities have different protocols regarding the use of terms of respect, for example, there are ways of addressing Aboriginal and Torres Strait Islander Peoples using familial terms (e.g. 'Uncle' or 'Aunty') depending on the relationship, and comparing these terms with Hindi and/or other languages",
+            "noticing that there are local Victorian street names that have Hindi names and researching their origin, such as Delhi Street, Merut Street and Lucknow Street"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use Hindi to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts, using the Devanāgarī script as appropriate.\nStudents imitate the sound combinations and rhythms of spoken Hindi. They demonstrate their understanding that Hindi has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in Hindi and make comparisons between Hindi and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' cultural identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LH4C01",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Interacting in Hindi",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "using formal and informal greetings with gestures in a variety of contexts, such as greeting friends or teachers and older people, for example, नमस्ते रवि, तुम ठीक तो हो? जी आंटी, मैं अच्छा हूँ।",
+            "sharing information about themselves, friends or family, for example, राकेश जी मेरी देखभाल करते हैं; मेरा तोता रोटी खाता है",
+            "expressing likes, dislikes, preferences, feelings and emotions, for example, मुझे दाल पसंद हैं; कल सब्जी तीखी थी; काश मुझे जन्मदिन पर चमकीले रंग मिलें; यह मेरा प्रिय पत्थर है; मैं आपसे नाराज़ हूँ",
+            "exchanging details about interests, routines, experiences or leisure activities, for example, आपका जन्म कहाँ हुआ था?; आपके दोस्त कौन हैं?; मुझे फुटबाल खेलना अच्छा लगता है क्योंकि …; क्या तुम घर पर हिंदी बोलते हो?; गृह कार्य करने के बाद मैं खाना खाता हूँ। मैं दाँत साफ कर लेता हूँ; आप अपने पालतू कुत्ते की देखभाल कैसे करते हैं?",
+            "talking about recent community events or special celebrations, using modelled language associated with time, location and frequency, for example, तुम ननिहाल कब जाते हो?; मैं हर साल गर्मी की छुट्टियों में ननिहाल जाता हूँ; आप क्रिसमस कैसे मनाते हैं?; होली के त्योहार में रंग क्यों लगाया जाता है?; सभी लोग बड़े ही उत्साह के साथ बैसाखी मेले जाते हैं।",
+            "asking and responding to familiar questions related to time, place, people and number, using appropriate intonation and formulaic expressions, for example, कितने बजे हैं?; आज कौन सा दिन है?; आपका जन्मदिन कब है?",
+            "engaging in classroom routines and responsibilities, such as being an assistant, giving instructions and information, and responding to requests, for example, रीमा, टीचर की बात पर ध्यान दो; गोंद दराज़ में रखी हुई है; अविक आज कक्षा में नहीं है; सब एक पंक्ति में खड़े हो जाओ!",
+            "using appropriate language to ask for help, direction or information, or to attract attention, for example, यह क्या है?; मुझे समझ नहीं आया; एक बार फिर से दिखाइए; क्या आप मेरी मदद करेंगे?; विद्यालय का खेल-दिवस कब है?; मैदान किस तरफ है?",
+            "praising and encouraging each other during learning activities, for example, बहुत बढ़िया!; बुरा नहीं है; ठीक-ठाक है",
+            "exchanging different types of written and digital correspondence in secure, teacher-moderated online environments, such as notes, messages, greeting cards or invitations, using modelled language, for example, नए साल की बधाई; राखी की शुभ कामनाएँ; ईद मुबारक; तुम्हें भी, शिक्षक दिवस शुभ हो"
+          ]
+        },
+        {
+          "code": "VC2LH4C02",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Interacting in Hindi",
+          "text": "participate in activities that involve expressing interests and exchanging information with others, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "using questions and active listening skills, and interpreting non-verbal cues, when working collaboratively and contributing ideas, for example, आपका क्या विचार है? आप ने कहा कि …",
+            "participating in a role-play or skit, such as buying items or ordering food, using props such as play money and dress-up clothes, for example, यह गोभी कितने की है?; आप दस रुपए दीजिए; तुमने एक डॉलर कम दिया; मुझे दही-वड़े खाने हैं",
+            "engaging in group games inside and outside the classroom (e.g. खो-खो, आँख-मिचौनी, एकाधिकार, लूडो), using associated language, taking turns and sharing, for example, अब तुम भागो; सब छिप गए क्या, मैं ढूँढने आ रही हूँ; शीला और दिया एक गुट में हैं",
+            "following procedures or giving instructions for activities such as cooking, craft activities or science experiments, using language forms such as imperative verbs and measurement terms, for example, 100 ग्राम आटा; सबसे पहले पानी मिलाओ; कढ़ाई में तेल गरम करो; एक चम्मच नमक डालो; गोल कागज़ काटो; बीच से मोड़ो; धागे से बाँधो",
+            "interacting, giving feedback and encouraging each other during collaborative learning activities, for example, मुझे किताब दो; क्या यह सही है?; अपने हिस्से का काम जल्दी समाप्त करो; अगला शब्द तुम पढ़ो; बहुत बढ़िया!; बुरा नहीं है; ठीक-ठाक है; तुमने बहुत अच्छा बोला",
+            "creating a show-and-tell roster with a weekly theme such as a favourite toy, found item or family member's profession, for example, यह मेरी पसंदीदा गुड़िया है, जब मैं पैदा हुई थी तब मिली थी",
+            "assisting in planning an item for a school assembly, another class or the community, discussing roles and responsibilities, for example, थोड़ा मैं लिखता हूँ, बाकी तुम लिखो; पहले मैं बोलता हूँ फिर तुम बोलो; वाह! यह अच्छी बात है। क्या तुम बाजे पर काम करना चाहते हो?",
+            "working together to design posters, promotional material or invitations for an activity such as a cultural event or a visit to a region of India, for example, आप सब होली के कार्यक्रम मे ज़रूर आइए; दिवाली मेला इस रविवार को है; ताजमहल कहाँ बना हुआ है?",
+            "making shared decisions about content, design and digital tools when creating displays or posters for special events such as स्वतंत्रता दिवस, पर्यावरण दिवस, वार्षिक खेल दिवस and स्वच्छता अभियान"
+          ]
+        },
+        {
+          "code": "VC2LH4C03",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "accessing authentic, simple print or digital texts (e.g. advertisements, catalogues, menus, packaging) to locate key points of information, such as product, number, price, target audience or suitability for recycling",
+            "listening to short spoken texts that contain some unfamiliar language, such as announcements or directions for a game or to a place, identifying specific points of information to obtain the gist",
+            "listening to a factual report such as a weather forecast, writing a message to a friend inviting them to go out, and incorporating information from the stimulus text, for example, शनिवार को धूप निकलेगी। हम तट पर जा सकते हैं।",
+            "learning that the languages of Aboriginal and Torres Strait Islander Peoples change according to connections and relationships between people, and giving examples of how this occurs in Hindi",
+            "researching information about regions of India, such as language, culture, dress, food and animal species, and recording key facts to present in an informative text, for example, चेन्नई में तमिल बोली जाती है; कश्मीर में आप शिकारे में घूम सकते हैं; तांत का कपड़ा कोलकाता में बनता है",
+            "viewing a series of images of different celebrations and festivities, using a 'see-think-wonder' thinking routine to reflect on the images, and then developing written captions for the images using adjectives and nouns",
+            "listening to or reading popular stories, and then re-enacting scenes or adapting the text using modelled language such as an alternative ending or new character, for example, लकड़हारा और कुल्हाड़ी; अकबर और बीरबल; तेनालीराम",
+            "comparing information related to aspects of school life in India and Australia, such as timetables, lunch break, extracurricular activities or sports, for example, comparing the 'midday meals' scheme in India to school canteen meals in Australia",
+            "questioning or surveying their peers about likes and dislikes, pets or interests, and representing the data in various formats such as lists, tables or a shared class graph, for example, आठ बच्चों को गर्मी का मौसम अच्छा लगता है; सब शाम को टी वी देखते हैं; राधा की सूची लंबी है",
+            "categorising information from a range of authentic texts such as advertisements, menus or catalogues, for example, classifying objects as plants/animals, natural/artificial or recyclable/disposable, or by price, colour and size"
+          ]
+        },
+        {
+          "code": "VC2LH4C04",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce Hindi, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "discussing the meaning of Hindi expressions and gestures that may be unfamiliar to non-Hindi speakers and working out how to explain these, for example, the way that elders greet children by holding their hand over the child's head and saying जीते रहो; bowing to show respect; or addressing older family and friends as आप rather than तुम",
+            "comparing language use at home, school and in the community, for example, identifying differences in the ways of thanking someone or asking for help, or the use of nicknames or terms of affection, for example, मेरा प्यारा बच्चा – अच्छे बच्चे; पानी देना – पानी दीजिए",
+            "recognising words and expressions in Hindi that reflect traditions and distinctions that are not easily translated into English, for example, forms of address such as स्वामी जी for a spiritual leader, गुरुजी for a male teacher, बाबाजी for an older male person, and राम राम as a mode of greeting in villages",
+            "translating popular children's rhymes, songs and stories into English, noticing words that are difficult to translate or explain (e.g. चूँ-चूँ करती आई चिड़िया; चँदा मामा दूर के)",
+            "translating signs or phrases in familiar contexts from Hindi into English (e.g. street signs, addresses, food labels), noting that some signs and symbols are universal, for example, the recycling sign is similar in many countries",
+            "creating resources to use in class to reinforce learning and exposure to language concepts, such as pattern charts, a bilingual class digital dictionary, a board game, or an alphabet bank with words beginning with the same letter (e.g. कमल, कसरत, कोयल)",
+            "recognising that some Australian terms, idioms and expressions are only meaningful in the Australian context and have no equivalent in Hindi, such as 'bushwalking', 'break a leg' and 'no worries'"
+          ]
+        },
+        {
+          "code": "VC2LH4C05",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Creating text in Hindi",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences, modelled textual conventions, and Devanāgarī script",
+          "elaborations": [
+            "using modelled Devanāgarī script to create print or digital texts to describe aspects of their personal worlds such as family, friends and favourite things, for example, वह ऑस्ट्रेलियन है; उसकी उम्र तीस साल की है; मुझे घुड़सवारी पसंद है",
+            "creating a family tree, poster or presentation to show ancestry and language background, using simple descriptive language and culturally appropriate terms to identify relationships, for example, मौसी; चाचा; ममेरा-चचेरा",
+            "creating a class map that identifies the regions of India, Fiji, Mauritius and other parts of the world that have communities of Hindi speakers and speakers of related languages and dialects that are represented in the classroom, such as तमिल, गुजराती, पंजाबी and मराठी",
+            "creating simple descriptions in Hindi and matching them to the appropriate Aboriginal or Torres Strait Islander Country or Place in their local area or elsewhere in Australia",
+            "producing materials to share with the local Hindi-speaking community regarding features of the environment such as maps, the local ecosystem, or flora and fauna, for example, यह चिड़िया है। यह पेड़ों पर रहती है।",
+            "contributing to a class newsletter or report about topics they have been studying in Hindi or other learning areas, using some unfamiliar words, for example, इस्तेमाल की जा चुकी वस्तुओं से कुछ और बनाना; जीवन-चक्र; विश्व संगीत",
+            "writing and illustrating simple bilingual texts such as मोगली की कहानी, by creating captions for a series of images, or a mini book about topics such as पालतू जानवर और जंगली जानवर",
+            "performing simple imaginative texts, switching between Hindi and English, and using dance, singing or movement to animate characters and bring scenes to life, for example, acting out events or adopting the persona of a character such as मोगली, चाचा-चौधरी, चीकू खरगोश and शक्तिमान",
+            "modifying simple texts with their own creative input, for example, substituting words or characters in a well-known song, fable or procedure, for example, using an alternative animal and Indian foods in the story एक बहुत भूखी बिल्ली",
+            "presenting information using picture stories or multimodal displays on topics of potential interest to Hindi-speaking children of their own age, for example, unique Australian facts such as कंगारू का बच्चा अपने माँ की झोली मे रहता है, incorporating subtitles, sounds and punctuation to engage the audience"
+          ]
+        },
+        {
+          "code": "VC2LH4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations, and use patterns of pronunciation and intonation to form words, phrases and simple sentences",
+          "elaborations": [
+            "pronouncing the sounds of all Hindi letters and applying this knowledge to words and sentences",
+            "imitating the discrimination of aspirated and unaspirated sounds (e.g. क – ख; द – ध)",
+            "recording themselves reading short texts aloud to practise sounds, stress and intonation, and predicting pronunciation by sounding out words based on phonetic knowledge",
+            "understanding that some of the Hindi consonants (ङ ञ ण न) can be pronounced with a nasal quality, which is represented by either a Moon dot (चंद्रबिंदु) or a small dot (बिंदु) above the headstroke (e.g. हाँ, मैं)",
+            "understanding that the sound and letter correspondence is the same in written and spoken Hindi, that there are no silent letters, and that there is only one sound for each letter",
+            "recognising how to distinguish between consonants and nasal consonants, and the rules that govern how to represent nasal consonant combinations in words such as गंगा – गङ्गा, पंजाब – पञ्जाब, ठंड – ठण्ड, and बंद – बन्द",
+            "recognising how pitch, stress and rhythm help to convey meaning even when individual words are unfamiliar, for example, रुको",
+            "recognising that there are loan words in Hindi from languages such as English, Persian (Farsi), Arabic, Turkish and Portuguese; learning how the under-dotted characters क़, ख़, ग़, ज़, फ़ are used to represent such borrowed sounds; and identifying long and short matra forms of vowels in words, for example, मछली – तितली; तरबूज; चुहिया; सैनिक; नक़्शा; कमीज़"
+          ]
+        },
+        {
+          "code": "VC2LH4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use the Devanāgarī script, as well as modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "reading and writing Devanāgarī script with the Hindi Varnmala chart as support, and using some basic punctuation such as commas, full stops and exclamation marks",
+            "applying a horizontal line (headstroke) on top of words and appropriate spacing between words",
+            "using nouns related to home, school and local environments, for example, forms of transport (e.g. मोटरकार, रेलगाड़ी), food items (e.g. चावल, रोटी, दाल) and classroom objects (e.g. कुर्सी, मेज, पेंसिल)",
+            "selecting appropriate pronouns for people, places and objects, for example, मेरा, तुम्हारा, यहाँ, वहाँ, यह, वह",
+            "describing actions using familiar verbs such as गाना, खाना, खेलना and दौड़ना, and changing verb forms according to gender, number and tense, for example, लड़का जाता है; लड़की जाती है; लड़के जाते हैं; लड़का गया था; लड़का जाएगा",
+            "using and responding to imperative verb forms, for example, बैठ जाओ; यहाँ आओ; मेरी बात सुनो",
+            "using adjectives to describe characteristics or qualities of a person or object, such as shape, number and colour, and noticing that they change with gender and number, for example, छोटा लड़का; छोटी लड़की; छोटे लड़के; पाँच रोटियाँ; दस गिलास; मेरी पुस्तक; तुम्हारा बस्ता",
+            "specifying location or direction using prepositions, for example, पहले से; अंदर; बाहर; वह बाहर से आया है",
+            "using interrogatives to ask questions and seek further information (e.g. कब, क्या, क्यों, कहाँ, कैसे)",
+            "negating simple sentences using words such as नहीं, ना and मना करना, for example, मुझे नहीं पता; वहाँ मत जा",
+            "constructing simple sentences with linked ideas using conjunctions, for example, मेरे पास लाल गाड़ी है और मेरे भाई के पास काली गाड़ी है",
+            "using ordinal numbers (e.g. पहला, दूसरा, तीसरा) in context to describe the position of objects",
+            "recognising differences between typed and handwritten Hindi, and practising reading both forms",
+            "applying the use of half consonants in written and spoken Hindi, for example, क, क्: पक्का, अच्छा"
+          ]
+        },
+        {
+          "code": "VC2LH4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar Hindi language structures and features with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "noticing that Hindi uses more vowels and consonants than English, allowing words to be spelled phonetically",
+            "discussing the 'subject + object + verb' sentence structure in Hindi and comparing it with the 'subject + verb + object' sentence structure in English",
+            "recognising features of familiar genres of Hindi texts, such as digital books or puppet shows, video clips or children's songs, and comparing these with similar texts in English",
+            "recognising differences in spoken and written forms of everyday texts, such as greetings or wishes, for example, आपको बहुत-बहुत बधाई हो (spoken) and हार्दिक शुभकामनाएँ (written), and comparing these with similar differences between spoken and written texts in English",
+            "understanding the influence of different languages on Hindi over different times, for example, the use of English and Perso-Arabic words (e.g. पोस्ट-बॉक्स, रेल्वे स्टेशन, बस, स्कूल, शुक्रिया, खूबसूरत) and expressions (e.g. तुम इतना लेट कैसे हो गए?; क्या यह आपका फ़ाइनल उत्तर है?)",
+            "identifying examples of Hindi words or expressions that are commonly used in English, such as 'verandah' from बरामदा, 'karma' from कर्म, and 'asana' from आसन",
+            "recognising that punctuation in English is the same as in Hindi, apart from the use of upper-case letters and a different symbol for a full stop, पूर्ण विराम (i.e. ।)",
+            "learning about Hindi and English metalanguage to describe and talk about language (e.g. क्रिया – verb; संज्ञा – noun; विशेषण – adjective), or highlighting parts of speech in a sentence with different colours"
+          ]
+        },
+        {
+          "code": "VC2LH4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "recognising how the Hindi language reflects traditions and social distinctions to do with how people are regarded in society, how old they are or what religion they practise, for example, the use of the honorific particle जी after a family name to show respect",
+            "discussing how particular gestures, terms and expressions have embedded cultural meanings and can convey feelings, beliefs and values, for example, the use of the expression फिर मिलेंगे when leaving, in order to avoid the finality associated with 'goodbye'",
+            "understanding that there is a standard form of Hindi called मानक हिंदी used for writing, and spoken by many people, as well as a variety of spoken dialects that differ from region to region, for example, ब्रज, अवधी, राजस्थानी",
+            "discussing how culture and identity are expressed in Hindi-speaking communities, and comparing this with other cultures, for example, noticing the different regional words used by Aboriginal and Torres Strait Islander Peoples to identify themselves, such as Zenadth Kes, Koori, Koorie, Noongar and Nunga, and comparing this with Hindi-speaking cultural groups",
+            "identifying similarities and differences in Indian folk and tribal dance and music with other cultures, for example, Aboriginal and Torres Strait Islander dance and music",
+            "understanding that different regions in India and other countries where Hindi is spoken may have different cultural practices and beliefs, for example, decorating the main entrance of the house and celebrating the harvest festival",
+            "noticing familiar Indian language and cultural practices maintained over a long time, for example, traditional hospitality, अतिथि देवो भवः, or the singing of the national anthem",
+            "experiencing and discussing the importance of music and dance in Indian culture(s) as an expression of identity and emotions, such as national pride, happiness, love, joy and sadness, for example, folk dance, folk music, Hindi films and classical music",
+            "exploring the meaning of culture and identity, for example, using a diagram to show the visible elements such as ways of celebrating, dress, traditions, symbols, manners, routines and behaviours, and the less-visible elements such as preferences and values"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in Hindi that are related to their personal worlds and school environment. They use appropriate sound combinations, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share and discuss information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in Hindi or English, adjusting their response to suit purpose.\nStudents use modelled structures when creating and responding in Hindi. They create texts, selecting and using a variety of vocabulary and sentence structures and the Devanāgarī script to suit different contexts, and using conventions appropriate to text type. They apply rules for pronunciation and intonation in spoken language and apply conventions of spelling and punctuation in written language. They compare language structures and features in Hindi and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LH6C01",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Interacting in Hindi",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "initiating conversations, commencing with a greeting, enquiry about wellbeing, current or past activities, or news, for example, तुम/आप कैसे हो/हैं?; आपने पिछले सप्ताह/सप्ताहांत मे क्या किया?; घर मे सब कैसे हैं?",
+            "developing conversation skills such as staying on topic, requesting more information, recognising non-verbal cues or using interjections, for example, क्या यह सच है?; दिलचस्प है …; मुझे बताओ; अच्छा!; आप इस विषय में क्या सोचते हैं?; मुझे ऐसा लगता है …; क्या हम इस बात पर चर्चा कर सकते हैं?; आहा! यह अच्छी बात है; तो ठीक है …; अच्छा; ओहो!; अरे वाह!",
+            "comparing personal experiences, preferences and opinions, and expressing agreement or disagreement in a respectful manner, for example, रमा, मुझे माफ़ करना लेकिन मुझे लगता है कि …; सच पूछो तो मेरे विचार में; मैं इस बात से सहमत हूँ कि …",
+            "using some colloquial expressions and idioms to enhance interactions when describing people, places or experiences or to express feelings, for example, अँगुली पर नचाना; नाक में दम करना; मेरी चाची मुझसे बहुत प्यार करती हैं; मैं उनकी आँखों का तारा हूँ; अपने घर में कुत्ता भी शेर होता है",
+            "discussing with peers the experience of communicating in Hindi in the classroom context compared with at home or in the community, for example, मुझे हिंदी पढ़ना अच्छा लगता है लेकिन सबके सामने बोलने में झिझक होती है",
+            "requesting information using a range of interrogatives and open-ended questions to elicit further details and clarify points (e.g. कैसे, क्या, कब, कहाँ), and exchanging written communication such as emails, secure, teacher-moderated chat or messages, for example, तुम शनिवार को क्या कर रहे हो?; इस काम में …; मुझे लगता हैं कि हमें यह लिखना चाहिए",
+            "participating in secure online exchanges such as video calls with sister schools in India, to describe and compare routines, interests and activities, and to share experiences of learning Hindi in Australia, for example, आप सुबह कितने बजे उठते हैं?; आपकी पाठशाला कितने बजे शुरू होती है?",
+            "asking for, giving and following instructions or directions, and giving feedback in a variety of situations, varying language to suit formal or informal contexts, for example, शिक्षिका ने कहा है कि शांत बैठो; यहाँ आकर सबके साथ बैठो",
+            "requesting assistance or clarification from peers and teachers, checking on each other's progress and indicating understanding, for example, नहीं, मुझे समझ नहीं आया। कृपया फिर से दोहराइए।; यह बहुत कठिन है। इस में मुझे क्या करना है?; जी हाँ, मैं समझ गई। यह तो बहुत आसान है।; ठीक है। सब ख़त्म हो गया? अभी नहीं, पर जल्द ही हो जाएगा।; आप समझते हैं, है न?; आप कितनी तेज़ी से लिख सकते हैं?"
+          ]
+        },
+        {
+          "code": "VC2LH6C02",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Interacting in Hindi",
+          "text": "participate in activities that involve discussion and planning with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "using phrases to seek permission, ask questions, or borrow items from peers or the teacher, for example, क्या मैं शौचालय जा सकता हूँ?; क्या मैं तुम्हारी पेंसिल ले सकता हूँ?",
+            "participating in authentic or simulated exchanges and transactions that involve Indian currency, such as ordering in restaurants or buying items from street vendors, using appropriate gestures, expressions and negotiation skills, for example, हाँ भैया, ये आम कितने के हैं?; आप के भोजनालय में सबसे स्वादिष्ट व्यंजन कौन सा है?; मुझे दो रोटी के साथ एक दाल मक्खनी दे दीजिए; मुझे यह ज़्यादा पसंद हैं; यह बहुत महंगा है, दाम कुछ कम करोI",
+            "introducing aspects of Hindi language and associated cultures to younger students or non-Hindi speakers through a range of activities, including games such as लोग, शहर और जानवर or folk dances such as भांगड़ा or डांडिया",
+            "working collaboratively to create a set of instructions or a procedure to demonstrate and explain activities or processes, such as recipes, dance steps, a simple science experiment, or nurturing a seed, for example, रोटी बनाना; बीज-पौधे लगाना-बीज अंकुरण की विधि: १. पहले बीज को गीली रुई में रखे, २. रोज़ रुई को गिला रखे और धुप लगाए; कागज़ का हवाई जहाज़ उड़ाना",
+            "stating preferences in a range of activities and interactions and reacting to others' choices or indicating preferences between 2 or more objects, for example, क्या सच में? ज्यादातर लोगों को पसंद नहीं …; सेब, संतरा या अंगूर में से आपको कौन सा सबसे अच्छा लगता है? मुझे अंगूर पसंद है।",
+            "taking on different roles and responsibilities in the classroom or school environment, such as recycling monitor, calling the roll, distributing work, giving instructions, checking homework or the wearing of hats outside, for example, इस कूड़ेदान में बोतलें डालें; धूप है, तुम्हारी टोपी कहाँ है?",
+            "planning presentations or performances for school assemblies or community events (e.g. होली; स्वतंत्रता दिवस; दिवाली; सदभावना दिवस), using expressions such as आज हम आप के सामने प्रस्तुत करने जा रहे हैं …",
+            "working together to solve puzzles and riddles; or to follow directions to real or imagined locations, using digital tools to access mapping applications, for example, आगे से दायें, फिर सीधे जाईए फिर दो गली छोडकर मुड़िये",
+            "reflecting on the process of working together to plan and execute an event or performance, and what they would do differently next time, for example, अगली बार मैं नाचने के बजाय गाना चाहूँगा …; मुझे तुम्हारा सुझाव बहुत पसंद आया …"
+          ]
+        },
+        {
+          "code": "VC2LH6C03",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "collecting facts, figures and vocabulary from printed and digital texts, and using them to prepare a class discussion about topics such as healthy lifestyle or caring for the environment",
+            "collecting information from peers, community members or relatives to create an overview of selected trends, preferred modes of communication or social behaviours, and comparing responses with their own thoughts on similar issues, for example, जब आप छोटे थे तब लोग कैसे कपड़े पहनते थे?; आपके और हमारे स्कूल में क्या अंतर है?; कम्प्यूटर के बिना आप अपने दोस्तों से कैसे बात करते थे, फ़ोन / ईमेल / आमने सामने बातचीत / टेक्स्टिंग?",
+            "listening to or viewing a report or announcement, such as a weekend weather forecast or program of events for a festival or sports match, and writing a message to a family member or friend to ask them to participate, for example, रविवार को धूप है, क्या आप समुद्रतट पर चलेंगे?; शाम के ५ बजे स्वतंत्रता दिवस का कार्यक्रम होगा",
+            "viewing an image of students eating lunch at a school in India or another Hindi-speaking region, and completing a 'word-phrase-sentence' thinking routine using information from the image before discussing their notes with a partner",
+            "listening to or viewing Aboriginal and/or Torres Strait Islander Peoples' stories and responding to them using words, formulaic expressions and modelled sentences in Hindi",
+            "viewing and comparing information accessed via videos, books and websites that reflect lifestyles in Hindi-speaking communities in different regions, for example, Fiji, Mauritius or Trinidad and Tobago, and presenting information in new ways, such as a digital display or a spoken, print or visual presentation to suit a specific audience",
+            "comparing, describing and illustrating favourite comic book characters, superheroes and events, and identifying language or behaviours they associate with them, for example, चाचा चौधरी और साबू; विक्रम और वेताल; पिंकी और बबलू; अकबर-बीरबल के क़िस्से; चाचा चौधरी का दिमाग़ कम्प्यूटर से भी तेज़ चलता है; वेताल कहता है “तू बोला विक्रम, और मैं गया, हा हा हा।”",
+            "discussing messages, morals and character traits featured in fables, songs and stories (e.g. परिश्रम का फल मीठा होता है; सूझबूझ से कठिन से कठिन कार्य भी संभव है), and incorporating them into their own imaginative texts",
+            "locating information about the school and surrounding area, and incorporating the facts in a persuasive advertisement to attract visitors or new students, for example, यह भोजनालय की व्यंजन-सूची है, आप इसमें से अपनी पसंद की सब्जी चुन लें",
+            "using digital tools to survey and compile information about others' interests and preferences (e.g. favourite things, leisure activities, pets, language(s) spoken), and presenting findings in a range of formats such as mind maps, graphs, diagrams or an oral presentation",
+            "reading or listening to a short text about a holiday destination or a location for an event or camp, and deciding as a class or in groups a list of what to bring or pack, categorising items in order of priority and justifying their reasons, for example, वहाँ ठंड होगी, इसलिए अपने साथ एक जैकेट भी रख लेना"
+          ]
+        },
+        {
+          "code": "VC2LH6C04",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in Hindi in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "knowing that meaning is shaped not only by words but also by expression, gestures and the use of voice and tone, and that these variations occur in both formal and informal language",
+            "learning to use bilingual print dictionaries and translation apps to work out the meaning of unfamiliar words or sentences, and determining the reliability of these aids to accurately translate information",
+            "explaining Hindi words, proverbs, idioms or expressions that they find challenging or humorous to non-Hindi-speakers, for example, पेट में चूहे दौड़ रहे हैं; दूर के ढोल सुहावने होते हैं",
+            "distinguishing between spoken and written forms of Hindi, identifying examples of colloquialisms, words and expressions used mainly in spoken language, for example, the non-standard मेरे को in place of the formal मुझे, or the use of मतलब … at the beginning of spoken utterances",
+            "translating texts such as signs, menu items or public announcements from Hindi to English, and vice versa, identifying words that convey the closest equivalent meaning",
+            "contributing to a class dictionary, word wall or word bank of Hindi words, expressions or loan words collected while travelling on an imaginary trip around Australia or overseas, noticing trends and the emergence of new words or 'Hinglish' terms",
+            "identifying Hindi words or expressions that have embedded cultural meanings and considering Australian English words and expressions that may be misunderstood by Hindi speakers, such as 'bring a plate', 'no worries', 'mate', 'dog's breakfast', and placing findings in a Venn diagram or chart"
+          ]
+        },
+        {
+          "code": "VC2LH6C05",
+          "strand": "Communicating Meaning in Hindi",
+          "subStrand": "Creating text in Hindi",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type",
+          "elaborations": [
+            "learning ways to type words and sentences in Hindi using a keyboard and incorporating typed Devanāgarī script into a variety of texts",
+            "creating individual language-and-culture profiles, explaining which language(s) or dialects are spoken at home, with extended family, or in their social and community lives",
+            "creating a multimodal profile of a local community, including facilities and events, for recent Hindi-speaking migrants to Australia, and using useful information and facts from websites or brochures, for example, भारतीय सुपरमार्केट रात नौ बजे तक खुला रहता है",
+            "creating a class print or digital poster in Hindi, locating and describing a specific Aboriginal or Torres Strait Islander Country or Place in a local or regional context, or elsewhere in Australia",
+            "creating bilingual texts for non-Hindi speakers wanting to visit India or a Hindi-speaking region to assist with travel and communication, such as wordlists, common phrases, maps, menus and allergy cards, for example, मुझे मूँगफली से एलर्जी है",
+            "creating and performing expressive texts such as narratives, poetry or personal commentaries, using mime, music and evocative language to convey concepts that are relevant to their own social worlds and interests, for example, मित्रता; प्रेम; दया; अतिथि-सत्कार; अनेकता में एकता",
+            "adapting a familiar story, cartoon or poem to suit a younger or different kind of audience by including a new character, event or change of mood, for example, an Australian version of चाचा चौधरी; a lullaby that is exciting rather than soothing; or an alternative ending for a story",
+            "creating informative and imaginative texts for specific purposes and audiences, for example, a presentation for parents or guests about the benefits of learning a second or additional language, or to showcase their bilingual or multilingual experience",
+            "experimenting with language features and simple devices appropriate to text type, such as descriptions in recounts or narratives, humour in comic verse, and persuasive language in advertisements"
+          ]
+        },
+        {
+          "code": "VC2LH6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency and rhythm in words, phrases and sentences",
+          "elaborations": [
+            "recognising and pronouncing all the sounds in the Hindi Varnmala chart, including aspirated and unaspirated sounds, for example, च – छ; ट – ठ",
+            "distinguishing the difference between unaspirated and aspirated sounds and practising aloud, such as क (e.g. करना) vs. ख (e.g. खाना)",
+            "using digital tools to check the correct pronunciation of Hindi, and using voice-recording software to check their own tone and intonation to develop fluency",
+            "understanding that mispronouncing vowel sounds in Hindi can affect meaning, for example, ओर vs. और; में vs. मैं",
+            "understanding that the Hindi pronunciation of some words varies depending on the region, but the written form remains the same, for example, 'much' or 'many' is commonly pronounced as बहोत, but the standard spelling is बहुत",
+            "distinguishing between the intonation patterns of requests and exclamations, for example, क्या मैं पानी पीने जा सकता हूँ? / कृपया मुझे पानी पीने जाने दीजिए।; वह पास हो गया!; क्या आप वहाँ जाएँगे?; तुम अच्छे बच्चे हो",
+            "using active listening skills to determine intonation for statements and questions when no interrogative is used, for example, भूख लगी है। / भूख लगी है?; बाहर जा रहे हैं। / बाहर जा रहे हैं?",
+            "understanding how new loan words are formed in Hindi, for example, the way in which English 't' and 'd' sounds are represented normally as ट and ड, English 'th' sounds are replaced by थ, and English vowels such as short 'a' sounds are replaced by Hindi vowel sounds (e.g. डॉलर, not डालर)",
+            "recognising the Hindi pronunciation and Devanāgarī spelling of loan words from English into Hindi, for example, अस्पताल/हस्पताल; अफ़सर; पलस्तर"
+          ]
+        },
+        {
+          "code": "VC2LH6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use the Devanāgarī script and a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "recognising and practising the spelling of words in the Devanāgarī script that involve combinations of pronouns and postpositions that lose the inherent 'a' inside a word (e.g. उसका, सुनना, सुनता)",
+            "using a variety of past, present and future verb tenses (e.g. जाता था, जाता हूँ, जाऊँगा)",
+            "using adverbs in sentences to provide additional information (e.g. धीरे-धीरे, जल्दी में, दौड़ते हुए)",
+            "using singular and plural forms of nouns and pronouns (e.g. मैं/हम; यह/ये)",
+            "conjugating a range of verbs according to gender, tense and tone, for example, विकास बाज़ार जाता है; दादाजी बाज़ार जाते हैं; विकास बाज़ार जाएगा; दादीजी बाज़ार जाएँगी",
+            "recognising and understanding how Hindi verbs indicate the idea of actions happening or being made to happen (e.g. बनना, बनाना, बनवाना)",
+            "using simple comparative and superlative forms of adjectives, for example, अधिक अच्छा / सबसे अच्छा / उससे अच्छा; उच्च / उच्चत्तर / उच्चत्तम",
+            "using a range of prepositions of location and place to give directions, for example, स्कूल बाग़ के पास है; मेरा घर दुकानों के पीछे है",
+            "using a range of interrogatives and questioning techniques to make formal and informal requests and obtain specific information, for example, आपकी किताबें कहाँ हैं?; यह डिब्बा कैसे खुलेगा?; वहाँ कौन खड़ा है?",
+            "using negative forms of verbs and adjectives, for example, सोहन ने फिल्म नहीं देखी; झूठ कभी मत बोलो",
+            "using a range of conjunctions to connect different elements of a sentence and expand ideas, for example, राम ने खाना खाया और सो गया",
+            "locating events in time by using days of the week, months and ordinal numbers (e.g. पहला, दूसरा)",
+            "comparing typed and handwritten Hindi texts, noticing variations and reasons why texts and fonts can look different, for example, shape, spacing and proportion",
+            "understanding the rules for half consonants (क्, च्, ज्) to form words (e.g. बच्चा, कच्चा, अच्छा, मक्खी, राज्य, कद्दु) and sentences (e.g. आज दिन बहुत अच्छा है)"
+          ]
+        },
+        {
+          "code": "VC2LH6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare Hindi language structures and features with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "understanding the significance and cultural importance of features of different types of texts in Hindi and English, for example, salutations, greetings and conveying respect, such as 'Dear/to …', आदरणीय, पूज्य, मान्यवर, महोदय, प्रिय मित्र",
+            "compiling a graphic organiser, poster, mind map or Venn diagram to illustrate differences in Hindi and English grammar and textual conventions, for example, the absence of articles and contractions, the use of different word order and the use of some adjectives as verbs in Hindi, and the absence of grammatical gender and the use of contractions in English",
+            "comparing features of familiar genres of Hindi and English texts, and noticing similarities and differences between language features such as the use of tense, word order, sentence structure and common phrases in particular text types, for example, 'Once upon a time …' – एक समय की बात है …; 'many years ago' – बहुत साल पहले",
+            "considering how the choice of language features and text organisation reflect the purpose and audience of different types of text in Hindi and English, for example, when giving an oral presentation to the class, talking to friends in the schoolyard, going shopping or visiting the doctor",
+            "exploring the influence of Sanskrit on Hindi by noticing how Sanskrit words have been adopted and adapted in different ways (e.g. कर्म, रात्रि, सर्प, काम, रात, साँप), and exploring the influence of other languages (e.g. ड्रामा, सरकस, गलीचा, किताब)",
+            "understanding that some English loan words originate from Hindi (e.g. jungle, bandana, dinghy), and that Hindi has loan words from English (e.g. गोल, कैच, पॉप रैप, पास्ता, नूडल्स, केचप/सॉस, माउस, कीबोर्ड, स्क्रीन), and discussing reasons why languages borrow from each other",
+            "beginning to use simple metalanguage, in both Hindi and English, to understand and discuss grammatical structures and features of texts, for example, संज्ञा – noun; सर्वनाम – pronoun; क्रिया – verb; विशेषण – adjective"
+          ]
+        },
+        {
+          "code": "VC2LH6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal, non-verbal and written communication",
+          "elaborations": [
+            "developing an understanding of the relationship between languages and cultures, and intercultural communication in different contexts, for example, discussing the need to apply distinctions such as तू जा, तुम जाओ and आप जाइए, or using forms of language to show respect or status",
+            "explaining ways in which the Hindi language reflects the values and traditions of Hindi-speaking communities for example, understanding concepts such as सत्संग, घूँघट, लंगर and भंडारा",
+            "researching Hindi-speaking communities, such as in Fiji or Mauritius, inviting special guests, or showcasing their learning about cultural aspects of these communities",
+            "discussing how language and culture are expressed through song, dance or artworks in Hindi-speaking communities, and noticing similarities and differences with different cultures and communities",
+            "identifying adjustments they make when moving between languages (e.g. different ways of addressing people, expressing affection or respect), and discussing why these adjustments are necessary and whether they are easy to make",
+            "identifying influences from other languages and cultures, such as changes to contemporary forms of Hindi due to the influence of globalisation, technology and pop culture, and exploring the relationship between Hindi and English across different historical and cultural contexts, for example, the emergence of 'Hinglish'",
+            "brainstorming cultural, spiritual and linguistic influences of Hindi language and culture on other languages and cultures (e.g. karma, guru, dharma, nirvana, Bollywood)",
+            "becoming aware of cultural stereotypes that can lead to generalisations and misconceptions such as associating the same language, culture and religion with all Indian people",
+            "investigating their own family heritage and background through talking with relatives, and reflecting on how this can contribute to the formation of their own identity",
+            "understanding the meaning of 'culture', how it involves visible elements (e.g. language, symbols, food, national costumes, dancing) and less-visible elements (e.g. attitudes, beliefs, values), and comparing these visible and less-visible elements of Hindi culture with those of other cultures"
+          ]
+        }
+      ]
+    }
+  ]
+}

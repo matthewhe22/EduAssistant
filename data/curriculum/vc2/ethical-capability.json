@@ -1,0 +1,186 @@
+{
+  "subject": "Ethical Capability",
+  "slug": "ethical-capability",
+  "learningArea": "Capabilities",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students describe ethical concepts and associated behaviours using an example. They use examples to show why values, rights and responsibilities, and shared expectations are considered important, and they identify the influence of emotions and dispositions on ethical perspectives.\nStudents identify examples of situations involving disagreements about right, wrong, good, bad, better or worse, including reasons for disagreements. They identify examples of actions in response to these situations. They select an action and provide reasons for their decision, with reference to emotions, dispositions or consequences.",
+      "contentDescriptions": [
+        {
+          "code": "VC2CE2U01",
+          "strand": "Understanding Ethical Concepts and Perspectives",
+          "text": "ethical concepts including right, wrong, better and worse, and behaviours associated with these",
+          "elaborations": [
+            "using the terms 'good', 'bad', 'right' or 'wrong' to describe a choice and reflecting on behaviours associated with the choice",
+            "comparing different behaviours in response to a problem or situation, classifying them as better or worse and discussing how these judgements were made"
+          ]
+        },
+        {
+          "code": "VC2CE2U02",
+          "strand": "Understanding Ethical Concepts and Perspectives",
+          "text": "examples of values, rights and responsibilities, and shared expectations, and reasons they are important",
+          "elaborations": [
+            "discussing why Acknowledgement of Country is a shared expectation at certain times and why it is important",
+            "exploring how respect for each other is a value regardless of any differences between people",
+            "discussing significant community events or celebrations and examples of actions taken that reflect particular values"
+          ]
+        },
+        {
+          "code": "VC2CE2U03",
+          "strand": "Understanding Ethical Concepts and Perspectives",
+          "text": "how emotions and dispositions including honesty and kindness influence ethical perspectives",
+          "elaborations": [
+            "considering the relationship between thinking a situation is wrong and a disposition such as kindness or honesty",
+            "exploring how emotions associated with a situation might influence perspectives, for example whether a strong desire to win might influence perspectives on who should be included or excluded from a team or game",
+            "exploring how dispositions and emotions might influence how people react to a situation, for example to influence a judgement about whether someone is being helpful enough"
+          ]
+        },
+        {
+          "code": "VC2CE2D01",
+          "strand": "Decision-making and Actions",
+          "text": "situations where people disagree about what is right, wrong, good, bad, better or worse, and reasons for disagreements",
+          "elaborations": [
+            "exploring a situation or scenario, such as how best to share, and identifying reasons for disagreements",
+            "exploring situations in the school community or local community where people disagree on the right thing to do, and reasons for these disagreements, for example on whether to expand play equipment onto space currently being used for ball games"
+          ]
+        },
+        {
+          "code": "VC2CE2D02",
+          "strand": "Decision-making and Actions",
+          "text": "emotions and dispositions and their influence on the way people behave; how thinking about consequences of actions can guide decision-making when people disagree about right, wrong, good, bad, better or worse",
+          "elaborations": [
+            "constructing a list of actions that could be taken in response to a disagreement about sharing, identifying the consequences of each action and reaching a decision",
+            "constructing a scenario that demonstrates how dispositions, such as kindness, are expressed in behaviour"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students describe ethical concepts using examples from a range of situations. They identify an ethical perspective and describe influences on the ethical perspective.\nStudents identify an ethical dilemma or issue and describe the ethical perspectives and concepts involved. They identify actions in response to an ethical issue and identify the consequences, with reference to ethical concepts. Students describe a selected action and reasons for the decision made, with reference to the ethical significance of an outcome and how it is achieved. They describe ethical perspectives on a decision made in response to an ethical issue or dilemma.",
+      "contentDescriptions": [
+        {
+          "code": "VC2CE4U01",
+          "strand": "Understanding Ethical Concepts and Perspectives",
+          "text": "the meaning of ethical concepts including fairness, tolerance and harm and a range of behaviours associated with these",
+          "elaborations": [
+            "discussing scenarios to refine proposed definitions of concepts; for example, refining a proposed definition of fairness as the same treatment of everyone by considering whether an older sibling should do more chores or a hungrier person have a larger share of a meal",
+            "considering how words can be hurtful and rehearsing strategies for communicating with empathy",
+            "using examples to explore the meaning of tolerance as not stopping an action even if you disagree with it, for example with regard to umpire decisions or decisions made by the leader of a group"
+          ]
+        },
+        {
+          "code": "VC2CE4U02",
+          "strand": "Understanding Ethical Concepts and Perspectives",
+          "text": "what an ethical perspective is, and how values, shared expectations, and rights and responsibilities influence ethical perspectives",
+          "elaborations": [
+            "exploring how different values lead to different views on ethical significance, and how recognition of human rights and responsibilities influences perception of right, wrong, good, bad, better or worse",
+            "exploring how different people can interpret the ethical significance (a judgement of what matters, why it matters and how strongly it matters, made with reference to ethical concepts) of a given scenario differently and constructing questions based on values and/or rights and responsibilities to help identify why people disagree on ethical significance, that is, to help identify their ethical perspective; for example, exploring the United Nations Convention on the Rights of the Child: The Children's Version, including the statement 'All adults should do what is best for children', and discussing if there might be agreements and disagreements about what is best for children, and why, using simple examples such as how long the school day should be",
+            "using a range of examples to discuss how shared expectations influence ethical perspectives; for example, if a group reaches agreement about a rule, creating a shared expectation, they will then judge behaviour where the rule is followed as 'good'"
+          ]
+        },
+        {
+          "code": "VC2CE4U03",
+          "strand": "Understanding Ethical Concepts and Perspectives",
+          "text": "how personal experiences, self-interest and dispositions including generosity influence ethical perspectives",
+          "elaborations": [
+            "comparing how the ethical significance (a judgement of what matters, why it matters and how strongly it matters, made with reference to ethical concepts) of a situation or the outcome of a decision is interpreted before and after personal experience; for example, comparing how someone who has never been the subject of a prank and how someone who has been might judge the ethical significance of a proposed prank",
+            "exploring a particular scenario involving different levels of self-interest and considering how this influences what is given ethical significance, for example treatment of a pet that belongs to you, your friend or a stranger"
+          ]
+        },
+        {
+          "code": "VC2CE4D01",
+          "strand": "Decision-making and Actions",
+          "text": "what makes a situation an ethical dilemma or ethical issue; how ethical concepts such as fairness can be used to identify and describe an ethical issue or dilemma; how people hold ethical perspectives on ethical issues and dilemmas, their ethical significance and responses to them",
+          "elaborations": [
+            "using a range of scenarios to identify what is coming into conflict to create a dilemma, for example different values",
+            "exploring a range of situations in which people hold different perspectives on what is right, wrong, good or bad and identifying which ethical concepts are being used to help support their claim",
+            "using their understanding of a concept such as fairness to identify a situation where something is unfair"
+          ]
+        },
+        {
+          "code": "VC2CE4D02",
+          "strand": "Decision-making and Actions",
+          "text": "the influence of intention on behaviour, whether good intentions always lead to good outcomes, and the importance of considering the ethical significance of an outcome as well as how it is achieved when making decisions in response to an ethical issue or dilemma",
+          "elaborations": [
+            "using scenarios to show how intentions and associated behaviours could lead to good or bad outcomes, or both; for example, sharing lunch, helping a friend with homework or providing welfare",
+            "evaluating the consequences of behaviour and whether these were intended or foreseeable; for example, playing a prank on someone",
+            "researching whether intentions were achieved, such as the aims of a development in the local community",
+            "exploring an ethical dilemma and comparing responses that place more importance on how an outcome is achieved, such as behaving honestly regardless of the consequences, and responses that place more importance on the outcome, such as making someone happy even if it means behaving dishonestly, and reflecting on how both means and ends should be considered in decision-making"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students explain the meaning and ethical significance of a range of ethical concepts in different contexts. They explain influences on ethical perspectives and connections between various influences.\nStudents identify and describe an ethical issue and explain the ethical perspectives involved. They identify and describe a range of actions in response to an ethical issue and describe the consequences, with reference to ethical concepts. Students explain the decision-making used to select one or more actions, with reference to an ethical framework and ethical concepts. They explain ethical perspectives on decisions made.",
+      "contentDescriptions": [
+        {
+          "code": "VC2CE6U01",
+          "strand": "Understanding Ethical Concepts and Perspectives",
+          "text": "the meaning of ethical concepts including respect and beneficence, and ethical concepts such as happiness or truth that can vary in importance or meaning in different contexts",
+          "elaborations": [
+            "using ethical dilemmas as a prompt for exploring whether it is ever desirable to lie, for example to protect a friend from getting into trouble or feeling hurt, or about an injury to get picked for a team",
+            "asking a range of people for their views on the importance of happiness and what is necessary for happiness",
+            "exploring the meaning of respect and the meaning of beneficence and discussing the importance of each concept in relation to people, animals and the wider environment",
+            "investigating what happiness means in different contexts and how artificial intelligence might influence the achievement of happiness now and in the future, for example in the workplace"
+          ]
+        },
+        {
+          "code": "VC2CE6U02",
+          "strand": "Understanding Ethical Concepts and Perspectives",
+          "text": "the meaning of a worldview, and how worldviews influence ethical perspectives, and simple connections between influences on ethical perspectives, such as between rights and responsibilities and shared expectations, or between worldviews and values",
+          "elaborations": [
+            "exploring the meaning of a worldview and examining how there are diverse worldviews, by considering issues such as the treatment of animals, and care for places or the environment, and using these issues to identify connections between worldviews and values",
+            "exploring how respect for rights might lead to shared expectations and associated responsibilities",
+            "exploring the connection between particular rights and particular responsibilities"
+          ]
+        },
+        {
+          "code": "VC2CE6U03",
+          "strand": "Understanding Ethical Concepts and Perspectives",
+          "text": "how conscience, care, personal and non-personal experiences and dispositions including self-restraint influence ethical perspectives, and simple connections between these influences such as between care and experience",
+          "elaborations": [
+            "defining conscience and self-restraint and discussing examples where conscience or self-restraint could influence perspectives on right, wrong, good or bad, for example with regards to paying or not paying for internet content or tampering or not tampering with evidence with little likelihood of getting caught",
+            "discussing how reflecting on personal experiences and the experiences of others builds a moral imagination and empathy"
+          ]
+        },
+        {
+          "code": "VC2CE6D01",
+          "strand": "Decision-making and Actions",
+          "text": "how ethical perspectives and ethical concepts are used to identify and describe ethical issues, including their ethical significance, and how they are also used to explain responses to them, including their ethical significance",
+          "elaborations": [
+            "participating in a discussion about an ethical issue and identifying values, shared expectations or other influences on ethical perspectives expressed in the discussion that help to describe the ethical perspectives involved",
+            "identifying issues involving a range of ethical concepts, such as aesthetics, harm, human rights or quality of life, for example with regard to product design or planning to improve the accessibility of places in the local community"
+          ]
+        },
+        {
+          "code": "VC2CE6D02",
+          "strand": "Decision-making and Actions",
+          "text": "the meaning of an ethical framework, and how the consequences framework, duties framework and virtues framework can each guide decision-making in response to an ethical issue",
+          "elaborations": [
+            "using an ethical dilemma to identify that sometimes the application of values is not enough to guide decision-making, and exploring how an ethical framework can be used to help decide between potential actions that are all consistent with values held",
+            "exploring different ethical dilemmas and comparing how someone using only a consequences framework (where more importance is placed on the outcome rather than the means to achieve it), someone using only a duties framework (where more importance is placed on duties held regardless of the consequences) and someone using only a virtues framework (where more importance is placed on dispositions as a guide to knowing the right thing to do) would reach a decision on one or more actions",
+            "exploring how a particular action could be judged as the right thing to do but justified using different ethical frameworks; for example, selecting an action that is consistent with environmental sustainability, justified as better for the environment overall compared to other actions (using the consequences framework), justified as the right thing to do as it is consistent with a duty we hold towards the natural world (using the duties framework), or justified as consistent with what a caring person would do (consistent with the virtues framework)"
+          ]
+        }
+      ]
+    }
+  ]
+}

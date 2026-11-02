@@ -1,0 +1,696 @@
+{
+  "subject": "History",
+  "slug": "history",
+  "learningArea": "Humanities",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify continuity and change in personal, family and community life. They describe significant aspects of personal and family life, and of an individual, a site or an event in their community. They identify how changing technology has influenced the daily life of their families and close connections and in the wider community.\nStudents ask historical questions to investigate the past and sequence significant events in the past and in their lives in chronological order. Students identify the features and content of sources and the perspectives of people in the past and present. They identify continuities and changes in daily life by comparing the past and the present and identify the causes and consequences of those changes. They identify significant individuals, events and places in their families and community. Students communicate an account of their lives, their family and close connections and community using historical terms and information from sources.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HH2K01",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Personal histories",
+          "text": "the stories of family and close connections, where they were born and raised, and how they are related to each other",
+          "elaborations": [
+            "identifying the members of a family and close connections, such as parent(s), caregiver(s), sibling(s), grandparent(s), aunty, uncle or cousin, and varieties of kinship structure that may be represented in the cultural backgrounds of students, such as cousin-brother and mother-aunty in Aboriginal families",
+            "drawing family members and close connections and including information collected from questions and observations to share details about that person's life, including the places they were born and raised",
+            "creating concept maps with pictures or photographs to show connections with other people"
+          ]
+        },
+        {
+          "code": "VC2HH2K02",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Personal histories",
+          "text": "differences in family structures and roles and how these have changed or remained the same over time",
+          "elaborations": [
+            "identifying the similarities and differences for a range of family types, such as nuclear families, large families, single-parent families, extended families, blended or stepfamilies, rainbow families, adoptive- and foster-parent families, grandparent families and kinship groups",
+            "comparing families in the present with those from the recent past, for example in the size of families across the generations",
+            "examining the roles of family members over time, such as the roles of parents, children and extended family members, and comparing these with family roles today"
+          ]
+        },
+        {
+          "code": "VC2HH2K03",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Personal histories",
+          "text": "differences and similarities between students' daily lives and how these have changed or remained the same over time",
+          "elaborations": [
+            "identifying similarities and differences in classroom equipment, learning activities, school playgrounds and playground games through observations of provided artefacts and photos, and asking questions of adults from different generations",
+            "examining the traditional toys and games of Aboriginal Peoples, such as the weet-weet throwing stick game and the ball game marngrook",
+            "explaining what has changed in daily life over time, such as homes, family traditions, diverse religious and cultural practices, leisure activities, school life, rules and shopping/consumer habits",
+            "comparing and commenting on photographs and oral histories to find out how daily lives have changed and remained the same over time, for example by talking to parents, carers, grandparents and other close connections"
+          ]
+        },
+        {
+          "code": "VC2HH2K04",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Community histories",
+          "text": "how they, their family and close connections, friends and communities commemorate significant past events that are important to their community",
+          "elaborations": [
+            "discussing ways of celebrating significant occasions for all cultures, including Aboriginal and Torres Strait Islander Peoples, for example special meals, family gatherings, visiting special places, and the role of art, music, telling stories and handing on traditions from generation to generation",
+            "responding to a provided calendar of events that students and their families, friends and communities celebrate or commemorate, such as birthdays; religious festivals, such as Diwali, Easter, Lunar New Year, Passover and Ramadan; family reunions; cultural festivals; and community commemorations, such as Australia Day, NAIDOC Week and Anzac Day, and discussing why each event is important"
+          ]
+        },
+        {
+          "code": "VC2HH2K05",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Community histories",
+          "text": "the history of a local historical site of social, cultural or spiritual significance and how it has changed over time",
+          "elaborations": [
+            "identifying the Traditional Owners of the Country or Place on which they live and go to school",
+            "visiting, where appropriate, local sites, places and landscapes of significance to Aboriginal and Torres Strait Islander Peoples, such as middens, scar trees, engraving sites, rock paintings or natural sites or features, such as creeks or mountains",
+            "designing a historical tour of a building or site, such as one related to a particular cultural group",
+            "suggesting reasons for the location of a local landmark before searching for resources that provide an explanation, for example a community building, statue or war memorial",
+            "discussing why a particular site has heritage significance or cultural value for present generations; for example, is the place of significance to Aboriginal and/or Torres Strait Islander Peoples of an area? Does the place commemorate a significant historical event? Does the location reflect the community's identity?",
+            "investigating the history of a person, building, site or place in the local community, using provided sources (e.g. the internet, books, newspapers, community information guides, audiovisual material, digital sources, photographs) and telling a story of what these reveal about the past"
+          ]
+        },
+        {
+          "code": "VC2HH2K06",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Community histories",
+          "text": "the consequences of changing technologies on people's lives at home, and the ways they worked, travelled and communicated in the past",
+          "elaborations": [
+            "describing the changes in how we communicate with family and friends and the consequences (positive and negative) of these changes",
+            "examining changes in technology over several generations by comparing past and present objects and photographs, and discussing how these changes have shaped people's lives, for example changes to land, air and sea transport; the move from wood-fired stoves to gas/electrical appliances; the introduction of television, transistors, FM radio and digital technologies",
+            "creating toys used by children who lived when electricity was not available"
+          ]
+        },
+        {
+          "code": "VC2HH2S01",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Historical questions",
+          "text": "ask historical questions about objects, people, places and events in the past and present",
+          "elaborations": [
+            "posing questions about family and places, such as 'How old was I?', 'Where was I?' and 'What was I doing?', having explored sources relating to their own life, for example family interviews, photographs, stories, film, classmates' paintings, excursions to places",
+            "asking questions before, during and after listening to stories about people and places, and about their past and present",
+            "preparing questions for parents and members of older generations about how and where they lived in the past, and the places they value",
+            "asking members of their families where they were born and raised and what they did during their childhood",
+            "developing inquiry questions about a historical site, for example 'What does it look like now?', 'What condition is it in?', 'What was its purpose?', 'How might its use have changed?', 'How was it built/created?', 'Who built it?', 'How is it used now?', 'Why is it important?' and 'Was/is it used by different groups of people?'"
+          ]
+        },
+        {
+          "code": "VC2HH2S02",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Chronology",
+          "text": "sequence events chronologically",
+          "elaborations": [
+            "ordering significant personal events or milestones using photographs or drawings; for example, walking, talking, the birth of a sibling, moving house, an illness, an achievement, first day at school",
+            "sequencing photos or drawings of significant events in chronological order to create a timeline of events in their life or their community",
+            "ordering key events in the development of the local community, the history of a place or building or a person's life, using formats such as unscaled timelines, slideshows or stories"
+          ]
+        },
+        {
+          "code": "VC2HH2S03",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Using historical sources",
+          "text": "identify the features and content of sources",
+          "elaborations": [
+            "explaining the different information in a story or a photograph of a significant event in their life or community",
+            "classifying a range of different objects from the past by their original purpose",
+            "recognising that information about the past can be communicated in different forms, such as through photographs, artefacts, books, stories, digital media and museums",
+            "collecting information from sources to learn about the past, for example photographs, interviews, newspapers, stories and place and street names on maps, and identifying relevant information"
+          ]
+        },
+        {
+          "code": "VC2HH2S04",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Using historical sources",
+          "text": "identify perspectives of people in the past or present in sources",
+          "elaborations": [
+            "identifying what is important in a person's story about the past",
+            "recognising that stories of the past may differ depending on who is telling them; for example, listening to stories about the same event related by 2 different people, such as a mother and a grandmother"
+          ]
+        },
+        {
+          "code": "VC2HH2S05",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Continuity and change",
+          "text": "identify examples of continuity and change by comparing the past and present",
+          "elaborations": [
+            "defining change and continuity using examples from their own experience",
+            "identifying similarities and differences between activities over time by comparing objects of the past with those currently used; for example, comparing toys, games, clothes, phones, cooking utensils, tools, homework, books",
+            "distinguishing between what is old and what is new, using clues such as the condition of the object",
+            "locating historical evidence of the local community, including signs of the past in the present, for example place and street names, monuments, built and natural historical landmarks",
+            "listing features of a site that reveal its past, such as dates, decorations and plaques on buildings",
+            "using collected information (e.g. from stories told by parents, grandparents, Elders or familiar older people; from comparison of objects) to make conclusions about continuity and change over time (e.g. how family roles, occupations and/or technologies have changed or remained the same) and how places change (e.g. because of new houses)"
+          ]
+        },
+        {
+          "code": "VC2HH2S06",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Causes and consequences",
+          "text": "identify the causes and consequences of changes",
+          "elaborations": [
+            "defining the meaning of causes and consequences",
+            "discussing why consequences of a historical event can be positive or negative",
+            "explaining how a change in communication technology, such as the development of telephones and televisions, has an influence on everyday life",
+            "identifying how computers have changed how and where people work"
+          ]
+        },
+        {
+          "code": "VC2HH2S07",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Historical significance",
+          "text": "identify the significance of an individual, event and/or place",
+          "elaborations": [
+            "developing criteria as a class to identify what makes an individual, event or place significant",
+            "explaining what makes events and places special by asking questions such as 'What special events does my family celebrate?' and 'What makes my favourite places special?'",
+            "describing a significant person or place from their community's past, for example a short report on a building of significance that describes when, where and why it was built, who built it and why it is valued in the present, or a biography about an individual that explains why they are significant",
+            "explaining why the same place has significance to different groups for different reasons, for example traditional meeting places for Aboriginal and/or Torres Strait Islander Peoples, or an urban area that includes buildings or monuments that are important to other cultural groups"
+          ]
+        },
+        {
+          "code": "VC2HH2S08",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Communicating",
+          "text": "create a chronological account of events using historical terms and information from sources",
+          "elaborations": [
+            "using terms about time when talking about their experiences, for example then, now, yesterday, today, in the past, one year ago, 10 years ago",
+            "telling a story about life in their parents' or grandparents' time (orally or through pictures and photographs)",
+            "creating a display about a special place or family event using photographs, artefacts and/or drawings",
+            "retelling stories about the history of their community using spoken narratives, pictures, role-plays or photographs"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students describe continuity and change in their community and the significance of events, symbols and emblems in the celebration of Australia's identity and diversity. They describe the significant events and the experiences and perspectives of people in Australia between 1750 and 1800. They describe causes and consequences of early colonisation for Aboriginal and Torres Strait Islander Peoples, new arrivals and the environment.\nStudents ask a range of historical questions to identify evidence of the experiences of people in the past. They sequence events and life stories in chronological order to identify continuity and change in their community and in early colonial Australia. They identify the features and contexts of different primary and secondary historical sources. Students describe the perspectives of people in the past and why historical interpretations differ. Students identify and describe continuity and change in the community and in the early colonisation of Australia. They describe the causes and consequences of changes in local communities and the early colonisation of Australia. Students describe why events, symbols, emblems and the contributions of people from a range of backgrounds are significant to changes in communities and the early colonisation of Australia. Students describe historical developments and events using historical terms and use evidence drawn from historical sources.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HH4K01",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Community, remembrance and celebrations",
+          "text": "the significance of Country and Place to Aboriginal and/or Torres Strait Islander Peoples who are connected to their area",
+          "elaborations": [
+            "identifying the Aboriginal People of their region of Victoria using an Aboriginal and Torres Strait Islander languages map",
+            "listening to an Aboriginal or Torres Strait Islander Elder or respected community member explain the importance of Country and Place",
+            "preparing an Acknowledgement of Country individually or in groups to be presented to their peers, class or school or at a community event",
+            "explaining why Country and Place are significant to Aboriginal and Torres Strait Islander Peoples"
+          ]
+        },
+        {
+          "code": "VC2HH4K02",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Community, remembrance and celebrations",
+          "text": "causes and consequences of changes in a local community and the contributions and experiences of people from diverse backgrounds to a local community",
+          "elaborations": [
+            "identifying individuals and groups of diverse backgrounds from the past who have contributed to the community's economic, social, cultural, civic and environmental development and character",
+            "listening to a community member speak about the experiences and contributions of people from diverse backgrounds who have lived in their area",
+            "examining photographs, newspapers, oral histories, diaries and letters to investigate how an aspect of life in the local community, such as entertainment or the natural and built environment, has changed over time",
+            "asking questions about changes in the local community, such as 'What has changed?', 'What caused the change?', 'How quickly did the change happen?' and 'What are the consequences of the change?'",
+            "summarising the causes and consequences of change in their community using a visual organiser"
+          ]
+        },
+        {
+          "code": "VC2HH4K03",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Community, remembrance and celebrations",
+          "text": "significant events, symbols and emblems that express Australian identity and diversity and how they are celebrated, commemorated or recognised, including Australia Day, Anzac Day, Harmony Week, the Australian flag, the Aboriginal flag and Torres Strait Islander People's flag",
+          "elaborations": [
+            "identifying Australian days of significance, such as Australia Day, Anzac Day, NAIDOC Week and National Sorry Day",
+            "examining the symbolism found in the design and protocols associated with displaying and using flags, for example the symbolism of the Australian flag, the Aboriginal flag and Torres Strait Islander flag",
+            "generating a list of local, state/territory, national and religious symbols and emblems, such as the Commonwealth Coat of Arms, the Australian, Aboriginal and Torres Strait Islander flags, state/territory flags and coats of arms, club emblems, school logos, flags and floral emblems",
+            "recognising that people have different perspectives on the significance of events or dates, such as 'Australia Day' and 'Invasion Day'"
+          ]
+        },
+        {
+          "code": "VC2HH4K04",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Community, remembrance and celebrations",
+          "text": "the changing ways Aboriginal and Torres Strait Islander Peoples' knowledge, understandings and experiences are recognised, including Acknowledgement of Country, NAIDOC Week, Reconciliation Week and National Sorry Day",
+          "elaborations": [
+            "describing the importance and meanings of NAIDOC Week, National Sorry Day and Mabo Day",
+            "recognising special occasions when the Australian flag, the Aboriginal flag and the Torres Strait Islander flag are flown; for example, all 3 flags are flown during NAIDOC Week and National Reconciliation Week, and on National Sorry Day and Mabo Day"
+          ]
+        },
+        {
+          "code": "VC2HH4K05",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Community, remembrance and celebrations",
+          "text": "the significance of national, religious and cultural celebrations and commemorations in Australia and other places around the world",
+          "elaborations": [
+            "identifying and discussing significant religious or cultural festivals that are celebrated in their community and around the world, such as Christmas, Diwali, Hanukkah, Lunar New Year and Ramadan",
+            "explaining the different perspectives on some events that are commemorated and celebrated, such as the importance of Christmas as a religious event to Christians but that other religious worldviews do not celebrate Christmas",
+            "creating a presentation or display about national days in different countries, including Australia, that explains what the day commemorates and how it is commemorated (e.g. Anzac Day, National Sorry Day, Independence Day (4 July) in the United States of America, Indian Independence Day, Bastille Day in France)"
+          ]
+        },
+        {
+          "code": "VC2HH4K06",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Early colonisation of Australia to c. 1800",
+          "text": "the diversity of Aboriginal and Torres Strait Islander Peoples, their social organisation and the ways their daily lives were shaped by Country and Place",
+          "elaborations": [
+            "discussing the many uses of possum skin cloaks, such as warmth in colder climates, as baby carriers, for burial and as a story about an individual's life",
+            "discussing that Aboriginal Peoples and Torres Strait Islander Peoples are distinct communities with considerable diversity within these groups",
+            "using an Aboriginal and Torres Strait Islander Peoples' language map and other sources to describe differences between Aboriginal and Torres Strait Islander Peoples, such as languages, stories, dances, art, housing, diet and the physical environment and climate",
+            "visiting local Aboriginal sites, such as a scar tree, middens, mounds or surface scatter sites and discussing the evidence of daily life they reveal (it is recommended that the school engage with local Aboriginal Communities in developing such learning activities)",
+            "investigating pre-colonisation life of Aboriginal and Torres Strait Islanders Peoples; their knowledge and understanding of their environments, including land management practices; their sense of the interconnectedness of Country and Place, people, culture and identity; and some of their principles, such as caring for Country, caring for each other and respecting all things",
+            "discussing Aboriginal kinship systems, such as moiety, totems and skin names, and explaining how these shape roles, responsibilities, rights and relationships between individuals, groups and Country"
+          ]
+        },
+        {
+          "code": "VC2HH4K07",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Early colonisation of Australia to c. 1800",
+          "text": "the causes for the establishment of the first permanent British colony on Gadigal Country (Sydney) in 1788",
+          "elaborations": [
+            "defining key terms such as 'colony', 'navigation' and 'economic resources'",
+            "examining journeys of the Australian coastline by one or more European navigators (e.g. Dirk Hartog, Abel Tasman, James Cook, Comte de la Perouse, Willem Jansz) and using maps to reconstruct their routes in order to investigate the possibility of countries settling Australia to expand their empires",
+            "describing the journeys of James Cook, including Cook's 'secret instructions'",
+            "explaining the reason for moving the initial site of the British colony on Dharawal and Dharug Country (Botany Bay) to Gadigal Country (Port Jackson)",
+            "investigating the reasons for the colonisation of Australia, including Britain needing a penal colony, the impact of the loss of the North American colonies, the creation of a base in the global south and resources",
+            "explaining the doctrine of Terra Nullius as a factor contributing to settling Australia"
+          ]
+        },
+        {
+          "code": "VC2HH4K08",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Early colonisation of Australia to c. 1800",
+          "text": "the experiences and perspectives of individuals and groups, including military and civilian officials and convicts, involved in the establishment of the first British colony on Gadigal Country (Sydney)",
+          "elaborations": [
+            "preparing a table that summarises the different groups and individuals who travelled to Australia on the First Fleet, and their experiences of the journey and Australia",
+            "creating an illustrated timeline of the journey of the First Fleet and adding significant dates in the early years of the colony to it",
+            "examining the wide range of crimes punishable by transportation and the types of people who were transported",
+            "investigating attitudes to the poor, the treatment of prisoners and the social standing of those who travelled to Australia on the First Fleet, including families, children and convict guards",
+            "documenting daily life in the Port Jackson penal colony and the experiences of different groups using evidence from diaries and artworks"
+          ]
+        },
+        {
+          "code": "VC2HH4K09",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Early colonisation of Australia to c. 1800",
+          "text": "Aboriginal Peoples' experiences, perspectives and responses to the impact of colonisation following the arrival of the First Fleet",
+          "elaborations": [
+            "considering the experience and perspectives of Aboriginal people, such as Pemulwuy, Windradyne and Bennelong, and their contact with the British and how such interactions may have been interpreted",
+            "examining paintings and accounts of Aboriginal people and British colonists to identify the impact British colonisation had on the lives and experiences of Aboriginal people, for example dispossession, dislocation and the loss of lives through frontier conflict and disease, loss of food sources and medicines, the embrace of some colonial technologies, the practice of colonial religion, and intermarriage"
+          ]
+        },
+        {
+          "code": "VC2HH4K10",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Early colonisation of Australia to c. 1800",
+          "text": "different interpretations of the early colonisation of Australia, including why British colonisation is interpreted as an invasion, and Terra Nullius",
+          "elaborations": [
+            "defining the difference between settlement and colonisation",
+            "explaining the concept of Terra Nullius and its significance in the process of colonisation",
+            "defining invasion and discussing the distinctions between settlement and colonisation in relation to the colonisation of Australia",
+            "explaining the significance of Eddie Koki Mabo's claim that Torres Strait Islander Peoples had been on their lands for over 2000 years before British colonisation"
+          ]
+        },
+        {
+          "code": "VC2HH4S01",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Historical questions",
+          "text": "ask a range of historical questions to identify evidence of the experiences of people in the past",
+          "elaborations": [
+            "developing questions to identify the experiences of people in visual sources, such as 'What is this a picture of?', 'What groups of people are represented in the source?' and 'What are the people in the image doing?'",
+            "asking questions before, during and after an investigation, using tools such as a KWL chart (what they know, what they want to know and what they have learned) and the 5 Ws + H (who, what, when, where, why and how)",
+            "discussing how an investigation about the past, such as through a museum display, video or interactive website, is guided by questions at different stages, including 'Why is that important now?'",
+            "developing questions that address historical concepts, such as 'What were the causes…?', 'Why was this event significant?' and 'How did daily life change?'"
+          ]
+        },
+        {
+          "code": "VC2HH4S02",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Chronology",
+          "text": "sequence significant events and peoples' life stories chronologically to identify continuity and change",
+          "elaborations": [
+            "drawing a timeline or other visual representation of key stages of the establishment of the first British colony in Australia",
+            "creating a flow chart that combines the biographical details of significant individuals and the historical events they were associated with",
+            "annotating a timeline of the early colonisation of Australia to identify events and individuals that contributed to change and continuity, potentially using different colours to indicate the groups impacted by change or the significance of the continuity and/or change"
+          ]
+        },
+        {
+          "code": "VC2HH4S03",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Using historical sources",
+          "text": "identify the features and content of historical sources",
+          "elaborations": [
+            "identifying when an object was made, an artwork was created or a photograph was taken",
+            "explaining the differences between primary and secondary sources, and historical perspectives and historical interpretations, using examples",
+            "describing the meaning of the symbols on the Australian flag, the Aboriginal flag and the Torres Strait Islander flag",
+            "examining a range of sources, such as artworks, photographs, newspapers, maps and oral histories, to locate information about the people, places and events in their community's present and past",
+            "identifying sources to investigate the story of the First Fleet and its arrival, including Aboriginal Peoples' stories, paintings, maps, written records and accounts"
+          ]
+        },
+        {
+          "code": "VC2HH4S04",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Using historical sources",
+          "text": "describe perspectives of people from the past based on evidence from primary sources",
+          "elaborations": [
+            "using visible thinking strategies to examine different sources, such as diaries or images, to identify and describe different perspectives from the past",
+            "describing the perspectives of different groups in a community based on information gathered from interviews and stories about a local area",
+            "describing different perspectives about a historical event, for example the different perspectives of Aboriginal people, convicts, soldiers and free colonists during the early period of colonisation using historical sources such as images, stories and diaries",
+            "using different stories about contact experiences and early penal life to discover the thoughts or feelings of the people at that time, such as convicts, Aboriginal and Torres Strait Islander Peoples, convict guards and free colonists"
+          ]
+        },
+        {
+          "code": "VC2HH4S05",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Using historical sources",
+          "text": "describe different historical interpretations",
+          "elaborations": [
+            "outlining why Aboriginal Peoples consider British colonisation an invasion",
+            "explaining why using the terms 'colonisation' and 'settlement' are considered examples of contested historical interpretation"
+          ]
+        },
+        {
+          "code": "VC2HH4S06",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Continuity and change",
+          "text": "identify and describe continuity and change",
+          "elaborations": [
+            "investigating the establishment of the colony on Gadigal lands by posing questions such as 'Who were the original inhabitants of the area?', 'Why did colonists choose to settle in the area?', 'Where did the colonists come from?', 'What types of changes occurred in the area?', 'Were the changes gradual or rapid?' and 'What stayed the same in the area?'",
+            "identifying Aboriginal names for the features and places in a local area and the origin of new names for streets, rivers and areas",
+            "identifying how the population of a colony changed over time and describing the changing patterns over time",
+            "using historical sources, such as stories, diaries, letters, drawings and paintings, to identify continuities and changes in land use and the environment following the arrival of the First Fleet"
+          ]
+        },
+        {
+          "code": "VC2HH4S07",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Causes and consequences",
+          "text": "describe the causes and consequences of change",
+          "elaborations": [
+            "drawing a causes and consequences diagram of a significance event in the early phase of colonisation",
+            "describing the significance of migration as a cause of change in a local community",
+            "using a fishbone diagram to identify the causes and consequences of the establishment of the first British colony on Gadigal Country"
+          ]
+        },
+        {
+          "code": "VC2HH4S08",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Historical significance",
+          "text": "describe the significance of symbols, emblems, individuals, events and developments",
+          "elaborations": [
+            "creating information cards explaining the origin and purposes of commemorative events that are important in Australian life",
+            "identifying the meaning of celebrations from different perspectives, for example Australia Day for Aboriginal and Torres Strait Islander Peoples compared with other cultural groups",
+            "describing the significance of religious celebrations to people in other countries and in Australia, such as Christmas, Diwali, Hanukkah, Lunar New Year and Ramadan",
+            "explaining the significance of Bennelong as a mediator between 2 cultures or the role of Governor Arthur Phillip during the establishment of the first British colony"
+          ]
+        },
+        {
+          "code": "VC2HH4S09",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Communicating",
+          "text": "develop historical interpretations using historical terms, knowledge and evidence from historical sources",
+          "elaborations": [
+            "using historical terms and concepts when speaking, writing and describing historical events and developments, for example Country and Place, community, immigration, commemoration, emblems, symbols, colonisation, invasion, settlement, transportation, sources, perspectives, interpretation, change, causes, consequences and significance",
+            "using graphic organisers, timelines, tables or digital applications to communicate information about the past, such as changes in the local community or the journey of the First Fleet",
+            "recounting the experiences of an individual based on researched facts, for example a biography, diary or journal of a navigator or convict on the First Fleet"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students explain the causes and consequences of the establishment of British colonies in Australia during the 1800s and the contribution of significant individuals, events and ideas to continuity and change to Australian politics and society, including Federation and migration between 1900 and 2000.\nStudents develop and ask questions to assist their investigation into continuity and change in Australian history between 1800 and 2000. They organise events, developments and the lives of individuals in chronological order and use that information to create a narrative. Students identify the features, content and context of primary and secondary historical sources and describe the value of evidence in sources for specific historical investigations. They describe the perspectives, beliefs, values and attitudes of people and groups in Australia's past using evidence from primary sources. Students recognise different historical interpretations and explain why they may vary. Students identify and compare patterns of continuity and change in the events and the lives of Australians between 1800 and 2000. They explain the causes and consequences of significant events, individuals and groups during the Australian colonial period and the 20th century. Students explain the significance of events, individuals and groups as factors contributing to continuity and change in Australia during the period of study. They construct interpretations of Australian history between 1800 and 2000 using appropriate historical terms and evidence drawn from primary and secondary sources.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HH6K01",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1800–1900)",
+          "text": "the causes for the establishment of different British colonies on Aboriginal and Torres Strait Islander Peoples' Countries and Places after 1800",
+          "elaborations": [
+            "explaining the reasons for the establishment of different types of colonies in Australia, such as a penal colony (e.g. Moreton Bay, Van Diemen's Land) or a free colony (e.g. South Australia, Victoria)",
+            "identifying the motivations and perspectives of early colonists of Victoria, such as the Henty family and John Batman, using historical sources",
+            "investigating economic reasons for the establishment of different colonies in Australia, such as the acquisition of land and resources, and the economic situation in Britain, including high unemployment and poverty",
+            "examining the colonisation of the Torres Strait Islands in the 1870s",
+            "mapping local, regional and state/territory rural and urban population patterns in the 1800s, and noting the factors, such as geographical features, climate, water resources, the discovery of gold, transport and access to port facilities, that shaped these patterns",
+            "using a visible thinking routine to identify the different factors influencing the establishment of a colony"
+          ]
+        },
+        {
+          "code": "VC2HH6K02",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1800–1900)",
+          "text": "the impacts of the development of colonies on Aboriginal and Torres Strait Islander Peoples, local-born colonists and migrants, and on the environment",
+          "elaborations": [
+            "investigating an event or development and explaining its economic, social and political impacts on a colony; for example, the consequences of frontier conflict events such as the Myall Creek Massacre or the Pinjarra Massacre; the impact of South Sea Islanders on sugar farming and the timber industry; the impact of the Eureka Stockade on the development of democracy; the impact of internal 'exploration' and the advent of rail on the expansion of farming",
+            "using stories, government documents, letters and diaries and historical interpretations to investigate the interaction between Aboriginal Peoples' communities, colonists and migrants in the development of Victoria",
+            "examining the impacts of the pearling industry on Torres Strait Islander communities",
+            "investigating colonial life to discover what life was like at that time for different inhabitants (e.g. an Aboriginal or Torres Strait Islander Peoples' community and a European and/or Asian immigrant community; a convict and a free colonist; a 'squatter', European or Chinese gold miners; sugarcane farmers; cameleers; an indentured labourer), the challenges they faced and responses they made in terms of clothing, access to food and water, leisure, paid and unpaid work, use of technologies, shopping or trade, language, housing and children's lives",
+            "mapping colonisation patterns in the 1800s, noting factors that shaped these patterns (e.g. geographical features, climate, access to land for farming and grazing, water resources, the discovery of gold, transport and access to port facilities) and the impact these settlement patterns had on the local environment and its ecosystems (e.g. comparing the present and past landscape, and the flora and fauna of the local community, including introduced species)",
+            "investigating the contribution or significance of an individual or group in the shaping of a colony in the 1800s (e.g. explorers, farmers, pastoralists, miners, inventors, writers, artists, humanitarians, religious and spiritual leaders, and political activists, including women, children and people of diverse cultures)"
+          ]
+        },
+        {
+          "code": "VC2HH6K03",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1800–1900)",
+          "text": "the continuities and changes associated with significant developments or events on a colony",
+          "elaborations": [
+            "describing the continuities and changes associated with frontier conflict, the gold rushes, the Eureka Stockade, colonist 'exploration', the advent of rail and the expansion of farming",
+            "examining significant developments in the history of the Port Phillip District and the colony of Victoria, such as first colonisation by the Henty family, John Batman's 'treaty', pastoralism, the establishment of Melbourne and its development from the 1840s, the gold rushes, the Eureka Stockade, the 40-Hour Week and representative democracy",
+            "creating 'what if' scenarios by constructing different outcomes for a key event, for example 'What if Peter Lalor had encouraged gold miners to pay rather than resist licence fees?'"
+          ]
+        },
+        {
+          "code": "VC2HH6K04",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1800–1900)",
+          "text": "the causes and consequences of people migrating to a colony from Europe and Asia and the perspectives, experiences and contributions of a particular migrant group within a colony",
+          "elaborations": [
+            "identifying the reasons for why people migrated to Australia in the 1800s, for example as convicts; assisted passengers; indentured labourers; people seeking a better life, such as gold miners; and those dislocated by events such as the Industrial Revolution, the Irish Potato Famine and the Highland Clearances, using evidence of experiences and perspectives from historical sources",
+            "investigating the experiences and contributions of a migrant group in a colony, such as Germans in South Australia, Japanese in Broome, Afghan cameleers in the Northern Territory, Chinese on the Victorian Goldfields or Pacific Islanders in the Torres Strait, using a range of historical sources",
+            "connecting (where appropriate) stories of migration to students' own family histories",
+            "creating push-pull diagrams to illustrate reasons for migration to an Australian colony",
+            "creating a poster about European and Chinese migrants to Victoria during the 1850s that compares and contrasts experiences and perspectives of life on the goldfields and contributions to life in the colony"
+          ]
+        },
+        {
+          "code": "VC2HH6K05",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1800–1900)",
+          "text": "the role of significant individuals or groups, including Aboriginal and Torres Strait Islander Peoples, local-born colonists and migrants, on the development of or events in a colony",
+          "elaborations": [
+            "explaining the roles and influence of key Aboriginal leaders in colonial Victoria, such as William Barak, Billibellary, Bebejan, Tullamareena and Simon Wonga",
+            "investigating the experiences and contributions of a particular migrant group within a colony, such as the Germans in South Australia, Japanese in Broome, Afghan cameleers in the Northern Territory, Chinese at Ballarat and Bendigo, and Pacific Islanders in the Torres Strait",
+            "investigating an event or development and explaining its economic, social or political impact on a colony, for example the impact of Blaxland, Wentworth and Lawson travelling across the Blue Mountains in 1813 on the expansion of farming; the impact of expeditions into the interior by figures such as Mitchell, Oxley and Sturt on frontier conflict; the impact of the introduction of merino sheep on economic development; the impact of the Eureka Stockade on the development of democracy; the impact of rail on the expansion of farming",
+            "creating 'what if' scenarios by constructing different outcomes for a key event; for example, 'What if Chinese immigrants were not allowed to land in Robe, South Australia, during the Victorian gold rush?', 'What if Governor Macquarie had not been removed by his enemies in 1821?' and 'What if there was no gold rush in Victoria?'",
+            "examining the development of at least one primary industry during the 1800s, such as wheat, wool, meat, whaling, sugar cane, pearling or mining, including the involvement of Aboriginal and Torres Strait Islander Peoples, and explaining why this development was important to the colony",
+            "examining the roles of key women in the early Australian colonies, such as Elizabeth Macarthur, Edith Cowan, Maria Lock, Mary Bryant, Mary Reiby, Mary MacKillop and Truganini"
+          ]
+        },
+        {
+          "code": "VC2HH6K06",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1800–1900)",
+          "text": "different interpretations of a significant historical development in a colony during the 19th century",
+          "elaborations": [
+            "evaluating the significance of the Frontier Wars and the impact of colonisation on Aboriginal and Torres Strait Islander communities",
+            "contrasting interpretations of the Eureka Stockade's legacy and explaining why the interpretations differ",
+            "comparing different interpretations of the impacts of the Victorian gold rushes and explaining why the interpretations differ",
+            "debating the proposition that 'Ned Kelly was just another outlaw' and explaining why the interpretations differ"
+          ]
+        },
+        {
+          "code": "VC2HH6K07",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1900–2000)",
+          "text": "significant individuals, events and ideas that led to Australia's Federation, including the Constitution and democratic systems of government",
+          "elaborations": [
+            "creating a presentation or display that explains the features of the Australian Constitution and its system of government",
+            "studying Australia's path to Federation through an examination of key people and events, such as Henry Parkes, Edmund Barton, Alfred Deakin, George Reid, John Quick, the Tenterfield Oration, the Corowa Conference and the referendums held in the colonies between 1898 and 1900",
+            "exploring how the United States of America's model of federalism (the Washington system) contributed to the ideas for Andrew Clark's first draft of the Constitution",
+            "investigating how Australia's system of law and government has origins in the Magna Carta, the English Civil War and the Westminster system and, therefore, why we have a constitutional monarchy and why there was a separation of powers (legislative, executive, judiciary)"
+          ]
+        },
+        {
+          "code": "VC2HH6K08",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1900–2000)",
+          "text": "the changing experiences and perspectives of Australian democracy and citizenship of Aboriginal and Torres Strait Islander Peoples, migrants, women and children since Federation",
+          "elaborations": [
+            "describing the experiences and perspectives of Aboriginal Peoples at Coranderrk, Lake Tyers and Lake Condah during the 1900s",
+            "creating biographies evaluating the contribution of Aboriginal and Torres Strait Islander people who have campaigned for political, social and economic rights during the 20th century, such as William Cooper, Evelyn Scott, Eddie Koiki Mabo, Lowitja O'Donoghue and Shirley Colleen Smith",
+            "investigating developments in advancing democracy and citizenship for women, such as the suffrage movement, the right to vote, the bar on married women working, equal pay and the Sex Discrimination Act 1984",
+            "debating the significance of developments in advancing democracy and citizenship for all citizens, such as the right to vote for women and Aboriginal and Torres Strait Islander Peoples, the establishment of the minimum wage, anti-discrimination legislation and official national multicultural policy",
+            "creating a visual timeline detailing the changing democratic and citizenship rights of Aboriginal and Torres Strait Islander Peoples, migrants, women and children since Federation",
+            "investigating the experiences of children who were placed in orphanages, homes and other institutions, for example their food and shelter, protection, education and contacts with family"
+          ]
+        },
+        {
+          "code": "VC2HH6K09",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1900–2000)",
+          "text": "the causes for people migrating to Australia from Europe and Asia, including their experiences and perspectives, and their impacts on Australian society during the 20th century",
+          "elaborations": [
+            "describing the features of different migration programs to Australia since 1900",
+            "identifying the push and pull factors that have contributed to people migrating to Australia, including economic factors, conflict and seeking political refuge, and asking why particular 20th century migrant groups came to Australia, for example migrants from Europe following World War II, migrants from South-East Asia due to conflict, the Assisted Passage Migration Scheme",
+            "identifying the role of specific cultural groups in Australia's economic and social development in, for example, the cattle industry, the Snowy Mountains Scheme and the pearling industry",
+            "examining population data that show the places of birth of Australia's people at one or more points of time in the past and present",
+            "constructing migration narratives for individuals using primary sources, such as letters, documents and historical objects",
+            "preparing questions and recording an oral history of, for example, migration related to students' own family histories, and then outlining the journey and circumstances of arrival using different historical sources"
+          ]
+        },
+        {
+          "code": "VC2HH6K10",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1900–2000)",
+          "text": "significant contributions of individuals and groups, including Aboriginal and Torres Strait Islander Peoples and migrants, to changing Australian society",
+          "elaborations": [
+            "writing biographies of Aboriginal and Torres Strait Islander people who have contributed to Australian society in different ways, such as Lionel Rose, Albert Namatjira, Charles Perkins, William Cooper, Eddie Koiki Mabo, Neville Bonner and Cathy Freeman",
+            "discussing the contributions to Australia of notable Australians who were migrants or from migrant families across a range of fields, for example Hieu Van Le (the 35th governor of South Australia), Sir Frank Lowy, Marita Cheng, Dame Marie Bashir",
+            "considering notable individuals in Australian public life across a range of fields, such as the arts, science, sport and education, including Aboriginal and Torres Strait Islander Peoples and non-Indigenous cultural and social groups"
+          ]
+        },
+        {
+          "code": "VC2HH6K11",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1900–2000)",
+          "text": "continuities and changes in the experiences of Aboriginal and Torres Strait Islander Peoples during the 20th century",
+          "elaborations": [
+            "explaining key terms such as 'genocide', 'dispossession', 'assimilation', 'resistance', 'self-determination', 'reconciliation'",
+            "sequencing key events, movements and ideas, such as the 1938 Day of Mourning, the right to vote, the 1967 Referendum, Land Rights and reconciliation",
+            "investigating the experiences of members of the Stolen Generations using a range of historical sources, such as songs, stories and artworks"
+          ]
+        },
+        {
+          "code": "VC2HH6K12",
+          "strand": "Historical Knowledge and Understanding",
+          "subStrand": "Australia (1900–2000)",
+          "text": "different interpretations of a significant historical development in Australian society during the 20th century",
+          "elaborations": [
+            "comparing different interpretations of migration or Australia's political development during the 20th century and explaining why the interpretations are contested",
+            "identifying different historians' interpretations of Aboriginal and Torres Strait Islander Peoples' experiences during the 20th century and explaining why their interpretations differ",
+            "debating the proposition that Australia is 'the lucky country'"
+          ]
+        },
+        {
+          "code": "VC2HH6S01",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Historical questions",
+          "text": "ask and develop historical questions to direct historical investigations",
+          "elaborations": [
+            "asking questions that address historical concepts before, during and after an investigation to frame and guide the stages of an inquiry; for example, 'What caused Britain to establish colonies in different parts of Australia after 1800?', 'What does this source indicate about the significance of an event?' and 'Why do these interpretations differ?'",
+            "asking questions to establish the value of a historical source, such as 'What are the features of this source?', 'What type of source is it?' and 'What is the context for this primary source?'",
+            "developing questions for different purposes; for example, probing questions to seek details, open-ended questions to elicit more ideas, ethical questions regarding sensitivities and cultural protocols"
+          ]
+        },
+        {
+          "code": "VC2HH6S02",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Chronology",
+          "text": "sequence significant events, developments and the lives of individuals chronologically to describe continuity and change, and causes and consequences",
+          "elaborations": [
+            "positioning key events, ideas, movements and lives in a chronological sequence on timelines",
+            "annotating a flow chart or timeline to identify changes and continuities, and causes and consequences",
+            "constructing timelines or tables using appropriate digital applications to sequence key events, such as economic or political developments in a colony or immigration in the 19th or 20th centuries",
+            "sequencing significant events and lifetimes of people in chronological order to create a narrative to explain the developments in Australia's colonial past and the causes and consequences of Federation on its people"
+          ]
+        },
+        {
+          "code": "VC2HH6S03",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Using historical sources",
+          "text": "describe the features, content and context of historical sources",
+          "elaborations": [
+            "discussing issues explored through sources in which there are a range of views, such as the vote for women or migration, and proposing reasons for different perspectives",
+            "checking the publishing details of a historical source to understand features and the context of the source",
+            "creating a table summarising a selection of sources, including their features, source type, historical context and the information they contain"
+          ]
+        },
+        {
+          "code": "VC2HH6S04",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Using historical sources",
+          "text": "describe the value of sources for use as evidence to identify historical significance and continuity and change",
+          "elaborations": [
+            "identifying and distinguishing fact and opinion in sources and identifying stereotypes and generalisations",
+            "examining sources to identify the causes, consequences and significance of past events, and developments and achievements that contribute to continuity and change",
+            "describing the strengths and limitations of different historical sources for use as evidence"
+          ]
+        },
+        {
+          "code": "VC2HH6S05",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Using historical sources",
+          "text": "describe historical perspectives and identify beliefs, values and attitudes of people and groups based on evidence from primary sources",
+          "elaborations": [
+            "identifying inferred messages, stereotypes and over-generalisations about age, gender, ethnicity, ability, religion and/or politics, and other beliefs or attitudes presented in sources and media of the past (e.g. a newspaper caricature or photos of a colonial-era Chinese goldfield worker, businesspeople, Aboriginal and Torres Strait Islander Peoples, South Sea Islander workers, and women and children)",
+            "comparing sources of evidence to identify similarities and/or differences in accounts and perspectives; for example, comparing the differing experiences and feelings of miners, Chinese workers, women, children, leaders and Aboriginal and Torres Strait Islander people during the Victorian gold rush or the Eureka Stockade; comparing colonial descriptions of Burke and Wills' achievements with those that have been recently published giving Aboriginal Peoples' perspectives; comparing representations of Ned Kelly in past and present publications",
+            "discussing different perspectives, beliefs, values and attitudes associated with developments in Australian history, such as Federation, women's suffrage or immigration policies"
+          ]
+        },
+        {
+          "code": "VC2HH6S06",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Using historical sources",
+          "text": "explain different historical interpretations",
+          "elaborations": [
+            "accounting for the interpretation of British colonisation as an invasion",
+            "comparing and contrasting interpretations of a historical phenomenon, such as the significance of the gold rushes or the Eureka Stockade in the development of Victoria",
+            "identifying differences in historians' interpretations of significant events or developments in Australia's history, such as colonisation, migration or Federation, and explaining why they differ"
+          ]
+        },
+        {
+          "code": "VC2HH6S07",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Continuity and change",
+          "text": "describe patterns of continuity and change",
+          "elaborations": [
+            "using appropriate language to describe changes and continuities in Australian history, such as the speed or intensity of change",
+            "interpreting graphic representations, such as timelines or flow charts, and making inferences about patterns of continuity and change in the development of an Australian colony",
+            "comparing and describing the rates of change in Australian history, such as migration rates and population growth in Victoria in the 1840s and 1850s",
+            "identifying and describing patterns of continuity and change in daily life for Aboriginal and Torres Strait Islander Peoples, local-born colonists and migrants in the Australian colonies"
+          ]
+        },
+        {
+          "code": "VC2HH6S08",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Causes and consequences",
+          "text": "explain the causes and consequences of significant events and developments",
+          "elaborations": [
+            "using a visual organiser to summarise the consequences of the Victorian gold rushes",
+            "explaining the push and pull factors that influenced immigration to Australia during the 19th and 20th centuries",
+            "accounting for the significant events that shaped the Australian colonies and contributed to Australian Federation and the consequences of these on Aboriginal and Torres Strait Islander Peoples and migrants",
+            "describing the consequences of changing patterns of migration to Australia during the 19th and 20th centuries"
+          ]
+        },
+        {
+          "code": "VC2HH6S09",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Historical significance",
+          "text": "explain the significance of events, individuals and groups that contributed to continuity and change",
+          "elaborations": [
+            "collaborating to develop criteria to determine the historical significance of an event, development, individual or group in Australian history",
+            "discussing how significance varies over time and between groups and is dependent on the historical phenomenon under investigation",
+            "representing the historical significance of individuals, groups, ideas and events associated with a major change, such as Federation, in a diamond ranking",
+            "ranking the significance of individuals who contributed to changes in Australian history, such as the establishment and development of colonies, Federation, migration programs and campaigns for citizenship and democratic rights"
+          ]
+        },
+        {
+          "code": "VC2HH6S10",
+          "strand": "Historical Concepts and Skills",
+          "subStrand": "Communicating",
+          "text": "construct historical interpretations, using historical terms and evidence from historical sources",
+          "elaborations": [
+            "using historical terms and concepts when speaking and writing about, and describing, historical events and developments, for example penal, colonisation, imperialism, the gold rush, migration, Federation, suffrage, contribution, continuity, change, cause, consequence, significance",
+            "composing informative, expository or persuasive texts using evidence from sources to describe and explain conclusions from their historical inquiry",
+            "using evidence from sources, such as journals, diaries, graphs, tables, timelines, photographs and pictures, in descriptions and explanations",
+            "creating narrative accounts and recounts (e.g. a digital multimedia story that records migrant experiences) based on information identified from a range of sources and referring to individuals and events"
+          ]
+        }
+      ]
+    }
+  ]
+}

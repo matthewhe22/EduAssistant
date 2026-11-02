@@ -1,0 +1,580 @@
+{
+  "subject": "Italian",
+  "slug": "italian",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the Italian language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes and discovering how languages are influenced by each other. They explore Italian through play, first imitating sounds and patterns, then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that Italian sounds are represented by letters, and they can match these with words, combining them in increasingly complex ways. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken Italian. They expand their repertoire of Italian words and phrases through listening and reading, and then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of Italian using simple metalanguage. They start to develop written competence by copying letters and words, and then produce the language with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the written Italian language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that Italian is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s).",
+      "contentDescriptions": [
+        {
+          "code": "VC2LIT2E01",
+          "strand": "Engaging with Italian Language and Culture",
+          "subStrand": "Engaging with Italian language",
+          "text": "notice that Italian looks and sounds different to other languages",
+          "elaborations": [
+            "listening to Italian and English words, and noticing features of spoken Italian that help them to identify the Italian words, such as pronunciation and frequently repeated sounds, for example, by listening to and comparing nursery rhymes, counting songs and chants, such as 'Le ruote del bus', 'Brilla, brilla la stellina' and 'Se sei felice e tu lo sai'",
+            "noticing that most words in Standard Italian end with the vowels a, e, i, o and u, and making 5 gestures for them: swinging arm for e for 'elephant', cupped hand for i for 'igloo', wiggling finger for o for 'octopus', Auslan sign for a for 'ask' and pushing gesture for u for 'push'",
+            "observing that written Italian uses the same letters as written English, and noticing that Italian has 21 letters, English has 26 and some Italian letters have accent marks",
+            "experimenting with animal sounds in Italian, for example, comparing the sounds bau bau (dog), pio pio (chick) and hiii (horse) with those in English and in other languages spoken by class members",
+            "recording students creating single Italian words or sounds using digital recording software, and then playing the audio back and listening for aspects of pronunciation that are unique to Italian",
+            "observing that some words that do not end with a vowel are the same in Italian and English, such as computer, robot, yoghurt and sport, and discussing the reasons why they may be the same",
+            "observing gender in patterns of naming, for example, comparing the names Paolo/Paola and Alessandro/Alessandra"
+          ]
+        },
+        {
+          "code": "VC2LIT2E02",
+          "strand": "Engaging with Italian Language and Culture",
+          "subStrand": "Engaging with Italian language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "participating in songs, chants and rhymes to imitate Italian pronunciation, intonation and stress, for example, 'Ciao buongiorno'; 'Tanti auguri a te'; 'Giro girotondo'; 'Cinque scimmiette saltavano sul letto'",
+            "engaging with new sets of vocabulary by moving about the classroom to touch and identify items such as objects, flashcards, images and toys, and expanding vocabulary by naming soft-toy animals",
+            "developing vocabulary by playing games such as 'odd one out' (where 4 words are said or pictured, and students must identify the incorrect one), '6 corners' (where students go to one of 6 numbered points around the room where a vocabulary word is written, and then when the dice is rolled those of that number sit on the floor), and find your match (where Italian/English or Italian/image card pairs are distributed to the students and they have to find their partner)",
+            "using digital interactive resources to practise sequencing and ordering",
+            "using call-and-response games, songs and chants to consolidate language patterns",
+            "playing circle games such as 'buzz' with numbers or vowel sounds, Ho fatto la spesa e comprato …; Cane, cane chi ha l'osso?, or 'broken telephone', where a vocabulary word is whispered along a line of 5 and the last person reveals the word",
+            "building memory skills and reinforcing vocabulary acquisition by playing games, for example, Salta se hai …; Simone dice …; Io spio …",
+            "noticing their own use of words, expressions or behaviours that make them who they are, including words from different languages and ways of celebrating or talking that may not be familiar to other people",
+            "exploring the different languages spoken by members of the class and listening to the different sounds and ways of saying common expressions such as 'Good morning' or 'Hello'",
+            "comparing personal name traditions in the languages spoken by members of the class"
+          ]
+        },
+        {
+          "code": "VC2LIT2E03",
+          "strand": "Engaging with Italian Language and Culture",
+          "subStrand": "Engaging with Italian language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "using Italian for everyday routines such as roll call or opening and closing lessons, for example, singing 'Ciao, buongiorno'",
+            "responding to teacher instructions (e.g. In piedi!; Seduti!; In cerchio!; Insieme, qui!; Attenzione!; Non parlare!; Silenzio!; Alza la mano!)",
+            "using single words for personal actions such as scrivo, taglio, incollo and coloro to play a game, for example, miming a gesture or action to elicit the target word",
+            "using simple greetings relevant to the time of day, the celebration or event, and their relationship to the listener, such as Ciao, Salve, Buongiorno, Arrivederci, Tanti auguri, Buona Pasqua and Buon Natale",
+            "making classroom requests such as Posso andare in bagno? and Posso andare a bere?",
+            "playing charades for feeling words, using appropriate gestures, facial expressions and body language",
+            "describing a picture of their real or fictional family, naming family members and friends, for example, mio fratello Carlo; il papà Tom",
+            "expressing likes and dislikes (e.g. Sì; No; Mi piace; Non mi piace), and practising responses by playing games such as 'secret sugar glider', where posters of characters with 5 likes and dislikes are posted around the room, each student is secretly given a card with a character, and students ask each other questions about their 5 likes and dislikes (Ti piace …?) to find out which character they match with",
+            "responding to the roll call by giving simple personal details in response to a prompt, for example, Ho sette anni",
+            "responding to games or songs with actions or miming, for example, participating in call-and-response games (e.g. Faccio la pizza) or songs (e.g. 'Testa, spalla, ginocchia e piedi')"
+          ]
+        },
+        {
+          "code": "VC2LIT2E04",
+          "strand": "Engaging with Italian Language and Culture",
+          "subStrand": "Engaging with Italian culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "locating Italy on a world map, understanding that Italian is the national language of Italy and that it is spoken in Italian-speaking communities around the world, and highlighting relevant countries and regions on the map",
+            "making connections with Italian words and phrases used in everyday life in Australia, for example, identifying food names such as spaghetti, pasta, cappuccino and latte",
+            "noticing that there are loan words in English from Italian (e.g. gelato, pizza), as well as many loan words in Italian from English (e.g. lo sport) and other languages (e.g. il bazar from Persian)",
+            "observing, through a range of resources (e.g. photos and video clips) that members of Italian-speaking communities may do everyday things differently from themselves (e.g. shaking hands, kissing on the cheek and starting a meal with Buon appetito!), and then doing a role-play, for example, going to a restaurant with a friend",
+            "participating in a shared reading of 'La Befana' story and singing the song 'La Befana viene di notte'; exploring il Carnevale through the 'Carnevale' song and making masks or coriandoli pictures; creating la Festa dei Nonni cards; listening to 'L'inno di Mameli' for la Festa della Repubblica; and having a Ferragosto picnic",
+            "exchanging ideas, feelings and understandings of language and culture through play-based experiences, for example, dress-ups; playing pretend cafe, pizzeria and market stands; playing with puppets",
+            "recognising that music, dance, food, celebrations and games are connected with culture, such as eating panettone at Christmas and playing il gioco del Truc at Easter, and play-acting a celebration using the appropriate gestures and language",
+            "participating in actions, movement or dance, such as la tarantella",
+            "engaging with cultural items such as Euros, postcards and authentic resources from Italy, and using them as a prompt to create imaginary stories",
+            "playing simple Italian games such as bocce, clapping games (e.g. batti le manine), and circle games (e.g. il contadino nel prato)"
+          ]
+        },
+        {
+          "code": "VC2LIT2C01",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Interacting in Italian",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "noticing that the teacher uses the informal form with students and students use the formal form with the teacher, for example, using Buongiorno or Presente for the roll call, not Ciao",
+            "noticing that there are greetings for different times of the day (e.g. Buongiorno; Buon pomeriggio; Buonasera; Buonanotte), and it is not uncommon to hear Buonasera in the early afternoon, after a nap, or at the end of the school day, for example, playing charades with activities to guess the time of day and the greeting",
+            "introducing themselves and answering questions, for example, Come ti chiami? Mi chiamo …, e tu?; Quanti anni hai? Ho cinque anni, e tu?; Come stai? Bene, e tu?",
+            "describing people and belongings, using familiar formulaic expressions, for example, Questo/a è …; Ecco il mio pallone; Ecco un gelato al limone; Buonissimo!",
+            "sharing information about simple everyday actions in the present tense, for example, Gioco a football; Mangio la pizza; Leggo il libro",
+            "expressing likes and dislikes, for example, Sì, mi piace; No, non mi piace",
+            "using set phrases to indicate possession (e.g. la mia penna; il mio cane; il mio papà; la mia mamma), and then playing the stealing game by passing soft toys around the classroom and using target language to claim ownership of an item to 'steal' it, for example, il mio cane",
+            "using formulaic Italian phrases for everyday interactions such as thanking, apologising and offering congratulations, for example, Grazie mille! Prego; Mi dispiace; Auguri!",
+            "viewing images of a variety of family and pet pictures (their own and others'), and describing them using simple structures, for example, È la mia mamma. La mia mamma è alta; È il cane. È carino."
+          ]
+        },
+        {
+          "code": "VC2LIT2C02",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Interacting in Italian",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "pointing to objects named in Italian",
+            "contributing to guided collective activities such as illustrating and labelling a poster",
+            "working in pairs or groups to select given options relating to foods, toys or classroom items, for example, Vuoi / Cosa vuoi? Voglio una pesca.; Posso avere …?; E tu, cosa prendi?; Ti piace l'orsacchiotto?; Ecco la penna blu.",
+            "using formulaic phrases to show politeness (e.g. Grazie! Prego; Scusa; Per favore; Bene; Molto bene; Buon appetito!) by doing a role-play, for example, eating in a restaurant",
+            "participating in a guided role-play in a shop or at the market, for example, Una banana per favore. Ecco. Quanto costa?; Un gelato per favore. Ecco il gelato.",
+            "participating in a show-and-tell, for example, Questa è la mia bambola. Si chiama Teresa.; Questo è il mio camion. È grande.",
+            "reciting and performing chants, rhymes and songs, and adding music and actions to support meaning in their own performances, for example, the 'Farfallina' rhyme: Farfallina bella bianca, vola vola e mai si stanca. Vola vola sempre in su, farfallina non c'è più, resti fuori solo tu!",
+            "using props such as emoji faces to practise Sto bene, Sto male and Così così",
+            "noticing that formal greetings are used with adults other than friends or family (e.g. Buongiorno; Salve; ArrivederLa) and informal greetings (e.g. Ciao; Salve) are used with family and friends, for example, by acting out short role-plays to demonstrate their use, and creating dos and don'ts posters for the classroom"
+          ]
+        },
+        {
+          "code": "VC2LIT2C03",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "identifying target words in stories and videos, and then identifying the main idea or an event by brainstorming words related to an image, such as la festa, la scuola, lo zoo, la spiaggia and l'estate, and retelling the event using these words",
+            "miming, drawing, and onscreen pointing, clicking or dragging to show their understanding of key points in a range of texts such as a picture book, song, poem, video clip, rhyme or cartoon strip",
+            "sequencing pictures and simple text in the order that events occurred, and then retelling a story or information by creating a storyboard, using speech bubbles to show direct speech",
+            "recognising phrases from classroom routines, images and labels, such as days of the week, subjects, rules, labels, weather, seasons and dates, and creating word posters for the classroom",
+            "responding to games or songs with actions or miming, for example, the song 'Testa, spalle, ginocchia e piedi'",
+            "identifying words in a variety of texts, for example, by annotating a written text with images to match the words, or by listening for keywords in a spoken text and holding up a matching card for each word they hear",
+            "recognising and recreating common Italian gestures, facial expressions and intonation patterns that express likes, dislikes and feelings (e.g. for Eccellente!; Squisito!; Non lo so), for example, by viewing short video reels or commercials and ticking them off a list when they appear",
+            "noticing formalities in Italy such as handshakes or standing up to greet a visitor to the classroom, and using simple gestures to add emphasis to expressions, for example, joining their thumb and index finger to form an O, meaning 'thumbs up'",
+            "exploring common exclamations and interjections (e.g. Boh!; Mamma mia!; Salute!; Bravo!; Allora …) by viewing video clips, commercials and short reels, and creating role-plays with partners or puppets to demonstrate situations where they are suitable",
+            "exploring and making meaning of words and phrases through fairytales and stories, for example, by reading or viewing the 'Cappuccetto Rosso' fairytale, singing the song 'Mi piace Cappuccetto Rosso' to practise expressing likes and dislikes, or performing it as a short play using the characters to experience and practise live interactive language"
+          ]
+        },
+        {
+          "code": "VC2LIT2C04",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in Italian through play, and discover how languages influence each other",
+          "elaborations": [
+            "participating in songs that may include actions, movement or dance, for example, 'Mi piace Cappuccetto Rosso'; 'Testa, spalle, ginocchia, piedi'; 'Giro girotondo'",
+            "playing games, for example, counting games, sorting and order games, retrieving games to demonstrate possession, number games or traditional Italian games such as tombola, ruba bandiera and bocce",
+            "exchanging ideas, feelings and understandings of language and/or culture through play-based experiences, for example, dress-ups; playing pretend cafe, pizzeria and market stands; and playing with puppets",
+            "identifying familiar objects in the classroom by labelling, naming, pointing, matching, clicking and dragging, and drawing and tracing letters"
+          ]
+        },
+        {
+          "code": "VC2LIT2C05",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Creating text in Italian",
+          "text": "create spoken and written texts using words, familiar phrases and modelled language",
+          "elaborations": [
+            "identifying and reproducing in written form the sounds of the Italian language, for example, tracing the vowels and imitating the sound in simple word parts, such as ba, be, bi, bo and bu",
+            "creating words from known vowels, consonants and clusters, for example, by arranging laminated or magnetic letters to form target vocabulary or phrases",
+            "practising vocabulary sets by creating their own flashcards, wordlists, labelled diagrams, recipes, signage or manifesto da ricercato ('Wanted' poster)",
+            "labelling sequenced pictures, with support, to describe events or recreate a fairytale",
+            "describing aspects of their personal world by drawing and writing captions such as Ecco il mio papà / mio fratello, for example, creating a real or imaginary family tree; or illustrating a 'Big Book' with the class and presenting it with gestures, miming the story, for example, È un uccello. È verde. L'uccello vola. La farfalla è gialla. La rana è verde. La zebra è bianca e nera.",
+            "sharing feelings about a book/video clip in simple 'reviews' by writing their names under one of the following statements: Mi piace; Mi piace molto; Non mi piace",
+            "choosing from words, phrases and sentences provided to express ideas to match a visual or aural prompt, for example, È Marco; È grande; È bravo",
+            "answering simple questions (e.g. Come ti chiami?; Come stai?; Quanti anni hai?) with short formulaic responses, for example, by interviewing members of the class to create a personal profile or survey",
+            "describing people in a photo by naming family members and friends (e.g. mio fratello Carlo; la mia amica del cuore, Gina), using flashcards, wordlists, posters, photos and multimedia slides as support"
+          ]
+        },
+        {
+          "code": "VC2LIT2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of spoken Italian, and understand how sounds are produced",
+          "elaborations": [
+            "listening to the language in a short video clip with Italian subtitles, and noticing that Italian is a phonetic language that sounds generally as it is written",
+            "comparing vowel sounds in Italian and English, for example, making up nonsense words and trying to spell them to conform with Italian phonetics, for example, playing spot the odd one out from strings of words (e.g. casa, rana, muffa, papa)",
+            "reproducing Italian sounds and intonation patterns through imitation, such as reciting nursery rhymes or tongue twisters and singing songs, such as 'La canzone dell'alfabeto', the AEIOU song and 'Il gatto fa miao'",
+            "using Italian patterns of intonation, pronunciation and stress, for example, by playing rhyming tennis, where partners say vowels back and forth to each other in nonsense words, changing the consonant when they get back to a (e.g. lala, lele, lili, lolo, lulu, mama, meme, mimi, momo, mumu)",
+            "observing that words which stress the final letter have an accent on that letter (e.g. papà, città), for example, finding examples in a simple text such as a nursery rhyme or poem (e.g. 'La casetta delle vocali')",
+            "noticing syllable patterns in words such as la-sa-gna and pa-ta-ta and clapping out the syllables",
+            "noticing that questions are denoted by rising intonation, not the sentence structure",
+            "recognising that different dialects are spoken in Italy and accents vary in Italian-speaking communities by listening to or viewing audio and visual texts from a range of regions in Italy"
+          ]
+        },
+        {
+          "code": "VC2LIT2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "practising rolling their rs by reciting rhymes and chants",
+            "recognising that the letter c as in ciao sounds like 'ch' in English and that the letters ch as in chi sounds like a 'k' in English, and making a list of 'tricky letters' with pronunciation hints",
+            "recognising that there are spelling rules in Italian that affect pronunciation, such as ci, ce, gi and ge",
+            "playing a dictionary game to collect as many words as possible relating to a topic provided by the teacher in a set amount of time"
+          ]
+        },
+        {
+          "code": "VC2LIT2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how the Roman alphabet and features of language are used to construct meaning in Italian",
+          "elaborations": [
+            "imitating the pronunciation of the 21 letters of the Italian alphabet by singing along with the online video of the Italian alphabet song",
+            "noticing that the letters j, k, w, x and y are not part of the standard alphabet of Italian by comparing the Italian and English alphabets to find the missing letters",
+            "observing that days of the week and months of the year are written with lower-case letters by reading a short text such as the poems 'Filastrocca della settimana' ('Tanto sole il lunedì') and 'Trenta giorni ha novembre', and searching for examples",
+            "learning the structure of simple statements and questions based on models, for example, lo sono Anna. Non sto bene.; È un gatto? Sì, è un gatto.",
+            "learning simple verbs to describe actions and using them in formulaic expressions (e.g. Guardo la televisione; Ascolto la musica; Leggo il librol), for example, creating a gesture to match the verb, and playing Simon says with the verbs and their matching gestures",
+            "noticing how likes and dislikes are expressed in Italian (e.g. Ti piace la pizza?; Mi piace l'ananas; Non mi piace il formaggio), for example, by selecting cards for each statement for the pizza toppings that they like and dislike, asking other students, and reporting to the class",
+            "expressing negation using non (e.g. Non sono bassa; Non ho un cane) by playing a circle game in which they have to change places with someone else who shares the same answer",
+            "noticing that adjectives are used to describe people, objects or places and are usually placed after the noun (e.g. la penna rossa), for example, making a picture sequence of items with different colours with a description below, and drawing a box around the adjective",
+            "using pronouns to identify people (e.g. io, tu, lui, lei, noi, voi, loro), playing a pronoun race, where images of well-known characters from books, television or movies are displayed on the board with their English pronouns, and students race to correctly match the corresponding Italian pronoun in the fastest time",
+            "recognising the formulaic use of the verbs essere and avere to give personal information about state or identity (e.g. Ho due fratelli; Sono basso; Ho 6 anni; Ho gli occhi verdi; Sono alto), by creating a class chart of essere and avere with images underneath to match the verbs"
+          ]
+        },
+        {
+          "code": "VC2LIT2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that written and spoken Italian has grammatical structures and other language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "identifying cognates and loan words (words that share a similar spelling, meaning and pronunciation), comparing similarities and differences between Italian and English (e.g. banana, computer, università, animale, appartamento), and creating a class poster",
+            "noticing English words that are the same in Italian (e.g. weekend, sport), and Italian words that are the same in English (e.g. pizza, piano, lava), for example, by making a pair of 'Invaders in English' and 'Invaders in Italian' posters, and adding words on sticky notes as they arise",
+            "observing gender in patterns of naming, for example, comparing the names Paolo/Paola and Alessandro/Alessandra, and noticing that Italian words for people, places and things (called 'nouns') have a gender, and that gender is indicated in most cases with an a or o at the end of the word, for example, by making an 'I wonder' chart to categorise nouns with different endings",
+            "noticing that some Italian nouns in the singular end in an e, and having dictionary races to find out what their gender is",
+            "recognising that Italian forms the singular and plural differently from English, and noticing that the ending of Italian nouns change when there is more than one (called 'plural'), and that a becomes e, o becomes i, and e becomes i, for example, by playing Ciuf! Ciuf! (make the train), where two teams sit in two columns and students have to respond correctly to the flashcard to stand and become a carriage, and the winning team calls Ciuf! Ciuf!",
+            "noticing that Italian has many words for 'the' (called 'definite articles'), and that these words match the gender of the nouns, for example, by playing matching games such as 'memory' or 'go fish'",
+            "noticing that in Italian the definite article l' is used when the noun starts with a vowel, and lo when the noun starts with a z, and playing circle games where each article has a different gesture (e.g. la = 2 taps on head, il = 2 taps on shoulders, l' = 2 taps on knees, lo = 2 claps)",
+            "noticing that the definite articles change when there is more than one noun, becoming le, i and gli, for example, by spotting them in a song video such as 'Le ruote del bus'",
+            "noticing that Italian has definite and indefinite articles that are gender based, for example, la casa, una casa; il giardino, un giardino; lo zoo, uno zoo",
+            "noticing that some words for asking questions are similar to English and do not change (e.g. Chi?; Cosa?; Quando?), whereas others change to denote number and gender (e.g. Quanto/Quanti?)"
+          ]
+        },
+        {
+          "code": "VC2LIT2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how Italian-speaking communities are similar to or different from others",
+          "elaborations": [
+            "viewing images of daily life in Italy and Australia, and noticing and comparing similarities and differences in, for example, l'autobus, il mercato, il supermercato or la fontana",
+            "exploring the range of languages and cultures in their classroom, and creating a collage using pictures and photos of cultural celebrations and events and formulaic expressions associated with them, for example, Ferragosto and la Befana (la festa del 6 gennaio)",
+            "taking an evening walk with family at home and recognising that the Italian tradition of fare la passeggiata is culturally more significant than just taking a walk",
+            "recognising that music, dance, food, celebrations and games are connected with culture, for example, exploring la Festa delle Castagne (where people gather at the marketplace in late autumn to eat roasted chestnuts and listen to traditional music) by viewing online videos and roasting chestnuts in an air fryer",
+            "noticing language associated with interactions such as the use of first names in Australian or US English compared with the use of titles and family names in Italian, for example, Professor/Professoressa with a teacher and Signor/Signora with an adult, and then taking on a character and referring to each other with the correct title for the rest of the class"
+          ]
+        },
+        {
+          "code": "VC2LIT2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where Italian is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "researching the countries where different languages are spoken and discussing why the world has many different languages",
+            "noticing that many languages from different parts of the world are spoken in Australia and may be represented in their classroom, and creating a speech bubble that introduces them and the language(s) they speak",
+            "recognising and celebrating that Australian communities are made up of many different languages and cultures, for example, by observing International Mother Language Day on 21 February and coming to class in the traditional clothing of their choice",
+            "noticing how local names of streets, places and landmarks can have their origins in language(s) of Aboriginal and Torres Strait Islander Peoples, identifying the meanings of these place names, for example, 'You Yangs' comes from the Wadawurrung words Wurdi Youang, meaning 'big hill', and then discussing the names of Italian landforms that also denote physical characteristics, such as Monte Bianco",
+            "researching symbols and colours used by Aboriginal and Torres Strait Islander Peoples and by Italian-speaking communities in a range of contexts, for example, identifying the colours on a range of flags from different countries and communities in Italian and discussing what the colours represent in English",
+            "recognising that languages and communities have different protocols regarding the use of terms of respect, for example, there are ways of addressing Aboriginal and Torres Strait Islander Peoples using familial terms (e.g. 'Uncle' or 'Aunty'), depending on the relationship, and comparing these terms with Italian and/or other languages"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use Italian to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts.\nStudents imitate the sound combinations and rhythms of spoken Italian. They demonstrate their understanding that Italian has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in Italian and make comparisons between Italian and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LIT4C01",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Interacting in Italian",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "exchanging personal information and responding to questions about themselves, their family, leisure activities, neighbourhood and daily experiences, and food, for example, Da dove vieni? Da Torino; Sono italiano, e tu?; Chi sei? Sono …, e tu?; Chi è …? Lui/lei è …; … è mio padre; Questo/a è …, e questo/a?; È mio fratello; Dove abiti? Abito in via … / a …, e tu?",
+            "participating in classroom activities by asking for clarification, permission, help or repetition, praising and complimenting, for example, Come si dice …?; Non ho capito. Può ripetere?; Posso prendere/fare/avere qualcosa? Sì/no. Non è possibile / Non adesso; Come?; Aiuto, per favore",
+            "exchanging simple spoken or written messages to praise or compliment someone, for example, Bravo/a!; Ottimo!; È bello / molto bello",
+            "describing themselves, their friends and objects with the correct placement of adjectives, for example, La camicia è rossa/nuova/piccola; Sono biondo/alto/grasso; … è bruno/giovane; Il nonno ha i capelli castani; Ha gli occhi molto grandi; … ha i capelli / gli occhi / il naso / la bocca + adjective",
+            "responding to a partner's questions, for example, Di che colore è la maglia? È rosa; Qual è il tuo/suo gioco preferito?",
+            "describing location using prepositions of place, for example, for objects in the home, such as Il vaso è sopra il tavolo; L'albero è a sinistra; L'auto è dentro il garage",
+            "describing routines, for example, ieri/oggi/domani/ora/dopo; Che ore sono? Sono le …; Quando?; Venerdì, alle dieci mangio/bevo …; Lunedì, studio inglese",
+            "giving reasons for likes and dislikes, for example, Mi piace guardare la TV. È divertente.; Non mi piace studiare. È noioso."
+          ]
+        },
+        {
+          "code": "VC2LIT4C02",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Interacting in Italian",
+          "text": "participate in activities that involve expressing interests and exchanging information, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "using informal language to create invitations for a performance or class event, for example, Caro … Vieni alla nostra festa/recita/riunione! Il giorno … Alle ore … Luogo/Presso …",
+            "working in pairs or small groups to generate questions when preparing for a surprise party, for example, Quanti …?; A che ora?; Dov'è la festa?",
+            "participating in a real or imagined visit to a local market to buy ingredients for making an Italian dish together such as il minestrone",
+            "participating in ordering food at the school canteen, for example, Io prendo un panino con il formaggio. E tu, cosa prendi?",
+            "following procedures and instructions together, for example, following recipes such as una macedonia di frutta, or making a model of an Italian garden or piazza",
+            "participating in organising a shared lunch in the Italian class, discussing who will make/bring what, for example, Facciamo un dolce; Chi porta lo zucchero?; Chi porta le mele?",
+            "planning for a shared performance for an assembly or guests, for example, Chi dobbiamo invitare?; Facciamo un poster; Cosa facciamo?; Cantiamo una canzone italiana!"
+          ]
+        },
+        {
+          "code": "VC2LIT4C03",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "using surveys or questionnaires to create questions and record responses about likes, interests, characteristics, routines or activities, for example, Qual è il tuo libro preferito?; Qual è il tuo programma televisivo preferito?; Quanti anni ha? Ha dieci anni; Come è fisicamente? È alto e forte; È grandissima; Dove abita? Abita a Milano.",
+            "tabulating the results of a survey and presenting information in various forms (e.g. class profiles, birthday charts) or summarising their findings in sentences, for example, Dieci bambini giocano a tennis e tre a pallacanestro",
+            "accessing texts about topics and categorising information, for example, viewing a food chart and categorising cibi sani e cibi poco sani",
+            "questioning and researching dates, times and locations of events of interest to the class, noting language conventions, for example, Quando? La domenica. Il dieci giugno",
+            "viewing images or reading print and digital profiles and other information about children from different cultural contexts, and listing similarities and differences in routines",
+            "viewing a short video clip and identifying key phrases and important items of information"
+          ]
+        },
+        {
+          "code": "VC2LIT4C04",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce Italian, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "viewing an image or listening to an audio text and brainstorming familiar words, creating a word bank of commonly used Italian words, idioms, phrases or sentences, such as questions and responses",
+            "compiling a glossary or word bank of common Italian expressions and idioms, and then playing a glossary game, where they are challenged to 'race' and find the target phrases before their partner",
+            "noticing Italian idioms that convey Italian cultural practices and those that do not translate easily into English (e.g. Buon appetito!; Altrettanto!), and doing a role-play with a partner demonstrating use of the formulaic language",
+            "listening to, reading and viewing sentences and paragraphs in their entirety, identifying familiar words and phrases, and predicting the meaning of unknown words and expressions",
+            "learning to use print and digital dictionaries to find unknown words in texts to assist comprehension and playing dictionary races",
+            "viewing and or reading different types of children's texts, for example, Zecchino d'Oro or appropriate video clips on Suonolandia, discussing the elements of humour and drama, sound effects and facial expressions, and responding to the characters and events depicted in the texts, for example, È strano/buffo; La storia/canzone parla di …",
+            "using multimodal resources to build vocabulary to describe actions or feelings, creating a feelings or emotions chart"
+          ]
+        },
+        {
+          "code": "VC2LIT4C05",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Creating text in Italian",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences and modelled textual conventions",
+          "elaborations": [
+            "creating or ordering a sequence based on a set of images with captions (e.g. Il papà si alza. Il papà mangia. Il papà parte.) or a known storyline such as 'La tartaruga e la lepre'",
+            "writing messages to their favourite character in a story or children's television program, for example, Mi piace / Non mi piace la canzone / il quadro; Il documentario è interessante",
+            "using mime, movement or drama to give expression to events in texts, for example, acting out scenes from a story and taking the role of a character",
+            "creating simple sentences in the subject+verb+object pattern, and playing a game of 'making silly sentences'",
+            "composing and illustrating simple narratives in print or digital format, selecting from modelled language structures and banks of Italian expressions and idioms, for example, a day in the life of a character from a known story or from their imagination",
+            "creating a personal profile or a 'Wanted' poster using simple words and expressions selected from word banks and modelled statements, highlighting key characteristics and features, for example, Sono australiano di origine greca. Sono bravo e sportivo. Parlo inglese e studio italiano",
+            "creating short oral, digital or print presentations on topics such as holidays, favourite computer games or favourite playground, using a combination of language and images (e.g. photos, illustrations, captions, diagrams), to share with the class",
+            "reading or viewing well-known stories and commenting on the characters, discussing reasons and consequences, for example, Pinocchio è disobbediente; la fata è gentile",
+            "creating a print or electronic brochure or infographic for the class to share information (e.g. reasons to visit Italy; the importance of playing sport or eating healthily)"
+          ]
+        },
+        {
+          "code": "VC2LIT4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations, and use patterns of pronunciation and intonation to form words, phrases and simple sentences",
+          "elaborations": [
+            "recognising that there is a standard language called 'Italian' as well as many dialects spoken throughout Italy and in Italian-speaking communities around the world",
+            "developing pronunciation between sound blends in Italian and comparing them with English, for example, sc followed by h (e.g. schiavo) or i/e (e.g. piscine, pesce), by playing games such as listening to the teacher speak and then writing only the word spelled with a u; 'wall dictation', where one partner reads words from the wall and their partner has to spell them correctly; listening to simple audio files and writing what they hear; 'spot the word', where students guess which word on the list the teacher is saying; 'spot the mistake', where students listen to audio and identify one word that is said incorrectly; 'telephone whispers', where students recognise that sound blends can affect meaning (e.g. scarpa/sciarpa)",
+            "recognising letter combinations such as gn in lavagna and gnocchi, and gl in figlio and famiglia, and creating and performing short skits that demonstrate the errors in pronunciation",
+            "recognising the silent h as applicable to the conjugation of the verb avere in the present and for loan words such as hockey and hotel",
+            "noticing the differences in intonation between statements, questions, exclamations and commands",
+            "understanding that an accent on a letter means that the letter is stressed and the meaning of the word may change, for example, è/e; il papà / il Papa"
+          ]
+        },
+        {
+          "code": "VC2LIT4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "observing gender in patterns of names, for example, male names generally end in an o and female names end in an a (e.g. Giorgio/Giorgia; Marcello/Marcella), and playing a matching game with cards such as 'snap' or 'memory'",
+            "identifying that nouns have gender and mostly end in a or o in the singular form, by playing a grammar game where they listen to words and put them in the order they are said or by playing sorting games",
+            "recognising that some nouns and some names do not follow the a/o ending pattern (e.g. ape, stazione, camion, ovest, Luca, Andrea), and making a class poster of 'words that don't follow rules'",
+            "recognising that some singular nouns do not follow the regular masculine/feminine pattern, such as mano, papà and pianeta, and creating a mnemonic story using these irregular nouns to remember them",
+            "understanding the variety of definite and indefinite article forms and their relationship to gender (e.g. la casa, il libro, l'anno, lo zio, una parola, un giorno), and practising matching them correctly with an online or card game",
+            "noticing that English and Italian use verbs in common phrases in different ways (e.g. Sto bene; Ho fame; Faccio colazione), and creating a comparative chart to show the differences",
+            "changing adjectives that describe the characteristics or qualities of a person or object to agree with gender (e.g. la macchina rossa; il bambino rumoroso), using personal pronouns in context, for example, Chi è rumoroso? Io!",
+            "reading modified stories and picture books and recognising the different conjugations of common regular verbs in the present tense, for example, the -are verbs gioco – gioca; mangio – mangiamo, and then recording their findings by making a list of verbs and tenses",
+            "expressing negation (e.g. voglio / non voglio) by playing a game of 'Have you ever …'",
+            "expressing preferences and reasons for preferences, for example, Preferisco … perché …",
+            "linking sentences using simple conjunctions such as e and ma by playing the 'infinite sentence game', where each student links a new phrase with a conjunction",
+            "recognising how ideas are sequenced in simple texts by using linking words such as prima and dopo, and practising by ordering sentence strips to make complete sentences",
+            "applying the regular plural forms (o – i; a – e; e – i) and practising them by playing card games such as 'snap' to match the singular and plural forms",
+            "noticing that suffixes add nuance, such as -ino (e.g. fratellino, piccolino) and -etto (e.g. poveretto, casetta)"
+          ]
+        },
+        {
+          "code": "VC2LIT4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar Italian language structures and features with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "noticing common and differing features between written languages, such as the Greek alphabet and characters in Chinese and Japanese, and noticing that some languages also write in a different direction, such as right to left in Arabic and Hebrew, and vertical writing in a number of Asian languages",
+            "listening to or reading texts, and recognising and adapting word order between Italian and English (e.g. il pennarello nero = the black marker), noting common exceptions or playing a game of 'mix and match'",
+            "noticing Italian uses accent marks on some vowels to indicate pronunciation, such as città and perché, and searching through a storybook to find vowels with accents",
+            "recognising differences in capitalisation rules when writing, for example, omitting capitals for days of the week, months of the year and nationalities in Italian, and making a classroom poster that displays the rules for capitalisation",
+            "considering loan words from English in Italian (e.g. il weekend, la t-shirt, il tennis) and the reverse, words borrowed from Italian in English (e.g. piano, graffiti, spaghetti, fiasco, a cappella, broccoli, confetti, inferno, viola)",
+            "identifying cognates, including nouns such as cioccolata, cinema, pera, parco and stazione; adjectives such as intelligente and interessante; and verbs such as arrivare, studiare, telefonare and visitare, for example, by playing cognate tombola from wordlists",
+            "noticing that Italian has a number of words that are 'false friends' (e.g. annoiare, domandare, camera, fattoria, educazione, parenti, stampa, mille), for example, by creating a poster and adding sticky notes of false friends when encountered in classroom texts",
+            "noticing that Italian, unlike English, uses cardinal numbers for dates except for the first of the month (e.g. il 23 marzo; il primo giugno), for example, writing and ordering well-known dates such as New Year's Day, Valentine's Day, April Fools' Day, la Festa della Repubblica, Ferragosto, la Vigilia della Festa di Tutti i Santi and Natale",
+            "noticing that Italian talks about time differently to English, for example, Che ora è? Sono le nove",
+            "recognising that there is the standard language called 'Italian', as well as many dialects spoken throughout Italy and language variations spoken in Italian-speaking communities around the world, for example, by viewing online video clips and comparing vocabulary such as numbers and greetings"
+          ]
+        },
+        {
+          "code": "VC2LIT4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "identifying elements of the Italian language that feel most similar to or different from their own language (e.g. pronunciation of some sounds, gestures, facial expressions), and describing what they are confident in, what they feel unsure of and what they most enjoy",
+            "creating a 'language portrait' of themselves through the use of a whole-body silhouette, where they represent their personal experiences of language and culture by adding colours, shapes and words within and around the outline",
+            "exploring cultural practices that may be unfamiliar, including Italian routines and habits of socialising, such as la merenda, la mensa scolastica and la passeggiata, and creating a role-play to demonstrate them",
+            "recognising similarities and differences between the meaning of signs and symbols in everyday life, for example, using Roman numerals, currency, toilet signs, and street signs such as senso unico and zona pedonale, searching for examples of these in Italian books and brochures, and then creating an infographic",
+            "watching Italian short videos or cartoon clips and observing the language used across generations, such as differences in words used by grandparents, parents and young people, and suggesting why these differences occur",
+            "becoming aware of the variety of ways in which people can be addressed, including making the feminine form visible (Ciao bambini e bambine) and adopting non-gendered alternatives (e.g. Buongiorno classe or Vi diamo il benvenuto)",
+            "showing awareness that some festivities may have no English cultural equivalent, such as Ferragosto and la Befana, while others may have significance for only some students in the class, depending on their background (e.g. I'onomastico, il Carnevale, la Pasquetta, la Festa di San Nicola), and making a comparative chart of festivals in different countries",
+            "observing the connection between some names and regional and family connections or religions, such as Leonardo (di ser Piero) da Vinci",
+            "viewing a map that shows Aboriginal and Torres Strait Islander languages and noticing how many languages are represented in Victoria, and then learning about the diversity of languages that students in the classroom have a connection to",
+            "identifying the Aboriginal or Torres Strait Islander Country or Place on which they live, and incorporating this into their self-introduction in Italian"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in Italian that are related to their immediate environment. They use appropriate sound combinations, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in Italian or English, adjusting their responses to context, purpose and audience.\nStudents use modelled structures when creating and responding in Italian. They create texts, selecting and using a variety of vocabulary and sentence structures to suit different contexts. They use conventions appropriate to text type. They apply rules for pronunciation and intonation in spoken language and apply conventions of spelling and punctuation in written language. They compare language structures and features in Italian and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LIT6C01",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Interacting in Italian",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "exploring formal and informal language for letter or email writing, such as applying for a dog-walking job, or writing to a new amico di penna, compared with creating a greeting or invitation card for a significant occasion (e.g. il compleanno, l'onomastico), for example, Caro vs. Gentile; Distinti saluti vs. Ciao!",
+            "responding to an email from a penfriend who speaks Italian or who is also learning Italian (e.g. Piacere di conoscerti), or contributing to or writing a post for a school blog, for example, Oggi a italiano ho imparato …; il mio hobby …; mi piace …; la migliore ricetta della mia nonna …; Oh no! Avevo mal di denti.; il mio cantante preferito …",
+            "interacting to agree or disagree politely with others when questioning and evaluating classroom activities, for example, Sono / Non sono d'accordo; Anch'io!; Secondo me, non è vero/bello/giusto; Buon'idea!",
+            "asking and giving directions to places in the local area or an imagined locality, using print or digital maps, for example, visiting destinations around school, using phrases such as Inizia dall'albero dell'amicizia; Vai a nord; Gira a destra; Vai diritto; Segui il percorso; Attraversa il campo",
+            "asking and responding to questions that elicit personal information about themselves and others (e.g. Da dove vieni? Vengo da Melbourne.; Sei australiana? No, non sono australiana, sono cinese.; Sono di origine greca.; Quanti siete in famiglia? In famiglia siamo in sei.; Quando siete arrivati in Australia? Cinque anni fa.), submitting one piece of information about themselves that other students are required to guess",
+            "using modelled language structures to describe a famous person, for example, playing a guessing game, where students must guess the person by giving hints to support others to guess the famous person's identity: È maschio. È nato nel 1965 (millenovecentosessantacinque). Ha interpretato Iron Man",
+            "expressing feelings about a famous person (e.g. È simpatico e bravo; Mi piace tanto; Vorrei …; Mi piacerebbe …), for example, a gallery walk, where students walk around the room, view images and make comments that express their thoughts and feelings",
+            "asking and responding to questions about personal preferences, for example, Quale materia ti piace?; Mi piacciono le scienze … / No, non mi piace …; È facile/difficile.; Quale sport fai?; E tu?; Bravissimo!; Eccezionale!",
+            "understanding idiomatic usages such as those that describe a person's physical state (e.g. Ha fame/sete/freddo/caldo; Ho mal di …), creating a comparative chart in both languages to show differences",
+            "talking about the local environment and expressing opinions and preferences, for example, Qui c'è molto verde; A/In … c'è tanto inquinamento; Mi piace il caldo; Mi piace / Non mi piace la musica rock/pop/classica"
+          ]
+        },
+        {
+          "code": "VC2LIT6C02",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Interacting in Italian",
+          "text": "participate in activities that involve discussion with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "planning and organising activities, using language related to details including place, time and numbers (e.g. Dove facciamo la festa?; Quando?; Il due maggio; Quante persone invitiamo?; A che ora comincia?; Quale torta preferisci?; Chi viene?), for example, recreating an invitation in Italian, including all language – questions and answers – to provide information for the indicated audience, or playing a game where the answers must be framed as questions",
+            "participating in role-plays that involve transactions and opinions, for example, buying goods at a market using familiar language (e.g. Quanto costa?; È troppo caro/costoso; Quanto viene?; C'è lo sconto?; Che cosa ne pensi? Secondo me, è …; È bellissimo; È di moda)",
+            "taking an opinion survey (e.g. Mi piace l'uniforme scolastica – Sì, mi piace / No, non mi piace; Perché? / Perché no?; È una buona idea portare il mio cane a scuola – Assolutamente sì! / Proprio no!; I compiti sono davvero utili – Sono d'accordo / Non sono d'accordo; La scuola ha bisogno d'una piscina – Ne ha bisogno / Non ne ha bisogno), and discussing graphs of the class results",
+            "participating in taking action in relation to class rules and routines, or environmental care, for example, creating a blog post or environmentally focused posters for the school environment (e.g. Butta la carta nel contenitore giallo; Aiuta i bambini della prima ad attraversare la strada; Voi due, create il poster)",
+            "planning and organising a performance for a school assembly to showcase what they have learnt in their Italian class, allocating roles to members of the class and negotiating who will recite a poem, sing, rap or perform a role-play, for example, Chi vuole cantare?; Ti va di …?; Preferisci …?; Io non voglio …"
+          ]
+        },
+        {
+          "code": "VC2LIT6C03",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "planning, creating and presenting the findings of surveys using brainstorms, tables, graphs and digital presentations, for example, Che cosa fai nel tempo libero? Elenca tre cose che ti piacciono.",
+            "researching topics (e.g. leisure, recycling, the water cycle, the solar system, geographical features of Italy) using a range of sources (e.g. magazine articles, books, websites), and organising and sharing the information in print or digital format, for example, creating a block report, concertina poster, digital comic strip or animation",
+            "reorganising information from listening or reading texts, for example, rearranging information using tables, concept maps, timelines or retrieval charts",
+            "interpreting information from a range of texts, including signs, instructions, directions and diagrams, and then participating in class discussions using this information, presenting it independently in a variety of forms (e.g. using a flowchart to explain the life cycle of a butterfly) or reporting to the class, for example, La metà della classe …; La maggior parte …; Pochi …; Tanti …; Alcuni …; Quasi tutti …",
+            "viewing documentaries about Australian/Italian cities or the natural environment to complete a list of facts or to collect information to discuss and compare with their peers",
+            "viewing a number of images of different Italian landmarks and writing captions by extracting phrases from a formulaic phrase bank"
+          ]
+        },
+        {
+          "code": "VC2LIT6C04",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in Italian in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "viewing a range of texts (e.g. emails, letters, profiles, blog posts), creating a comparative table of the different conventions required for each text type",
+            "using a variety of print or digital dictionaries and electronic translation tools critically to find the correct meaning of words and expressions within a given context, reverse-translating familiar song lyrics, memes and short famous texts to discover how they change",
+            "composing print or digital word banks or glossaries of Italian and English expressions used in formal and informal interactions, using bilingual learning resources and electronic translation tools",
+            "watching videos, documentaries, films or interviews, and then collecting and organising information about an Italian cultural event using a note-taking sheet or graphic organiser",
+            "gathering factual information from a range of sources (e.g. news, weather reports, population data, geographic information), and tabulating the findings to create digital or print presentations",
+            "viewing street signs, instructions, directions, menus, websites, shop signs and advertisements, and noticing language differences and that there is not always word-for-word equivalence with English, for example, Passo carrabile; Tabacchi; È vietato calpestare l'erba; Attenti al cane",
+            "comparing how cultural concepts and messages are expressed in stories and song lyrics in Italian and in English",
+            "asking and responding to structured questions (e.g. Chi …?; Dove …?; Cosa …?; Perché …?; Quando …?), using modelled language to express opinions about events and characters in texts, and to interpret, compare and evaluate the purpose of the texts and their audience, for example, by playing a game where answers are framed as questions"
+          ]
+        },
+        {
+          "code": "VC2LIT6C05",
+          "strand": "Communicating Meaning in Italian",
+          "subStrand": "Creating text in Italian",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type",
+          "elaborations": [
+            "writing short texts (e.g. emails, letters) to friends or family members (e.g. grandparents, older significant adults) to interact and share information about aspects of their life, using the appropriate phrases to mark respect for age, gender and/or social authority",
+            "writing and performing their own texts (e.g. songs, plays, video clips, fairytales), and adapting patterns from familiar stories to create booklets, board games or a different version of a text based on the characters, settings and events of a story in Italian such as 'I tre orsi' and 'Il fagiolo magico'",
+            "conveying information to others through different text types, for example, creating an advertisement for la Festa del cioccolato di Perugia: Vuoi partecipare …?; Ti piace …?; Allora vieni a …",
+            "using expressions that reflect cultural concepts, behaviours or messages when creating texts, for example, La domenica mangiano la pizza; La famiglia fa la passeggiata in piazza; Le famiglie fanno molte cose insieme; La mia squadra è forte ma la tua è finita",
+            "demonstrating that language varies depending on how people feel, who they are interacting with, and their relationship with each other when creating texts, for example, using emotive language with friends and peers (e.g. Ma dai!; Non ci credo!; Che barba!), more formal language with unknown adults (e.g. Scusi?; Per cortesia) and a range of salutations with varying degrees of formality in written communication (e.g. Tanti cari bacioni; Un grande abbraccio; Distinti saluti)",
+            "creating a storyboard to explore the sequence of events (e.g. times, daily routines), or playing a loop game, where students ask, 'I have … Who has …?' and collecting and sequencing a variety of vocabulary",
+            "composing and performing short plays or skits about topics of interest, using digital media to share with their peers or Italian-speaking contacts",
+            "creating a multimodal presentation (e.g. digital travel brochure or video guide) to share interesting facts about Italian geography, places to visit, and things to do and see",
+            "producing short written texts for a range of occasions, for example, social media posts or SMS messages; making a 'save the date' card, congratulations card or thank you letter; accepting or refusing an invitation",
+            "writing a diary entry about various experiences regarding learning Italian, for example, Gli italiani in Australia amano …; Ho imparato …; Ho visto …; Sono sorpreso di scoprire …"
+          ]
+        },
+        {
+          "code": "VC2LIT6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency in words, phrases and sentences",
+          "elaborations": [
+            "learning to pronounce double consonants and understanding that not pronouncing double consonants in Italian affects meaning (e.g. papa/pappa; dona/donna; casa/cassa; polo/pollo), by playing digital games that match the correct image to the correct pronunciation",
+            "learning to pronounce z and zz sounds ('z' vs. 'ts'), for example, zaino vs. canzone, azzurro vs. pizza, by practising and saying tongue twisters to perfect the sounds",
+            "learning that unstressed vowels i and u can form 'y' and w' sounds when followed by vowels (e.g. ieri, uomo, pinguino), for example, by playing a dictation game",
+            "recognising that Italian usually stresses the penultimate syllable (e.g. studiare, francese, intelligente) but that other syllables may be stressed on some words (e.g. meccanico, subito, difficile), by listening to an audio or video text and making a tick against the sound every time they hear it",
+            "understanding that letter combinations affect pronunciation (e.g. the letters sc are pronounced 'sh' in sci and sce, but 'sk' in sca, sco and scu) and can also affect meaning (e.g. sciarpa/scarpa), by playing wall dictation, where students go to see a word and then race back to their partner who must write the word that they heard",
+            "learning to pronounce diphthongs in Italian, such as in buono, chiuso, ieri, ciao and più, by using songs that incorporate this language such as 'Ciao, buongiorno'",
+            "understanding that there are both grave and acute accents in Italian (e.g. è, perché, città) and that accents on the last letter of a word indicate where the stress falls in pronunciation, and learning to insert accents into texts electronically",
+            "noticing that Italian sentences can be very lengthy compared to English, for example, looking at a newspaper, counting the number of words in the sentences, and challenging each other to find the longest sentence"
+          ]
+        },
+        {
+          "code": "VC2LIT6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "using ordinal numbers to sequence, for example, in timetables, Nella seconda ora ho informatica; la quinta; la terza aula",
+            "recognising and applying some agreement principles, such as for cardinal and ordinal numbers, for example, Vorrei otto torte per la festa; La prima tazza di caffè è buonissima",
+            "using both regular and irregular plural nouns, for example, for body parts (e.g. un ginocchio / due ginocchia; il dito / le dita; il ciglio / le ciglia; il labbro / le labbra), and playing a 'make an alien' game, where students roll a die, draw the matching body part as they correctly say the Italian, and then describe their 'alien' to the class",
+            "understanding the variety of plural forms of definite articles and their relationship to gender (e.g. le sedie, i libri, gli anni, le api, gli zaini), by participating in an 'article race', where students are required to locate all the definite articles in a piece of text and highlight them according to their number and gender",
+            "learning the structure for telling the time in Italian (e.g. Che ora è?; Che ore sono?; Sono le due; Sone le quattro e mezza; Sono le undici meno un quarto; È mezzanotte; È l'una) by creating an imaginary event and describing their schedule by reassembling separated sentence strips",
+            "using reflexive verbs and the simple past tense in formulaic expressions, for example, Mi alzo alle sette; Sono andato/a al cinema; Ho giocato a calcio",
+            "using the present tense of regular and some irregular verbs to talk about present and some future situations, events and activities done regularly, for example, using avere, essere, stare, giocare, dormire, fare, scrivere and andare in sentences (e.g. Anna ha due fratelli; Scrivo nel libro; Ogni anno vado in vacanza al mare; Vado al cinema domani; Luca fa la spesa stasera; Sto bene) by playing a 'loop' game, where they are challenged to recognise the irregular form of a verb in a familiar sentence, passing to the next student in the circle until the student who correctly uses the verb can throw the card into the centre of the circle",
+            "recognising that Italian has pronouns but that these are implied in the conjugation of verbs, and exploring Italian subject pronouns and how they can be used for emphasis or clarity (e.g. C'è qualcuno alla porta; Vado io!; Anche lei vuole andare) by listening for the target phrases while viewing a television commercial, and then discussing the position of the pronoun in the phrases that they hear and how they show emphasis and clarity",
+            "formulating questions and requests (e.g. Che ora è?; Pronto, chi parla?; Quando comincia la scuola?; Dove andiamo stasera?; Che tempo fa?; Cosa vuoi?; Perché sei in ritardo? Perché c'è stato un incidente?), for example, writing a role-play about a time traveller or someone who has just emerged from a long, long sleep and is askinq questions",
+            "using some suffixes to modify Italian nouns and adjectives (e.g. bravo/bravissimo; treno/trenino; casa/casetta; parola/parolaccia; fratello/fratellino; povero/poverino), for example, playing a matching game, digitally or with cards (e.g. 'memory', 'snap')",
+            "understanding that some adjectives precede the noun (e.g. Che bella giornata!; È un bravo ragazzo; È la stessa cosa), by reading poems and rhymes, and highlighting examples where adjectives are in different positions",
+            "recognising the position of adverbs in sentences (e.g. Non vado mai al cinema; Cammino lentamente) by viewing commercials and print ads, and identifying examples of adverbs, discussing their position and then making their own print ads with adverbs",
+            "expressing positive and negative preferences, and using adverbs to intensify the meaning (e.g. Mi piace molto la cioccolata; Non mi piace tanto ballare), for example, playing a 'secret character' game, where students have sets of cards with specific characteristics, and they ask yes/no questions to determine who has the 'secret character' card",
+            "using simple conjunctions such as perché and anche to sequence events and join sentences by assembling sentences from strips using conjunctions",
+            "recognising that definite articles combine with some prepositions to form words (e.g. Mi piacciono le noci nella torta; Il treno parte alle sei), by completing cloze activities"
+          ]
+        },
+        {
+          "code": "VC2LIT6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare Italian language structures and features with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "using simple metalanguage to describe patterns, grammatical rules and variations in language structure, using terms such as 'tense' and 'personal pronoun'",
+            "applying intercultural awareness when using metalanguage to explain learnt words and expressions to others, for example, applying practices relating to hospitality, using target expressions (e.g. S'accomodi!; Grazie per l'invito …; Volentieri!; Certo!; Come no!) by playing the 'peg' game, where students have a peg on their clothing and must use the target word in context to lose their peg before the end of class",
+            "explaining the meaning of culturally significant phrases and concepts encountered in everyday interactions and in signs (e.g. È vietato calpestare l'erba; Accesso vietato; Area pedonale; Divieto di balneazione; Indossa la mascherina) by placing these signs and icons around the classroom and/or school and asking students to abide by them, or translating signs that are already around the school into Italian",
+            "watching a video and interpreting the meaning of particular word choices and gestures made in conversations between Italian speakers, for example, explaining the use of idioms such as Diamoci del tu!, Dai!, Via!, Evviva! and Non vedo l'ora!",
+            "finding commonalities and differences with other languages spoken by the classroom cohort of various idiomatic expressions for similes (e.g. Piove a catinelle; Dorme come un ghiro; Felice come una Pasqua), for example, investigating the translation of terms such as 'thingummybob' in other languages known to members of the class and then comparing the translation with others; comparing different dialects in Italian; viewing a short clip that demonstrates differences in the pronunciation or translation of well-known phrases such as 'It's raining cats and dogs'",
+            "understanding that some words originate from Aboriginal languages from different areas around Australia, for example, il koala (koala) from the Dharug word gula, meaning 'no water' or il dingo (dingo) from the Dharug word din-gu, and comparing these words to English and/or other languages and discussing their historical context"
+          ]
+        },
+        {
+          "code": "VC2LIT6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal and non-verbal communication",
+          "elaborations": [
+            "listening to or viewing short skits of Italians speaking to develop an awareness of different dialects and language variations spoken in Italy and in Italian-speaking communities around the world, for example, observing and listening to accents from different regions in Italy or different Italian-speaking communities in the world",
+            "noticing the use of gestures in video clips, and role-playing the gestures where there is negotiation or when emotions are heightened",
+            "listening to a conversation and comparing language use in similar social situations in Italian and English (e.g. Boh!; Acqua in bocca!; In bocca al lupo!), and using a visual tool such as a Venn diagram or Y-chart to identify similarities and differences",
+            "exploring examples of traditional and contemporary images or texts in print and online, and discussing how identity and gender are represented in the language",
+            "comparing words that they have heard in their home and/or community to words learnt in class, and noticing that there are different dialects in Italian, for example, observing that bambino in Standard Italian is equivalent to picciriddu in the Sicilian dialect and ceo in the Veneto dialect, exploring the origins of the words, and discussing these in class",
+            "exploring with the teacher aspects of Italian culture that may create comfort or discomfort with the ideas and language used by others, such as mangiare la trippa",
+            "recognising experiences of the Italian language and culture being located in and intertwined with the language and culture of English speakers in Australia, for example, in shop signs such as Barbiere, Panificio, Macelleria, Farmacia, Moda, Cibo and Fiori, and creating a shopping strip in the classroom with signs and appropriate window displays for each shop",
+            "discussing traditional methods that Italian speakers use to preserve language and culture, comparing these with examples of cultural artefacts such as dance, songs, artwork, artefacts or traditions from a range of different cultures, and identifying how they strengthen connections to values and identity, for example, discussing the significance of a possum-skin coat for some Aboriginal Peoples, and sharing similarities and differences between cultural artefacts in other languages and cultures represented in the classroom",
+            "discussing some generalisations about Italian and Australian people, and reflecting on their own experiences by, for example, participating in a brainstorming session about stereotypes of Italian, Australian and other cultures represented in the classroom, and reflecting respectfully on stereotypes; creating a stereotypes chart explaining to others the significance of some Italian cultural practices (e.g. greetings, mealtimes, school/family routines) and events, and noticing cultural differences attached to the interpretation of meaning, for example, la moda; la passeggiata"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "subject": "Roman Alphabet Languages",
+  "slug": "roman-alphabet-languages",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the target language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes, and discovering how languages are influenced by each other. They explore the language through play, first imitating sounds and patterns, then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that the sounds of the language are represented by letters, which may have tone or accent marks, and they can match these with words, copying and combining them in increasingly complex ways. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken language. They expand their repertoire of words and phrases in the target language through listening, viewing and reading, and then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of the target language using simple metalanguage. They start to develop written competence by copying letters, including those that may have tone or accent marks, to form words, and then produce the language with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the spoken and written language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that the target language is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s).",
+      "contentDescriptions": [
+        {
+          "code": "VC2LR2E01",
+          "strand": "Engaging with the Language and Culture",
+          "subStrand": "Engaging with the language",
+          "text": "notice that the target language looks and sounds different to other languages",
+          "elaborations": [
+            "sharing the word for 'hello' in different languages known to them, looking at the word for 'hello' in other written languages, and making observations about similarities and differences between languages",
+            "noticing when the target language or English is being used in the classroom, for example, 'sandwiching' a word by saying it in the language, then in English, and then again in the language",
+            "exploring the different languages spoken by members of the class, and listening to the different sounds and ways of saying basic expressions such as 'Good morning' or 'My name is …', then using modelled language to introduce themselves",
+            "noticing information about classroom objects or in classroom posters in the target language, including alphabet, colour and number charts, and using this information to play with the language, for example, naming classroom objects around the room or naming the colour of the objects",
+            "reproducing the sounds and rhythms of the target language by repeating after and imitating the teacher, through choral repetition or chants",
+            "learning and using simple greetings and classroom phrases in the target language and noticing how these are similar to or different from other languages",
+            "using spontaneous exclamations or interactions in the target language, and the gestures that accompany them",
+            "experimenting with sounds that are unique to the language, imitating the shape of the teacher's mouth and the sounds the teacher produces",
+            "recognising that the target language uses the Roman alphabet, like English, but that, unlike English, some letters may use tone or accent marks to indicate a change in the sound of letters, and then racing each other to point to the letters with a tone or an accent mark",
+            "performing songs, rhymes and action stories, using non-verbal forms of expression such as gestures, facial expressions and body language to support understanding"
+          ]
+        },
+        {
+          "code": "VC2LR2E02",
+          "strand": "Engaging with the Language and Culture",
+          "subStrand": "Engaging with the language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "practising question-and-answer responses by using call-and-response chants and songs to develop the use of formulaic phrases",
+            "engaging with new sets of vocabulary by making concrete associations with them, for example, touching and identifying colours in the classroom; touching and identifying soft-toy animals and naming them; identifying cognates, loan words or similar word forms when listening to the teacher",
+            "listening for and identifying keywords in stories, rhymes or songs, for example, performing an action when they hear a particular animal in a story",
+            "exploring intonation patterns and understanding the difference between statements, questions and exclamations by repeating after their teacher or engaging in a short speaking task in which they repeat the same sentence with different intonation each time they change partners",
+            "using colours or numbers, basic question forms, and affirmative and negative responses when playing simple games in the target language, such as go fish",
+            "listening to and singing along with well-known songs and lullabies in the target language, as well as songs from Aboriginal and Torres Strait Islander cultures, such as 'Inanay', recognising that all cultures have children's songs",
+            "integrating target language words and expressions spontaneously into their play in the classroom, as well as at recess or other occasions, for example, the words for 'hello', 'my turn', 'your turn', 'stop', 'go'",
+            "noticing hand gestures, pronunciation, intonation patterns and facial expressions that accompany some expressions of the target language, and practising using these during short speaking activities in the classroom, for example, saying 'hello' while shaking hands with or bowing to other students in the class; saying 'I don't like …' and making an unhappy face",
+            "imitating and playing with aspects of the target language in different contexts and situations and incorporating appropriate gestures, facial expressions and body language, for example, using correct language and body language when greeting an adult",
+            "singing songs in the target language such as the alphabet song, counting songs or songs focusing on specific sounds or repetition"
+          ]
+        },
+        {
+          "code": "VC2LR2E03",
+          "strand": "Engaging with the Language and Culture",
+          "subStrand": "Engaging with the language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "greeting the teacher and their peers, responding to greetings, and introducing themselves using formulaic language",
+            "responding to routine questions using the language, such as 'Yes, I'm here', 'Ben isn't here', 'I am good', 'It's my turn', 'I am finished'",
+            "using simple greetings relevant to the time of day, the context or their relationship to different people",
+            "participating in daily routines at the start of each class using the target language, such as greetings, roll call, singing nursery rhymes and songs that may include actions, movement or dance",
+            "viewing familiar and unfamiliar images, identifying known objects and elements in them and learning how to say these in the target language, for example, viewing an image of a cultural celebration and naming different colours, objects or foods in the target language and other languages represented in the classroom",
+            "using target language songs or rhymes for everyday routines (e.g. roll call, opening and closing lessons)",
+            "responding to classroom instructions or directions through actions, gestures or verbal responses",
+            "locating or moving objects in the classroom according to directions given, for example, pointing to objects in the classroom as the teacher calls out the words",
+            "responding to games or songs in the language with actions (e.g. the game Simon says, the song 'Head, shoulders, knees and toes')",
+            "using phrases in the language for everyday interactions such as thanking and apologising, or for special occasions such as birthdays and other celebrations"
+          ]
+        },
+        {
+          "code": "VC2LR2E04",
+          "strand": "Engaging with the Language and Culture",
+          "subStrand": "Engaging with the culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "playing games that are traditional or culturally relevant to the target language or are similar to Australian games, using gestures, facial expressions and body language",
+            "playing and engaging with culturally relevant items, such as coins, toys, postcards and authentic items",
+            "exchanging ideas, feelings and understandings of language and culture through play-based experiences such as dress-ups, using puppets, and pretend cafes and shops",
+            "noticing that different kinds of language (including spoken and body language) are used in different situations with different people, for example, observing exchanges between children, between a child and a parent, a child and a teacher, or two adult colleagues in video clips, and modelling these interactions in pairs",
+            "recognising that music, dance, food, celebrations and games are connected to culture, and sharing words and phrases that are used in celebrations and games, both in the target language and in other known languages",
+            "presenting information about their backgrounds and interests in show-and-tell",
+            "exploring similarities and differences in onomatopoeia in languages represented in the classroom, for example, showing a toy animal and sharing the noise it makes; singing animal songs like 'Old MacDonald had a farm'"
+          ]
+        },
+        {
+          "code": "VC2LR2C01",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Interacting in the language",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "interviewing members of the class, introducing themselves and responding to everyday personal questions, for example, asking and responding to questions about favourite foods or animals, or about pets; playing a round of 'Find someone who …'",
+            "naming family members and friends and noticing titles when addressing or greeting someone, noticing differences between formal and informal forms",
+            "responding to classroom instructions and participating in routines such as roll call, handing out materials, or lining up at the beginning of class",
+            "interpreting and sharing simple expressions and songs with friends and family, and using appropriate greetings for different people, times or occasions",
+            "using puppets or printouts from popular shows or cartoons to role-play greetings and exchange information",
+            "using formulaic expressions to, for example, ask questions related to their needs, ask for permission, make simple requests and express thanks, or ask and respond to questions on topics such as home, school or pets, using supporting intonation and gestures",
+            "viewing children's television programs, and participating by singing, chanting, mimicking and acting out favourite moments",
+            "creating individual bilingual picture dictionaries, or labels for objects used in the classroom and at home",
+            "using descriptive or expressive statements in the target language to describe themselves and to express likes, preferences or feelings, for example, creating a flipbook and drawing or pasting in images to support their sentences",
+            "recognising suffixes, titles, diminutives or terms of endearment that may be used to indicate respect, formality or familiarity with names of people, pets or family members"
+          ]
+        },
+        {
+          "code": "VC2LR2C02",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Interacting in the language",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "playing number games such as buzz and bingo, and guessing games such as hot and cold, celebrity heads",
+            "engaging in show-and-tell, introducing themselves, their family, friends or belongings in the target language",
+            "generating phrases using props such as images of faces with different expressions, for example, all students receive an emoji face attached to an icy-pole stick and use the language to say how they feel",
+            "practising vocabulary, for example, practising high-frequency nouns, verbs, adjectives or other words using flashcards with images and/or written words, and using gestures to accompany the words where appropriate",
+            "playing simple memory games to practise vocabulary, for example, playing cards to match words or phrases with images",
+            "giving information about their hobbies or expressing likes or dislikes by listening to statements from the teacher and then moving to the correct part of the classroom to share their answer, for example, moving to the windows to indicate that they like chocolate, and then repeating simple sentence patterns such as 'subject + verb + object' and interchanging the words",
+            "using a scaffold to interchange sentence content, and using accompanying images to make concrete connections",
+            "using a template to create a longer text, for example, playing a guessing game to guess the name of an animal by asking for clues",
+            "participating in shared readings of familiar stories in the target language, noticing words and phrases that occur frequently",
+            "recognising and using common prepositions in simple sentence structures, for example, using mini-whiteboards to draw prepositional sentences spoken by the teacher, such as 'The cat is on the bed.'"
+          ]
+        },
+        {
+          "code": "VC2LR2C03",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "participating in shared reading (e.g. with big books) and asking and answering questions about the text using contextual cues for support",
+            "viewing an image and identifying the main idea or event within the image (e.g. the birthday, the zoo, the house), using the target language to talk about their understanding with a partner, and then sharing with the class",
+            "identifying words in a variety of texts by matching images with words, for example, reading texts with pictograms to facilitate understanding of difficult or previously unseen words",
+            "recognising and assigning titles, words and labels to classroom items and resources or personal possessions, and using these terms in the classroom",
+            "highlighting keywords and points in a variety of texts, such as stories, and adding them to a word wall in their classroom",
+            "listening to imaginative texts such as stories, rhymes and songs, and responding through play-acting or movement, using gestures, mime and actions to demonstrate understanding",
+            "recognising that the target language is a phonetic language and is written as it sounds, and differentiating between vowel sounds and consonant sounds through imitation, repetition and experimentation, for example, practising tongue twisters or creating nonsense words using these sounds",
+            "reading a story or watching a video, pausing to reiterate known words and/or make observations, and miming, drawing, pointing, clicking or dragging to show their understanding of key points",
+            "listening to texts and responding by sequencing pictures and/or simple text in the order that events occurred, or by creating a storyboard to retell a story or information"
+          ]
+        },
+        {
+          "code": "VC2LR2C04",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in the target language through play, and discover how languages influence each other",
+          "elaborations": [
+            "listening to pronunciation of the alphabet modelled by the teacher or audio scripts and participating in activities such as spelling words aloud, games using letter patterns or dictation games (e.g. dictation races)",
+            "practising number concepts using charts and counters, for example, playing counting games to reinforce the pronunciation; listening to the teacher say a number and making groups with the correct number of students; playing simple maths games",
+            "grouping vocabulary (e.g. classroom objects, animals) into sets by using word cards and/or images, and playing games to practise numbers or other vocabulary sets",
+            "using and manipulating classroom aids such as coloured shapes to demonstrate understanding of number, adjectives and word order, for example, holding up the correct number of items as the teacher calls out the object and number; playing twister to revise the colours",
+            "exploring and comparing familiar onomatopoeia for animal sounds in the language and in English, and then making the relevant noise when their teacher says the name of the animal; listening to recordings of animals and saying their names in the language",
+            "playing physical or digital board games (e.g. 4 in a row, concentration, snakes and ladders, bingo, fruit salad) that have been modified to help students learn vocabulary or practise question-and-answer exchanges",
+            "playing hide-and-seek with toys or classroom objects to practise target words and formulaic phrases, such as counting to 10, 'I'm ready', 'I found …'",
+            "performing role-plays in the language, such as buying fruits and vegetables, or acting as a character from a story that is familiar to the class",
+            "participating in a treasure hunt, finding objects related to colour, number or classroom items",
+            "recognising that languages use words borrowed from other languages and that many borrowed words are present in the target language, for example, racing against a partner to find words on a piece of paper as the teacher calls them out"
+          ]
+        },
+        {
+          "code": "VC2LR2C05",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Creating text in the language",
+          "text": "create spoken and written texts, copying letters, including those that may have tone or accent marks, as appropriate, and using words, familiar phrases and modelled language",
+          "elaborations": [
+            "tracing and forming letters, including some that may have tone or accent marks, then copying or writing simple words or phrases",
+            "demonstrating early literacy skills by labelling, matching, tracing, copying and drawing, for example, labelling classroom items and personal possessions; drawing a picture to match animal words; tracing colour words with the corresponding colour",
+            "recognising and using vocabulary relating to time, such as days of the week and months of the year, for example, playing 'What's the time, Mr Wolf?' or reading a calendar and saying what day they do different activities",
+            "expressing an experience through a puppet play or performance, using modelled language",
+            "expressing information about themselves using modelled language, for example, recording role-plays of greetings or other everyday interactions",
+            "demonstrating understanding of words, phrases and formulaic language, including verbs and adjectives used to describe people, places and things, for example, creating a mini-autobiography or a family album using simple text and photographs, pictures or drawings",
+            "creating a print or digital glossary of new words and phrases with accompanying drawings, pictures or photos, for example, creating a collage or booklet of fruits and labelling them",
+            "creating, performing and/or retelling poems, rhymes, songs or simple stories that include repeated phrases and rhythms to emphasise key points",
+            "completing fill-the-gap activities by filling in the gaps of a conversation with words, familiar phrases and modelled language",
+            "using simple questions to interview another member of the class and then creating a student profile or a class survey (e.g. what fruits they like/dislike or their birthday month), then creating a display wall with pictures and captions"
+          ]
+        },
+        {
+          "code": "VC2LR2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of the spoken language, and understand how sounds are produced",
+          "elaborations": [
+            "tracing letters of the alphabet and imitating the consonant and vowel sounds",
+            "reciting the alphabet and/or singing alphabet rhymes or songs, and noticing that the alphabets of the target language and English are both based on the Roman alphabet, but that the letters have different names in the target language and can represent different sounds",
+            "connecting letters and using vowel marks to form words using alphabet cards, then using these words in familiar phrases and modelled language to create short spoken, written and multimodal texts",
+            "building phonemic awareness by recognising and experimenting with sounds and rhythms, focusing on letters that are similar in the English alphabet but produce different sounds in the target language, for example, imitating the teacher as they say sounds and words; playing sound or word bingo",
+            "noticing that the language may be a tonal language that uses tone markers, and that pitch changes affect the meaning of words, by comparing different tones and pitches and then discussing how this may change the meaning",
+            "recognising that tone or accent marks can change the pronunciation of letters in words, for example, playing snap with letter cards",
+            "building phonemic awareness by experimenting with sounds, focusing on those that are initially difficult and listening closely to distinguish between different sounds",
+            "recognising sounds that are specific to the language, developing pronunciation, phrasing and intonation skills by singing, reciting and repeating words and phrases",
+            "clapping the rhythm of syllables to notice word stress",
+            "listening to and imitating the teacher or audio recordings of spoken language to practise pronunciation and intonation"
+          ]
+        },
+        {
+          "code": "VC2LR2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "recognising basic sound combinations in the language and how these may differ from English and/or other languages by repeating sounds and words after the teacher, singing songs or repeating short sentences and discussing similarities and differences between sound combinations",
+            "recognising the differences between how phonograms are pronounced in English and the target language, and making a list of 'tricky letters' with pronunciation hints",
+            "recognising the sounds of more complex combinations, for example, playing bingo using sound combinations or words containing different sound combinations",
+            "using common adjectives (e.g. colour, size) in various contexts, such as playing colour snap in small groups, or describing classroom items or animals using formulaic language, for example, 'The pen is blue.'; 'The cat is friendly.'",
+            "playing games to identify sound combinations and create simple words, for example, combining letter cards or blocks to make words",
+            "using high-frequency verbs in a variety of contexts, for example, playing verb 'Simon says'; repeating formulaic phrases after the teacher; responding to simple questions, such as 'What is your name?', 'Where do you live?'",
+            "underlining rhyming words or letters in short texts or poems",
+            "joining words or phrases using simple conjunctions, for example, completing worksheets or unjumbling sentences with each clause and conjunction on separate cards",
+            "understanding question words and anticipating responses, for example, working in groups of 3, rotating roles as one person asks questions, one person responds to the questions and a third person listens and observes or takes notes",
+            "describing a person, place or thing using words and phrases, for example, playing 'Guess Who?' using formulaic phrases"
+          ]
+        },
+        {
+          "code": "VC2LR2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how the Roman alphabet, including letters that may have tone or accent marks, and features of language are used to construct meaning in the target language",
+          "elaborations": [
+            "observing that the written target language uses the same letters as written English and noticing that some letters have different sounds",
+            "becoming familiar with the target language alphabet, noticing similarities to and differences from English, by singing the alphabet and discussing similarities and differences in the sounds",
+            "noticing tone or accent marks (if relevant) and the changes they mark in meaning, sound, tone or intonation, for example, imitating the sounds of letters or words with tone or accent marks; watching the shape of the teacher's mouth to help improve pronunciation; looking at the written letters or words as they make the sounds",
+            "recognising and using lower-case and upper-case letters, for example, playing letter-matching games, memory or snap",
+            "identifying connections between letters and sounds, for example, matching the letters of the alphabet with cards that show words that begin with each letter",
+            "using consonants and consonant clusters, vowels and vowel clusters to form and spell words, for example, listening to a word and arranging the letters into the correct order; unjumbling simple familiar words to match a picture prompt",
+            "noticing similarities and differences between letters and words in the target language and English by tracing letters and simple words in both languages, forming letters or words with clay or painting letters onto paper"
+          ]
+        },
+        {
+          "code": "VC2LR2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that the target language has grammatical structures and other written and spoken language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "recognising loan words from English and/or other languages, for example, in pairs, racing to point to the image related to the loan word the teacher calls out; discussing similarities they have identified between languages",
+            "noticing that the target language and English use punctuation conventions such as full stops, capital letters, commas and question marks",
+            "identifying common present-tense verbs that may be similar to English and/or other languages, and demonstrating their understanding by following simple classroom instructions, or using common verbs to create simple formulaic sentences, for example, 'I am …'; 'I live in …'; 'I like …'",
+            "noticing the affirmative and negative versions of verbs used to show agreement or disagreement",
+            "exploring the similarities between simple sentences in English and the language, noticing patterns and structures such as 'subject + verb + object', using vocabulary cards to arrange words following the structure, reading similar sentences and noticing that adjectives are used to describe people, animals, objects or places, and brainstorming a rule for using adjectives in sentences",
+            "noticing grammatical gender (if relevant), and recognising and using appropriate forms with nouns and adjectives",
+            "identifying the similarities and differences between the use of cardinal and ordinal numbers in English and in the language and identifying how the number (singular or plural) may have an impact on other parts of the sentence, such as verbs",
+            "noticing the use of simple personal pronouns (e.g. I, you, he/she/it) to identify people, objects or animals when listening to or reading simple texts, pointing to images that match the pronoun as it is heard, and then using pronouns to identify people when playing games to support learning",
+            "noticing (if relevant) that basic particles are part of formulaic language, and recognising particles written in the target language when reading simple texts, recognising particles that may be written with tone or accent marks",
+            "discussing a definition for adverbs, brainstorming a list of familiar adverbs and identifying whether a sentence includes an adverb by holding up a green card for yes and a red card for no",
+            "noticing that tone or accent marks may be used in the language (if relevant), for example, reading short sentences and highlighting tone or accent marks, then reading the sentences aloud to check pronunciation",
+            "noticing (if relevant) that definite and indefinite articles may be used with nouns by playing a word hunt, and identifying how they are different",
+            "noticing (if relevant) the use of prefixes, suffixes or duplication to express plurality for common nouns by viewing images of people, animals or objects and listening to the pronunciation of the singular and plural forms of the nouns, and identifying the differences",
+            "noticing frequently used conjunctions or cohesive devices (e.g. and, but, or) when listening to familiar songs, sayings and stories"
+          ]
+        },
+        {
+          "code": "VC2LR2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how communities of speakers of this language are similar to or different from others",
+          "elaborations": [
+            "recognising that ways of greeting and addressing others may change according to cultural norms, for example, using respectful forms of address and culturally appropriate gestures, by watching videos of people greeting each other in different languages and cultures",
+            "creating a 'language portrait' of themselves through the use of a whole-body silhouette, where students represent their personal experiences of language and culture by adding colours, shapes and words within and around the outline",
+            "understanding that learning a language involves ways of using language that may be unfamiliar, and some ways of behaving and thinking that may be unfamiliar (e.g. the importance of food/meals in some families and regional traditions, different ways of expressing or describing feelings or relationships, the more formal relationship between teacher and student)",
+            "exploring the meaning of culture and how it can involve visible elements such as ways of dressing, eating and dancing, for example, reading children's books about the target language and culture; watching children's television programs or excerpts from movies and discussing what they hear and see",
+            "engaging with celebrations within known communities and noticing similarities to and differences from celebrations in broader contexts",
+            "interacting with a guest speaker from the local language community to discover that the language is used and valued in many different places",
+            "considering the role of silence during spoken interactions in the language, and whether it indicates, for example, that the speakers are thinking about information, or if it signals uncertainty or discomfort",
+            "noticing their own use of words, expressions or behaviours that make them who they are, including words from different languages, and ways of celebrating or speaking that may not be familiar to other people, for example, using words to show respect and recognising words and phrases used for greetings, apologies and appreciations, and discussing how and when they are used"
+          ]
+        },
+        {
+          "code": "VC2LR2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where the target language is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "noticing that there are many languages and cultures in the world and that many of these languages are spoken in Australia and may be represented in their classroom",
+            "locating, on a digital or print world map, Australia and countries or places of significance to students in the class",
+            "researching symbols and colours used by Aboriginal and Torres Strait Islander Peoples and by target language-speaking communities in a range of contexts, for example, using the language to identify the colours on a range of flags from different countries and communities, and discussing what the colours represent",
+            "recognising that languages and communities have different norms regarding the use of terms of respect, for example, there are ways of addressing Aboriginal and Torres Strait Islander people using familial terms (e.g. 'Uncle' or 'Aunty') depending on the relationship, and comparing these terms with those in the target language and/or other languages",
+            "showing examples of how gestures and body language are similar or different in the target language, English and/or other languages, for example, sharing what gestures and body language are used in their family or community and viewing videos of how gestures and body language are used in the culture of the target language",
+            "sharing their own backgrounds and the language(s) spoken at home by creating a chart that lists frequently used phrases or their favourite traditional or festive foods",
+            "viewing and discussing simple timelines about a target language-speaking community and their experience in Australia, for example, dates of immigration, milestones, important festivals and how they impacted Australian society (e.g. sports, food, music, dance, festivals)"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use the target language to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts.\nStudents imitate the sound combinations and rhythms of the spoken language. Students recognise how tone or accent marks (if relevant) may affect pronunciation and meaning. They demonstrate their understanding that the target language has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in the language and make comparisons between the target language and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' cultural identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LR4C01",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Interacting in the language",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "sharing information about themselves, such as details of their daily routines, family, friends and things they like to do during class activities",
+            "asking and responding to questions about themselves and others, for example, interviewing a partner and then introducing them to the class",
+            "practising responses to everyday questions, for example, selecting random questions written on icy-pole sticks or generated by an app, and replying to them using a variety of formulaic responses",
+            "asking and answering questions that involve concepts such as time, place or number, including days of the week, months and seasons, for example, as part of the classroom routine",
+            "expressing and responding to good wishes associated with key events, festivals or celebrations in their community, for example, singing 'Happy birthday'; wishing someone good luck during role-plays using modelled language",
+            "exchanging simple correspondence with peers such as invitations, notes, birthday cards, religious celebrations and national days",
+            "following directions while moving in the classroom or in the playground",
+            "comparing preferences during classroom discussions or a class survey, such as favourite breakfast foods, sports, leisure activities",
+            "exchanging positive and encouraging comments on their own and others' learning, and seeking advice and help from others"
+          ]
+        },
+        {
+          "code": "VC2LR4C02",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Interacting in the language",
+          "text": "participate in activities that involve expressing interests and exchanging information with others, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "participating in class routines such as roll call, saying the day and date, and describing the weather and the day's schedule",
+            "developing and displaying a set of class rules in the language, with images to aid understanding",
+            "participating in a group game, taking turns and using appropriate expressions, such as 'It's my turn', 'Whose turn is it?', 'It's your turn', 'Roll the dice'",
+            "exchanging opinions when negotiating roles and responsibilities for a class activity or performance",
+            "working collaboratively and sharing decisions about content and vocabulary when completing group tasks, such as designing a poster for a specific event, creating a picture book or word wall",
+            "preparing, rehearsing and presenting a target language-themed item at school assembly or participating in group recitals of poems on special occasions such as Mother's Day, national days and cultural celebrations",
+            "exchanging information or interests with others when participating in group activities such as role-plays, organising a class birthday party, or designing a treasure hunt",
+            "praising each other when working collaboratively on tasks that require following instructions, such as cooking or other step-based activities such as crafts or drawing tasks, for example, 'That is great!', 'Well done!', 'I like …'",
+            "designing a class survey in groups, agreeing on the questions to ask and then presenting the findings in spoken or written form using a range of familiar phrases and modelled structures",
+            "working collaboratively, using digital applications to make games to practise vocabulary, phrases or expressions in the language and then running these revision activities with the class"
+          ]
+        },
+        {
+          "code": "VC2LR4C03",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "recognising vocabulary, key phrases and sentences when listening to or viewing simple texts such as sports programs or announcements",
+            "obtaining information from each other and their teacher about likes, dislikes and interests, and presenting findings in formats such as individual or group profiles, charts or graphs",
+            "viewing images and responding to prompts in the language, for example, completing a 'see, think, wonder' thinking routine about different cultural celebrations",
+            "collating information from texts such as magazines, brochures or maps about aspects of the country/countries and regions where the language is spoken or communities in Australia where the language is spoken",
+            "participating in shared and guided reading of texts such as cartoons, poems, fairytales and fables, and responding to questions about characters, ideas and events",
+            "learning that Aboriginal and Torres Strait Islander languages change according to connections and relationships between people, and giving examples of how this occurs in the target language",
+            "collecting information from texts such as advertisements about school and community events or canteen and restaurant menus and presenting information in the target language on the school noticeboard",
+            "responding to words of songs (e.g. traditional songs and folk music) through movement and dance, for example, using wooden spoons to mark rhythm or creating and narrating their own versions of the dance",
+            "acting out elements of classic texts narrated by the teacher using facial expressions, gestures and actions to mirror emotions and emphasise meaning",
+            "recognising that there are different types of pronouns including singular, plural or possessive, and locating them in simple texts by playing pronoun-hunt games"
+          ]
+        },
+        {
+          "code": "VC2LR4C04",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce the target language, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "predicting the meaning of unknown words and expressions by using context in texts such as greeting cards, invitations or public signs, and participating in 'think, pair, share' activities to reflect on their predictions",
+            "identifying cognates or similar word forms in texts and sharing these with peers or displaying them on a word wall to expand vocabulary knowledge",
+            "matching words to describe friends, family members or relatives in the language and English, noticing words that have no English equivalents",
+            "matching target language and English words and phrases used in everyday conversations, and sorting the matched pairs into groups based on equivalence or non-equivalence, or playing snap or memory with the matching pairs",
+            "reading, listening to and/or viewing multimodal resources and using new vocabulary to create word banks or teacher-moderated online vocabulary revision games, and then using these words or phrases to create posters compiling common expressions, sayings and idioms that convey aspects of culture, and presenting this information to the class",
+            "learning to use a dictionary to find and understand unknown words in texts, and working in pairs or small groups to participate in dictionary races, aiming to be the first team to locate words announced by the teacher",
+            "translating and comparing familiar expressions, using dictionaries, and identifying those that do not have a literal translation",
+            "devising simple activities that involve alternating or combining repeated words or phrases in the language and English, for example, designing call-and-response activities to learn to adjust language to suit cultural contexts",
+            "collecting and classifying words, phrases and expressions that also exist in English, identifying any differences in meaning or usage, and finding ways to express meaning in the target language for Australian English terms and expressions (e.g. bushwalking, Good on you!) to newly arrived migrants",
+            "comparing information about activities and practices across cultures, for example, reading, viewing or listening to texts in the target language related to aspects of school life such as timetables, canteen menus, extracurricular activities and sports, and creating a Venn diagram comparing similarities and differences, or completing a 'know, wonder, learn' chart"
+          ]
+        },
+        {
+          "code": "VC2LR4C05",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Creating text in the language",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences, and modelled textual conventions",
+          "elaborations": [
+            "using words, phrases and expressions to give praise, gratitude and encouragement when playing classroom games",
+            "creating personal profiles using simple words and expressions selected from word banks and modelled statements, highlighting key characteristics and features and then presenting information to other students in the school or to their families",
+            "presenting information about themselves, their friends, family or school, for example, writing a script in the language for a role-play about aspects of their daily routine and presenting to the class; creating a PowerPoint presentation about their hobbies, a children's book about going to school or a multimodal display about family life for students at a sister school",
+            "explaining a favourite video game, sport or playground game, highlighting key terms and supporting information with pictures, gestures or demonstrations",
+            "creating simple descriptions in the language and matching them to an Aboriginal or Torres Strait Islander Country or Place in their local area or elsewhere in Australia",
+            "creating texts about topics they have been learning in other curriculum areas, for example, creating a class book or digital display about their local environment; creating bilingual signs, posters, notices and labels about exercising in print and digital forms to be displayed in the classroom and around the school",
+            "creating texts such as flyers, posters or posts on the school website to advertise special events",
+            "developing simple directions and clues in print, spoken or visual formats for activities such as a treasure hunt or mystery tour",
+            "composing simple dialogues between imagined characters in challenging or amusing situations, using expressions and gestures that convey emotion or humour and that capture elements that are typical of the context or character",
+            "creating texts to share with younger learners, such as big books, role-plays or comics; using a model such as a nursery rhyme to create and present a digital story or scripted play for younger learners"
+          ]
+        },
+        {
+          "code": "VC2LR4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations, and use patterns of pronunciation and intonation to form words, phrases and simple sentences",
+          "elaborations": [
+            "making connections between the sounds of the target language and English sounds, for example, discussing the sounds in the target language and giving an example of a sound in English, and a word that uses that sound",
+            "identifying and using onomatopoeic words in the language, then comparing common ones in English and/or other languages, for example, listening to or singing songs with animal sounds and discussing the similarities and differences; reading a simple comic and noticing the sounds used for noises",
+            "creating an alphabet bank, collecting words that begin with each letter, including those that may use tone or accent marks",
+            "understanding how changes in voice, tone or body language can change the meaning of words, for example, listening to sentences and identifying the meaning; viewing video clips without sound and predicting meaning and then listening and discussing meaning; practising reading words, formulaic phrases or modelled sentences while changing their tone and body language",
+            "recognising intonation for statements, questions and commands, for example, calling out 'statement', 'question' or 'instruction' when the teacher reads out a sentence, and then repeating the sentence",
+            "recognising and practising the most common vowel and consonant sounds, for example, repeating tongue twisters",
+            "learning about vowel-sound combinations in the target language and (where relevant) applying the principle of vowel harmony to high-frequency words",
+            "developing awareness of phonological rules in the target language, for example, the devoicing and doubling of final consonants, or vowel length",
+            "learning the pronunciation and spelling of high-frequency words, for example, repeating words after the teacher or playing a giant spelling game, where each group receives a set of letter cards and collaborates to spell out the words the teacher says",
+            "noticing how people adapt language when speaking with young children, and how young children speak differently from adults and older children, for example, watching video clips"
+          ]
+        },
+        {
+          "code": "VC2LR4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "recognising word patterns and building word clusters (e.g. number knowledge from 60 to 100, ordinal numbers) and playing games such as bingo",
+            "understanding and applying spelling patterns, punctuation and spacing rules to express ideas in texts, for example, participating in an 'I do, we do, you do' sentence-writing activity",
+            "recognising common verb conjugations by circling verbs in sentences and underlining the conjugations or explaining them to the class, and beginning to use the conjugated verbs, for example, playing verb-conjugation games or writing simple sentences describing themselves, their family, friends or pets, such as 'He lives in Ballarat.'; 'She plays football.'",
+            "asking and responding to questions to seek information using common interrogative terms, for example, participating in a 'Find someone who …' activity",
+            "recognising and using imperative forms to follow and give familiar commands, directions and instructions",
+            "using a range of simple conjunctions or cohesive devices (e.g. and, but, or, first, finally) to link basic ideas and actions, and constructing simple and compound sentences",
+            "understanding the rules for simple sentence construction and the use of possessive forms, including the use of prefixes or suffixes (where relevant), and completing individual, small-group or class sentence-unjumbling activities",
+            "recognising the importance of word order and particles (if relevant) in sentences, and applying them according to context, or noticing word order when reading sentences containing adjectives, and then participating in sentence-unjumbling activities or rewriting simple sentences to include familiar adjectives",
+            "using a range of verbs, adjectives and some adverbs (e.g. place, time) to describe and elaborate on simple statements about action, time, places and people, for example, completing a fill-the-gap activity; viewing a series of images and using modelled language to tell the story",
+            "identifying exclamations in spoken texts, and exploring the range of emotions they express and the contexts in which they are used",
+            "using prepositions to indicate direction or locations, then giving instructions to a partner to draw furniture on a bedroom template or to navigate the classroom, school or local environment on a map",
+            "practising using honorifics or respectful terms, such as titles or forms of address, in written exchanges or role-plays",
+            "recognising and expressing negation in simple sentence structures and colloquial expressions, and practising negative formation by transforming positive sentences into negative sentences",
+            "recognising definite and indefinite articles in a sentence and (if relevant) noticing how they match the number or gender of the noun, and exploring how the articles change in different sentences",
+            "understanding the use of cardinal numbers to express large numbers, for example, using flashcards to identify patterns and then practising using the numbers to state the year their family members were born or to calculate the price of items when running a pretend shop"
+          ]
+        },
+        {
+          "code": "VC2LR4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar structures and features of the target language with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "identifying English words and/or words from other languages that are also used in the target language and discussing why particular kinds of words are more likely to be adopted as loan words",
+            "recognising that the target language and English and/or other languages have similar or different punctuation rules (e.g. capital letters, full stops, commas, question marks, exclamation marks) when reading sentences or short stories",
+            "noticing that the language may use tone or accent marks to distinguish between the tone or sound of similar letter forms, and that these can assist with pronunciation",
+            "comparing how people speak or refer to other people in the language and in English and/or other languages (e.g. older relatives, classmates, teachers), and noticing the similar and/or different ways these languages show politeness, for example, viewing a video clip and discussing their observations",
+            "comparing familiar texts in the language, English and/or other languages and discussing their purpose and intended audience, and noticing features they have in common (e.g. the beginning of fairy tales, sign-offs in emails, paragraphing in reports), and analysing the vocabulary and grammatical structures used in different text types, such as rhymes or poems",
+            "noticing and applying features of familiar types of texts (e.g. emails and blog posts, weather reports, postcards, recipes)",
+            "recognising how different textual elements combine to make meaning (e.g. the images and fonts of a webpage; the layout, title and illustrations in a picture book; the highlighting of names, dates and times in an invitation), then creating visual displays to exhibit in the classroom that present text types taken from real examples such as magazines, websites, children's books or newspapers in the target language",
+            "recognising features of a simple spoken or written text in the language, for example, noting terms of address and ways of signing off a written message, such as an email, and comparing them with similar texts in English",
+            "analysing which aspects of their own language use might seem 'strange' from another perspective, and why",
+            "comparing parts of a sentence using metalanguage (e.g. noun, verb, adverb, adjective) to describe words, and noticing and discussing the word order and patterns"
+          ]
+        },
+        {
+          "code": "VC2LR4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "recognising how language varies when used to greet, apologise to or show appreciation for friends, family, elders and less familiar people, for example, the use of first names only in greeting cards to friends compared to the use of honorifics or titles to older family members or authority figures",
+            "noticing that languages carry cultural information, for example, identifying and discussing words or expressions in the language, English and/or other languages that only 'work' in that language",
+            "viewing a map that shows Aboriginal and Torres Strait Islander languages, noticing how many languages are represented in Victoria, and then learning about the diversity of languages that students in the classroom have a connection to",
+            "identifying the Aboriginal or Torres Strait Islander Country or Place on which they live and incorporating this into their self-introduction in the target language",
+            "comparing their impressions of aspects of children's lives in different target language-speaking regions as represented in video clips, television programs and stories, for example, ways of playing games; preparing and eating food; telling stories; interacting at school, home or in the community",
+            "recognising variations in language use among different community or social groups, and identifying how they reflect cultural values, hierarchies or relationships, for example, ways of referring to people older than them",
+            "recognising that in each culture there are general rules about what to say and do, when, where and with whom, and that these rules differ from culture to culture, by noticing how they themselves communicate with each other, their families and their teachers, understanding that language carries information about the people who use it, and that common expressions often reflect cultural values",
+            "demonstrating gestures or behaviours that they feel 'belong' with the target language and are associated with a sense of identity, and comparing these with other gestures or behaviours that they identify with other cultures",
+            "exploring the meaning of 'culture', and how it involves a range of elements unique to a person's identity, such as dress, food, where they live, how they celebrate, and the language(s) they speak",
+            "creating a 'language portrait' of themselves through the use of a whole-body silhouette, where students represent their personal experiences of language and culture by adding colours, shapes and words within and around the outline"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in the target language that are related to their personal worlds and school environment. They use appropriate sound combinations, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share and discuss information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in the language or English, adjusting their response to suit purpose.\nStudents use modelled structures when creating and responding in the target language. They create texts, selecting and using a variety of vocabulary and sentence structures to suit different contexts, and using conventions appropriate to text type. They apply rules for pronunciation and intonation in spoken language and apply conventions of spelling and punctuation in written language. They compare language structures and features in the target language and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LR6C01",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Interacting in the language",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "exchanging information about significant people (e.g. family members, friends and teachers) such as their relationship to the student, physical appearance and characteristics, for example, interviewing or introducing people; describing a person from a photograph",
+            "agreeing or politely disagreeing with each other's opinions or negotiating changes when working together and discussing topics related to the school environment and their personal worlds",
+            "sharing information about social activities, festivals, special community celebrations or school events, for example, creating posters; writing captions for images; writing a short speech using modelled sentence structures",
+            "comparing interests, routines and social activities when participating in teacher-moderated online exchanges with sister schools in target language-speaking contexts, such as secure video blogs",
+            "sustaining interactions with others by asking questions, using active listening skills (e.g. eye contact, body language, repeating back what they hear), and providing feedback such as advice or reminders to peers about their learning experiences, for example, participating in role-plays; interviewing someone; sharing opinions about topics during small-group discussions",
+            "creating a simulated interview with someone they consider a role model, such as a sports figure, a musician, artist, teacher, family member or friend",
+            "accompanying spoken texts with appropriate gestures, facial expressions, body language and formulaic expressions that are culturally relevant, for example, presenting information about their local area as a video blog for a simulated online platform; presenting information about the school environment as a virtual school tour",
+            "exchanging print or digital greeting cards for significant occasions such as birthdays or to invite, congratulate or thank someone, or responding to an email from a new penfriend in a country or region where the target language is spoken, using suffixes, diminutives or terms of endearment (where relevant) to indicate affection and familiarity with names of pets or family members",
+            "asking and answering questions about familiar topics (e.g. school, family, hobbies), using interrogatives or conjugating verbs depending on personal pronouns (if relevant), for example, creating a role-play script for an interview with another student"
+          ]
+        },
+        {
+          "code": "VC2LR6C02",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Interacting in the language",
+          "text": "participate in activities that involve discussion and planning with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "exchanging information to organise a meeting with friends, discussing where and when the event will take place",
+            "allocating roles, planning and creating displays or resources such as timelines, schedules or posters for class, school and community events",
+            "making print or digital invitations and arrangements for a shared event or experience such as a class party, receiving visitors to the school or a film afternoon",
+            "researching the currency used in a country where the target language is spoken and identifying the current exchange rate, noticing how much familiar items cost in each currency",
+            "using imperative forms of verbs to give instructions or tell others about procedures, such as giving instructions during a game or class activity",
+            "asking and responding to questions, and asking for repetitions or clarification using repair strategies, such as 'Pardon?', 'I'm sorry, I didn't understand', 'Could you please repeat that?', 'Could you say that again more slowly?'",
+            "planning a real or imagined trip, using expressions related to place, time and numbers, agreeing on itinerary and a packing list",
+            "planning a campaign, for example, to introduce healthy culturally varied food at the school's multicultural event(s), to raise awareness about pollution or to promote harmony and positive relationships, and creating posters, pamphlets and flyers or making presentations to the class or parents and school community members",
+            "creating and participating in role-plays related to everyday situations such as purchasing grocery items, requesting information about train or bus timetables, asking directions to a place in town, bargaining at a market, buying souvenirs or ordering food",
+            "planning for a guest interview by a speaker of the language by developing a list of questions with peers, or preparing performance texts together to present to younger students at a community event or school assembly"
+          ]
+        },
+        {
+          "code": "VC2LR6C03",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "gathering and comparing information from different sources on topics such as family life, cultural trends, children's social activities, community or schooling in Australian contexts and in countries or regions where the language is spoken, and sharing their learnings with the class",
+            "collecting and presenting information from a range of print and digital resources about features of their local environment (e.g. water, bush care, ecosystem, wildlife) and sharing these in simulated blog or social media posts, brochures or posters",
+            "consulting teacher-curated online catalogues and websites, comparing prices and values of different objects (e.g. food, clothing, travel), discussing intended purchases and budgeting for imagined shopping expeditions",
+            "viewing an image of students eating lunch at a school in a country or region where the language is spoken and completing a 'word, phrase, sentence' thinking routine using information from the image, then discussing their notes with a partner",
+            "listening to or viewing Aboriginal and Torres Strait Islander authors' stories in English and responding to them using words, formulaic expressions and modelled sentences in the target language",
+            "listening to, reading or viewing traditional folktales, contemporary stories and/or cartoons, and then responding by retelling or re-enacting the story in their own words, or by sequencing images or creating captions to summarise or retell the story in the target language",
+            "describing their reactions to imaginative texts that evoke responses such as sadness, fear or excitement, and relating them to their own experiences by using stem statements, for example 'That reminds me of a time when …', 'I remember when I …', 'I knew someone that …', 'We learned about this in …'",
+            "conducting interviews with family members or friends, or watching documentaries or video clips to collect stories about migration to Australia, then identifying words and expressions that reflect important values and feelings associated with the stories and sharing their findings with the class",
+            "viewing different types of texts (e.g. debates, documentaries, short animated films, news stories) and then using graphic organisers (e.g. sequence-of-events chains, mind maps) to process the content, main ideas and/or characters that were shown",
+            "accessing information from websites, books or magazines about important celebrations and festivities in a country or community where the target language is spoken, extracting the main points, and providing a summary of the key messages of the texts"
+          ]
+        },
+        {
+          "code": "VC2LR6C04",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in the target language in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "gathering information from a range of print and digital resources about social and cultural activities in their local community, then making a list of terms, expressions or behaviours, such as welcoming the guests by standing up, and waiting for those older than themselves to start eating",
+            "identifying signage from their local area and interpreting and comparing it to signage in a country or region where the language is spoken, for example, comparing traffic and road signs or signs in public places, and then creating versions of Victorian school signs and notices in the target language",
+            "presenting factual information related to cultural activities, for example, daily routines, celebrations, sporting events and concerts",
+            "listening to and reading a range of text types (e.g. phone conversations, emails, invitations, articles), then discussing their characteristics and features such as style, language and structure",
+            "identifying loan words and phrases used in the target language in domains such as food or music or in a selection of teacher-curated texts from social media, and discussing how the target language reflects contemporary and global influences",
+            "learning to use bilingual print and digital dictionaries, identifying issues such as multiple meanings for words and that meaning is not always literal, and/or recognising how different word types (e.g. nouns, verbs, adjectives) are identified in the dictionary",
+            "considering English words and expressions (e.g. music, guitar, fire, sport, earthquakes) used in other curriculum areas, and applying strategies to convey the meaning in the target language, for example, saying a sentence using the new word and then acting out the word for a partner to guess",
+            "understanding how language is adapted to reflect levels of politeness and formality and to reflect relationships, age and intention, for example, watching video clips and identifying formal and informal language",
+            "analysing movements, facial expressions, gestures and actions to interpret meaning in texts, identifying key messages and amusing moments, and practising using these strategies when conversing with a partner, participating in a role-play or presenting to the class",
+            "collecting examples of proverbs in the language (e.g. proverbs used at home by background language learners, where relevant) and discussing how to explain their meaning to non-target language-speaking friends, then reflecting on times when their use of the target language, English and/or other languages has been misinterpreted and discussing possible reasons for this"
+          ]
+        },
+        {
+          "code": "VC2LR6C05",
+          "strand": "Communicating Meaning in the Language",
+          "subStrand": "Creating text in the language",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type",
+          "elaborations": [
+            "designing a menu for a meal, which may include footnotes in English to explain characteristics and ingredients of the dishes",
+            "creating a class print or digital poster locating and describing, in the target language, a specific Aboriginal or Torres Strait Islander Country or Place",
+            "researching and discussing the advantages of being able to communicate in more than one language, and creating an interactive presentation for younger children, friends or members of their extended families to showcase their bilingual/multilingual experience and how this has been beneficial",
+            "beginning to use all forms of the present tense of regular verbs and of high-frequency irregular verbs, for example, when writing an email to a friend explaining what they do and don't like to eat, or presenting a floor plan and description of their house to the class",
+            "creating digital profiles of characters they enjoy in different stories, plays or poems, providing descriptions of physical appearance and character traits and examples of the ways they speak and behave",
+            "creating and performing texts to entertain others, incorporating elements such as dance, mime, singing and narration, and referencing values and traditions associated with communities that speak the target language",
+            "listening to, reading or viewing texts and compiling lists of informal language and expressions for everyday interactions with friends and family",
+            "writing a postcard or simulated travel blog in the present tense to share with others, about an imaginary holiday to a different state in Australia or to another country, and including information about mode of transport, accommodation, length of stay, weather, leisure activities and cultural sites, or writing the script for a fashion show, using appropriate text type conventions and conjunctions, cohesive devices or comparatives to evaluate and express opinion",
+            "giving, following and planning directions, for example, listening to instructions while 'driving' a toy car along the streets on a map, demonstrating understanding of a range of prepositions to indicate direction or location, and then creating a script of directions for a simulated interactive GPS experience"
+          ]
+        },
+        {
+          "code": "VC2LR6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency and rhythm in words, phrases and sentences",
+          "elaborations": [
+            "recognising differences in the pronunciation of long and short vowels (if relevant), understanding that the length of a vowel can change meaning, and understanding that tone marks or other accent marks can change the sound of a letter, for example, looking at words or sentences and identifying long and/or short vowels and accent marks, and discussing how these can change sound and meaning",
+            "reciting poems that exemplify a certain vowel pronunciation or phoneme and practising the word endings",
+            "recognising how pitch, stress and rhythm help to convey meaning even if individual words are unfamiliar, by listening to different sentences and discussing their observations",
+            "developing intonation and fluency of set phrases in a shadow-speaking activity, for example, listening and then speaking along to a recording, gradually reducing the sound of the recording until only their own voices can be heard",
+            "understanding how to use emphasis to enhance meaning, for example, using high-pitch tone and primary stress at the ends of words, and practising this by saying or reading simple phrases or sentences to a partner, changing their tone and emphasis and discussing what they observed",
+            "applying the principles of vowel harmony, sound assimilation of consonants and grammatical knowledge to the spelling and writing of unfamiliar words",
+            "understanding the pronunciation of loan words, including vowels and consonant clusters, and identifying common morphemes (where relevant), for example, repeating or reading a range of loan words in the target language, practising the correct pronunciation as a class, with a partner or by recording themselves, and listening to their pronunciation when played back",
+            "recognising the effect of non-verbal language and tone in reinforcing meaning in spoken language, for example, listening to video clips without watching them and writing down what they think the meaning is, then watching the video clip (including sound) and identifying how their interpretation has changed and why",
+            "recognising how variations in language use reflect different feelings, moods or attitudes, for example, watching a video and discussing the variations in language and how they contributed to feelings, moods or attitudes",
+            "adapting modelled examples of tongue twisters to experiment with a range of letter combinations and sounds"
+          ]
+        },
+        {
+          "code": "VC2LR6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "beginning to use all forms of the present tense of regular verbs and of high-frequency irregular verbs, for example, writing an email to a friend explaining what they do and don't like to eat; presenting a floor plan and description of their house to the class",
+            "recognising the conjugation of auxiliary verbs (if relevant), for example, reading sentences with different pronouns and completing a 'think, pair, share' activity, identifying the rule for conjugating each verb",
+            "recognising and using nominal conjugations through adjective- and noun-making prefixes or suffixes (if relevant), for example, reading and identifying the relevant features in a text, annotating the text, then using the examples to write sentences of their own",
+            "using a range of nouns, including more unusual plural forms, as well as more complex adjectives and possessive forms, and applying the rule of major vowel harmony when adding nominative case endings to different nouns (if relevant)",
+            "reinforcing grammatical rules for gender agreement (if relevant) or agreement between verbs and subject, by playing games such as matching nouns and subject pronouns or pairing the subject with a conjugated verb",
+            "recognising and using a range of adverbs (e.g. places, days of the week, seasons) when participating in word-order games, writing simple sentences or responding to questions using modelled grammatical structures",
+            "using sentence-builder charts to support the development of longer sentences that include a range of clauses to sequence ideas or add further information, using a range of adverbs to elaborate or accentuate meaning",
+            "recognising and using prefixes or suffixes (e.g. unfriendly) and varying forms of negation (e.g. no, not, none), for example, collecting a card with a sentence in the positive form and rewriting it in the negative, such as 'I have (no) brothers and sisters.'",
+            "identifying, explaining and applying the rules for creating comparative adjectives, for example, rewriting sentences using positive adjectives to include the comparative; viewing images and describing what they see using comparative adjectives; responding to questions about their likes and dislikes, such as 'Maths is more interesting than sports', 'My sister is older than my brother'",
+            "understanding that particles (if relevant) express relationships between elements within a sentence, and applying them in accordance with grammar rules, according to context, for example, completing a particle fill-the-gap activity",
+            "recognising and using simple, compound and some complex sentences, and recognising different types of formal and informal, respectful or honorific forms of the language",
+            "recognising definite and indefinite articles (if relevant), and noticing that they can be singular or plural, for example, listening to sentences read by the teacher and placing hands on heads for definite articles and hands on hips for indefinite articles",
+            "understanding (if relevant) the use of prefixes and suffixes and duplication to express plurality in nouns",
+            "understanding the use of prepositions in sentences to indicate time, place, location or direction by describing objects or events, for example, describing what they do at different times of the day or describing the location of an object in the room",
+            "understanding patterns for forming and using ordinal numbers (if relevant), for example, when deciding the turn order in a card game or reordering objects according to the teacher's instructions"
+          ]
+        },
+        {
+          "code": "VC2LR6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare structures and features of the target language with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "recognising words in the target language that may be similar to English and/or other languages, and identifying false friends (where relevant) and how they can lead to difficulty when learning the target language",
+            "comparing language used in texts, for example, descriptive language in recounts or narratives; humorous language in comics and some poems; persuasive language in advertisements; instructional language in recipes and manuals; expository language in news reports",
+            "analysing characteristic features of texts (e.g. the use of abbreviations and emojis in texting, rhetorical questions in advertisements, numerical terms in recipes and receipts, emotive and rhyming words in song lyrics, headings on websites, imagery in creative texts), and identifying how they help to convey meaning and engage the audience",
+            "discussing how poems or song lyrics in the language create moods and tap into particular emotions by using techniques such as repetition, rhyme and direct forms of address, and compare with techniques used in poems and song lyrics in English and/or other languages",
+            "talking about grammatical structures and how they are used, using metalanguage, for example, identifying word classifications (e.g. noun, verb, adjective, personal pronoun) and grammatical structures (e.g. word order, tense) when reading and annotating texts such as emails",
+            "using metalanguage to discuss the features of familiar text types, for example, a shopping list includes items and some numbers; a role-play at a market involves interaction and negotiation; an email or text message to a friend involves interaction and an exchange of information",
+            "providing feedback during peer assessment, using metalanguage, for example, editing each other's written or spoken texts and work samples, making recommendations related to the language use and justifying their reasons",
+            "learning basic metaphors, similes and common idiomatic expressions and proverbs, and comparing these with figures of speech in English and/or other languages",
+            "comparing verb conjugations in the target language and English and/or other known languages and identifying patterns in conjugation",
+            "understanding that some loan words in the target language originate from Aboriginal languages from different areas around Australia, for example, 'koala' comes from the Dharug word gula, meaning 'no water', and 'dingo' comes from the Dharug word din-gu, then comparing these words to English and/or other languages and discussing their historical context"
+          ]
+        },
+        {
+          "code": "VC2LR6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal, non-verbal and written communication",
+          "elaborations": [
+            "observing how language use reflects respect and social distance, such as making requests with different levels of formality or showing respect for authority figures",
+            "identifying adjustments they make when moving between the language and English and/or other languages at school and at home (where relevant), such as using different forms of address, gestures or expressions to show respect or affection",
+            "reflecting on how interacting in the language feels different from interacting in English and identifying elements that feel culturally specific",
+            "discussing traditional methods that speakers of the language use to preserve language and culture, comparing these with examples of dances, songs, artworks, artefacts or traditions from a range of different cultures, and identifying how they strengthen connections to values and identity, for example, discussing the significance of a possum-skin coat for some Aboriginal Peoples and sharing similarities and differences between cultural artefacts in other languages and cultures represented in the classroom",
+            "understanding that people interpret and respond to intercultural experiences in different ways depending on their own cultural perspectives, recognising the validity of different perspectives and questioning notions of 'right' or 'wrong' ideas or behaviours",
+            "considering how many regular interactions reflect cultural practices and values associated with family life, food and social relationships, for example, greetings; table manners at mealtimes",
+            "exploring the meaning of 'culture', how it involves visible elements such as ways of dressing, eating and dancing, and less-visible elements such as ways of thinking and valuing",
+            "exploring teacher-curated examples of traditional and contemporary images or texts in print and online, and discussing how identity and gender are represented in the language",
+            "exploring the idea of generalisations associated with languages and identities, discussing how groups of people tend to think about themselves and others, and how stereotypes affect attitudes and communication and can be inaccurate"
+          ]
+        }
+      ]
+    }
+  ]
+}

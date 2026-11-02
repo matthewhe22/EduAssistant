@@ -1,0 +1,573 @@
+{
+  "subject": "French",
+  "slug": "french",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the French language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes and discovering how languages are influenced by each other. They explore French through play, first imitating sounds and patterns, then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that French sounds are represented by letters, and they can match these with words, combining them in increasingly complex ways. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken French. They expand their repertoire of French words and phrases through listening and reading, and then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of French using simple metalanguage. They start to develop written competence by copying letters and words, and then produce the language with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the written French language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that French is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s).",
+      "contentDescriptions": [
+        {
+          "code": "VC2LF2E01",
+          "strand": "Engaging with French Language and Culture",
+          "subStrand": "Engaging with French language",
+          "text": "notice that French looks and sounds different to other languages",
+          "elaborations": [
+            "sharing the word for 'hello' in languages known to them",
+            "reproducing the sounds and rhythms of French by repeating after and imitating the teacher, through choral repetition or chants",
+            "using French versions of spontaneous exclamations or interactions, such as Aïe ! or Ouf !, and the gestures that accompany them",
+            "exploring the different languages spoken by members of the class, and listening to the different sounds and ways of saying common expressions such as 'Good morning' or 'My name is …'",
+            "experimenting with sounds that are unique to French, such as un in brun or in in matin, imitating the shape of the teacher's mouth and the sounds they produce",
+            "recognising that French uses the Roman alphabet like English but that, unlike English, some French letters use diacritic marks to indicate a change in pronunciation, and then racing each other to point to the letters with a diacritic mark",
+            "noticing that the use of diacritic marks can change the sound of letters, for example, noticing that a cedilla on a c (ç) makes it sound like an s, and noticing the use of acute and grave accent marks",
+            "performing songs, rhymes and action stories, using non-verbal forms of expression such as gestures, facial expressions and body language to support understanding"
+          ]
+        },
+        {
+          "code": "VC2LF2E02",
+          "strand": "Engaging with French Language and Culture",
+          "subStrand": "Engaging with French language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "using call-and-response chants and songs to develop question-and-answer responses, for example, the teacher chanting, Est-ce que tout le monde est prêt ?, and the students responding, Oui, Madame/Monsieur, on est prêt !",
+            "engaging with new sets of vocabulary by making concrete associations with them, such as touching and identifying colours in the classroom, or touching and identifying soft-toy animals and naming them",
+            "associating actions with common verbs, nouns and adjectives to facilitate vocabulary recall, such as making an eating gesture for Je mange or a happy face for Je suis content",
+            "discussing likes and dislikes such as colours, animals, food, sport and hobbies, possibly using images, props or digital prompts",
+            "exploring the intonation patterns and understanding the difference between statements, questions and exclamations, for example, Tu as 6 ans. / Tu as 6 ans ! / Tu as 6 ans ?",
+            "transforming simple statements into questions by raising their voice at the end, for example, Tu manges une banane. / Tu manges une banane ?",
+            "noticing hand gestures, intonation patterns and facial expressions that accompany some expressions of French, for example, noticing shrugs or exclamations (e.g. Bof !; Mais non !; Oh là là !), and practising these expressions and body language with a partner; or responding with the appropriate French expression to the teacher role-playing different scenarios (e.g. the teacher asking whether they attend school during the night, and the students responding, Mais non !)",
+            "playing simple games such as 'go fish', using colours or numbers, basic question forms, and affirmative and negative responses, for example, Tu as un sept ? Oui, voilà !; Et toi, tu as le jaune ? Non, j'ai le vert",
+            "facilitating turn-taking and sharing in play by using French expressions, for example, integrating expressions into aspects of their play with friends, such as À mon/ton tour; C'est à moi/toi; Vas-y !; D'accord; C'est parti !",
+            "integrating French words and expressions spontaneously into their play in the classroom, as well as at recess or other occasions, for example, Voilà; Pardon; Merci; Je suis désolé; Ah bon; S'il te plaît"
+          ]
+        },
+        {
+          "code": "VC2LF2E03",
+          "strand": "Engaging with French Language and Culture",
+          "subStrand": "Engaging with French language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "introducing themselves and responding to greetings, for example, Comment t'appelles-tu ? Je m'appelle …; Ça va, Céline ? Ça va (bien), merci",
+            "forming a circle and creating a question-and-answer routine, asking the student next to them and so forth, for example, Je m'appelle Céline. Et toi, comment t'appelles-tu ?",
+            "using French songs or rhymes for everyday routines (e.g. roll call, opening and closing lessons), for example, reciting 'Bonjour, mes amis. / Au revoir, mes amis.' or 'Rangeons la salle de classe'",
+            "responding to instructions or directions through actions, gestures or verbal responses (e.g. On fait un grand cercle; Lève-toi; Regardez-moi), or call-and-response routines (e.g. Un, deux, trois, arrête. Tout le monde met ses mains sur sa tête.)",
+            "responding to games or songs with actions, for example, 'Tête, épaules, genoux et pieds'",
+            "responding to basic classroom instructions using simple imperative verb forms, for example, Viens ici !; Écoutez bien !; Écrivez votre nom.; Fermez la porte !",
+            "using French phrases for everyday interactions (e.g. Bon appétit !), thanking and apologising (e.g. Merci !; Oh pardon !; De rien !; Excusez-moi.), or special occasions such as birthdays and other celebrations (e.g. Bonne fête !; Bravo !)"
+          ]
+        },
+        {
+          "code": "VC2LF2E04",
+          "strand": "Engaging with French Language and Culture",
+          "subStrand": "Engaging with French culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "using gestures, facial expressions and body language through games such as charades, or by incorporating them into stories, plays or songs to enhance meaning",
+            "playing simple French games that are similar to Australian ones (e.g. à la déli-delo, le fermier dans son pré), and/or playing traditional outdoor French children's games (e.g. 1, 2, 3 soleil; cache-cache; la marelle; le jeu de l'escargot)",
+            "playing and engaging with cultural items from French-speaking countries, such as Euros, postcards and authentic items",
+            "exchanging ideas, feelings and understandings of language and culture through play-based experiences such as dress-ups, puppets, and pretend cafés and French shops such as la boulangerie and le marché",
+            "noticing that different kinds of language (including spoken and body language) are used in different situations with different people, for example, observing exchanges between children and parents (e.g. Un bisou, Papa ! Je t'aime chéri(e).) and exchanges with unfamiliar adults (e.g. Bonjour Madame, comment allez-vous ?)",
+            "comparing gestures to convey different messages, such as indicating that they think someone is not telling the truth by pointing to their own eye and saying Mon oeil !, for example, playing the game '2 truths and a lie', using a simple structure such as name, age and favourite colour",
+            "recognising that music, dance, food, celebrations and games are connected to culture, such as eating pancakes on Mardi Gras or making la bûche de Noël for Christmas"
+          ]
+        },
+        {
+          "code": "VC2LF2C01",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Interacting in French",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "responding to Comment ça va ? with a variety of expressions such as Ça va bien., Ça va mal. and Je suis content(e)/triste. as they enter the classroom or during a 'one-minute challenge' classroom activity (e.g. greeting as many people in French as they can in one minute)",
+            "interviewing members of the class, introducing themselves and responding to everyday personal questions such as Quel âge as-tu ?, Où habites-tu ? and As-tu un animal domestique ?",
+            "naming family members and friends and noticing the difference between the formal and informal forms, such as mère/maman and grandmère/mamie",
+            "interpreting and sharing simple expressions and songs with friends and family, for example, singing 'Joyeux anniversaire' and using appropriate greetings (e.g. Salut !; Bonsoir !; Felicitations !) for different times or occasions",
+            "using puppets or printouts from popular shows or cartoons to role-play greetings and exchange information, imagining themselves as the character",
+            "using formulaic expressions to ask questions related to their needs, for example, Est-ce que je peux aller aux toilettes ?; Est-ce que je peux boire de l'eau ?; Est-ce que je peux avoir une gomme ?",
+            "responding to simple questions on topics such as home, school or pets, using supporting intonation and gestures, for example, C'est qui ? C'est Maman.; Qu'est-ce que c'est ? C'est une chaise.; Où est …? Il est …; C'est un chien ? Non, c'est un chat !",
+            "using PowerPoint slides or image flashcards to show different pictures (using taught vocabulary) to elicit responses",
+            "using simple descriptive or expressive statements to describe themselves and to express their likes, preferences or feelings (e.g. Moi, j'ai cinq ans; Je suis australien; J'aime le sport; Je préfère la danse; Je suis très content), for example, creating a flipbook (on paper or digitally), drawing/pasting in images to support their sentences"
+          ]
+        },
+        {
+          "code": "VC2LF2C02",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Interacting in French",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "generating phrases (e.g. Je suis triste; Je suis malade) using props such as images of faces with different expressions, for example, randomly distributing emoji faces attached to an icy pole stick and asking each student, Comment ça va ?",
+            "practising vocabulary, for example, practising high-frequency verbs using flashcards with images and/or written words, and using gestures to accompany the verbs where appropriate",
+            "playing simple memory games (e.g. Je vais au marché et je vais acheter … to practise vocabulary for fruit and vegetable names), or playing cards to match words or phrases with images",
+            "repeating simple sentence patterns such as subject+verb+object and interchanging the words, for example, Elle/Il mange une banane; Je lance/mange une pomme; Je mange une pomme / un sandwich",
+            "using a pocket chart with individual words and accompanying images to scaffold sentence building, for example, Je | mange | un ananas / une pomme / une fraise",
+            "using a scaffold to interchange sentence content (e.g. Je vais au café/restaurant/musée), and using accompanying images to make concrete connections",
+            "using a template to create a longer text, for example, playing a guessing game to guess the name of an animal by asking for clues (e.g. Je suis grand/gris; J'habite dans l'océan; Je mange des poissons)",
+            "recognising and using some prepositions in simple sentence structures, for example, using mini-whiteboards to draw prepositional sentences uttered by the teacher (e.g. Le chat est sous la table)"
+          ]
+        },
+        {
+          "code": "VC2LF2C03",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "viewing an image and identifying the main idea or event based on images (e.g. l'anniversaire, le zoo, la maison), talking about their understanding with a partner, and then sharing with the class",
+            "identifying words in a variety of texts by matching images with words, for example, reading texts with pictograms to facilitate understanding of difficult or previously unseen words",
+            "recognising words and phrases in French texts that look, sound and have the same meaning in English, for example, examining a word collage of places in a town and identifying the similarities, such as banque/bank and poste / post office",
+            "recognising and assigning symbols, titles, words and labels to classroom items and resources or personal possessions, such as la table, le livre, l'ordinateur and la carte",
+            "highlighting keywords and points in a variety of texts, such as stories (e.g. 'Les Trois Petits Cochons'; Le Petit Chaperon rouge'; 'Les Amis de la ferme'), rhymes and songs, and adding them to a word wall in their classroom",
+            "viewing images in catalogues, naming toys and games such as jouets pour les tout-petits, and selecting and listing items and prices",
+            "viewing video clips with subtitles in either French or English to make connections to meaning and/or pronunciation; or viewing a silent animated film or a video with no sound, and then imagining what the characters are saying and/or describing the action or scene",
+            "reading a story such as 'La Chenille qui fait des trous' and watching the video, pausing to reiterate known words and/or make observations, and miming, drawing, pointing, clicking or dragging to show their understanding of key points",
+            "responding to texts by sequencing pictures and simple text in the order that events occurred, or by creating a storyboard to retell a story or information",
+            "reading a 'Big Book' or viewing a PowerPoint of a known text such as 'Les Trois Petits Cochons', and making informed guesses for words that have been covered up or blanked out"
+          ]
+        },
+        {
+          "code": "VC2LF2C04",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in French through play, and discover how languages influence each other",
+          "elaborations": [
+            "practising simple number concepts such as quatre, using charts and counters",
+            "grouping vocabulary (e.g. classroom objects, animals) into sets by using word cards and/or images, and playing games (e.g. 'buzz', 'around the world') to practise numbers or other vocabulary sets",
+            "using and manipulating classroom aids such as coloured shapes to create understanding of number, adjectives and word order, for example, J'ai trois cercles rouges et deux rectangles bleus",
+            "exploring and comparing familiar onomatopoeia in French and English, such as ouaf ouaf (woof woof) and groin groin (oink oink), and then making the relevant noise when their teacher says the name of the animal, or listening to recordings of animals and saying their names in French",
+            "recognising that languages have loan words and that many French words are used in English (e.g. croissant, restaurant, menu, ballet) by creating a categories chart to list words from different languages, or playing a sorting game to sort words into their language of origin",
+            "noticing that many English words are used in French (e.g. le weekend, le parking, le cowboy)",
+            "playing physical or digital board games (e.g. 4 in a row, concentration, snakes and ladders, bingo) that have been modified to help students learn vocabulary or practise question-and-answer exchanges",
+            "using cognates to make informed guesses about the meaning of French words such as l'hôpital (hospital) and un tigre (tiger), for example, reading a story about a family who can't decide what pet to buy at a pet store and identifying words such as une tortue and un lézard",
+            "playing 'hide-and-seek' with classroom objects, for example, Où est le crayon ? Sous la table. / Dans la trousse.",
+            "performing role-plays, such as buying fruits and vegetables, or acting as a character from a story that is familiar to the class"
+          ]
+        },
+        {
+          "code": "VC2LF2C05",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Creating text in French",
+          "text": "create spoken and written texts using words, familiar phrases and modelled language",
+          "elaborations": [
+            "to form letters of simple words such as rouge, or tracing letters to write simple words or phrases, for example, tracing J'ai cinq ans, and putting 5 candles on the image of a cake",
+            "labelling images with words or short phrases, such as Il y a trois crayons",
+            "expressing information about themselves using modelled language (e.g. J'ai … ans; J'aime la couleur …; J'habite à …; Mon anniversaire, c'est le …), and recording role-plays of greetings or other everyday interactions",
+            "creating a mini-autobiography or a family album using simple text and photographs, pictures or drawings, for example, writing Voici ma mère, and drawing a picture to match",
+            "creating a print or digital glossary of new French words and phrases with accompanying drawings, pictures or photos, for example, creating a collage or booklet of fruits and labelling them",
+            "performing poems, rhymes or simple stories (e.g. 'Le Navet géant'; 'Boucles d'or et les trois ours') that include repeated phrases and rhythms to emphasise key points, for example, chanting Au loup !",
+            "making simple evaluative statements about their favourite characters in stories, rhymes or songs, for example, Il est magnifique !; J'adore Minou !; Elle est sympa !",
+            "creating stories, rhymes and songs with drawings or digital tools, using simple or complex sentences and captions, or using puppets, gestures and props to retell stories",
+            "using simple questions to interview a member of the class and then creating a student profile about them with simple sentences, for example, Tu t'appelles comment ?; Tu as un animal chez toi ?; Tu aimes les fraises ?; Tu es grand ?",
+            "creating a survey or tally about members of the class (e.g. what fruits they like/dislike or their birthday month) and then creating a display wall with pictures and captions"
+          ]
+        },
+        {
+          "code": "VC2LF2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of spoken French, and understand how sounds are produced",
+          "elaborations": [
+            "reciting the French alphabet and/or singing alphabet rhymes/songs, and noticing that the French and English alphabets are both based on the Roman alphabet, but that the letters have different names in French and represent different sounds",
+            "practising the facial movements involved with making sound blends in French, especially with vowel sounds (e.g. eu in fleur)",
+            "saying and comparing the feeling of different vocal movements when practising sounds such as ou and eu",
+            "noticing letters at the end of certain French words that are silent (e.g. chat/chats, riz, deux, cahier), for example, playing a 'wrong word' pronunciation game, where they circle the mispronounced words in a wordlist, focusing on the endings",
+            "recognising that diacritic marks can change the pronunciation of letters in words such as français (cedilla) and marché (acute accent)",
+            "building phonic awareness by experimenting with sounds, focusing on those that are initially difficult (e.g. u in tu, r in très rapide and ion in Attention !) and listening closely to distinguish between sounds such as bon/bien/beau or chien/chat/champ",
+            "understanding that spoken French uses liaisons and that each word within a phrase may not necessarily be heard as a discrete, individual word, for example, vous‿allez; deux‿amis; trois‿heures"
+          ]
+        },
+        {
+          "code": "VC2LF2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "recognising basic sound combinations in French and how these may differ from English, such as ch in chat, qu in quel(le) and in in matin, by using snappy chants such as 'Never chat with your chat!' or 'Don't be so quick to say “kwuh” in quel!'",
+            "recognising the nasal sounds in French, such as on in mon and an in dans",
+            "recognising the differences between how phonograms are pronounced in English and French (e.g. oi in English 'coin' vs. French trois)",
+            "recognising the sounds of more complex combinations such as ille in famille or eau in cadeau",
+            "using common adjectives for colour and size in various contexts, such as classroom items (e.g. une petite trousse rouge) and animals (e.g. un grand cheval brun)",
+            "using high-frequency verbs in a variety of contexts",
+            "underlining rhyming words or graphemes in short texts or poems"
+          ]
+        },
+        {
+          "code": "VC2LF2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how the Roman alphabet and features of language are used to construct meaning in French",
+          "elaborations": [
+            "becoming familiar with the French alphabet, noticing similarities to and differences from English, for example, double-v (pronounced 'dooble-vé') and i-grec (pronounced 'ee-grec'), by singing the alphabet, and discussing similarities and differences in the sounds",
+            "noticing the possible confusion between how the letters g and j are pronounced in English and French, providing examples such as girafe, gentil, joli and jaune, and practising the correct pronunciation when playing 'snap' with words or images featuring these sounds",
+            "noticing how the letter h in French is always silent (e.g. 'hibou never says “whoo”'), and practising the pronunciation of words such as hôpital, hôtel and hockey"
+          ]
+        },
+        {
+          "code": "VC2LF2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that written and spoken French has grammatical structures and other language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "noticing that French and English use punctuation conventions such as full stops, capital letters, commas and question marks",
+            "exploring the similarities between the English and French subject+verb+object structure (e.g. Je mange la pomme; Tu as le cahier), using vocabulary cards to arrange sentences following this structure, reading similar sentences and noticing that adjectives are used to describe people, animals, objects or places and are usually placed after the noun, and brainstorming a rule for using adjectives in sentences, for example, colour goes after a noun (e.g. le chien noir; le papillon rose)",
+            "becoming aware of grammatical gender, noticing and using masculine or feminine forms of nouns and adjectives such as le chien, la maison, le copain, la copine, le petit garçon and la petite fille",
+            "developing number knowledge, and identifying the similarities and differences between the use of cardinal and ordinal numbers in English and French, for example, using ordinals for days of the month in English but only for the first day of each month in French (e.g. le premier mars; le 2 juin)",
+            "becoming aware of adjective agreement with masculine and feminine (and then plural) nouns, and noticing that the feminine adjective necessitates a change (e.g. une pomme verte), for example, using a pocket chart with colour-coded articles and nouns (to indicate gender), and 'matching' them with the appropriate masculine or feminine adjectives"
+          ]
+        },
+        {
+          "code": "VC2LF2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how French-speaking communities are similar to or different from others",
+          "elaborations": [
+            "noticing their own use of words, expressions or behaviours that make them who they are, including words from different languages known to the class and ways of celebrating or talking that may not be familiar to other people",
+            "watching a short video and noticing formalities in French-speaking communities such as handshakes, la bise or standing up to greet a visitor to the classroom",
+            "reading a French children's book about school and family life, and comparing aspects of Australian and French children's lifestyles, such as school canteen meals or daily greetings between family members or friends",
+            "understanding that learning French involves ways of using language that may be unfamiliar (e.g. using merci when refusing an offer), and some ways of behaving and thinking that may be unfamiliar (e.g. the importance of food/meals in some families and regional traditions, different ways of expressing or describing feelings or relationships, and the more formal relationship between teacher and student)",
+            "noticing cultural meanings in expressions such as le goûter, la rentrée and la bise by making comparisons to their own context, for example, What do they consider to be le goûter compared to French children?"
+          ]
+        },
+        {
+          "code": "VC2LF2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where French is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "researching the countries where different languages are spoken and discussing why the world has many different languages",
+            "researching symbols and colours used by Aboriginal and Torres Strait Islander Peoples and by French-speaking communities in a range of contexts, for example, identifying the colours on a range of flags from different countries and communities in French, and discussing what the colours represent in English",
+            "noticing that many languages from different parts of the world are spoken in Australia and may be represented in their classroom, and creating a speech bubble that introduces them and the language(s) they speak",
+            "recognising that languages and communities have different protocols regarding the use of terms of respect, for example, there are ways of addressing Aboriginal and Torres Strait Islander Peoples using familial terms (e.g. 'Uncle' or 'Aunty') depending on the relationship, and comparing these terms with those in French and/or other languages",
+            "noticing how local names of streets, places and landmarks can have their origins in language(s) of Aboriginal and Torres Strait Islander Peoples, identifying the meanings of these place names, for example, 'You Yangs' comes from the Wadawurrung words Wurdi Youang, meaning 'big hill', and then discussing the names of French landforms that also denote physical characteristics, such as Mont Blanc",
+            "noticing that French is spoken in many different places in the world apart from mainland France, and using a globe or a printed/digital world map to highlight francophone countries or places (and imagining why French is spoken there)",
+            "showing examples of how gestures and body language are similar to or different in French to the language(s) they speak at home"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use French to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts.\nStudents imitate the sound combinations and rhythms of spoken French. They demonstrate their understanding that French has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in French and make comparisons between French and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LF4C01",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Interacting in French",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "initiating and exchanging greetings, offering wishes for particular occasions, situations or times of day in formal and informal contexts (e.g. Bonjour, Madame Patou. Comment allez-vous ?; Salut Nicole, ça va ? Pas mal, et toi ?; Bonne nuit, Papa !; Bonne fête !; À demain, Mademoiselle; À bientôt !; Joyeux anniversaire !; Bon courage !), for example, viewing images of a birthday party, and deciding which expression would be appropriate for the situation or role-playing an interaction in that scenario",
+            "using common responses to frequently asked questions or comments, imitating modelled intonation and stress patterns (e.g. Très bien; Voilà; Oui, bien sûr; D'accord; Hein; Bah … oui !)",
+            "responding to instructions, or asking for help or clarification, for example, Encore une fois; Montre-moi; Chantez plus fort; Regarde les photos; Écoutez/Écrivez/Tapez la phrase; Pardon/Excusez-moi Madame/Monsieur, je ne comprends pas; Répétez, s'il vous plaît; J'ai une question; J'ai besoin d'aide",
+            "practising responses to everyday questions, for example, selecting random questions written on icy pole sticks or generated by a digital program (e.g. Où habites-tu ?; Quel âge as-tu ?; As-tu un animal chez toi ?), and replying to them using a variety of answers",
+            "participating in a 'Find someone who …' activity, expressing likes and dislikes as members of the class ask a question, for example, J'aime le chocolat, mais je déteste le fromage; Il aime la classe de musique, mais il n'aime pas le cours de sciences",
+            "exchanging simple correspondence with peers, such as notes, invitations or birthday cards in print or digital form",
+            "using print or digital photographs, short videos or recordings to exchange and respond to information about themselves and their family, friends or interests, for example, J'ai deux sœurs et j'ai un frère; Je suis fils/fille unique; J'aime le sport, mais j'adore la musique !; Et toi, parle-moi de ta famille …",
+            "using cohesive devices (e.g. the conjunctions et, mais and ou) or interjections as fillers (e.g. ah bon; voilà; eh bien; alors) to enhance interactions when completing a role-play using modelled language"
+          ]
+        },
+        {
+          "code": "VC2LF4C02",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Interacting in French",
+          "text": "participate in activities that involve expressing interests and exchanging information, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "completing a 'broken sentences' activity, asking and answering questions relating to concepts such as time, place or number, including days of the week, months, dates and seasons, based on the information on their worksheet, and asking questions to fill any gaps, for example, Ça fait combien ? Ça fait cinq.; Quelle heure est-il ? Il est dix heures.; Aujourd'hui c'est vendredi ? Non, c'est jeudi.; Quel temps fait-il aujourd'hui ? C'est l'hiver. Il fait très froid.",
+            "responding to est-ce que questions and recognising the difference between oui/non questions and ou questions, for example, knowing to use oui or non in response to Est-ce que le ciel est bleu ?, and knowing to select between 2 choices in Est-ce qu'un chef travaille dans un restaurant ou dans un garage ?",
+            "introducing the French currency (Euros) to buy items (e.g. magazines, fruit, vegetables) at an imagined market or shop, for example, Ça coûte combien ? C'est cinq euros.; Le vélo noir / La bicyclette noire, c'est combien ?; 1 kilo en plus, s'il vous plaît.; Vingt grammes de moins",
+            "playing games that involve active listening, memory, information exchange and negotiating turns, for example, pige dans le lac (with vocabulary or image cards) or le jeu de sept familles, using language such as C'est à toi ? Oui, c'est à moi.; C'est ton/mon tour",
+            "praising each other (e.g. Pas mal !; Bon travail !; Super !; Excellent !; Bravo !) when working collaboratively with the class on tasks that require following instructions such as cooking or other step-based activities such as crafts or drawing tasks",
+            "designing a poster for a specific event or creating a picture book or word wall, and collaboratively sharing decisions about content, vocabulary and design, for example, Ceci ou cela ?; Qu'est-ce que tu préfères ?; Là ou là ?; Petit ou grand ?"
+          ]
+        },
+        {
+          "code": "VC2LF4C03",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "reading simple narratives, responding to images that evoke positive or negative emotions (e.g. affection, sadness, anger), and making connections with their own experiences by using stem statements, for example, Je suis fou/folle quand …; Je suis content(e) si …; J'ai peur de …",
+            "viewing a text that presents 2 distinct points of view on a familiar topic, listening for key arguments and generating a PMI chart or other similar mind map",
+            "writing simple notes, invitations and birthday cards, giving these to another student in the class, and then responding to their correspondence in print or digital form",
+            "viewing thought-provoking images and responding to prompts, for example, Je vois …; Je pense …; J'imagine …",
+            "collecting and using favourite exclamations, words or expressions from texts (e.g. Terrible !; Ça y est !; Pas vrai !; Quoi de neuf ?), and incorporating them into speech or thought bubbles in a comic strip",
+            "listening to short spoken texts with some unfamiliar language and identifying points of information, for example, the name and phone number left in a voicemail, the age of a child being interviewed, items on a shopping list, or information in a weather report from a French-speaking location",
+            "collecting information from print or digital sources about topics of interest, such as les animaux domestiques/sauvages, and creating a display with names and appropriate adjectives",
+            "responding to a story, song, cartoon, comic or simple narrative by retelling or re-enacting the main events, taking on the role of a character or matching pictures with descriptive statements",
+            "viewing short videos and extrapolating details, for example, watching the daily routine of a student and inferring the time (e.g. À sept heures et quart, elle mange son petit déjeuner)",
+            "locating information about activities in a French school (e.g. l'emploi du temps; la lecture; l'orthographe; le vocabulaire; les mathématiques), comparing this with their own daily schedule, and noting any differences and similarities"
+          ]
+        },
+        {
+          "code": "VC2LF4C04",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce French, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "learning to use a dictionary to find and understand unknown words in texts",
+            "building their vocabulary for describing actions or feelings by accessing multimodal resources and presenting information of interest, such as les fêtes d'anniversaire, les vacances and les copains",
+            "strengthening vocabulary knowledge by making connections with known words such as le marché, le supermarché and le marchand",
+            "responding to factual and imaginative picture and digital books, short scripted plays or animations that use familiar French words by creating a class display of the key information, and providing a glossary of new words and expressions",
+            "collecting and using French words and expressions that do not translate easily into English, for example, Bon appétit !; Bon voyage !; Voilà !; Chic !",
+            "engaging with a familiar story, writing or acting out a plausible different ending, and using new words, expressions and gestures to convey the key messages of the story",
+            "practising inviting a partner to do something and refusing each other's invitation politely, using formulaic and modelled expressions, for example, Je voudrais bien, mais …; Désolé(e); Malheureusement"
+          ]
+        },
+        {
+          "code": "VC2LF4C05",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Creating text in French",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences, and modelled textual conventions",
+          "elaborations": [
+            "creating personal profiles using simple words and expressions selected from word banks and modelled statements, highlighting key characteristics and features, for example, Je suis australien et grec. Je suis sportif. J'ai les yeux bleus. Je suis grand. Je suis courageux. Je parle anglais et grec. J'ai beaucoup de cousins.",
+            "creating and performing alternative versions of stories or action songs, using voice, rhythm and gestures to animate characters, or using support materials such as drawings or story maps to create visual context",
+            "creating a class profile, chart or database about likes, dislikes and interests (e.g. les sports préférés, les plats de choix), using multimodal resources, checklists, surveys or question cues (e.g. Tu préfères le brie ou le camembert ?; Combien de …?; À quelle heure …?)",
+            "creating digital infographics or presentations to provide a combination of written and spoken information, for example, describing different jobs and including information about the workplace and tasks (e.g. Voici un médecin. Il travaille dans un hôpital. Il soigne les gens malades.)",
+            "describing the scene of a classroom or home using prepositional sentences, for example, La trousse verte est à côté du crayon jaune sur la table",
+            "using a map of France or a French-speaking country or region and props to record and present la météo, for example, À Paris, il fait chaud. À Nouméa, il pleut. Prends un parapluie aujourd'hui",
+            "giving a visual presentation with captions about their daily routine using formulaic reflexive verbs (e.g. Le lundi, je me lève à sept heures)",
+            "creating a simple instructional or procedural text, such as designing treasure hunts (e.g. Où se cache le trésor ?), or creating a recipe such as les crêpes by making a list of the ingredients and quantities (e.g. 200 grammes de farine, un verre de lait) and using imperative verb forms (e.g. ajoutez, mélangez, versez, servez)",
+            "creating short imaginative texts designed to amuse or entertain, for example, stories featuring imaginary creatures with names created out of 2 or more real animal names such as le chevaloon, le lapinat or les moutaches",
+            "recognising and using different text types (e.g. postcards, emails), styles of writing (e.g. informative, persuasive, imaginative) and the specific language conventions associated with them"
+          ]
+        },
+        {
+          "code": "VC2LF4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations, and use patterns of pronunciation and intonation to form words, phrases and simple sentences",
+          "elaborations": [
+            "creating an alphabet bank, collecting words that begin with each letter (e.g. l'hiver / l'homme / l'hôtel; mai / mardi / le mouchoir; le pain / Papa / le poisson)",
+            "understanding how changes in voice and body language can change the meaning of words, for example, Tu aimes les devoirs ? (simple question) vs. Tu aimes les devoirs ! (expressing surprise, disbelief); C'est mon petit frère. (statement) vs. C'est mon petit frère ! (pride); Tu peux commencer. (permission) vs. Commence ! (instruction)",
+            "recognising and practising the most common vowel sounds (e.g. ou in vous/jour; oi in toi/voiture; on in bonbon/mon; ai in aimer/j'ai; ain in train/demain and eau in château/beau), for example, repeating tongue twisters such as Si mon tonton tond ton tonton, ton tonton sera tondu",
+            "observing differences in the pronunciation of word endings shared with English such as -tion (e.g. attention, situation) and -ent (e.g. commencement, accident), for example, playing a pronunciation game where they place hands on hips for -ent endings and hands on head for -ion endings",
+            "recognising that some final consonants in French words are usually silent (e.g. le rat, le tapis, vert, chez) and some are usually pronounced (e.g. chic, actif), for example, listening to the teacher read a text aloud and underlining the silent letters",
+            "recognising that certain French letters, accented vowels and combinations of letters produce the same sound (e.g. é, ez and er; ç and s), creating a bank of rhyming words, and then as a class using those words to create a limerick or a rap",
+            "noticing that the letters k and w are rarely used in French and usually occur in loan words"
+          ]
+        },
+        {
+          "code": "VC2LF4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "using an increasing range of adjectives (e.g. bizarre, magnifique, formidable) and additional gender forms and agreements (e.g. blanc/blanche; gros/grosse; le chat blanc; la souris blanche), for example, creating a superhero avatar and describing their qualities and/or their outfit",
+            "recognising word patterns and building word clusters (e.g. number knowledge from 60 to 100; ordinal numbers)",
+            "recognising the differences between definite and indefinite articles, and how to refer to a specific or non-specific person, animal, place or object (e.g. Tu manges la pomme; le climat français; J'achète un livre; une vache énorme), for example, writing sentences that contrast and illustrate both the definite and indefinite articles (e.g. Il y a une gomme blanche sur un pupitre noir / La gomme blanche est sur le pupitre noir)",
+            "recognising and beginning to use common verb conjugations such as regular -er verbs, for example, using the correct conjugation in cloze exercises such as Elle chante (sings), or by matching pronoun to verb in digital apps and using the click-and-drag option to move the conjugated verb to the correct pronoun",
+            "expressing negation in simple sentence structures and colloquial expressions (e.g. Je ne sais pas; Elle ne mange pas; Tu ne viens pas ?; Pas du tout !), understanding that the ne and pas 'sandwich' the verb, and practising this negative formation by transforming positive sentences into negative sentences, for example, transforming Je lave la voiture to Je ne lave pas la voiture on mini-whiteboards",
+            "using prepositions to indicate direction or location (e.g. à gauche, à droite, à côté de), for example, giving instructions to a partner to draw furniture on a bedroom template (e.g. Il y a une lampe sur la commode)",
+            "observing the relationship between subject pronouns (e.g. je/tu/il/elle) and the present tense endings of verbs associated with familiar actions and environments, for example, Il chante bien; Je suis fatigué; Tu aimes le yaourt; Elle est en classe",
+            "using modelled common irregular verbs (e.g. être, avoir, aller, faire), for example, Je suis intelligent(e); Tu as quel âge ?; Comment allez-vous ?; Il va à la plage; Je fais le petit-déjeuner, and choosing between them in cloze exercises such as Il ____ un gâteau. (est, fait, va)",
+            "developing an awareness of verb tenses and reflexive verbs with modelled support, for example, J'ai fini !; Je me lève; Je me brosse les dents",
+            "using some adverbs to elaborate on simple statements, for example, Elle mange lentement; Je chante doucement; Il parle très vite"
+          ]
+        },
+        {
+          "code": "VC2LF4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar French language structures and features with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "discovering French words used in English (e.g. restaurant, café, chauffeur, ballet, croissant) and English words used by French speakers (e.g. le coach, le blog, l'internet, le football, le burger, le sandwich, le denim), comparing how they are pronounced differently by looking at a collection of English words used in French, and then competing with a partner to be the first person to point out the word the teacher says",
+            "understanding that French has close connections to other languages that have shared histories and many similar words, for example, 'bank' (English), la banque (French), la banca (Italian) and el banco (Spanish); 'art' (English), l'art (French), l'arte (Italian) and el arte (Spanish)",
+            "identifying and comparing keywords in French and English versions of favourite stories such as 'La Chenille qui fait des trous' or 'La Vieille Dame qui avala une mouche', and considering the rhythms and vocal effects in each version",
+            "noticing and applying features of familiar types of texts (e.g. weather reports, postcards, recipes); recognising how different textual elements combine to make meaning (e.g. the images, font and script of a webpage; the layout, title and illustrations in a picture book; the highlighting of names, dates and times in an invitation); and creating visual displays to exhibit in the classroom, which present the text types taken from real examples in French magazines, websites, children's books or newspapers",
+            "recognising features of a simple spoken or written text in French (e.g. a verbal greeting or a written message), for example, noting terms of address and ways of signing off, and comparing them with similar texts in English",
+            "investigating examples of shortened noun forms in colloquial French (e.g. le resto, le frigo, le foot, le prof) from websites, guessing their meaning and comparing them with abbreviations in Australian English (e.g. brekkie, arvo)",
+            "comparing parts of a sentence using metalanguage (e.g. noun, verb, adverb, adjective) to describe words, and noticing the word order and patterns, for example, the suffix -ment is usually used in adverbs and those adverbs usually follow the verb, which is similar to -ly adverbs in English"
+          ]
+        },
+        {
+          "code": "VC2LF4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "discovering and exploring print or digital maps of Australia to identify historical names or places with a French connection, such as Recherche Bay in Tasmania, Esperance in Western Australia, and La Perouse in New South Wales",
+            "recognising that there are many different variations of French spoken in different cultural contexts in countries and regions of the world such as le Québec, le Sénégal, le Maroc, la Suisse, la Réunion and la Nouvelle-Calédonie, involving different accents and vocabulary (e.g. un pain au chocolat is une chocolatine in the south of France), by viewing videos of speakers from these places and discussing their observations of the different accents with their peers",
+            "identifying elements of the French language that feel most similar to or different from their own language (e.g. pronunciation of some sounds, gestures such as la bise, facial expressions), and describing what they are confident in, what they feel unsure of and what they most enjoy",
+            "creating a 'language portrait' of themselves through the use of a whole-body silhouette, where students represent their personal experiences of language and culture by adding colours, shapes and words within and around the outline",
+            "noticing how they communicate with each other, their families and their teachers, understanding that language carries information about the people who use it, and that common expressions often reflect cultural values, for example, that French terms of affection for children often relate to food or animals (e.g. mon petit chou, mon lapin, ma puce)",
+            "becoming aware of the variety of ways in which people can be addressed, including making the feminine form more visible (Salut à toutes et tous) and using non-gendered alternatives (Bonjour tout le monde; Bienvenue !)",
+            "creating an Acknowledgement of Country in French and addressing what elements should be included and why",
+            "identifying ways in which French language and culture (e.g. cuisine, fashion) influence life in Australia, for example, by participating in an online scavenger hunt to find French restaurants, clothing shops, cars, pets or technology that are available in their local area",
+            "viewing a map that shows Aboriginal and Torres Strait Islander languages, noticing how many languages are represented in Victoria, and then learning about the diversity of languages that students in the classroom have a connection to",
+            "identifying the Aboriginal or Torres Strait Islander Country or Place on which they live and incorporating this into their self-introduction in French"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in French that are related to their immediate environment. They use appropriate sound combinations, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in French or English, adjusting their responses to context, purpose and audience.\nStudents use modelled structures when creating and responding in French. They create texts, selecting and using a variety of vocabulary and sentence structures to suit different contexts. They use conventions appropriate to text type. They apply rules for pronunciation and intonation in spoken language, and apply conventions of spelling and punctuation in written language. They compare language structures and features in French and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LF6C01",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Interacting in French",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "communicating with their teacher and other students regarding activities, for example, Tu as fini ?/ C'est fini ? Fini !; Tu comprends ? / Tu comprends, toi ? Madame/Monsieur, je ne comprends pas. Pas encore, bientôt",
+            "using communication strategies such as active listening skills and turn-taking cues to support the exchange of ideas and information, for example, supporting a conversation using Ah oui ?; C'est vrai ?; C'est intéressant; Dis-moi …; Pardon !; Mon pauvre !; Désolé(e) !",
+            "participating in dialogues using modelled language, exchanging personal information and opinions with other students, for example, Excuse-moi, Sophie, mais … à mon avis; Selon moi …; Je pense que …; Bien sûr / D'accord; Au contraire …; Et toi, que penses-tu ?",
+            "sharing information about routines, interests and favourite activities by creating diary entries, an agenda or online calendar using language associated with time, sequence and location, for example, J'arrive à l'école à 8h30; Le samedi, je fais du cheval; Le soir, je fais mes devoirs et je joue aux jeux vidéos, après je me brosse les dents",
+            "exchanging information about friends or family members by sharing a real or digital photobook with the class using simple descriptive and expressive language, for example, C'est mon frère, il est sympa ! C'est ma tante Lilianne, elle est assez gentille ! C'est mon grand-père, il est très vieux",
+            "participating in a 'Find someone who …' activity, for example, a 'speed dating circle' to exchange personal information such as likes/dislikes, leisure or sporting activities, and favourite foods, TV series or video games",
+            "practising expressing concern, sympathy, apologies or gratitude to friends and family members using a bingo board with the relevant expressions recorded, and crossing off each expression as they use it appropriately in the classroom, for example, Fais bien attention !; Mon pauvre ami; Pardon, excuse-moi. Je suis désolé(e); Merci pour le merveilleux cadeau; Merci à vous tous pour la fête surprise",
+            "presenting information about their local area or school environment as a video blog, such as a virtual school tour, and accompanying spoken texts with appropriate gestures, facial expressions, body language and formulaic expressions that are culturally based, for example, Dans mon quartier … il y a un court de tennis, de grands parcs …; En Australie les écoles ont des espaces verts",
+            "creating and participating in role-plays that replicate everyday situations such as purchasing pastries in a bakery, requesting information about train or bus schedules, or asking directions for a place in town",
+            "exchanging print or digital greeting cards for significant occasions such as anniversaries, or responding to an email from a new penfriend in a French-speaking country"
+          ]
+        },
+        {
+          "code": "VC2LF6C02",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Interacting in French",
+          "text": "participate in activities that involve discussion with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "organising displays, presentations or performances for family, friends or the school community to showcase their progress in learning and using French",
+            "allocating roles and organising class or school activities (e.g. appeal or fundraiser), and creating timelines, schedules or programs",
+            "inventing a questionnaire to create a spotlight or profile of a fellow student or teacher and then recording the interview as a video or a written article for the school newspaper or website",
+            "negotiating tasks and shared activities, working out preferences, for example, Tu préfères lire ou écrire ? Moi, je préfère travailler sur l'ordinateur.; C'est juste ? Montre-moi ! Comme ça ?; Moi, je fais ça et toi, tu prépares ça",
+            "discussing and planning collaboratively with peers to promote a French cultural day to the school community, parents and friends by, for example, making a print or digital poster/brochure or using the school website to post a video",
+            "planning and organising activities (e.g. outings, performances), using expressions related to place, time and numbers, for example, Quelle date ?; Où ?; Quand ?; À quelle heure ?; Combien de …?",
+            "budgeting for imagined shopping expeditions, consulting online catalogues and websites, comparing prices and values, and discussing intended purchases, for example, Je vais acheter …; J'espère trouver …; Qu'est-ce que tu cherches ?",
+            "consulting each other when completing individual or group activities, for example, indicating understanding or asking for help using comments such as Oui, je comprends.; Non, je ne comprends pas. C'est trop compliqué !; C'est difficile !; Montre-moi …; or asking C'est quoi ça ?; C'est juste ?; Comme ça ?; Comment ça s'écrit ?"
+          ]
+        },
+        {
+          "code": "VC2LF6C03",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "identifying the purpose, context and audience of a range of familiar texts (e.g. phone messages, sports reports and takeaway food orders), recognising differences between spoken and written texts, and noting that some texts (e.g. emails, text messages) combine elements of both",
+            "viewing an image, completing a think-wonder-learn chart using information from the image, and then discussing their notes with a partner, for example, students eating lunch in a cafeteria at a French school",
+            "drawing from a range of informative texts (e.g. videos, books, magazines, advertisements, websites) to collect and compare information on topics (e.g. family life, housing, schooling) in different cultural contexts, such as la campagne, les villes, les appartements and le monde francophone",
+            "viewing different types of texts (debates, documentaries, short animated films, news stories) and then using graphic organisers to process the content, main ideas and/or characters that were shown",
+            "accessing information about important French celebrations and festivities by extracting points of information from sources such as websites, books and magazines, and providing a summary of the key messages of the texts",
+            "writing a critique of an artwork, having learned about the artist's life and influences and the era in which the work was created, for example, watching a documentary about the life of Monet, reading articles about impressionism and examining a collection of his works such as Les Meules",
+            "recognising and describing key features of familiar texts (e.g. advertisements, reports, letters) from sources such as Astrapi, Le Petit Quotidien and Images Doc, and comparing them with similar texts from Australian sources",
+            "engaging with spoken, written and viewed texts about the school routine, leisure time and/or lifestyle of young people in France or French-speaking communities around the world, and presenting the findings in a multimodal presentation",
+            "conducting surveys with their peers and family members to report on social behaviours and preferred modes of communication (e.g. le téléphone, le courriel, les conversations face à face, les textos)",
+            "watching different types of imaginative texts (e.g. puppet shows, animated stories, films) and then interviewing members of the class about the characters, events, sets and costumes, using modelled language to express ideas and reactions, for example, Il est comment ? Il est fou !; Pourquoi elle porte un panier ? Parce que sa mamie est malade"
+          ]
+        },
+        {
+          "code": "VC2LF6C04",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in French in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "interpreting and explaining the meaning of words and expressions associated with celebrations in French-speaking regions of the world, such as le poisson d'avril, la bûche de Noël, la Toussaint and la Fête de la Musique",
+            "using bilingual dictionaries and electronic translation tools to compose bilingual texts such as captions, menus or school timetables, comparing results and noticing any problems associated with translation",
+            "viewing francophone movies, TV series or film clips and using subtitles to interpret meaning, for example, using French subtitles to make connections between the written word and pronunciation, or English subtitles to facilitate understanding between French expressions and the English equivalent",
+            "creating a word bank or glossary for French words and expressions that do not easily translate into English, such as Quelle porcherie ! and C'est la pagaille ta chambre !",
+            "finding signage from their local area, and interpreting and comparing it to signage in a French-speaking country, for example, comparing traffic and road signs or signs in public places",
+            "creating French versions of Australian school signs and notices, considering why some words or expressions (e.g. swimming pool, sports oval, canteen, library, office) require a freer translation than others"
+          ]
+        },
+        {
+          "code": "VC2LF6C05",
+          "strand": "Communicating Meaning in French",
+          "subStrand": "Creating text in French",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type",
+          "elaborations": [
+            "using photo stills from a football match or the Tour de France to write and record some commentary about what is taking place, for example, Il donne un coup de pied au ballon. Aïe ! Il tombe ! Ça fait mal !",
+            "introducing, adapting and illustrating new elements or alternative versions of familiar stories, traditional tales and songs, for example, the character Nicolas in the series Le Petit Nicolas or a different ending to 'Les Trois Petits Cochons'",
+            "creating an interactive display or performance as advocacy for the school language program, for example, informing younger children of the benefits of learning French, or creating puppet plays and skits of familiar French stories and rhymes",
+            "creating a poster or infographic using il faut + infinitive to advocate for environmentally friendly actions and create awareness of global issues",
+            "compiling lists of informal French and English expressions for everyday interactions with friends and family, for example, À tout à l'heure (See you later); Génial (Cool); Salut, ça va ?/! (Hi, how are you?/ Hi, everything OK?); Amuse-toi bien (Have fun); Bisous (Kiss/Love) at the end of an informal letter",
+            "creating a postcard or travel blog written in present tense about an imaginary holiday to a different country, and including mode of transport, accommodation, length of stay, weather, leisure activities and cultural sites or writing the script for a fashion show to share with others, for example, Je vous présente Émilie. Elle porte une belle jupe bleue. Très chic, alors !",
+            "creating texts that reflect the use of colloquial or abbreviated language by young people in informal, written and technologically mediated contexts (e.g. G for j'ai; pa for pas in text messages), and the use of loan words (e.g. ciao, cool, super), hybrid terms (e.g. Allez-bye !) and verb contractions (e.g. Chais pas for Je ne sais pas) in informal spoken language",
+            "giving, following and planning directions (e.g. À gauche !; Tout droit !; Prends la première rue), for example, listening to instructions and driving a toy car along the streets on a map, demonstrating understanding of a range of prepositions (e.g. à gauche, à droite, à côté de) to indicate direction or location, and then creating a script of directions for an interactive GPS experience (e.g. TomTom, Siri), for example, Siri, où est la gendarmerie ? À cent mètres, tournez à droite.; Siri, je veux aller au cinéma.; Siri, est-ce qu'il y a une toilette près d'ici ?",
+            "composing a spoken, written or multimodal text for a virtual tour of the ideal French village or dream home using words such as devant, à côté de, à 500 mètres and trois étages; or making a list for the ingredients and quantities for a simple recipe such as crêpes (e.g. 200 grammes de farine, un verre de lait), using the imperative verb forms ajoutez, mélangez, versez and servez for the recipe",
+            "using digital tools (e.g. word processing software) to create information for a known contact group of French-speaking students, curating information about their own interests and experiences (e.g. les vacances, les amis, les sports, les médias), and using resources such as audio, video or graphics to highlight elements that may be unfamiliar to French students"
+          ]
+        },
+        {
+          "code": "VC2LF6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency in words, phrases and sentences",
+          "elaborations": [
+            "recognising how pitch, stress and rhythm help to convey meaning even if individual words are unfamiliar, for example, J'ai eu très, très peur !; d-o-u-c-e-m-e-n-t",
+            "recognising words involving 2 or more distinct vowel sounds (e.g. la voiture, important, le pompier, l'aspirateur, la ceinture) and playing vowel sound 'bingo' to practise recognising the different vowel sounds",
+            "using exclamations to indicate agreement, disagreement, intention or understanding (e.g. D'accord !; Mais non !; Bien sûr !; Voilà !), for example, calling out the expressions in the classroom as the teacher makes statements about various leisure activities",
+            "distinguishing between similar vowel combinations such as u and ou, understanding that u is pronounced with protruding, tightly pursed lips (e.g. pull/poule, rue/roue) by playing minimal pairs 'bingo' or the 'odd one out' listening activity",
+            "applying phonic and grammatical knowledge to spelling and writing unfamiliar words, for example, applying letter combinations for word endings such as -eau, -eur or -ette by referring to words they already know, for example, chaleur has the same ending as fleur, and recette has the same ending as bicyclette",
+            "reciting poems that exemplify a certain vowel pronunciation or grapheme, such as 'Le soleil aime la terre', and practising the word endings of -ille, -eil and -elle",
+            "developing intonation and fluency of set phrases in a shadow speaking activity, for example, listening and then speaking along to a recording of a native speaker, gradually reducing the sound until only their own voices can be heard, such as Si on allait au cinéma demain soir vers neuf heures ?",
+            "understanding that l'accent aigu on an e (é) at the end of a word changes the pronunciation (e.g. compare je passe / le passé; je souffle / le soufflé) for example, playing a game of mâcher la moustique and using fly swatters to hit the word said by the teacher on a grid",
+            "understanding that other diacritic marks also change the sound of a letter, for example, la cédille (ç) softens the c sound to an s sound in words (e.g. le garçon, la façon, le français)",
+            "recognising and using liaisons such as les‿élèves, les petits enfants or Joyeux‿anniversaire when appropriate, for example, by underlining them in a short text or paragraph and then reading them aloud"
+          ]
+        },
+        {
+          "code": "VC2LF6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "beginning to use all forms of the present tense of regular -er, -ir and -re verbs and of high-frequency irregular verbs such as avoir, être, aller and faire",
+            "playing games such as 'matching pairs' to reinforce grammatical rules, for example, matching nouns and subject pronouns (e.g. Jean travaille / Il travaille; Marianne aime le fromage / Elle aime le fromage); pairing the subject with a conjugated verb (e.g. Nous parlons; Tu manges; Il finit)",
+            "using a range of nouns, including more unusual plural forms (e.g. les bureaux, les choux-fleurs, mes grands-parents), as well as more complex adjectives (e.g. bel/beau/belle/beaux/belles) and possessive forms (e.g. mon/ma/mes; ton/ta/tes; son/sa/ses)",
+            "using possessive forms (e.g. mon/ma/mes; ton/ta/tes; son/sa/ses), for example, when completing a family logic puzzle such as La sœur de ta mère est ____ (ta tante)",
+            "using an increasing range of noun–adjective agreements with support, including adjectives of beauty, age, goodness, size (BAGS), which come before the noun, for example, Elle porte une belle jupe violette, when describing the outfits of favourite celebrities",
+            "formulating questions using Est-ce que …, the inverted form of the verb or changed intonation (e.g. Est-ce que tu as un chien ? / As-tu un chien ? / Tu as un chien ?), and changing simple statements into questions (e.g. Jean aime les fraises ?)",
+            "understanding and using negative constructions such as Tu ne viens pas ce soir ?, including recognition of the use of de after a negative verb form (e.g. Je n'ai pas de photos; Je ne mange jamais de choux de Bruxelles), and practising the negative construction by doing a 'spot the error' exercise and writing the corrections of grammatically incorrect sentences on whiteboards",
+            "using their knowledge of suffixes and prefixes to assist comprehension of texts (e.g. agréable, désagréable, venir, revenir, cuisine, cuisinier, trembler, tremblement)",
+            "developing a range of adverbs to elaborate or accentuate meaning using sentence builder charts, for example, Il parle si doucement; Moi j'écoute attentivement",
+            "becoming familiar with and using, with support, the present perfect tense (le passé composé) in limited conditions, for example, with the use of -er verbs, J'ai mangé trois biscuits; J'ai fini mes devoirs",
+            "recognising that the imperfect tense (l'imparfait) denotes the past when encountered in familiar expressions and scaffolded language contexts, for example, Il était une fois …; C'était …; Il faisait chaud; Il avait 60 ans, using the indicative plus the infinitive (e.g. J'aime jouer au tennis; Il sait conduire) and the near future tense (e.g. Je vais partir)"
+          ]
+        },
+        {
+          "code": "VC2LF6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare French language structures and features with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "comparing verb conjugations in English, French and other known languages and identifying patterns in conjugation, for example, understanding that regular verbs in English with a third-person singular subject pronoun (he/she/it) end with an 's'; but French verb endings (e.g. -er verbs) follow a pattern and change according to the subject pronoun, for example, j'écoute; tu écoutes; il/elle/on écoute; nous écoutons; vous écoutez; ils/elles écoutent",
+            "recognising false friends (les faux amis) and how they can lead to difficulty when learning French, such as coin (corner), journée (day), actuellement (currently), joli (pretty), pain (bread) and bras (arm), using modals plus the infinitive (e.g. J'aime jouer au tennis; Il peut conduire) and the near future tense (e.g. Je vais partir)",
+            "talking about grammar, using metalanguage such as 'tenses' and 'subject pronouns', identifying language elements, and talking about how they are used",
+            "using metalanguage to discuss the features of familiar texts, for example, a shopping list serves as a reminder, a role-play at a market involves interaction and negotiation, and an email or text message to a friend involves interaction and an exchange of information",
+            "providing feedback to support their peers using metalanguage, for example, editing each other's written or spoken texts and work samples and justifying their reasons",
+            "understanding that some words originate from Aboriginal languages from different areas around Australia, for example, le koala (koala) from the Dharug word gula, meaning 'no water', or le kangourou (kangaroo) from the Guugu Yimidhirr word gangurru, and comparing these words to English and/or other languages and discussing their historical context"
+          ]
+        },
+        {
+          "code": "VC2LF6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal and non-verbal communication",
+          "elaborations": [
+            "exploring the idea of generalisations associated with languages and identities, discussing how groups of people tend to think about themselves and others, and how stereotypes affect attitudes and communication and can be inaccurate",
+            "thinking about how family and community impact on identity and communication (e.g. using more than one language, celebrating or expressing feelings in various ways)",
+            "explaining Australian English vocabulary, expressions and practices (e.g. the bush, fair go, she'll be right) to speakers of French and other languages",
+            "examining the artworks of artists from French-speaking communities, historically or contemporarily, and discussing the influences of the society and culture on their work",
+            "exploring examples of traditional and contemporary images or texts in print and online, and discussing how identity and gender are represented in the language",
+            "discussing traditional methods that French speakers use to preserve language and culture; comparing these with examples of cultural artefacts such as dance, songs, artwork, artefacts or traditions, from a range of different cultures; and identifying how they strengthen connections to values and identity, for example, discussing the significance of a possum-skin coat for some Aboriginal Peoples and sharing similarities and differences between cultural artefacts in other languages and cultures represented in the classroom",
+            "exploring the lifestyles of people in francophone countries through movies, film clips or music videos, and considering the influence of French on their cultural practices, such as food and celebrations, for example, by creating a brochure or social media post about a particular country and including a glossary of vernacular words",
+            "using models such as the Oops & Ohlala series, which involve one English-speaking and one French-speaking character, and reflecting on instances of possible intercultural miscommunication",
+            "noticing how children from French-speaking communities around the world use different words and expressions, and considering why such variations exist, for example, tchop for manger, chamboul for la chambre, and n'damba for le football in Cameroon; le chum/tchomme for le copain, and l'avant-midi for le matin in Quebec"
+          ]
+        }
+      ]
+    }
+  ]
+}

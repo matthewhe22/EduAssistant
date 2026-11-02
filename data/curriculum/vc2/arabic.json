@@ -1,0 +1,615 @@
+{
+  "subject": "Arabic",
+  "slug": "arabic",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the Arabic language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes and discovering how languages are influenced by each other. They explore Arabic through play, first imitating sounds and patterns, and then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that Arabic sounds are represented by letters of the Arabic alphabet that have vowel marks, and they can match these with words, copying and combining them in increasingly complex ways. They understand that Arabic is written from right to left. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken Arabic. They expand their repertoire of Arabic words and phrases through listening, viewing and reading, and then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of Arabic using simple metalanguage. They start to develop written competence by copying and then joining Arabic letters to form words, simple phrases and sentences with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the spoken and written Arabic language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that Arabic is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s).",
+      "contentDescriptions": [
+        {
+          "code": "VC2LA2E01",
+          "strand": "Engaging with Arabic Language and Culture",
+          "subStrand": "Engaging with Arabic language",
+          "text": "notice that Arabic looks and sounds different to other languages",
+          "elaborations": [
+            "noticing when Arabic or English is being spoken in the classroom, and comparing some familiar words, greetings or expressions, for example,.مرحبا، كيف حالكم اليوم؟ نحن بخير، بخير الحمد لله.ازّيكم؟ / كيفكن؟ بخير",
+            "sharing the word for 'hello' in different languages known to students, such as مرحبا (Arabic), bonjour (French), hola (Spanish), merhaba (Turkish) or salaam (Persian and Muslim culture), noticing similarities and differences in pronunciation and what the words look like in these languages",
+            "observing that some sounds in Arabic do not exist in English, for example,خ، ح، ع، غ، ض",
+            "tracing and practising writing Arabic letters and numbers, starting from the right side of the page, and exploring differences with English and/or other languages through play, digital resources and discussions, for example,٠، ١، ٢، ٣، ٤، ٥، ٦، ٧، ٨، ٩؛ أ، ب، ت، ث… ن، م، ه، و، ي",
+            "making or drawing pictures to represent Arabic letter shapes, using tactile materials such as modelling clay or pipe cleaners, for example, the letter س looks like a boat on the sea with waves beside it",
+            "describing in their own words, using pictures and gestures as support, observable differences between Arabic and English, such as letters, text direction, diacritical marks and letter shapes, with the teacher recording findings on a poster or the whiteboard, for example,s – س",
+            "participating in shared reading of familiar stories, such as ليلى والذئب، سندباد, or sensory books in Arabic, and noticing that an Arabic book is read from right to left, similar to other languages that may be known to students, such as Persian (Farsi), Urdu, Pashto, Kurdish (Sorani) and Uyghur, and comparing these with equivalent texts in English, French and other languages that are written from left to right, or other languages that sometimes use a vertical writing style (e.g. Chinese or Japanese)",
+            "learning some basic differences in word order in simple sentences and phrases, such as the 'noun + adjective' word order, for example,عيد ميلاد سعيد؛ قلم أحمر؛ يوم مشمس",
+            "looking at examples of Arabic calligraphy, street signs, or other authentic Arabic texts and making observations about the similarities and differences between Arabic script and other forms of written expression that use the same letters",
+            "experimenting with sounds used in Arabic (e.g. animal noises), such as عوعو، بقبق بقيق، ماء ماء, and comparing these with sounds in English and other languages represented in the class"
+          ]
+        },
+        {
+          "code": "VC2LA2E02",
+          "strand": "Engaging with Arabic Language and Culture",
+          "subStrand": "Engaging with Arabic language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "imitating Arabic pronunciation and copying the teacher's gestures, body language, mouth shape and tongue position, for example, mimicking the 28 letter sounds of the Arabic alphabet and the 3 short and long vowels, such as جَ، جُ، جِ، جا، جو، جي, observing the mouth and tongue position when forming the sounds of the letters, or mimicking words, such as ث – ثعلب؛ ذ – ذئب",
+            "imitating Arabic pronunciation and copying gestures and body language while participating in a range of songs and rhymes, using musical instruments and clapping to chant Arabic letters and words, for example,أنشودة الحروف العربية؛ أغنية الأرقام؛ أغنية الألوان؛ أنشودة الفواكه",
+            "experimenting with onomatopoeic words, such as those related to animal sounds, and comparing them with the pronunciation of equivalent animal sounds in English, for example,كوكوك (صياح الديك)؛ مياو مياو (مواء القط)؛ موو (صوت البقرة)؛ هو هو (نباح الكلب)؛ تويت تويت (صوت العصفور)",
+            "repeating the names of letters and reproducing their sounds with the short vowel 'a', the fat-ḥa (الفتحة), for example,ضاد – ضَ؛ صاد – صَ؛ قاف – قَ",
+            "developing pronunciation, phrasing and intonation skills by singing, reciting and repeating frequently used words and phrases, noticing that statements and questions have different intonation, for example,غناء الحروف؛ غناء الأرقام؛ أنـشودة الـتّـعـارف",
+            "engaging with traditional nursery rhymes through listening, singing and recording, for example,رأس كتف ركبة قدم؛ عيدك يا ماما",
+            "listening to stories, texts or multimodal presentations, for example, listening to an audio recording of a story while following along with a slide-show presentation that highlights key vocabulary",
+            "imitating the pronunciation of Arabic words and phrases, dialogues or greetings, and then recording their own voice on a digital device and listening to their recording",
+            "engaging with new sets of vocabulary by making concrete associations with them, such as touching and identifying colours in the classroom, or touching and identifying soft-toy animals and naming them",
+            "imitating Arabic pronunciation, intonation, rhythm and stress, by putting 2 fingers on the throat to help produce the sound of letters, for example,أ، ه، ع، ح، غ، خ"
+          ]
+        },
+        {
+          "code": "VC2LA2E03",
+          "strand": "Engaging with Arabic Language and Culture",
+          "subStrand": "Engaging with Arabic language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "using puppets or gestures to greet others, introduce themselves or share simple information, for example,أنا اسمي ليلى؛ أنا اسمي عادل؛ أنا في الصّـف الأوّل؛ أنا تـلـمـيـذ/تـلـمـيـذة؛ سلام؛ صباح الخير؛ مساء الخير؛ مرحبا",
+            "singing along with familiar children's songs about greetings in Arabic, for example, while viewing video clips, such as أهلا مرحبا, from the cartoon آدم ومشمش",
+            "greeting and farewelling others at home, school and/or in the community, using appropriate expressions and body language, for example,مرحبا؛ أهلا؛ سـلام؛ كيف حالكَ / كيف حالكِ؟؛ أنا بخير؛ إلى اللّقاءصباح الخير / مساء الخير، أستاذ يوسف؛ أستاذة ليلى؛ أراك غداً",
+            "seeking permission and responding appropriately, or asking to borrow items and expressing simple possession, for example,من فضلك؛ لو سمحت؛ أريد الحمّام لـو سـمـحـت؛ أريد القلم؛ أريد الكتاب؛ شـكـرا؛ عـفوا",
+            "using formulaic Arabic phrases for everyday interactions such as thanking or apologising and for special occasions, for example,أنا آسف؛ عيد ميلاد سعيد؛ سـنـة حـلـوة؛ كـلّ عـام وأنـتم بخـيـر؛ يـوم سـعـيـد؛ شكرا",
+            "introducing themselves and practising simple question-and-answer routines, where students ask each other questions such as ما اسمك؟, and respond accordingly using formulaic expressions, for example,مرحباً، اسمي عادل؛ اسمي ليلىأنا تـلـمـيـذ في الصف الأول؛ أنا تـلـمـيـذة في الصف الثانيكم عمركَ؟ / كم عمركِ؟ عمري ستّ سنوات.",
+            "using picture flashcards, puppets and picture books to playfully practise and imitate vocabulary, enhancing language retention through repetition and visual aids for sharing simple information about the school or home environment, for example,مدرستي كبيرة؛ صفي جميل؛ بيتي صغير؛ كـتـابـي نـظـيـفأسـتـيـقـظ فِي الـصّـبـاح؛ أفرشي/أنظف أسناني؛ ألبس ثياب/مـلابـس المدرسة؛ أذهب إلى مدرستي مع أمي؛ أعود إلى البيت فـي الـمسـاء",
+            "developing non-verbal and spoken communication skills, and some spontaneous language, through activities such as charades, roll the ball, musical statues, guessing games and Simon says, for example,هـذه طـائـرة؛ هـذا عـصـفـور؛ هـذا قـط؛ هـذه زرافـةقـال سـيـمـون: تـعـال إلـى هـنـا؛ اركـض إلـى الـبـاب؛ عـدّ إلـى الـعـشـرة",
+            "exchanging simple correspondence (e.g. greeting cards, notes) for celebrations and cultural events, using modelled language, for example,رمضان مبارك؛ عيد سعيد؛ كل عام وأنتم بخير؛ أهلًا وسهلًا برمضان؛ ميلاد مجيد؛ عيد فصح سعيد",
+            "responding to basic classroom instructions using simple imperative verb forms, (e.g. اغلق الباب؛استمعوا؛ اكتب اسمك؛ تعال هنا)",
+            "engaging in active instructional games, responding with words, phrases, actions or gestures to verbs or greetings in both English and Arabic, for example,صباح الخير – صباح النور؛ السلام عليكم – وعليكم السلام؛ مرحبا – أهلا ومرحبااجلسوا؛ اكتبوا؛ افتحوا الكتاب؛ أغلقوا الكتاب"
+          ]
+        },
+        {
+          "code": "VC2LA2E04",
+          "strand": "Engaging with Arabic Language and Culture",
+          "subStrand": "Engaging with Arabic culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "participating in whole-class discussions about the meaning of 'culture' and 'identity', talking about their traditions and practices, and what is important to them and their way of life",
+            "watching simple clips showing famous sites, foods, dress, cultural activities, events and associated language in Arabic-speaking communities and using simple language to discuss observations and what was interesting, surprising, familiar, etc., for example,ألبس العباءة؛ أحب البرياني / الفلافل والحمص العربي / التبولة من لبنان",
+            "participating in a class or school event celebrating the Arabic language and culture(s), and trying some traditional foods, playing games, listening to a guest speaker, dancing to traditional music or singing a song about Arabic, such as بلاد العرب أوطاني",
+            "using the Australian Institute of Aboriginal and Torres Strait Islander Studies (AIATSIS) map of the languages of Australia to notice the language(s) of First Nations Australians in their local area and/or across Australia, searching and identifying a few basic greetings or phrases from the languages spoken in their region",
+            "using their imagination to immerse themselves in a cultural experience, for example, pretending to travel to an Arabic-speaking country or region, and practising polite greetings in various situations",
+            "exploring the different languages, dialects and gestures used by class members and listening to the different sounds and ways of saying common words or expressions, for example,صباح الفل / صباح النور / صباح الخير، اسمي...؛ سـلام / مـرحـبـا / أهـلـيـن؛ إلـى اللـقـاء",
+            "observing, through a variety of authentic resources and materials, that members of various Arabic-speaking communities may say and do everyday things differently from each other, for example,المصافحة؛ التقبيل على الخد؛ تـقـبـيـل الـيـد؛ بدء وجبة الطعام مع ذكر الله؛ مـاذا أفـعـل فـي الـعـيـد؟",
+            "exchanging ideas, feelings and understandings of language and culture through play-based learning experiences such as playing dress-ups, making a pretend restaurant or market stands, with props, realia and puppets, for example,.ماذا لديك؟ طبق فتوش (لبنان)، كشري (مصر)، كبسة (الخليج)ما هذا العلم؟",
+            "recognising that music, dance, food, celebrations and games are connected to culture, such as events where community members gather to eat together or with other families, for example, celebrating with festive greetings, singing traditional songs, and creating festive cards",
+            "recognising the cultural significance of hand gestures and facial expressions in Arabic communication, and that meanings can be conveyed non-verbally, for example, greetings such as صباح الخير، مساء الخير، مرحبا, and expressions such as يا الله!؛ الحمد لله",
+            "noticing body language and tone when using Arabic words and comparing these with English",
+            "exploring words and phrases connected to Arabic festivals through songs, rhymes or craft activities, such as making a birthday card, a card for Eid with the phrase عيد مبارك, or watching a traditional dance and calling out encouraging phrases such as !يا سـلام! يا عـيـني"
+          ]
+        },
+        {
+          "code": "VC2LA2C01",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Interacting in Arabic",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "asking and responding to questions about likes and dislikes, using simple language such asأنا أحب أمي وأبي؛ أنا لا أحب اللون الأسود؛ أنا لا أحب القطة",
+            "responding to and following classroom instructions, such as roll call, or when distributing work, preparing for activities, or packing up, for example,نعم؛ أنا هنا؛ لا؛ ليس هنا؛ حاضرافتحوا الكتاب؛ اغلقوا الباب؛ قفوا؛ اجلسوا على الأرض؛ اجلسوا على الكراسي؛ تعال، انظر إلى الشاشة؛ ارفع يدك؛ اكتبوا؛ افتحوا الكتاب؛ اسكتوا؛ اسمعوا",
+            "responding to descriptive prompts to identify concealed items in a bag (e.g. pencils, fruit, ball) using Arabic phrases such as كرة كبيرة/صغيرة؛ كتاب ناعم/خشن؛ قلم صغير/كبير, and engaging in play with blocks, props and/or toys to construct items, using simple Arabic to talk about number, size, colour and shape, for example,صغير؛ كبير؛ أحمر؛ أخضر؛ مكعّب",
+            "listening to simple instructions and keywords in Arabic to build or draw an object, such as adding shapes, colours or body parts to a drawing or sculpture, for example,ارسم دائرة؛ لوّن الدائرة بالأحمر؛ ارسم مربَّعا ولوّن المربَّع بالأخضر",
+            "repeating keywords and simple descriptions or re-enacting stories using puppets, props or actions, and sharing thoughts about characters and events, for example,.أنا أقرأ قصة السلحفاة والأرنب. الأرنب سريع ومغرور. السلحفاة بطيئة وذكية",
+            "identifying familiar objects in the classroom by labelling, naming, pointing, matching, clicking and dragging, drawing, and tracing, for example,قلم، دفتر، كتاب، مسطرة، ممحاة، ورقة، طاولة، كرسي، لوح، شاشة",
+            "revising familiar vocabulary by playing digital games to count, sort, order, match and imitate language, for example,واحد، اثنان، ثلاثة؛ في الأول، في الآخر"
+          ]
+        },
+        {
+          "code": "VC2LA2C02",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Interacting in Arabic",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "practising affirmative and negative versions of verbs to show agreement or disagreement, for example, forming a circle and asking questions such as هل عندكَ/عندكِ قطّة؟ نعم/لا, and practising question words such as كيف، من، أين، ما، ماذا، أيّ, for example,ما اسمكَ/اسمكِ؟ كم عمركَ/عمركِ؟ في أي صف أنتَ/أنتِ؟ من أين أنتَ/أنتِ؟",
+            "performing and presenting Arabic texts at a school assembly, such as songs, raps, rhymes and action stories, using simple language and non-verbal forms of expression (e.g. clapping, gestures and facial expressions) to support meaning, for example,«غناء أغنية الحروف؛ غناء أغنية الأرقام؛ أغـنـيـة «لـغـتـي لـغـتـي لـغـتـي الـعـربـيّـة",
+            "using some modelled phrases and exclamations such as رائع، ممتاز, and non-verbal cues such as pointing, clapping and hand gestures to aid comprehension, for example,الإشارة بإصبع الإبهام؛ الإشارة باليد للانتظار",
+            "following directions and commands when playing Arabic versions of games that involve movement, such as 'fruit salad', 'Simon says', 'All over red rover', 'What's the time, Mr Wolf?', for example,ارفعي يدك؛ انظر إليّ؛ اغمض عينيك؛ ضع يدك على رأسك؛ أيـدي علـى الـرّأس؛ أيـدي لـلأعـلى؛ أيـدي عـلى الـكـتـف",
+            "engaging in a range of secure, teacher-moderated online games or using digital tools and applications to play games such as matching pairs, filling in gaps, dragging and dropping, memory or bingo, to reinforce vocabulary using visual or spoken cues and formulaic expressions, for example,املأ الفراغ؛ ضع الصورة في المكان المناسب؛ اضغط هنا",
+            "participating in class activities or projects in Arabic, for example, making a birthday calendar, weather chart or class pet-care roster, using familiar vocabulary, for example,اليوم هو عيد ميلاد يوسف، سـنـة حـلـوة يـا يـوسـف؛ عيد ميلاد ساميا يوم الـثّلاثاء...ما تاريخ اليوم؟ تاريخ اليوم هوكيف الطقس اليوم؟ بارد، حار، معتدلتـطـعـم سـاميا السلحفاة يوم الاثنين ويوم الأربعاء",
+            "participating in collaborative tasks such as role-plays or solving a puzzle, and using modelled language to express taking turns, such as دورك الآن؛ دوري الآن؛ دوركم الآن; counting, such as كم عدد الأقلام؟; or identifying appearance and characteristics, for example,ما لون الزرافة؟؛ هل هذا أحمر أم أخضر؟",
+            "describing familiar objects and people through oral activities and games such as show-and-tell, using pictures, toys and props, for example,الصف واسع؛ السيارة صغيرة؛ الزرافة طويلة؛ الطاولة كبيرة؛ الـمعلمة لـطـيـفـة؛ الـمعلـم لـطـيـف؛ البنت رياضـيّة؛ الولد رياضيّ",
+            "sharing information about themselves by engaging in role-plays using puppets, toys or costumes, and simple modelled phrases, for example,اسمي...؛ عمري سبع سنوات؛ عندي أم؛ عندي كلب؛ أحب اللون الأحمر",
+            "asking questions such as ما اللون الذي تحبه؟, and responding using modelled sentences, such as أحب اللون البنفسجي when working in pairs",
+            "using modelled phrases such as …من فضلك and شكرا, and expressing wants or making requests, for example, when role-playing shop or market scenariosأريد فرشاة؛ لا أريد؛ أريد؛ لا أريد تفاح؛ أريد شوكولاته؛ أريد ممحاة"
+          ]
+        },
+        {
+          "code": "VC2LA2C03",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "listening to, reading or viewing a text and sequencing the events and ideas, using storyboards, drawing pictures, or cutting and pasting pictures or words in corresponding order, for example,أيّـام الأسـبـوع: حـصّـة الـلّـغة العربية يوم الاثـنـيـن وحـصّـة الـرّيـاضة يـوم الـثّـلاثـاء وحـصّـة الـفـنّ يـوم الأربـعـاء",
+            "listening to, reading or viewing Arabic stories in print, online or digital form, such as اليرقة الجائعة جداًّ, and recreating them through illustrations, mime, movement or dance; or recognising key information in print or digital texts (e.g. stories, conversations, picture books, videos), and responding to questions using simple words or phrases in Arabic",
+            "using gestures, facial expressions, images and contextual cues to assist understanding of the speaker's intended meaning, for example,أنا سعيد/ة؛ هو حزين / هي حزينة؛ هي تبكي / هو يبكي؛ هي تضحك / هو يضحك",
+            "identifying letters, numbers, words and phrases in simple spoken, written and digital texts in Arabic and demonstrating comprehension through labelling, drawing, miming, clicking and dragging, for example, responding to questions such asما اسم القطة؟؛ ما صوت القطة؟؛ ما لون القطة؟؛ ما أوّل حرف في كلمة قطة وما آخر حرف؟",
+            "recognising that gestures and body language are integral to communicating in Arabic and other languages, including those they may speak at home or languages spoken in the local community (e.g. Aboriginal languages), and brainstorming, discussing or showing examples of how gestures and body language are integral to communicating",
+            "viewing, listening to and/or reading texts and categorising the findings, for example, lists of favourite colours, animals or toys, and creating mind maps representing keywords, verbs and/or adjectives",
+            "using contextual cues while reading or viewing, for example, using video and other visual prompts to reinforce words and phrases, and responding using keywords, phrases or gestures",
+            "sorting and categorising information in graphic representations, such as tables and diagrams, including details about colour, quantity and place relating to people and objects, for example,ما عدد الأقلام الحمراء والزرقاء والسوداء على الطّاولة؟؛ كم تلـمـيـذاً وكم تلـميـذة في الصف؟كم عدد التفاح والموز والبرتقال في الوعاء؟",
+            "viewing a music video or digital presentation describing family relations (e.g. هي أمي، هو أبي and «أُغنية «هـذه أمي وهـذا أبي), and responding to questions using modelled language (e.g. نعم، لا and صحيح، خطأ), and expressing preferences, for example,«أحب الشوكولاتة؛ أحبُّ أغنية «هذه أمي وهذا أبي",
+            "identifying items and writing labels, titles and captions in Arabic, such as stationery (e.g. ممحاة، تفاحة، حقيبة، كـتـاب), classroom objects (e.g. طاولة، لوحة، كرسي) and personal items (e.g. نظارات، مفتاح، هاتف) and using these labels, titles or captions to label items around the classroom or in pictures, a story or a comic"
+          ]
+        },
+        {
+          "code": "VC2LA2C04",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in Arabic through play, and discover how languages influence each other",
+          "elaborations": [
+            "listening to a sound and circling the corresponding Arabic letter in a range of games such as snap, matching cards, or 'sound bingo' to develop phonetic awareness and letter recognition, for example, circling the letter بَ, not تَ or بُ, from a selection of letters when they hear the sound بَ",
+            "observing some common features of familiar Arabic and English texts such as stories, nursery rhymes and signs, for example,في يوم من الأيام؛ في أحد الأيام؛ حزّورة فزّورة؛ جدّي عنده مزرعة؛ لألئي لألئي لألئي لألئي يا نجمة",
+            "noticing that Arabic has borrowed words from English, such as إنترنت، كمبيوتر، كاميرا، تلفزيون, and that English has borrowed words from Arabic, such as ليمون، قهوة، جنّ، قطن، جمل، زرافة",
+            "exploring loan words from Arabic that have influenced other languages (e.g. sugar, coffee, Qalam), identifying whether they have heard these words before by standing up if they have or sitting down if they haven't, and then comparing the pronunciation of words across several different languages",
+            "exploring the influence of Arabic on other languages, such as Persian, Urdu and Turkish, and then looking at a map and thinking about why those influences have occurred",
+            "making connections with the Arabic origins of words and phrases used in everyday life in Australia, for example, identifying food names from Arabic such as تـبولة، فلافـل، بابا غنّوج، حمّص which are often pronounced differently in English, highlighting the adaptation of words across languages",
+            "participating in a role-play with a partner, imagining they are working at a café listening to an order for food and drink in Arabic, such as همبرغر، ساندويتش، شوكولاته، قهوة، كولا، بيتزا and then choosing the pictures or objects representing the items ordered",
+            "asking and answering questions, for example, playing hide-and-seek with classroom objects and responding using words or modelled phrases, such as أين القلم؟ تحت الطاولة / في الحقيبة",
+            "creating simple posters, flashcards, an Arabic word wall, or mini books with pictures, words and phrases related to the topic, for example, a booklet on classroom objects with pictures and words written in Arabic, such as حقيبة، كتاب، قلم",
+            "participating in a nature hunt around the school grounds, identifying objects or creatures, and describing them in Arabic, and drawing their discoveries in a table under the headings كبير/صغير, for example,دودة كبيرة، خنفساء صغيرة، سحابة بيضاء، شجرة خضراء",
+            "listening to familiar words in Arabic and then moving about the classroom to find and touch a corresponding object (e.g. different colours), taking turns to lead the game and call out the items for other members of the class to locate",
+            "exploring the way that the shape of Arabic letters can reflect meaning by playing movement games, for example, making the shape of the letter أ with arms and legs stretched out, or the letter ص by crouching down, when a game leader calls out these letters"
+          ]
+        },
+        {
+          "code": "VC2LA2C05",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Creating text in Arabic",
+          "text": "create spoken and written texts, copying letters of the alphabet with vowel marks as appropriate, and using words, familiar phrases and modelled language",
+          "elaborations": [
+            "understanding that the Arabic alphabet consists of 28 letters that look and sound different from the 26-letter English (Roman) alphabet, for example, ب sounds like the English 'b' but is written differently; ج sounds like the English 'j' but has a unique script; Arabic letters change their shape depending on their position in a word (beginning, middle, end or isolated)",
+            "filling in the missing parts of sentences and then putting them together to create short stories or dialogues, emphasising the correct grammatical structures",
+            "tracing and copying simple Arabic words that use diacritical marks (حركات), understanding that they are above or below the letters and that they change the sound and meaning of letters, for example,بَ، بُ، بِ، بْ، بَّ، بُّ، بِّ، بًا، بٌ، بٍ، بًّا، بٌّ، بٍّ",
+            "practising copying or tracing common Arabic letters and words involving observing stroke order and direction, noting diacritical marks that aid in correct pronunciation and differentiate words sharing similar root consonants, for example, كتب can appear as كَكُتُب ,كَتَبَ and كُتِبَ",
+            "copying letters of the Arabic alphabet with vowel marks and practising writing each letter both in isolation and within words, for example, incorporating short vowels such as الكسرة ,الفتحة and الضمة, and long vowels such as واو ,ياء and ألف, and writing letters with appropriate vowel marks to form simple words, for example,بَ، بُ، بِ، باب، بيت، بُرْج",
+            "recognising the different shapes of letters and connecting them to create simple words and sentences, for example,ج ز ر، أ ن ا، أ م يجـ ـز ر، أ نـ ـا، أ مــ ـي جزر، أنا، أمي",
+            "using familiar vocabulary and modelled sentence structures to create informative spoken and written texts about themselves and their family and friends, for example,أ+ ب = أب؛ أ+ م = أم؛ أ+ ب + ي = أبيأحب أبي؛ هذا أخي",
+            "role-playing common scenarios such as self-introductions, and using flashcards and visual aids to support interactive speaking activities, using common Arabic greetings and phrases such as.السلام عليك؛ صباح الخير، كيف حالك؟ أنا بخير، شكراً",
+            "matching bilingual captions and/or labels in Arabic to images of Aboriginal and Torres Strait Islander Country or Place locations in their local area or elsewhere in Australia",
+            "using visual aids and model sentences and phrases to support the creation of short texts, such as simple sentences, using familiar vocabulary to label and describe personal possessions or objects in the classroom, for example,حقيبتي كبيرة وثقيلة؛ هذا قلمي؛ قلمي جديد؛ صفّي صغير ومزيّن؛ أنا أذهب إلى المدرسة؛ هو يلعب كرة القدم",
+            "writing words or simple phrases on each finger on an outline of their hand, for example, to describe themselves and their likes and dislikes, and reflecting on their 'hand' at the end of the year to see improvements in writing or changes in appearance or preferences, for example,أَنا أحـمد – أَنا اسـمي أحـمـد؛ أنا أحـبّ الـقطّـ الـصغـيـر – أنا أحب الـقـطّة الـصّغيـرة ولا أحبّ الـبـطّـة الْكـبيـرة؛ كنت قصيرا وأصبحت طـويـلا",
+            "creating and presenting a class Big Book and/or texts in digital form, based on familiar topics or imagined scenarios, using modelled language, for example,...هذا قط جميل اسمه مشمش؛ يلعب مِشمش بالكرة؛ رأى مشمش فأرا",
+            "creating bilingual greeting cards in print or digital form for family celebrations, such as Mother's Day or other special occasions, and labelling photos in both Arabic and English for a display of a class event or experience, such as a sports day or school concert, for example, using greetings and simple expressions in Arabic and English, such as أمي الحبيبة، عِـيـد مـبارك يا أسـرتـي الـحـبيـبـة، عيد سـعِيـد يا أمي في يـوم الأم، عيد أب سعيد، عيد ميلاد سعيد, and labelling events, for example,أسبوع اللغة العربية؛ يوم أستراليا"
+          ]
+        },
+        {
+          "code": "VC2LA2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of spoken Arabic, and understand how sounds are produced",
+          "elaborations": [
+            "mimicking the 28 letter sounds of the alphabet and the 3 short and long vowels, such as ضاد – ضَ، صاد – صَ، قاف – قَ, and practising pronunciation with vowel marks such as كَـتَـبَ، كُـتُـبُ، بَ، بِ، بُ and long vowels such as دَار، دُور، دِيـر، كِـتَـاب، كِـتَـابَـة",
+            "listening to native Arabic speakers and mimicking their pronunciation and intonation of common phrases and observing the mouth and tongue position when forming sounds such as صباح الخير and ومساء الخير",
+            "focusing on the articulation of difficult sounds, such as the guttural sounds (غ، ع، ح، خ) by practising words such as عصـفور، حمار، خروف and غـراب, and putting 2 fingers on the throat to help produce the sound of letters, for example,أ، ه، ع، ح، غ، خ",
+            "practising minimal pairs to differentiate between similar sounds, for example,قـلب – كلـب؛ قـرأ – قرع؛ سـأل – سعـل؛ سـوس – صـوص؛ ثـوب – شوب",
+            "understanding and practising different intonation patterns for statements and questions, such as the rising intonation in هل تحب التفاح؟ compared to the falling intonation in أنا أحب التفاح, or the rising intonation in أين الكتاب؟ compared to the falling intonation in الكتاب على الطاولة",
+            "reciting Arabic poetry or rhymes with attention to rhythm and intonation, such as a famous children's rhyme",
+            "listening to a sound and circling the corresponding Arabic letter in a range of games such as snap, matching cards, or sound bingo, playing with sounds such as onomatopoeia and practising Arabic tongue twisters to improve pronunciation, for example,ثـالث – ثـلاثة – ثـلاثاء؛ رابـع – أربعة – أربـعاء؛ خـامس – خـمـسة – خـمـيـس",
+            "developing pronunciation, phrasing and intonation skills by listening to Arabic songs or dialogues and repeating them to imitate pronunciation and intonation, such as the song أغنية الـحـروف والألـوان والأعـداد وأيّام الأسـبـوع",
+            "engaging in role-playing activities where students introduce themselves to their classmates and use correct pronunciation and intonation in various scenarios, for example,.أنا اسمـي عـلي وأنتِ مـا اسـمـكِ؟ أنا اسـمـي فـاطـمـة"
+          ]
+        },
+        {
+          "code": "VC2LA2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "practising blending Arabic sounds like /ك/ + /ت/ + /ب/ to form foundational words such as كتب, and then progressing to using common vocabulary and phrases such as أكتب كـتـابا, as part of their language-learning activities",
+            "identifying rhyming words or graphemes in short Arabic texts or poems to reinforce phonological awareness and poetic structure, for example,قطّتي صغيـرة واسـمهـا نـمـيـرةشعـرهـا طـويـل، وذيـلـهـا قـصـيـر",
+            "exploring Arabic roots such as كتب, and delving into derivatives such as كتاب and مكتبة, to understand how compound words form and how their meanings change based on these roots, similar to combining elements in other languages",
+            "learning simple phrases and their polite forms, and phrases such as شكرا and صباح الخير, and then learning their polite forms by adding عفوا and مساء الخير once they are familiar with the basics",
+            "participating in hands-on activities where they create basic crafts that reinforce Arabic vocabulary, such as crafting paper animals such as كلب، قط، سمكة and exploring traditional crafts such as creating a traditional costume",
+            "engaging in guessing similar-sounding Arabic words (e.g. كرة، كلب، كتاب) to reinforce sound combinations and vocabulary learning",
+            "using a variety of texts, such as stories, digital texts, songs or passages that contain a variety of words and phrases, to highlight common sounds through alliterative sentences, and engaging in cloze exercises or collaborative tasks in pairs or small groups to construct sentences based on given prompts, fostering language comprehension and application",
+            "implementing interactive activities where they respond to specific auditory cues by performing corresponding actions, for example, jumping upon hearing the sound ه, students jump, and clapping in response to the sound ح",
+            "engaging in singing and sounding out new vocabulary introduced in the unit, such as كلب and وقفز and acting out the words they hear from sentences such as يـقفـز الـكـلـب in an expressive and intonated manner",
+            "recognising and identifying the number of syllables in a word, for example, both these words have 3 syllables:تـلـ – مـيـ – ذ) تـلـمـيـذ، (ك – تا – ب) كـتـاب)"
+          ]
+        },
+        {
+          "code": "VC2LA2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how the Arabic alphabet and features of language are used to construct meaning in Arabic",
+          "elaborations": [
+            "copying and recognising the individual shapes of the 28 letters of the alphabet, identifying the 6 letters that do not connect with letters that follow them in a word (أ– د – ذ – ر – ز – و؛ جـود، دودة، أسـد، أسـماء), recognising the Madd letters (ا – و – ي ؛ عـاد، عـود، عـيـد), and recognising that Arabic words are written from right to left",
+            "identifying the different shapes of the Arabic letters to form simple words, for example,بـ ، ـبـ ، ـب ، ب، ربـاب، أرنـب، بـطّـة، شـباب؛ جـ، ـجـ، ـج، ج، جـمـل، الـجـمـل، حـج، تـاجد، ـد، دجـاج، الـدّجـاج؛ ـر، ربـاب، سـمـيـر؛ أَ، ـأَ، قـرأ، سـأل ، أسـد",
+            "recognising and identifying the differences between the Arabic letters alif and hamzah, such as ا، أَ، أ، سـال، سـأل، بـاب، أسـد, taa maftoohah and taa mamdoodah such as بنت، تلميذة and alif mamdoodah and alif maqsoorah, such as سـمـا، سـهـى",
+            "recognising and writing Arabic digits from 1 to 20 through activities such as counting objects, number songs, flashcards, playdough modelling, drawing numbers and labelling pictures, for example,١، ٢، ٣، ٤، ٥، ٦، ٧، ٨، ٩، ١٠، ١١، ١٢، ١٣، ١٤، ١٥، ١٦، ١٧، ١٨، ١٩، ٢٠",
+            "using singular possessive pronouns related to the self and others, for example, noticing the use of the possessive pronoun ي at the end of words for the first person and كَ، كِ for the second person, for example,بيتي، سريري، معلمتي، اسـمـي، عـمـري، غرفتك، كتابكِ، اسـمـكَ، عـمـرُكَ",
+            "using familiar objects to express location, with prepositions such asالكرة في الصندوق؛ القلم على الطاولة؛ الكتب في الحقيبة",
+            "using simple, modelled verbs to describe aspects of own daily activities, for example,أستيقظ في الصباح، ألبس ثيابي، أتناول الفطور، أركب الباص، أدخل الصف، أكمل الواجب",
+            "beginning to notice that nouns have definite and indefinite articles and gender, for example,تلميذ/التلميذ؛ معلمة/المعلمة",
+            "recognising word order in simple phrases and sentences, for example,نام سليم؛ وقف الولد؛ أكل سامي التفاحة؛ شربت سحر العصير",
+            "using the simple sentence structure 'this is' to identify people and objects, for example,هذا كتاب؛ هذه طاولة؛ هذا أخي؛ هذه أمي"
+          ]
+        },
+        {
+          "code": "VC2LA2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that written and spoken Arabic has grammatical structures and other language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "exploring differences in alphabet and writing through play, digital resources and discussions, for example, the number and shape of letters, the way they are written, and the direction of writing",
+            "understanding Arabic is a grammatically gendered language through modelled sentences, for example,هذا أخي؛ هذه أختيفاطمة تلميذة أستراليّة نشيطة؛ علي تلميذ أستراليّ نشيط",
+            "noticing the difference between Arabic and English word order, for example, in Arabic, the adjective follows the noun in a phrase such asتلميذة أستراليّة نشيطة",
+            "noticing that word order may be the same in both Arabic and English, for example, in 'subject + verb + object' sentences such as أنـا أحـبّ أمّـي وأبِي or possessive structures such as قـلـمـي أحـمـر",
+            "identifying similarities and differences in the use of cardinal and ordinal numbers between Arabic and English, for example,الأول من الـشّـهـر الـخـامـس؛ أنـا تـلـمـيـذ فـي الـصّـفّ الأوّل/الـثّـانـي",
+            "recognising that Arabic verbs are conjugated based on person, gender and number, with specific rules for different tenses, for example,هـو يـلـعـب؛ هـي تـلـعـب؛ أنـا ألـعـب",
+            "understanding that Arabic words are typically formed from three consonant roots, for example, the root K-T-B (كتب) relates to writingكـتـاب، كـتـب، يـكـتـب، أكـتـب، تـكـتـب، كـتـابـة",
+            "understanding that writing in the Arabic script follows a systematic joining of letters, where letters within a word connect seamlessly and change shape depending on their position within the word, and identifying the 6 letters that do not connect with letters that follow them in a word, for example,ب + ن + ت = بـنـت؛ م + د + ر + س + ة = مـدرسـة؛ أ + ر + ن + ب = أرنـب",
+            "participating in grammar activities such as the grammar picture sentences or stories activity, where they draw pictures based on Arabic descriptions, listen to and retell simple Arabic sentences or stories with a focus on grammar structures; and then participating in grammar bingo to identify and reinforce grammar concepts",
+            "adapting popular classroom games that involve rearranging words to construct sentences, such as memory (matching Arabic words with their English translations or pictures), grammar jeopardy (a quiz on different grammar rules) or grammar race (a race to identify correct grammar forms)",
+            "recognising that Arabic forms the singular and plural differently from English, and noticing that the endings of Arabic nouns change for plurals, for example, by playing a game where students respond correctly to flashcards and form groups based on singular and plural nouns",
+            "recognising the first-, second- and third-person pronouns in Arabic (أنا، أنتَ، أنتِ، هو، هي) and identifying the first-person possessive pronouns such as اسمي، عمّي، أخي، أختي، قلمي، مدرستي, and second-person possessive pronouns such as قلمك، كتابك، كيف حالك؟ ما اسمك؟",
+            "understanding the Arabic definite article ال through interactive activities such as matching games with sun (الشّمسيّة) and moon (القمريّة) letters, where they pair nouns such as الشمس and القمر, or circle games involving gestures, for example, clapping for sun letters and snapping for moon letters"
+          ]
+        },
+        {
+          "code": "VC2LA2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how Arabic-speaking communities are similar to or different from others",
+          "elaborations": [
+            "creating simple timelines using the given information of an Australian Arabic-speaking community, such as dates of immigration, important milestones (e.g. opening an Arabic school) and their legacy (e.g. businesses, cultural centres, cuisine)",
+            "identifying themselves as belonging to different groups such as family, community, class or peer groups (e.g. أنا أسترالية ولبنانية؛ أنا صبي/فتاة؛ أنا في فصل ب), and representing these relationships by drawing pictures, adding captions to photos, or creating digital texts",
+            "exploring the meaning of culture, and how it involves a range of elements unique to each person such as dress, food, manners, where they live, how they celebrate, and the language(s) they speak, for example,ذكر الاله قبل الأكل؛ شكر الإله بعد الأكل؛ زيارة الأهل والأقارب خلال الأعياد",
+            "creating a 'language portrait' of themselves through the use of a whole-body silhouette, representing their personal experiences of language and culture by adding colours, shapes and words within and around the outline",
+            "using culturally appropriate manners, greetings and forms of address in the classroom and community, for example,مرحبا / أهلا وسهلا / السلام عليكم وعليكم السلامعمّ / سيّد / أستاذ عادلعمّة / سيّدة / أستاذة ليلى",
+            "noticing when Arabic or English is being spoken in the classroom, and comparing some familiar words, greetings or expressions, for example,.مرحبا، الـسّـلام عـلـيـكـم، كيف حالكم اليوم؟ نحن بخير / بخير الحمد لله",
+            "noticing that the Arabic language spoken at home, with relatives, or in the local community may sound different from the Modern Standard Arabic learned in the classroom, for example,أزيك؟ / شلونك؟ / كيفك؟ / ازّيّكم؟ / كيفكم؟ / شلونكـم؟ بخير/ كـويـسـين. قديش عمرك؟هون/ هنا؛ نحن – نحنا / إحنا",
+            "making connections with the Arabic origins of words and phrases used in everyday life in Australia, for example, identifying food names such asتبّولة، فلافل، بابا غنّوج، حمص",
+            "comparing aspects of their own lifestyles, such as interactions with family and friends, special celebrations, daily practices, main meal of the day and associated language, with children living in other countries, including Arabic-speaking countries, for example,في البحرين أتناول وجبة الغداء الأساسية بعد صلاة الظهر؛ في أستراليا أتناول وجبة الغداء الأساسية بعد المدرسةبالهناء والشفاء / صحتين",
+            "participating in cultural experiences and celebrations, such as a cooking demonstration, dressing in traditional clothes or learning a new dance, and using some associated language and gestures, for example,تسلم ايديكم؛ يعطيكم العافية؛ شكراً"
+          ]
+        },
+        {
+          "code": "VC2LA2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where Arabic is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "researching symbols and colours used by Aboriginal and Torres Strait Islander Peoples and Arabic-speaking communities, for example, identifying the colours on a range of flags from different countries and communities in Arabic and discussing what the colours represent in English",
+            "recognising similarities and differences between naming systems across languages represented in the classroom, and noticing that Arabic-speaking students may have names derived from other cultures and languages and vice versa, such asسـارة، ماريا، إبراهيم، جوليا، إسحاق، يعقوب، بوسي، نوح",
+            "recognising that Arabic and its dialects are spoken globally, including in Australia, and cultural beliefs and practices may vary depending on location",
+            "learning Arabic names of foods commonly found in Australia from different restaurants, cafes or delicatessens, such as hummus, falafel, tabouli and baklava",
+            "locating Arabic-speaking countries and regions on a world map, understanding that Arabic is spoken in Australia and around the world, noticing how local names of streets, places and landmarks can have their origins in the language(s) of Aboriginal and Torres Strait Islander Peoples",
+            "demonstrating differences in gestures and body language between Arabic and other cultural backgrounds, while acknowledging and celebrating Australia's linguistic and cultural diversity, for example, exploring global Eid or Christmas traditions, and participating in cultural days, including Arabic-themed events, to deepen understanding of cultural diversity",
+            "recognising that languages and communities have varying protocols for terms of respect, for example, addressing Aboriginal and Torres Strait Islander Peoples with familial terms such as 'Uncle' or 'Aunty' based on the relationship, and comparing these with similar terms in Arabic and/or other languages",
+            "sharing their own backgrounds and the languages spoken at home by creating a chart that lists frequently used phrases (e.g. for 'hello', 'excuse me', 'thank you'), or their favourite traditional or festive foods, and comparing these to the Arabic language and cultures",
+            "interacting with a guest speaker from the local Arabic-speaking community to discover how Arabic is used and valued in different places in Australia and around the world"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use Arabic to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts, using the Arabic alphabet as appropriate.\nStudents imitate the sound combinations and rhythms of spoken Arabic. They demonstrate their understanding that Arabic has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in Arabic and make comparisons between Arabic and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' cultural identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LA4C01",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Interacting in Arabic",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "selecting and using formal or informal greetings, for real or simulated situations, depending on the time of day, context and relationship to the other person, for example,مرحبا خالتي ليلى؛ صباح الخير أستاذ عادل؛ مساء الخير يا أسرتي؛ كيف حالك يا صديقي؟؛ تصبحون على خير؛ السلام عليكم يا تلاميذي",
+            "using appropriate body language, gestures and non-verbal communication in response to others, for example,الإيماء بالرأس للموافقة؛ رفع اليد للسلام؛ حركات الأصابع واليد لإظهار النفي أو التوقف؛ السلام باليد؛ التعانق بين الأصدقاء",
+            "giving and following a range of classroom instructions and guidance, for example,توقفوا عن الكلام؛ اسمعوا؛ افتحوا الكتاب على الصفحة...؛ أغلقوا الكتاب؛ انظروا إلى اللوح",
+            "attracting attention and requesting help or favours in classroom situations, for example,لديّ فكرة رائعة! ماذا لو؛ هل ممكن ان تساعدني في...؛ امـسح الـلّـوح؛ رتّـبوا الكـتـب مـعـي",
+            "asking and responding to questions about information relating to themselves and their peers, friends, family members and personal items, for example,كم عمرك؟ عمري ثماني سنوات. ما هي هوايتك؟ هوايتي المفضلة كرة القدم. كم عدد إخوتك؟؛ من هي صديقتك المفضلة؟؛ من أين أنت؟ أنا من العراق. تشرفت بك؛ مع السلامة؛ إلى اللقاء",
+            "sharing information about daily routines and favourite activities at home and school, for example,أستيقظ باكرا وأنظف أسناني؛ ألعب بالكرة؛ لديّ ألعاب كثيرة؛ أشاهد الأفلام؛ أذهب إلى المدرسة بالحافلة",
+            "practising how to initiate conversations, using modelled words, phrases, spontaneous interjections and exclamations, to react and show interest, for example,!حقًّا، حسنًا، ممتاز؛ إنها فكرة جميلة،؛ ما أجمل اليوم!؛ كم هي جميلة هذه الحصة",
+            "exchanging simple correspondence, such as print or digital messages, notes, invitations or special occasion cards, using modelled language, for example,أنت مدعو لحفل عيد ميلادي؛ عيد ميلاد سعيد ليلى؛ يوم جميل ونهار سعيد"
+          ]
+        },
+        {
+          "code": "VC2LA4C02",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Interacting in Arabic",
+          "text": "participate in activities that involve expressing interests and exchanging information with others, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "participating with peers in simple action songs, raps and games that include alternating repetitive phrases in Arabic and English, such as حجـر ورقة مـقَص, or practising counting through a clapping game",
+            "praising and encouraging peers, using formulaic phrases with gestures to offer suggestions and advice, for example,.عمل رائع؛ لا تستسلم؛ أدائك ممتاز؛ أحـسـنـت؛ مـا شـاء الله!؛ يـا سـلام، مـا هـذا الـعـمـل!؛ جـمـيـل جـدًا",
+            "planning and performing items for an audience, such as language or cultural demonstrations, role-plays or dances at a school assembly, for another class or for parents, and negotiating and delegating roles and responsibilities, for example,أنا سأكتب وأنت تتحدث؛ أنا سأكون القط وأنت ستكون الفأر؛ أنا سأكون الحكم؛ أنا أغني عن اللغة العربية وأنت تقرأ الحوار في الحفل",
+            "working in pairs to assist the teacher with classroom tasks and responsibilities, such as roll call, distributing or collecting work, demonstrating tasks or giving instructions using imperatives, for example,عادل وزّع الكتب من فضلك؛ تفضّل هذا كتابك؛ اجمع الكتب؛ ضعها على الرف واجلس في مكانك",
+            "collaborating with peers to plan for and complete tasks, such as designing a poster or invitation for a significant event such as Book Week or a class party, and deciding what items to wear or bring, for example,أنا سأحضر العصير، وأنا سأحضر الفاكهة، ماذا ستحضر معك يا عادل؟؛ سـامـي سـيـكـتـب الـدّعـوة؛ مـاذا سـنـلـبـس في يـوم الـرّيـاضـة؟",
+            "participating in scripted role-plays, such as buying goods from a shop, self-introductions or ordering food, using props to engage in conversation, for example,هل عندك حليب؟؛ ماذا نشتري من الفاكهة؟؛ كم نشتري من الجزر والتفاح؟",
+            "viewing and listening to examples of interactions, such as videos or dialogues, and practising familiar phrases and modelled structures in real-life conversations",
+            "practising familiar phrases and modelled structures to express their interests in events such as a sports day, Arabic Week or other school activities, for example,أنا أحب اللغة العربية كثيرًا؛ لغتي المفضلة هي اللغة العربية؛ أنا ألعب مع فريق المدرسة؛ فريقي المفضل هو فريق كرة السلة"
+          ]
+        },
+        {
+          "code": "VC2LA4C03",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "viewing and responding to a story, song, cartoon, comic or simple narrative by retelling it, re-enacting the main events, or taking on the role of a character, using props, movement and dance",
+            "interviewing peers, using modelled questions regarding their routines, likes, interests or pets, and presenting the results in charts, Venn diagrams, graphs, graphic representations or reports, for example,هـل تـحـبّ الـكـيـوي أم الـتّـفّـاح؟؛ مـا هـي فـاكـهـتـك الـمـفـضّـلـة؟؛ تـحـبّ لـيـلـى الـخـوخ ويـحـبّ فـادي الـتّـفّـاح؛ يـحـبّ ١٠ تـلامـيـذ الـتّفّـاح ويـحـبّ ١٥ تلـمـيـذًا الـخـوخ",
+            "reading, viewing and interpreting profiles and stories in print and digital form about people, animals and imagined characters, and creating a display or poster with character names, short descriptions and pictures, for example,هـذا حيوان الكنغر، يقفـز سـريـعـا، لـونـه رمـاديّ أو بـنّـيّ ويـعـيـش فـي أسـتـرالـياجحا؛ حمار جحا؛ أمير بغداد؛ حارس الأمير؛ جحا يصطاد السّمك",
+            "learning that Aboriginal and Torres Strait Islander languages change according to connections and relationships between people, and giving examples of how this occurs in Arabic, for example, using different expressions to show respect to elders and authority figures, such as حضرتكَ for formal situations, حضرتكِ for addressing women formally, and عمتي or خالتي for addressing older female relatives",
+            "identifying and recording keywords obtained from short spoken, written or visual texts with some unfamiliar language, such as keywords for some items on a shopping list, ingredients for a recipe, a recorded phone message, or comics and graphic novels, for example,رقم الجوال هو...؛ اسم العميل...؛ غاب الطالب يوم...؛ الجوال على الطاولة تحت الكتاب؛ الجوال حديث والتلفون قديم",
+            "sequencing written, spoken or visual information in logical order, such as placing pictures in a sequence of events, numbering jumbled sentences or filling gaps in sentences, for example,استيقظ عادل مبكرا، تناول فطوره وذهب إلى المدرسة. بعد الظهر، عاد عادل إلى البيت، درس دروسه وساعد أمه ولعب قليلا. في المساء، تناول العشاء ونظّف أسنانه ثم ذهب إلى السرير لينام.",
+            "listening to or viewing short texts such as weather reports or event timetables, deciding what day to invite a friend to go to the park or attend the event, and writing a short invitation message, for example,يوم السبت سيكون مشمسًا، لماذا لا نذهب لزيارة حديقة الحيوانات؟؛ الطقس رائع يوم الأحد، فلنذهب للعب كرة القدم"
+          ]
+        },
+        {
+          "code": "VC2LA4C04",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce Arabic, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "identifying some words that change meaning according to the context and Arabic-speaking region, for example,لبن/حليب، شعر/شعْر، جد/جِدّ، طماطم/بندورة، بطاطس/بطاطا",
+            "interpreting signs or phrases in familiar contexts, such as street signs, addresses and food labels, noting that some signs and symbols may be universal, such as striped pedestrian crossings, 'Do not enter' signs, or symbols for danger, for example,ممرّ المشاة، قف، تحرك، تمهّل، محظور، ممنوع التصوير",
+            "translating short, simple texts from Arabic into English and vice versa, using cues such as layout, headings and familiar vocabulary to interpret meaning",
+            "producing a bilingual wordlist or digital picture dictionary by identifying known Arabic words or expressions and relating them to English equivalents and vice versa, recognising that direct translation is not always possible, for example,نوّرت البيت؛ ما شاء الله؛ صحتين؛ العقل السليم في الجسم السليم؛ الصديق وقت الضيق",
+            "selecting vocabulary from print dictionaries or online translation apps that best conveys the intended meaning when describing and talking about familiar topics such asطويل، قصير، صغير، كبير، جميل، قبيح، واسع، ضيق",
+            "creating resources (e.g. grammar-pattern charts, digital picture dictionary, vocabulary mind map with connected words, board game to practise language) for themselves and the class to reinforce learning and exposure to language concepts, for example,أكل/يأكل/كل، شربت/تشرب/اشربي، لعب/يلعب/العبهو، هي، هما، هـم؛ هذا، هذه، هذان، هاتان",
+            "comparing Arabic expressions used in everyday interactions, such as greetings with equivalent English expressions, and identifying similarities and differences, as well as words and expressions that do not translate easily, for example,مرحبا، صباح الخير، صباح النور، كيف حالك؟ الحمد لله، نشكر الرب، أنا بخير"
+          ]
+        },
+        {
+          "code": "VC2LA4C05",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Creating text in Arabic",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences, modelled textual conventions, and the Arabic alphabet",
+          "elaborations": [
+            "writing full sentences with modelled letter and word positions (initial, medial and final), for example,ذهب عادل إلى المدرسة؛ ليلى تشرب العصير",
+            "presenting spoken and written information about interests and activities relating to themselves and their peers, describing actions, responses and feelings, for example,ألعب كرة القدم بمهارة؛ أدرس مع صديقي عادل؛ أحب ممارسة الجري مع ليلى وعادل؛ عندما أمارس الرياضة أشعر بالفرح/بالحزن/بالملل/بالنشاط/بالسعادة",
+            "creating a class world map and languages profile that identifies Arabic-speaking countries and communities, and all languages represented in the classroom, for example,عادل من مصر ويتكلم اللغة العربية، سارة من لبنان وتـتـكلّـم العربية أيضًا، فاطمة من باكستان وهي تتكلم اللغة الأردية، ونحن من أستراليا ونـتـكـلّـم اللغة الإنجليزية",
+            "creating simple descriptions using formulaic phrases or greetings from Arabic, English and Aboriginal languages, for example, مـرحـبًـا – Hello/Welcome – Wominjeka (Kulin); صباح الخير – Good morning – Bunjil (Kulin)",
+            "creating a class book or visual/digital display relating to a school event or excursion such as going to a zoo or museum, for example,رحلة إلى حديقة الحيوانات، شاهدنا القرد وهو نائم، وشاهدنا الأسد يأكل اللحم",
+            "creating print or digital texts to introduce family members and friends, and describing relationships and personal information relating to their cultural backgrounds and experiences, using simple descriptive language and supporting resources, for example,هذا أخي سمير وعمره ٢٥ سنة، متزوج وله طفل واحد. هذه أختي ليلى تدرس في الجامعة. أما تلك الصورة، فهي لخالتي نورة، التي وصلت من لبنان الأسبوع الماضي لزيارة أمي.",
+            "role-playing scenes and characters in well-known imaginative texts, using movement and actions to reinforce meaning, and experimenting with voice and gestures to animate characters (e.g. Juha, Aladdin and Sinbad), for example,المارد: شبيك لبيكعلاء الدين: من أنت؟!المارد: اطلب و تمنى، لديك ٣ أمنيات",
+            "presenting factual information about events, places and topics of possible interest to children of their own age in Arabic-speaking countries, for example, in the form of menus, recipes, invitations, instructions, artefacts, brochures or maps",
+            "modifying texts with their own creative input, for example, substituting words or characters with an animal or Arabic food in a well-known song, procedure or story, such as اليرقة الجائعة جدا باللّغة العربية"
+          ]
+        },
+        {
+          "code": "VC2LA4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations, and use patterns of pronunciation and intonation to form words, phrases and simple sentences",
+          "elaborations": [
+            "understanding that Modern Standard Arabic has 28 consonant phonemes and 6 vowel phonemes, for example,ا، ب، ت، … هـ، و، ي، ء؛ بَـ، بُ، بِـ، بَـا، بُـو، بِـي",
+            "discriminating between the long and short sounds when forming words, for example,كَتَبَ / كِتاب / كِـتَـابَـة / كُـتُـبٌ / كَـاتِـب؛ سعة / ساعة؛ فَرَشَ / فراشة",
+            "noticing that vocalisation such as ــِ ، ــُ ، ــَ ، ــْ change the meaning of a word depending on where it is placed, for example,كَتَب/كُتُب؛ شَعَرَ/شِعْر/شَعْر",
+            "developing pronunciation when speaking and reading texts aloud, applying appropriate pauses, for example,.أذهب إلى المدرسة في الصباح، وأعود في المساء. في يوم من الأيام، خرجت الشمس من خلف السحاب وقالت: أنا الشمس الجميلة",
+            "noticing how differences in intonation and tone are used to adjust meaning in spoken texts, and how the purpose of the interaction, such as to instruct or invite, changes the emphasis on words and expressions being used, for example,كلْ طعامك يا عادل؛ هذا صوص صغير؛ هذا عصير بارد؛ جاء خبر سار و امتلأ الصّفّ بالفرح",
+            "distinguishing between statements and questions, using intonation and tone, for example,.هل عـيـد مـيـلادك الـيوم؟ – عيد ميلادك اليوم.هـل لـديـكَ قـلـم أحـمـر؟ – لديك قلم أحمر",
+            "understanding that colloquial Arabic and Arabic dialects may sound different from the spoken Modern Standard Arabic used in the classroom, for example,بحب آكل التّفاح/الطماطم بالعامية، أحب أن آكل التّفاح/الطماطم بالفصحىبقول / بيقول / بيجول بالعامية، يقول بالفصحىإيش؟/علاش؟/ليه؟/اش معنى؟ بالعامية واللهجات؛ لماذا؟ بالفصحى.ماكو شكو؟ / شلونك؟ / زيك؟ / كيفك؟ بالعامية واللهجات؛ كيف حالك؟ بالفصحى",
+            "using prior knowledge of familiar sounds and contexts to predict the spelling of new words, for example, predicting how to spell وادي، هادي، شادي having learned how to spell فادي"
+          ]
+        },
+        {
+          "code": "VC2LA4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use the Arabic alphabet, as well as modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "recognising that letters change shape depending on their place in the word, for example,حـرف الكاف: كـتـب – مكتب – سمكحـرف العين: عين – شعر – لمع",
+            "recognising letter position in words, such as the beginning, middle and end, for example,سـ ، ـسـ، ـس، س أو عـ، ـعـ، ـع، ع",
+            "experimenting with Arabic words and vowels to construct and deconstruct syllable blocks, for example,مَـكْـ/تَـب؛ غُـرْ/فَـة؛ مَـدْ/رَ/سَـة؛ شَـ/جَـ/رَة؛ كُـرْ/سِـيّ",
+            "applying basic punctuation marks, including question marks, commas and full stops, for example,.كيف حالك؟ أنا بـخير، والحمد لله.قال عادل: ما أجمل اللغة العربية! أنا أحب اللغة العربية",
+            "counting and writing Arabic numerals from 1 to 100, and telling simple time to the hour, for example,الساعة الواحدة صباحا؛ الساعة الواحدة مساءً؛ الساعة الواحدة والنصف",
+            "using 'subject + verb + object' word order in simple sentences relating to home and school environments, recognising the use of the definite article and its impact on the meaning of the sentence, for example,اشترى عادل كتابا واشترت ليلى الكتاب الورقي والقلم الأحمر والدفتر الذهبي؛ ليلى نظّفت غرفة واسعة وشاهدت فيلما؛ ليلى نظّفت الغرفة الواسعة وشاهدت الفيلم",
+            "understanding and applying singular nouns and regular plural noun endings in masculine and feminine forms, for example,جمع مذَكر: معلِّم / معلِّمون / معلِّمينجمع مؤنث: معلِّمة / معلِّماتجمع تكسير: طالب / طلاب؛ تلميذ / تلاميذ؛ مدرسة / مدارس",
+            "using singular, second-person and plural possessive pronouns to describe a relationship or ownership, for example,هذا كتابك يا عادل؛ هذه حقيبتك يا ليلى؛ أين كتبكم يا تلاميذ؟؛ ضعوا أقلامكم على الطاولة؛ هذا الكتاب له وهذا القلم لها",
+            "using adjectives in singular and plural forms to describe appearance, feelings and personalities, for example,الفيلة كبيرة الحجم؛ هي معلِّمة نشيطة؛ أبي طويل القامة،؛ التلاميذ سعداء بمعلِّمهم الجديد؛ الطفلة صغيرة ومرحة؛ ليلى ودودة وصبورة",
+            "using simple modelled past tense verbs to talk about past events or activities, for example,حضرت عيد ميلاد صديقي عادل بالأمس؛ ذهبت إلى حديقة الحيوانات مع المدرسة؛ استيقظت باكرا اليوم",
+            "beginning to use simple conjunctions, for example,.أم: هل تحبّ الكلب أم القطة؟ أحـبّ الـكـلـب والـقـطّـة",
+            "expressing negation in simple sentences, for example,لا أحبّ مادّةَ العلوم؛ لا أحبّ الإستيقاظ باكرًا",
+            "using some adverbs of place and time to provide more information, for example,شاهدت الـمـباراة اليوم في الملعب؛ استيقظت باكرا ولكن وصلت إلى المدرسة متأخرا؛ وضعت الكتاب فوق الدفتر",
+            "using simple prepositions to show direction, time and location, for example,الكتاب على الطاولة؛ القلم تحت الـمكتب؛ الدفتر في الحقيبة؛ أنام في الساعة الثامنة؛ أذهب إلى الـمـدرسة بالحافلة",
+            "understanding and using simple question words in interactions, for example,هل ذهب إلى الحديقة البارحة؟؛ من أين أنت؟؛ لماذا تأخرت؟؛ كيف حالك؟؛ ماذا أكلت اليوم؟"
+          ]
+        },
+        {
+          "code": "VC2LA4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar Arabic language structures and features with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "recognising that some Arabic consonants do not exist in English – which is why some Arabic speakers may find it difficult to pronounce the 'v' sound and use 'f' instead, such as 'Victoria' (فـيـكـتـوريا) – and that some Arabic consonants do not exist in English, such asخ: خروف؛ ض: ضـفـدع؛ ق: قـرد؛ ح: حـصـان؛ ع: عـنـكَـبـوت؛ ص: صـوص؛ ط: طـائـر؛ ظ: ظـبـي",
+            "identifying some differences in sentence construction and syntax between Arabic and English, such as nominal sentences (e.g. The cat is black – القطّ أسود; the red apple – التفاحة الحمراء) and verbal sentences (e.g. She eats an apple – هي تأكل تفاحة; He eats a red apple – هو يأكل تفاحة حمراء)",
+            "comparing similar texts, such as a children's story in Arabic and English, and noticing how they are the same or different, such as the themes, writing, front cover, text direction and page order",
+            "identifying similarities and differences between Arabic and English pronunciation, and adapting spelling strategies they have learned from one language to the other",
+            "finding examples of Arabic words used in English (e.g. falafel, hummus, kebab, candy, sofa) and vice versa (e.g. تليفون كمبيوتر، تليفزيون، موبايل ), discussing why these words may be used",
+            "recognising some differences, such as shape, letter direction and punctuation, between handwritten and typed Arabic and English fonts",
+            "comparing the use of formal and informal language in Arabic- and English-speaking contexts such as greetings, titles and etiquette, for example, Mr and Mrs/Ms – يـا عـم؛ يـا عـمّـة؛ حضرتك؛ أسـتـاذ/أستاذة؛ حضرة السّيّـد/السّيـدة"
+          ]
+        },
+        {
+          "code": "VC2LA4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "exploring the meaning of culture and identity, using a diagram to show the visible elements such as ways of celebrating, dress, traditions, symbols, manners, routines and behaviours, and the less-visible elements such as preferences and values",
+            "reflecting on how they communicate with family and friends compared with unfamiliar people in the community, noticing differences in word choice, language use and communicative behaviour, for example,عـم عـادل؛ سـيّـد عـادل؛ أسـتاذ عـادل؛ مـعـلّـم عـادل؛ خـال عـادلعـمَّـة لـيـلـى؛ خـالـة لـيـلـى؛ سـيّـدَة لـيـلى؛ أسـتـاذة لـيـلـى؛ مـعـلّـمـة لـيـلى",
+            "understanding that Arabic as a language has a standard form called الـلّـغـة الـعـربـيّـة الـفـصـحَى, which is mainly used in writing, and can be used as a common language to interact with others across different communities and cultures",
+            "understanding how cultural expressions in Aboriginal and Torres Strait Islander communities reflect their identities, such as Zenadth Kes, Koori, Koorie, Noongar and Nunga, and comparing these with terms used in Arabic-speaking communities to identify cultural groups, such as Maghrebis, Shamiyin and Bedouin, to understand cultural similarities and differences",
+            "examining aspects of Arabic culture(s) in familiar contexts, for example, identifying language use and behaviours at different celebrations and occasions such asكل عام وأنتم بخير؛ عيد مبارك؛ عيد فصح مجيد؛ رمضان مبارك؛ عيد ميلاد سعيد",
+            "reflecting on and explaining to others the significance of some common Arabic cultural practices and expressions, such as offering visitors food and drink, and serving sweets during special occasions, or coffee in times of mourning",
+            "researching food culture, etiquette and customs in different Arabic-speaking countries and regional foods available in the local community, for example, دولما، ورق عـنـب from Levant and Iraq, كسكس from North Africa, and فلافـل وفـول from the Middle East, and dining etiquette such as eating using the right hand or with spoons or bread",
+            "comparing the importance of music and traditional dance as expressions of cultural identity and emotions in different Arabic-speaking communities, for example,الدبكة اللبنانية والفلسطينية؛ الجوبيّة العراقية؛ الرقص الشعبي؛ الرقص الفلكلوري"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in Arabic that are related to their personal worlds and school environment. They use appropriate sound combinations, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share and discuss information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in Arabic or English, adjusting their response to suit purpose.\nStudents use modelled structures when creating and responding in Arabic. They create texts, selecting and using a variety of vocabulary and sentence structures to suit different contexts, and using conventions appropriate to text type. They apply rules for pronunciation and intonation in spoken language and apply conventions of spelling and punctuation in written language. They compare language structures and features in Arabic and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LA6C01",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Interacting in Arabic",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "using appropriate greetings and forms of address, such as سيّدة عبير، سيّد ماجد، أستاذ هاني، خالتي رانيا، حضرتك، عمّ كريم، خالة سامية, when interacting with different people, for example, with adults, close relatives and strangers",
+            "exchanging information about everyday experiences and routines, for example,ماذا تفعل بعد المدرسة؟؛ متى تأكل طعام العشاء؟؛ أين تلعب/تمارس الرياضة؟بعد المدرسة ألعب كرة القدم، في الساعة الثامنة أذهب إلى النوم، وأنت متى تنام؟ أقرأ قصة قبل النوم، وأنتِ هل تقرئين قبل النوم؟",
+            "talking about friends and family members, including physical appearance, personal characteristics and qualities, for example,أمي امرأة طويلة ورشيقة وتحافظ على صحتهاأبي شخص منتظم في عمله ومسؤول في بيتهصديقي سامي مهذب ولكنّه لا يهتم بدراسته ولا بصحتهأصدقائي جميعهم لطفاء ولكنهم لا يأخذون المدرسة بجديّة",
+            "sharing feelings and opinions about leisure and study activities, using different modes of communication such as secure, teacher-moderated online forums, and giving reasons for the choices made, for example,يوم السبت ألعب التنس مع أبي؛ في العطلة الأسبوعية أذهب مع عائلتي إلى المطعم؛ أحضر حصة الموسيقى يوم الجمعة؛ أشعر بالسعادة في حصة الرسم؛ أحب العزف على البيانو كثيرا؛ أتعلم اللغة العربية يوم السبت صباحا؛ أحب الجري لأنه مفيد للجسمكان الفيلم مملا في السينما؛ ذهبت مع عائلتي إلى وسط المدينة؛ كانت الرحلة إلى حديقة الحيوان ممتعة",
+            "asking for and providing clarification, for example,لم أفهم الدرس، هل ممكن إعادة الشرح؟؛ من فضلك، ماذا تقصد؟",
+            "giving advice and sharing ideas with others, such as راجع كتابة الكلمة؛ أقترح أن تستخدم اللون الأسود؛ من الأفضل أن تسأل المعلم؛ راجع قراءة الدرس؛, when participating in online exchanges about language development and learning strategies, for example,قـصّـة جـمـيـلـة واسـم مـنـاسـب؛ بـطل القـصّة مـشـهـور؛ أحـبّ الـرّسـم والـتّـلوين؛ أحـبّ الـرّيـاضـة وريـاضـتـي الـمـفـضّـلـة كـرة الـقـدم"
+          ]
+        },
+        {
+          "code": "VC2LA6C02",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Interacting in Arabic",
+          "text": "participate in activities that involve discussion and planning with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "making collaborative decisions and arrangements, using expressions for numbers, and ordering and organising ideas, for example,نختار فريقين؛ نختار الأدوار؛ أنت الحارس، من سيكون الحكم؟؛ واحد – اثنان – ثلاثة؛ ابدأ؛ أولاً – ثانيا – ثالثا؛ أخيرا",
+            "engaging in transactions by asking for items such as goods and services, and providing information such as giving prices, for example,ما سعر...؟؛ بكم هذه…؟؛ هل هذا هو السعر الأخير؟هذا القلم بدولار؛ سعر التفاح دولاران.هل ممكن أن تساعدني؟ أنا أبحث عن حذاء أسود مقاس ٨ من فضلك",
+            "contributing ideas to develop class rules and guidelines to foster a bilingual, multicultural classroom environment, for example,احترم الجميع؛ حاولوا التّـكـلّم باللغة العربية؛ تحدّث بوضوح؛ اسمـعوا جـيّـدا؛ اقرؤوا الـدّرس؛ ساعدوا بعضكم؛ الـنّـظافـة مـن الإيمان",
+            "making suggestions and choices in the allocation of roles and explaining the reasons for such choices, for example,ما رأيك لو...؟؛ أنا سأكون الطبيب وأنت ستصبح المريض؛ من الأفضل أن أكون أنا حارس المرمى؛ أنا سأكون حارس المرمى لأنني طويل",
+            "creating displays, presentations or performances for family, friends or the school community to showcase their progress in learning Arabic, for example,مسرحيّة؛ أغنية؛ إلقاء الشّعر في السّوق"
+          ]
+        },
+        {
+          "code": "VC2LA6C03",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "identifying and annotating information in texts such as advertisements, conversations, brochures and announcements, and sharing the information with others in a different format, for example, presenting a chart of their favourite television programs or computer games such as...رأيت إعلانا في موقع إلكتروني عن…؛ شاهدت إعلانا في الجريدة عن...؛ سمعت في الراديو عن",
+            "reading texts and extracting key points relating to a range of topics such as social activities for school-aged people in the local community, and discussing information with peers, for example,سأشارك معك صورة في الجوال للعبة جديدة، وقائمة بالأفلام التي شاهدتها الشهر الماضي؛ الشباب يحبون لعب كرة القدم والسباحة؛ الشابات يحببن الرسم وممارسة الرياضة؛ في الصيف يفضل المراهقون الذهاب إلى الشاطئ وممارسة النشاطات البحرية",
+            "listening to, reading and viewing a variety of texts to collect and organise information about an Arabic cultural event or celebration in a digital display for the class or school community, for example,الأعياد الدينية؛ الأعياد الوطنية؛ أفلام عن الأعياد الدينية والوطنية",
+            "listening to or viewing stories by Aboriginal and Torres Strait Islander authors in English (e.g. 'The seven sisters', 'The rainbow serpent'), and responding to them in Arabic with appropriate vocabulary, formulaic expressions and modelled sentences, such as summarising the story or discussing its themes",
+            "listening to and/or viewing different types of imaginative texts such as puppet shows, stories and films, and then interviewing their classmates about the characters, events, sets and costumes, using modelled language to express ideas and reactions, for example,.هل أحببت هذه القصة؟ نعم، إنها قصة جميلةقصة علاء الدين خرافية؛ هذه القصة طويلة؛ أحب هذه القصةقصة مصباح علاء الدين غير واقعية ولكنها مثيرة؛ قصة الحمامة والنملة جميلةسندباد شجاع وعلاء الدين ذكي؛ لون السمكة الصغيرة أحمر ولون الكبيرة أصفر؛ هذه الشخصية مضحكة",
+            "discussing key messages in texts, such as the moral of a fable, an idea or value in a song, or the qualities or behaviour of a character, for example,ما مغزى هذه القصة؟؛ ماذا نتعلم من هذه الأغنية؟",
+            "obtaining and using information from print, digital and multimodal texts for a procedural task such as a simple science experiment, recipe or dance, for example,أولًا، اغسلـوا البقـدونس جيدًا، ثانيًا، ضعـوا البـرغل في ماء دافئ حتى يلين، ثم اخـلـطـوا جـميـع الـمـكـوّنَات",
+            "reading and following a set of directions to find clues around the school or using a map of the local area to locate a final destination, for example,تـقـدّمـوا إلـى الأمام؛ تـحـرّكـوا إلـى الـيـسـار؛ امـشـوا فـي الاتّـجـاه الـمـعـاكـس",
+            "listening to, reading and viewing different types of texts about a common topic and comparing features and language, for example, examining a television commercial and online print advertisement for a new game or application, analysing images and text, comparing style and tone, and highlighting how the different features of each text combine to make similar meanings"
+          ]
+        },
+        {
+          "code": "VC2LA6C04",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in Arabic in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "interpreting Arabic expressions in familiar texts such as greeting cards, menus and stories, and considering how these expressions reflect aspects of Arabic language and culture",
+            "creating Arabic versions of school signs, notices and class rules, considering why some words and expressions such as 'oval', 'office', 'canteen', 'out of bounds' and 'no hat, no play' require flexibility in translation, for example,الـمـلـعـب؛ مـكـتـب الإدارة؛ الـمـقـصـف (دكان/كـافـيـتـيـريـا الـمـدرسـة)؛ مـمـنـوع الـلّـعـب فـي هـذه الـمـنـطـقـة؛ الـلّـعـب بـدون قـبّـعـة غـيـر مـسـمـوح",
+            "creating a word bank or vocabulary list with Arabic words, making connections between the degree of formality of a situation and the form of Arabic that must be used",
+            "discussing why different forms of Arabic are used depending on the context of communication, such as the use of Modern Standard Arabic when communicating with people with different dialects or with the teacher in the classroom, compared with the use of Arabic dialects at home, in the community, overseas or with friends, for example,بصّ / شوف / اطّلّع (انـظـر إلـيّ)استنّى/ لحظة/ وئّف (انتظر)",
+            "reflecting on instances when moving between Arabic- and English-speaking contexts has felt easy, awkward or challenging, and explaining why this might be the case, for example, translating what the teacher is saying for relatives, or helping a community member who cannot speak English reach a destination",
+            "recognising that many words in Arabic are borrowed from Indigenous languages of the Arabic-speaking world, such as from Aramaic صفر (zero) and مملكة (kingdom), Phoenician تنين (dragon) and Berber تجمّع (gathering), as well as regional languages, such as from Persian بازار (market), Turkish بقلاوة (baklava) and Kurdish شاي (tea)",
+            "exploring words or expressions commonly used in informal interactions in the Australian context such as 'mate' and 'no worries', and interpreting or explaining them for young Arabic speakers",
+            "learning the responsible use of bilingual dictionaries and electronic/online translation tools, recognising their limitations and translation issues, such as translating public signs, advertisements or food packaging from Arabic into English and vice versa (e.g. 'Please recycle,' 'Do not walk on the grass,' 'Buy one, get one free'), for example,الـكـلاب ممنوعة؛ ممنوع الوقوف؛ المشي على العشب ممنوع؛ يرجى إعادة التّدوير",
+            "exploring the meaning of the names of famous people and places and reflecting on their origin and naming conventions, for example,ما معنى؟ ما أَصل هـذه الكلمة؟ ما معنى اسم سمر/ سعيد/ مريم؟ هل تعرف معنى اسمك؟ العراق؛ قطَر؛ لبنان؛ مصر؛ المغرب؛ البحرين",
+            "recognising changes when interacting in an English- or Arabic-speaking context, for example, using different forms of address, expressions or different ways of showing politeness, and discussing why these adjustments are appropriate"
+          ]
+        },
+        {
+          "code": "VC2LA6C05",
+          "strand": "Communicating Meaning in Arabic",
+          "subStrand": "Creating text in Arabic",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type",
+          "elaborations": [
+            "identifying and discussing conventions of different text types, and then presenting information or ideas in multimodal texts for a particular audience (e.g. interactive display in the school about the importance and benefits of learning Arabic, or a newsletter about a sports carnival or school event), using modelled language",
+            "conveying information relating to significant people, places or events in Arabic-speaking communities, such as a poster for an occasion, a profile of a famous Arabic-speaking actor or a digital guide to a place of interest",
+            "preparing and presenting simple spoken or written presentations about aspects of their personal worlds such as milestones, personal achievements or family celebrations, for example,.أنا سامي، أبي من لبنان وأمّي من العراق، أنا ولدت هنا في أستراليا في شهر نيسان، عمري الآن ١١ عاما، أحبّ السّفر ولعب كرة القدم.عندما كنت في الصّفّ الأوَل كنت قصيرًا، لكنّي طويل الآن وتغيّر شكلي كثيرًا",
+            "creating a class print or digital poster in Arabic, focusing on a specific Aboriginal Country from Victoria, such as the traditional lands of the Wurundjeri or Boon Wurrung Peoples, and locating and describing this place, including geographical features",
+            "writing bilingual texts for non-Arabic speakers wanting to visit an Arabic-speaking country, to assist with travel and communication, such as wordlists, common phrases, maps, menus or allergy cards, for example,أنا عندي حساسيّة من الفول السّوداني/ المكّسرات؛ هل هـذا الطّعام يحتوي على مشتقّات البيض؟",
+            "collecting and presenting key ideas (benefits of sport) relating to lifestyle trends in the local community, using graphic organisers to show priorities in lists or tables, Venn diagrams to compare statistics or ideas, or graphs to highlight frequency",
+            "creating their own imaginative texts based on characters, settings and events in familiar stories for their own and others' enjoyment and interest, for example,علاء الدِين يطير على سجادته إلى أستراليا؛ جحا وحماره؛ الثّعلب المكّار",
+            "creating texts individually or collaboratively (e.g. acrostic poems, raps, songs or new lyrics for known songs, short plays or new dialogue for known plays), experimenting with rhyme, rhythm, voices and actions to convey different moods and feelings",
+            "creating individual language portraits, explaining which language(s) or dialect(s) are spoken at home, with extended family, or in social and community contexts",
+            "constructing a multimodal profile or brochure of the local community for tourists or new Arabic-speaking residents, collecting and using information from public and community texts such as flyers, newsletters and advertisements about facilities, attractions, local history and events, and food outlets, for example,مكتب حجز الرِحلات البحريّة يفتح السّاعة الثّامنة صباحا، أمّا سوق الهدايا التّذكاريّة فيفتح السّاعة السّابعة صباحا؛ المطاعم في لبنان تغلق بعد منتصف اللّيل",
+            "creating and performing texts to entertain others, which incorporate elements such as dance, mime, singing and narration, and reference values and traditions associated with Arabic communities",
+            "creating digital profiles of characters they enjoy from different stories, plays or poems, providing character descriptions, and examples of the ways they speak and behave"
+          ]
+        },
+        {
+          "code": "VC2LA6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency and rhythm in words, phrases and sentences",
+          "elaborations": [
+            "distinguishing the sounds of Arabic letters that have the same shapes and use dots, such as ب، ت، ث, or that have the same shapes, such as ج، ح، خ، د، ذ، ر، ز، ص، ض، ع، غ, to increase clarity of pronunciation and fluency",
+            "understanding that vowel marks, tashkeel or harakat, influence the meaning and pronunciation of words, for example,أُحِبُّ كِتَابَة الشِّعْرِ؛ سَارَة تُفَضِّلُ الشَّعْرَ الطَّوِيلَ؛ شَعَرْتُ بِالجُوعِ وَالعَطَشِجَدِّي – جَدِّيّ؛ جَمَالٌ – جِمَالٌ؛ دَرَسَ – دَرَّسَ",
+            "discriminating between the use of the letters alif (ا), waaw (و) and yi (ي) as either consonants or long vowels (المدود) when repeating words after the teacher, for example,سال – سأل؛ بَيْرُوتُ – رَوَتْ",
+            "applying pronunciation and intonation rules when speaking and reading aloud, for example,تسكين الحرف الآخر عند التّوقّف عن القراءة؛ إظهار الشّدّة والتّنوين؛ إظهار اللام الشّمسيّة وإخفاء اللام القمريّة؛ إظهار الجر؛ استخدام أداة النّداء",
+            "recognising the different ways of pronouncing the long vowel (ا or ى), such as نـدا، نـدى، لـذا، لـدى، مـتـى, and writing the long vowel with hamzah (ء), for example,شـيء – مـسـؤول – رؤوف – قـراءة – آدم – سائل",
+            "applying prior phonic knowledge to predict the spelling of unfamiliar words when participating in spelling games and activities, for example,بـرتـقـالـيّ: بر/ت/قا/ليّ؛ بـنـفـسـجـيّ: ب/نفـ/سـ/جيّ"
+          ]
+        },
+        {
+          "code": "VC2LA6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "using common verbs in the past tense to describe past actions and events when answering simple questions or writing short sentences, for example,كتبت نصّ اللّغة العربيّة في الدّفتر؛ حضرت عيد ميلاد صديقي سامي؛ ذهبت إلى المدرسة متأخّرا",
+            "recognising and conjugating verbs in the present tense, such as when writing about their routine, for example,أحترم معلّمي وأصدقائي في المدرسة؛ أساعد أمّي في تنظيف البيت؛ أذهب مع أخي إلى النّادي لنلعب بـالكرة",
+            "using the imperative form of verbs to give commands and instructions in a variety of contexts, for example,تعالوا نلعب سويّا في ملعب المدرسة؛ كرّروا هذه الكلمة بصوت واحد",
+            "reading and writing numerals, cardinal numbers and ordinal numbers from 1 to 10, and expressing simple time with hours and minutes, for example,الساعة الواحدة وعشر دقائقَ؛ السّاعة الرّابعة؛ عشر تفّاحات في الصّحن",
+            "understanding and applying gender and number agreement between nouns and adjectives when completing fill-the-gap activities, for example,كتاب واحد رخيص؛ ثلاثة كتب رخيصة؛ عشرة كتب غالية؛ طاولة واحدة ثقيلة؛ أربع طاولات قديمة؛ تسع طاولات كبيرة؛ أمّـي وأبـي اثـنـان؛ قلم واحد؛ عـنـدي أربـعـة إخـوة وثلاث أخـوات",
+            "using regular adjectives to describe number, shape and colour, for example,فزت بالمرتبة الأولى؛ أَنا في الصف الثالث؛ نحن تلاميذ الصف الرابع؛ شكل دائريّ/ مربّع/ مستطيل/ مثلّث؛ دائرة حمراء ومربّع أحمر / دائرة خضراء ومـثلّث أخضـر؛ فـي الصف عشر طاولات مـسـتـطيلة بـنّـيّـة وعشرون كـرسـيًّـا صـغـيـرًا بـنّـيّـا",
+            "describing a relationship by using, for example, a singular third-person possessive pronoun such asسامي يحب أباه كثيرا؛ وليلى تذهب مع أمها إلى السوق كل أسبوع",
+            "using a range of prepositions to provide information about location, place and direction, for example, when describing images of a town, such asالمكتبة بجانب الحديقة، والمدرسة قريبة من مركز التسوّق",
+            "using adverbs of time, frequency and place to provide further detail, for example,ذهبت إلى المدرسة متأخراً؛ أمارس الرياضة يوميا؛ جلست القطة تحت المقعد",
+            "building compound sentences with one or more ideas to express opinions, preferences or reasons, for example,أحبّ قصة علاء الدين لأنها مشوقة/خيالية/مسلية",
+            "using some linking words, such as لكن، أو، و, and devices in sentences such as when participating in jigsaw-sentence activities",
+            "exploring different representations of Arabic script in typed and handwritten fonts, and practising how to type in Arabic using secure digital tools and keyboards"
+          ]
+        },
+        {
+          "code": "VC2LA6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare Arabic language structures and features with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "comparing the purpose, context and audience of a range of familiar texts in English and Arabic (e.g. advertisements, poems, plays and video clips), and noting similarities and differences between themes, language structures and features",
+            "expanding their understanding and use of metalanguage by making comparisons with Arabic, English and/or other languages, and discussing parts of speech (e.g. adverbs, conjunctions), different sentence types, syntax (e.g. verbal sentences: 'verb + subject + object') and punctuation, for example,الجملة الإسميّة (البيت كبير)؛ الجملة الفعليّة (أستيقظ مبكّرا)يوم جميل، كتاب مسلّ؛ أذهب مبكّرا إلى المدرسة، في بيتي حديقة كبيرة",
+            "identifying differences in Arabic and English grammar and textual conventions, such as differences in word order, sentence structures, counting system, script, writing direction and punctuation, by compiling a graphic organiser, poster, mind map or Venn diagram",
+            "comparing the significance and cultural importance of structures and features of different types of texts in Arabic and English, in salutations, greetings and conveying respect, for example,عزيزي أستاذ عادل؛ سعادة مدير المدرسة؛ تحيّة طيّبة وبعد؛ مع خالص تحيّاتي",
+            "comparing the use of loan words from Arabic in English texts and interactions, such as 'cotton' (قطن), 'algebra' (الجبر), 'guitar' (قيثارة), 'computer' (كمبيوتر), and vice versa, discussing reasons why languages borrow words from each other",
+            "noticing differences between different types of texts in Arabic and English, for example, comparing a spoken recount of a well-known fable with the written text, a text message with a phone call, or an email with a letter"
+          ]
+        },
+        {
+          "code": "VC2LA6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal, non-verbal and written communication",
+          "elaborations": [
+            "identifying cultural customs and practices when looking at posters that may reflect collective identities of individuals from different Arabic-speaking nations and regions, for example, calligraphy, clothing, food, flags and maps",
+            "developing awareness of cultural stereotypes that can lead to generalisations and misconceptions, such as associating the Arabic language with the nationality or religion of peoples, for example,ليس كلّ شخصٍ عربيٍّ يتحدث اللغة العربية. العرب أسهموا في تطوير العديد من العلوم مثل الجبر والطيران والطّب. لديهم ديانات مختلفة، وليسوا جميعا مسلمين. ملابس العرب متنوعة ومختلفة، والدول العربية ليست كلها صحراء.",
+            "discussing the ways in which they communicate with Arabic speakers, such as making appropriate eye contact, allowing for personal space and respecting older people, parents and teachers, and making comparisons with the ways in which they communicate with English speakers, for example,حضرتـك؛ أستاذ؛ أستاذة؛ عمّ؛ عمّة؛ سيّد؛ سيّدة؛ خال؛ خالةالمشي خلف كبار السّنّ؛ عدم وضع الرجل فوق الرجل أمام المعلم وكبار السّنّعدم مقاطعة المتحدث",
+            "recognising how language and culture are expressed through Aboriginal and/or Torres Strait Islander songs, dance or artworks, and identifying similarities and differences in Arabic-speaking cultures, for example, identifying the symbolism represented in traditional Aboriginal art and the motifs in Arabic calligraphy",
+            "discussing how their own cultural and linguistic background influences who they are, how they think about things, and how they interact and behave in different contexts",
+            "noticing similarities and differences between personal ways of communicating and interacting compared with others in different contexts and situations, for example, expressions of politeness or turn-taking in conversations, and reflecting on the influence of culture and personal values on language use",
+            "reflecting on culturally appropriate ways of offering congratulations, recognition, gratitude and encouragement, or politely declining requests or invitations, for example,الحمد للَّهِ على السّلامة؛ ترجع بالسّلامة؛ ألف مبروك؛ عيد سعيد؛ عقبالك؛ عام سعيد",
+            "identifying and comparing words and expressions in Arabic and English that cannot be readily translated or explained, and that reflect embedded cultural meanings, for example, نعيماً after a shower or haircut, and عـلـى رأسـي when someone asks you for a favour",
+            "explaining modifications made when moving between Arabic- and English-speaking contexts, for example, adjusting the way they communicate using لـو سـمـحـت، مـن فـضـلـك، أرجـوك, or how they use different introductions depending on the audience, such as when introducing friends to their parents (e.g. بـالإذن يـا أَبـي، هـذا سـلـيـم صـديـقـي مـن الـمـدرسـة) and introducing friends to each other(e.g. أعـرِّفـك عـلـى مـاهـر، صـديـقـنـا الـجـديـد)",
+            "appreciating that Arabic-speaking communities are made up of diverse cultural and linguistic groups that may have different beliefs, religions, customs, diets, dress, values and experiences, for example,في المغرب العربيّ (توزيع الطّعام على الفقراء في أوقات الحزن)عادات الإحتفال (بالزَواج/ تكريم الضّيف/ الأعياد)؛ اللّباس التّقليديّ"
+          ]
+        }
+      ]
+    }
+  ]
+}

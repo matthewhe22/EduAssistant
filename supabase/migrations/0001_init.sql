@@ -41,39 +41,43 @@ create table public.curriculum_subjects (
   slug text primary key,
   subject text not null,
   learning_area text not null,
-  domain_code text,
+  sequence text,                              -- Languages only
   source_url text,
   retrieved_at timestamptz
 );
 
-create table public.curriculum_levels (
+-- A level ("Level 3") or a band of levels ("Levels 5 and 6", "Foundation to Level 2").
+create table public.curriculum_bands (
   subject_slug text not null references public.curriculum_subjects (slug) on delete cascade,
-  level text not null check (level in ('F','1','2','3','4','5','6')),
-  level_description text not null default '',
+  band text not null,
+  levels text[] not null check (levels <@ array['F','1','2','3','4','5','6']),
   achievement_standard text not null default '',
-  primary key (subject_slug, level)
+  primary key (subject_slug, band)
 );
 
 create table public.content_descriptions (
   code text primary key,                      -- e.g. VC2M3N01
-  subject_slug text not null references public.curriculum_subjects (slug) on delete cascade,
-  level text not null check (level in ('F','1','2','3','4','5','6')),
+  subject_slug text not null,
+  band text not null,
+  levels text[] not null,                     -- copied from the band, for filtering
   strand text not null,
   sub_strand text,
   description text not null,
-  embedding vector(1024),                     -- filled by the seed script (Phase 1)
-  foreign key (subject_slug, level) references public.curriculum_levels (subject_slug, level) on delete cascade
+  elaborations text[] not null default '{}',  -- VCAA elaborations (optional teaching examples)
+  embedding vector(1024),                     -- filled in Phase 1
+  foreign key (subject_slug, band) references public.curriculum_bands (subject_slug, band) on delete cascade
 );
 
-create index content_descriptions_subject_level_idx on public.content_descriptions (subject_slug, level);
+create index content_descriptions_subject_idx on public.content_descriptions (subject_slug);
+create index content_descriptions_levels_idx on public.content_descriptions using gin (levels);
 create index content_descriptions_embedding_idx on public.content_descriptions
   using hnsw (embedding vector_cosine_ops);
 
 alter table public.curriculum_subjects enable row level security;
-alter table public.curriculum_levels enable row level security;
+alter table public.curriculum_bands enable row level security;
 alter table public.content_descriptions enable row level security;
 create policy "curriculum: signed-in read" on public.curriculum_subjects for select to authenticated using (true);
-create policy "curriculum: signed-in read" on public.curriculum_levels for select to authenticated using (true);
+create policy "curriculum: signed-in read" on public.curriculum_bands for select to authenticated using (true);
 create policy "curriculum: signed-in read" on public.content_descriptions for select to authenticated using (true);
 
 -- Semantic search over content descriptions, optionally filtered by subject and level.
@@ -82,14 +86,14 @@ create function public.match_content_descriptions(
   match_count int default 8,
   filter_subject text default null,
   filter_level text default null
-) returns table (code text, subject_slug text, level text, strand text, sub_strand text, description text, similarity float)
+) returns table (code text, subject_slug text, band text, strand text, sub_strand text, description text, similarity float)
 language sql stable as $$
-  select cd.code, cd.subject_slug, cd.level, cd.strand, cd.sub_strand, cd.description,
+  select cd.code, cd.subject_slug, cd.band, cd.strand, cd.sub_strand, cd.description,
          1 - (cd.embedding <=> query_embedding) as similarity
   from public.content_descriptions cd
   where cd.embedding is not null
     and (filter_subject is null or cd.subject_slug = filter_subject)
-    and (filter_level is null or cd.level = filter_level)
+    and (filter_level is null or filter_level = any (cd.levels))
   order by cd.embedding <=> query_embedding
   limit match_count;
 $$;

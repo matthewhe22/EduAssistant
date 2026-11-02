@@ -1,0 +1,504 @@
+{
+  "subject": "Personal and Social Capability",
+  "slug": "personal-and-social-capability",
+  "learningArea": "Capabilities",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation",
+      "levels": [
+        "F"
+      ],
+      "achievementStandard": "By the end of Foundation, students identify emotions and their own and others' responses in different situations and interactions. They recognise their own and others' personal strengths and interests. They identify a range of strategies for supporting themselves and others when experiencing social, emotional and learning challenges, and recognise that attempting challenges and new experiences is an important part of their development.\nStudents identify different types of relationships and the skills for developing them, and describe behaviours that support inclusion and collaboration.",
+      "contentDescriptions": [
+        {
+          "code": "VC2CPFS01",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Emotional awareness and management",
+          "text": "verbal and non-verbal ways to recognise and identify emotional responses and situations associated with them",
+          "elaborations": [
+            "responding to stimulus showing familiar situations and identifying the emotions displayed",
+            "identifying how characters feel in stories and movies and the range of words that could be used to describe their emotions",
+            "reflecting on a personal situation and verbal and non-verbal ways in which the emotional response was displayed",
+            "exploring examples showing verbal and non-verbal emotional responses and identifying how a person displayed their emotional response in each example",
+            "reflecting on scenarios and stimuli that show emotions in different situations and identifying verbal and non-verbal ways to respond"
+          ]
+        },
+        {
+          "code": "VC2CPFS02",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Emotional awareness and management",
+          "text": "strategies for identifying and coping with negative emotions, and for considering the feelings of others",
+          "elaborations": [
+            "responding to scenarios and stimuli that may activate negative emotions and identifying strategies for managing challenges",
+            "practising given strategies for coping with negative emotions, such as counting to 10, taking balloon breaths or exercising mindfulness",
+            "identifying negative emotions depicted in pictures, and responding with a strategy they would use to support themselves in a similar situation",
+            "identifying a character's challenges in a range of pictorial texts and reflecting on possible strategies for supporting someone experiencing these kinds of challenges"
+          ]
+        },
+        {
+          "code": "VC2CPFS03",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "examples of different personal strengths and interests; examples of when and how personal strengths are used",
+          "elaborations": [
+            "discussing and listing individual likes, interests and dislikes",
+            "exploring personal strengths and achievements, and sharing with others",
+            "reflecting on how they have used personal strengths to support themselves when experiencing a challenge",
+            "identifying likes and dislikes shown by different characters in texts, and reflecting on similarity and difference to their own",
+            "identifying and role-playing how personal strengths can be used for support in a variety of social situations"
+          ]
+        },
+        {
+          "code": "VC2CPFS04",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "how problems and challenges are a part of everyday life, and actions that can be taken to manage them",
+          "elaborations": [
+            "developing a list of verbal and non-verbal responses to the prompt 'It is important to keep trying because …'",
+            "describing a challenge they faced recently, such as making a new friend, and creating a list of actions they could have taken",
+            "engaging with a given list of challenges that a Foundation student may face, such as learning to swim or looking after their possessions, and discussing why it is important to keep trying",
+            "engaging with text that shows how a character manages a challenge that they face"
+          ]
+        },
+        {
+          "code": "VC2CPFS05",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "behaviours that support independence",
+          "elaborations": [
+            "collectively defining independence and then developing a list of behaviours that help them to be independent",
+            "developing a Y-chart of what independence looks like, sounds like and feels like, or in terms of language, mindset and behaviours",
+            "reflecting on a helpful strategy that supports their independence in different places, for example in the classroom, at home or in the playground"
+          ]
+        },
+        {
+          "code": "VC2CPFO01",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Relationships and diversity",
+          "text": "groups to which they, their family and their peers belong",
+          "elaborations": [
+            "discussing the features/characteristics of the groups that they and their families belong to by sharing stories, artefacts and images",
+            "sharing descriptions of groups that they belong to",
+            "surveying class members to show that there are many ways to group people, such as students who own a pet, walk to school or like ice cream"
+          ]
+        },
+        {
+          "code": "VC2CPFO02",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Relationships and diversity",
+          "text": "actions required to include and care for others and make friends with peers, teachers and other adults",
+          "elaborations": [
+            "discussing what it means to be friendly and making a list of the qualities of a friend",
+            "role-playing a range of scenarios, such as saying hello to a new student in their class or thanking an adult for helping them using languages that represent the cultural diversity of the school",
+            "creating a T-chart of what including and excluding behaviours look like"
+          ]
+        },
+        {
+          "code": "VC2CPFO03",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Collaboration",
+          "text": "simple skills required for collaboration with peers",
+          "elaborations": [
+            "discussing what collaboration looks like and contributing to a visual representation of this, for example a photo wall, short video or mind map, in their classroom",
+            "demonstrating how to listen to others, showing interest and support",
+            "discussing and applying examples of sharing, such as sharing equipment or practising taking turns in a game, and reflecting on how sharing supports working together",
+            "demonstrating active listening in interactions with others by asking further questions",
+            "responding to a text or video in which characters display collaboration, and identifying the key skills shown"
+          ]
+        },
+        {
+          "code": "VC2CPFO04",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Collaboration",
+          "text": "verbal and non-verbal language to identify responses when experiencing personal interactions, including conflict",
+          "elaborations": [
+            "reflecting on how it feels when someone does not share equipment or play spaces",
+            "practising the language used to describe positive emotions experienced during personal interactions",
+            "exploring examples to recognise negative emotions resulting from conflict"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 1 and 2",
+      "levels": [
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify emotions and describe their own and others' responses in different situations and interactions. They describe strategies, behaviours and actions for building awareness of other perspectives, and for supporting themselves and others in personal and social contexts.\nStudents begin to distinguish between appropriate and inappropriate behaviours and attitudes in personal, collaborative and other social contexts. They describe ways to modify their behaviours and actions in different situations and reflect on their decisions.\nStudents recognise and describe the diversity of relationships found in families.",
+      "contentDescriptions": [
+        {
+          "code": "VC2CP2S01",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Emotional awareness and management",
+          "text": "verbal and non-verbal ways to recognise, name and describe emotional responses and situations associated with them",
+          "elaborations": [
+            "developing and displaying in the classroom a list of alternative words for emotions such as excitement or fear, and showing how these can be expressed non-verbally",
+            "matching vocabulary about emotions with pictures",
+            "discussing a range of situations associated with different emotions"
+          ]
+        },
+        {
+          "code": "VC2CP2S02",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Emotional awareness and management",
+          "text": "simple help-seeking and other productive coping strategies, and when and how to use them; verbal and non-verbal ways to express emotions and empathise with the feelings of others",
+          "elaborations": [
+            "identifying situations when it might not be appropriate to share feelings openly",
+            "discussing whether it is easy to talk to someone when they are happy, excited, angry, sad or scared",
+            "imagining that they are afraid of the dark, and describing how they would tell a friend, parent or teacher",
+            "exploring when it might be appropriate to use the strategy of counting to 10 before responding",
+            "developing a list of coping strategies, and discussing when to use them",
+            "collectively defining 'empathy' and creating a Y-chart of what it looks like, sounds like and feels like in the context of the classroom"
+          ]
+        },
+        {
+          "code": "VC2CP2S03",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "actions for supporting personal strengths useful for school and broader life; actions for supporting developing awareness of personal interests",
+          "elaborations": [
+            "describing a personal strength they have and how this can have a positive impact at home with their family",
+            "discussing a personal strength, such as active listening, listing possible ways it can be used in class activities and discussing the effect it has on others",
+            "explaining the benefits of their strengths at school and in their family life",
+            "identifying what they are curious about and activities they enjoy and want to explore further",
+            "responding to a prompt such as 'It does not matter if I cannot run fast because I can …'",
+            "creating a list of personal strengths across the class, and constructing a graph to represent these"
+          ]
+        },
+        {
+          "code": "VC2CP2S04",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "the importance of continued effort when faced with unfamiliar or challenging situations, including how it can help to try new things",
+          "elaborations": [
+            "introducing topics such as fear, unfamiliar situations, change and challenge, and discussing how these make them feel and respond",
+            "interviewing family members, peers and others about their first day of school, or about other unfamiliar situations, and acknowledging that everyone has fears",
+            "understanding that 'giving it a go' and trying new things is important and can result in positive experiences and growth, and establishing when and how this has happened in the past",
+            "discussing a time when people have tried something new, describing how it made them feel",
+            "responding to texts and exploring how characters face unfamiliar challenges and/or try new things"
+          ]
+        },
+        {
+          "code": "VC2CP2S05",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "strategies to support working safely and independently",
+          "elaborations": [
+            "using their bodies to learn ways to move with safety and awareness of themselves and others, developing safe movement practices",
+            "working with a partner to practise strategies for working safely and independently, using familiar scenarios as a stimulus"
+          ]
+        },
+        {
+          "code": "VC2CP2O01",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Relationships and diversity",
+          "text": "the range of relationships and diversity found within families",
+          "elaborations": [
+            "exploring the features of their family, including who lives at home, and naming their relationship to each of these people",
+            "brainstorming what a family's role is, such as providing love, support and food, and identifying the family members who undertake these tasks",
+            "graphing the number of students who have brothers, sisters and pets, and discussing the results"
+          ]
+        },
+        {
+          "code": "VC2CP2O02",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Relationships and diversity",
+          "text": "the importance of active listening for building awareness of different perspectives",
+          "elaborations": [
+            "sharing with a partner about what they like to do and the partner then retelling to the whole class, comparing similarities and differences",
+            "exploring a given series of statements, such as 'Cats are better than dogs' or 'Chocolate ice cream is better than vanilla', sharing their opinion and providing a reason, and reflecting on how others might disagree, or agree for different reasons",
+            "discussing how people may change their opinions and thoughts after hearing others' ideas"
+          ]
+        },
+        {
+          "code": "VC2CP2O03",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Relationships and diversity",
+          "text": "strategies for making and keeping friends; how actions and words can help or hurt others; and when, how and why behaviour should be modified",
+          "elaborations": [
+            "creating a list of strategies, including words and actions, that they have used to make friends",
+            "discussing what is required to maintain a friendship, such as kindness, support, acceptance and respect",
+            "providing examples of showing respect to one another through both words and actions, discussing how negative words and actions can hurt, and making suggestions about how to modify behaviour",
+            "developing a storybook to help someone learn how to make friends, and sharing with Foundation classes",
+            "working with Year 6 students to make a video showing one strategy for making friends",
+            "categorising words they have heard at school as helpful or hurtful"
+          ]
+        },
+        {
+          "code": "VC2CP2O04",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Collaboration",
+          "text": "broader skills required for collaboration with peers and ways to monitor contributions to group tasks",
+          "elaborations": [
+            "establishing what makes a good group member, such as the ability to share ideas, listen to others, ask questions, participate in discussions and give feedback",
+            "listing the ways in which group members asked and responded to questions in a group task",
+            "reflecting on their own contribution to a group task, using given prompts"
+          ]
+        },
+        {
+          "code": "VC2CP2O05",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Collaboration",
+          "text": "situations where conflicts might occur between individuals, and appropriate and inappropriate behaviours and attitudes",
+          "elaborations": [
+            "discussing where and when conflict has occurred and reflecting on the cause and consequent behaviours",
+            "role-playing familiar situations involving conflict and comparing various reactions to the conflict",
+            "discussing possible strategies for responding to conflict in a respectful way, in relation to a scenario such as a disagreement over who can play on or with certain equipment"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students describe how different situations and interactions can affect emotional responses and behaviours. They explain a range of ways to support themselves and others in personal and social contexts, including consideration of the outcomes of behaviour and actions. They explain the importance of inclusion, collaboration and different perspectives in different contexts.\nStudents describe similarities and differences between individuals and groups, and how these impact relationships. They explain ways to monitor and modify attitudes, actions and behaviours in personal, collaborative and other social contexts, considering similarities and differences between people.",
+      "contentDescriptions": [
+        {
+          "code": "VC2CP4S01",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Emotional awareness and management",
+          "text": "the influence social situations have on emotional responses and behaviour",
+          "elaborations": [
+            "exploring a social situation such as meeting new people and how this might make them feel",
+            "exploring how a disagreement in the playground can affect emotional responses and behaviours",
+            "creating a text or an artwork showing an emotional response in a selected social situation"
+          ]
+        },
+        {
+          "code": "VC2CP4S02",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Emotional awareness and management",
+          "text": "strategies for providing peer support, an extended range of help-seeking and other productive coping strategies, and when and how to use them; strategies for communicating emotions and expressing empathy for feelings and needs communicated by others",
+          "elaborations": [
+            "identifying behaviours that may influence their emotions or those of others, such as smiling, and explaining the likely outcomes of these behaviours for themselves and others",
+            "practising interpreting the possible emotions of others by observing their body language, using stories and videos as stimulus",
+            "listing a range of help-seeking strategies to assist with coping with challenge and change, and explaining what might happen if they used one of these strategies"
+          ]
+        },
+        {
+          "code": "VC2CP4S03",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "strategies for developing and using personal strengths to support themselves and others; strategies for developing personal interests to support personal growth",
+          "elaborations": [
+            "listing personal strengths and giving examples of how these strengths contribute to wellbeing",
+            "identifying personal interests to be further developed and giving reasons for their choices",
+            "setting and monitoring goals to further develop personal strengths such as the ability to share",
+            "researching the life and achievements of someone they admire, focusing on the person's personal strengths and/or how the person engages with their interests"
+          ]
+        },
+        {
+          "code": "VC2CP4S04",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "strategies that support persistence and adaptability when faced with challenging situations and change",
+          "elaborations": [
+            "identifying ways to persist in potentially difficult situations by considering possible actions or choices and their likely outcomes",
+            "discussing the saying 'If at first you don't succeed, try and try again' and how persisting might require adaptation",
+            "discussing a famous person who achieved something through persistence and the strategies they used"
+          ]
+        },
+        {
+          "code": "VC2CP4S05",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "strategies that support working independently and responsible decision-making",
+          "elaborations": [
+            "brainstorming strategies for working independently",
+            "describing why seeking help could be considered an important skill when working alone",
+            "explaining why time management could be important when working independently and how time management supports responsible decision-making"
+          ]
+        },
+        {
+          "code": "VC2CP4O01",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Relationships and diversity",
+          "text": "similarities and differences between individuals and groups based on factors such as sex, age, ability, language, culture and religion",
+          "elaborations": [
+            "surveying cultural backgrounds in the class, representing the data in a diagram, and presenting the diagram to support a group discussion on similarities and differences",
+            "describing a friend and identifying one similarity and one difference between themself and their friend",
+            "describing the similarities and differences between people of different ages, such as babies, teenagers, young adults, middle-aged adults and older adults"
+          ]
+        },
+        {
+          "code": "VC2CP4O02",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Relationships and diversity",
+          "text": "how similarities and differences can affect relationships, and when and how behaviour and attitudes should be modified",
+          "elaborations": [
+            "engaging with a story that enables them to discuss similarities and differences and the effect these have on relationships",
+            "discussing the statement 'Differences can contribute to good relationships'",
+            "reflecting on the relationships between characters in a text and considering how the characters could respond to similarities or differences between them and modify or change their behaviour for a different outcome, creating an alternative narrative"
+          ]
+        },
+        {
+          "code": "VC2CP4O03",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Relationships and diversity",
+          "text": "the importance of including others in activities, groups and games, and how this can be enabled",
+          "elaborations": [
+            "identifying the emotions that others experience if they are excluded from activities, groups or games",
+            "developing inclusive practices, such as inviting someone to join a group",
+            "recognising the effects of inclusive behaviour, for example feeling valued or experiencing a sense of belonging"
+          ]
+        },
+        {
+          "code": "VC2CP4O04",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Collaboration",
+          "text": "the benefits of collaboration, and criteria that can be used to evaluate collaboration skills",
+          "elaborations": [
+            "undertaking a task individually and then collaboratively, and reflecting on the differences",
+            "listing cooperative skills required for effective collaboration, for example taking turns, respecting different points of view and following effective decision-making processes, and using this list to reflect on performance in a group task",
+            "using a rubric to monitor and assess collaboration and explaining what went well and what could be improved, taking into account similarities and differences between people in the group",
+            "collaborating to create a podcast about the benefits of collaboration and the skills it requires",
+            "developing criteria for collaborating to learn each other's dances or movement sequences, and using the criteria to evaluate their collaboration"
+          ]
+        },
+        {
+          "code": "VC2CP4O05",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Collaboration",
+          "text": "conflicts experienced in peer groups; the influence of different behaviours and attitudes on outcomes",
+          "elaborations": [
+            "brainstorming conflicts experienced with peers and listing the emotions that are associated with these conflicts",
+            "comparing different behaviours and attitudes in given scenarios involving peer conflict and discussing how these influenced emotional responses in each case",
+            "describing the characteristics of cooperative behaviour in the context of peer conflict and exploring a range of examples, and then responding to a scenario to practise these behaviours and reflect on the outcomes",
+            "exploring the causes of conflict and reflecting on how these affect their attitude to conflict"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students explain the effect that different personal and social contexts have on emotional responses and behaviours.\nThey explain a range of ways to support themselves and others in personal and social contexts; select strategies and justify their decisions, taking into consideration cause and effect in relation to situations, emotions, behaviours, attitudes and actions as appropriate; and reflect on the results.\nStudents explain how respectful relationships can be achieved, maintained and rebuilt, demonstrating sensitivity to individual, social and cultural differences.\nThey explain and reflect on their own and others' performance in teams.",
+      "contentDescriptions": [
+        {
+          "code": "VC2CP6S01",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Emotional awareness and management",
+          "text": "how and why emotional responses and behaviour change in different personal and social contexts",
+          "elaborations": [
+            "creating a video or play to show the links between emotions and behaviour in different contexts",
+            "analysing stories or movies to identify and explain the links between emotions and behaviour in different contexts",
+            "exploring how individuals can experience changing emotions and changing intensity of emotions over the course of a day",
+            "creating movement sequences to show various emotional responses in different personal and social contexts",
+            "creating a narrative or performance to show how and why an emotional response changed over time"
+          ]
+        },
+        {
+          "code": "VC2CP6S02",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Emotional awareness and management",
+          "text": "when and how to use a range of peer support, self-regulation and other productive coping strategies; strategies for better understanding the feelings and needs of others and improving empathetic communication",
+          "elaborations": [
+            "discussing the statement 'Listening is as important as speaking' and strategies for identifying when it is time to listen, and practising these strategies in given peer support scenarios",
+            "creating a personal profile by selecting strategies from a range of different coping strategies and reflecting on what they like about these strategies",
+            "engaging with a given dialogue and discussing with peers how empathetic communication could be improved"
+          ]
+        },
+        {
+          "code": "VC2CP6S03",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "strategies for using and further developing personal strengths, to support themselves and others as they face challenges; strategies for reflecting on and further developing personal interests, to support personal growth",
+          "elaborations": [
+            "identifying personal strengths in others, such as courage, a sense of humour and determination, and explaining how these could contribute to facing challenges",
+            "listing personal strengths that would make them successful at home, at school and in the community, and discussing the strengths that are common in all 3 settings",
+            "investigating examples of workplaces, and the concept of work and when and how working can support personal growth, and discussing strategies for supporting themselves that may lead to achieving personal growth through their work"
+          ]
+        },
+        {
+          "code": "VC2CP6S04",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "what it means to be confident, adaptable and persistent; situations where these attributes are important; and what can and cannot be influenced through personal action",
+          "elaborations": [
+            "sharing and discussing ideas about how people respond to new or challenging situations, such as changing school, and explaining what it means to be resilient",
+            "identifying when the characters in a fictional text are being confident, adaptable and/or persistent, and explaining their reasons",
+            "exploring artificial intelligence tools that can support persistence, for example tools that supplement text on demand with visual materials to support understanding",
+            "discussing strategies for, and the importance of, adaptability and persistence when considering preparedness for natural disasters such as bushfires or floods"
+          ]
+        },
+        {
+          "code": "VC2CP6S05",
+          "strand": "Self-awareness and Management",
+          "subStrand": "Self-efficacy and sense of purpose",
+          "text": "strategies for evaluating performance when working independently; how to set appropriate goals and make informed, responsible decisions",
+          "elaborations": [
+            "preparing a work plan outlining the steps they need to take to complete an independent task and achieve a goal, and reflecting on decisions they make to enable them to reach a deadline",
+            "contributing to a list of success criteria in order to monitor and cross-check their progress, and discussing how these criteria can help them to make decisions when faced with unexpected challenges"
+          ]
+        },
+        {
+          "code": "VC2CP6O01",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Relationships and diversity",
+          "text": "strategies for identifying stereotyping, discrimination and prejudice and how they impact people",
+          "elaborations": [
+            "defining the terms 'stereotype', 'discrimination' and 'prejudice' and giving examples of each",
+            "exploring a range of given media articles and identifying examples of stereotypes, discrimination and prejudice",
+            "discussing how lack of understanding and respect for diversity can impact people's lives"
+          ]
+        },
+        {
+          "code": "VC2CP6O02",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Relationships and diversity",
+          "text": "behaviours and attitudes that demonstrate sensitivity to individual, social and cultural differences, and why sensitivity to difference is important",
+          "elaborations": [
+            "exploring a range of scenarios involving relationships and discussing with others how they might react respectfully in each situation, and why, and reflecting on what they have learnt",
+            "explaining why people are asked to stand up for particular passengers on public transport and discussing other ways in which sensitivity to the needs of community members can be shown",
+            "drawing on their knowledge of the impact of stereotyping and explaining how sensitivity to individual differences can be demonstrated in interactions or when creating text such as media articles",
+            "creating a narrative showing how a friendship broke down over differences and was then rebuilt with sensitivity to difference"
+          ]
+        },
+        {
+          "code": "VC2CP6O03",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Relationships and diversity",
+          "text": "the characteristics of respectful relationships and ways in which respectful relationships can be achieved, maintained and rebuilt",
+          "elaborations": [
+            "brainstorming the characteristics of respectful relationships and displaying them on a poster",
+            "working in groups to develop a tip sheet for rebuilding respectful relationships, including consideration of sensitivity to individual and cultural differences",
+            "researching texts and selecting an example of an interaction where a respectful relationship might have been compromised but was ultimately maintained, and sharing with peers what they identified as the strengths of the interaction"
+          ]
+        },
+        {
+          "code": "VC2CP6O04",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Collaboration",
+          "text": "the characteristics of an effective team and team roles including leadership roles; strategies for reflecting on performance in a team role",
+          "elaborations": [
+            "describing team roles, referring to the leader, the reporter and the recorder, and what these roles look like and sound like, and what they do",
+            "developing role descriptors that describe the skills and behaviours of collaborative teams and using these to reflect on team performance",
+            "assessing the effectiveness of roles within a collaborative group from an individual perspective",
+            "researching and reporting on a significant individual or group and how they demonstrated leadership"
+          ]
+        },
+        {
+          "code": "VC2CP6O05",
+          "strand": "Social Awareness and Management",
+          "subStrand": "Collaboration",
+          "text": "strategies and skills for preventing, defusing or resolving conflict, considering possible causes and effects of conflict in different situations",
+          "elaborations": [
+            "identifying the causes of conflict in a range of scenarios and the link to emotional responses and behaviours",
+            "exploring the causes of conflict and suggesting possible consequences for families, friends and bystanders",
+            "practising conflict resolution strategies in collaborative situations and describing their effectiveness",
+            "exploring the concept of reconciliation and its connection to conflict resolution"
+          ]
+        }
+      ]
+    }
+  ]
+}

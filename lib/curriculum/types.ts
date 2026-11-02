@@ -1,7 +1,7 @@
 /**
  * Types for the Victorian Curriculum F–10 Version 2.0 dataset (Foundation to Level 6).
  *
- * Source: Victorian Curriculum and Assessment Authority (VCAA).
+ * Source: VCAA "Download curriculum" CSV export (https://f10.vcaa.vic.edu.au/download-curriculum).
  * © VCAA — used here for personal, non-commercial educational purposes.
  */
 
@@ -34,39 +34,50 @@ export interface ContentDescription {
   code: string;
   /** Strand heading, e.g. "Number". */
   strand: string;
-  /** Sub-strand heading where the curriculum has one, e.g. "Phonics and word knowledge". */
+  /** Sub-strand where the curriculum has one, e.g. "Phonics and word knowledge". */
   subStrand?: string;
-  /** Verbatim content description text (fractions rendered as a/b). */
+  /** Verbatim content description. */
   text: string;
+  /** VCAA elaborations: optional, non-mandatory examples of how it may be taught. */
+  elaborations: string[];
 }
 
-export interface SubjectLevel {
-  level: PrimaryLevel;
-  levelDescription: string;
+/**
+ * Some subjects are written per level (e.g. Mathematics "Level 3"), others per band
+ * (e.g. The Arts "Levels 3 and 4", Languages "Foundation to Level 2").
+ */
+export interface CurriculumBand {
+  /** VCAA label, e.g. "Level 3", "Levels 5 and 6", "Foundation to Level 2". */
+  band: string;
+  /** Primary levels the band covers, e.g. ["5", "6"]. */
+  levels: PrimaryLevel[];
   achievementStandard: string;
   contentDescriptions: ContentDescription[];
 }
 
 export interface SubjectCurriculum {
-  /** Subject name as VCAA titles it, without the "Version 2.0" suffix, e.g. "Mathematics", "Visual Arts". */
+  /** e.g. "Mathematics", "Visual Arts", "Chinese (Second Language Learner)". */
   subject: string;
   slug: string;
   learningArea: LearningArea;
-  /** VCAA domain filter code used to fetch the subject, e.g. "M2". */
-  domainCode: string;
+  /** Languages only, e.g. "Curriculum F–10 Sequence". */
+  sequence?: string;
   source: string;
   retrievedAt: string;
-  levels: SubjectLevel[];
+  bands: CurriculumBand[];
 }
 
 export interface CurriculumIndex {
   version: "Victorian Curriculum F–10 Version 2.0";
+  source: string;
   retrievedAt: string;
   subjects: Array<{
     subject: string;
     slug: string;
     learningArea: LearningArea;
     levels: PrimaryLevel[];
+    bands: string[];
     contentDescriptionCount: number;
+    elaborationCount: number;
   }>;
 }

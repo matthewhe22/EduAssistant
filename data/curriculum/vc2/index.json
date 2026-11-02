@@ -1,7 +1,466 @@
 {
   "version": "Victorian Curriculum F–10 Version 2.0",
-  "retrievedAt": "2026-11-02T11:18:21.025Z",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
   "subjects": [
+    {
+      "subject": "Arabic",
+      "slug": "arabic",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 310
+    },
+    {
+      "subject": "Chinese (Second Language Learner)",
+      "slug": "chinese-second-language-learner",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 230
+    },
+    {
+      "subject": "Civics and Citizenship",
+      "slug": "civics-and-citizenship",
+      "learningArea": "Humanities",
+      "levels": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 27,
+      "elaborationCount": 81
+    },
+    {
+      "subject": "Critical and Creative Thinking",
+      "slug": "critical-and-creative-thinking",
+      "learningArea": "Capabilities",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 28,
+      "elaborationCount": 77
+    },
+    {
+      "subject": "Dance",
+      "slug": "dance",
+      "learningArea": "The Arts",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation",
+        "Levels 1 and 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 19,
+      "elaborationCount": 86
+    },
+    {
+      "subject": "Design and Technologies",
+      "slug": "design-and-technologies",
+      "learningArea": "Technologies",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 30,
+      "elaborationCount": 167
+    },
+    {
+      "subject": "Digital Technologies",
+      "slug": "digital-technologies",
+      "learningArea": "Technologies",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 36,
+      "elaborationCount": 142
+    },
+    {
+      "subject": "Drama",
+      "slug": "drama",
+      "learningArea": "The Arts",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation",
+        "Levels 1 and 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 19,
+      "elaborationCount": 94
+    },
+    {
+      "subject": "Economics and Business",
+      "slug": "economics-and-business",
+      "learningArea": "Humanities",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 14,
+      "elaborationCount": 38
+    },
+    {
+      "subject": "English",
+      "slug": "english",
+      "learningArea": "English",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation",
+        "Level 1",
+        "Level 2",
+        "Level 3",
+        "Level 4",
+        "Level 5",
+        "Level 6"
+      ],
+      "contentDescriptionCount": 197,
+      "elaborationCount": 515
+    },
+    {
+      "subject": "Ethical Capability",
+      "slug": "ethical-capability",
+      "learningArea": "Capabilities",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 15,
+      "elaborationCount": 41
+    },
+    {
+      "subject": "French",
+      "slug": "french",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 268
+    },
+    {
+      "subject": "Geography",
+      "slug": "geography",
+      "learningArea": "Humanities",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 42,
+      "elaborationCount": 199
+    },
+    {
+      "subject": "German",
+      "slug": "german",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 290
+    },
+    {
+      "subject": "Health and Physical Education",
+      "slug": "health-and-physical-education",
+      "learningArea": "Health and Physical Education",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation",
+        "Levels 1 and 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 64,
+      "elaborationCount": 298
+    },
+    {
+      "subject": "Hindi",
+      "slug": "hindi",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 301
+    },
+    {
+      "subject": "History",
+      "slug": "history",
+      "learningArea": "Humanities",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 55,
+      "elaborationCount": 216
+    },
+    {
+      "subject": "Indonesian",
+      "slug": "indonesian",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 294
+    },
+    {
+      "subject": "Intercultural Capability",
+      "slug": "intercultural-capability",
+      "learningArea": "Capabilities",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 12,
+      "elaborationCount": 47
+    },
+    {
+      "subject": "Italian",
+      "slug": "italian",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 275
+    },
+    {
+      "subject": "Japanese",
+      "slug": "japanese",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 291
+    },
+    {
+      "subject": "Korean",
+      "slug": "korean",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 268
+    },
     {
       "subject": "Mathematics",
       "slug": "mathematics",
@@ -15,7 +474,252 @@
         "5",
         "6"
       ],
-      "contentDescriptionCount": 143
+      "bands": [
+        "Foundation",
+        "Level 1",
+        "Level 2",
+        "Level 3",
+        "Level 4",
+        "Level 5",
+        "Level 6"
+      ],
+      "contentDescriptionCount": 143,
+      "elaborationCount": 602
+    },
+    {
+      "subject": "Media Arts",
+      "slug": "media-arts",
+      "learningArea": "The Arts",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation",
+        "Levels 1 and 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 19,
+      "elaborationCount": 92
+    },
+    {
+      "subject": "Modern Greek",
+      "slug": "modern-greek",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 314
+    },
+    {
+      "subject": "Music",
+      "slug": "music",
+      "learningArea": "The Arts",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation",
+        "Levels 1 and 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 19,
+      "elaborationCount": 82
+    },
+    {
+      "subject": "Non-Roman Alphabet Languages",
+      "slug": "non-roman-alphabet-languages",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 330
+    },
+    {
+      "subject": "Personal and Social Capability",
+      "slug": "personal-and-social-capability",
+      "learningArea": "Capabilities",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation",
+        "Levels 1 and 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 39,
+      "elaborationCount": 144
+    },
+    {
+      "subject": "Roman Alphabet Languages",
+      "slug": "roman-alphabet-languages",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 328
+    },
+    {
+      "subject": "Science",
+      "slug": "science",
+      "learningArea": "Science",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 55,
+      "elaborationCount": 312
+    },
+    {
+      "subject": "Spanish",
+      "slug": "spanish",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 310
+    },
+    {
+      "subject": "Turkish",
+      "slug": "turkish",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 317
+    },
+    {
+      "subject": "Vietnamese",
+      "slug": "vietnamese",
+      "learningArea": "Languages",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation to Level 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 33,
+      "elaborationCount": 304
+    },
+    {
+      "subject": "Visual Arts",
+      "slug": "visual-arts",
+      "learningArea": "The Arts",
+      "levels": [
+        "F",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bands": [
+        "Foundation",
+        "Levels 1 and 2",
+        "Levels 3 and 4",
+        "Levels 5 and 6"
+      ],
+      "contentDescriptionCount": 19,
+      "elaborationCount": 95
     }
   ]
 }

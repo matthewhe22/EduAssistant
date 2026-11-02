@@ -1,0 +1,858 @@
+{
+  "subject": "Health and Physical Education",
+  "slug": "health-and-physical-education",
+  "learningArea": "Health and Physical Education",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation",
+      "levels": [
+        "F"
+      ],
+      "achievementStandard": "By the end of Foundation, students identify similarities and differences between themselves and others. They name parts of the body and outline how their body is growing and changing. They demonstrate personal and social skills to interact respectfully with others. Students identify different emotions people experience. They identify protective behaviours and help-seeking strategies to help keep themselves safe. Students identify different types of health information and how it can be used in their lives.\nStudents apply fundamental movement skills to manipulate objects and space in a range of movement situations. They recognise the benefits of being physically active. Students use personal and social skills to engage in fair and inclusive play.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HPFP01",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Identities and change",
+          "text": "investigate who they are and the people in their world",
+          "elaborations": [
+            "making personal connections with stories that explore identity and belonging; discussing who they are, where they come from and people in their lives (MH, RS)",
+            "understanding similarities and differences in Aboriginal and Torres Strait Islander family structures and family structures in other cultures (MH, RS)",
+            "exploring cultural practices from different cultures, including the cultures of Asia, that are important to individuals, families and communities (MH)",
+            "identifying different families in their communities, for example 2-parent, single-parent, extended, blended and same-sex families (MH)",
+            "identifying ways they use their strengths when participating in different types of play, games and activities across a variety of settings to help themselves and others to be successful, such as in cooperative play, partner and group physical activities and classroom games (AP, RS)",
+            "recognising the uniqueness of different people in a team and classroom and acknowledging the right for everyone to belong and contribute (MH)"
+          ]
+        },
+        {
+          "code": "VC2HPFP02",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Identities and change",
+          "text": "name parts of the body and describe how their body is growing and changing",
+          "elaborations": [
+            "recognising how bodies grow and change over time (RS)",
+            "recording and mapping growth on individual and group growth charts (RS)",
+            "identifying private parts of the body and understanding the contexts in which body parts should be kept private (RS, S)"
+          ]
+        },
+        {
+          "code": "VC2HPFP03",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "practise personal and social skills to interact respectfully with others",
+          "elaborations": [
+            "explaining their actions in response to challenging situations in shared play experiences (AP, RS)",
+            "practising personal skills, such as expressing needs, wants and feelings, active listening and showing self-regulation, to be an effective group member at home and at school (RS)",
+            "identifying behaviours that are respectful, inclusive and safe during play (MH, RS, S)",
+            "discussing how it feels to be included in activities (AP, HBPA, RS)",
+            "exploring personal and social skills through texts and digital media to identify different ways of interacting respectfully (RS)"
+          ]
+        },
+        {
+          "code": "VC2HPFP04",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "identify emotions they experience",
+          "elaborations": [
+            "identifying and describing the emotions of people who are happy, sad, excited, tired, angry, scared or confused (MH, RS, S)",
+            "learning and using appropriate language and actions to communicate their feelings in different situations (MH, RS)",
+            "recalling and sharing emotional responses to different situations and representing these in a variety of ways (MH)",
+            "reading and viewing stories about adventures, and talking about how characters feel and react when taking risks or responding to emergencies (MH, RS, S)",
+            "talking about connections between feelings, body reactions and body language (MH, RS)",
+            "expressing a variety of emotions and thoughts in a range of situations (MH, RS)"
+          ]
+        },
+        {
+          "code": "VC2HPFP05",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "explore how to seek, give or deny permission respectfully when sharing possessions, personal space or body autonomy",
+          "elaborations": [
+            "recognising that all people have the right to body autonomy: the right to make choices about what others ask them to do with and to their bodies (RS, S)",
+            "identifying and negotiating roles and demonstrating awareness of rights (including body autonomy, sharing possessions and personal space) through guided play experiences (RS, S)",
+            "practising behaviours that show respect for different perspectives and ideas through imaginative and shared play experiences (AP, RS, S)",
+            "exploring the importance of asking for permission and giving permission when sharing or negotiating in play, and respecting someone's right to say no (RS, S)"
+          ]
+        },
+        {
+          "code": "VC2HPFP06",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Contributing to healthy communities",
+          "text": "identify protective behaviours and rehearse help-seeking strategies that help keep them safe",
+          "elaborations": [
+            "exploring protective behaviours and help-seeking strategies they can use, such as identifying early warning signs and knowing who they can ask for help when they or others feel unsafe or uncomfortable (MH, RS, S)",
+            "identifying and naming a support network of adults they can trust to help them if they feel unsafe, uncomfortable or scared, and practising different ways of asking for help in a range of different scenarios (MH, RS, S)",
+            "identifying situations and spaces that are safe for them and recognising the importance of seeking help from a trusted adult if they feel unsafe, such as while online and when using digital tools or when playing at a park (MH, RS, S)",
+            "identifying characters in different texts who help the main character to stay safe and healthy (MH, RS, S)"
+          ]
+        },
+        {
+          "code": "VC2HPFP07",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Contributing to healthy communities",
+          "text": "identify health symbols, messages and strategies in their community that support their health and safety",
+          "elaborations": [
+            "identifying household substances that are dangerous, and explaining what symbols are used to identify the danger (S)",
+            "identifying and trying a wide range of fruits and vegetables and describing how eating fruits and vegetables makes them feel (FN)",
+            "recognising and following safety symbols and procedures to keep themselves and others safe at home and in water and road environments (S)"
+          ]
+        },
+        {
+          "code": "VC2HPFM01",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "practise fundamental movement skills in active play and minor games, in indoor, outdoor and aquatic settings",
+          "elaborations": [
+            "applying different locomotor skills to move from one point to another (AP, FMS)",
+            "combining fine and gross motor skills in increasingly complex patterns (AP, FMS)",
+            "propelling, receiving and controlling objects at different levels and in different ways (AP, FMS)",
+            "performing a range of water confidence skills such as floating with a buoyancy aid and putting their face in the water (FMS, LLPA, S)",
+            "demonstrating how to transfer weight from one part of the body to another (AP, FMS, RE)",
+            "responding with movement to rhythm, beat, music and words (FMS, RE)"
+          ]
+        },
+        {
+          "code": "VC2HPFM02",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "explore different ways of moving their body safely when manipulating objects and moving through space",
+          "elaborations": [
+            "suggesting and testing different ways to move in a playing space or different ways to use equipment and objects, and making judgements about which are most effective and which movements and equipment they prefer (AP, FMS, RE)",
+            "participating in games that require them to be aware of personal safety in relation to game boundaries, rules and safe use of equipment (AP, FMS, S)",
+            "manipulating equipment in a range of different movement situations and tasks, including in minor games, imaginative play and when practising fundamental movement skills (AP, FMS, RE)",
+            "demonstrating spatial awareness when moving around, under, over and through objects and people in indoor and outdoor environments confidently and safely (AP, FMS, RE, S)"
+          ]
+        },
+        {
+          "code": "VC2HPFM03",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Making active choices",
+          "text": "participate safely in a range of activities in outdoor environments and aquatic settings and explore the benefits of being physically active",
+          "elaborations": [
+            "participating in children's games from Aboriginal and Torres Strait Islander cultures, such as the different Yulunga games, and discussing what they enjoyed about these games and similarities to other games (AP, FMS)",
+            "identifying risks, developing self-regulation and seeking support if required when moving and playing in outdoor environments (AP, S)",
+            "exploring a range of ways to play and be active and participate safely in outdoor environments and aquatic settings (AP, CA, HBPA, S)",
+            "discussing opportunities to be active in spaces in and around their homes (AP, HBPA)"
+          ]
+        },
+        {
+          "code": "VC2HPFM04",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Learning through movement",
+          "text": "follow rules to promote fair play and inclusion in a range of physical activities",
+          "elaborations": [
+            "identifying and describing actions that would constitute fair play while participating in a range of minor games and activities (AP, FMS, RE, S)",
+            "demonstrating how to play fairly in a range of minor games and play situations (AP, FMS, RE, S)",
+            "discussing rules of different games that relate to safety, boundaries and appropriate use of equipment (AP, FMS, RE, S)",
+            "demonstrating that following rules allows everyone to participate in games and activities (AP, FMS, RE, S)"
+          ]
+        },
+        {
+          "code": "VC2HPFM05",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Learning through movement",
+          "text": "cooperate with others when participating in physical activities",
+          "elaborations": [
+            "working with a partner or small group to complete a movement task or challenge (AP, FMS, RE)",
+            "mirroring a partner while moving to music (AP, RE)",
+            "using words and body language to communicate intentions clearly and respectfully during active play, small-group activities and minor games (AP, FMS, RE, RS)",
+            "achieving agreed outcomes when participating in physical activities by listening to and cooperating with others (AP, FMS, RE, RS)",
+            "practising turn-taking and sharing equipment when participating in play, small-group activities and minor games (AP, FMS, RE, S)"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 1 and 2",
+      "levels": [
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students explain how personal qualities contribute to one aspect of identity. They describe physical and social changes that occur as they grow older. They demonstrate personal and social skills and describe strategies to develop respectful relationships. Students describe how emotional responses affect their own and others' feelings. They apply protective behaviours and help-seeking strategies that can help keep themselves and others safe. Students explain why health information is important for making choices.\nStudents apply fundamental movement skills in different movement situations and explain how they move their body with objects and in space effectively. They describe factors that make physical activity safe and beneficial. Students develop and apply rules while cooperating with others in a range of movement contexts.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HP2P01",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Identities and change",
+          "text": "describe their personal characteristics and those of others, and explain how they contribute to developing identities",
+          "elaborations": [
+            "describing the personal qualities of characters in stories and how they are similar to and different from their own (MH)",
+            "describing how people who identify as Aboriginal and/or Torres Strait Islander have a unique cultural identity and how the contributions from family influence this (MH, RS)",
+            "exploring examples of cultural practices, including those of Australians of Asian heritage, that recognise the contributions of family and friends to identities (MH, RS)",
+            "identifying the benefits of having people with diverse skills and abilities in a team or classroom (MH, RS)",
+            "participating in games and physical activities and describing how their own and others' personal skills and abilities contribute to successful engagement in groups (AP, MH)",
+            "describing personal achievements and sharing how they felt and how these influenced their personal identities (MH)"
+          ]
+        },
+        {
+          "code": "VC2HP2P02",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Identities and change",
+          "text": "describe physical and social changes that occur as children grow older and discuss how family and community acknowledge these",
+          "elaborations": [
+            "describing changes in their physical appearance now compared to when they were younger (RS)",
+            "identifying and describing significant relationships in their lives and how these have evolved or changed over time (RS)",
+            "identifying friendships and how they are similar or different to when they were younger, such as when they were in kindergarten (RS)",
+            "discussing ways families and cultural groups acknowledge and celebrate major stages of development (RS)",
+            "discussing tasks they are allowed to do by themselves and explaining how these have changed since they were younger (RS)"
+          ]
+        },
+        {
+          "code": "VC2HP2P03",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "identify and explore personal and social skills and strategies to develop respectful relationships",
+          "elaborations": [
+            "identifying characters in texts (fictional and non-fictional) who demonstrate respect and cooperation to develop respectful relationships (RS)",
+            "identifying characters in texts who demonstrate respect for different types of families and carers, including those of different cultures, abilities or compositions (RS)",
+            "discussing strategies we can use to show respect to people of different cultures, including Aboriginal and Torres Strait Islander Peoples, and to acknowledge difference using appropriate language (MH, RS)",
+            "describing behaviours that keep themselves and others safe and help them feel respected, including the use of appropriate verbal and body language and physical behaviours (MH, RS, S)",
+            "exploring strategies to understand and manage bullying behaviours (MH, RS)",
+            "exploring how people feel when they are included in and when they are excluded from groups and activities (AP, MH, RS)"
+          ]
+        },
+        {
+          "code": "VC2HP2P04",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "identify how different situations influence emotional responses",
+          "elaborations": [
+            "recognising their own emotions and demonstrating ways to manage how they express their emotions in different situations (MH, RS)",
+            "exploring self-regulation strategies to manage emotional responses, such as balloon breathing, counting down from 10 and mindfulness (MH, RS)",
+            "identifying situations that may trigger strong emotional responses in themselves and others, and recognising the impact these responses can have on others (MH, RS)",
+            "identifying how someone might feel, think and act during an emergency through role-play and imaginative play (MH, RS, S)",
+            "predicting how a person or character in a story might be feeling based on the words they use, their facial expressions and body language (RS)",
+            "recognising positive emotions in themselves and others and exploring different ways people express these emotions (MH, RS)"
+          ]
+        },
+        {
+          "code": "VC2HP2P05",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "practise strategies they can use when they need to seek, give or deny permission respectfully",
+          "elaborations": [
+            "practising strategies they can use when they need to give or refuse consent; for example, saying yes and no in an assertive manner, using non-verbal body cues and gestures (MH, RS, S)",
+            "practising ways to interact with others in a fair and respectful way in play and other activities, regardless of differences in gender, abilities, race or personality (RS)",
+            "exploring situations where they need to seek, give or deny permission and practising strategies to assert themselves; for example, saying no to inappropriate touching (MH, RS, S)"
+          ]
+        },
+        {
+          "code": "VC2HP2P06",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Contributing to healthy communities",
+          "text": "identify and demonstrate protective behaviours and help-seeking strategies they can use to help them and others stay safe",
+          "elaborations": [
+            "identifying the body's reaction to a range of situations, including safe and unsafe situations, and comparing the different emotional responses (MH, S)",
+            "discussing the importance of seeking help when problems are too big to solve by themselves (MH, S)",
+            "identifying and rehearsing strategies they can use when requiring assistance, such as asking an adult they trust, reading basic signs to identify safe places, calling triple zero, locating services or local organisations they can contact in case of emergency and solving a problem with friends (S)",
+            "exploring and planning strategies they can use at school and at home that promote safe use of digital tools (MH, S)",
+            "recognising photos and locations of safe places and a network of people who can help, and identifying a list of those in their network (RS, S)",
+            "explaining how characters in texts use protective behaviours and help-seeking strategies to keep themselves and others safe (MH, S)"
+          ]
+        },
+        {
+          "code": "VC2HP2P07",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Contributing to healthy communities",
+          "text": "investigate a range of health messages and strategies in their community to promote their own health, safety and wellbeing",
+          "elaborations": [
+            "identifying poison labels and medicine packaging and understanding why it is important to ask an adult before taking medicines (AD, S)",
+            "exploring sustainable practices that students can implement at school to improve the health and wellbeing of the class, such as composting food waste, creating an edible garden and reducing single-use plastics (FN)",
+            "identifying and explaining different safety signs and symbols in their community, such as water safety and road safety signs and messages (S)",
+            "investigating health messages they receive from school, home and the community and discussing how these messages keep them safe and help them make better health and wellbeing decisions, such as dental hygiene, sun safety, appropriate use of digital technology and road safety (S)",
+            "identifying different types of advertising that influence choices about food (FN)"
+          ]
+        },
+        {
+          "code": "VC2HP2M01",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "practise fundamental movement skills and apply them in a variety of movement situations, including indoor, outdoor and aquatic settings",
+          "elaborations": [
+            "performing locomotor movements using different body parts to travel in different directions (AP, CA, FMS, RE)",
+            "selecting and implementing different movement skills to be successful in a range of games and movement situations, such as an obstacle course (AP, CA, FMS)",
+            "performing fundamental movement skills to control objects with equipment and different parts of the body (AP, FMS)",
+            "practising gliding forwards and backwards in the water using arm and kicking movements (FMS, LLPA, S)",
+            "demonstrating balances and describing what helps to maintain stable positions (AP, FMS, RE)"
+          ]
+        },
+        {
+          "code": "VC2HP2M02",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "investigate different ways of moving their body and manipulating objects and space, and draw conclusions about their effectiveness",
+          "elaborations": [
+            "demonstrating changes in speed, direction and level as they use locomotor and non-locomotor skills in sequences (AP, FMS)",
+            "inventing new games, based on rules and equipment from familiar games, and drawing conclusions about whether the rules and choice of equipment provide for an interesting, challenging and enjoyable game (AP, FMS)",
+            "using stimuli such as equipment, rhythm, music and words to create simple playground games and assessing which games they enjoy most (AP, FMS, RE)",
+            "using different equipment or skills to solve a movement challenge and explaining why particular equipment or skills were more successful to solve the challenge (AP, FMS)",
+            "participating in activities that require students to move around different outdoor spaces and discussing which types of movement are most appropriate to move around safely and efficiently (AP, CA, S)",
+            "comparing different types of movements with and without equipment and identifying which ones are easier and harder and why this might be the case (AP, FMS, RE)"
+          ]
+        },
+        {
+          "code": "VC2HP2M03",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Making active choices",
+          "text": "participate in a range of physical activities in outdoor environments and aquatic settings and investigate contextual factors and environments that make physical activity safe and enjoyable",
+          "elaborations": [
+            "participating in traditional Aboriginal and Torres Strait Islander Peoples' games and discussing how these games have similar origins to games they have previously experienced (AP, FMS)",
+            "recognising the physical features in a range of different environments, including outdoor environments, that make physical activity in these spaces enjoyable, such as play equipment and spaces for imaginative play (AP, CA, S)",
+            "participating safely in physical activities in outdoor and aquatic environments within the school or local community and explaining the benefits of being physically active in these environments (AP, CA, FMS, S)",
+            "participating in a range of minor games and discussing what makes them enjoyable (AP, FMS)",
+            "comparing the characteristics and benefits of physical activities that take place in an outdoor environment to those that take place inside (AP, CA, FMS)"
+          ]
+        },
+        {
+          "code": "VC2HP2M04",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Learning through movement",
+          "text": "co-construct and apply rules to promote fair play and inclusion in a range of physical activities",
+          "elaborations": [
+            "discussing what is fair and unfair when developing rules and co-constructing a set of rules that are fair and inclusive for all (AP, FMS, RS, S)",
+            "discussing changes to rules that will make an activity fairer or more inclusive of all learners (AP, FMS, S)",
+            "explaining how rules contribute to fair play and applying them in group activities (AP, FMS, RS)",
+            "creating or adapting a game with others and co-constructing rules that make the game fun, safe, fair and inclusive (AP, FMS, RS, S)"
+          ]
+        },
+        {
+          "code": "VC2HP2M05",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Learning through movement",
+          "text": "apply strategies to work cooperatively when participating in physical activities",
+          "elaborations": [
+            "working cooperatively with a partner when practising new skills (AP, CA, FMS, RE)",
+            "suggesting and trialling how a game can be changed so that everyone can be involved (AP, RS, S)",
+            "demonstrating appropriate language (including verbal and non-verbal language, body language and gestures) when encouraging and including others in games and physical activities (AP, CA, FMS, RE, S)",
+            "demonstrating turn-taking and sharing equipment when participating in cooperative learning activities and minor games (AP, FMS, RE)"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students describe influences that strengthen resilience and identity. They describe strategies to respond to physical, social and emotional changes and transitions they experience. They apply personal and social skills and strategies to interact respectfully with others. Students describe the influences that inclusion and the challenging of stereotypes have on choices and actions. They explain the variation in emotional responses and describe strategies to manage emotions. They describe and apply protective behaviours and help-seeking strategies that can help keep themselves and others safe in online and offline situations. Students interpret health information to apply strategies that can enhance their own and others' health, safety, relationships and wellbeing.\nStudents refine and apply fundamental movement skills and demonstrate movement concepts across a range of situations. They apply movement strategies to enhance movement outcomes. They perform movement sequences using fundamental movement skills. Students describe the benefits of regular physical activity on health, wellbeing and physical fitness. They examine contextual factors that influence safe participation in physical activity and propose strategies to incorporate regular physical activity into their own and others' lives. Students demonstrate fair play and inclusion through a range of roles in movement contexts.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HP4P01",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Identities and change",
+          "text": "investigate how success, challenge, setbacks and failure strengthen resilience and identities in a range of contexts",
+          "elaborations": [
+            "explaining how characters in stories overcome challenge and adversity and achieve success in different ways (MH)",
+            "discussing and acknowledging how Aboriginal and Torres Strait Islander Peoples' pride in their cultural background strengthens identities (MH)",
+            "discussing how overcoming challenge or adversity together can unite a group of people (MH, RS)",
+            "exploring strategies individuals can use to show others they accept and value them as a member of a team, class, school and community (MH)",
+            "recognising how success, challenge, failure and enjoyment of games and physical activities in different settings (classroom, playground, outdoor environments) influence identities (AP, CA, GS, MH, RS)"
+          ]
+        },
+        {
+          "code": "VC2HP4P02",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Identities and change",
+          "text": "plan, rehearse and reflect on strategies to cope with the different changes and transitions they experience, such as physical, social and emotional changes",
+          "elaborations": [
+            "discussing physical, social and emotional changes that occur as individuals get older, and exploring how these changes affect the way they think and feel about themselves and different situations (MH, RS)",
+            "identifying people or sources of information they can access if they have questions about the changes that occur during puberty (RS)",
+            "understanding the nature of family support networks in communities, including for Aboriginal and Torres Strait Islander Peoples, and discussing how a wide range of family and community members support young people when they are going through changes and transitions (MH, RS)",
+            "practising and refining coping skills they can use when faced with challenges or changes, such as positive self-talk, problem-solving, mindfulness, and seeking help from families, peers and teachers (MH, RS)",
+            "identifying scenarios in texts where characters experience and react to change and transition, exploring the effectiveness of these responses and identifying other possible options that may be helpful (RS)"
+          ]
+        },
+        {
+          "code": "VC2HP4P03",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Identities and change",
+          "text": "describe how choices and actions can be influenced by stereotypes",
+          "elaborations": [
+            "exploring different gender stereotypes in texts and media, and discussing the messages they portray and how they can influence choices and actions (RS)",
+            "recognising that unfair or unequal treatment of people based on their gender, abilities or other differences is wrong and against their human rights (RS)",
+            "describing ways to make roles and responsibilities at home, at school and in communities fair, equitable and inclusive (RS)",
+            "practising ways in which they can contribute to people of different genders and abilities being treated in fair, equitable and inclusive ways (MH, RS)"
+          ]
+        },
+        {
+          "code": "VC2HP4P04",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "select, use and refine personal and social skills to establish, manage and strengthen relationships",
+          "elaborations": [
+            "predicting and reflecting on how other students might feel in a range of challenging situations, such as when being excluded from a game or when experiencing name-calling, and discussing what they can do to support them (MH, RS, S)",
+            "describing characters in texts who have demonstrated respect for difference and diversity in individuals and communities, and exploring the strategies they used to do this (RS)",
+            "discussing how demonstrating respect and empathy towards people of different cultural backgrounds, including Aboriginal and Torres Strait Islander Peoples, can build positive relationships (MH, RS)",
+            "recognising that bullying behaviour can take many forms, including online, and proposing strategies to address bullying in and out of school (MH, RS, S)",
+            "describing behaviours that show empathy and respect for the rights of others at home, at school and in the community (MH, RS)"
+          ]
+        },
+        {
+          "code": "VC2HP4P05",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "describe how valuing diversity influences wellbeing and identify actions that promote inclusion in their communities",
+          "elaborations": [
+            "planning ways to celebrate the cultural diversity of students in their class, such as sharing recipes, stories and games from their cultural heritage (MH, RS)",
+            "researching and participating in games from their own and others' cultural heritage, and learning why games are important to build cultural awareness and appreciation (AP, MH, RS)",
+            "identifying behaviours that are respectful, inclusive and safe during play (RS, S)",
+            "describing and practising safe upstander actions when they notice unfair or disrespectful behaviour towards others (MH, RS)",
+            "recognising and understanding the important role of narratives in describing the diversity of Aboriginal and Torres Strait Islander Peoples' cultures and the cultures of Asia, and sharing beliefs and practices across all cultures (MH, RS)"
+          ]
+        },
+        {
+          "code": "VC2HP4P06",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "explain how and why emotional responses can vary and practise strategies to manage their emotions",
+          "elaborations": [
+            "recognising how the depth and strength of their own emotional responses may vary in different situations and practising strategies to manage emotions (MH)",
+            "reviewing scenarios and identifying possible triggers and warning signs to predict emotional responses (MH)",
+            "exploring scenarios and identifying how someone might respond in a helpful way during an emergency (S)",
+            "explaining how characters in texts use strategies to identify and manage their emotions before deciding to act (MH)",
+            "implementing self-regulation strategies to manage the expression of emotional responses (MH)"
+          ]
+        },
+        {
+          "code": "VC2HP4P07",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "practise and refine strategies for seeking, giving and denying permission respectfully and describe situations when permission is required across multiple settings (including online and offline)",
+          "elaborations": [
+            "practising and refining strategies for seeking and giving consent; for example, giving consent for their photo to be shared (RS, S)",
+            "exploring actions they can take if someone has done something hurtful or disrespectful to them without their permission or consent, including in online environments (RS, S)",
+            "exploring actions they can take when they or others are unsafe, such as saying no, leaving the situation and reporting the incident, and discussing how to use these strategies in situations such as when someone posts an embarrassing picture online without their permission, touches private parts of their body, or uses violence against them (RS, S)",
+            "exploring a variety of relevant situations where permission or consent may be required and developing an understanding of why permission may be required (RS, S)"
+          ]
+        },
+        {
+          "code": "VC2HP4P08",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Contributing to healthy communities",
+          "text": "describe and apply protective behaviours and help-seeking strategies in a range of online and offline situations at home, school and in the community",
+          "elaborations": [
+            "describing protective behaviours to stay safe in different situations, including water or roads, in the park, when they are online or when someone makes them feel uncomfortable or unsafe (S)",
+            "describing warning signs (physical, social and external), such as increased heart rate or feeling fear, that can help them to know if they are safe or unsafe (S)",
+            "identifying trusted adults they can talk to if they feel unsafe and practising how to talk to people if they feel unsafe (MH, RS, S)",
+            "identifying a range of help-seeking strategies to negotiate positive outcomes when challenging situations arise, such as seeking help from trusted adults when reporting negative or harmful online behaviour (MH, S)",
+            "using texts, videos and online scenarios as sources to discuss different protective behaviours and help-seeking strategies they could use to keep themselves and others safe (MH, S)"
+          ]
+        },
+        {
+          "code": "VC2HP4P09",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Contributing to healthy communities",
+          "text": "interpret the nature and intention of health information and messages in their community, and reflect on how these influence personal decisions and behaviours",
+          "elaborations": [
+            "accessing different sources of health information and identifying the accuracy of these sources, including brochures, websites, TV shows and advertisements, online promotions and food labels (FN, HBPA, MH, RS, S)",
+            "examining health messages from different sources and exploring choices, behaviours and outcomes conveyed in these messages (AD, FN, HBPA, MH, RS, S)",
+            "investigating the level of influence health messages from different people and sources may have on their health decisions and the validity of these sources of information (AD, FN, HBPA, MH, RS, S)",
+            "researching health messages or campaigns in their community and creating their own campaigns to promote positive health messages, such as creating positive mindset cards for classrooms at school, providing active play equipment at lunchtime, and assembly presentations (AD, FN, HBPA, MH, RS, S)"
+          ]
+        },
+        {
+          "code": "VC2HP4P10",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Contributing to healthy communities",
+          "text": "investigate and apply strategies that contribute to their own and others' health, safety, relationships and wellbeing",
+          "elaborations": [
+            "identifying how medications and other substances can be stored safely in the home and at school (AD, S)",
+            "reflecting on how the consumption of nourishing foods makes them feel, and how our bodies tell us when we are full or hungry (FN)",
+            "discussing the importance of a sense of belonging and its connection to positive mental health and wellbeing (MH)",
+            "explaining how characters in texts take responsibility for their own and others' safety in a range of situations, including water and road environments and when in the sun (S)",
+            "identifying ways they can change their behaviours to support sustainability in their home, school or community; for example, recycling or composting systems to minimise waste in the school, and community fruit and vegetable gardens to create healthy and sustainable lunches or snacks (FN)",
+            "practising strategies for enhancing mental wellbeing such as positive self-talk, breathing techniques, mindfulness and meditation (MH)"
+          ]
+        },
+        {
+          "code": "VC2HP4M01",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "practise and refine fundamental movement skills in different movement situations, including indoor, outdoor and aquatic settings",
+          "elaborations": [
+            "performing activities where locomotor and object control skills are combined to complete a movement, task or challenge, such as dribbling a ball while moving, or moving to catch a ball in a modified court or field game (AP, FMS, GS)",
+            "exploring and practising different techniques to propel objects towards a range of targets from various distances (AP, FMS, GS)",
+            "performing fundamental movement skills to demonstrate weight transference in different physical activities, such as when striking, propelling objects and performing locomotor activities (AP, FMS, GS, RE)",
+            "refining striking skills using a variety of equipment and exploring modifications to technique when striking for accuracy and distance (AP, FMS, GS)",
+            "coordinating kicking with arm movements to move the body through the water using different types of strokes (FMS, LLPA, S)"
+          ]
+        },
+        {
+          "code": "VC2HP4M02",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "practise and apply basic movement strategies to achieve movement outcomes",
+          "elaborations": [
+            "planning and performing strategies to be successful in a range of minor and small-sided games such as tag games, target games and net/court games (AP, FMS, GS)",
+            "demonstrating how movement strategies can be applied to create scoring opportunities in invasion games (AP, FMS, GS)",
+            "manipulating their centre of gravity to enhance stability as they perform a range of balance activities and explaining how centre of gravity and base of support influence stability (AP, FMS, RE)",
+            "reflecting on how the application of a game tactic improved scoring opportunities (AP, FMS, GS)"
+          ]
+        },
+        {
+          "code": "VC2HP4M03",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "demonstrate how movement concepts related to effort, space, time, objects and people can be applied when performing movement skills",
+          "elaborations": [
+            "demonstrating acceleration, deceleration and changing direction of movement in minor games and rhythmic and expressive activities (AP, FMS, GS, RE)",
+            "discussing and demonstrating different levels, movement pathways, and use of space and flow in movement sequences, such as when performing a dance routine to music or a simple gymnastics sequence (FMS, RE)",
+            "using the body to demonstrate an understanding of symmetry, shapes and angles when performing movement skills, balances or movement sequences (AP, FMS, RE)",
+            "exploring different ways of manipulating space to receive passes, maintain possession, or increase or decrease scoring opportunities in invasion, net/court, striking and fielding, and target games (AP, FMS, GS)"
+          ]
+        },
+        {
+          "code": "VC2HP4M04",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "perform movement sequences that link fundamental movement skills",
+          "elaborations": [
+            "performing routines incorporating different jumping, landing and balancing techniques, and connecting movements to create a movement sequence (FMS, RE)",
+            "demonstrating fundamental movement skills in correct sequence to complete a movement task or challenge, such as long jump (FMS, GS, RE)",
+            "performing floor routines using rolling actions, incline, weight transfer, flight and balances (FMS, RE)",
+            "participating in dance routines from or inspired by Aboriginal and Torres Strait Islander Peoples' cultures and different cultures, such as Tinikling from the Philippines, Polynesian dance and Japanese parasol dance (FMS, RE)",
+            "using a surface dive to propel the body underwater to recover an object (FMS, LLPA, S)"
+          ]
+        },
+        {
+          "code": "VC2HP4M05",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Making active choices",
+          "text": "participate in physical activities to explore how their body feels and describe how regular physical activity helps the body stay healthy and well",
+          "elaborations": [
+            "exploring how the body feels before, during and after participating in a variety of physical activities (AP, GS, HBPA, LLPA, RE)",
+            "investigating the types of physical activities people engage in to maintain health, wellbeing and fitness (HBPA)",
+            "performing warm-up and stretching routines to understand how to prepare the body to be active (GS, HBPA, LLPA, S)",
+            "describing their body's differing responses to physical activities such as yoga versus cross-country running (FMS, HBPA, LLPA, RE)",
+            "participating in weight-bearing and high-intensity physical activities such as skipping, running games and climbing activities and explaining how these activities benefit health and physical fitness (HBPA, LLPA)"
+          ]
+        },
+        {
+          "code": "VC2HP4M06",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Making active choices",
+          "text": "participate in physical activities in outdoor environments and aquatic settings to examine contextual factors that can influence their own and others' safe participation",
+          "elaborations": [
+            "participating safely in physical activities in outdoor environments and aquatic settings in the local area and reflecting on the enjoyable components of participation and how to encourage family and friends to participate (AP, CA, HBPA, LLPA, S)",
+            "discussing and acknowledging Aboriginal and Torres Strait Islander Peoples' connection to special places and how these places are linked to physical activities (HBPA)",
+            "participating in outdoor physical activities at home, for example in their backyard and in local parks, and exploring how they can be more active at home using everyday items as equipment (HBPA, LLPA)",
+            "exploring ways in which people can connect with other members of their community through participating in recreation and formal and informal physical activities (HBPA, LLPA, RS)",
+            "participating in physical activities in outdoor environments or aquatic settings where they are challenged to overcome perceived risks, such as safe ways to negotiate climbing equipment (AP, CA, LLPA, S)"
+          ]
+        },
+        {
+          "code": "VC2HP4M07",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Making active choices",
+          "text": "explore recommendations about physical activity and sedentary behaviours, and discuss strategies to achieve the recommendations",
+          "elaborations": [
+            "brainstorming and participating in a range of games and physical activities and identifying those that they enjoy to co-create a bank of movement games that they can play during break times to be more active (AP, HBPA)",
+            "examining the benefits of regular physical activity, including the influence on sleep, concentration and wellbeing, and identifying opportunities when they can be active at school, home and in the community (AP, HBPA, MH)",
+            "exploring recommendations around time spent on screen-based activities in the Australian 24-Hour Movement Guidelines for Children and Young People and developing a plan so they can meet these recommendations (HBPA)",
+            "identifying enablers and barriers to participating in physical activity, such as transport, cost and motivation (HBPA)"
+          ]
+        },
+        {
+          "code": "VC2HP4M08",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Learning through movement",
+          "text": "apply creative thinking skills when solving movement problems",
+          "elaborations": [
+            "applying fundamental movement skills to solve movement challenges such as how to move a ball from one end of a field to the other, how to strike a ball off a tee into space and how to evade an opponent (AP, FMS, GS)",
+            "drawing on prior knowledge from other physical activity experiences to solve challenges faced when participating in outdoor activities, such as initiative games, ropes courses and obstacle courses (AP, CA, FMS, GS)",
+            "developing questions and trialling answers with others as a strategy for solving movement challenges, such as partner or group balance challenges, game tactics to increase scoring chances and obstacle course challenges (AP, CA, GS, RE)",
+            "applying different techniques to propel objects towards targets and determining the best method to improve accuracy (AP, FMS, GS)"
+          ]
+        },
+        {
+          "code": "VC2HP4M09",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Learning through movement",
+          "text": "apply rules and scoring systems to promote fair play and inclusion when participating in or designing physical activities",
+          "elaborations": [
+            "collaborating to decide rules for a new game to promote fair play and inclusion of all learners (AP, FMS, GS, RS, S)",
+            "interpreting and applying rules fairly in physical activities where they are in an officiating role (AP, FMS, GS, RS)",
+            "examining rules and scoring systems used in traditional games of different cultures, including Aboriginal and Torres Strait Islander Peoples, and comparing them to rules and systems used in other games they have played (AP, FMS)",
+            "recognising unfairness and exclusion in a game situation, and proposing strategies to overcome these issues (AP, FMS, GS, S)"
+          ]
+        },
+        {
+          "code": "VC2HP4M10",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Learning through movement",
+          "text": "perform a range of roles in respectful ways to achieve successful outcomes in group or team movement activities",
+          "elaborations": [
+            "using cooperative skills and offering encouragement to successfully complete a movement task, such as a group initiative game, partner passing strategy or team strategy (AP, CA, FMS, GS, RS)",
+            "cooperating with team members and opponents when self-umpiring small-sided games, making decisions and accepting the decisions of others (AP, GS, RS)",
+            "working cooperatively with team members to maintain possession in a game by passing to other players and listening to teammates (AP, GS, RS)",
+            "modifying physical activities to ensure that everyone is included, such as changing equipment, rules or playing space (AP, FMS, RE, RS, S)"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students explain how different contextual factors influence identities. They propose strategies to manage developmental changes and transitions. They explain how stereotypes influence roles and responsibilities. Students propose and apply strategies to demonstrate respect, empathy and inclusion to positively influence relationships. They propose strategies to manage emotions and analyse the influence of these strategies on relationships. They explain how communication skills, protective behaviours and help-seeking strategies can help keep themselves and others safe online and offline. Students analyse health information to refine strategies that can enhance their own and others' health, safety, relationships and wellbeing.\nStudents refine and modify movement skills and apply movement concepts across a range of situations. They transfer movement strategies between situations and analyse the impact on movement outcomes. They apply the elements of movement when creating movement sequences. Students analyse the body's response to physical activity of varying intensity. They propose strategies to promote safe physical activity participation that enhance health and wellbeing. Students describe contributions they can make as a group and team member to support fair play and inclusion across a range of movement contexts.",
+      "contentDescriptions": [
+        {
+          "code": "VC2HP6P01",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Identities and change",
+          "text": "explain how identities can be influenced by people and places, and how we can create positive self-identities",
+          "elaborations": [
+            "explaining how influential people may impact the way individuals see themselves and influence their developing identities, for example parents, friends, coaches, sporting role models and influencers (MH, RS)",
+            "investigating how Aboriginal and Torres Strait Islander Peoples identify within and across communities through connection to Country and Place, for example the 5 language groups of the Kulin Nation (MH)",
+            "examining how beliefs and cultural practices convey meanings for cultural groups, including Australians of Asian heritage, and contribute to the development of positive self-identities (MH)",
+            "exploring how connection to people and places can influence personal and cultural identities over time, for example how relationships and experiences influence self-esteem (MH, RS)",
+            "exploring the positive impact of celebrating strengths and differences, rather than comparing skills, abilities and appearances (MH)"
+          ]
+        },
+        {
+          "code": "VC2HP6P02",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Identities and change",
+          "text": "investigate resources and strategies to manage changes and transitions, including changes associated with puberty",
+          "elaborations": [
+            "understanding that experiences of puberty differ, and that the resources and strategies chosen to manage these changes are personal (RS)",
+            "examining the strategies and range of products and resources available to manage the physical changes associated with puberty, including products for managing personal hygiene and menstruation (RS)",
+            "understanding that physical changes experienced during puberty are linked to rites of passage ceremonies in many Aboriginal and Torres Strait Islander communities (RS)",
+            "analysing how roles and responsibilities change as people grow older and examining strategies for managing these increasing responsibilities (RS)",
+            "examining how the developmental changes that occur through puberty prepare a person's body for reproduction (RS)"
+          ]
+        },
+        {
+          "code": "VC2HP6P03",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Identities and change",
+          "text": "investigate how the portrayal of societal roles and responsibilities can be influenced by gender stereotypes",
+          "elaborations": [
+            "identifying characters in texts who are not constrained by traditional gender stereotypes and how this influences their choices, actions and wellbeing (RS)",
+            "questioning the fairness of gender roles and proposing ways to challenge those practices that infringe on an individual's human rights (MH, RS)",
+            "investigating how social and cultural norms about gender can influence the roles and responsibilities of family members and people within their community (RS)",
+            "identifying those gender norms that can have limiting and harmful effects, and proposing strategies to advance gender equality and respect for human rights (MH, RS)"
+          ]
+        },
+        {
+          "code": "VC2HP6P04",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "describe and demonstrate how respect and empathy can be expressed to positively influence relationships",
+          "elaborations": [
+            "exploring strategies for managing the changing nature of relationships such as starting a new school, changing priorities or interests, family break-up/separation or joining a new sports team (RS)",
+            "recognising how words and labels used to refer to Aboriginal and Torres Strait Islander Peoples and other cultural groups can cause offence and how this awareness can support and strengthen respectful relationships (RS)",
+            "examining the behaviours people demonstrate when treating others in respectful ways, and comparing these to behaviours that constitute forms of bullying, racism or gender-based violence (RS, S)",
+            "assessing the impact of different relationships on personal health and wellbeing, and developing strategies to cultivate healthier relationships (MH, RS)"
+          ]
+        },
+        {
+          "code": "VC2HP6P05",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "describe and implement strategies to value diversity in their communities",
+          "elaborations": [
+            "proposing strategies to help others understand points of view that differ from their own and to encourage discussion about individual and cultural similarities and differences, to tackle discrimination such as sexism, racism and homophobia (RS, S)",
+            "exploring initiatives that sporting and cultural groups use to celebrate diversity, counter discrimination and racism, and support the wellbeing of their communities (MH, RS, S)",
+            "discussing the role upstanders can play in promoting respectful interactions and challenging disrespect and discrimination such as homophobia, transphobia, racism and that which is appearance-based (RS, S)",
+            "discussing and acknowledging the importance of cultural expressions of Aboriginal and Torres Strait Islander Peoples in maintaining a continuing deep connection to Country and Place and its influence on wellbeing (MH, RS)",
+            "examining how beliefs, values and cultural practices convey meaning and influence people's sense of identity and belonging (MH, RS)"
+          ]
+        },
+        {
+          "code": "VC2HP6P06",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "apply strategies to manage emotions and analyse how emotional responses influence interactions",
+          "elaborations": [
+            "exploring the emotions associated with feeling unsafe or uncomfortable and proposing strategies to manage these situations (MH, S)",
+            "analysing situations in which emotions can influence decision-making, including in peer-group, family and movement situations (MH)",
+            "exploring when emotional responses can be intense or unpredictable and practising strategies to self-regulate and manage expression of strong emotions (MH)",
+            "analysing how appropriate emotional responses have a positive impact on relationships (MH, RS)"
+          ]
+        },
+        {
+          "code": "VC2HP6P07",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Interacting with others",
+          "text": "describe strategies for seeking, giving or denying consent and rehearse how to communicate their intentions effectively and respectfully across multiple settings (including online and offline)",
+          "elaborations": [
+            "exploring the steps of seeking, giving or denying consent (asking, responding, listening and reacting) and practising how to communicate their intentions effectively at each step (RS)",
+            "practising and refining strategies for interpreting verbal and non-verbal cues related to seeking, giving and denying consent in a range of situations, including online (RS, S)",
+            "analysing how a person may react to being denied permission to do something (for example feelings of shame and anger associated with rejection) and discussing options for dealing with situations when this may occur (RS, S)",
+            "exploring strategies for effective decision-making (problem, choice, decision) when giving or denying consent (RS)"
+          ]
+        },
+        {
+          "code": "VC2HP6P08",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Contributing to healthy communities",
+          "text": "explain and apply protective behaviours and help-seeking strategies that can be used in a range of online and offline situations at home, school and in the community",
+          "elaborations": [
+            "researching sources of health information and places where they can seek help at home, school and in the community, and prioritising those that are reliable and trustworthy, such as trusted adults, Kids Helpline, GPs, headspace, local council services and government websites (MH, S)",
+            "examining ways to normalise and de-stigmatise help-seeking behaviour so they feel comfortable and confident seeking help when needed (MH, S)",
+            "discussing strategies for maintaining online safety when using digital tools and digital media, including the options and processes for reporting negative or harmful behaviour (S)",
+            "exploring actions they can take when they feel unsafe when online, for example who to speak to if someone posts an embarrassing picture of them without permission or when to step away from negative online social interactions (RS, S)",
+            "describing strategies they can use if they witness others in unsafe situations, such as accessing support networks or telling an adult they trust (RS, S)",
+            "identifying and practising appropriate responses to unsafe situations, such as smoking and vaping (AD, S)"
+          ]
+        },
+        {
+          "code": "VC2HP6P09",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Contributing to healthy communities",
+          "text": "investigate different sources, quality and types of health information and how these apply to their own and others' health choices",
+          "elaborations": [
+            "examining how family, friends, media and public identities may influence the way people act and the choices they make in relation to their health (AD, FN, MH, RS, S)",
+            "analysing the nutrient value of a variety of foods and discussing how different foods can nourish and fuel the body for daily activity, growth and strength (FN)",
+            "identifying trusted people in their lives with whom they can share their health needs and concerns, and rehearsing ways to communicate concerns about their health to a variety of support people (AD, MH, RS, S)",
+            "examining and comparing relevant health information and opinions, and identifying which aspects can be verified as accurate and reliable (MH, S)"
+          ]
+        },
+        {
+          "code": "VC2HP6P10",
+          "strand": "Personal, Social and Community Health – Health Education",
+          "subStrand": "Contributing to healthy communities",
+          "text": "analyse how various strategies influence the health, safety, relationships and wellbeing of individuals and communities",
+          "elaborations": [
+            "recognising actions that can help keep classmates safe, including strategies to reduce potential for contamination, infection and anaphylaxis (RS, S)",
+            "investigating school and community practices that help promote and maintain health and wellbeing, such as eating a wide variety of nutritious foods, meeting recommendations for daily physical activity and creating connections with others to enhance social health (FN, HBPA, RS)",
+            "discussing and understanding how kinship and extended family structures for Aboriginal and Torres Strait Islander Peoples support and enhance their health, safety and wellbeing (RS, S)",
+            "scripting and rehearsing assertive communication techniques that can be used in a range of situations where they may be asked to do something they don't believe is appropriate, such as smoking, vaping or drinking alcohol (AD, S)",
+            "proposing and implementing strategies to create positive peer environments in online environments (such as evaluating the impact of 'character' behaviour when gaming with peers) and in person, to raise awareness of the harmful impact of name-calling and other verbally abusive behaviour (S)",
+            "selecting and practising appropriate strategies to promote safety in different situations, including in the home and in water- and traffic-related situations (S)"
+          ]
+        },
+        {
+          "code": "VC2HP6M01",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "adapt movement skills across a variety of situations, including indoor, outdoor and aquatic settings",
+          "elaborations": [
+            "applying stability and locomotor skills to dodge and feint in different movement situations (AP, FMS, GS)",
+            "performing activities that involve a transition from one skill to another, such as from dribbling to shooting or from leaping to balancing, in changing movement situations (CA, FMS, GS, RE)",
+            "adapting kicking, striking and throwing skills to a variety of new games and activities (AP, FMS, GS)",
+            "combining surface propulsion and underwater skills in an aquatic environment (FMS, HBPA, LLPA, S)",
+            "using feedback to improve body control and coordination (AP, CA, FMS, GS)"
+          ]
+        },
+        {
+          "code": "VC2HP6M02",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "transfer familiar movement strategies to different movement situations",
+          "elaborations": [
+            "transferring defensive or offensive strategies that have been successful in one game to a similar game and considering the effectiveness of these strategies on movement outcomes in the new game (AP, FMS, GS)",
+            "examining and demonstrating how strategies used in one physical activity can be transferred to a new movement situation, such as hitting a ball into space in striking and fielding games and hitting a badminton shuttle into space on the opponent's court (AP, CA, GS)",
+            "transferring strategies to safely traverse obstacles in an outdoor environment (CA)",
+            "making judgements, based on agreed criteria, about the effectiveness of transferring strategies from one game to another (AP, GS)"
+          ]
+        },
+        {
+          "code": "VC2HP6M03",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "investigate how different movement concepts related to effort, space, time, objects and people can be applied to improve movement outcomes",
+          "elaborations": [
+            "demonstrating an understanding of how to adjust the force and speed of an object to improve accuracy and control (AP, FMS, GS)",
+            "working with a partner to explore pushing and pulling movements and how these can be manipulated to generate and perform counterbalances (RE, RS)",
+            "developing strategies that exploit the playing space to create offensive or defensive advantage (AP, GS)",
+            "adjusting constraints within a small-sided game to increase or decrease the time available for an attacker to make decisions when executing a movement skill (AP, GS)"
+          ]
+        },
+        {
+          "code": "VC2HP6M04",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Moving our bodies",
+          "text": "create and perform a variety of movement sequences, modifying the movement elements of time, effort, space, people and objects",
+          "elaborations": [
+            "composing movement sequences including balances to travel from point to point (FMS, RE)",
+            "creating a movement sequence that demonstrates variations in flow and levels, and involves individuals moving together in time (FMS, RE)",
+            "experimenting with different music genres such as Indian bhangra music when performing creative dances (RE)",
+            "creating a movement sequence using equipment that shows changes in speed, direction and levels, such as on a beam, with a skipping rope or on an obstacle course (CA, FMS, RE)",
+            "composing and performing a range of static and dynamic balances on different body parts, rotating and pivoting to change direction of movement (FMS, RE)",
+            "modifying the elements of movement when performing athletic movement sequences such as those for long jump and hurdles (FMS, GS)"
+          ]
+        },
+        {
+          "code": "VC2HP6M05",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Making active choices",
+          "text": "participate in physical activities to investigate the body's response to different levels of intensity",
+          "elaborations": [
+            "performing activities of different intensities and measuring breathing rate, heart rate and other body responses to categorise activities into low, moderate and high intensity (HBPA)",
+            "participating in physical activity circuits to explore how the body feels before, during and after participation (HBPA, LLPA)",
+            "designing and modelling different warm-up and cool-down routines for the class and discussing their importance for reducing the chance of injuries or soreness after activity (HBPA, LLPA, S)",
+            "participating in and designing physical activity opportunities that support their health and/or fitness goals (HBPA, LLPA)"
+          ]
+        },
+        {
+          "code": "VC2HP6M06",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Making active choices",
+          "text": "participate in physical activities that enhance health and wellbeing in outdoor environments and aquatic settings and investigate the steps and resources needed to promote safe participation",
+          "elaborations": [
+            "analysing how access to outdoor environments can influence participation in physical activities and enhance health and wellbeing (CA, HBPA, LLPA, MH)",
+            "discussing how a connection to a community space can influence the types of physical activity people will choose to participate in, such as links to skate parks, surf beaches or bushwalking trails (CA, HBPA, LLPA, MH)",
+            "participating in a swimming and water safety program at a local pool or beach environment and discussing how they can access aquatic environments safely and the different types of activities that can be undertaken in these environments (CA, HBPA, LLPA, S)",
+            "exploring sociocultural factors that have an effect on enhancing health and wellbeing, such as community, peers, family, friends and cultural traditions (HBPA)"
+          ]
+        },
+        {
+          "code": "VC2HP6M07",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Making active choices",
+          "text": "explore strategies to increase physical activity and reduce sedentary behaviour levels in their lives",
+          "elaborations": [
+            "creating and participating in an activity circuit they could replicate at home that is designed to improve health-related fitness (HBPA, LLPA)",
+            "examining the benefits of physical activity for social health and mental wellbeing, and researching options for participating in physical activities in the local area, such as at school, local swimming pools, parks, gymnasiums and yoga studios (HBPA, LLPA)",
+            "investigating the resources needed and steps required to set up a lunchtime sports competition, activity circuit or playground games aimed at increasing levels of physical activity among students and staff (AP, GS, HBPA)",
+            "creating and participating in age-appropriate physical activities for whole-school/class theme days such as AFL days, mini Olympics and National HPE Day (AP, GS, HBPA)",
+            "researching the Australian 24-Hour Movement Guidelines for Children and Young People, comparing individuals' daily habits of physical activity to the recommendations and proposing strategies for enhancing or maintaining their levels of activity (HBPA, LLPA)"
+          ]
+        },
+        {
+          "code": "VC2HP6M08",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Learning through movement",
+          "text": "predict and test the effectiveness of applying different skills and strategies in a range of movement situations",
+          "elaborations": [
+            "predicting and systematically testing a range of solutions to unfamiliar movement challenges, such as kicking a ball with different techniques and applying skills and strategies in different target games, to find out which solution is most appropriate or effective (AP, CA, FMS, GS)",
+            "adapting movement skills and strategies from other contexts to generate creative solutions to unfamiliar movement challenges when participating in activities such as frisbee golf or tchoukball (AP, CA, FMS, GS)",
+            "co-developing criteria to assess effectiveness of responses to movement challenges, predicting the effectiveness of each, then testing and refining solutions against the criteria in order to achieve successful outcomes (AP, CA, FMS, GS)"
+          ]
+        },
+        {
+          "code": "VC2HP6M09",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Learning through movement",
+          "text": "devise and test rules and game modifications to support fair play and inclusive participation",
+          "elaborations": [
+            "discussing where and when they have witnessed fairness and inclusion in a game situation and explaining what led to the game being inclusive and fair (AP, GS)",
+            "investigating the effectiveness of rules used in traditional games of Aboriginal and Torres Strait Islander Peoples to promote participation, such as inkanyi (a cooperative running game played by the Pitjantjatjara and Yankunytjatjara Peoples of central Australia in which there are no winners) and barambah gimbe (a throwing and catching game from the lands of the Wakka Wakka People in which catchers can be nominated to increase participation) (AP, FMS)",
+            "proposing changes to the rules and/or conditions to create a more inclusive game or to allow for a fairer contest, such as modifying field, court or pitch dimensions (CA, GS, LLPA, S)",
+            "interpreting and applying rules correctly in physical activities (GS, LLPA)"
+          ]
+        },
+        {
+          "code": "VC2HP6M10",
+          "strand": "Movement and Physical Activity – Physical Education",
+          "subStrand": "Learning through movement",
+          "text": "participate positively in groups and teams by contributing to group activities, encouraging others and negotiating a range of roles and responsibilities",
+          "elaborations": [
+            "exploring and performing the different roles and responsibilities in physical activities that promote enjoyment, safety and positive outcomes for participants (AP, GS, LLPA, S)",
+            "using reflective listening and respectful communication when working in small groups on movement tasks or challenges (AP, GS, LLPA, RS)",
+            "exploring and performing the duties and responsibilities of different roles for a range of physical activities (CA, GS, LLPA, RS)",
+            "demonstrating effective communication skills when dealing with conflicts or disagreements in movement situations (AP, CA, GS, RS)",
+            "proposing and implementing actions and behaviours that promote safe participation in physical activities (CA, GS, HBPA, LLPA, S)"
+          ]
+        }
+      ]
+    }
+  ]
+}

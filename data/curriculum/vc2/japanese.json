@@ -1,0 +1,596 @@
+{
+  "subject": "Japanese",
+  "slug": "japanese",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the Japanese language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes and discovering how languages are influenced by each other. They explore Japanese through play, first imitating sounds and patterns, then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that Japanese uses 3 scripts: Hiragana, Katakana and Kanji. They can match words with images and combine them to create meaning. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken Japanese. They expand their repertoire of Japanese words and phrases through listening and reading, and then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of Japanese using simple metalanguage. They start to develop written competence by copying simple, frequently used Kanji, then Hiragana and then some simple Katakana to produce words and phrases with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the written Japanese language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that Japanese is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s).",
+      "contentDescriptions": [
+        {
+          "code": "VC2LJ2E01",
+          "strand": "Engaging with Japanese Language and Culture",
+          "subStrand": "Engaging with Japanese language",
+          "text": "notice that Japanese looks and sounds different to other languages",
+          "elaborations": [
+            "creating or using visual flashcards with Kanji and/or Hiragana, comparing them with alphabets and other writing systems from around the world, and noticing how Japanese looks and sounds different from other languages",
+            "singing familiar nursery rhymes such as 'Mary had a little lamb', 'Head, shoulders, knees and toes' and 'Twinkle, twinkle, little star' in Japanese, and discovering differences and similarities in how they sound, even though the lyrics may share the same meaning in English",
+            "listening to audio recordings of basic Japanese words such as colours, phrases such as greetings, nursery rhymes and animal sounds, and developing active listening skills by noticing the different sounds and pronunciation compared to English and/or other languages",
+            "practising gestures such as bowing during Japanese greetings, and exploring the different types of bows used in various situations",
+            "playing with and using tactile materials to create Japanese scripts, for example, forming Kanji numbers or Hiragana using plasticine, chalk writing on the pavement, or painting with water, and making pictures out of characters to be displayed around the classroom",
+            "noticing differences and similarities among the English alphabet, and Hiragana, Katakana and Kanji, through visual cues and prompting from the teacher, for example, 'Hiragana looks curly'; 'Kanji has straight lines and different parts'",
+            "recognising symbols and how pattern systems work, understanding how sound can be represented in different writing systems, for example, pointing to the text while reading a story to the class",
+            "discussing familiar words of Japanese origin that they may have heard before (e.g. sushi, karate, anime), and how these words sound and look in Japanese and English",
+            "participating in a guided group activity, naming some similarities and differences between Japanese and English (e.g. appearance, sound, scripts, politeness), and viewing the responses collated by their teacher in a Venn diagram or image to display in the classroom",
+            "responding to Japanese versions of familiar children's stories and folktales, identifying expressions and key points in the story, comparing them with the English-language versions, and re-enacting the stories with puppets, props or actions"
+          ]
+        },
+        {
+          "code": "VC2LJ2E02",
+          "strand": "Engaging with Japanese Language and Culture",
+          "subStrand": "Engaging with Japanese language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "playing and experimenting with language through participating in songs, dances, rhymes and games, and creating mnemonic devices",
+            "copying gestures and facial expressions, for example, recognising personal space, sitting in seiza pose, bowing, using both hands to give and receive, waving their hand for 'no' or to come, pointing to their nose to indicate 'me', counting on their hands using the Japanese gestures, and diverting eye contact",
+            "responding to spoken language and instructions through movement or creative expression, for example, counting with their fingers to a number song, or acting, gesturing or miming to respond or match meaning",
+            "participating in guided group activities and simple tasks such as games, crafts and role-plays, using movement, gestures, props, toys, images and/or digital tools to support understanding and convey meaning",
+            "engaging in shared listening, reading and viewing of texts, and discussing their reactions and the themes, familiar keywords and phrases",
+            "listening to and retelling Japanese folktales and well-known children's stories such as 「大きなかぶ」, 「三匹のこぶた」, 「いっすんぼうし」 and 「ももたろう」, and noticing the rhythm, intonation and vocabulary of the Japanese language",
+            "sitting in a circle on the floor and using Japanese words to describe the colour(s) of random objects given to them",
+            "sounding out words displayed by their teacher in simple Kanji characters (e.g. 犬, 人, 山, 川, 口) to learn the vocabulary in Japanese",
+            "locating familiar keywords and information in activities such as group reading, matching flashcards, drawing lines to images or objects, colouring, or filling in the blanks",
+            "linking movement to meaning by creating a dance or actions that match spoken language or songs"
+          ]
+        },
+        {
+          "code": "VC2LJ2E03",
+          "strand": "Engaging with Japanese Language and Culture",
+          "subStrand": "Engaging with Japanese language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "using Japanese for everyday routines and interactions, for example, はい、います／いいえ、いません for roll call, and いただきます and おいしい during meals",
+            "using appropriate forms of address and formal/informal greetings in games and everyday routines, for example, せんせい、おはようございます; ピーターさん、おはよう; さようなら; バイバイ; こんにちは",
+            "greeting each other at the beginning and end of class using appropriate gestures such as bowing and simple phrases such as おはようございます, こんにちは, ありがとう, バイバイ and さようなら",
+            "responding to images of different times of the day, greeting others at different times, and verbalising which greeting is most appropriate and why",
+            "participating in games such as guessing and matching simple words, and responding in Japanese, for example, なんですか。～です。; ～ですか。はい。／ちがいます。",
+            "surveying each other to discover their likes and dislikes in Japanese, for example, りんごが好きですか。はい、好きです。／いいえ、好きじゃないです。 or simply responding with はい／いいえ or 好き／好きじゃない",
+            "playing movement games (e.g. fruit basket, 4 corners), listening to the teacher pronouncing Japanese words and practising saying them aloud during the game",
+            "recognising and responding to language in everyday scenarios, for example, setting up a pretend grocery store where the shopkeeper greets customers with いらっしゃいませ, and the customers respond with simple one- or 2-word requests such as これ、ください",
+            "recognising and responding to Japanese in everyday routines and interactions using simple phrases spontaneously, such as はい, いいえ, ありがとう, もういっかい and すみません",
+            "responding with a simple phrase or word to describe pictures of different activities in a day, for example, いただきます／ごちそうさまでした to a picture of someone eating, or ごめんなさい／すみません to a picture of someone apologising"
+          ]
+        },
+        {
+          "code": "VC2LJ2E04",
+          "strand": "Engaging with Japanese Language and Culture",
+          "subStrand": "Engaging with Japanese culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "acknowledging and celebrating linguistic and cultural diversity, for example, listening to the different sounds and ways of saying common expressions in different languages, or celebrating different events",
+            "participating in whole-class discussions about the meaning of 'culture' and 'identity', talking about their traditions, practices, and what is important to them and their way of life",
+            "recognising that Japanese is another language, and understanding that it is spoken by people in Japan and other countries, including Australia",
+            "identifying items in Australian culture that come from Japan, for example, food, art, origami, martial arts such as judo and karate, and popular culture such as anime and manga",
+            "exploring common Japanese symbols, mascots (ゆるキャラ), emblems and characters, and how they relate to culture, tradition and beliefs, such as the origami crane, cherry blossom, samurai, Kumamon, Miraitowa, Maneki Neko and kimono",
+            "engaging actively in, and sharing the enjoyment of, language, culture and texts in a range of ways, for example, listening and responding to stories, cultural displays and experiences",
+            "observing similarities and differences between classroom interactions in Japanese and English, for example, referring to the teacher using only せんせい",
+            "celebrating holidays and festivals such as せつぶん, ひなまつり, こどもの日 and たなばた, and exploring the associated traditions and Japanese terms, for example, while discussing Children's Day, learning words such as koi, colours to describe carp streamers and numbers to count them, the festival month (ごがつ) and simple phrases (e.g. たのしい／おいしいです)",
+            "using their imagination to immerse themselves in a cultural experience, for example, pretending to travel in Japan on a bullet train, buying a きっぷ or えきべん, and practising polite language in various situations (e.g. ありがとう／すみません)",
+            "participating in a whole-class discussion about the differences between their own culture(s) and Japanese culture, sharing insights about how they celebrate events such as birthdays, Christmas and New Year, and comparing this to how they are celebrated by Japanese speakers"
+          ]
+        },
+        {
+          "code": "VC2LJ2C01",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Interacting in Japanese",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "greeting others by bowing, and using simple language, phrases and appropriate gestures, for example, おはようございます／おはよう; こんにちは; もしもし; さようなら／またあした／じゃまたね／バイバイ",
+            "using culturally appropriate titles, forms of address and levels of politeness in everyday interactions with others, for example, 〜せんせい/〜くん/〜ちゃん/〜さん; おはようございます／おはよう",
+            "listening and responding to simple oral instructions in class when playing games, completing work, or getting ready for or finishing class, for example, たってください; すわってください; きいてください; みてください; とまってください",
+            "recognising and responding to Japanese in everyday routines and interactions using phrases, for example, はい、います／いいえ、いません for the roll call; いだだきます, おいしい and ごちそうさま when eating; いってきます and ただいま when entering and leaving the class; はい and いいえ for yes and no; すばらしい！ and かわいい！ for reactions; うれしい to express feelings; わたしの～ to indicate ownership",
+            "introducing themselves in a 'first meeting' scenario using appropriate gestures such as bowing, using the appropriate formulaic phrases for the situation, such as はじめまして。 [family name, given name] です。どうぞよろしく。 and specific pronouns わたし／ぼく, exchanging a created めいし and indicating themselves by touching their nose",
+            "using modelled structures to share basic personal information (e.g. name, age, nationality, family details) with others, for example, ハリーです。オーストラリア人です。七さいです。",
+            "engaging in games such as swat it, using a fly swatter to swat greeting flashcards that match the words called out by the teacher",
+            "using digital tools and rehearsed language to match words and phrases to images such as animals (e.g. いぬ, ねこ), fruits (e.g. もも,りんご), or numbers and quantity (e.g. にこ, さんこ, 七さいです, かぞくは五人です)"
+          ]
+        },
+        {
+          "code": "VC2LJ2C02",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Interacting in Japanese",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "participating in language-focused board games, using formulaic expressions, and responding to visual and spoken cues, for example, expressing excitement (やった！) or disappointment (ざんねん！／まけた！), and using つぎ to indicate the next player's turn",
+            "responding to simple statements about themselves and their friends, likes/dislikes, family and pets, for example, making groups according to statements (e.g. 六さいの人; かぞく五人の人)",
+            "participating in games, tasks and activities that involve guessing, matching and choosing cards or objects (e.g. bingo, snap, go fish), using modelled questions and responses, for example, 犬ですか; はい／いいえ; はい、犬です／いいえ、犬じゃないです",
+            "engaging in role-plays and using formulaic expressions and cues for different situations, for example, using common phrases and visual cues to act as customers and servers in a restaurant, such as いらっしゃいませ; 〜をください; はい、どうぞ",
+            "singing and responding to action songs in a group, for example, singing 「むすんでひらいて」; 「ひげじいさん」; 「きらきらぼし」; 「大きなくりの木の下で」; 「あたま・かた・ひざ・ポン」; 「パンダ・うさぎ・コアラ」",
+            "practising tongue twisters such as なまむぎなまごめなまたまご and あかパジャマきパジャマちゃパジャマ",
+            "participating in ラジオたいそう to practise counting numbers and using simple words such as 右, 左, 下 and 前",
+            "engaging in a くみたいそう (group exercise routine) with a 'leader' repeating words and exercises, or making their own routines in groups using simple words, numbers and movements",
+            "taking part in a guided role-play or skit in a shop or at the market, for example, バナナをください; はい、五十えんです; どうぞ; ありがとうございます",
+            "teaching a song or simple game to a buddy class or visitors, using familiar language and actions, for example, じゃんけんぽん"
+          ]
+        },
+        {
+          "code": "VC2LJ2C03",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with the Hiragana chart as support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "listening to and/or locating information in texts, such as colour (e.g. あか, あお, しろ, くろ, きいろ), size (e.g. 大きい, 小さい) and shape (e.g. まる, さんかく, しかく), and using it in guided drawing, building or collecting activities, for example, building a tower with coloured blocks in the order of colours they hear",
+            "developing reading strategies by comparing words within a wordlist (e.g. あかい, あおい, しろい, くろい, きいろい), identifying known Hiragana, and using the context to support the making of meaning",
+            "reading short texts or passages that include Hiragana, using the Hiragana chart to help understand unfamiliar words and find important information in the text, and playing the Hiragana hunt game to find as many Hiragana as they can in the text, for example, 'Find all of the に in the text'",
+            "listening to a Hiragana sound and identifying words that contain that Hiragana character within a text",
+            "exploring frequently used Kanji (e.g. 一, 二, 三, 山, 川, 木, 林, 森, 目, 耳, 口, 大, 小, 同), and creating posters or flashcards using mnemonic stories and images to remember the shape, sound and meaning of the Kanji",
+            "recognising keywords and points in a variety of texts, helping their understanding with visual cues such as gestures and facial expressions, for example, listening to a teacher or older student read a book out loud and responding to questions (e.g. なに, なん, いつ, どこ, だれ)",
+            "demonstrating understanding of a text through gestures, for example, acting out scenes or performing actions that represent key information or events from the text (e.g. りんごをたべます; はをみがきます; おきます; ねます)",
+            "identifying words and characters written in Japanese, and then playing digital or card games (e.g. snap or memory) that involve matching images with their corresponding words in Hiragana",
+            "listening to a song or story with some unfamiliar language and guessing the meaning based on the context, for example, 'What do you think ほんとうに might mean?'",
+            "using information from print or digital texts and sequencing pictures, keywords or simple sentences in chronological order, or retelling a story by creating a storyboard, diagram or digital display"
+          ]
+        },
+        {
+          "code": "VC2LJ2C04",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in Japanese through play, and discover how languages influence each other",
+          "elaborations": [
+            "creating Kanji stones by writing the Kanji character on one side and drawing the meaning on the other, and then playing games with the stones",
+            "playing games using familiar objects or words in Japanese, for example, matching words with pictures or objects, saying the words aloud as they match",
+            "discovering loan words or borrowed phrases in Japanese from other languages and discussing how they are similar or different in pronunciation, meaning or usage",
+            "creating a simple poster or mini-booklet to help remember words and phrases related to the unit of work",
+            "playing digital, card or board games (e.g. memory, ninjas and castles / snakes and ladders, sugoroku) to practise saying and reading new Kanji, Hiragana and vocabulary",
+            "participating in a nature hunt, walking around the school grounds identifying insects or objects, and describing them in Japanese (e.g. しろい cloud; みどりの tree; 大きい worm; 小さい ladybug), and drawing their discoveries in a table under the heading 大きい／小さい",
+            "engaging in playful activities such as guessing games to explore sounds in Japanese, for example, imitating animal sounds such as ニャーニャー or ワンワン",
+            "playing onomato-match: listen to onomatopoeia, matching them to the images based on the sound, and creating hand actions or gestures to match, for example, てくてく (person walking); とことこ (insect scurrying); のしのし (crocodile lumbering)"
+          ]
+        },
+        {
+          "code": "VC2LJ2C05",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Creating text in Japanese",
+          "text": "create spoken and written texts using words, familiar phrases and modelled language that include Hiragana, some simple Katakana and frequently used Kanji",
+          "elaborations": [
+            "using simple language structures and supporting images or actions to describe and respond to imaginary characters or experiences (e.g. おばけ／おに／かっぱ／たぬき／ようかいです)",
+            "creating and illustrating a 'Big Book' with the class by drawing pictures and writing using simple, modelled structures about familiar topics such as favourite animals (e.g. かえるです; みどりです), and practising reading aloud",
+            "drawing pictures showing their daily routines, and adding words that match each activity, for example, おはよう in the morning; こんにちは at lunchtime; いただきます and ごちそうさまでした at meals; さようなら or バイバイ after school",
+            "learning about characters from a story by talking or writing about them, for example, describing the characters' names, appearance or roles in the story using simple words, practising writing the names using different scripts (Hiragana, Katakana or Kanji)",
+            "using craft items (e.g. string, rice, playdough) or digital tools (e.g. interactive whiteboard) to make, trace or copy Hiragana words and Kanji characters",
+            "beginning to copy or write individual Hiragana and Kanji (e.g. 人, 木, 山, 月, 日, 三) and short Hiragana words to construct simple texts such as comic strips, labels, captions and posters",
+            "creating a personal profile or an 'about me' poster supported by images or photos, using simple, guided sentences (e.g. 私／ぼくは〜です。〜さいです。〜が好きです。), and practising reading them aloud",
+            "creating their own short print or digital story modelled on shared reading, for example, a だるまさん story with images and labels in Hiragana",
+            "using some simple expressions, formulaic language and techniques to enhance texts, for example, speech bubbles, basic onomatopoeia and exclamation marks",
+            "creating a mini-scroll using simple calligraphy (e.g. 日本, 火山, 父の日) and decorating it with related images"
+          ]
+        },
+        {
+          "code": "VC2LJ2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of spoken Japanese, and use the Hiragana chart to understand how sounds are produced and represented",
+          "elaborations": [
+            "listening to and imitating Japanese speakers or recorded audio passages to practise pronunciation and intonation in Japanese",
+            "singing songs or repeating language after the teacher with a focus on practising and pronouncing the 5 vowel sounds and consonant+vowel sounds, using the Hiragana chart and flashcards as support",
+            "clapping out the number of sounds in Japanese words which can be recognised as syllables in English (e.g. saying the word おすし and clapping 3 times), and recognising the concept of mora (モーラ or 拍(はく)), the basic unit of sound in Japanese, for example, clapping out each mora in a Japanese word and guessing the number of moras by closing their eyes and holding up one finger per mora (e.g. 3 claps for いいえ, which has 3 moras)",
+            "understanding that when pronouncing Japanese, it is important to pronounce each mora as one beat, practising with tongue twisters such as あかパジャマ、きパジャマ、ちゃパジャマ",
+            "understanding that the independent nasal sound ん has a mora of its own, for example, こんにちは, and playing a game of しりとり with a list of familiar words such as animal names, trying to avoid ending the game with a word finishing in ん",
+            "learning that statements and questions have different intonation patterns, and using gestures to indicate the intonation patterns they hear, for example, moving the arm up as the intonation rises",
+            "using or creating their own mnemonic devices to remember the sounds and shapes of Hiragana by associating them with pictures (e.g. こ for coin), understanding that one Hiragana represents a mora, for example, showing on the Hiragana chart how each character represents one sound"
+          ]
+        },
+        {
+          "code": "VC2LJ2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "playing games to identify sound combinations and create simple words, for example, combining Hiragana cards or blocks to make words",
+            "guessing similar-sounding words on the whiteboard or a worksheet to learn sound combinations and simple words, for example, after learning how to read か, gathering words that start with the ka sound and combining them with other sounds to form words (e.g. かさ, かめ, かね, かき), and highlighting all the か",
+            "following instructions such as みて, きいて, かいて and よんで, and adding ください once they are familiar with the words",
+            "participating in craft activities, such as creating simple origami cats, dogs and fish, while learning the Japanese words いぬ, ねこ and さかな",
+            "learning simple phrases such as ありがとう and おはよう, and once they are comfortable with them, creating the polite form by adding ございます",
+            "completing word searches for frequently used words, starting with easy words and then gradually more challenging ones",
+            "playing word or scavenger hunts, where they search for specific words or phrases in books, magazines or other written materials",
+            "combining Kanji to create new meanings and exploring how the sounds change, for example, 火 and 山 = 火山; 竹 and 林 = 竹林"
+          ]
+        },
+        {
+          "code": "VC2LJ2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how Hiragana, Katakana, Kanji and features of language are used to construct meaning in Japanese",
+          "elaborations": [
+            "engaging in activities that involve recognising Japanese scripts (Hiragana, Katakana and Kanji) through visual aids (e.g. flashcards, interactive whiteboards) showing authentic visual texts (e.g. billboards, shopfront signs, advertisements, labels), and discussing their meanings",
+            "creating drawings or illustrations that represent the meaning of specific Kanji characters, for example, drawing a picture of a tree to match the character 木",
+            "understanding that Japanese uses 3 different scripts for varied purposes, that each script looks different, and that the script is chosen depending on word origins and context; and viewing a children's picture book to search for the different types of script",
+            "recognising that adjectives are used to describe people, places and things, for example, matching simple adjectives to pictures (e.g. 大きい, 小さい)",
+            "applying basic stroke order, with support, when copying, tracing and writing some Hiragana and simple Kanji, for example, numbering strokes or using different coloured pencils",
+            "using basic particles as part of formulaic language, and recognising particles written in Hiragana",
+            "noticing that Japanese texts can be presented in different ways, for example, exploring examples of texts that are read from right to left then top to bottom, or from top to bottom then left to right",
+            "counting in Japanese from 1 to 20, and using numbers with counter classifiers to express the ages and number of family members (e.g. 〜さい; 〜人)",
+            "using これ and か as formulaic language to ask and respond to questions, for example, これはなんですか。これはねこです。",
+            "recognising some familiar words in Hiragana, Katakana and Kanji, for example, numbers and pictographs (e.g. 山, 川, 口, 目, 上), and using visual and oral clues to predict the meaning"
+          ]
+        },
+        {
+          "code": "VC2LJ2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that written and spoken Japanese has grammatical structures and other language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "recognising and naming the 3 Japanese scripts, and understanding that English uses a different alphabet with its own rules for writing and pronunciation",
+            "recognising the many loan words from English and other languages (e.g. ケーキ, ピンク, テニス, パジャマ, ピザ, サラミ), which are written in Katakana and pronounced differently in Japanese",
+            "recognising that simple statements in Japanese end in です and questions end in か, similar to the way that English uses a question mark at the end of a question",
+            "comparing Japanese and English sentence structures, highlighting different types of words using coloured pens or highlighters, noticing patterns in the grammar, and discussing the similarities and differences between them in word order, verbs, conjunctions or nouns",
+            "creating a table or T-diagram that compares English words with their corresponding Japanese words in Katakana",
+            "comparing basic word order, and writing or saying English sentences in Japanese word order, for example, 'The dog brown is' or 'I soccer play'",
+            "reading familiar texts in Japanese and comparing them with English, noting the structure, presentation, writing orientations, page progression and use of rhyme (e.g. 'Once upon a time' vs. むかしむかし)",
+            "brainstorming Japanese words that they may use or hear outside the Japanese classroom (e.g. tofu, manga, anime, emoji, tsunami, karaoke), comparing the pronunciation in English and Japanese, and, with support, making a class poster of the words in Hiragana and/or Katakana"
+          ]
+        },
+        {
+          "code": "VC2LJ2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how Japanese-speaking communities are similar to or different from others",
+          "elaborations": [
+            "exploring the meaning of 'culture', and understanding that it includes things we can see (e.g. how people eat or symbols used in flags), as well as things we cannot see (e.g. how people live, their thoughts about themselves and others, and how they interact with their environment)",
+            "noticing that in Japanese, there are different ways of speaking for formal and informal interactions, for example, hearing the difference between ありがとう and ありがとうございます",
+            "imitating the body language used by Japanese speakers in their everyday lives, for example, pointing to themselves and saying 私／ぼく",
+            "understanding that culture and cultural behaviours are woven into languages and cannot be separated from them, for example, it is possible to bow without a spoken greeting in Japanese culture, but not to greet without bowing",
+            "becoming aware of Japanese ways of showing respect and politeness, and making comparisons with their own language(s) and culture(s), for example, using titles such as せんせい, bowing, and giving and receiving objects with both hands",
+            "comparing the lifestyles of children living in Australia and Japan, such as games (e.g. じゃんけん), mealtime etiquette, or addressing family members and friends"
+          ]
+        },
+        {
+          "code": "VC2LJ2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where Japanese is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "using a world map or globe to locate the countries where Japanese is spoken, and discussing how Japanese is used beyond Japan's borders, such as through judo, manga, anime and J-pop",
+            "noticing how local names of streets, places and landmarks can have their origins in the language(s) of Aboriginal and Torres Strait Islander Peoples, identifying the meanings of these place names, for example, 'You Yangs' comes from the Wadawurrung words Wurdi Youang, meaning 'big hill', and then exploring some Japanese place names and other place names and their meanings such as 大阪, which also means 'big hill'",
+            "sharing their own backgrounds and the languages spoken at home by creating a chart that lists frequently used phrases (e.g. for 'hello', 'excuse me', 'thank you'), or their favourite traditional or festive foods",
+            "recognising that languages and communities have different protocols regarding the use of terms of respect, for example, there are ways of addressing Aboriginal and Torres Strait Islander Peoples using familial terms (e.g. 'Uncle' or 'Aunty') depending on the relationship, and comparing these terms with Japanese and/or other languages",
+            "interacting with a guest speaker from the local Japanese community to discover that Japanese is used and valued in different places",
+            "participating in cultural days with Japanese-themed events to learn about Japanese culture",
+            "researching symbols and colours used by Aboriginal and Torres Strait Islander Peoples and by Japanese-speaking communities in a range of contexts, for example, identifying the colours on a range of flags from different countries and communities in Japanese language, and discussing what the colours represent in English"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use Japanese to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts. They use Hiragana and some simple Katakana and frequently used Kanji with support, appropriate to context.\nStudents imitate the sounds, pronunciation and intonation patterns of spoken Japanese. They demonstrate their understanding that Japanese has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in Japanese and make comparisons between Japanese and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LJ4C01",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Interacting in Japanese",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "interacting with others in social exchanges including previously learnt greetings (e.g. おはようございます; こんにちは), asking おげんきですか。and answering はい、げんきです。／いいえ、げんきじゃないです。／まあまあです。～さんは？",
+            "using formulaic expressions to express praise or encouragement, for example, while playing a game, やった！; ざんねん！; だめ！; じょうず！; たいへん！; あぶない！; まけた。; たのしかった？; だいじょうぶ？; Oh, that was fun, でもまけた。; Anne さん, that was すごい！",
+            "responding to and beginning to use modelled classroom instructions to play games, complete work or get ready for class, for example, role-playing teacher–student games, giving instructions as a teacher, for example, たってください; すわってください; かいてください; みてください; よんでください; まるになってください",
+            "using appropriate formulaic expressions and gestures for different contexts, for example, asking for clarification (e.g. すみません、もういちどいってください); negotiating turn-taking (e.g. ちょっとまってください; つぎ; Matilda さんのばん。どうぞ); entering the classroom (e.g. しつれいします); asking for permission (e.g. おねがいします; せんせい、トイレに行ってもいいですか; 水をのんでもいいですか)",
+            "introducing themselves using formal, spoken, modelled language and appropriate non-verbal communication such as bowing and eye contact, for example, はじめまして、わたし／ぼくのなまえは～です。九さいです。四ねんせいです。～どしです。おんがくが好きです。へびが好きじゃないです。しゅみはサッカーです。／サッカーをします。どうぞよろしく(おねがいします)。",
+            "exchanging information and learning new words and set phrases by using cue cards about themselves and their friends or family, for example, asking かぞくは何人ですか。; ペットがいますか。 and replying using the information on the cue card, かぞくは六人です。; はい、ペットがいます。／いいえ、ペットがいません。",
+            "developing vocabulary by playing a game to find a partner who has a matching vocabulary or information card",
+            "conducting a survey activity to ask personal questions and collect information about members of the class, for example, すいえいが好きですか。／じょうずですか。はい、好きです。／いいえ、好きじゃないです。; じょうずですね。いいえ、へたです。; しゅみは何ですか。しゅみはすいえいです。"
+          ]
+        },
+        {
+          "code": "VC2LJ4C02",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Interacting in Japanese",
+          "text": "participate in activities that involve expressing interests and exchanging information, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "working collaboratively to make decisions and organise an activity, for example, planning a class party by asking and answering questions (e.g. いつ、パーティーをしますか。あした、します。／〜月にします。; なにをしますか。ケーキをたべます。)",
+            "creating a simple role-play, using appropriate gestures and modelled formulaic expressions, for example, creating a script for a shopping role-play, buying and selling items such as vegetables or stationery (e.g. いらっしゃいませ; これをください; いくらですか; はい、どうぞ; ありがとうございます), and spending a set amount of money (e.g. 500 円です)",
+            "taking responsibility for にっちょく (classroom duties) by assisting with roll call by acting as the teacher and calling out names (e.g. ～さん／～くん、いますか), with students responding appropriately (はい、います／いません), distributing work, and commencing or ending lessons (e.g. きりつ、れい、ちゃくせき)",
+            "developing language activities for their peers or a buddy class, for example, playing the game だるまおとし, teaching the order of colours (e.g. あお、きいろ、あか), and modelling language for the game (e.g. やった！; かった！; がんばって！)",
+            "participating in guided tasks involving instructions and peer cooperation such as group/pair games and sports, for example, creating a dance to a Japanese song in groups, or participating in group reading activities requiring turn-taking",
+            "preparing for and contributing to shared presentations and performances, for example, a Japanese item for a school assembly or a digital presentation about a class event",
+            "participate in role-plays that reflect cultural differences or influences, for example, formulaic expressions used before and after meals (いただきます; ごちそうさまでした), and leaving or returning home (ただいま; おかえりなさい)"
+          ]
+        },
+        {
+          "code": "VC2LJ4C03",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "locating important details in real-life texts such as advertisements, catalogues, menus and packaging, for example, looking for information such as the product name, quantity and price; discussing their findings; or recording the information in English and/or frequently used Kanji or Hiragana",
+            "translating simple texts such as manga and responding to them verbally or in writing",
+            "viewing an image (e.g. the front cover of a picture book), brainstorming words in Japanese that relate to the picture, and putting the words together into sentences to describe the image and predict events in the story",
+            "viewing or listening to a short weather report, recognising keywords such as days of the week (e.g. 月よう日はくもりです), and drawing pictures to match the weather",
+            "responding to both spoken words and gestures, for example, replying to the teacher's question えんぴつがありますか by nodding and saying はい、あります or using a hand gesture to indicate that they do not have it",
+            "using print and digital tools to gather and respond to information about their peers' home lives and activities, for example, conducting surveys on pets, sports, families, likes and dislikes, and using graphs or images to display the results",
+            "viewing images of ゆるキャラ, identifying features of the characters that indicate what or where they represent, and then creating their own unique ゆるキャラ and describing its features to the class",
+            "viewing or listening to a song or a story in Japanese, and then comparing it to the English version to understand the similarities and differences, for example, exploring a story about finding a green sheep and learning how to ask みどりのひつじはどこ？, and then comparing language features such as word order and particles with English",
+            "developing strategies and processes to locate key points of information in texts (e.g. a story) and make meaning, for example, through the use of pictures, clues and diagrams and the recognition of familiar keywords"
+          ]
+        },
+        {
+          "code": "VC2LJ4C04",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce Japanese, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "explaining features of Japanese language such as the use of formulaic expressions (e.g. いってきます; ただいま) or basic counter classifiers, and the indication of politeness by using ～です and ～ます",
+            "noticing differences in the ways in which speakers of Japanese, English and other languages communicate, for example, noticing differences in communication with young children, unfamiliar adults or elderly people (e.g. おはよう vs. おはようございます), the absence of the suffix ～さん after a family member's name, and the dropping of first-person pronouns (わたし, ぼく)",
+            "creating flashcards or a poster with Japanese words and expressions that do not translate easily into English, for example, はじめまして; よろしくおねがいします; いただきます; ごちそうさまでした; がんばって; いってきます; いらっしゃいませ",
+            "taking on the role of a character from a story or situation to create and present a skit that conveys language and cultural information using non-verbal and verbal communication, for example, pointing their finger at themselves and saying わたし／ぼく in a role-play",
+            "listening to Japanese stories or folktales and retelling what they have heard, to convey vocabulary, phrases and cultural facts in their own words"
+          ]
+        },
+        {
+          "code": "VC2LJ4C05",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Creating text in Japanese",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences and modelled textual conventions, using Hiragana with the chart as support, and some simple Katakana and frequently used Kanji",
+          "elaborations": [
+            "creating an imaginary friend and describing them through performance, digital display, drawing or visual representation, for example: こちらは〜ちゃんです。目が大きいです。かわいいです。小さいです。ケーキが好きです。",
+            "creating a chart, diorama, page of a 'Big Book', or digital presentation to showcase elements of their Japanese language learning to others",
+            "creating short bilingual versions of familiar texts such as songs, picture dictionaries, or captions for images, displays or photo stories",
+            "creating and/or presenting a set of simple written instructions or steps for a peer or the class to follow, for example, drawing a monster in response to prompts such as 一ばん：くちをかいてください。大きいです。; 二ばん：みみをかいてください。小さいです。",
+            "creating informative texts, for example, describing themselves and their own family members or a friend's family members, indicating the relationship by using expressions such as 母／お母さん, using modelled language and support resources, for example, お父さんのなまえはケンです。やきゅうとおんがくが好です。やさしい人です。",
+            "incorporating onomatopoeic sounds or expressions (e.g. ワンワン; モグモグ; やった！; たいへん; あれ？; がんばって！) into written and spoken texts to enrich texts and entertain others, for example, using speech bubbles, captions and simple expressive interjections",
+            "creating a poster or mini-book, or using digital tools to explain their daily routine and home life, for example, drawing a picture of themselves waking up in the morning, writing the caption おはようございます underneath, and adding a label with the time (e.g. 七時)",
+            "creating scaffolded texts using Hiragana, including Hiragana with diacritic marks, long vowels and blended sounds as formulaic language, as well as some Kanji relevant to the context (e.g. 大, 小, 犬, 本, 水)"
+          ]
+        },
+        {
+          "code": "VC2LJ4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations, and use patterns of pronunciation and intonation to form words, phrases and simple sentences, using the Hiragana chart for support",
+          "elaborations": [
+            "recognising that there are 5 vowels (a, i, u, e, o) and 19 distinct consonants in Japanese (k, g, s, sh, z, j, t, ch, ts, d, n, h, f, b, p, m, y, r, w), and that vowels can be attached to most consonants to produce a kana (i.e. Hiragana or Katakana), by showing and using a Hiragana chart or flashcards, or listening to and singing along with a Hiragana song",
+            "recognising sounds and pronouncing Hiragana characters and words, including some long vowels (e.g. おとうさん, おおきい) voiced sounds (e.g. かぞく, たべます) and blended sounds (e.g. きょう, でしょう), with reference to support resources such as the Hiragana chart, classroom word lists, personal dictionaries, or interactive audiobooks",
+            "learning tongue twisters to practise the pronunciation of sounds, such as かえるぴょこぴょこ、みぴょこぴょこ、あわせてぴょこぴょこ、むぴょこぴょこ",
+            "practising the pronunciation of loan words in Japanese and their English originals in spoken texts, for example, バナナはいくらですか; ペットがいますか; しゅみはサッカーです",
+            "recognising some variations in intonation, for example, rising intonation in questions (e.g. これはなんですか), instructions, commands or requests (e.g. たってください), and using these intonation patterns in their own speech",
+            "noticing some frequently used Kanji that may have more than one reading or 'sound' (e.g. ひ, にち and び for 日), and creating mnemonic stories and images to remember the different sounds",
+            "using the Hiragana chart to create or 'crack the code' for words, such as 'm3, r1, s1, k2' for むらさき",
+            "practising clapping out the moras of Japanese words to understand their rhythmic structure, starting with simple words and gradually moving to more complex ones, for example, clapping out ごちそうさま as ご・ち・そ・う・さ・ま to demonstrate the phrasing pattern",
+            "recognising the concept of the minimum unit of rhythm in a Japanese 'foot' (フット) and that one foot in Japanese often consists of 2 moras, for example, ごちそうさま is pronounced as a 3-foot word ごち・そう・さま",
+            "writing Japanese words or phrases and marking the breaks between feet using the ・ symbol, for example, writing いただきます as いた・だき・ます, and then reading it aloud"
+          ]
+        },
+        {
+          "code": "VC2LJ4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use Hiragana, some Katakana and frequently used Kanji, as well as modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "recognising and using the rules of simple Japanese word order (subject+object+verb/copula) with support, playing games such as reorganising sentences using sentence strips",
+            "developing their understanding of the present tense ～ます form with particles を and に, and beginning to use them in texts, using gestures to support learning, for example, すしをたべます; がっこうに行きます",
+            "describing people, animals, places and things using adjectives (e.g. かわいいです) or adjective+noun phrases (e.g. かわいいうさぎ), and playing a game such as swat it, where students swat a card showing the image/animal/character that matches the adjective called out by their teacher",
+            "understanding that stroke order is important for Japanese scripts, and practising numbering strokes in order when writing Hiragana, Katakana or Kanji on paper or when playing games such as Kanji whispers, writing Kanji on each other's backs with their fingers to guess the characters",
+            "recognising the function of particles and using them in sentences (e.g. は after the subject, の to indicate ownership, か for questions and が in formulaic expressions such as ～が好きです), in response to images or flashcards to describe their interests (e.g. りんごが好きです; みかんが好きじゃないです) or ownership (e.g. わたしのいぬ; わたしのえんぴつ)",
+            "recognising some Japanese writing conventions and different ways of presenting texts, for example, observing the layout and direction of texts (i.e. たてがき, よこがき), and the use of squared paper and punctuation (e.g. Japanese-style comma and full stop)",
+            "recognising and using basic counter classifiers in Japanese for different purposes (e.g. ～人, ～才, ～月, ～じ, はん, ～ど), playing a game by matching cards with numbers and corresponding images, or playing the higher/lower game to guess the number/age of people or the temperature",
+            "counting from 1 to 100, using a 100s chart in Kanji to locate numbers, and noticing the patterns in numbers across the rows and columns",
+            "seeking information using question words (e.g. なに, なん, いつ, どこ, だれ) and the sentence-ending particle か within modelled sentence structures (e.g. 何が好きですか; 何才ですか; 何人ですか; いつですか), for example, playing a guessing game by asking questions to eliminate incorrect answers",
+            "noticing the systematic and logical nature of Japanese grammar, and then playing a grammar hunt, comparing English and Japanese sentences, noticing patterns, and comparing the location of different grammatical features"
+          ]
+        },
+        {
+          "code": "VC2LJ4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar Japanese language structures and features with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "discussing the sounds of Japanese compared with English and/or other languages, for example, noticing the need to adapt to limitations when writing some loan words or foreign words (e.g. adjusting to the absence of the r sound when writing a name such as 'Peter' in Japanese), or comparing words in different languages with similar meanings",
+            "developing metalanguage for communicating about language through the use of correct terminology for parts of speech (noun, verb, particle, adjective), and creating a table, poster or graphic to display differences between languages, for example, producing a chart to show scripts, word order, conventions, grammar and pronunciation in Japanese, English and/or other languages",
+            "applying literacy knowledge in English or other known languages to recognise different elements in texts that contribute to meaning-making, for example, examining the layout, title and illustration in a picture book or speech bubbles in a manga, or becoming 'punctuation detectives' and finding examples of punctuation in a text",
+            "comparing familiar texts in Japanese, English and/or other languages, for example, songs, tongue twisters or poems, and noticing any similarities or differences in the words, sentence order or structure of the text, for example, 'Mary had a little lamb'; 'Silent night'; 「住(じゅう)人(にん)十(と)色(いろ)」; 「七(なな)転(ころ)び()八(や)起(お)き」",
+            "comparing onomatopoeia in Japanese and English and/or other languages, such as animal sounds, and noticing how they are similar or different to the sound that they represent",
+            "playing a digital online or card-matching game using Hiragana words and matching picture cards (e.g. karuta, memory, snap)",
+            "recognising features of familiar genres of Japanese texts (e.g. picture books, digital books, commercials, manga), reading shared texts, and comparing elements such as punctuation and layout with those in similar texts in English or other languages"
+          ]
+        },
+        {
+          "code": "VC2LJ4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "learning to discuss culture and language by responding to prompts (e.g. 'What do you notice?', 'Why do you think that …?', 'How is this similar/different …?') or using thinking strategies (e.g. 'I used to think / Now I think')",
+            "creating a 'language portrait' of themselves through the use of a whole-body silhouette, where students represent their personal experiences of language and culture by adding colours, shapes and words within and around the outline",
+            "discussing the importance of respect and politeness in Japanese culture, for example, using specific titles, gestures and language, and noticing that the suffix ～さん can be used with anyone's name (except their own), regardless of gender, age or status",
+            "noticing how politeness, humility and respect are conveyed in different ways in Japanese language and behaviour, such as how body language and gestures can replace words, for example, bowing as an apology or as a request to be excused",
+            "understanding that language used in particular interactions can vary between cultural contexts, for example, noting the use of titles and suffixes in Japanese (せんせい, ～さん, ～ちゃん, ～くん)",
+            "learning Japanese customs and traditions, such as how to use chopsticks, table manners, and what to do when visiting shrines or shopping in Japan",
+            "viewing a map that shows Aboriginal and Torres Strait Islander languages, noticing how many languages are represented in Victoria, and then learning about the diversity of languages that students in the classroom have a connection to",
+            "identifying the Aboriginal and Torres Strait Islander Country on which they live and incorporating this into their self-introduction in Japanese",
+            "recognising and practising common language and behaviours that reflect Japanese culture and traditions, for example, when viewing excerpts from digital texts, listening for keywords and familiar phrases, and interpreting cultural expressions and behaviours to identify ways of accepting compliments or praise with いいえ instead of ありがとう, expressing humility and respect by not going first, or not using ～さん to refer to themselves",
+            "exploring elements of 'culture' (e.g. what is valued in different communities, contexts or environments; different approaches to teaching and learning in school), and understanding formulaic expressions and terms that reflect cultural values, for example, きをつけて; おそうじじかん; きゅうしょく"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in Japanese that are related to their immediate environment. They use appropriate combinations of sounds, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in Japanese or English, adjusting their responses to context, purpose and audience.\nStudents use modelled structures when creating and responding in Japanese. They create texts, selecting and using a variety of vocabulary and sentence structures to suit different contexts. They use conventions appropriate to text type. They use Hiragana and familiar Katakana and Kanji appropriate to context. They apply rules for pronunciation and intonation in spoken language, and apply conventions of Hiragana, Katakana, Kanji and punctuation in written language. They compare language structures and features in Japanese and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LJ6C01",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Interacting in Japanese",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "conversing with others using greetings, culturally appropriate formulaic expressions and simple questions and answers, for example, しつれいします。; こんにちは。おげんきですか。; きょうはどうでしたか。たいへんでした。; しゅうまつに何をしましたか。サッカーをしました。",
+            "communicating with others using a range of strategies such as active listening, turn-taking cues, requests for clarification, and respectful language, for example, はい、そうですか; ほんとうですか; ちょっといいですか; よかったですね",
+            "using appropriate language, actions and gestures to participate in interactions such as interrupting or asking for clarification or permission using formulaic expressions, for example, 先生、すみません; ちょっとわかりません; ゆっくり(おねがいします); おそくなってすみません; ～をつかってもいいですか",
+            "using basic あいづち (conversational interjections), including body language such as nodding and appropriate interjections (e.g. へー; えー！;うん; はい; うそ！; すごい！) in role-plays of simple conversations in pairs or groups",
+            "conducting じこしょうかい using familiar expressions, body language and gestures, and requesting information, for example, はじめまして、私／ぼくは～です。たんじょう日は～月です。～からきました。四人かぞくです。お父さんとお母さんとお兄さんと私／ぼくです。しゅみは～です。ペットがいます。ペットは、～です。よろしくおねがいします。",
+            "recounting and exchanging information with members of the class or other Japanese-speaking students, about their school or home routines, leisure activities, interests or preferences, and popular culture or sport, for example, サッカーをしますか; いつしますか; 土よう日にサッカーをします; サッカーが好きですか; ぼくも好きです; 土よう日にともだちとうみに行きました。",
+            "exchanging simple correspondence such as greeting cards and messages based on modelled language, for example, おたんじょう日おめでとうございます; あけましておめでとうございます; よいお年を！; メリークリスマス; お母さん、ありがとう; ～へ、～より"
+          ]
+        },
+        {
+          "code": "VC2LJ6C02",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Interacting in Japanese",
+          "text": "participate in activities that involve discussion with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "stating their preferences in a range of activities and interactions (e.g. ～が好きです; ～が好きじゃないです; ～がきらいです; ～がだい好きです; ～がだいきらいです) and reacting to others (e.g. ほんとう？私も！), or responding to どちらが好きですか to express a preference between 2 things",
+            "making a request or asking and seeking permission to do something, for example, トイレに行ってもいいですか; 水をのんでもいいですか; えんぴつをかしてください",
+            "taking on different roles and responsibilities in the classroom as とうばん, such as recycling, calling the roll, identifying the date, describing the weather or giving instructions, for example, 本をください; ノートをだして; かみをリサイクルしてください; きりつ、れい、ちゃくせき, using appropriate gestures",
+            "playing different traditional Japanese games and activities (e.g. けんだま; ふくわらい; だるまおとし; かみふうせん), and helping each other by giving instructions or feedback, for example, はじめ！; はい; いいえ; ちがいます",
+            "sharing their thoughts and experiences in Japanese during and after activities and games, for example, たのしい／たのしかった; むずかしい／むずかしかった; たいへんだった",
+            "playing a guessing game by giving descriptions of an object to be guessed, for example, ピンクです。はるです。きれいです。 as clues for sakura (cherry blossom)",
+            "practising a Japanese song or poem by giving each other instructions, for example, beginning a song with はじめましょう／うたいましょう, and then counting 一、二、三, and using phrases such as いちばん, にばん and さんばん to talk about lines and verses to sing or practise",
+            "conducting digital, simulated or face-to-face shopping experiences with online catalogues or menus, comparing prices and values, and discussing their intended purchases using formulaic expressions such as ちょっとたかいです。でも、かいたいです。",
+            "responding to and using classroom instructions to lead games, complete work or get ready for class, for example, role-playing teacher–student games by giving each other instructions (e.g. 立ってください; すわってください; 書いてください; 見てください; 読んでください; 聞いてください), leading younger learners in an うんどうかい event or game",
+            "participating in an activity for a school assembly or class performance, using language related to places, people, items, time and numbers to create promotional materials, for example, producing a poster or video to encourage recycling (e.g. ペットボトルをリサイクルしてください)"
+          ]
+        },
+        {
+          "code": "VC2LJ6C03",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "identifying and responding to language and cultural points of information in authentic texts (e.g. advertisements, letters, conversations, brochures, announcements), for example, decoding, locating prices and ordering from a Japanese menu; finding a particular greeting on a card; recording a phone number or the time",
+            "accessing, organising and presenting information relating to aspects of Japanese culture (e.g. fashion, places, festivals), using supporting resources and providing a structured summary, for example, しんかんせんです。はやいです。あおい/しろいです。; ふじさんです。たかいです。そして、ゆうめいです。火山です。",
+            "looking at images of Japanese woodblock prints such as Hokusai's Thirty-six views of Mt Fuji, describing what they see using adjectives and nouns, and writing simple captions for the images",
+            "listening to a simple community announcement (e.g. a weekly weather forecast) and writing a short message to a friend, using modelled sentences, for example, inviting a friend with 土よう日ははれです。こうえんに行きましょうか。たのしいです。十じに行きましょう。",
+            "viewing a Japanese じかんわり (school timetable) and describing it in Japanese, for example, 一じかんめはえいごです。４じかんめはこくごです。おひるやすみにひるごはんをたべます。あそびます。そうじをします。",
+            "extracting key points from a range of spoken, written or digital texts on topics such as healthy eating, school lunches, home or school routines, and discussing findings and comparing opinions, for example, 日本で子どもは、がっこうのそうじをします。オーストラリアの子どもは、がっこうのそうじをしません。",
+            "using a range of print and digital tools, surveying and compiling simple information about people's interests and preferences (e.g. favourite things, leisure activities), and presenting their findings in a range of formats (e.g. flowcharts, graphs, diagrams, oral presentations)",
+            "looking at a manga and identifying aspects of the image (facial expression, body language, background), matching these to features of the text (language, speech bubble shape, type of script, font style), and then discussing how both the image and text contribute to the meaning",
+            "reading a cherry blossom forecast map (e.g. dates, places, weather, temperatures) in Japanese, answering questions and writing information, for example, 'The cherry blossoms will bloom from 18 March until 4 May. The first place it will bloom is Okinawa, and the last place it will bloom is Hokkaido. In Tokyo, the capital city of Japan, it is predicted to bloom on 27 March.'"
+          ]
+        },
+        {
+          "code": "VC2LJ6C04",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in Japanese in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "exploring Japanese words and expressions that capture unique cultural concepts and do not have direct translations in English, and showcasing or discussing their meanings, cultural significance and appropriate usage in different contexts, for example, はじめまして; おかえり; いらっしゃいませ; ごちそうさま; たいへん; げんき; がんばって",
+            "collecting, using and explaining Katakana words and Japanese words used in their own language(s), for example, understanding the origin of the words 'tsunami' and 'typhoon'",
+            "differentiating when to use formal and informal language to suit the context and audience, for example, なまえはなに？ to children and おなまえはなんですか。 to a teacher or adult",
+            "engaging in games or role-plays and responding appropriately, using both non-verbal and verbal language, for example, playing Simon says to promptly act out the given words or instructions in Japanese",
+            "recognising the systematic nature of Japanese scripts and grammatical rules, creating personal notes and resources such as flashcards and tables, and applying these to generate new language for a range of purposes",
+            "identifying and highlighting, circling or colouring nouns, verbs, adjectives, pronouns and conjunctions in a sentence or a simple reading text",
+            "using strategies to help interpret and convey meaning, considering the advantages and limitations of each resource, for example, accessing a bilingual dictionary, online translator, resource or application, or creating their own word bank",
+            "acting out a role-play and responding appropriately using non-verbal and verbal forms of communication, for example, an earthquake or tsunami drill, lunch at a Japanese school, or cheering at a sports day",
+            "performing a role-play or skit for a class or school assembly, using Japanese for the performance and English for supporting explanations, for example, performing a skit in Japanese and explaining it afterwards in English, or having the host speak in Japanese with English subtitles displayed on a screen for the audience",
+            "creating a skit, performance or action game to share with a buddy class to teach aspects of Japanese language and culture, for example, introducing Hiragana, individual words, expressions or behaviours, such as bowing appropriately, or giving and receiving a gift with both hands"
+          ]
+        },
+        {
+          "code": "VC2LJ6C05",
+          "strand": "Communicating Meaning in Japanese",
+          "subStrand": "Creating text in Japanese",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type, using Hiragana and familiar Katakana and Kanji",
+          "elaborations": [
+            "writing a letter to students in Japan introducing themselves using Hiragana, Katakana and Kanji as appropriate, and demonstrating the use of punctuation marks such as full stops and commas, as well as grammatical conventions, for example, はじめまして。ぼくはジョンです。十一さいです。かぞくは三人です。父と母とぼくです。ペットがいます。犬のなまえはココです。",
+            "creating a presentation about an imaginary experience, such as a dream trip to Japan, using the polite form in past or present tenses, for example, おおさかに行きました。しんかんせんで行きました。きれいなしろを見ました。",
+            "creating a profile poster for their favourite anime character or ゆるキャラ, and presenting it to the class, for example, くまモンです。ゆるキャラです。くまモンはくまです。くろいです。ダンスが好きです。くまもとからきました。",
+            "designing and presenting an advertisement for a sustainable, environmentally friendly product likely to appeal to their age group, for example, designing a reusable cutlery or bento set, and presenting the idea using a range of words (e.g. エコ, リサイクル)",
+            "planning and creating texts (e.g. charts, posters, storyboards, menus), and experimenting with the use of Hiragana, diacritic marks, long vowels, double consonants and blended sounds and some topic-specific words in Kanji (e.g. 見, 行, 百, 上) and Katakana (e.g. スーパー, クリスマス, チョコレート)",
+            "developing their understanding and applying some features and conventions of familiar texts, for example, experimenting with set expressions and language devices such as rhyme, rhythm, imagery and onomatopoeia, to entertain and engage target audiences",
+            "producing a 4-frame comic strip (４コマまんが) to depict daily events at home or school, incorporating onomatopoeia for a more authentic feel",
+            "producing and presenting a picture book, 'Big Book', mini-book or short, scripted scenario for members of the class, incorporating elements of Japanese language and culture that are likely to be unfamiliar, engaging or challenging",
+            "producing a rap, song or haiku poem that involves experimentation with rhyme and rhythm, for example, completing a cloze activity, where groups take responsibility for different verses incorporating their own language, rhyme and gestures to support meaning",
+            "using familiar and modelled language to create informative texts, such as a photo story, ebook or personal profile, for example, profiling a member of their family or friendship group, or a famous Japanese-speaking character or person"
+          ]
+        },
+        {
+          "code": "VC2LJ6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency in words, phrases and sentences, using the Hiragana chart for support",
+          "elaborations": [
+            "pronouncing all the sounds in the Hiragana chart, including voiced and unvoiced sounds, combined and long vowel sounds, blended sounds and double consonants (e.g. がっこう, しゅみ)",
+            "recognising and discerning differences between sounds in Hiragana, for example, たて vs. たって",
+            "using the Katakana chart as reference, pronouncing some common loan words, using them in texts (e.g. アイスクリーム, インターネット) and playing games such as 'Katakana search' where students are racing to find all the Katakana within a specified section of text",
+            "building their knowledge of Kanji, including their origins, common radicals and compounds, understanding that some Kanji can be pronounced differently when combined with other Kanji (e.g. 人 can be read as ひと on its own, にん in 六人, or じん in 日本人), and creating a chart or poster of different examples",
+            "recognising that the Hiragana used for some particles does not match its pronunciation, for example, the particles は (wa/ha), へ (e/he) and を (o/wo), by creating mnemonic stories or images to match the shape and sound of the Hiragana",
+            "experimenting with a keyboard with rōmaji input settings to type words or short sentences, and typing the correct Hiragana or Kanji in typing races where the teacher calls out a phrase or sentence",
+            "understanding the use of furigana as a reading and pronunciation aid, and practising its application with worksheet tasks that involve writing furigana on top of Hiragana, Katakana, Kanji words or short sentences, using the Hiragana chart for support",
+            "noticing the relationship between stress, pacing and meaning, and applying appropriate intonation patterns in familiar language to express excitement, make statements or ask questions, for example, demonstrating fluency in paired speaking activities, reading a familiar story aloud, or using lines or arrows going up or down to indicate intonation in questions and statements"
+          ]
+        },
+        {
+          "code": "VC2LJ6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use Hiragana, some Katakana and familiar Kanji, and a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "using picture/word flashcards to sort or display on a student-created word wall, recognising that there are 2 groups for adjectives, い and な, and using both types of adjectives to describe a range of nouns (e.g. きれいなはな, かわいいねこ)",
+            "using flashcards to sort colours into 2 groups, and understanding that primary colours and shades (e.g. あか) can take the addition of い, that secondary and tertiary colours (e.g. ピンク), which are considered descriptive nouns, require the addition of の to convert them to the adjectival form, and that these additions are required when describing a noun with colour (e.g. あかいくつ, ピンクのドレス, ちゃいろい犬, あおいちょうちょ)",
+            "practising basic Hiragana, Katakana and Kanji stroke order, for example, recognising the order from top to bottom, left to right; that the horizontal stroke often goes first; and that 口 is made up of 3 strokes, for example, using water calligraphy paper to practise writing frequently used Kanji",
+            "understanding and using a range of particles in simple compound sentences (e.g. へ, で, に, を, と, も) by playing 'particle races', matching particles to words that would match them, for example, しんかせん ＋ で; ともだち ＋ と; とうきょう ＋ に",
+            "exploring the use of が／に あります／います to refer to inanimate/animate objects by playing a game to match image cards with います／あります cards",
+            "using language such as これ, それ, あれ and どれ by matching a phrase in word bubbles to a pair of images in a manga according to their location",
+            "using conjunctions such as そして and それから to link and sequence ideas in modelled oral and written language tasks by joining sentence strips together with conjunctions",
+            "applying the language features of different types of texts, for example, using appropriate wording when opening and closing emails or letters (e.g. ～さんへ; ～より), or when starting simple phone conversations (もしもし)",
+            "writing a short script about what they are going to do or what they did during their holidays using present / present-negative / past verb forms with the teacher's support, for example, やすみに、日本に行きます／行きません／行きました; ふじさんを見ます／見ません／見ました; すしとてんぷらをたべます／たべません／たべました",
+            "identifying and using elements of different sentence structures including location words, prepositions (e.g. 上, 下), directions and the use of particles in modelled structures (e.g. しんかんせんで行きました; えんぴつはつくえの上です), or having a treasure hunt in the classroom by following clues, for example, せんせいのつくえの下に; ドアのうしろに",
+            "using some counter classifiers in Japanese (e.g. ～人, ～才, ～ぴき／ひき／びき, ～月, ～日, ～円) and understanding Japanese numerical place order (一, 十, 百, 千, 万)",
+            "understanding and using some conventions associated with げんこうようし, for example, considering the size and position within the square of diacritics, small characters such as っ, and punctuation marks such as まる, and practising writing sentences in grids"
+          ]
+        },
+        {
+          "code": "VC2LJ6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare Japanese language structures and features with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "arranging colour-coordinated flashcards for nouns, verbs and adjectives to create sentences in both Japanese and English, and identifying the similarities and differences between the sentence structures of Japanese and English",
+            "discussing why some words are written in Katakana and why these words cannot be pronounced identically to the original language they were borrowed from (e.g. オーストラリア), and trying to spell some words using the Katakana chart",
+            "understanding that some words originate from Aboriginal languages from different areas around Australia, for example, コアラ (koala) from the Dharug word gula, meaning 'no water', or ディンゴ (dingo) from the Dharug word din-gu, and comparing these words to English and/or other languages and discussing their historical context",
+            "expanding the metalanguage for communicating about language, using the correct terminology for parts of speech (noun, verb, adjective), and additional terms such as pronoun and conjunction, for example, identifying parts of speech in a reading text",
+            "identifying different parts of speech by indicating the adjective or verb conjugation pattern in a sentence, and translating sentences word for word to compare differences in word order and punctuation in Japanese and English (e.g. subject+object+verb vs. subject+verb+object), for example, circling or colouring different parts of speech in a sentence",
+            "comparing features of familiar genres of Japanese texts (e.g. picture books, digital books, games, video clips, songs), for example, reading shared texts and noticing and comparing grammatical elements such as the use of tense, word order and sentence structure",
+            "using an online digital translation tool to convert simple lyrics from English to Japanese, and noticing how the words and structures change",
+            "understanding the Japanese number system and comparing it with other numerical systems (e.g. 一, 十, 百, 千, 万), and recognising the order for writing the components of the date and time in Japanese (～年～月～日; ～よう日; ～時～分), including reference to the use of the そろばん (abacus) vs. calculators",
+            "exploring idioms and expressions in Japanese, for example, さるも木からおちる ('Even monkeys fall from trees'), and then discussing and comparing idioms and expressions in English and other languages"
+          ]
+        },
+        {
+          "code": "VC2LJ6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal and non-verbal communication",
+          "elaborations": [
+            "using the cultural 'iceberg model' to identify and examine the visible and invisible aspects of their own culture(s) and identity, and Japanese culture(s) and identity",
+            "learning cultural customs and etiquette, for example, learning how to bow at different angles and for different durations based on the situation and level of formality, or understanding the appropriate use of honorific language when speaking to someone of higher status or age",
+            "understanding that the use of the suffixes ～さん and ～ちゃん is not fixed or attached to the gender of the person, but is dependent upon social context, the status of the speakers, and the relationship between them",
+            "exploring examples of traditional and contemporary images or texts in print and online, and discussing how identity and gender are represented in the language",
+            "understanding the gift-giving culture in Japan, especially during oseibo and ochūgen, and practising how to wrap a gift using furoshiki, and what to say and do when giving or receiving gifts",
+            "discussing traditional methods that Japanese speakers use to preserve language and culture, comparing these with examples of cultural artefacts (e.g. dance, songs, artwork, artefacts or traditions) from a range of different cultures, and identifying how they strengthen connections to values and identity, for example, discussing the significance of a possum-skin coat for some Aboriginal Peoples, and sharing similarities and differences between cultural artefacts in other languages and cultures represented in the classroom",
+            "imagining potential challenges for a visiting Japanese student spending time in an Australian home or an Australian student visiting Japan; identifying phrases, expressions and behaviours that may need explaining; and demonstrating instances of intercultural miscommunication through a text or role-play, for example, knowing what to do and say when entering a Japanese house (taking off one's shoes and saying おじゃまします), the challenges of bath time, the use of personal space, loud voices that may be considered inappropriate, and expressions such as どうぞ and すみません",
+            "explaining how Japanese language and behaviour demonstrate values and traditions, for example, considering a reluctance to volunteer or compete for attention in class, the response to compliments (じょうずですね。いいえ。), prioritising others rather than oneself (おさきにどうぞ) and vague answers rather than a clear 'no' (ちょっと …)",
+            "considering how Japanese language and interaction patterns are based around familiar routines such as mealtimes, and how greeting others reflects values associated with respect and caring for others, for example, using formulaic expressions such as いただきます; いってきます; いってらっしゃい; ただいま; おかえり",
+            "understanding that people 'translate' intercultural experiences in different ways depending on their cultural perspective, recognising the validity of different perspectives, and questioning notions of 'right' or 'wrong', for example, viewing a digital image of someone asleep on a train or someone lifting and drinking directly from a bowl"
+          ]
+        }
+      ]
+    }
+  ]
+}

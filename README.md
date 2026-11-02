@@ -28,7 +28,7 @@ aligned to the **Victorian Curriculum F–10 Version 2.0** and the **Victorian T
 app/                         Next.js routes (home, /curriculum browser, /api/health)
 lib/curriculum/              Types + loaders for the curriculum dataset
 data/curriculum/vc2/         Victorian Curriculum 2.0, F–6, one JSON file per subject (generated)
-scripts/curriculum/          Scraper (parse.ts, scrape.ts) and Supabase seed script
+scripts/curriculum/          VCAA export download (Playwright), CSV → JSON import, Supabase seed
 supabase/migrations/         Database schema (profiles, curriculum, generations, RLS)
 docs/research/               Research notes that will become the generator's prompt context
 .github/workflows/           Builds the curriculum dataset on GitHub Actions
@@ -44,13 +44,17 @@ npm run dev
 
 ### Curriculum dataset
 
-`data/curriculum/vc2/` is built by `.github/workflows/curriculum.yml`, which runs the scraper and
-commits the result. To run it locally:
+`data/curriculum/vc2/` holds 34 subjects, 1,347 content descriptions and about 7,700
+elaborations for Foundation to Level 6. It is built by `.github/workflows/curriculum.yml`
+(Actions → *Build curriculum dataset* → Run workflow), which downloads VCAA's CSV export and
+commits the JSON. To run it locally:
 
 ```bash
-npm run curriculum:discover   # list VCAA domain codes
-npm run curriculum:scrape     # writes data/curriculum/vc2/*.json
-npm run curriculum:seed       # loads it into Supabase (needs service role key)
+npx playwright install chromium
+npm run curriculum:download
+unzip -o data/curriculum/raw/vc2-all.zip -d data/curriculum/raw
+npm run curriculum:import
+npm run curriculum:seed       # loads it into Supabase (needs the service role key)
 ```
 
 ### Database

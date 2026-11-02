@@ -1,0 +1,622 @@
+{
+  "subject": "Turkish",
+  "slug": "turkish",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the Turkish language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes and discovering how languages are influenced by each other. They explore Turkish through play, first imitating sounds and patterns, then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that Turkish sounds are represented by letters that may have diacritic marks, and they can match these with words, copying and combining them in increasingly complex ways. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken Turkish. They expand their repertoire of Turkish words and phrases through listening, viewing and reading, and then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of Turkish using simple metalanguage. They start to develop written competence by copying letters, including those with diacritic marks, to form words, and then produce the language with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the spoken and written Turkish language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that Turkish is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s).",
+      "contentDescriptions": [
+        {
+          "code": "VC2LT2E01",
+          "strand": "Engaging with Turkish Language and Culture",
+          "subStrand": "Engaging with Turkish language",
+          "text": "notice that Turkish looks and sounds different to other languages",
+          "elaborations": [
+            "sharing the word for 'hello' in different languages known to them, looking at merhaba and the word for 'hello' in other written languages, and making observations about similarities and differences between languages",
+            "participating in daily routines at the start of each class, such as singing, nursery rhymes and songs that may include actions, movement or dance, for example, 'Kırmızı Balık Gölde'; 'Mini Mini Bir Kuş Donmuştu'; 'Arı Vız Vız'",
+            "playing Simon says in English and its Turkish equivalent Simon diyor ki to help children notice differences in sounds and language structure (e.g. 'Simon says touch your head' – Simon diyor ki başınıza dokunun; 'Simon says jump' – Simon diyor ki zıplayın; 'Simon says clap your hands' – Simon diyor ki alkışla) or singing 'Old Macdonald had a farm' in English and its Turkish equivalent 'Ali Babanın Çiftliği'",
+            "responding to the teacher's greetings and participating in class routine exchanges, such as comparing Turkish and English greeting words, for example, Nasılsın? with 'How are you?' and İyiyim with 'I'm fine'; talking about the date and weather; asking and responding to 'How are you?', for example, Nasılsın? İyiyim / Çok iyiyim / Heyecanlıyım. Sen nasılsın? or Siz nasılsınız?",
+            "introducing themselves, their friends and family members, for example, Benim adım… Ben beş yaşındayım. Bu, benim arkadaşım… Bu, benim annem. Bu, benim babam.",
+            "naming and labelling classroom objects, then using the Turkish names while using them",
+            "following classroom-related instructions such as dinle, bak, çiz, boya, kes, yapıştır",
+            "exploring the different languages spoken by class members and listening to the different sounds and ways of saying common expressions, such as 'Good morning, my name is …'",
+            "engaging in role-playing daily routines using common Turkish phrases, imitating the speech, pronunciation and stress patterns, for example, practising expressions like Sabahleyin kalkarım; Kahvaltı yaparımand Teşekkür ederim, and using gestures to emphasise meaning such as nodding for 'yes' and shaking the head for 'no'",
+            "using Turkish 'big books' with vivid images to focus on repetitive vocabulary like anne, baba, çocuk, merhaba, nasılsın, günaydın and asking students to repeat these words and mimic the pronunciation"
+          ]
+        },
+        {
+          "code": "VC2LT2E02",
+          "strand": "Engaging with Turkish Language and Culture",
+          "subStrand": "Engaging with Turkish language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "participating in alphabet songs, chants and rhymes to imitate Turkish pronunciation, intonation and stress",
+            "tracing the letters of the alphabet and imitating the sound such as a, b, c, ç…",
+            "observing that written Turkish uses the same letters as written English, noticing that some letters in Turkish have diacritic marks to assist with pronunciation (e.g. ç, ı, İ, ğ, ö, ş, ü)",
+            "experimenting with sounds used in Turkish, such as using and comparing animal sounds in Turkish with those in English and other languages represented in the class, for example, hav hav (woof woof), miyav (meow), gıt gıt gıdak (cluck cluck), möö (moo), vak vak (quack quack)",
+            "identifying cognates in Turkish and English (e.g. princess – prenses, photograph – fotoğraf, television – televizyon)",
+            "making connections with Turkish words and phrases used in everyday life, for example, identifying food names such as kebab, pide, yoghurt",
+            "noticing when Turkish or English is being used in the classroom, for example, focusing on the language or words the teacher is using and identifying whether it is Turkish or English, when asked to do so",
+            "imitating appropriate gestures and actions when greeting different people, such as shaking hands, kissing hands of elders and kissing people on both cheeks, and recognising differences between how they greet their teachers, family members and friends, for example, Günaydın öğretmenim! Nasılsınız?; Merhaba Ayşe! Nasılsın?",
+            "exchanging greeting cards or notes with peers using modelled language, for example, Doğum günün kutlu olsun! Nice yıllara.; Tebrikler!; Dersten sonra top oynayalım mı?",
+            "expressing likes and dislikes such as Kirazı sevmem.; Karpuzu severim."
+          ]
+        },
+        {
+          "code": "VC2LT2E03",
+          "strand": "Engaging with Turkish Language and Culture",
+          "subStrand": "Engaging with Turkish language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "recognising and responding to classroom instructions such as Otur.; Oku.; Çiz.; Boya.; Kes.; Yapıştır.; Ayağa kalk.; Kapıyı kapat.; Akıllı tahtayı aç.",
+            "using simple greetings relevant to the time of day, context or relationship to the person, for example, Merhaba!; Günaydın!; Tünaydın!; İyi günler; İyi akşamlar!; İyi geceler!; Hoşça kal!; Güle güle!; Hoş geldiniz!; Hoş bulduk!, and using everyday social exchanges, such as thanking someone, Teşekkür ederim; apologising, Özür dilerim; or offering good wishes for special occasions such as Bayramınız kutlu olsun!; Afiyet olsun!; Geçmiş olsun!; Tebrik ederim!",
+            "locating or moving objects in the classroom according to directions given (e.g. Kurşun kalemi masaya koy.; Yerine otur.; Resmi panoya as.)",
+            "forming a circle and creating a question-and-answer routine, for example, asking the student next to them, Adın ne?; Bugün nasılsın?; Nerelisin?",
+            "introducing and describing themselves and others (e.g. Adın ne?; Benim adım…; Senin adın ne?; Bu, benim babam. Babamın adı Aydın.), and then showing and describing favourite items, for example, Benim bir köpeğim var. Onun adı Minnoş.; Benim en sevdiğim oyuncak toptur.; Bu, benim Türkçe masal kitabım.; Bu benim tabletim.",
+            "sharing information about favourite experiences with peers, for example, Bugün benim doğum günüm.; Yarın bayram!; Pazartesi günü sinemaya gidiyorum.",
+            "singing and performing actions in songs, poems, chants, counting or rhyming games, for example, 'Mini Mini Bir Kuş Donmuştu'; 'Çan Çan Çikolata'; 'Sağ Elimde Beş Parmak'; 'Kutu Kutu Pense'; 'El Ele Verin Çocuklar'",
+            "reinforcing vocabulary by playing a range of games such as matching pairs, filling in gaps, drag-and-drop, memory games and bingo, using secure digital tools and applications",
+            "completing a shared wall chart by matching labels to pictures or drawings such as food and drink items or classroom furniture (e.g. meyveler ve sebzeler; içecekler; sağlıklı/sağlıksız beslenme; sınıfımızdaki eşyalar)"
+          ]
+        },
+        {
+          "code": "VC2LT2E04",
+          "strand": "Engaging with Turkish Language and Culture",
+          "subStrand": "Engaging with Turkish culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "exchanging ideas, feelings and understandings of language and culture through play-based experiences, for example, playing dress-ups, pretend cafe or restaurant and market stand, and using puppets",
+            "playing traditional Turkish games, such as yağ satarım bal satarım; saklambaç; körebe; elim sende, and games of cultures represented in the class",
+            "listening to and singing along with well-known Turkish songs and lullabies, for example 'Halay'; 'Tren Gelir Hoş Gelir'; 'Dandini Dandini Dastana' and songs from Aboriginal and Torres Strait Islander cultures, such as 'Inanay', recognising that all cultures have children's songs",
+            "noticing their own use of words, expressions or behaviours that make them who they are, including words from different languages, and ways of celebrating or speaking that may not be familiar to other people, for example, Bayramda el öpmek, using words such as abi, abla, teyze, amca to show respect",
+            "recognising Turkish words and phrases used for greetings, apologies and appreciations, such as hoş geldiniz; hoş bulduk; geçmiş olsun; merhaba; hoşça kal; günaydın; iyi günler; iyi akşamlar; iyi geceler and discussing how and when they are used",
+            "using repetition, gestures, mime and finger puppets to support language development through actions, drawings and simple statements and expressions, for example, head nodding for 'yes' can be replaced by saying hıhı; disapproval or disagreement can be represented by making a sound like nt nt; standing up when the teacher enters the room indicates respect",
+            "understanding that some Australian terms and expressions only have meaning in the Australian context and have no equivalent in Turkish, for example, 'the outback'; 'bush tucker'; 'Good on ya!'; 'vice versa'",
+            "engaging in cultural exploration activities by watching videos and making posters, for example, watching a video showcasing a Turkish bazaar and observing the vibrant sights and sounds, such as colourful stalls filled with various goods and people interacting, and then creating a Turkish Bazaar poster and labelling items in Turkish, practising vocabulary such as elma, muz, kabak, portakal, baharat, giysi",
+            "presenting information about their backgrounds and interests in show-and-tell, for example, Bu benim en sevdiğim oyuncağım.; Bu benim ailemin fotoğrafı.; Bu benim odam, pembe hali, iki yatak.",
+            "sequencing short sentences and pictures in print or digital versions of short conversations or picture stories in Turkish to complete speech bubbles in Turkish or English"
+          ]
+        },
+        {
+          "code": "VC2LT2C01",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Interacting in Turkish",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "understanding that interactions such as greetings vary according to time of day, occasion, degree of familiarity and age of people involved, for example, Günaydın!; Merhaba!; İyi akşamlar!; Nasılsın? or Nasılsınız?; Ne haber?; Ne var, ne yok?; Selam!",
+            "viewing children's television programs, such as Sevimli Dostlar; Pepe; Niloya, and responding by singing, chanting, mimicking and acting out favourite moments",
+            "recognising the importance of using either formal or informal language depending on context, for example, not using given names when addressing elders such as teachers or parents",
+            "creating illustrated lists of words and phrases in both Turkish and English that are similar in sound and meaning, for example, polis, ambulans, doktor, spor, müzik, hobi",
+            "creating individual bilingual picture dictionaries or labels for objects used in the classroom and at home",
+            "creating new situations or settings for popular characters from texts such as the Cin Ali stories by drawing and captioning in print or digital forms",
+            "creating a storyboard with labels, using modelled language",
+            "noticing words or expressions in Turkish that are not easy to translate into English, for example, Ellerine sağlık.; Çok yaşa!; Sen de gör!; Geçmiş olsun!",
+            "identifying the meaning and sounds of key words and expressions that feature in Turkish and English versions of popular children's rhymes, games and songs, such as 'Alfabe Şarkısı'; 'Yağ Satarım Bal Satarım'; 'Ali Baba'nın Çiftliği'; 'Tembel Çocuk Kalksana'",
+            "viewing scenes of the shadow-puppet play Karagöz ve Hacivat, repeating key words and expressions, and drawing and describing the characters, for example, Hacivat akıllı, bilgili ve kurnaz birisidir. Hacivat'ın sivri sakalı vardır. Karagöz bilgisiz ve komik birisidir. Karagöz top sakallıdır."
+          ]
+        },
+        {
+          "code": "VC2LT2C02",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Interacting in Turkish",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "demonstrating comprehension of individual words, phrases and sentences in simple spoken, written and digital texts, for example, labelling, drawing, miming or onscreen pointing, clicking and dragging",
+            "engaging in show-and-tell, introducing themselves, their family, friends and belongings using Benim adım… Bu, benim arkadaşım… Bu, benim kedim…",
+            "using contextual cues while reading or viewing, for example, using video and other visual prompts to reinforce words and phrases, and responding with key words, phrases or gestures, for example, watching an episode of a popular children's television show focusing on vocabulary, numbers and daily routines",
+            "playing games, following simple instructions (e.g. gece/gündüz – deve/cüce)",
+            "role-playing situations such as asking for help or playing at the playground, for example, Pardon! Bir su alabilir miyim?; Tuvalete gidelim mi?; Lütfen; Teşekkür ederim",
+            "performing simple rhymes and action songs that build on familiar language and content, and using non-verbal forms of support such as clapping, gestures and facial expressions",
+            "watching short videos and responding to questions or prompts",
+            "practising vocabulary, for example, practising high-frequency verbs using flashcards with images and/or written words, and using gestures to accompany the verbs where appropriate",
+            "listening to a story and sequencing images or assigning captions to match pictures, for example, Resimleri sıralayalım. Bundan sonra ne geliyor?",
+            "participating in shared readings of Turkish versions of familiar stories, such as 'Aç Tırtıl'; 'Goldilocks ve Üç Ayı'; 'Zencefilli Kurabiye Adam' and responding to favourite elements through play-acting, role-playing or movement using puppets, props or actions"
+          ]
+        },
+        {
+          "code": "VC2LT2C03",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "listening to spoken texts such as class and school announcements or conversations and identifying key words and facts, such as names, places, numbers or times",
+            "matching items from print/digital pictures or wordlists to vocabulary sets associated with particular categories, such as people, animals or food groups, for example, insanlar, hayvanlar, yiyecekler",
+            "demonstrating comprehension of individual words, phrases and sentences in simple spoken, written and digital texts, for example, labelling, drawing, miming or onscreen pointing, clicking and dragging",
+            "collecting information from visual, written or multimodal texts and categorising the findings, for example, creating lists of favourite colours, animals or toys",
+            "locating specific details about places, events, objects or characters featured in picture books, charts or posters, for example, responding to questions such as Masaldakiler nerede yaşıyorlar? Neyi kutluyorlar? Masaldaki kişiler kimler? Bu masal bize ne anlatmak istiyor?",
+            "using contextual cues while reading or viewing, for example, using video and other visual prompts to reinforce words and phrases, and responding with key words, phrases or gestures",
+            "working in pairs to gather information about each other's personal interests and presenting their findings to the whole class, for example, Defne yüzmeyi çok sever. Her pazar havuza gider.",
+            "listening to pronunciation of the Turkish alphabet modelled by the teacher or audio scripts and participating in activities such as spelling words out loud, playing games using letter patterns or writing dictated words and phrases",
+            "recognising that Turkish is a phonetic language and is written as it sounds, and differentiating between the 8 vowels and 21 consonant sounds of Turkish through imitation, repetition and experimentation",
+            "reading out loud to develop correct pronunciation, intonation, rhythm and stress"
+          ]
+        },
+        {
+          "code": "VC2LT2C04",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in Turkish through play, and discover how languages influence each other",
+          "elaborations": [
+            "developing pronunciation, phrasing, syllabification and intonation skills by singing, reciting and repeating words and phrases in context",
+            "recognising that Turkish uses loan words from English (e.g. internet, televizyon, ceket, film, futbol) and that English uses words from Turkish (e.g. yoghurt, coffee, kiosk, turquoise)",
+            "creating a class record of Turkish words used in English, such as 'doner kebab', 'shish kebab', 'dolma', 'cacik', and comparing how these words are pronounced and spelt in both languages",
+            "comparing and contrasting the meaning and sounds of key words and expressions that feature in Turkish and English versions of popular children's rhymes, games and songs, such as 'Ali Baba'nın Çiftliği' and 'Tembel Çocuk Kalksana'",
+            "using and manipulating classroom aids such as coloured shapes to create understanding of number, adjectives and word order, for example, Benim iki mavi karem ve bir üçgenim var",
+            "noticing cultural differences when viewing images, video clips, singing songs, dancing or listening to stories from Turkish-speaking regions, and responding to teacher prompts such as Neyi farkettiniz?; Neden öyle düşünüyorsun?; Farklılıkları ve benzerlikleri nelerdir?",
+            "experimenting with sounds in onomatopoeic words, such as those related to animal sounds, for example, ü ürü üü (horoz); miyav (kedi); möö (inek); hav hav (köpek); cik cik (kuş), and comparing with the pronunciation of equivalent animal sounds in English",
+            "noticing that Turkish and English use the same conventions for punctuation, such as full stop, comma, exclamation mark, question mark",
+            "noticing that different intonation patterns of sentences create different meanings, as in the distinction between questions, statements and exclamations, for example, Hava soğuk.; Hava soğuk değil.; Geliyor musun?; Gelsene!",
+            "constructing simple sentences, such as Annem elma aldı.; Adım Canan."
+          ]
+        },
+        {
+          "code": "VC2LT2C05",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Creating text in Turkish",
+          "text": "create spoken and written texts, copying letters, some with diacritic marks, as appropriate, and using words, familiar phrases and modelled language",
+          "elaborations": [
+            "becoming familiar with the Turkish alphabet, for example, identifying sounds of specific phonemes such as ı, ö, ü, ç, ğ, ş",
+            "recognising the upper case of ı is I and i is İ, for example, ışık – Işık; inek – İnek",
+            "understanding that the letters q, x and w in English are not represented in the Turkish alphabet",
+            "noticing that each letter in Turkish represents a single sound",
+            "recognising that the Turkish letters a, e, c, j and i are pronounced differently from their English pronunciation",
+            "noticing words that are similar in Turkish and English (e.g. radyo – radio; yoğurt – yoghurt; tren – train; taksi – taxi) by using matching word cards, pictures, large-print dictionaries, wordlists and labels",
+            "completing cloze/information-gap activities by filling in the gaps of a conversation with words, familiar phrases and modelled language",
+            "recording provided or created conversations, asking and answering questions about various topics related to their personal world using modelled language, for example, their name and age; where they live; their siblings and pets"
+          ]
+        },
+        {
+          "code": "VC2LT2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of spoken Turkish, and understand how sounds are produced",
+          "elaborations": [
+            "connecting letters and using vowel marks to form words, with support, and using familiar phrases and modelled language to create spoken, written and multimodal texts",
+            "listening to the language in a short video clip with Turkish subtitles, and noticing that Turkish is a phonetic language that sounds generally as it is written",
+            "listening to or viewing audio and visual texts from a range of regions in Türkiye and recognising that different dialects are spoken in Türkiye and accents vary in Turkish-speaking communities (comparisons can be drawn with variations in English by watching short clips of videos featuring British, American and Australian English)",
+            "comparing vowel sounds in Turkish and English, for example, making up nonsense words and trying to spell them to conform with Turkish phonetics, by playing spot the odd one out from strings of words such as masa, sarı, kaba and baba",
+            "reproducing Turkish sounds and intonation patterns through imitation, for example, reciting nursery rhymes or tongue twisters and singing songs, such as 'Küçük Kurbağa' or 'Mini Mini Bir Kuş'",
+            "using Turkish patterns of intonation, pronunciation and stress, for example, playing rhyming tennis, where students say vowels to each other in nonsense words, changing the vowels and then the consonants (e.g. lala, lele, lili, lolo, lulu, mama, meme, mimi, momo, mumu)",
+            "observing that words that stress the final letter often have a specific accent or emphasis, and finding examples in a simple text such as a nursery rhyme or poem, for example, 'Kırmızı Balık'",
+            "listening to and imitating Turkish speakers or recorded audio passages to practise pronunciation and intonation in Turkish",
+            "understanding that when pronouncing Turkish, it is important to pronounce each syllable clearly, practising with tongue twisters such as Kara kedi, kara kedi, kara kedi koş",
+            "understanding that statements and questions have different intonation patterns, and using gestures to indicate the intonation patterns they hear, for example, moving the arm up as the intonation rises for questions such as Sen nereye gidiyorsun?"
+          ]
+        },
+        {
+          "code": "VC2LT2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "recognising basic sound combinations in Turkish and how these may differ from English (e.g. ç in çiçek, ş in şapka and g in güneş) by using catchy chants like Çiçeğin çiçek gibi çiçek! or Şapka şapşal şapkayı şapşal!",
+            "recognising the nasal sounds in Turkish (e.g. ın in inek and an in ananas)",
+            "recognising the differences between how phonograms are pronounced in English and Turkish, for example, o in English 'coins' and o in Turkish otobüs",
+            "recognising the sounds of more complex combinations (e.g. il in ilkbahar or ev in evcil)",
+            "practising rolling their rs by reciting rhymes and chants with rolled rs, such as 'Kırk kırık kiraz yersem, kırk kırık kova vız gelir!'",
+            "recognising that the letter c in Turkish sounds like 'j' in English, and that the letter ş sounds like 'sh' in English, and making a list of 'tricky letters' with pronunciation hints",
+            "using common adjectives for colour and size in various contexts such as classroom items (e.g. küçük kalem; beyaz tahta) and animals (e.g. büyük köpe; siyah kedi), and using frequently used verbs in a variety of contexts such as oynamak, koşmak, yemek",
+            "playing a dictionary or digital device game to collect as many words as possible relating to a topic provided by the teacher in a set amount of time, such as a game where students find as many words related to aile as possible in 3 minutes",
+            "playing games to identify sound combinations and create simple words, for example, combining letter cards or blocks to make words such as combining the letters a, r and k to make words like arka, kar, rak",
+            "following instructions such as bak, dinle, yaz and oku, and adding lütfen once they are familiar with the words (e.g. bak lütfen; dinle lütfen)"
+          ]
+        },
+        {
+          "code": "VC2LT2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how the Roman alphabet, diacritic marks and features of language are used to construct meaning in Turkish",
+          "elaborations": [
+            "imitating the pronunciation of the 29 letters of the Turkish alphabet by singing along with an online video of the Turkish alphabet song",
+            "becoming familiar with the Turkish alphabet, noticing similarities to and differences from English, for example, noticing the diacritic marks, singing the alphabet, and discussing similarities and differences in the sounds and letters",
+            "noticing the possible confusion between how the letters i and ı are pronounced in English and Turkish, providing examples such as kiraz, kış, kitap, kız, kına and inek and practising the correct pronunciation when playing snap with words or images featuring these sounds",
+            "noticing how the letter ğ in Turkish is always silent, and practising the pronunciation of words such as ağrı, dağ, ağa, en sevdiğim",
+            "learning the structure of simple statements and questions based on models (e.g. Nasılsın?; Nerelisin?; Benim adım… )",
+            "learning simple verbs to describe actions and using them in formulaic expressions such as Televizyon izliyorum; Müzik dinliyorum; Kitap okuyorum, then creating a gesture to match the verb, and finally playing Simon says with the verbs and their matching gestures",
+            "using pronouns to identify people (e.g. ben, sen, o, biz, siz, onlar) and then playing a pronoun race where images of well-known Turkish characters from books, television or films are displayed on the board with their English pronouns, with students racing to correctly match the corresponding Turkish pronoun in the fastest time, for example, Turkish soccer players",
+            "recognising the formulaic use of the verbs olmak and sahip olmak to give personal information about state or identity(e.g. İki kardeşim var. Kısayım. Altı yaşındayım. Yeşil gözlerim var. Uzunum.) and then creating a class chart of olmak and sahip olmak with images underneath to match the verbs",
+            "recognising that adjectives are used to describe people, places and things, for example, matching simple adjectives to pictures, using the words uzun, kısa, büyük, küçük, kırmızı elma, yeşil elma",
+            "using basic particles as part of formulaic language and recognising particles written with diacritic marks, for example, ile – Ali ile Ayşe parka gitti; ve – Elma ve armut aldım"
+          ]
+        },
+        {
+          "code": "VC2LT2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that written and spoken Turkish has grammatical structures and other language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "comparing the Turkish alphabet to other forms of written expression, such as the Arabic, Cyrillic and/or English alphabets, to understand different writing systems",
+            "noticing that both Turkish and English use punctuation conventions such as full stops, capital letters, commas and question marks",
+            "copying or tracing high-frequency Turkish words (e.g. numbers) with attention to proper spelling and writing order, for example, bir, iki, üç, dört, beş",
+            "noticing the similarities and difference between Turkish and English in relation to word order in compound words, for example, güneş gözlüğü in güneş + gözlük = sunglasses, and noticing other differences such as the absence of the verb 'to be' in Ben iyiyim and Ben çok iyiyim",
+            "recognising that simple statements in Turkish tend to follow English word order, but that questions do not, for example, 'Do you have a cat?' vs. Kediniz var mı?",
+            "noticing when the word order is the same in both Turkish and English, for example, in subject + verb + object sentences such as Ben elma seviyorum",
+            "replacing words in modelled sentences to express a personal meaning, for example, replacing elma in Ben elma seviyorum with muz to say Ben muz seviyorum",
+            "noticing the affirmative and negative versions of verbs used to show agreement or disagreement, for example, making a circle and asking questions such as Kardeşin var mı? Evet/Hayır or Kedi sever misin? Evet/Hayır, with all students who answer in the affirmative having to swap places with another student",
+            "becoming aware of the use of the pronoun o in Turkish, which can refer to 'he', 'she' or 'it', noticing that o doesn't refer to a gender, for example, O öğrenci; O bebek",
+            "understanding that for Turkish speakers, silence during spoken interactions can indicate thinking about information, whereas for English speakers it could mean uncertainty or discomfort"
+          ]
+        },
+        {
+          "code": "VC2LT2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how Turkish-speaking communities are similar to or different from others",
+          "elaborations": [
+            "exploring the meaning of culture and how it can involve visible elements such as ways of dressing, eating and dancing",
+            "understanding that different forms of Turkish are used by people in different contexts and relationships, for example, the appropriate use of pronouns, sen and siz and honorifics, Orhan Bey; Ayla Hanım; Sayın; Hakan ağabey; Cengiz amca; Ayşe teyze",
+            "identifying language or behaviours that fit well in Turkish family or community contexts, but not in other contexts or situations, for example, receiving spending money during bayram",
+            "demonstrating Turkish gestures that are associated with cultural traditions such as greeting elders by kissing their hand and placing it on the forehead to show respect",
+            "showing examples of how gestures and body language in Türkiye are similar to or different from the language(s) they speak at home",
+            "exploring symbols and languages used by Aboriginal and Torres Strait Islander Peoples and by Turkish-speaking communities in a range of contexts, for example, identifying the colours of flags in Turkish, and then discussing what the colours represent in the Aboriginal and Turkish flags",
+            "interacting with a guest speaker from the local Turkish-speaking community and learning how Turkish is used and valued in different places",
+            "viewing and responding to multimodal texts to explore where Turkish language is used in Australia, such as a video clip of a scene from a restaurant, shop or market",
+            "watching videos or reading books about different Turkish-speaking communities",
+            "recognising that languages and communities have different protocols regarding the use of terms of respect, for example, there are ways of addressing Aboriginal and Torres Strait Islander Peoples using familial terms (e.g. 'Uncle' or 'Aunty') depending on the relationship, and comparing these terms with Turkish and/or other languages"
+          ]
+        },
+        {
+          "code": "VC2LT2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where Turkish is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "locating Türkiye, Australia and countries/places of significance to students in the class on a digital or print world map, and understanding that Turkish is the national language of Türkiye and is spoken in Turkish-speaking communities in Australia and around the world",
+            "noticing that many languages from different parts of the world are spoken in Australia and may be represented in their classroom, and creating a speech bubble that introduces them and the language(s) they speak",
+            "discussing the colours and symbols used in the flags of Aboriginal and Torres Strait Islander Peoples, Turkic countries and other countries known to students, and explaining what these colours represent in English",
+            "colouring in countries on a world map where Turkish is an official language (Türkiye, Cyprus) and where Turkic languages are spoken (e.g. Azerbaijan, Turkmenistan, Uzbekistan)",
+            "developing number knowledge and identifying the similarities and differences between the use of cardinal and ordinal numbers in English and Turkish, for example, birinci, ikinci, üçüncü…",
+            "creating simple timelines using the given information of an Australian Turkish-speaking community: dates of immigration, important milestones (e.g. launching a Turkish school) and their legacy (e.g. industry, buildings, bakeries)",
+            "sharing their own backgrounds and the languages spoken at home by creating a chart that lists frequently used phrases such as 'hello', 'excuse me', 'thank you', or their favourite traditional or festive foods",
+            "recognising and celebrating that Australian communities are made up of many different languages and cultures, for example, by observing International Mother Language Day on 21 February or Harmony Week, and coming to class in the traditional clothing of their choice",
+            "watching videos or reading books about different Turkish-speaking communities",
+            "viewing pictures of Turkish signs, as well as signs in other languages, from restaurants, markets and other shops in Australia, and viewing bilingual signs in Australia and other countries, for example, from airports and tourist destinations"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use Turkish to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts.\nStudents imitate the sound combinations and rhythms of spoken Turkish. They demonstrate their understanding that Turkish has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in Turkish and make comparisons between Turkish and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' cultural identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LT4C01",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Interacting in Turkish",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "using non-gendered forms of address, such as Günaydın çocuklar",
+            "sharing information about themselves such as details of their daily routines, family, friends and things they like to do, for example, Şarkı söylemeyi severim.; Akşam kitap okurum.; Sabah erken kalkarım.; Bazen kardeşim ile oyun oynarım.; Hafta sonunda futbol oynarım.; Uyumadan önce dişlerimi fırçalarım.; Uyandıktan sonra kahvaltı yaparım",
+            "asking and responding to questions about themselves and others such as Adın ne?; Nerelisin?; Ailen Avustralya'ya nereden geldi?; Ben Türküm ve Avustralyalıyım.; Ailem Avustralya'ya İzmir'den geldi.",
+            "asking and answering questions that involve concepts such as time, place or number, including days of the week, months and seasons, for example, Saat kaç? Saat 5.; Hangi mevsimdeyiz? Kış mevsimindeyiz.; Bugün ayın kaçı? Bugün ayın 20'si.; Adresin nedir? Adresim…",
+            "expressing and responding to good wishes associated with key events in their community such as Bayramınız kutlu olsun! Sizin de.; Mutluluklar dilerim. Teşekkür ederim.; Elinize sağlık! Afiyet olsun!; Çok yaşa! Sen de gör!",
+            "exchanging simple written forms of correspondence such as invitations, messages for birthdays, Mother's and Father's Days, religious celebrations and national days, for example, Yarınki doğum günü partime gelir misin?; Doğum günün kutlu olsun!; Anneler/Babalar günün kutlu olsun!; Bayramınız mübarek olsun!; 23 Nisan Ulusal Egemenlik ve Çocuk Bayramınız kutlu olsun!",
+            "following directions while moving in the classroom or in the playground, for example, Sağa dön.; Önüne bak.; Geri gel.; İleri git",
+            "comparing preferences, for example, Futbol yerine tenis oynamak istiyorum.; Benim en sevdiğim meyve muzdur.; Ben kirazı muzdan daha çok severim.",
+            "exchanging positive and encouraging comments on their own and others' learning, for example, Başardım! Artık ben de yapabiliyorum.; Sen bunu çok iyi yapıyorsun. Bana da gösterir misin?, and seeking advice and help from others, for example, Tekrar edebilir misin, lütfen?; Bu ne demek?; O ne demek?; Anlamıyorum. Yardım edebilir misin?; Bana yardım eder misin?"
+          ]
+        },
+        {
+          "code": "VC2LT4C02",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Interacting in Turkish",
+          "text": "participate in activities that involve expressing interests and exchanging information with others, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "exchanging opinions when negotiating roles and responsibilities for a class activity or performance, for example, Ben söyleyeyim sen yaz olur mu?; Ben çizmesem olur mu?",
+            "working collaboratively and sharing decisions about content and vocabulary when designing a poster for a specific event, creating a picture book or word wall, for example, 29 Ekim Cumhuriyet bayramı için bir poster hazırlayalım.; Nasrettin Hoca ile ilgili resimli, büyük bir kitap yapalım.; Öğrendiğimiz yeni kelimeleri panoya asalım",
+            "participating in a group game, taking turns and using appropriate expressions, for example, Hadi bunu beraber yapalım.; Sıra sende.; Ben bunu daha iyi yapabilirim",
+            "participating in group recitals of poems on special occasions (e.g. Mother's Day, national days and cultural celebrations)",
+            "participating in group activities such as role-plays, organising a class birthday party and designing a treasure hunt, for example, Sen hangi karakter olmak istersin?; Senem'e doğum günü pastası alalım.; Yumurtaları nereye saklayalım?",
+            "preparing together and displaying a set of class rules, for example, Konuşmak için elini kaldır.; Birisi konuşurken dikkatli dinle.; Herkese karşı saygılı ol.",
+            "designing a class survey in groups, agreeing on the questions to ask and presenting the findings in spoken or written form, for example, Haydi anket için konumuzu belirleyelim.; Ne soralım?; Sınıfımızda en sevilen meyve muz oldu.",
+            "preparing, rehearsing and presenting a Turkish-themed item at school assembly",
+            "working collaboratively, using digital applications, to make games to practise Turkish vocabulary, phrases or expressions"
+          ]
+        },
+        {
+          "code": "VC2LT4C03",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "recognising vocabulary, key phrases and sentences when listening to or viewing simple community texts such as sports programs or announcements, for example, spor; takım; sporcular; oyunun kuralları; Gösteri saat 7'de başlayacak.; Kapılar bir saat sonra açılacak.; Kapıda lütfen biletlerinizi gösterin",
+            "obtaining information from each other and their teacher about likes, dislikes and interests, for example, en sevdiğin hayvanlar; spor; ya da oyun, and presenting findings in formats such as individual/group profiles, charts or graphs",
+            "collating information about aspects of Türkiye or Australia from texts such as magazines, brochures or maps, for example, Türkiye ve Avustralya'nın dünya haritasındaki konumu; turistik yerleri; yöresel yemekleri",
+            "participating in shared and guided reading of texts such as cartoons, poems, fairytales and fables, responding to questions about characters, ideas and events",
+            "learning that Aboriginal and Torres Strait Islander Peoples' languages change according to connections and relationships between people, and giving examples of how this occurs in Turkish, for example, identifying ways of addressing Aboriginal and Torres Strait Islander Peoples using familial terms (e.g. 'Uncle' or 'Aunty') depending on the relationship, and comparing these terms with Turkish and/or other languages",
+            "collecting information from texts on the school noticeboard, such as advertisements for school and community events, or canteen and restaurant menus, and identifying key information",
+            "responding to words of songs through movement and dance, for example, 'Kırmızı Balık Gölde…'; 'Ellerim Tombik Tombik…'; 'Pazara Gidelim…'",
+            "acting out elements of classic texts narrated by the teacher, such as Şirin Kız ve Üç Ayı; İki İnatçı Keçi, using facial expressions and actions to mirror emotions and emphasise meaning",
+            "responding to traditional songs and folk music such as 'Halay'; 'Erik Dalı'; 'Silifke'nin Yoğurdu', for example, using wooden spoons to mark rhythm and creating and narrating their own versions of the dance"
+          ]
+        },
+        {
+          "code": "VC2LT4C04",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce Turkish, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "predicting the meaning of unknown words and expressions by using context in texts such as greeting cards, invitations or public signs",
+            "finding cognates in texts to expand vocabulary knowledge, for example, üniversite, televizyon, tren, telefon",
+            "matching words to describe family members and relatives in Turkish and English, noticing words that have no English equivalents such as dayı/amca/enişte; hala/yenge/teyze; ağabey/abla",
+            "matching Turkish and English words and phrases used in everyday conversations, for example, ev ile ilgili kelimeler; yiyecekler; nesneler; haftanın günleri; aylar ve mevsimler, and sorting the matched pairs into groups based on equivalence or non-equivalence",
+            "using multimodal resources to design word banks to talk about areas of personal interest or to compile common Turkish expressions, sayings and idioms that convey Turkish cultural practice",
+            "learning to use print and digital dictionaries to assist comprehension by discovering the meaning of unknown words in texts",
+            "translating and comparing familiar Turkish and English expressions using bilingual and monolingual dictionaries, and identifying those that have no literal translation such as Başın sağolsun.; Darısı başına.; Güle güle kullan.; Gözün aydın.; Hoş bulduk.; Allahaısmarladık",
+            "devising simple activities that involve alternating or combining repeated words or phrases in Turkish and English, for example, using questions, idiomatic expressions and responses to develop skills in adjusting language to cultural contexts",
+            "collecting and classifying words, phrases and expressions in Turkish that also exist in English (e.g. televizyon, radyo, prens, prenses), identifying any differences in meaning or usage, for example, köşk (kiosk), Osmanlı (Ottoman)",
+            "finding ways to express meaning in Turkish of Australian-English terms and expressions, for example, 'bushwalking' and 'Good on you!', to newly arrived migrants"
+          ]
+        },
+        {
+          "code": "VC2LT4C05",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Creating text in Turkish",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences, and modelled textual conventions",
+          "elaborations": [
+            "presenting information via picture stories or multimodal displays on aspects of their lives that would interest Turkish-speaking children of their own age in other contexts, for example, Futbol ve Ben; Ailemle Piknik; Bayram Kahvaltısı; Folklor Klubündeki İlk Günüm",
+            "presenting information to other children in the school or to their families about shared in-class projects, for example, Okulumuzdaki sebze bahçemiz; Sınıf içinde hazırladığımız zorbalığa hayır oyunu",
+            "explaining a favourite computer game, sport or playground game, highlighting key terms and supporting information with pictures, gestures or demonstrations",
+            "creating texts such as flyers, posters or posts on the school website to advertise special events such as bayram kutlamaları; çokkültürlülük kutlamaları; okul kermesi; nineler ve dedeler günü; Avustralya Temizlik Günü",
+            "creating simple descriptions in Turkish and matching them to appropriate Aboriginal and Torres Strait Islander Peoples' Country or Place locations in their local area or elsewhere in Australia, for example, creating simple descriptions in Turkish about the cultural practices or significant places of one of these Aboriginal groups, with permission, and presenting about traditional ceremonies, art styles or historical events that are important to Victorian Aboriginal communities, if appropriate, using Turkish words, for example, Dans; Geleneksel tören; Sanat; Müzik; Hikaye; Yerel dil; Yerel el sanatları",
+            "creating bilingual signs, posters, notices and labels in print and digital forms to be displayed in the classroom and around the school",
+            "developing simple directions and clues in print, spoken or visual formats for activities such as a treasure hunt or mystery tour, for example, sağa dön; sola dön; ileri git; düz git",
+            "creating a class book or digital display about their local environment, making connections with topics they have been studying in other curriculum areas, for example, evremizdeki bitkiler; çarşıdaki dükkanlar; parklar",
+            "writing a script in Turkish for a role-play about aspects of their daily routine and presenting to a Turkish-speaking audience, or composing simple dialogues between imagined characters in challenging or amusing situations, using expressions and gestures that convey emotion or humour and capture elements that are typical of the context or character",
+            "using models such as the nursery rhyme 'Komşu Komşu' to create and present a digital story or scripted play that uses words and expressions to build rhythm and rhyme"
+          ]
+        },
+        {
+          "code": "VC2LT4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations and use patterns of pronunciation and intonation to form words, phrases and simple sentences",
+          "elaborations": [
+            "learning about back (a, ı, o, u) and front (e, i, ö, ü) vowels in Turkish and applying the principle of vowel harmony to high-frequency words",
+            "applying the principle of vowel harmony for suffixes with root words and learning about exceptions to the rule in relation to loan and compound words and to some Turkish words such as bugün, kardeş and kalem",
+            "developing awareness of the devoicing and doubling of final consonants, as in kitap-kitabı, kanat-kanadı, sokak-sokağa and git-gittim, sır-sırrım",
+            "learning the pronunciation and spelling of high-frequency words with yumuşak g (soft g) ğ, as in yağmur and ağaç, and understanding that this sound is never used at the beginning of words",
+            "noticing how people adapt language when speaking with young children, using expressions such as bebişim, cici, and how young children speak differently to adults and older children, for example, using the ending -cik as in anneciğim ve babacığım when talking to parents"
+          ]
+        },
+        {
+          "code": "VC2LT4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "understanding spelling patterns, the spacing rule and the application of vowel harmony to question endings such as Alır mısın?; Alıyor musun?",
+            "understanding the use of an apostrophe for separating proper nouns from their inflectional suffixes, as in Tarık'ın; İstanbul'da; Avustralya'nın",
+            "describing quantity, using cardinal numbers, yüz; iki yüz; üç yüz; bin, and ordinal numbers using the -inci suffix and its variations, birinci, ikinci, üçüncü",
+            "asking and responding to questions to seek information, such as Olay ne?; Nerede geçti?; Neler oldu?; Neden oldu?; Ne zaman oldu?; Karakterler kimdi?, and using imperative forms such as Başla! Başlayabilirsin, Kalk!; Kalkabilirsin!; Çabuk gel!",
+            "using a range of simple conjunctions to link basic ideas and action, for example, -den önce (öğleden önce); -den sonra (öğleden sonra); ile/-(y)le (kalemle, silgiyle); ama; çünkü",
+            "constructing simple and compound sentences such as Eve geldim.; Hediyeyi gördüm.; Eve gelince hediyeyi gördüm",
+            "using comparatives and superlatives such as en and daha plus çok/az to talk about likes, dislikes and interests, for example, En sevdiğim oyun.; Daha çok arkadaş istiyorum.; Arkadaşımdan daha az param var",
+            "using a range of verbs, adjectives and adverbs to describe and elaborate on action, time, places and people, for example, Mavi köşkte yaşıyordu.; Kısa saçlı biriydi.; Çok dikkatli yürü!; Dün sabah geldi",
+            "understanding and using -(i)r, -(u)r, -(a)r simple present tense suffixes to express habitual actions and facts, for example, Güneş doğudan doğar.; Batıdan batar.; Dişlerimi fırçalarım.; Erken yatarım.; Erken kalkarım",
+            "recognising and using simple verb tenses with negation and affirmation suffixes to form sentences, for example, biliyorum/bilmiyorum; okur/okumaz; uyudu/uyumadı; geleceğim/gelmeyeceğim; gitmiş/gitmemiş",
+            "using common interrogative pronouns such as kim, hangi, ne, neden, kaç, for example, Bu akşam bize saat kaçta geleceksin?; Doğum günü partisine kimler gelecek?",
+            "identifying exclamations and exploring the range of emotions they express and the contexts in which they are used, for example, Ay! Ya! Öf be!",
+            "understanding and using the simple past-tense suffix -d(i/ı), for example, Annem çarşıdan ekmek aldı",
+            "indicating direction using prepositions, for example, ileride, ortasında, üzerinde, köşesinde, aşağıda, yukarıda, doğu, batı, kuzey, güney",
+            "using honorifics such as Yaşar amca; Ayşe teyze"
+          ]
+        },
+        {
+          "code": "VC2LT4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar Turkish language structures and features with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "understanding that Turkish is a phonetic language and that every letter represents a single sound",
+            "noticing that Turkish uses diacritic marks to assist pronunciation",
+            "recognising that Turkish and English have the same punctuation rules, for example, using a capital letter at the beginning of sentences and a full stop at the end of a sentence, commas, question marks and exclamation marks",
+            "comparing how people speak or refer to other people in Turkish and English, such as to older relatives, classmates or teachers, and recognising that Turkish and English have different ways of showing politeness, for example, abla, ağabey, amca, teyze, öğretmenim",
+            "comparing familiar texts in Turkish and English and noticing features they have in common, for example, the start of fairytales in Turkish Bir varmış, bir yokmuş, evvel zaman içinde… compared with 'Once upon a time …' in English, and analysing rhymes, lines and verses in Turkish and English poems",
+            "exploring different types of texts in Turkish and English, and identifying purpose and intended audience, for example, differences between Elektronik-yazılı mesaj; telefon görüşmesi; yazılı diyalog; masal-fıkra",
+            "finding English words used in Turkish (e.g. web sitesi; sosyal medya; tişört) and considering differences between these and the types of Turkish words used in English",
+            "identifying loan words from other languages (e.g. tren, doktor, baklava, çikolata, sıfır, şeker, tiyatro, balkon) and discussing why particular kinds of words are more likely to be adopted",
+            "recognising the sentence structure in Turkish as subject + object + verb, for example, Burak (subject) ayakkabısını (object) temizledi (verb), whereas English sentence structure is subject + verb + object"
+          ]
+        },
+        {
+          "code": "VC2LT4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "recognising how language varies when used to greet, apologise and show appreciation with friends, family, elders and less familiar people, for example, the use of given names only in greeting cards to friends compared to the use of honorifics to older family members or authority figures, such as teyze, amca",
+            "noticing that languages carry cultural information, for example, identifying words or expressions in Turkish, English or other languages that only 'work' in that language, for example, Güle güle kulan; Afiyet olsun; Helal olsun; Ellerine sağlık",
+            "finding examples of forms of address or expressions associated with cultural events that reflect Turkish values and traditions, for example, Dedeciğim, iyi bayramlar.; Allah kabul etsin",
+            "learning the Turkish words for directions and regions, for example, Ege; Doğu Anadolu; İç Anadolu; Marmara, through an engaging activity that integrates Aboriginal and Turkish cultures using a map of Australia to locate the regions inhabited by different Aboriginal groups such as the Koori/Koorie in the southeast (Güneydoğu), Noongar in the southwest (Güneybatı) and Nunga in the south (Güney). Additionally, learning Aboriginal groups to identify themselves, such as Zenadth Kes, Koori, Koorie, Noongar and Nunga, and comparing this with Turkish regions like Ege; Doğu Anadolu; İç Anadolu; Marmara",
+            "discussing representations of information used in cultural expressions of Aboriginal and Torres Strait Islander Peoples, and making connections with those of Turkish language and culture(s), for example, the different regional words used by Aboriginal groups to identify themselves such as Zenadth Kes, Koori, Koorie, Noongar and Nunga, and comparing this with Turkish-speaking cultural groups",
+            "noticing how values including politeness, affection or respect are conveyed in Turkish by comparing interactions in their family and home community with interactions they observe in non-Turkish-speaking families and communities, for example, yavrum; canım; bir tanem; lütfen",
+            "comparing their impressions of aspects of children's lives in different Turkish-speaking regions as represented in video clips, television programs and stories, for example, ways of playing games; preparing and eating food; telling stories or interacting at school, home or in the community",
+            "recognising variations in language use among different community or social groups, and identifying how they reflect cultural values, hierarchies or relationships, for example, referring to anyone older than you as amca (uncle) or ağabey (older brother) and teyze (aunt) or abla (older sister)",
+            "exploring the meaning of 'culture', and how it involves a range of elements unique to a person's identity such as dress, food, where they live, how they celebrate and the language(s) they speak and recognising that in each culture there are general rules about what to say and do, when, where and with whom, and that these rules differ from culture to culture",
+            "demonstrating gestures or behaviours that they feel 'belong' with the Turkish language and are associated with their sense of identity, and comparing them with other gestures or behaviours that they identify with other cultures"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in Turkish that are related to their personal worlds and school environment. They use appropriate sound combinations, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share and discuss information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in Turkish or English, adjusting their response to suit purpose.\nStudents use modelled structures when creating and responding in Turkish. They create texts, selecting and using a variety of vocabulary and sentence structures to suit different contexts, and using conventions appropriate to text type. They apply rules for pronunciation and intonation in spoken language and apply conventions of spelling and punctuation in written language. They compare language structures and features in Turkish and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LT6C01",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Interacting in Turkish",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "exchanging information about significant people such as family members, friends and teachers, physical appearance and characteristics/qualities, for example, Babamın azmine hayranım.; Berna'nın kahverengi saçları vardır.; Onun sesi çok güzel.; O, çok çalışkandır",
+            "agreeing or disagreeing politely with each other's opinions, or negotiating changes when working together and discussing topics related to the school environment and their personal worlds, for example, Bence de.; Haklısın aynı fikirdeyim.; Bence öyle değil.; Ben sana katılmıyorum.; Ne tercih edersiniz?; Şöyle yaparsak daha iyi olur",
+            "sharing information about social activities, special community celebrations or events, for example, 29 Ekim Cumhuriyet Bayramında ben şiir okudum.; Ramazan bayramında dedem bana harçlık verdi.",
+            "participating in online exchanges such as secure video blogs with sister schools in Türkiye or other Turkish-speaking contexts, comparing interests, routines and social activities",
+            "exchanging written or digital texts such as cards, emails or letters to invite, congratulate or thank someone, for example, Lütfen buyurun!; Davetlisiniz., Gözün aydın!; Güle güle oturun!; Hayırlı ve uğurlu olsun!; Tebrikler!, Teşekkür ederim",
+            "sustaining interactions with others by asking questions, using active listening skills and providing feedback, for example, Siz ne düşünüyorsunuz?; Evet!; Tabii ki.; İlginç!; Sen ne dersin?",
+            "referring to others appropriately and respectfully in different contexts, by using the pronoun o, noticing that o is gender neutral, for example, O öğrenci çok çalışkan.; O arkadaşım harika bir futbolcu.; O öğretmen çok sabırlı.; O çocuk yeni bir oyuncak ald.; O arkadaşım çok iyi bir insan",
+            "interacting during group learning experiences by asking each other questions, for example, Ben ne yapabilirim?; Sen not alır mısın?; Bu sayfayı mı okuyacaktık?; Ne dersiniz?",
+            "conducting a simulated interview with someone they consider a role model such as a sports figure, musician, artist, teacher, family member or friend, for example, Kendinizi kısaca tanıtır mısınız?; … a ilginiz ne zaman başladı?",
+            "providing each other with feedback about their learning experiences, giving advice or reminders, for example, Süper! Harika! Mükemmel! Unutma! Çok zor!"
+          ]
+        },
+        {
+          "code": "VC2LT6C02",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Interacting in Turkish",
+          "text": "participate in activities that involve discussion and planning with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "exchanging information to organise a meeting with friends, discussing where and when it will take place, for example, Yarın kaçta buluşalım?; Toplantı için hangi tarih ve yer sizin için uygundur?; Kimler katılacak?",
+            "planning and creating displays or resources such as timelines, schedules, or posters for school and community events",
+            "making print or digital invitations and arrangements for a shared event or experience such as a class party, special Turkish-speaking visitors or a film afternoon",
+            "planning a real or imagined trip to Türkiye, agreeing on an itinerary and packing list, for example, Bu yaz Türkiye'ye gidip Bodrum'da tatil yapacağım.; Yanına mutlaka güneş kremi almalısın",
+            "participating in and adapting scenarios related to purchasing goods and services such as bargaining scenarios, buying souvenirs or ordering food, for example, Aa bu çok pahalıymış!; En son kaça olur?; İki ayran iki de döner dürüm alabilir miyiz?",
+            "planning a campaign, for example, to introduce healthy Turkish food at the school's multicultural event(s), raise awareness about pollution or to promote harmony and positive relationships, and creating posters, pamphlets and flyers or making presentations to the class, parents and school community members",
+            "planning for a Turkish-speaking guest interview by developing a list of questions such as Kendinizi tanıtır mısınız?; İlgi alanlarınız nelerdir?",
+            "preparing performance texts such as Hacivat ve Karagöz oyunları; skeçler; piyesler; marşlar; Ramazan manileri, to present to younger students at a community event or school assembly"
+          ]
+        },
+        {
+          "code": "VC2LT6C03",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "gathering and comparing information from different sources on topics such as family life, cultural trends, changing social behaviours, community or schooling in Turkish and Australian contexts",
+            "collecting and presenting information from a range of print and digital resources about features of their local environment, for example, water, bush care, ecosystem, wildlife",
+            "consulting online catalogues and websites, comparing prices and values, discussing intended purchases and budgeting for hypothetical shopping expeditions, for example, İndirimli satışlar varmış.; Bu çok pahalı!; Bu hem daha ucuz hem de kaliteli",
+            "viewing Aboriginal and Torres Strait Islander Peoples' stories, drawings or digital art using words, formulaic expressions and modelled sentences in Turkish to respond, for example, Deve kuşunu görüyorum; Çok büyük ve ilginç; Güneş çok sıcak ve parlak; Güneş ve akarsu görüyorum; Akarsu çok hızlı akıyor; Güneş çok sıcak fakat akarsu çok soğuk",
+            "presenting a critical review of a song, story or television program, using evaluative language such as Ben… çok beğendim çünkü…; … hiç sevmedim.; Çok üzücüydü",
+            "describing their reactions to imaginative texts that evoke responses such as sadness, fear or excitement, relating them to their own experiences by using stem statements such as Bir defa benim de başıma gelmişti…; Ben de benzer bir olay yaşadım…",
+            "conducting interviews with family members or friends to collect stories of migration to Australia, then creating a short video or digital presentation highlighting keywords and expressions that reflect important values and feelings such as gurbet, özlem, heyecan, güvenlik, dostluk, komşuluk",
+            "listening to, reading or viewing traditional folktales, contemporary stories and cartoons, responding by retelling or re-enacting the story in their own words, or by creating a comic or storyboard to retell the story in their own words, or by creating a timeline to track a sequence of events"
+          ]
+        },
+        {
+          "code": "VC2LT6C04",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in Turkish in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "gathering information from a range of print and digital resources about social and cultural activities in their community, making a list of terms, expressions such as Bayramınız kutlu olsun!; Geçmiş olsun!; Kolay gelsin!; Tebrik ederim!, or behaviours such as welcoming the guests by standing up and waiting for those older than themselves to start eating",
+            "identifying loan words and phrases used in domains such as food, music or social media, and discussing how the Turkish language and associated behaviours reflect contemporary and global influences, for example, the use of internet sitesi; rap yapmak; fast food; part-time; miting",
+            "finding expressions used in advertisements, shop signs or folktales in English that convey similar meanings to Turkish phrases such as ateş pahası; darısı başına; kulakları çınlamak; pabucu dama atılmak; demli çay",
+            "explaining in English the meaning of Turkish expressions that do not translate literally – such as gözüne girmek; dikkat kesilmek; dolap çevirmek – and comparing them with expressions in English for which there are no easy Turkish translations",
+            "learning to use bilingual print and digital dictionaries, identifying issues such as multiple meanings for words and the fact that meaning is not always literal",
+            "considering English words and expressions used in other curriculum areas, such as drought, bushfires, famine, flood, snowstorms and earthquakes, and applying strategies to convey the meaning in Turkish, for example, kuraklık; orman yangınları; açlık; kıtlık; sel; kar fırtınası; depremler",
+            "understanding how language is adapted to reflect levels of politeness and formality, and to reflect relationship, age and intention, for example, comparisons such as using the pronoun siz and the second plural indicator -iz to indicate greater politeness in requests such as Gelir misiniz lütfen? rather than Gelsene; using titles such as Hanım/Bey/Sayın instead of sevgili, canım; using given names to address family and friends in informal letters",
+            "using movement, facial expressions and actions to interpret meaning in texts such as 'Karagöz ve Hacivat' or 'Nasrettin Hoca', identifying key messages and amusing moments",
+            "collecting examples of proverbs used in their families and discussing how to explain their meaning to non-Turkish-speaking friends, for example, Damlaya damlaya göl olur.; Ağaç yaş iken eğilir.; Güneş giren eve doktor girmez.; Denize düşen yılana sarılır",
+            "reflecting on instances when their use of Turkish, English or other languages has been misinterpreted and discussing possible reasons for this, for example, offering cologne to guests to refresh themselves may be misinterpreted by non-Turkish visitors"
+          ]
+        },
+        {
+          "code": "VC2LT6C05",
+          "strand": "Communicating Meaning in Turkish",
+          "subStrand": "Creating text in Turkish",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type",
+          "elaborations": [
+            "presenting information related to elements of Turkish lifestyles and culture to students in the school who are not learning Turkish, for example, şehir; köy; Türk hamamı; Türk kahvesi; sanat; halk dansları",
+            "designing a menu for a Turkish meal that includes footnotes in English to explain characteristics and ingredients of unfamiliar dishes such as imambayıldı, Alinazik, mücver, hünkarbeğendi",
+            "creating a multimodal profile of their local community for newly arriving migrants from Turkish-speaking regions of the world, highlighting aspects such as local facilities and places of interest",
+            "creating a class print or digital poster locating and describing, in Turkish, a specific Aboriginal or Torres Strait Islander Country or Place in a local or regional context or elsewhere in Victoria or Australia, for example, identifying and mapping the Wurundjeri, Boon Wurrung or Yorta Yorta lands; students can use maps to pinpoint these locations and describe their significance in Turkish, for example, Burası Wurundjeri ülkesidir ve buradaki yerli halk tarafından kutsal kabul edilir",
+            "creating a poster for young people to promote upcoming events in their community, for example, mezuniyet balosu; eğlence gecesi; 19 Mayıs ve Gençlik ve Spor Bayramı",
+            "assembling an information pack to support new students arriving at their school, including a glossary of key terms that may need explaining, for example, sınıf; müdür odas; öğretmenler odası; nöbetçi öğretmen; revir; kantin; ofis; lavabo; kütüphane; spor salonu; konferans salonu",
+            "creating an interactive presentation for younger children, friends or members of their extended families to showcase their bilingual/multilingual experience and identify the advantages of being able to communicate in more than one language",
+            "creating digital profiles of characters they enjoy in different stories, plays or poems, providing descriptions of physical appearance and character traits and examples of the ways they speak and behave",
+            "composing a personal response or commentary (e.g. a letter or journal entry) to a message conveyed by a character in a folktale, legend or fable relating to a concept such as truthfulness, courage or honesty, for example, 'Ağustos Böceği ile Karınca'; 'Kaplumbağa ile Tavşan'; 'Karga ile Tilki'",
+            "using puppet characters from traditional texts such as 'Karagöz ve Hacivat' to create and enact representations of relationships and experiences from their own worlds"
+          ]
+        },
+        {
+          "code": "VC2LT6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency and rhythm in words, phrases and sentences",
+          "elaborations": [
+            "adapting modelled examples of tongue twisters such as Al şu taka tukaları taka tukacıya götür to experiment with a range of letter combinations and sounds",
+            "recognising differences in the pronunciation of long and short vowels with and without accents, and understanding that the length of a vowel and accent can change meaning, as in hala-hâlâ, and can palatalise the previous consonant, as in kar-kâr",
+            "understanding sound assimilation, for example, how in words ending in k, the k softens to become yumuşak g (soft g), ğ, before suffixes starting with a vowel, for example, kulak – kulağıma; küçük – küçüğüm",
+            "understanding how to use emphasis to enhance meaning, for example, using high-pitch tone and primary stress at the end of words, as in gel′dim ya!",
+            "practising the sounds and intonation patterns in Turkish when introducing themselves, for example, providing their name, age and stating the Aboriginal Country on which they are learning, such as Biz şu anda Wurundjeri Topraklarındayız",
+            "understanding how stress is usually placed on the last syllable in Turkish, except in the case of some question words, compounds and place names such as Ankara, Türkiye, Bulgaristan, Gürcis′tan, hangi, niçin",
+            "applying the principles of vowel harmony and sound assimilation of consonants and grammatical knowledge to the spelling and writing of unfamiliar words, for example, suffixes such as -cı arabacı, -ci tamirci, -cu basketbolcu, -cü yüzücü, -çı, aşçı, -çi çiftçi, -çu topçu, -çü çöpçü, -da tabakta, -ta kitapta, -ta ağaçta, -te sepette",
+            "understanding the pronunciation of loan words, including vowels and consonant clusters, for example, plaj, spor, tren, traş, kravat",
+            "recognising the effect of non-verbal language and tone in reinforcing meaning in spoken Turkish, for example, when expressing Buyurun!; Vay be! Bittim ya!; İnanmıyorum!; Git yaa!; Eeee, başka?; Hadi be!; Öf ya!",
+            "recognising how variations in language use reflect different feelings, moods or attitudes, for example, the respectful tone of devotional texts compared with the liveliness, humour and colour of Nasrettin Hoca fıkraları; Temel fıkraları; Çizgi filmler; Fabllar"
+          ]
+        },
+        {
+          "code": "VC2LT6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "recognising and using nominal conjugations through adjective- and noun-making suffixes such as -lı, -li, -lu, -lü as in kar-lı, kir-li, toz-lu…; -lik, -lık, -luk, -lük as in yaz-lık, göz-lük…; -cı, -ci, -cu, -cü/-çı, -çi, -çu, -çü as in gemi-ci, kira-cı, su-cu, ekmek-çi…; -gı, -gi, -gu, -gü as in sar-gı, sil-gi…; -sız, -siz, -suz, -süz as in ev-siz, tuz-suz",
+            "applying the principle of major vowel harmony when adding nominal case endings -(e), -(i), -d(e), -d(e)n to different nouns such as ev-e, ev-i, ev-de, ev-den, ev-in",
+            "creating short descriptions or stories about significant Victorian Aboriginal places and people using appropriate text conventions, for example, writing a postcard describing a visit to Gunditjmara Country using simple past tense and adjectives, such as Geçen hafta Gunditjmara ülkesini ziyaret ettik. Orada çok güzel manzaralar vardı., using interrogative word endings in different tenses depending on personal pronouns, for example, Geliyor musun?; Gelecek misiniz?",
+            "recognising and using verb conjugations, for example, oku-mak in simple present tense: oku-r-um, oku-r-sun, oku-r, oku-r-uz, oku-r-sunuz, oku-r-lar and in present continuous tense: oku-yor-um, oku-yor-sun, oku-yor, oku-yor-uz, oku-yor-sunuz, oku-yor-lar; also learning the correct written form of suffixes, for example, instead of using spoken/colloquial predicates such as gelcem or alcan, using the written form, geleceğim and alacaksın; instead of using geliyom, using the correct spelling, geliyorum",
+            "using the negative marker -m(a), as in Bayramda tüm okullar tatile girmeyecek., and the adverb for negation, değil, to negate any sentences without a verb, and using appropriate suffixes, değil-im, değil-sin, as in Bayramda tüm okullar tatile girmeyecek değil mi?",
+            "using conjunctions and comparatives to evaluate and express opinion, for example, -a göre, sence, hiç/çok uzun değil",
+            "using appropriate endings for subject + verb agreements in simple and compound sentences, for example, Herkes onu çok seviyor, hiçkimse ona kızamıyor.",
+            "using the conditional marker (suffix) -s(e) and/or the word eğer in compound sentences, for example, (Eğer) yağmur yağarsa geziye gitmeyeceğiz",
+            "recognising and using compound and some complex sentences, for example, Akşam erken yatmama rağmen sabah uyuyakaldım.; Sınavdan düşük not aldım çünkü hiç çalışmadım.",
+            "recognising different types of formal and informal honorific forms such as Sayın, Bey/Hanım, amca, teyze"
+          ]
+        },
+        {
+          "code": "VC2LT6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare Turkish language structures and features with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "comparing language used in texts, for example, descriptive language in recounts or narratives, humorous language in comics and poems, persuasive language in advertisements, instructional language in recipes and manuals, expository language in news reports",
+            "analysing characteristic features of texts, for example, the use of abbreviations and emojis in texting, rhetorical questions in advertisements, numerical terms in recipes and receipts, emotive and rhyming words in song lyrics, headings in secure blogs and on websites",
+            "understanding that some words originate from Aboriginal languages from different areas around Australia, for example, koala (koala) from the Dharug word gula, meaning 'no water', or kanguru (kangaroo) from the Guugu Yimithirr word gangurru, and comparing these words to English and/or other languages and discussing their historical context",
+            "identifying words that are similar in Turkish and English, comparing their spelling, pronunciation, intonation and stress, for example, ağustos, alfabe, ansiklopedi, çikolata, doktor, elektrik, fotoğraf, laboratuvar, paraşüt, tren, veteriner, yogurt",
+            "discussing the use of imagery in different kinds of creative texts, identifying how this helps to convey meaning and engage/entertain the audience in Turkish and English",
+            "discussing how poems or song lyrics, for example, 'Bir Başkadır Benim Memleketim' and 'Çanakkale Türküsü', create moods such as özlem ve acıma and tap into particular emotions by using techniques such as repetition, rhyme and direct forms of address, and compare with techniques used in English poems and song lyrics",
+            "building metalanguage to talk about grammar, using terms such as bağlaçlar; özne ile yüklem uyumu; -de/-da ekler; ilgi zamiri ¬-ki; edatlar",
+            "learning basic metaphors, similes such as çantanın gözü; aslan gibi, and common idiomatic expressions and proverbs, for example, Damlaya damlaya göl olur.; Ateş pahası!; Nazar değmesin!, and comparing these figures of speech with usage in English"
+          ]
+        },
+        {
+          "code": "VC2LT6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal, non-verbal and written communication",
+          "elaborations": [
+            "understanding that the use of honorifics such as Ali ağabey (Abi); Fatma abla; Mehmet amca; Mustafa dayı; Ahmet Bey; Nazmiye Hanım can be varied when speaking to an older person who is less familiar, depending on their age and degree of closeness",
+            "identifying adjustments they make when moving between Turkish and English at school and at home, such as using different forms of address to show respect or affection, for example, that in Turkish classrooms, teachers are addressed as öğretmenim/hocam whereas in English classrooms, teachers are called by their title and family names, and discussing why these adjustments are necessary",
+            "noticing how language and culture are expressed through Turkish song, dance (e.g. Turkish Halay dance) or artworks, and considering similarities and differences with other communities, including Aboriginal or Torres Strait Islander communities, and noticing how these cultural practices tell stories and preserve traditions",
+            "understanding that people interpret and respond to intercultural experiences in different ways depending on their own cultural perspectives, recognising the validity of different perspectives, and questioning notions of 'right' or 'wrong' ideas or behaviours",
+            "reflecting on how interacting in Turkish feels different from interacting in English and identifying elements that feel culturally specific, and noticing ways in which the Turkish language reflects values and traditions of Turkish-speaking communities, for example, Nazar değmesin!; Güle güle kullanın!",
+            "comparing superstitions across cultures, such as Yerde uzanan çocukların üzerinden atlamamak; Geceleyin tırnak kesilmez; Tahtaya vurmak; Yıldız kayarken dilek tutmak, and 'breaking a mirror will bring you 7 years of bad luck', researching their origins and considering their relevance today",
+            "considering how Turkish interactions such as mealtimes reflect cultural practices and values associated with family life, food and social relationships, for example, greetings and table manners",
+            "identifying examples of values and traditions that may not be familiar to members of other language communities, for example, ways of addressing people, behaviour and interactions around mealtimes",
+            "understanding the cultural significance of features of types of texts such as anonymous or Anatolian stories in the lyrics of türkü; the use of oaths in 'Andımız'; characterisation in Turkish 'Nasrettin Hoca' and diğer fıkralar; 'Karagöz ve Hacivat' gölge/kukla oyunu and masallar; the use of deyimler ve atasözleri in destanlar",
+            "exploring the meaning of 'culture', and how it involves visible elements such as ways of dressing, eating and dancing, and less-visible elements including ways of thinking and valuing"
+          ]
+        }
+      ]
+    }
+  ]
+}

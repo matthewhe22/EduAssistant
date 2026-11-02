@@ -1,0 +1,619 @@
+{
+  "subject": "Modern Greek",
+  "slug": "modern-greek",
+  "learningArea": "Languages",
+  "sequence": "Curriculum F–10 Sequence",
+  "source": "https://f10.vcaa.vic.edu.au/download-curriculum",
+  "retrievedAt": "2026-11-02",
+  "bands": [
+    {
+      "band": "Foundation to Level 2",
+      "levels": [
+        "F",
+        "1",
+        "2"
+      ],
+      "achievementStandard": "By the end of Level 2, students identify the different sounds and rhythms of the Greek language by listening to and viewing a variety of texts. They compare these sounds with other languages, noticing how pronunciation changes and discovering how languages are influenced by each other. They explore Greek through play, first imitating sounds and patterns, then replicating expressions and phrases, before producing responses using formulaic and familiar language. They recognise that Greek sounds are represented by letters of the Greek alphabet, and they can match these with words and images, combining them in increasingly complex ways. They develop and expand their vocabulary, from simple sounds to frequently used words and phrases, using the pronunciation and intonation patterns of spoken Greek. They expand their repertoire of Greek words and phrases through listening and reading, and then progress to creating simple sentences and responses using modelled language.\nStudents identify familiar words and phrases to obtain meaning from a variety of multimodal texts relating to their personal world. They begin to explain their understanding of the features and grammatical structures of Greek using simple metalanguage. They start to develop written competence by copying Greek letters and words, and then produce the language with support. They respond to texts using frequently used words, phrases and sentence patterns in both written and spoken language. They apply their understanding of some of the conventions and features of the written Greek language. They use common grammatical structures to create their own simple texts, with the support of visual and/or spoken cues.\nStudents explore and recognise the influence of culture on language and identity. They recognise that Greek is spoken in communities and regions in Australia and around the world, and relate this to their own language(s) and culture(s).",
+      "contentDescriptions": [
+        {
+          "code": "VC2LMG2E01",
+          "strand": "Engaging with Greek Language and Culture",
+          "subStrand": "Engaging with Greek language",
+          "text": "notice that Greek looks and sounds different to other languages",
+          "elaborations": [
+            "noticing when Greek or English is being used in the classroom (e.g. 'sandwiching' a word by saying it in Greek, then in English, and then again in Greek), and talking about Greek words they may use or have heard such as kalamata, tzatziki, feta or haloumi, and English words with a Greek origin such as octopus, dinosaur or zoo",
+            "sharing the word for 'hello' in languages known to them and identifying how to say 'hello' in Greek",
+            "exploring the different languages spoken by class members and listening to the different sounds and ways of saying common expressions such as 'Good morning' or 'My name is …'",
+            "experimenting with sounds that are unique to Greek, such as γ in γάτα, ξ in ξύλο and ψ in ψάρι, imitating the shape of the teacher's mouth and the sounds they produce",
+            "recognising that Greek uses the Greek alphabet, unlike English, and focusing on the letters that look the same and the ones that are different",
+            "noticing that an accent mark is used in Greek words of more than one syllable and that it assists in reading the word accurately",
+            "singing familiar nursery rhymes such as 'Incy wincy spider', 'Head, shoulders, knees and toes', and 'Twinkle, twinkle, little star' in Greek and discovering that even though the songs may have the same lyrics in English, they can sound different when sung in Greek",
+            "writing their names in Greek, English or other known languages and making comparisons regarding number of letters, shape of letters and similar sounds, using some basic terms such as letters, words and capital letters",
+            "noticing words that have similar pronunciation in Greek and English, for example, μπανάνα, μαμά, καφέ, βάζο",
+            "playing with and using tactile materials to create Greek letters, for example, forming letters using plasticine; chalk writing on the pavement; painting with water; making pictures out of letters to be displayed in the classroom"
+          ]
+        },
+        {
+          "code": "VC2LMG2E02",
+          "strand": "Engaging with Greek Language and Culture",
+          "subStrand": "Engaging with Greek language",
+          "text": "develop oral language skills through exploring and listening to the sounds and patterns of the language",
+          "elaborations": [
+            "exploring the Greek alphabet through experiences such as circle chants to a beat or rhythm, and songs with movement and actions",
+            "mimicking the sounds and rhythms of Greek and noticing differences/similarities to their own language(s)",
+            "listening to and repeating onomatopoeia, for example, using the sounds γαβ (woof), κο κο κο (cluck cluck cluck), νιάου (miaow), μου (moo), and comparing these sounds with animal sounds in English and other languages represented in the class",
+            "observing the position of the tongue and shape of mouth when pronouncing Greek sounds (e.g. the trilled r; the 4 single vowel sounds α, ε, ι, ο) and comparing them with English",
+            "reproducing the sounds and rhythms of the Greek language by reciting, repeating after, and imitating the teacher, through choral repetition or chants, recording their own voice on a digital device and listening to their recording",
+            "engaging with new sets of vocabulary by making concrete associations with them, such as touching and identifying colours in the classroom or touching and identifying toy animals and naming them",
+            "listening to and singing Greek songs, for example, «Αχ Κουνελάκι», «Η Γιαγιά Μου η Καλή», and then viewing Greek song videos and joining in or repeating the words",
+            "participating in Greek versions of children's songs and rhymes, identifying some similarities and differences compared with English versions, for example, key words or a tune such as «Το δαχτυλίδι», «Ένα, δύο, τρία κουνελάκια», «Πέντε παπάκια», «Η μικρή αράχνη»",
+            "playing games using familiar objects or words in Greek, for example, creating a matching game to match Greek words with pictures or objects, saying the words aloud as they match",
+            "playing class games, for example, Το δαχτυλίδι, Σκυλάκι, σκυλάκι ποιος έχει το κοκαλάκι"
+          ]
+        },
+        {
+          "code": "VC2LMG2E03",
+          "strand": "Engaging with Greek Language and Culture",
+          "subStrand": "Engaging with Greek language",
+          "text": "recognise and respond to greetings, instructions and language relating to their personal world using one- or 2-word responses and/or single-idea phrases",
+          "elaborations": [
+            "using common greetings and gestures relevant to the time of day, for example, καλημέρα, καλησπέρα, καληνύχτα",
+            "responding to images showing different times of the day, greeting others at different times of the day, and verbalising which greeting is most appropriate and why",
+            "participating in everyday routines such as saying the day, weather and how they are, responding to the class roll call and instructions, or expressing thanks, for example, Σήμερα είναι Δευτέρα, κάνει κρύο, είμαι καλά, δεν είμαι καλά, Ελάτε μέσα, Κλείσε την πόρτα, Κάτσε κάτω, Σήκω πάνω",
+            "using non-verbal ways of communicating and showing understanding in interactions such as gestures, body language and facial expressions, for example, a nod of their head; hand gestures; eye contact; thumbs up",
+            "noticing the use of titles to address the teacher and first names or surnames to address adults to show respect, for example, κύριε Νίκο, κυρία Ελένη, κυρία Παπαδοπούλου",
+            "using simple, modelled language to introduce themselves, for example, Γεια σας, Με λένε …, Είμαι … χρονών",
+            "naming family members, friends and pets using props such as photographs, pictures, puppets or soft toys, for example, Η μαμά μου, ο μπαμπάς μου, η γάτα μου",
+            "using modelled language to express simple likes using keywords, props, pictures and authentic resources, for example, Μου αρέσει το κόκκινο",
+            "listening to, and responding, using modelled language, when playing class games, for example, in 'I spy' saying Βλέπω κάτι που αρχίζει με … or playing Πάπια, πάπια, χήνα",
+            "using Greek phrases for everyday interactions such as thanking and apologising (e.g. Ευχαριστώ, Συγγνώμη) or on special occasions such as birthdays or other celebrations, for example, Χρόνια πολλά, Καλά Χριστούγεννα"
+          ]
+        },
+        {
+          "code": "VC2LMG2E04",
+          "strand": "Engaging with Greek Language and Culture",
+          "subStrand": "Engaging with Greek culture",
+          "text": "explore connections between language and culture through play and/or imagination",
+          "elaborations": [
+            "acknowledging and celebrating the language and cultural diversity of others, for example, listening to the different sounds and ways of saying common expressions or celebrating different events",
+            "participating in whole-class discussions about the meaning of 'culture' and 'identity', talking about their traditions, practices and what is important to them and their way of life",
+            "recognising that Greek is another language and understanding that it is spoken by people in Greece as well as other countries, including Australia",
+            "identifying items such as food and architecture in Australian culture that come from Greece, for example, souvlaki, saganaki, the Shrine of Remembrance",
+            "accessing multimodal texts to explore cultural identity, customs and practices and responding to these in a variety of ways, for example, watching a video of children flying kites on Clean Monday (the first day of Lent) and learning vocabulary such as Καθαρά Δευτέρα, χαρταετός",
+            "engaging actively in, and sharing the enjoyment of, language, culture and texts in a range of ways, for example, listening and responding to stories, cultural displays and experiences",
+            "celebrating holidays and festivals such as May Day and Easter and exploring associated traditions and languages, for example, creating May Day wreaths and decorating Easter candles while learning Greek words (e.g. Πρωτομαγιά, στεφάνι, Πάσχα, λαμπάδα)",
+            "discussing different activities and food enjoyed during special celebrations such as Easter and learning simple words and phrases, for example, κουλουράκια, κόκκινα αυγά, Καλό Πάσχα",
+            "using their imagination to immerse themselves in a cultural experience by participating in role-plays of various cultural activities, for example, attending a name day celebration or christening and practising using associated language, such as Χρόνια πολλά, Να σας ζήσει",
+            "learning about the importance of Greek dancing in Greek culture and celebrations, and learning some dances, for example, Καλαματιανό"
+          ]
+        },
+        {
+          "code": "VC2LMG2C01",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Interacting in Greek",
+          "text": "communicate using formulaic and modelled language relating to aspects of their personal world",
+          "elaborations": [
+            "using greetings depending on the time of day and relationship to the other person, for example, Γεια σου or Τι κάνεις with peers; Γεια σας or Τι κάνετε when speaking with adults",
+            "following instructions and directions, for example, σήκω, σηκωθείτε, έλα, ελάτε, ελάτε μέσα, καθίστε, Έλα εδώ, Πήγαινε έξω, Κλείσε την πόρτα, Σβήσε το φως",
+            "participating in routine exchanges such as opening and closing of lessons (e.g. Καλημέρα παιδιά, Χαίρετε κυρία), responding to the class roll call, (e.g. εδώ, λείπει) and moving between activities (e.g. Ελάτε, Καθίστε)",
+            "responding to and using formulaic expressions in everyday classroom-related situations, for example, ορίστε, ευχαριστώ, παρακαλώ, Δεν ξέρω, Πώς είσαι; Είμαι καλά, Εσύ; Καλά, Τι κάνετε; Έτσι κι έτσι, Εσείς and incorporating intonation and appropriate gestures and body language",
+            "using some Greek expressions and spontaneous exclamations when interacting with peers, for example, πω πω, έλα, γρήγορα, σταμάτα, μη μιλάς, μη μιλάτε, όπα! μπράβο! and noticing differences in the use of language, voice or body language",
+            "asking to borrow items and expressing possession of belongings, for example, Θέλω μολύβι, έχω βιβλίο",
+            "recognising and responding to questions about themselves, for example, Πώς σε λένε;, Με λένε …, Σου αρέσει η λεμονάδα;, Ναι μου αρέσει, Όχι",
+            "introducing themselves and other important people in their lives to others, for example, Με λένε …, Εσένα; /Εσάς; Εσένα πώς σε λένε; Να η μαμά μου",
+            "using modelled sentences and/or supporting gestures to communicate informally about likes, dislikes and favourite possessions, for example, Σου αρέσει …; Ναι, Όχι, lifting head/eyebrows to answer 'no', hand action to show Έτσι κι έτσι, lifting head and shoulders to convey not knowing something"
+          ]
+        },
+        {
+          "code": "VC2LMG2C02",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Interacting in Greek",
+          "text": "participate in a range of guided language activities using formulaic expressions, and visual and spoken cues",
+          "elaborations": [
+            "singing and engaging in activities that include rhymes, action songs, lullabies and counting songs, for example, Γύρω, γύρω, γύρω, μέσα, μέσα, μέσα … έξω, έξω, έξω, Κεφάλι, χέρια, πόδια, Ένα, δύο, τρία κουνελάκια, Πάνω τα χεράκια",
+            "participating in show-and-tell or a presentation about a favourite item using simple language, for example, Να η κούκλα μου. Τη λένε …",
+            "collaborating with peers in activities such as a guided role-play or labelling items using modelled language, for example, ορίστε, ευχαριστώ, παρακαλώ, Είμαι έξι, Να η οικογένειά μου, Να η φίλη μου, Να ο σκύλος μου, Τον λένε Δία",
+            "playing a range of games using secure digital tools and applications to reinforce vocabulary (e.g. playing matching pairs, filling in gaps, drag-and-drop, memory games, bingo), using visual and spoken cues and formulaic expressions such as Να το, το βρήκα",
+            "taking turns in games and action songs using the repetitive language Σειρά σου, Έλα Άννα, and songs such as «Περνά περνά η μέλισσα», «Γύρω γύρω όλοι»",
+            "contributing to and using classroom resources to aid the learning of Greek, for example, a picture dictionary, photo wall, word wall, classroom routines/greetings poster",
+            "using the Greek alphabet and numerals with support to 'crack the code' and solve a puzzle or problem, or lead students to a location individually or in groups",
+            "interacting with a character or puppet in an imaginary situation or setting, using gestures to communicate informally, for example, Πού είναι ο Σπότ; Τι κάνει ο Σποτ;",
+            "performing a traditional dance to an audience using modelled language and exclamations, clapping and gestures, for example, Παλαμάκια, Όπα, Πω πω"
+          ]
+        },
+        {
+          "code": "VC2LMG2C03",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate key information in a variety of texts with support, and respond using gestures, images, words and/or formulaic phrases",
+          "elaborations": [
+            "listening for keywords and expressions in stories, rhymes or songs, using visual, non-verbal and spoken cues to respond in a variety of ways, for example, μου αρέσει, δε μου αρέσει",
+            "demonstrating comprehension of ideas in simple spoken, written, and multimodal texts through actions such as labelling, matching, drawing, onscreen pointing, clicking or dragging",
+            "responding to questions about characters, places and objects that elicit details such as characteristics, size, colour, shape and quantity, for example, Να ο λύκος, Eίναι κακός",
+            "grouping vocabulary (word cards and/or images) into sets, such as classroom items or animals",
+            "sorting and categorising information using simple graphic organisers such as graphs, mind maps or tables, for example, recording likes and dislikes; masculine, feminine and neuter words; pets at home",
+            "participating in shared reading of imaginative and informative texts, and making predictions about the storyline and characters using cues from the heading, symbols, pictures and words in the text, or answering questions related to key information",
+            "performing songs, chants and rhymes in response to an imaginative digital or online text (e.g. Η πολύ πεινασμένη κάμπια), experimenting with different expressive effects such as different voices, or using simple gestures such as a hand action to show Πω πω!",
+            "listening to, reading, or viewing a story and sequencing the events and ideas using storyboards, drawing pictures and adding captions, or cutting and pasting pictures/words in order",
+            "watching a video and noticing hand gestures, intonation patterns, facial expressions and body language that accompany Greek language and interactions, for example, formal/informal greetings; when introducing or instructing; when expressing preferences and feelings"
+          ]
+        },
+        {
+          "code": "VC2LMG2C04",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "explore and make meaning from sounds, words and phrases for familiar objects or terms in Greek through play, and discover how languages influence each other",
+          "elaborations": [
+            "playing games using familiar objects or words in Greek, for example, creating a matching game to match Greek words with pictures or objects, saying the words aloud as they match",
+            "participating in Greek versions of children's songs and rhymes, identifying some similarities and differences compared with English versions, for example, key words or a tune such as, Το δαχτυλίδι, Ένα, δύο, τρία κουνελάκια, Πέντε παπάκια, Η μικρή αράχνη",
+            "noticing words that have similar pronunciation in Greek and English, for example, μπανάνα, μαμά, καφέ, βάζο",
+            "noticing the cultural meaning in some expressions or phrases such as χρόνια πολλά, which can be used for any celebration or occasion, for example, birthdays, name days, Christmas",
+            "talking about Greek words they may use or have heard such as kalamata, tzatziki, feta or haloumi, and English words with Greek origin such as octopus, dinosaur, zoo",
+            "understanding that particular Australian English terms and expressions have no equivalent in Greek, for example, 'billabong', 'corroboree', 'the bush', and some Greek terms and expressions have no English equivalent, for example, φιλότιμο",
+            "using Greek words, expressions and exclamations when playing and conversing with one another, for example, Όχι!, Ναι!, Επιτυχία!, and noticing and comparing body language and tone when using English",
+            "using culturally appropriate language in different settings, for example, to show politeness and respect, γεια σου/γεια σας, Nα' σαι καλά, Να'στε καλά",
+            "engaging in different Greek cultural practices or traditional activities held at different times of the year, and linking them with classroom-related vocabulary, for example, decorating λαμπάδες for Easter, making flower wreaths for Πρωτομαγιά, wishing someone a Χρόνια πολλά, greeting others on different occasions",
+            "performing in role-plays such as purchasing fruits and vegetables, or acting as a character from a familiar story"
+          ]
+        },
+        {
+          "code": "VC2LMG2C05",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Creating text in Greek",
+          "text": "create spoken and written texts using words, familiar phrases and modelled language",
+          "elaborations": [
+            "using familiar vocabulary and modelled sentence structures to create informative texts about self, family, friends and possessions, such as a spoken or written description, class book, family tree or dialogue, for example, Ο αδελφός μου είναι ψηλός, Η αδερφή μου είναι είκοσι χρονών, Το σκυλί μου είναι μαύρο, Το υπνοδωμάτιό μου …",
+            "role-playing their favourite characters or events from familiar shared storybooks such as Mr Archimedes' bath, and making simple statements in Greek, for example, Είμαι η Πέππα, Πάω στο γιατρό, Ο κύριος Αρχιμήδης κάνει μπάνιο",
+            "identifying self as belonging to family, class or peer/community groups and representing these relationships through drawing pictures or adding captions to photos, for example, ο φίλος μου, η τάξη μας, η οικεγένειά μου",
+            "creating and illustrating class 'big books' about familiar topics using simple modelled structures, for example, writing and drawing favourite animals, using words such as ο σκύλος and το άλογο, and practising reading the words aloud",
+            "reading or viewing multimodal stories and completing activities such as 'Beginning, Middle, End' flip books, drawing a picture to represent what happens in the 3 sections of the story, then writing a short description under each image (with the teacher scribing for younger students)",
+            "creating a print or digital glossary of new Greek words and phrases with accompanying drawings, pictures or photos, for example, creating a collage or booklet of parts of the body and labelling them",
+            "creating stories, rhymes and songs through drawings or digital tools using simple or complex sentences and captions",
+            "creating a display wall with pictures and captions retelling the main events from the images of a class excursion or event",
+            "creating and presenting bilingual 'big books', storyboards or digital texts based on a variety of real or imagined scenarios in familiar contexts, adding images and captions, for example, Τα τρία γουρουνάκια",
+            "making bilingual greeting cards for celebrations (e.g. Ημέρα της μητέρας, γενέθλια, Πάσχα) using quotes (e.g. καλό Πάσχα, Χαρούμενη γιορτή της μητέρας μαμά, χρόνια πολλά), alongside equivalent English greetings where culturally appropriate"
+          ]
+        },
+        {
+          "code": "VC2LMG2U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "imitate the pronunciation and intonation of spoken Greek, and understand how sounds of the Greek alphabet are produced and represented",
+          "elaborations": [
+            "building phonic awareness by pronouncing alphabet letters with familiar sounds (e.g. Οο, Ιι, Εε, Αα, Κκ, Ττ, Λλ, Ππ, Σσς, Μμ, Νν, Ηη, Υυ, Ωω, Ββ, Ζζ, Φφ), and building to more unfamiliar sounds (e.g. Γγ, Ρρ, Δδ, Θθ, Ξξ, Ψψ, Χx) in activities such as flashcard chants, for example, Αα-άλογο, Γγ-γάτα",
+            "recognising that most duplicated consonants in a word sound the same as the single consonants (e.g. κόκκινο, Ελλάδα, άλλο, εννέα, ΄Αννα), and locating and highlighting the double consonants in words or texts",
+            "understanding that duplicating the letter γ (γγ) changes it to a hard 'g' sound and practising saying words containing this sound or playing a 'correct the teacher' game (correcting a mispronunciation when the teacher reads the words or a short text aloud)",
+            "imitating the sounds, rhythms, intonation and stress of Greek, using hand gestures and non-verbal cues to assist learning",
+            "locating and highlighting specific alphabet letters and accent marks in names, or identifying vowels or consonants within words",
+            "developing pronunciation, intonation and pace by singing, reciting and repeating the names of letters in the alphabet, for example, in the alphabet song or when referring to a letter in a word",
+            "recognising and making simple syllables from consonant–vowel combinations (e.g. μα, με, μη, μι, μο, μυ, μω) and understanding that syllables can be joined together to make words such as α-λά-τι and μά-τι",
+            "clapping out syllables of words",
+            "identifying and pronouncing the most common digraphs/diphthongs, including μπ as in μπαμπάς and ου as in μου, in activities such as shared reading, 'spot the digraph' or games (e.g. bingo, digraph scavenger hunt)"
+          ]
+        },
+        {
+          "code": "VC2LMG2U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify sound combinations to produce simple words, and then an increasing number of frequently used words and phrases",
+          "elaborations": [
+            "exploring the Greek alphabet through learning experiences such as alphabet blocks, card games and flashcard letter/sound chants",
+            "learning the letters of the alphabet and the sounds they represent in activities, for example, forming the shapes of letters using playdough; using playdough to make things that start with a focus letter, then playing letter games such as bingo",
+            "underlining graphemes, syllables or rhyming words in short texts or poems, or recognising the syllables in words and identifying the number of syllables in a word, for example, Τετάρτη (Τε-τάρ-τη) has 3 syllables",
+            "studying compound words and learning their meanings, for example, καλημέρα is formed from the words καλή and μέρα and means 'good day'",
+            "using high-frequency verbs in a variety of contexts and completing word searches for frequently used words, starting with easy words and then moving on to gradually more challenging ones",
+            "recognising that all nouns in Greek, in particular names, have an article and gender, for example, ο μπαμπάς, η Άννα, το σκυλί",
+            "noticing that adjectives have gender, for example, o κόκκινος, η κόκκινη, το κόκκινο, o μεγάλος, η μεγάλη, το μεγάλο, o καλός, η καλή, το καλό",
+            "using simple adverbs to show location (e.g. calling out the adverb that identifies the location of a class item), for example, έξω, μέσα, εδώ, εκεί, πάνω, κάτω, γύρω",
+            "noticing how simple adjectives and adverbs enhance sentences, for example, comparing sentences with and without adjectives or adverbs such as Κάνει λίγο κρύο, Σ' αγαπώ πολύ μαμά!, Το σπίτι είναι πολύ μεγάλο, η μικρή βάρκα, η μεγάλη βάρκα",
+            "using verbs in the first person to describe aspects of themselves when writing a simple profile or telling the class about themselves, for example, Είμαι αγόρι, είμαι έξι, έχω γάτα",
+            "recognising terms for common, everyday nouns in activities such as 'Spot the item', where students locate given items in photos/pictures related to topics being studied, for example, η πόρτα, η καρέκλα, οι καρέκλες, το σπίτι, τα σπίτια, o μπαμπάς",
+            "responding to and issuing commands, for example, έλα εδώ!, κάτσε κάτω!",
+            "responding to questions that include verbs in the second person, singular or plural, such as Πόσω / ν χρονών είσαι; Τι κάνετε;",
+            "developing number knowledge and using numbers in modelled sentences, for example, Είμαι έξι",
+            "beginning to use conjunctions such as και to link simple ideas"
+          ]
+        },
+        {
+          "code": "VC2LMG2U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and explore how the Greek alphabet and features of language are used to construct meaning in Greek",
+          "elaborations": [
+            "understanding that the 26 letters of the Roman alphabet have connections with the Ancient Greek alphabet, and comparing lower-case and upper-case Modern Greek and Roman alphabet letters",
+            "becoming familiar with the Greek alphabet, noticing similarities to and differences from English and/or other languages by saying and/or singing the alphabet and discussing similarities and differences in the sounds, for example, γ, δ, ν, ξ, ψ, ω",
+            "experimenting with the formation of Greek letters with hands-on play to recreate them using playdough, found objects, writing in sand, big brushes and water on concrete",
+            "identifying target letters in words through games and activities, for example, locating all the β in a particular word or phrase and calling out Το βρήκα or Βρήκα δύο when they locate them",
+            "tracing and writing letters and words or sentences to practise correct letter formation"
+          ]
+        },
+        {
+          "code": "VC2LMG2U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "identify that written and spoken Greek has grammatical structures and other language features that may be similar to or different from English and/or other languages",
+          "elaborations": [
+            "understanding that there are many words and names in English that have Greek origins, for example, Alex, Chloe, Timothy, Theodore, Zoe, alphabet, astronaut, chemist, dentist, echidna, platypus, eucalyptus, hippopotamus, mathematics, school, story, telephone",
+            "noticing sentence-level punctuation such as capitalisation of names, question marks and the use of the accent mark to indicate emphasis, for example, ο σκύλος, η γάτα, το βιβλίο, Σ' αρέσει να παίζεις ποδόσφαιρο",
+            "comparing similar texts in Greek and English or other languages and noticing how they are the same or different, for example, a counting song, street signs, labels at a market",
+            "using an anchor chart for cognates and words with Greek roots and adding to it throughout the year, for example, αλφάβητο, βάζο, Σεπτέμβριος, σαλάτα, λεμόνι, μπανάνα",
+            "recognising the order of words in phrases and sentences, for example, η μαμά μου, Δεν κάνει κρύο, Nα η θεία μου, and making comparisons with English sentence structure",
+            "noticing that certain sounds in English do not exist in Greek, for example, noticing sounds when writing their names and other familiar words such as 'a' (α as in Katerina/Κατερίνα), the hard 'd' (ντ as in tomato/ντομάτα), 'b' (μπ as in dad/μπαμπάς), 'j' (τζ as in glass/τζάμι)"
+          ]
+        },
+        {
+          "code": "VC2LMG2U05",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "reflect on how language, culture and identity are interconnected and discuss how Greek-speaking communities are similar to or different from others",
+          "elaborations": [
+            "noticing non-verbal forms of communicating with each other in Greek, English and/or other languages such as ways of greeting, and how body language can be used to express agreement, disagreement, preferences, feelings and emotions",
+            "comparing aspects of their own and Greek-speaking children's lifestyles, family interactions and celebrations, for example, daily greetings, main meal of the day and associated language such as ορίστε, καλή όρεξη",
+            "identifying terms, concepts and symbols that can be used to help understand and discuss culture, for example, flags, food, national costumes, the owl as a symbol of education, famous buildings and treasures, national emblems, sporting emblems/jumpers",
+            "identifying symbols and colours used by Aboriginal and Torres Strait Islander Peoples and by Greek-speaking communities in a range of contexts, for example, identifying the colours of flags in Greek and discussing what the colours represent in English",
+            "exploring the significance of different Greek cultural practices, activities and games, for example, using a κομπολόι; making red-and-white Μαρτάκια bracelets for March; flower wreaths for Πρωτομαγιά (1 May); making masks or kites for Clean Monday",
+            "viewing a short video clip and recognising that words and behaviours may reflect aspects of culture and identity, for example, γλέντι, κέφι, χρόνια πολλά, όπα!, and that it may be hard to explain their meaning or capture the full essence in English",
+            "participating in an 'Ancient Greek Day' with invited guests, assisting in the preparation of some traditional Ancient Greek food, or participating in a mini Olympics, using and teaching related vocabulary and presenting winners with a laurel wreath",
+            "demonstrating understanding that language changes according to the audience, for example, language used to greet elders, parents or carers is more respectful than greetings used for friends",
+            "engaging in a whole-class discussion about the differences between each student's own culture and Greek culture, sharing insights about how they celebrate events such as Christmas, New Year or other holidays"
+          ]
+        },
+        {
+          "code": "VC2LMG2U06",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify where Greek is used around the world and recognise that there are many different languages spoken in communities throughout Australia",
+          "elaborations": [
+            "researching the countries where different languages are spoken and discuss why the world has many different languages",
+            "noticing that Greek is spoken in different places in the world apart from Greece and using a globe, printed or digital world map to highlight countries/places and brainstorming why Greek is spoken there",
+            "watching videos or reading books about different Greek-speaking communities",
+            "noticing that many languages from different parts of the world are spoken in Australia and may be represented in their classroom, and creating a speech bubble that introduces the students and the language(s) they speak",
+            "noticing how local names of streets, places and landmarks can have their origins in language(s) of Aboriginal and Torres Strait Islander Peoples and comparing them to the names of some Greek places and landmarks",
+            "showing examples of how gesture and body language are similar to or different in Greek to the language(s) they speak at home",
+            "learning about the Greek names of foods that they see in Australia in places such as restaurants, cafes or delicatessens, for example, feta, kalamata olives, saganaki, baklava",
+            "recognising that languages and communities have different protocols regarding the use of terms of respect, for example, there are ways of addressing Aboriginal and Torres Strait Islander Peoples using familial terms (e.g. Uncle, Aunty) depending on the relationship, and comparing these terms with those in Greek and/or other languages"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 3 and 4",
+      "levels": [
+        "3",
+        "4"
+      ],
+      "achievementStandard": "By the end of Level 4, students use Greek to initiate structured interactions and share information related to the classroom and their personal worlds. They use modelled language to participate in spoken and written activities. They locate and respond to key items of information in texts, using strategies to help interpret and convey meaning in familiar contexts. They use modelled language and basic grammatical structures to create texts.\nStudents imitate the sound combinations and rhythms of spoken Greek. They demonstrate their understanding that Greek has non-verbal, spoken and written language conventions and rules to convey meaning. They recognise that some terms have cultural meanings. They identify patterns in Greek and make comparisons between Greek and English, using simple metalanguage. They understand how aspects of language and culture contribute to their own and others' identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LMG4C01",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Interacting in Greek",
+          "text": "initiate exchanges and respond to modelled questions about themselves, others and the classroom environment, using formulaic expressions",
+          "elaborations": [
+            "selecting formal/informal greetings for real or simulated situations, depending on the time of day and relationship to the other person, for example, Καλημέρα φίλε, Καλησπέρα κύριε Χρήστο or Καληνύχτα μαμά, and using first names when greeting friends, but adding a salutation when addressing adults, for example, Γεια σας κυρία Βάσω, Τι κάνετε κύριε Δημήτρη;",
+            "initiating conversations using modelled words, phrases or spontaneous interjections, for example, Α καλά, έτσι μπράβο, έλα, Πω πω!, Ωραία!, Όπα!",
+            "describing features, characteristics and locations of things or places, for example, Πού είναι η κόλλα; Βρίσκεται στο γραφείο του δασκάλου",
+            "asking for permission and requesting help using formulaic phrases (e.g. θέλω βοήθεια, ελάτε κυρία, δεν καταλαβαίνω), or asking how to say or write a word or expression (e.g. Πώς το λένε)",
+            "requesting information from others using modelled sentences, for example, Πού είναι ο κύριος Βασίλης; Να τος., Πού είναι η δασκάλα;, Τι ώρα είναι; Είναι μία η ώρα",
+            "participating in class surveys and graphing activities about family members, and asking and responding to questions such as Πόσα αδέρφια έχεις; Έχω δύο αδερφές",
+            "exchanging simple correspondence with peers, such as notes, invitations or birthday cards in print or digital form",
+            "playing speaking games (e.g. I spy and What am I?) using formulaic opening statements such as Βλέπω κάτι που αρχίζει με κάπα, Έχω τέσσερα πόδια, μία ουρά …, and responses such as κόλλα, καρέκλα, είσαι γάτα",
+            "responding to questions about daily and classroom routines, for example, Πού είναι το φως;, Nα το., Πού είναι ο Τάκης; Nα τος., Πού είναι η Άννα; Nα τη., Τι μέρα είναι σήμερα; Σήμερα είναι Δευτέρα., Τι καιρό κάνει σήμερα; Κάνει κρύο / Bρέχει /, Δε βρέχει /, Ούτε κρύο, ούτε ζέστη"
+          ]
+        },
+        {
+          "code": "VC2LMG4C02",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Interacting in Greek",
+          "text": "participate in activities that involve expressing interests and exchanging information, using a range of familiar phrases and modelled structures",
+          "elaborations": [
+            "using appropriate body language and gestures in response to enquiries, for example, ναι, μ'αρέσει, δε μ'αρέσει, understanding that lifting the head means 'no' and is used only in informal situations",
+            "planning, rehearsing and performing an item for an audience such as school assembly, another class or parents, and delegating roles and responsibilities",
+            "following simple procedures and using familiar phrases and modelled structures for shared activities, for example, following a recipe and naming ingredients to make κουλουράκια, λουκουμάδες, τηγανίτες or φρουτοσαλάτα, following instructions in a craft activity to make a kite for Καθαρή Δευτέρα",
+            "participating in a role-play or skit (e.g. buying goods from an ελληνική αγορά), using props (e.g. Καραγκιόζη or Τάκη the bear) to engage in conversation, for example, Πόσο κάνει το γάλα; Δύο δολλάρια",
+            "engaging in group games such as snap, Simon says, memory, matching cards, or a ball game, praising and encouraging peers, and taking turns, for example, μπράβο σου, ωραία, προσπάθησε, έλα, σειρά μου, σειρά σου",
+            "taking turns in pairs to assist the teacher with classroom tasks and responsibilities, for example, roll call, distributing/collecting work, giving basic instructions such as Λείπει ο Γιάννης, Είναι άρρωστος, ορίστε, γράψτε and διαβάστε",
+            "engaging in shared reading activities where students access information from the text to help them make meaning, identifying relevant language features, discussing unfamiliar vocabulary, and thinking critically about the text, for example, 'Fact or opinion?', where they read statements about the text and decide whether it is a fact or an opinion",
+            "collaborating with peers to plan for and complete tasks such as designing a poster or invitation for a significant event (e.g. 25η Μαρτίου, Aπόκριες) or a class party, and deciding what items to bring, for example, Θα φέρω γλυκό, θα φέρω σαλάτα",
+            "performing simple stories or known fairytales in reader's theatre activities, demonstrating expression when reading their part",
+            "participating in cooking or craft activities and using modelled structures to sequence information or write simple procedural texts, for example, recipes or instructions where familiar phrases are used such as ανακάτεψε το αλεύρι με τη ζάχαρη, δίπλωσε το χαρτί στη μέση"
+          ]
+        },
+        {
+          "code": "VC2LMG4C03",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate and respond to key information related to familiar content obtained from spoken, written, viewed and multimodal texts",
+          "elaborations": [
+            "reading profiles and stories in print and digital form (e.g. about people, animals), and creating a display with names and short descriptions, for example, Ο ελέφαντας είναι μεγάλος, Το ποντίκι είναι μικρό",
+            "locating and responding to key information relating to school activities in a Greek context (e.g. from a sister school), and comparing with their own daily schedule/routine, timetable, break time or subjects",
+            "identifying and relaying keywords obtained from short spoken texts with some unfamiliar language, for example, some items on a recorded shopping list (e.g. ένα γάλα, δύο ψωμιά, ένα κιλό μπανάνες, ένα πακέτο παξιμάδια); sequencing pictures/items in order of what they hear",
+            "surveying/interviewing peers regarding their likes, interests, routines, and activities, and compiling the results in charts, Venn diagrams, graphs, or pictorial presentations, for example, 10 μαθητές έχουν σκυλιά",
+            "listening to, reading and viewing stories in various formats such as Aesop's fables or stories by contemporary Greek authors, and responding to questions about characters, themes and events",
+            "using information and descriptive language from a Greek myth or legend, creating a profile or digital presentation about a character, their personality traits, attributes, and their achievements, for example, Θεά Αθηνά, κουκουβάγια, ελιά, σπαθί, ασπίδα, Θεά της σοφίας",
+            "obtaining information from various sources and deciding which facts to include in a text about the school or community, for example, choosing facts or items that would be useful for Greek-speaking visitors such as a school/neighbourhood map, timetable, or canteen menu",
+            "viewing images and/or videos about topics being studied and locating relevant information, for example, viewing a beach picture and responding using language such as τα παιδιά κολυμπούν, ο γλάρος πετάει, or looking at a photo or other image and using it to complete a 'Word, phrase, sentence' activity (where students say or write a word, then a phrase and finally a sentence that describes the image they have viewed)",
+            "creating a timeline or sequence of the main events of a story using pictures, words, and simple sentences, for example, a simple bilingual timeline of Greek history with key dates or a storyboard of the main events in a book",
+            "viewing print or digital advertisements, and locating or responding to key information, for example, viewing an ice cream advertisement and responding with language such as Μου αρέσει η γεύση σοκολάτας",
+            "watching or listening to a short weather report, deciding which day to invite their friend to play outside and creating a short invitation or message with corresponding images, for example, Θα κάνει ζέστη το Σάββατο, Πάμε στη θάλασσα"
+          ]
+        },
+        {
+          "code": "VC2LMG4C04",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "develop strategies to comprehend and produce Greek, adjusting language to convey meaning and/or intercultural understanding in familiar contexts",
+          "elaborations": [
+            "playing translation games at word or sentence level, for example, matching activities, collaborative translation, verbal dominoes",
+            "translating simple sentences from Greek into English and vice versa, noticing how meaning can change when translating, as in the case of expressions of politeness (e.g. Ένα μολύβι παρακαλώ), or how a literal translation of Μπορώ να έχω ένα μολύβι σε παρακαλώ; would not be used in Greek",
+            "translating signs or phrases in familiar contexts from Greek into English such as street signs, addresses or food labels (e.g. Δελφών 30, ΟΔΟΣ ΕΡΜΟΥ, ΦΡΕΣΚΟ ΓΑΛΑ, 4€), noting that some signs and symbols are universal, for example, the 'stop' sign is a similar shape and colour in many countries",
+            "creating handmade or digital greeting cards in both Greek and English for different celebrations and traditions, and adjusting language accordingly, for example, Καλά Χριστούγεννα, Καλό Πάσχα, φιλάκια",
+            "creating resources for the class to reinforce learning and exposure to language concepts, for example, pattern charts; a bilingual class digital dictionary; a vocabulary mind map with connected words; a board game",
+            "learning that Aboriginal and Torres Strait Islander languages change according to connections and relationships between people and giving examples of how this occurs in Greek, for example, showing respect when addressing elders by saying Τι κάνετε; instead of Τι κάνεις;",
+            "identifying some Greek morphemes – prefixes, roots or suffixes – to build vocabulary and predict meaning of unfamiliar language, for example, anti- as in anticlockwise, -logy as in technology, -phone as in telephone"
+          ]
+        },
+        {
+          "code": "VC2LMG4C05",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Creating text in Greek",
+          "text": "create and present spoken and written texts using formulaic expressions, simple phrases and sentences, and modelled textual conventions",
+          "elaborations": [
+            "learning songs related to topics being studied, for example, celebrations such as Christmas and singing Christmas carols in front of an audience (e.g. other classes, parents, grandparents)",
+            "completing cut up or jumbled sentence activities where students move word cards around and manipulate the words to create sentences in proper order",
+            "creating spoken, written, print or digital texts using formulaic expressions, simple phrases and sentences to describe family, peers, friends, objects or their favourite pets/animals, for example, Να ο Τάσος, Είναι δέκα χρονών, Του αρέσει να παίζει τένις, Είναι από την Ελλάδα, Μένει στην Αδελαΐδα, Το σπίτι μου, Να η κουζίνα, Να το μπάνιο, Να το αρνάκι, Είναι μικρό",
+            "creating a class profile using information collected from peers (e.g. creating a chart or database to identify favourite sports, food or colours), for example, το μπάσκετ, το ποδόσφαιρο, το παστίτσιο, η κοτόσουπα, άσπρο, κόκκινο",
+            "creating and exchanging simple correspondence such as bilingual greeting cards, notes, invitations or messages, in print or digital form",
+            "creating simple descriptions in Greek and matching them to appropriate Aboriginal and Torres Strait Islander Country or Place in their local area or elsewhere in Australia",
+            "presenting information on events or topics of possible interest to children of their own age in Greek-speaking communities, using multimodal resources and authentic materials such as menus, recipes, invitations, instructions, artefacts, brochures or maps",
+            "creating and performing simple imaginative texts, switching between Greek and English to enhance meaning, and using dance, singing, movement or drama to animate characters and to give expression to events in texts, for example, acting out scenes from a story; adopting the profile of a character such as Theseus, the Minotaur, Icarus, Hercules, Cyclops or Persephone",
+            "modifying texts with their own creative input, for example, substituting words or characters (e.g. with an animal, Greek food) in a well-known song, story or procedure, such as «Η Mικρή Ελένη», «Χρόνια πολλά», Η πολύ πεινασμένη κάμπια, or modifying a recipe with alternative ingredients",
+            "using scaffolded textual conventions by creating a new story, for example, in the form of a digital picture book; using favourite characters from imaginative texts such as Ηρακλής or Σποτ, and adding captions using formulaic expressions and modelled language such as Μια φορά και έναν καιρό, Τέλος, Και ζήσαν αυτοί καλά κι εμείς καλύτερα"
+          ]
+        },
+        {
+          "code": "VC2LMG4U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise sound combinations, and use patterns of pronunciation and intonation to form words, phrases and simple sentences",
+          "elaborations": [
+            "recognising and pronouncing the sounds of the Greek alphabet as well as the most common digraphs and letter blends (e.g. ου, αι, ει, οι, μπ, ντ, γγ, γκ, τσ, τζ, αυ, ευ), in games such as bingo, memory or other flashcard or digital interactive games, and using them to form words, for example, μου, είναι, όλοι, μπάνιο, ντομάτα, φεγγάρι, γκρι, τσάι, μαϊμού, μελιτζάνα, αύριο, αφτί, Παρασκευή, ευχή",
+            "practising the reading and writing of letter clusters in short texts, for example, στρ, μπρ, μπλ, γκρ, σπρ in common words or in names; στρώμα, Στράτος, ομπρέλα, μπράβο, μπλε, γκρι, άσπρο in activities such as 'Read and find'",
+            "racing each other to find letter clusters as the teacher calls them out",
+            "focusing on letters and sounds that are different and initially difficult, and pronouncing words starting with the sounds Ψψ and Ξξ - ψάρι, ξύλο, recognising that these 2 sounds only appear in the middle or at the end of words in English, as in axe, six, socks, chips, and are formed with 2 phonemes, ps or ks",
+            "identifying sounds within high-frequency words when reading, for example, το, και, ναι, μου, έχω, είμαι, είναι, θέλω, να",
+            "using different strategies such as mnemonic devices to remember new sounds, pronunciation and intonation patterns",
+            "understanding how gestures and intonation are used to modify intended meaning, for example, Είσαι καλά; Τι κάνεις;",
+            "listening to and repeating basic tongue twisters or plays on words, for example, Μια πάπια μα ποια πάπια; Μια πάπια με παπιά., Σου'πα να φας σούπα, Σήκω να φας σύκο",
+            "recording themselves reading short texts aloud to practise sounds, stress and intonation, and predicting pronunciation by sounding out words based on phonetic knowledge"
+          ]
+        },
+        {
+          "code": "VC2LMG4U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use modelled language, formulaic phrases, simple grammatical structures and language conventions to convey meaning",
+          "elaborations": [
+            "applying appropriate punctuation marks such as full stops, commas, exclamation marks and question marks, when reading and/or writing a range of texts, and using the accent mark appropriately in Greek when reading or writing, for pronunciation as well as meaning",
+            "identifying nouns (e.g. highlighting nouns in sentences or reading texts), and recognising singular and plural noun endings in shared reading and writing activities, for example, o σκύλος, οι σκύλοι, η γάτα, οι γάτες, το σπίτι, τα σπίτια",
+            "identifying whether given nouns are singular or plural by sorting singular and plural words into piles or writing nouns from a text into the correct columns, and then changing given nouns to singular or plural",
+            "noticing the use of gender in Greek nouns, singular/plural and articles (e.g. ο μπαμπάς, η Άννα, η γάτα, οι γάτες, το νερό, τα ψάρια) when reading and/or using them in grammar activities (e.g. noun, verb or adjective hunt), changing the noun to plural form, changing nouns to plural in sentences and modifying the verb as needed, for example, το πουλί πετάει-τα πουλιά πετούν",
+            "identifying and categorising nouns as masculine, feminine or neuter during shared reading of a text, for example, Ο μπαμπάς διαβάζει το βιβλίο- ο μπαμπάς (masculine), Η θεία πήγε ταξίδι στην Αφρική - η Αφρική (feminine), το βιβλίο (neuter)",
+            "understanding and using adjectives to describe characteristics or qualities of a person, place or object, for example, τρία μικρά γουρουνάκια",
+            "recognising that adjective endings determine the gender and must agree with the noun (e.g. καλός καφές, καλή μαμά, καλό παιδάκι, ψηλός άντρας, ψηλή κοπέλα, ψηλό δέντρο, άσπρος πίνακας), in activities such as 'spot the mistake' grammar exercises, silly sentence and build-a-sentence tasks",
+            "using modelled language and formulaic phrases when participating in oral practice exercises, such as timed pair practice, sentence starters and finish the sentence",
+            "creating simple sentences in the subject+verb+object order, for example, Το βάζο έχει λουλούδια, To όνομά μου είναι …",
+            "using familiar verbs in sentences, for example, η γάτα τρέχει, το παιδί τρώει, η μαμά γελά, έλα μπαμπά, ελάτε μέσα, άνοιξε την πόρτα, έχω στυλό",
+            "experimenting with compound sentences using conjunctions such as και and αλλά, during sentence-writing activities where students combine 2 simple sentences",
+            "using some adverbs of place, degree and certainty (e.g. έξω, μέσα, πάνω, κάτω, μπροστά, πίσω, δίπλα, γύρω, λίγο, πολύ, ναι, μάλιστα, όχι, δε(ν), μη(ν)) and some modelled use of adverbs of time (e.g. σήμερα, αύριο, χτες) in activities such as sentence building, or writing instructions, procedures or directions",
+            "understanding that some words can mean different things in different contexts, for example, μπάνιο can mean 'bathroom', 'bathtub' or 'swimming at the beach'",
+            "expressing negation in simple sentences, for example, Όχι, δεν το θέλω, δε μ' αρέσει, κάνει κρύο/δεν κάνει κρύο",
+            "expanding counting ability to larger numbers, in context and with support, such as έχω εκατό δολλάρια, and using numbers to tell the time, for example, Είναι μία η ώρα"
+          ]
+        },
+        {
+          "code": "VC2LMG4U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and compare familiar Greek language structures and features with those of English and/or other languages, using simple metalanguage",
+          "elaborations": [
+            "comparing Greek, English and/or other language names, for example, discussing how female names often end with a vowel or vowel sound (e.g. Μαρία, Αγγελική) and male names often end with ς (e.g. Χρήστος, Δημήτρης, Κώστας)",
+            "developing vocabulary to describe and explain features of Greek using metalanguage, for example, using the terms 'masculine', 'feminine', 'neuter', 'nouns', 'verbs', 'tenses', 'adjectives', 'conjunctions', in Greek/English and/or other languages",
+            "discussing how Australian English terms and expressions might be understood or interpreted from a Greek perspective, for example, 'the outback', 'bushwalking', 'kick a footy' or 'no worries'",
+            "identifying the main linguistic features of texts (e.g. narrative, song, rhyme or poem; simple description, dialogue or procedure such as a recipe) in Greek, English and/or other languages",
+            "noticing the differences between texts of the same mode/macro skill, for example, a birthday card and an email, and between multimodal texts, for example, listening to or reading the lyrics of a song; reading a dialogue and acting it out",
+            "recognising how different textual elements combine to make meaning, for example, how the images, font, script and layout of different texts combine to create a whole advertisement, webpage or picture book",
+            "noticing that languages are fluid, ever-evolving and influence each other, for example, some words in Greek, such as πάρτι, χόμπι, μπάσκετ, κομπιούτερ, are borrowed from other languages",
+            "recognising that Ancient Greek has developed into Modern Greek, and that this has influenced many languages, including some words in English, for example, aeroplane, astronaut, history, mathematics, Nike, school, story",
+            "recognising similarities and differences in word order in sentences written in simple Greek, English and/or other languages, for example, subject+verb+object Εγώ μελετώ ελληνικά (I study Greek), compared with object+verb+subject Ελληνικά μελετώ εγώ (Greek [is what] I study)"
+          ]
+        },
+        {
+          "code": "VC2LMG4U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "identify connections between personal identity, language and aspects of culture",
+          "elaborations": [
+            "viewing a map that shows Aboriginal and Torres Strait Islander languages, noticing how many languages are represented in Victoria, and then learning about the diversity of languages that students in the classroom have a connection to",
+            "exploring the meaning of culture and identity, for example, creating a multimedia presentation to show ways of celebrating, dress, traditions, symbols, manners, routines and behaviours, languages spoken, preferences and values",
+            "discussing ways of communicating appropriately in Greek and non-Greek contexts, for example, polite and impolite ways of indicating 'yes' or 'no' to an adult; the acceptable practice of using teachers' first names (e.g. κυρία Άννα, κύριε Δημήτρη) and recognising the differences between formal and informal language in social interactions (e.g. Γεια σου φίλε, Γεια σας κύριε); how Greek-speaking people use body language when communicating, which varies according to relationships and context",
+            "becoming aware of the variety of ways in which people can be addressed, including the use of non-gendered expressions such as Καλημέρα τάξη",
+            "creating a 'language portrait' of themselves by using a whole-body silhouette, where students represent their personal experiences of language and culture by adding colours, shapes and words within and around the outline",
+            "discussing representations of information used in cultural expressions of Aboriginal and Torres Strait Islander Peoples and making connections with those of Greek language and culture, for example, identifying different regional words used by Aboriginal and Torres Strait Islander Peoples to identify themselves, such as Zenadth Kes, Koori, Koorie, Noongar and Nunga, and finding out whether similar identification occurs in Greek-speaking cultural groups",
+            "examining culturally appropriate phrases for different times of the day and for different purposes, for example, καλή εβδομάδα, καλό μήνα, καλό καλοκαίρι, καλό απόγευμα, καλό μεσημέρι, χρόνια πολλά, καλές γιορτές, καλή όρεξη, and considering their context and use",
+            "identifying the Aboriginal or Torres Strait Islander Country or Place on which students live and incorporating this into their self-introduction in Greek",
+            "understanding that there is the standard language called 'Modern Greek', as well as several different language variations spoken throughout Greece, Cyprus and the Greek diaspora, which reflect the cultural diversity of Greek-speaking communities",
+            "recognising and explaining to others the significance of familiar Greek cultural practices maintained over time (e.g. festivals, birthdays and name days; the importance of hospitality; το κέρασμα στη γιορτή; πανηγύρια; singing the national anthem), and reflecting on authentic Greek cultural elements and traditions (e.g. sugared almonds at weddings and baptisms, βασιλόπιτα, τσουρέκι) and the associated symbolism and language"
+          ]
+        }
+      ]
+    },
+    {
+      "band": "Levels 5 and 6",
+      "levels": [
+        "5",
+        "6"
+      ],
+      "achievementStandard": "By the end of Level 6, students initiate and use strategies to maintain interactions in Greek that are related to their immediate environment. They use appropriate sound combinations, intonation and rhythm in spoken texts. They collaborate in spoken and written activities to share information, preferences and ideas. They use strategies to locate and interpret information and ideas in texts, and demonstrate understanding by responding in Greek or English, adjusting their response to context, purpose and audience.\nStudents use modelled structures when creating and responding in Greek. They create texts, selecting and using a variety of vocabulary and sentence structures to suit different contexts. They use conventions appropriate to text type. They apply rules for pronunciation and intonation in spoken language and apply conventions of spelling and punctuation in written language. They compare language structures and features in Greek and English, using familiar metalanguage. They show understanding of how language and culture are interconnected and consider how this is reflected in their own language(s), culture(s) and identity.",
+      "contentDescriptions": [
+        {
+          "code": "VC2LMG6C01",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Interacting in Greek",
+          "text": "initiate and sustain modelled exchanges in familiar contexts related to their personal worlds and school environment",
+          "elaborations": [
+            "varying language according to age, gender, relationship and social status when meeting people for the first time or speaking with friends, family, teachers or other adults, for example, in role-plays where students use phrases such as Καλημέρα σας κύριε Πέτρο, ευχαριστώ, ευχαριστούμε κυρία, Χαίρετε, Χαίρω πολύ",
+            "communicating with their teacher and other students in modelled exchanges at the beginning of each lesson, building on known expressions, for example, Τι μήνας είναι; Είναι Μάρτιος, Τι ημερομηνία έχουμε σήμερα; Έχουμε 18 Μαρτίου, Ποια εποχή έχουμε; Έχουμε καλοκαίρι",
+            "responding to, making requests and asking for help from peers and the teacher, for example, Δεν καταλαβαίνω …, Mπορώ να πάω στην τουαλέτα; Ένα μολύβι παρακαλώ; Ναι, ορίστε",
+            "asking and responding to questions about home life, shared interests, hobbies, friends or school, for example, a class survey; paired interviews using phrases such as Σου αρέσουν τα μαθηματικά; Ποιο σπορ σου αρέσει; 'Έχεις αδέλφια; Ναι, μου αρέσουν …, Μου αρέσει …, Έχω δύο αδέλφια",
+            "practising techniques to initiate and sustain short conversations and enhance fluency, such as adding interjections, body language and common expressions to dialogues, for example, Α, ναι!, Πες μου, Λέγε!, Γρήγορα, Περίμενε, Γιατί;, Σταμάτα, Σοβαρά;, Τι λες!, Συγγνώμη, Δε νομίζω!",
+            "using interjections to enhance sentences, for example, creating comic strips by organising pre-written sentences into the correct empty speech bubble; writing the text for empty speech bubbles in a comic strip",
+            "playing 'Sentence strips', which involves pulling a sentence on a strip of paper from a box, reading the sentence from the paper, then adding an interjection to form a new sentence",
+            "conversing to discuss and compare routines, chores, interests, preferences and hobbies, using language associated with time, sequence and location, for example, completing a 'Find someone who …' questionnaire (e.g. Τη Δευτέρα παίζω τένις, χτες, σήμερα, αύριο θα …, στο πάρκο, στο σχολείο, στο σπίτι μου, Το Σάββατο …, Είναι …, Έχει …, Μου αρέσει …, Δε μου αρέσει …, Θα πάω …, Πήγα …), and presenting the information to others"
+          ]
+        },
+        {
+          "code": "VC2LMG6C02",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Interacting in Greek",
+          "text": "participate in activities that involve discussion with others, using language that expresses information, preferences and ideas",
+          "elaborations": [
+            "organising displays, presentations or performances for family, friends or the school community to showcase their progress in learning and using Greek language",
+            "brainstorming and planning questions to ask a guest speaker (e.g. γιαγιά), for example, about Greek celebrations such as βάφτιση and γάμος; a traditional κουλουράκια or λουκουμάδες recipe",
+            "working collaboratively with others, for example, reading books to younger students face-to-face or in a secure, teacher-moderated online environment; teaching a skill step-by-step such as dyeing eggs or decorating λαμπάδες",
+            "participating in activities involving various roles and responsibilities such as creating a school assembly item, participating in an excursion or class celebration, and using expressions related to preferences, place, time and numbers, for example, Εγώ θέλω να χορέψω, Πού θα πάμε; Στοv κινηματογράφο, στις έντεκα, Εγώ θα φέρω σαλάτα, Εσύ να φέρεις το γαλακτομπούρεκο",
+            "collaborating in the organisation of displays, presentations or performances to showcase Greek language and culture to others, and creating promotional materials, for example, an event poster; a class play; a celebration for the anniversary of Greek Independence Day (25η Μαρτίου 1821), or Greek National Day (28η Oκτωβρίου 1940)",
+            "responding to feedback to improve a piece of work, for example, asking for recommendations and incorporating suggestions (e.g. πώς είναι η γραφή μου)",
+            "discussing ideas and viewpoints in class about class topics, for example, brainstorming thoughts; participating in barometer activities; Η γνώμη μου είναι …, Εγώ πιστεύω …, Δεν μου αρέσει …"
+          ]
+        },
+        {
+          "code": "VC2LMG6C03",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "locate information and ideas in a range of spoken, written, viewed and multimodal texts, and respond in different ways to suit purpose",
+          "elaborations": [
+            "identifying and obtaining information from a range of viewed digital and print sources about topics being studied (e.g. sustainability; focusing on food packaging), and answering questions about specific facts, for example, suitability to recycle, reducing waste, the use of different bins, σκουπίδια, ανακύκλωση, γυάλινο, χάρτινο, πλαστικό",
+            "viewing simple multimedia advertisements to develop a shared set of vocabulary and expressions (e.g. Κοστίζει 20€, Είναι καλό για την υγεία) to use in their own advertisement for a food item such as olive oil or mastic gum",
+            "reading or viewing a text about a real event, festival or celebration in Greek-speaking communities (e.g. kite flying on Clean Monday; Easter; summer holiday traditions), and reorganising and sequencing the main ideas when creating an invitation or a message regarding the event for friends and family, for example, θα κάνει ζέστη, θα βρέχει, φέρε ομπρέλα",
+            "surveying and interviewing others on familiar topics, and organising and displaying the collected data in graphic organisers such as diagrams, charts, timelines, graphs or a Venn diagram, for example, Τρία παιδιά έχουν τα γενέθλιά τους τον Οκτώβρη, Δέκα παιδιά έχουν σκυλιά",
+            "responding to stories, myths, fables and films, using language to describe settings, themes, characters and actions, for example, Είναι σε βάρκα, Είναι σε σπηλιά, Είναι τέρας, Τελείωσε ο πόλεμος, Να ο Ηρακλής, Ο ήρωας κέρδισε",
+            "producing storyboards to represent the sequence of key events in different types of texts, including captions or word bubbles to capture moods or feelings, for example, Φοβάμαι, Είναι φοβερός, Είναι δυνατή",
+            "retelling a story in activities, such as 'Five finger retell', with students sharing 5 things about the story, using fingers to talk about each one, for example, characters (who was in the story?); setting (where did the story take place?); events (what happened in the story?); end (how did the story end?); favourite character or part of the story",
+            "introducing favourite characters from texts using puppets and props, and associated key words or expressions (e.g. Είμαι ο Οδυσσέας, Είμαι γενναίος, O Οδυσσέας είναι γενναίος, Η Κίρκη είναι μάγισσα, Είναι φοβερό τέρας), then creating a 'wanted' poster about a character, including what they know about the character using, for example, Καταζητούμενο Πρόσωπο. Η Μέδουσα. τρομαχτικό πρόσωπο, τρίχες φιδιού, όποιος την κοιτάξει γίνεται πέτρα",
+            "commenting on elements of humour and drama, and the use of sound effects and facial expressions relating to the characters depicted in texts, for example, Πω πω, είναι αστείο, έχει νεύρα, είναι γελαστός",
+            "viewing multimodal texts such as photos, pictures, picture story books and short online videos, and completing a think-pair-share activity where students think about and write what they observe using single words, short phrases or sentences"
+          ]
+        },
+        {
+          "code": "VC2LMG6C04",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Mediating meaning in and between languages",
+          "text": "apply strategies to interpret and convey meaning and/or intercultural understanding in Greek in familiar non-verbal, spoken and written contexts",
+          "elaborations": [
+            "comparing translations of written texts from Greek into English and from English into Greek, such as advertisements, websites, food packaging and menus, and considering how meanings may be interpreted from different cultural perspectives",
+            "translating simple sentences, noticing that there is not always word-for-word equivalence when moving between Greek and English or vice versa, because of word order or multiple meanings (e.g. Κρυώνω, Ζεσταίνομαι, Κάνω μπάνιο, Βρέχει, Ο μπαμπάς μου δεν είναι ψηλός), and brainstorming ways to ensure accurate transfer of meaning without losing the cultural nuance or intent, for example, Κρυώνω, Ζεσταίνομαι, Κάνω μπάνιο, Βρέχει, Ο μπαμπάς μου δεν είναι ψηλός, το φιλότιμο",
+            "recognising that some words have many different meanings such as the multiple meanings of γεια σου (hello, goodbye, cheers, bless you) or είναι (he is, she is, it is, they are, is, are), and identifying phrases and idioms in Greek that do not make sense when translated word-for-word, for example, Χρόνια Πολλά, Και του χρόνου, Τα μάτια σου δεκατέσσερα, Καλό χειμώνα!",
+            "creating simple print or digital bilingual texts for specific audiences, for example, creating bilingual resources such as school signs for Greek visitors; invitations to parents for class or school events; posters for the school community to advertise an upcoming event; online story books including text and images for a younger audience; a game of snap using words only",
+            "creating a word bank or wall mind map that includes cognates, phrases, common cultural expressions, or patterns/structures, for example, σπίτι, πόρτα, παράθυρο, Γιορτή, χρόνια πολλά, και του χρόνου",
+            "highlighting unknown words or structures and using problem-solving techniques such as looking at what comes before and after, and using this knowledge to obtain the gist/idea of a sentence",
+            "reading non-verbal cues and body language such as facial expressions and hand gestures to aid comprehension and applying this knowledge to their own interactions",
+            "co-constructing an anchor chart that includes definitions of language features in Greek texts and examples of commonly used language and structures from familiar texts, for example, in fairytales or folktales, Μια φορά κι έναν καιρό …, and Ζήσανε αυτοί καλά και εμείς καλύτερα",
+            "collaborating with a partner to create subtitles in English to a short Greek video, for example, an advertisement, informative piece or well-known story",
+            "completing a collaborative translation where students work in a small group to translate different parts of the same text and pass it on, each member of the group then proofreads each translated section with a specific focus (e.g. verbs and tenses, adjectival agreement), before passing it on"
+          ]
+        },
+        {
+          "code": "VC2LMG6C05",
+          "strand": "Communicating Meaning in Greek",
+          "subStrand": "Creating text in Greek",
+          "text": "create and present spoken and written texts, using a variety of vocabulary, modelled sentence structures and conventions appropriate to text type",
+          "elaborations": [
+            "constructing a profile of the local community for tourists or new residents, collecting information from public and community texts such as flyers, newsletters, advertisements and brochures, for example, opening times of facilities, attractions, local history, food outlets, Η βιβλιοθήκη ανοίγει στις 9",
+            "preparing and giving presentations about their personal worlds (e.g. a timeline of growth and change) or milestones (e.g. Εδώ είμαι δύο χρονών, Εδώ είμαι πέντε χρονών, Πάω στο σχολείο), or family celebrations of birthdays/name days and other special occasions (e.g. Στην γιορτή του μπαπμά …, Τα Χριστούγεννα …, Στα γενέθλιά μου …)",
+            "creating informative spoken or written procedures such as a recipe or set of instructions or directions, for a range of audiences, for example, στρίψε δεξιά, τώρα πήγαινε ευθεία",
+            "preparing a dialogue or role-play with a partner, using language appropriate to text type and formality, for example, Έχεις αδέρφια; Ναι, έχω, εσύ;",
+            "co-producing short, scripted plays with teacher support to perform to a class, younger students or the school community, incorporating Greek expressions, gestures and interjections that reflect cultural elements, for example, Πω πω! Χαίρω πολύ, Τα λέμε, Πάμε, Να'στε καλά",
+            "creating and performing simple songs, rhymes and raps to recall information and/or to teach vocabulary and word patterns to younger students, switching from Greek to English or using both languages within sentences to reinforce meaning",
+            "using key vocabulary from one text type and applying it to create an alternative text type, for example, using a shopping list to create a dialogue for a shopping transaction involving interaction and negotiation",
+            "using stimulus texts such as Greek mythology (e.g. Το άγγιγμα του Μίδα), Aesop's fables (e.g. Ο Λαγός και η Χελώνα) or a fairytale (e.g. Η Κοκκινοσκουφίτσα), and creating their own text with an alternative ending, different characters or resequencing the events in different formats",
+            "writing a modelled diary entry or keeping a journal about personal experiences, using first person, past tense and informal language to record events and convey thoughts and feelings, for example, Πήγα στη θάλασσα. Μου άρεσε"
+          ]
+        },
+        {
+          "code": "VC2LMG6U01",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "apply combinations of sounds, syllables, pronunciation and intonation patterns to develop fluency in words, phrases and sentences",
+          "elaborations": [
+            "using their prior knowledge of Greek pronunciation and sound combinations to predict how to pronounce unfamiliar words, for example, when encountering the syllable το in a new Greek word, applying Greek pronunciation instead of an anglicised version of the sounds",
+            "reading texts aloud, recognising and reproducing digraphs, diphthongs, trigraphs and syllables, for example, οι, ει, οικογένεια, αι, είναι, αυ, αύριο, αυτί, ευ, Εύα, ευχαριστώ, ου, παππούς, μπ, μπαμπάς, ντ, ντομάτα, αντίο, γγ, φεγγάρι, γκ, γκρι, τσ, παππούτσι, τζ, τζάκι, ντζ, Καλλικάντζαρος, ντρ, άντρας, μπτ, Πέμπτη, κτρ, ηλεκτρονικό, ρθρ, άρθρο",
+            "recording themselves reading a text and listening to their recording to evaluate and reflect on their accuracy, for example, in combining sounds and syllables; pronouncing words accurately; reading fluently",
+            "recognising and beginning to use high-frequency words and phrases when speaking and reading, for example, είσαι, έχει, εγώ, εσύ, αυτός, τρέχω, διαβάζω, παίζει, στο σχολείο, τη Δευτέρα",
+            "experimenting with rhythm, intonation and pronunciation to enhance fluency, for example, in activities such as readers' theatre, role-plays and singing songs",
+            "applying and using accent marks on all words which have more than one syllable and on a few monosyllabic words (e.g. πού, πώς, ή), and recognising that the position of the accent mark can change the meaning (e.g. άλλα, αλλά, μάτια, ματιά, γέρος, γερός, πορτοκάλι, πορτοκαλί) in sentence activities, for example, 'add the accent', 'spot the mistake' and 'correct the error'",
+            "varying intonation for statements, questions, interjections, exclamations and commands, for example, Είναι εδώ, Τι κάνεις;, Πω πω!, Σταμάτα!, Άντε!, Κρίμα!, Μη μιλάς, Μη μιλάτε, Πρέπει να …",
+            "reciting tongue twisters to develop pronunciation and fluency, for example, Πέμπτη πέφτει ο πεύκος κάτω"
+          ]
+        },
+        {
+          "code": "VC2LMG6U02",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "recognise and use a range of modelled grammatical structures to respond to and create simple texts using conventions appropriate to text type",
+          "elaborations": [
+            "participating in word hunts, locating words (e.g. noun, verb and adjective) in various text types, highlighting the focus word type, for example, in a verb hunt using Ο σκύλος κυνηγάει την γάτα, students would highlight κυνηγάει",
+            "applying prior phonic and grammatical knowledge to experiment with and predict the spelling and writing of words, for example, using -ω at the end of new or unfamiliar verbs in grammar activities and when using verbs in sentences",
+            "developing understanding of specific language conventions (e.g. spelling verbs in the first person ending in ω; verbs in the third person ending in ει; the most common noun and adjective endings, including ος, ας, ης, οι, η, α, ες, ι, ο, α; plural articles οι, τα), for example, γράφω, γράφει, ο άντρας, οι άντρες, η ντουλάπα, οι ντουλάπες, το λουλούδι, τα λουλούδια, κοντός, κοντή, κοντό when completing grammar exercises, such as declension/conjugating verb tasks and sentence-writing tasks",
+            "understanding and applying punctuation when completing writing tasks, or adhering to punctuation conventions when reading Greek texts, for example, the accent mark, full stop, comma, exclamation mark, brackets, apostrophe, speech marks and question mark",
+            "describing present, past and future actions, situations and events using familiar verbs, for example, Παίζω στο σχολείο, Θα διαβάσω αύριο, Κάνει ζέστη σήμερα, Xθες ήταν Τρίτη, Αύριο θα είναι Σάββατο",
+            "expressing and justifying preferences using the appropriate syntax and language structure, for example, Μου αρέσει πολύ, Δε μου αρέσει επειδή …",
+            "using appropriate word order (e.g. Θέλεις το βιβλίο; Τη λένε Μαρία, O Νίκος τρέχει, Η Άννα είναι έξυπνη) in written activities, for example, 'Is that sentence correct?' where students work in pairs/small groups to decide whether a sentence is correct – if it is not, they have to write the sentence in the correct form",
+            "using simple cardinal and ordinal numbers in different contexts such as telling the time, stating dates, ordering/shopping, or in simple descriptions such as Είναι πέντε η ώρα, Τα γενέθλιά μου είναι στις 8 Απριλίου, Πέντε κιλά πατάτες παρακαλώ, Είμαι στην Α΄τάξη",
+            "recognising and applying the agreement between nouns, adjectives and gender (e.g. Μία μεγάλη τσάντα, δύο μικρές τσάντες, η κόκκινη πόρτα, ο άσπρος γάτος) in written tasks such as sentence building and mixed-up sentences, and transferring these understandings to writing a variety of simple texts, for example, imaginative, informative, personal, persuasive",
+            "using conjunctions such as και, αλλά, ή, γιατί, επειδή to link ideas in sentences, for example, Παίζω πιάνο, αλλά μου αρέσει και η κιθάρα., Δε θα το βρεις πουθενά αλλού. Αυτό συμβαίνει επειδή φοβάται το νερό, to enable the writing of more complex sentences",
+            "using adverbs and prepositions in sentences, for example, το βιβλίο είναι δίπλα στην τσάντα μου",
+            "negating a phrase or sentence using the word δε/δεν (e.g. η γάτα δεν πίνει το γάλα, δεν μπορώ, δεν είναι ωραίο, δε βρέχει) in activities such as 'spot the difference', where they look at 2 images and describe what they see, for example, a cat drinking milk in one image and not in the other",
+            "using verbs in simple sentences across a variety of text types, for example, παίζω μπάσκετ, το λιοντάρι τρώει, η Άννα παίζει, μου αρέσουν οι φράουλες, ευχαριστούμε κυρία",
+            "recognising and using command verbs (e.g. έλα, ελάτε, κλείσε, άνοιξε, κάθισε, καθίστε, σήκω, σηκωθείτε, γύρισε, γράψε, διάβασε, άκουσε, κόψε), constructing affirmative and negative statements, and using interrogatives, for example, ναι, όχι, πού, τι, πώς, πότε, ποιος, ποια, γιατί",
+            "using knowledge of familiar patterns and structures to decode and interpret meaning, for example, the Greek prefix 'α-' in words can make the opposite meaning, as in ψητό and άψητο, and this concept has been carried over into English words such as 'symmetrical' and 'asymmetrical'"
+          ]
+        },
+        {
+          "code": "VC2LMG6U03",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding systems of language",
+          "text": "compare Greek language structures and features with those of English and/or other languages, using familiar metalanguage",
+          "elaborations": [
+            "comparing familiar texts in Greek, English and/or other languages, and noticing similarities and differences between language structures and features, for example, opening sentences used in fairytales such as 'Once upon a time …' («Μια φορά και έναν καιρό …»)",
+            "recognising Greek morphemes (prefixes, suffixes and base words) in English and/or other languages to help work out meanings of unknown words, for example, anti-, astro-, deca-, geo-, -graph-, hyper-, -ic, -itis, kilo-, macro-, mega-, -meter, micro-, neo-, octo-, -ology, pent-, photo-, -poly-, -scope, tech-, tele-, tri-",
+            "understanding that some words derived from Ancient Greek are still being used today to create new words (neologisms) such as names of new technological/scientific discoveries, for example, disc, giga-, mega-, metro",
+            "identifying familiar words in Greek and recognising their English and/or other language equivalents, for example, το τηλέφωνο, η φωτογραφία, ο παιδίατρος, το δράμα, το θέατρο, when participating in shared reading activities or reading texts independently",
+            "understanding that some words originate from Aboriginal and/or Torres Strait Islander languages from different areas around Australia, for example, κοάλα (koala) from the Dharug word gula, meaning 'no water', or ντίνγκο (dingo) from the Dharug word din-gu, and comparing these words to English and/or other languages and discussing their historical context",
+            "recognising that some English and/or other language words are used in Greek, but that Greek equivalents to these terms often also exist, for example, το κομπιούτερ – ο υπολογιστής, μπλε – γαλάζιο, το μπάσκετ – η καλαθόσφαιρα",
+            "expanding their understanding and use of metalanguage to discuss parts of speech, syntax and punctuation in Greek, English and/or other languages, for example, τελεία, ορθογραφία, ρήμα, adverbs, syntax, cognates, subject+verb+object",
+            "recognising some 'false friends' in Greek (e.g. ναι means 'yes' in Greek but sounds like 'no' in English), learning to use a range of translation tools effectively and realising the limitations of each and the risk of using incorrect language that may not suit the context, audience or purpose"
+          ]
+        },
+        {
+          "code": "VC2LMG6U04",
+          "strand": "Understanding Language and Culture",
+          "subStrand": "Understanding the interrelationship of language and culture",
+          "text": "recognise that language reflects cultural practices, values and identity, and that this has an impact on verbal and non-verbal communication",
+          "elaborations": [
+            "comparing language use and cultural gestures in similar social situations in Greek and English, for example, comparing the language used when giving or receiving a gift; offering congratulations at a significant life event",
+            "exploring how children from Greek-speaking communities may use different words and expressions, and considering why such variations exist, for example, in Australia words that are not Greek words are sometimes used (e.g. κάρο instead of αυτοκίνητο, ρούφι instead of σκεπή, φλόρι instead of πάτωμα), compared with words that are official Greek words (e.g. μπασκετμπολίστας, τενίστας)",
+            "discussing aspects of their own language use that reflect different cultural perspectives, belonging and experiences, using colloquialisms and slang phrases (e.g. 'Aussie', 'arvo', 'g'day', 'no worries', 'mucking around', 'mozzie'), and expressions of Greek origin (e.g. 'Achilles heel', 'the Midas touch')",
+            "discussing traditional methods that Greek speakers use to preserve language and culture, comparing these with examples of cultural artefacts such as dance, songs, artwork, artefacts or traditions from a range of different cultures and identifying how they strengthen connections to values and identity, for example, discussing the significance of a possum-skin coat for some Aboriginal Peoples and sharing similarities and differences between cultural artefacts in other languages and cultures represented in the classroom",
+            "identifying, in Greek or English, how language and culture are expressed through Aboriginal and Torres Strait Islander Peoples' songs, dances or artworks, considering similarities and differences in an aspect of the cultural expressions of Greek-speaking people or communities",
+            "considering what linguistic or cultural information they need to know when visiting a school in a Greek-speaking country, and discussing adjustments they may need to make in language use and behaviour, and strategies they may use to make and exchange meaning",
+            "exploring examples of traditional and contemporary images or texts in print and online, and discussing how identity and gender are represented in the language",
+            "recognising that language use can have deep connections to historical cultural practices (e.g. celebrating birthdays, name days, baptisms, weddings, 25η Μαρτίου, Πάσχα) in Greek-speaking communities and examining the embedded cultural meanings of well wishes such as Να σας ζήσει, Καλά στέφανα, Χρόνια Πολλά, Να τα εκατοστίσεις, and the concepts of φιλότιμο and φιλοξενία and their origins",
+            "reflecting on the experience of learning Greek language and culture, and identifying situations that have provided awareness of their own cultural practices, values and identity",
+            "exploring the connection between culture and identity, in discussions or activities, and how their own culture, beliefs and values impact their identity formation and expression, for example, the languages they speak and the communities they belong to"
+          ]
+        }
+      ]
+    }
+  ]
+}

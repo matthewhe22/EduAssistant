@@ -5,7 +5,7 @@ Retrieved November 2026. Re-check each source at the start of every school year.
 | Topic | Source |
 |---|---|
 | Victorian Curriculum F–10 Version 2.0 (current) | https://f10.vcaa.vic.edu.au/ |
-| Same content as plain HTML, by level (used by the scraper) | https://victoriancurriculum.vcaa.vic.edu.au/level3?layout=1&d=M2 |
+| **Dataset source**: Download curriculum (CSV export) | https://f10.vcaa.vic.edu.au/download-curriculum |
 | Implementation timeline | https://www.vcaa.vic.edu.au/curriculum/foundation-10-version-2/victorian-curriculum-f-10-version-20 |
 | Curriculum Programs F–10 policy (reading position, VTLM 2.0 deadlines) | https://www2.education.vic.gov.au/pal/curriculum-programs/policy |
 | VTLM 2.0 guidance | https://www2.education.vic.gov.au/pal/victorian-teaching-learning-model/guidance |
@@ -27,10 +27,16 @@ so the teacher can follow the links.
 
 ## What the dataset contains (and doesn't)
 
-- ✅ For every Version 2.0 subject that has content at Foundation to Level 6: level description,
-  achievement standard, and content descriptions (code, strand, sub-strand, verbatim text).
-- ❌ **Elaborations.** On VCAA's site these only appear on the client-rendered f10 site. The
-  generator will write its own teaching ideas instead. Never present those ideas as official
-  VCAA elaborations.
-- ❌ Foundation Levels A–D (for students with intellectual disability). These can be added later
-  by extending `PRIMARY_LEVELS` and `LEVEL_PATH` in `scripts/curriculum/scrape.ts`.
+Built by `.github/workflows/curriculum.yml`. The workflow drives VCAA's "Download curriculum" form
+with Playwright (all learning areas and capabilities, levels F–6, CSV, "curriculum content").
+`scripts/curriculum/import-csv.ts` then converts the export to `data/curriculum/vc2/*.json`.
+
+- ✅ 34 subjects, 1,347 content descriptions and about 7,700 elaborations. For each subject and
+  level/band: the achievement standard, plus content descriptions (code, strand, sub-strand,
+  verbatim text, VCAA elaborations).
+- ✅ Level *bands* are kept as VCAA writes them (see 01-victorian-curriculum-2.md).
+- ❌ Level descriptions are not in the CSV export.
+- ❌ Not included: Foundation Levels A–D, EAL, Auslan, Victorian Aboriginal Languages and the
+  classical languages. They are either not selectable in the export or not part of the F–10
+  sequences. Add them later if needed.
+- Note: the CSV is plain text, so maths notation (e.g. fractions) may lose formatting.
