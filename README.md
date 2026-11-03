@@ -109,6 +109,7 @@ on `npm start`, or run them yourself with `npm run db:migrate`.
 
 - **Accounts**: email and password (bcrypt), with sessions in an httpOnly cookie. Only a SHA-256
   hash of the session token is stored.
+- **Super admin:** `matthew.he@outlook.com` (change with `ADMIN_EMAILS`) gets an **Admin** page at `/admin` with totals, every user's usage and spend, and each user's activity (titles and settings only, never the content of their materials or their API keys). Everyone else gets a 404 there.
 - **Sign-ups are closed** except for the **first account** and emails listed in `ALLOWED_EMAILS`.
   This stops strangers on your public URL from spending your AI credit.
 - Every query is scoped to the signed-in teacher (`lib/data/`).

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Icon, ICONS } from "@/components/Icon";
 import { NavLinks } from "@/components/NavLinks";
+import { isAdminEmail } from "@/lib/auth/admin";
 import { getCurrentUser } from "@/lib/auth/session";
 import { isDbConfigured } from "@/lib/db";
 import "./globals.css";
@@ -18,6 +19,7 @@ const initials = (name: string | null, email: string) =>
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const authEnabled = isDbConfigured();
   const user = authEnabled ? await getCurrentUser() : null;
+  const isAdmin = Boolean(user && isAdminEmail(user.email));
   const links = [
     { href: "/plan", label: "Create", match: ["/plan"] },
     ...(authEnabled
@@ -29,6 +31,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         ]
       : []),
     { href: "/curriculum", label: "Curriculum", match: ["/curriculum"] },
+    ...(isAdmin ? [{ href: "/admin", label: "Admin", match: ["/admin"] }] : []),
   ];
   return (
     <html lang="en-AU">
