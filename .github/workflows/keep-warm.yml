@@ -1,6 +1,7 @@
 # Keeps the Render free-plan service awake from 7:00am to 11:59pm Melbourne time, every day.
 # Render puts free services to sleep after 15 minutes without traffic, so this pings
-# /api/health every 10 minutes during the day and stops overnight, which also saves
+# /api/health every 10 minutes during the day (at quiet minutes like :03, :13, because
+# GitHub drops scheduled runs most often at :00 and :10) and stops overnight, which also saves
 # free instance hours.
 #
 # GitHub cron runs in UTC, and Melbourne is UTC+10 (winter) or UTC+11 (daylight saving).
@@ -10,7 +11,7 @@ name: Keep warm
 
 on:
   schedule:
-    - cron: "*/10 20-23,0-13 * * *"
+    - cron: "3,13,23,33,43,53 20-23,0-13 * * *"
   workflow_dispatch: {}
 
 concurrency:
