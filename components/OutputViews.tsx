@@ -152,7 +152,7 @@ function WorksheetView({ content: w, ...v }: ViewProps<Worksheet>) {
         </Section>
       </Shell>
       {!studentCopy && <div className="print:break-before-page">
-        <Shell title={`Answer key: ${w.title}`} {...v}>
+        <Shell title={`Answer key: ${w.title}`} {...v} secondary>
           <p className="m-0 max-w-[64ch] text-ink-soft">{w.overview}</p>
           <CurriculumLinksView links={w.curriculumLinks} codeText={v.codeText} />
           {w.sections.map((s, i) => (
@@ -175,7 +175,7 @@ function TieredTaskView({ content: t, ...v }: ViewProps<TieredTask>) {
       <div className="flex flex-col gap-6">
         {t.tiers.map((tier, i) => (
           <div key={tier.tier} className={i > 0 ? "print:break-before-page" : ""}>
-            <Shell title={t.title} {...v} meta={`${v.meta} · Level ${i + 1}`}>
+            <Shell title={t.title} {...v} meta={`${v.meta} · Level ${i + 1}`} secondary>
               <p className="m-0 text-ink-muted">Name: ____________________ &nbsp; Date: ____________</p>
               <div><Label>What to do</Label><List ordered items={tier.studentInstructions} /></div>
               {tier.scaffolds.length > 0 && <Panel><Label tone="wattle">Helpful hints</Label><List items={tier.scaffolds} /></Panel>}

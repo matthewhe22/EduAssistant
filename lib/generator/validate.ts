@@ -1,5 +1,37 @@
 import type { OutputType } from "./outputs";
 
+/** Prefixes of the warnings below, so they can be replaced after an edit. */
+export const CONSISTENCY_PREFIXES = ["Phase timings add up", "Question marks add up", "Some rubric criteria"];
+
+/**
+ * Checks that depend only on the content itself (timings, marks, rubric shape). Pure and
+ * safe to run in the browser, e.g. again after a teacher edits the text.
+ */
+export function consistencyWarnings(outputType: OutputType, content: Record<string, unknown>, lessonMinutes: number): string[] {
+  const warnings: string[] = [];
+  if (outputType === "lesson_plan" && Array.isArray(content.phases)) {
+    const total = (content.phases as { minutes: number }[]).reduce((n, p) => n + (Number(p.minutes) || 0), 0);
+    if (total !== lessonMinutes) warnings.push(`Phase timings add up to ${total} minutes, not ${lessonMinutes}. Adjust as needed.`);
+  }
+  if (outputType === "assessment" && Array.isArray(content.questions)) {
+    const sum = (content.questions as { marks: number }[]).reduce((n, q) => n + (Number(q.marks) || 0), 0);
+    if (sum !== Number(content.totalMarks)) warnings.push(`Question marks add up to ${sum}, but total marks says ${String(content.totalMarks)}.`);
+  }
+  if (outputType === "rubric" && Array.isArray(content.criteria) && Array.isArray(content.levelLabels)) {
+    const n = (content.levelLabels as unknown[]).length;
+    if ((content.criteria as { descriptors: unknown[] }[]).some((c) => c.descriptors.length !== n)) {
+      warnings.push("Some rubric criteria don't have one descriptor per level. Check the table.");
+    }
+  }
+  return warnings;
+}
+
+/** Replaces the consistency warnings in `warnings` with fresh ones for `content`. */
+export function refreshWarnings(outputType: OutputType, content: Record<string, unknown>, lessonMinutes: number, warnings: string[]) {
+  const kept = warnings.filter((w) => !CONSISTENCY_PREFIXES.some((p) => w.startsWith(p)));
+  return [...kept, ...consistencyWarnings(outputType, content, lessonMinutes)];
+}
+
 type Json = unknown;
 
 /** Removes codes that aren't in `allowed` from every `curriculumCodes` array, recording what was removed. */
@@ -57,19 +89,6 @@ export function validateOutput<T extends Record<string, unknown>>(
     warnings.push("No valid curriculum code was cited. Check the curriculum alignment before teaching.");
   }
 
-  if (outputType === "lesson_plan" && Array.isArray(content.phases)) {
-    const total = (content.phases as { minutes: number }[]).reduce((n, p) => n + (Number(p.minutes) || 0), 0);
-    if (total !== lessonMinutes) warnings.push(`Phase timings add up to ${total} minutes, not ${lessonMinutes}. Adjust as needed.`);
-  }
-  if (outputType === "assessment" && Array.isArray(content.questions)) {
-    const sum = (content.questions as { marks: number }[]).reduce((n, q) => n + (Number(q.marks) || 0), 0);
-    if (sum !== Number(content.totalMarks)) warnings.push(`Question marks add up to ${sum}, but total marks says ${String(content.totalMarks)}.`);
-  }
-  if (outputType === "rubric" && Array.isArray(content.criteria) && Array.isArray(content.levelLabels)) {
-    const n = (content.levelLabels as unknown[]).length;
-    if ((content.criteria as { descriptors: unknown[] }[]).some((c) => c.descriptors.length !== n)) {
-      warnings.push("Some rubric criteria don't have one descriptor per level. Check the table.");
-    }
-  }
+  warnings.push(...consistencyWarnings(outputType, content, lessonMinutes));
   return { content: cleaned, warnings };
 }

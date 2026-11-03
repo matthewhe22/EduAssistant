@@ -9,7 +9,15 @@ export interface RefineApi {
   open: (key: string) => void;
   renderForm: (key: string) => React.ReactNode;
   refinable: (key: string) => boolean;
+  /** Hand editing: which part is open in the editor ("_header" = title and overview). */
+  editingKey: string | null;
+  editable: (key: string) => boolean;
+  startEdit: (key: string) => void;
+  renderEditor: (key: string) => React.ReactNode;
 }
+
+const toolBtn =
+  "inline-flex min-h-[40px] items-center gap-1.5 rounded-[10px] border border-line-strong bg-white px-3 text-sm font-bold text-ink-soft transition-opacity hover:border-euc hover:bg-euc-tint hover:text-euc-dark focus-visible:opacity-100 lg:opacity-0 lg:group-focus-within:opacity-100 lg:group-hover:opacity-100 print:hidden";
 export const RefineContext = createContext<RefineApi | null>(null);
 
 /** Display options and follow-on actions shared by the output views. */
@@ -48,24 +56,32 @@ export function Section({
 }) {
   const refine = useContext(RefineContext);
   const canRewrite = Boolean(refine && sectionKey && refine.refinable(sectionKey));
+  const canEdit = Boolean(refine && sectionKey && refine.editable(sectionKey));
   const active = canRewrite && refine!.activeKey === sectionKey;
+  const editing = canEdit && refine!.editingKey === sectionKey;
   return (
     <section id={sectionKey ? `sec-${sectionKey}` : undefined} className="group flex scroll-mt-6 flex-col gap-3 break-inside-avoid">
       <div className="flex flex-wrap items-center justify-between gap-2">
         <h2 className={`m-0 font-bold ${size === "lg" ? "text-2xl" : "text-xl"}`}>{title}</h2>
-        {canRewrite && !active && (
-          <button
-            type="button"
-            onClick={() => refine!.open(sectionKey!)}
-            className="inline-flex min-h-[40px] items-center gap-1.5 rounded-[10px] border border-line-strong bg-white px-3 text-sm font-bold text-ink-soft transition-opacity hover:border-euc hover:bg-euc-tint hover:text-euc-dark focus-visible:opacity-100 lg:opacity-0 lg:group-focus-within:opacity-100 lg:group-hover:opacity-100 print:hidden"
-          >
-            <Icon d={ICONS.pencil} size={16} />
-            Rewrite this part
-          </button>
+        {!active && !editing && (canEdit || canRewrite) && (
+          <span className="flex flex-wrap gap-2">
+            {canEdit && (
+              <button type="button" onClick={() => refine!.startEdit(sectionKey!)} className={toolBtn} aria-label={`Edit ${title.toLowerCase()}`}>
+                <Icon d={ICONS.pencil} size={16} />
+                Edit
+              </button>
+            )}
+            {canRewrite && (
+              <button type="button" onClick={() => refine!.open(sectionKey!)} className={toolBtn}>
+                <Icon d={ICONS.sparkle} size={16} />
+                Rewrite with AI
+              </button>
+            )}
+          </span>
         )}
       </div>
       {active && refine!.renderForm(sectionKey!)}
-      {children}
+      {editing ? refine!.renderEditor(sectionKey!) : children}
     </section>
   );
 }
@@ -107,21 +123,34 @@ export function Shell({
   typePill,
   meta,
   children,
+  secondary = false,
 }: {
   title: string;
   typeLabel: string;
   typePill: string;
   meta: string;
   children: React.ReactNode;
+  /** A second page of the same item (e.g. the answer key): no title editing here. */
+  secondary?: boolean;
 }) {
+  const refine = useContext(RefineContext);
+  const canEdit = !secondary && Boolean(refine?.editable("_header"));
+  const editing = canEdit && refine!.editingKey === "_header";
   return (
     <article className="card flex min-w-0 flex-col gap-8 px-6 py-8 sm:px-12 sm:py-10 print:border-0 print:p-0">
-      <header className="flex flex-col gap-2.5">
-        <p className="m-0 flex flex-wrap gap-2 text-sm">
+      <header className="group flex flex-col gap-2.5">
+        <p className="m-0 flex flex-wrap items-center gap-2 text-sm">
           <span className={`pill ${typePill}`}>{typeLabel}</span>
           <span className="pill border border-line font-normal text-ink-soft">{meta}</span>
+          <span className="flex-auto" />
+          {canEdit && !editing && (
+            <button type="button" onClick={() => refine!.startEdit("_header")} className={toolBtn}>
+              <Icon d={ICONS.pencil} size={16} />
+              Edit title
+            </button>
+          )}
         </p>
-        <h1 className="m-0 text-[32px] font-bold leading-[1.1] tracking-[-0.02em] sm:text-[36px]">{title}</h1>
+        {editing ? refine!.renderEditor("_header") : <h1 className="m-0 text-[32px] font-bold leading-[1.1] tracking-[-0.02em] sm:text-[36px]">{title}</h1>}
       </header>
       {children}
     </article>

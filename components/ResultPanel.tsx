@@ -6,8 +6,10 @@ import type { PrimaryLevel } from "@/lib/curriculum/types";
 import { availableFixes, type Fix } from "@/lib/generator/fixes";
 import { OUTPUT_TYPES, OUTPUTS, type OutputType } from "@/lib/generator/outputs";
 import type { DIFFICULTIES, UnitPlan, Usage } from "@/lib/generator/schema";
+import { refreshWarnings } from "@/lib/generator/validate";
 import { formatUsd } from "@/lib/pricing";
 import { classLabel, OUTPUT_UI, progressMessage } from "@/lib/ui/labels";
+import { SectionEditor } from "./Editor";
 import { FeedbackBar, type Feedback } from "./FeedbackBar";
 import { Icon, ICONS } from "./Icon";
 import { OutputView } from "./OutputViews";
@@ -43,6 +45,9 @@ export interface SourceMaterial {
 
 /** Types with answers, where a student copy makes sense. */
 const STUDENT_COPY_TYPES: OutputType[] = ["worksheet", "assessment", "differentiation"];
+
+/** Fields edited together under "Edit title" when they aren't sections of their own. */
+const HEADER_FIELDS = ["title", "overview", "learningIntention"];
 
 /** Sections hidden in a student copy. */
 const TEACHER_ONLY = ["teacherNotes", "markingGuide", "nextSteps", "ealDAdjustments", "commonTask"];
@@ -141,21 +146,48 @@ export function ResultPanel({
     setLastChange("");
   }
 
+  /** Shows new content straight away and saves it to the library as a new version. */
+  async function commit(content: Record<string, unknown>, warnings: string[], note: string) {
+    remember(note);
+    setResult((r) => ({ ...r, content, warnings }));
+    if (!result.generationId) return true;
+    const res = await fetch(`/api/generations/${result.generationId}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ content, warnings, note }),
+    }).catch(() => null);
+    const data = res ? await res.json().catch(() => ({})) : {};
+    if (res?.ok) setServerVersions(data.versions);
+    else setError("The change was made here but could not be saved to your library. Try again, or download it.");
+    return Boolean(res?.ok);
+  }
+
   async function applyFix(fix: Fix) {
     const content = fix.apply(result.content);
     const warnings = result.warnings.filter((w) => !w.startsWith(fix.warningPrefix));
-    remember(fix.id === "timings" ? "Fixed the timings" : "Fixed the total marks");
-    setResult((r) => ({ ...r, content, warnings }));
-    if (result.generationId) {
-      const res = await fetch(`/api/generations/${result.generationId}`, {
-        method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ content, warnings, note: fix.label }),
-      });
-      const data = await res.json().catch(() => ({}));
-      if (res.ok) setServerVersions(data.versions);
-      else setError("The fix was made here but could not be saved to your library.");
+    await commit(content, warnings, fix.id === "timings" ? "Fixed the timings" : "Fixed the total marks");
+  }
+
+  // Hand editing.
+  const [editingKey, setEditingKey] = useState<string | null>(null);
+  const [saving, setSaving] = useState(false);
+  const headerFields = HEADER_FIELDS.filter((k) => k in def.schema.shape && !(k in def.sections));
+  const editLabel = (key: string) => (key === "_header" ? (headerFields.length > 1 ? "Title and overview" : "Title") : def.sections[key] ?? key);
+
+  async function saveEdit(key: string, value: unknown) {
+    const patch = key === "_header" ? (value as Record<string, unknown>) : { [key]: value };
+    const content = { ...result.content, ...patch };
+    const parsed = def.schema.safeParse(content);
+    if (!parsed.success) {
+      setError("Some of those changes couldn't be saved. Check that no box is left in an odd state and try again.");
+      return;
     }
+    setSaving(true);
+    const warnings = refreshWarnings(result.outputType, parsed.data, context.lessonMinutes, result.warnings);
+    await commit(parsed.data, warnings, `Edited the ${editLabel(key).toLowerCase()}`);
+    setSaving(false);
+    setEditingKey(null);
+    requestAnimationFrame(() => document.getElementById(key === "_header" ? "result-top" : `sec-${key}`)?.scrollIntoView({ behavior: "smooth", block: "start" }));
   }
 
   function makeMatching(outputType: OutputType, idea?: string, lesson?: number) {
@@ -195,11 +227,38 @@ export function ResultPanel({
   const api: RefineApi = useMemo(
     () => ({
       activeKey,
-      refinable: (key) => key in def.sections,
+      refinable: (key) => key in def.sections && !editingKey,
       open: (key) => {
         setActiveKey(key);
+        setEditingKey(null);
         setInstruction("");
         setError("");
+      },
+      editingKey,
+      editable: (key) => !busy && !activeKey && (key === "_header" ? headerFields.length > 0 : key in def.sections),
+      startEdit: (key) => {
+        setEditingKey(key);
+        setActiveKey(null);
+        setError("");
+      },
+      renderEditor: (key) => {
+        const schema = key === "_header" ? def.schema.pick(Object.fromEntries(headerFields.map((k) => [k, true])) as Record<string, true> & Record<number, never>) : def.schema.shape[key];
+        const value = key === "_header" ? Object.fromEntries(headerFields.map((k) => [k, result.content[k]])) : result.content[key];
+        return (
+          <>
+            <SectionEditor
+              key={key}
+              schema={schema}
+              value={value}
+              name={key}
+              label={editLabel(key)}
+              saving={saving}
+              onSave={(v) => saveEdit(key, v)}
+              onCancel={() => setEditingKey(null)}
+            />
+            {error && <Notice tone="error">{error}</Notice>}
+          </>
+        );
       },
       renderForm: (key) => (
         <form
@@ -255,7 +314,7 @@ export function ResultPanel({
       ),
     }),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [activeKey, instruction, busy, progress, error, def, result],
+    [activeKey, editingKey, saving, instruction, busy, progress, error, def, result],
   );
 
   const meta = [classLabel(context.level, context.secondLevel), context.subjectName, def.usesLessonLength ? `${context.lessonMinutes} min` : "", extraMeta]
@@ -263,7 +322,7 @@ export function ResultPanel({
     .join(" · ");
 
   return (
-    <div className="flex flex-col gap-6">
+    <div id="result-top" className="flex scroll-mt-6 flex-col gap-6">
       <div className="card flex flex-wrap items-center gap-x-5 gap-y-3 px-5 py-3 print:hidden">
         {backHref ? (
           <a href={backHref} className="inline-flex items-center gap-1.5 font-bold no-underline">
@@ -337,7 +396,7 @@ export function ResultPanel({
       )}
 
       <div className="flex flex-wrap items-start gap-8">
-        <nav aria-label="Sections" className="sticky top-6 flex max-w-[260px] flex-[1_1_220px] flex-col gap-0.5 text-[15px] print:hidden">
+        <nav aria-label="Sections" className="top-6 lg:sticky flex max-w-[260px] flex-[1_1_220px] flex-col gap-0.5 text-[15px] print:hidden">
           <p className="eyebrow m-0 mb-2 text-ink-muted">In this {OUTPUTS[result.outputType].label.toLowerCase().replace(/ \/.*$/, "")}</p>
           {Object.entries(def.sections).filter(([key]) => !(studentCopy && hasStudentCopy && TEACHER_ONLY.includes(key))).map(([key, label]) => (
             <a
@@ -348,7 +407,7 @@ export function ResultPanel({
               {label}
             </a>
           ))}
-          <p className="m-0 mt-4 px-3 text-sm text-ink-muted">Use “Rewrite this part” on any section to change just that section.</p>
+          <p className="m-0 mt-4 px-3 text-sm text-ink-muted">Use “Edit” to change the words yourself, or “Rewrite with AI” to have a section redone. Every change can be undone.</p>
         </nav>
         <div className="min-w-0 flex-[999_1_640px]">
           <RefineContext.Provider value={studentCopy ? null : api}>
