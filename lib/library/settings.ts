@@ -7,6 +7,7 @@ import { DIFFICULTIES } from "../generator/schema";
 export const FormSettingsSchema = z.object({
   outputType: z.enum(OUTPUT_TYPES).optional(),
   level: z.enum(PRIMARY_LEVELS).optional(),
+  secondLevel: z.enum(PRIMARY_LEVELS).optional(),
   subjectSlug: z.string().regex(/^[a-z0-9-]+$/).optional(),
   difficulty: z.enum(DIFFICULTIES).optional(),
   lessonMinutes: z.number().int().min(15).max(180).optional(),

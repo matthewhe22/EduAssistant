@@ -31,12 +31,63 @@ export async function insertGeneration(db: Db, userId: string, g: NewGeneration)
   return rows[0].id;
 }
 
-export async function updateGenerationContent(db: Db, userId: string, id: string, title: string, content: unknown) {
+/** Keep at most this many earlier versions per item. */
+export const MAX_VERSIONS = 20;
+
+/**
+ * Replaces an item's content. Unless `snapshot` is false, the current content is saved
+ * to generation_versions first so the change can be undone.
+ */
+export async function updateGenerationContent(
+  db: Db,
+  userId: string,
+  id: string,
+  title: string,
+  content: unknown,
+  opts: { snapshot?: boolean; note?: string } = {},
+) {
+  if (opts.snapshot !== false) {
+    await db.query(
+      `insert into generation_versions (generation_id, user_id, title, content, note)
+       select id, user_id, title, content, $3 from generations where id = $2 and user_id = $1`,
+      [userId, id, opts.note ?? null],
+    );
+    await db.query(
+      `delete from generation_versions where generation_id = $2 and user_id = $1 and id not in (
+         select id from generation_versions where generation_id = $2 and user_id = $1 order by created_at desc, id desc limit ${MAX_VERSIONS})`,
+      [userId, id],
+    );
+  }
   const { rows } = await db.query<{ id: string }>(
     "update generations set title = $3, content = $4, updated_at = now() where id = $2 and user_id = $1 returning id",
     [userId, id, title, JSON.stringify(content)],
   );
   return rows[0]?.id ?? null;
+}
+
+export async function countVersions(db: Db, userId: string, id: string) {
+  const { rows } = await db.query<{ n: number }>(
+    "select count(*)::int as n from generation_versions where generation_id = $2 and user_id = $1",
+    [userId, id],
+  );
+  return rows[0]?.n ?? 0;
+}
+
+/**
+ * Restores the most recent saved version and removes it from the history.
+ * Returns the restored content and how many earlier versions remain, or null if there is none.
+ */
+export async function undoLastChange(db: Db, userId: string, id: string) {
+  const { rows } = await db.query<{ vid: string; title: string; content: Record<string, unknown> }>(
+    `select id as vid, title, content from generation_versions where generation_id = $2 and user_id = $1
+     order by created_at desc, id desc limit 1`,
+    [userId, id],
+  );
+  const v = rows[0];
+  if (!v) return null;
+  await updateGenerationContent(db, userId, id, v.title, v.content, { snapshot: false });
+  await db.query("delete from generation_versions where id = $1", [v.vid]);
+  return { title: v.title, content: v.content, remaining: await countVersions(db, userId, id) };
 }
 
 export interface GenerationRow {

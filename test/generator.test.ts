@@ -5,7 +5,11 @@ import { describe, expect, it } from "vitest";
 import { z } from "zod";
 import type { SubjectCurriculum } from "@/lib/curriculum/types";
 import { AttachmentError, MAX_ATTACHMENT_TEXT, prepareAttachment } from "@/lib/generator/attachments";
-import { buildCurriculumContext, buildTeacherRequest, resolveItemCount } from "@/lib/generator/context";
+import { buildCurriculumContext, buildTeacherRequest, classLevelLabel, resolveItemCount } from "@/lib/generator/context";
+import { availableFixes, rescaleMinutes } from "@/lib/generator/fixes";
+import { sectionTracker } from "@/lib/generator/stream";
+import { classLabel, progressMessage } from "@/lib/ui/labels";
+import { exampleIdeas } from "@/lib/ui/examples";
 import { OUTPUT_TYPES, OUTPUTS } from "@/lib/generator/outputs";
 import { SYSTEM_PROMPT } from "@/lib/generator/pedagogy";
 import { GenerateRequestSchema, type GenerateRequest } from "@/lib/generator/schema";
@@ -169,5 +173,112 @@ describe("prompt and helpers", () => {
 
   it("makes a safe filename", () => {
     expect(docxFilename('Fractions: "halves" & quarters!')).toBe("Fractions-halves-quarters.docx");
+  });
+});
+
+describe("composite classes", () => {
+  it("merges both bands when the years are in different bands", () => {
+    const ctx = buildCurriculumContext(science, "4", "at", "5")!;
+    expect(ctx.band.band).toBe("Levels 3 and 4");
+    expect(ctx.extra?.band).toBe("Levels 5 and 6");
+    expect(ctx.allowedCodes.has("VC2S4U01")).toBe(true);
+    expect(ctx.allowedCodes.has("VC2S6U01")).toBe(true);
+    expect(ctx.text).toContain("composite class");
+  });
+
+  it("uses one band when both years share it, and orders levels", () => {
+    const ctx = buildCurriculumContext(science, "4", "at", "3")!;
+    expect(ctx.extra).toBeNull();
+    expect(ctx.text).toBe(buildCurriculumContext(science, "3", "at")!.text);
+  });
+
+  it("asks for a shared lesson with adjustments for each year", () => {
+    const req = request({ level: "4", secondLevel: "3" });
+    const text = buildTeacherRequest(req, maths, buildCurriculumContext(maths, "4", "at", "3")!);
+    expect(text).toContain("composite class of Level 3 (Year 3) and Level 4 (Year 4) students (Year 3/4)");
+    expect(text).not.toContain("year 2 of the");
+  });
+
+  it("labels composite classes", () => {
+    expect(classLabel("4", "3")).toBe("Year 3/4");
+    expect(classLabel("1", "F")).toBe("Prep/1");
+    expect(classLabel("5")).toBe("Year 5");
+    expect(classLevelLabel("F", "1")).toBe("Foundation/Year 1");
+  });
+
+  it("rejects the same year twice", () => {
+    expect(GenerateRequestSchema.safeParse({ ...request(), secondLevel: "3" }).success).toBe(false);
+  });
+});
+
+describe("matching materials", () => {
+  it("includes the source material and lets the idea be empty", () => {
+    const req = request({ idea: "", outputType: "worksheet", basedOn: { outputType: "lesson_plan", title: samplePlan.title, content: samplePlan } });
+    const text = buildTeacherRequest(req, maths, mathsCtx);
+    expect(text).toContain(`existing lesson plan "${samplePlan.title}"`);
+    expect(text).toContain(samplePlan.learningIntention);
+    expect(text).not.toContain("Teacher's idea");
+  });
+
+  it("rejects oversized source material", () => {
+    const big = { ...samplePlan, overview: "x".repeat(90_000) };
+    expect(GenerateRequestSchema.safeParse({ ...request(), basedOn: { outputType: "lesson_plan", title: "t", content: big } }).success).toBe(false);
+  });
+});
+
+describe("quick fixes", () => {
+  it("rescales minutes to the exact total, keeping proportions", () => {
+    const out = rescaleMinutes([5, 5, 15, 15, 20, 5], 50);
+    expect(out.reduce((a, b) => a + b, 0)).toBe(50);
+    expect(out[4]).toBeGreaterThan(out[0]);
+    expect(rescaleMinutes([0, 0, 0], 30)).toEqual([10, 10, 10]);
+    expect(rescaleMinutes([10, 10], 45).reduce((a, b) => a + b, 0)).toBe(45);
+    for (const target of [15, 37, 60, 90, 180]) expect(rescaleMinutes([3, 7, 12, 20, 9, 4], target).reduce((a, b) => a + b, 0)).toBe(target);
+  });
+
+  it("offers a timing fix that clears the validator warning", () => {
+    const fixes = availableFixes("lesson_plan", samplePlan, 45);
+    expect(fixes.map((f) => f.id)).toEqual(["timings"]);
+    const fixed = fixes[0].apply(samplePlan);
+    expect(validateOutput("lesson_plan", fixed, mathsCtx.allowedCodes, 45).warnings.some((w) => w.startsWith(fixes[0].warningPrefix))).toBe(false);
+    expect(availableFixes("lesson_plan", fixed, 45)).toEqual([]);
+  });
+
+  it("offers a total-marks fix for quizzes", () => {
+    const quiz = { ...SAMPLES.assessment, totalMarks: 999 };
+    const [fix] = availableFixes("assessment", quiz, 60);
+    expect(fix.id).toBe("marks");
+    expect(availableFixes("assessment", fix.apply(quiz), 60)).toEqual([]);
+  });
+});
+
+describe("progress messages", () => {
+  it("tracks the section being written from streamed JSON", () => {
+    const track = sectionTracker(["overview", "phases", "teacherNotes"]);
+    expect(track('{"title":"A","over')).toBeUndefined();
+    expect(track('{"title":"A","overview":"x","vocabulary":[{"term":"a"}],"phases":[{"teacher":["')).toBe("phases");
+    expect(track('{"title":"A","overview":"x","vocabulary":[{"term":"a"}],"phases":[{"teacher":["a"]}],"teacherNotes":[')).toBe("teacherNotes");
+  });
+
+  it("speaks plain English", () => {
+    const labels = OUTPUTS.lesson_plan.sections;
+    expect(progressMessage(labels, 0)).toBe("Reading the curriculum and planning…");
+    expect(progressMessage(labels, 3000, "phases")).toBe("Writing the lesson sequence…");
+    expect(progressMessage(OUTPUTS.differentiation.sections, 3000, "ealDAdjustments")).toBe("Writing the EAL/D adjustments…");
+  });
+
+  it("has example ideas for every subject and level", () => {
+    for (const slug of ["mathematics", "english", "dance"]) for (const l of ["F", "4"] as const) expect(exampleIdeas(slug, l).length).toBeGreaterThan(0);
+  });
+});
+
+describe("student copies in Word", () => {
+  it("leaves out the answer key", async () => {
+    const meta = { subject: "Maths", levelLabel: "Year 3", lessonMinutes: 60, codeText: {} };
+    for (const type of ["worksheet", "assessment", "differentiation"] as const) {
+      const full = await outputToDocx(type, SAMPLES[type], meta);
+      const student = await outputToDocx(type, SAMPLES[type], { ...meta, studentOnly: true });
+      expect(student.length).toBeLessThan(full.length);
+    }
   });
 });

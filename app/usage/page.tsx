@@ -1,11 +1,8 @@
 import { redirect } from "next/navigation";
-import { AiSettingsForm } from "@/components/AiSettingsForm";
 import { BudgetForm } from "@/components/BudgetForm";
 import { DEFAULT_MODEL } from "@/lib/ai/config";
-import { labelFor, mergeModels } from "@/lib/ai/models";
-import { canEncrypt } from "@/lib/crypto/secret";
+import { labelFor } from "@/lib/ai/models";
 import { getAiSettings } from "@/lib/data/settings";
-import { listModelIds } from "@/lib/generator/llm";
 import { Notice, Page } from "@/components/Page";
 import { OUTPUT_UI } from "@/lib/ui/labels";
 import { isOutputType } from "@/lib/generator/outputs";
@@ -27,15 +24,13 @@ export default async function UsagePage() {
 
   const melbourneMonth = new Intl.DateTimeFormat("en-CA", { timeZone: "Australia/Melbourne", year: "numeric", month: "2-digit" }).format(new Date());
   const settings = await getAiSettings(db, user.id);
-  const activeKey = settings.apiKey ?? process.env.TENON_API_KEY ?? null;
-  const keySource: "user" | "server" | "none" = settings.apiKey ? "user" : process.env.TENON_API_KEY ? "server" : "none";
+  const hasKey = Boolean(settings.apiKey ?? process.env.TENON_API_KEY);
   const model = settings.model || DEFAULT_MODEL;
-  const [budget, rows, ratings, comments, liveModels] = await Promise.all([
+  const [budget, rows, ratings, comments] = await Promise.all([
     getBudgetStatus(db, user.id),
     usageSince(db, user.id, new Date(Date.now() - 31 * 86_400_000)),
     ratingsByType(db, user.id),
     recentComments(db, user.id),
-    activeKey ? listModelIds(activeKey) : Promise.resolve(null),
   ]);
 
   const monthFmt = new Intl.DateTimeFormat("en-CA", { timeZone: "Australia/Melbourne", year: "numeric", month: "2-digit" });
@@ -48,16 +43,10 @@ export default async function UsagePage() {
   return (
     <Page title="Usage and insights">
     <div className="flex flex-col gap-10">
-      <section className="card flex flex-col gap-4 p-6" aria-labelledby="ai-heading">
-        <div>
-          <h2 id="ai-heading" className="m-0 text-2xl font-bold">AI provider</h2>
-          <p className="m-0 mt-1 text-ink-soft">
-            EdAssistant uses <a href="https://mytenon.com" target="_blank" rel="noreferrer">Tenon</a>, one key for many AI models. Now using{" "}
-            <strong>{labelFor(model)}</strong>.
-          </p>
-        </div>
-        <AiSettingsForm keyHint={settings.keyHint} keySource={keySource} model={model} models={mergeModels(liveModels)} canStoreKeys={canEncrypt()} />
-      </section>
+      <p className="card m-0 flex flex-wrap items-center gap-x-3 gap-y-1 px-5 py-3.5 text-[15px]">
+        {hasKey ? <>Generating with <strong>{labelFor(model)}</strong> through Tenon.</> : <strong>No Tenon API key yet.</strong>}
+        <a href="/settings" className="font-bold">{hasKey ? "Change model or key in Settings" : "Add your key in Settings"}</a>
+      </p>
 
       <section className="flex flex-col gap-4">
         <h2 className="m-0 text-2xl font-bold">This month</h2>

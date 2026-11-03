@@ -4,7 +4,7 @@ import type { GenerateEvent } from "../generator/schema";
 export async function postForResult(
   url: string,
   body: unknown,
-  onProgress: (characters: number) => void,
+  onProgress: (characters: number, section?: string) => void,
   signal?: AbortSignal,
 ): Promise<Extract<GenerateEvent, { type: "result" }>> {
   const res = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body), signal });
@@ -24,7 +24,7 @@ export async function postForResult(
     for (const line of lines) {
       if (!line.trim()) continue;
       const event = JSON.parse(line) as GenerateEvent;
-      if (event.type === "progress") onProgress(event.characters);
+      if (event.type === "progress") onProgress(event.characters, event.section);
       if (event.type === "error") throw new Error(event.message);
       if (event.type === "result") return event;
     }

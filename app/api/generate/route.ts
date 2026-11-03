@@ -5,7 +5,7 @@ import { generateStructured } from "@/lib/generator/llm";
 import { buildCurriculumContext, buildTeacherRequest } from "@/lib/generator/context";
 import { OUTPUTS } from "@/lib/generator/outputs";
 import { GenerateRequestSchema, type StoredTeacherInput } from "@/lib/generator/schema";
-import { ndjsonResponse } from "@/lib/generator/stream";
+import { ndjsonResponse, sectionTracker } from "@/lib/generator/stream";
 import { validateOutput } from "@/lib/generator/validate";
 import { insertGeneration } from "@/lib/data/generations";
 import { budgetGuard, optionalUser, recordUsage } from "@/lib/library/server";
@@ -27,7 +27,7 @@ export async function POST(request: Request) {
   const def = OUTPUTS[req.outputType];
   const subject = await getSubject(req.subjectSlug);
   if (!subject) return Response.json({ error: "Unknown subject." }, { status: 400 });
-  const ctx = buildCurriculumContext(subject, req.level, req.difficulty);
+  const ctx = buildCurriculumContext(subject, req.level, req.difficulty, req.secondLevel);
   if (!ctx) {
     return Response.json({ error: `${subject.subject} has no curriculum content at this year level.` }, { status: 400 });
   }
@@ -40,20 +40,25 @@ export async function POST(request: Request) {
   return ndjsonResponse(async (send, progress) => {
     const ai = await resolveAiConfig(db, user?.id ?? null);
     const attachment = req.attachment ? await prepareAttachment(req.attachment) : undefined;
+    const track = sectionTracker(Object.keys(def.sections));
     const result = await generateStructured({
       schema: def.schema,
       ai,
       curriculumText: ctx.text,
       requestText: buildTeacherRequest(req, subject, ctx, attachment),
-      onProgress: progress,
+      onProgress: (n, text) => progress(n, track(text)),
       signal: request.signal,
     });
     const { content, warnings } = validateOutput(req.outputType, result.content, ctx.allowedCodes, req.lessonMinutes);
 
     let generationId: string | null = null;
     if (db && user) {
-      const { attachment: _file, ...rest } = req;
-      const teacherInput: StoredTeacherInput = { ...rest, ...(req.attachment ? { attachmentName: req.attachment.name } : {}) };
+      const { attachment: _file, basedOn, ...rest } = req;
+      const teacherInput: StoredTeacherInput = {
+        ...rest,
+        ...(req.attachment ? { attachmentName: req.attachment.name } : {}),
+        ...(basedOn ? { basedOn: { outputType: basedOn.outputType, title: basedOn.title, generationId: basedOn.generationId ?? null } } : {}),
+      };
       try {
         generationId = await insertGeneration(db, user.id, {
           title: String(content.title),

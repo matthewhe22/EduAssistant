@@ -12,13 +12,13 @@ export function errorMessage(err: unknown): string {
   if (err instanceof OpenAI.APIError) {
     switch (err.status) {
       case 401:
-        return "Your Tenon API key was rejected. Check it on the Usage page.";
+        return "Your Tenon API key was rejected. Check it on the Settings page.";
       case 402:
         return "Your Tenon balance is used up, or the key reached its spending limit. Top up at mytenon.com.";
       case 403:
-        return "This Tenon key isn't allowed to use the selected model. Choose another model on the Usage page.";
+        return "This Tenon key isn't allowed to use the selected model. Choose another model on the Settings page.";
       case 404:
-        return "The selected model isn't available on Tenon. Choose another model on the Usage page.";
+        return "The selected model isn't available on Tenon. Choose another model on the Settings page.";
       case 429:
       case 503:
         return "The AI service is busy right now. Please try again in a minute.";
@@ -35,17 +35,19 @@ export function errorMessage(err: unknown): string {
 
 /** Runs `work` and streams its events to the browser as NDJSON. Progress events are throttled. */
 export function ndjsonResponse(
-  work: (send: (e: GenerateEvent) => void, progress: (characters: number) => void) => Promise<void>,
+  work: (send: (e: GenerateEvent) => void, progress: (characters: number, section?: string) => void) => Promise<void>,
 ): Response {
   const encoder = new TextEncoder();
   const body = new ReadableStream<Uint8Array>({
     async start(controller) {
       const send = (e: GenerateEvent) => controller.enqueue(encoder.encode(JSON.stringify(e) + "\n"));
       let lastSent = 0;
-      const progress = (characters: number) => {
-        if (characters - lastSent >= 200 || characters < lastSent) {
+      let lastSection: string | undefined;
+      const progress = (characters: number, section?: string) => {
+        if (characters - lastSent >= 200 || characters < lastSent || section !== lastSection) {
           lastSent = characters;
-          send({ type: "progress", characters });
+          lastSection = section;
+          send({ type: "progress", characters, ...(section ? { section } : {}) });
         }
       };
       try {
@@ -60,4 +62,22 @@ export function ndjsonResponse(
   return new Response(body, {
     headers: { "Content-Type": "application/x-ndjson; charset=utf-8", "Cache-Control": "no-store" },
   });
+}
+
+/**
+ * Tracks which top-level section the model is writing, from the streamed JSON text.
+ * Scans only new text each call, so it stays cheap on long outputs.
+ */
+export function sectionTracker(keys: string[]) {
+  const wanted = new Set(keys);
+  let scanned = 0;
+  let current: string | undefined;
+  return (text: string) => {
+    const from = Math.max(0, scanned - 40);
+    const re = /"([A-Za-z]+)"\s*:/g;
+    re.lastIndex = from;
+    for (let m = re.exec(text); m; m = re.exec(text)) if (wanted.has(m[1])) current = m[1];
+    scanned = text.length;
+    return current;
+  };
 }

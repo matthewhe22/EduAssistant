@@ -4,7 +4,7 @@ import { generateStructured } from "@/lib/generator/llm";
 import { buildCurriculumContext } from "@/lib/generator/context";
 import { OUTPUTS } from "@/lib/generator/outputs";
 import { RefineRequestSchema } from "@/lib/generator/schema";
-import { ndjsonResponse } from "@/lib/generator/stream";
+import { ndjsonResponse, sectionTracker } from "@/lib/generator/stream";
 import { validateOutput } from "@/lib/generator/validate";
 import { updateGenerationContent } from "@/lib/data/generations";
 import { budgetGuard, optionalUser, recordUsage } from "@/lib/library/server";
@@ -34,7 +34,7 @@ export async function POST(request: Request) {
   if (!current.success) return Response.json({ error: "The current content is not valid." }, { status: 400 });
 
   const subject = await getSubject(req.subjectSlug);
-  const ctx = subject && buildCurriculumContext(subject, req.level, req.difficulty);
+  const ctx = subject && buildCurriculumContext(subject, req.level, req.difficulty, req.secondLevel);
   if (!subject || !ctx) return Response.json({ error: "Unknown subject or level." }, { status: 400 });
 
   if (db && user) {
@@ -57,12 +57,13 @@ export async function POST(request: Request) {
       `"""`,
     ].join("\n");
 
+    const track = sectionTracker([req.section]);
     const result = await generateStructured({
       schema: def.schema,
       ai: await resolveAiConfig(db, user?.id ?? null),
       curriculumText: ctx.text, // same prefix as the original generation, so it can hit the cache
       requestText: instructions,
-      onProgress: progress,
+      onProgress: (n, text) => progress(n, track(text)),
       signal: request.signal,
     });
 
@@ -72,7 +73,7 @@ export async function POST(request: Request) {
     let generationId: string | null = null;
     if (db && user) {
       if (req.generationId) {
-        generationId = await updateGenerationContent(db, user.id, req.generationId, String(content.title), { output: content, warnings }).catch(() => null);
+        generationId = await updateGenerationContent(db, user.id, req.generationId, String(content.title), { output: content, warnings }, { note: `Rewrote ${sectionLabel.toLowerCase()}` }).catch(() => null);
         if (!generationId) warnings.push("The change could not be saved to your library.");
       }
       await recordUsage(db, { userId: user.id, generationId, kind: "refine", outputType: req.outputType, model: result.model, usage: result.usage });

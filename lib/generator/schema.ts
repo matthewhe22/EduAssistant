@@ -38,10 +38,23 @@ export const AttachmentSchema = z.object({
 });
 export type Attachment = z.infer<typeof AttachmentSchema>;
 
+/** Existing material a new item should match (e.g. a worksheet for a lesson plan). */
+export const BasedOnSchema = z
+  .object({
+    outputType: z.enum(OUTPUT_TYPES),
+    title: z.string().max(300),
+    content: z.record(z.string(), z.unknown()),
+    generationId: z.string().uuid().nullable().optional(),
+  })
+  .refine((b) => JSON.stringify(b.content).length <= 80_000, { message: "The source material is too long", path: ["content"] });
+export type BasedOn = z.infer<typeof BasedOnSchema>;
+
 export const GenerateRequestSchema = z
   .object({
     outputType: z.enum(OUTPUT_TYPES).default("lesson_plan"),
     level: z.enum(PRIMARY_LEVELS),
+    /** Second year level for a composite class (e.g. Year 3/4). */
+    secondLevel: z.enum(PRIMARY_LEVELS).optional(),
     subjectSlug: z.string().regex(/^[a-z0-9-]+$/),
     idea: z.string().trim().max(4000).default(""),
     difficulty: z.enum(DIFFICULTIES),
@@ -53,19 +66,25 @@ export const GenerateRequestSchema = z
     /** Optional class context (no student names). */
     classContext: z.string().trim().max(1000).default(""),
     attachment: AttachmentSchema.optional(),
+    basedOn: BasedOnSchema.optional(),
   })
-  .refine((r) => r.idea.length >= 5 || r.attachment, {
+  .refine((r) => r.idea.length >= 5 || r.attachment || r.basedOn, {
     message: "Describe your idea or rough plan, or upload an existing plan",
     path: ["idea"],
-  });
+  })
+  .refine((r) => !r.secondLevel || r.secondLevel !== r.level, { message: "Pick two different year levels", path: ["secondLevel"] });
 export type GenerateRequest = z.infer<typeof GenerateRequestSchema>;
 
 /** What is stored in generations.teacher_input (the file itself is not stored). */
-export type StoredTeacherInput = Omit<GenerateRequest, "attachment"> & { attachmentName?: string };
+export type StoredTeacherInput = Omit<GenerateRequest, "attachment" | "basedOn"> & {
+  attachmentName?: string;
+  basedOn?: { outputType: OutputType; title: string; generationId?: string | null };
+};
 
 export const RefineRequestSchema = z.object({
   outputType: z.enum(OUTPUT_TYPES),
   level: z.enum(PRIMARY_LEVELS),
+  secondLevel: z.enum(PRIMARY_LEVELS).optional(),
   subjectSlug: z.string().regex(/^[a-z0-9-]+$/),
   difficulty: z.enum(DIFFICULTIES),
   lessonMinutes: z.coerce.number().int().min(15).max(180),
@@ -90,7 +109,7 @@ export interface Usage {
 }
 
 export type GenerateEvent =
-  | { type: "progress"; characters: number }
+  | { type: "progress"; characters: number; section?: string }
   | {
       type: "result";
       outputType: OutputType;

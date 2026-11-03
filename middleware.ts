@@ -5,7 +5,7 @@ import { NextResponse, type NextRequest } from "next/server";
  * The middleware only checks that a session cookie exists (it can't reach the database);
  * pages and API routes validate the session properly.
  */
-const PROTECTED = ["/plan", "/plans", "/templates", "/usage", "/api/generate", "/api/refine", "/api/generations", "/api/templates", "/api/budget"];
+const PROTECTED = ["/plan", "/plans", "/templates", "/usage", "/settings", "/api/generate", "/api/refine", "/api/generations", "/api/templates", "/api/budget"];
 const SESSION_COOKIE = "eda_session";
 
 export function middleware(request: NextRequest) {

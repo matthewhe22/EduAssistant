@@ -30,6 +30,8 @@ export interface ExportMeta {
   lessonMinutes: number;
   /** code → content description text. */
   codeText: Record<string, string>;
+  /** Student copy: leave out answers, marking guides and teacher notes. */
+  studentOnly?: boolean;
 }
 
 /* ------------------------------ helpers ------------------------------ */
@@ -179,16 +181,35 @@ function worksheet(x: Worksheet, m: ExportMeta, meta: string): FileChild[] {
     p(x.studentInstructions),
     ...(x.wordBank.length ? [labelled("Word bank", x.wordBank.join("  ·  "))] : []),
     ...x.sections.flatMap((s) => [h(s.heading), p(s.instructions, { italics: true }), ...s.questions.flatMap((q) => question(q, false))]),
+    ...(m.studentOnly ? [] : answerKey()),
+  ];
+  function answerKey(): FileChild[] {
+    return [
     new Paragraph({ children: [new PageBreak()] }),
     ...header(`Answer key: ${x.title}`, meta, x.overview),
     ...curriculum(x.curriculumLinks, m),
     ...x.sections.flatMap((s) => [h(s.heading), ...s.questions.flatMap((q) => question(q, true))]),
     h("Teacher notes"),
     ...bullets(x.teacherNotes),
-  ];
+    ];
+  }
 }
 
 function tiered(x: TieredTask, m: ExportMeta, meta: string): FileChild[] {
+  if (m.studentOnly) {
+    return [
+      ...header(x.title, "Name: ______________________    Date: ____________"),
+      ...x.tiers.flatMap((t, i) => [
+        ...(i > 0 ? [new Paragraph({ children: [new PageBreak()] })] : []),
+        h(t.tier === "Support" ? "Level 1" : t.tier === "Core" ? "Level 2" : "Level 3"),
+        ...numbered(t.studentInstructions),
+        ...(t.scaffolds.length ? [p("Helpful hints", { bold: true }), ...bullets(t.scaffolds)] : []),
+        ...t.questions.flatMap((q, n) => [p(`${n + 1}. ${q.prompt}`), ...lines(3)]),
+        p("I can…", { bold: true }),
+        ...t.successCriteria.map((c) => p(`☐ ${c}`)),
+      ]),
+    ];
+  }
   return [
     ...header(x.title, meta, x.overview),
     ...curriculum(x.curriculumLinks, m),
@@ -240,6 +261,10 @@ function assessment(x: Assessment, m: ExportMeta, meta: string): FileChild[] {
     p(x.studentInstructions),
     ...x.questions.flatMap((item) => q(item, false)),
     p(`Total: ____ / ${x.totalMarks}`, { bold: true }),
+    ...(m.studentOnly ? [] : markingGuide()),
+  ];
+  function markingGuide(): FileChild[] {
+    return [
     new Paragraph({ children: [new PageBreak()] }),
     ...header(`Marking guide: ${x.title}`, meta, x.overview),
     ...curriculum(x.curriculumLinks, m),
@@ -248,7 +273,8 @@ function assessment(x: Assessment, m: ExportMeta, meta: string): FileChild[] {
     ...bullets(x.markingGuide),
     h("Next steps"),
     ...bullets(x.nextSteps),
-  ];
+    ];
+  }
 }
 
 function parentNote(x: ParentNote, _m: ExportMeta, _meta: string): FileChild[] {

@@ -41,7 +41,8 @@ import { signIn, signUp } from "@/app/login/actions";
 import { POST as generate } from "@/app/api/generate/route";
 import { POST as refine } from "@/app/api/refine/route";
 import { POST as feedback } from "@/app/api/generations/[id]/feedback/route";
-import { DELETE as deleteGen } from "@/app/api/generations/[id]/route";
+import { DELETE as deleteGen, PUT as saveGen } from "@/app/api/generations/[id]/route";
+import { POST as undoGen } from "@/app/api/generations/[id]/undo/route";
 import { GET as listTpl, POST as createTpl } from "@/app/api/templates/route";
 import { POST as setBudget } from "@/app/api/budget/route";
 import { POST as saveAi } from "@/app/api/ai-settings/route";
@@ -94,7 +95,7 @@ describe("migrations", () => {
   it("apply once and are idempotent", async () => {
     await migrate(db, () => {});
     const { rows } = await db.query<{ name: string }>("select name from schema_migrations");
-    expect(rows.map((r) => r.name)).toEqual(["001_init.sql", "002_ai_settings.sql"]);
+    expect(rows.map((r) => r.name)).toEqual(["001_init.sql", "002_ai_settings.sql", "003_generation_versions.sql"]);
   });
 });
 
@@ -173,6 +174,47 @@ describe("as a signed-in teacher", () => {
     expect(ev[0].n).toBe(1);
   });
 
+  it("keeps versions so rewrites and quick fixes can be undone", async () => {
+    const { generationId } = await generateOne();
+    const params = { params: { id: generationId } };
+    expect((await undoGen(json({}), params)).status).toBe(404); // nothing to undo yet
+
+    mocked.mockResolvedValue({ content: { ...samplePlan, overview: "Rewritten" }, model: "deepseek-v4.1-flash", usage } as never);
+    await (await refine(json({ ...genBody, outputType: "lesson_plan", section: "overview", instruction: "shorter", content: samplePlan, generationId }))).text();
+    const fixed = { ...samplePlan, overview: "Rewritten", phases: samplePlan.phases.map((p) => ({ ...p, minutes: 5 })) };
+    const put = await saveGen(new Request("http://test", { method: "PUT", body: JSON.stringify({ content: fixed, warnings: [] }) }), params);
+    expect(await put.json()).toEqual({ ok: true, versions: 2 });
+    expect((await saveGen(new Request("http://test", { method: "PUT", body: JSON.stringify({ content: { title: 1 } }) }), params)).status).toBe(400);
+
+    const first = await (await undoGen(json({}), params)).json();
+    expect(first.content.overview).toBe("Rewritten");
+    expect(first.content.phases[0].minutes).toBe(samplePlan.phases[0].minutes);
+    expect(first.remaining).toBe(1);
+    const second = await (await undoGen(json({}), params)).json();
+    expect(second.content.overview).toBe(samplePlan.overview);
+    expect(second.remaining).toBe(0);
+    const { rows } = await db.query<{ content: { output: { overview: string } } }>("select content from generations where id = $1", [generationId]);
+    expect(rows[0].content.output.overview).toBe(samplePlan.overview);
+  });
+
+  it("stores what a matching item was based on, without copying the source content", async () => {
+    const { generationId } = await generateOne();
+    let requestText = "";
+    mocked.mockImplementation(async (...args: unknown[]) => {
+      requestText = (args[0] as { requestText?: string } | undefined)?.requestText ?? requestText;
+      return { content: samplePlan, model: "deepseek-v4.1-flash", usage } as never;
+    });
+    const res = await generate(json({ ...genBody, idea: "", secondLevel: "4", basedOn: { outputType: "lesson_plan", title: samplePlan.title, content: samplePlan, generationId } }));
+    const events = (await res.text()).trim().split("\n").map((l) => JSON.parse(l));
+    const result = events.at(-1);
+    expect(result).toMatchObject({ type: "result" });
+    expect(requestText).toContain("<source_material>");
+    expect(requestText).toContain(samplePlan.learningIntention);
+    const { rows } = await db.query<{ teacher_input: Record<string, unknown> }>("select teacher_input from generations where id = $1", [result.generationId]);
+    expect(rows[0].teacher_input.basedOn).toEqual({ outputType: "lesson_plan", title: samplePlan.title, generationId });
+    expect(rows[0].teacher_input.secondLevel).toBe("4");
+  });
+
   it("searches the library literally (LIKE wildcards are escaped)", async () => {
     const all = await listGenerations(db, teacherA, {}, 50, 0);
     expect(all.count).toBeGreaterThanOrEqual(2);
@@ -232,6 +274,8 @@ describe("as a signed-in teacher", () => {
     await redirectOf(signIn(form({ email: "colleague@x.com", password: "0123456789ab" })));
     expect((await feedback(json({ rating: 1 }), { params: { id: generationId } })).status).toBe(404);
     expect((await deleteGen(new Request("http://test"), { params: { id: generationId } })).status).toBe(404);
+    expect((await undoGen(json({}), { params: { id: generationId } })).status).toBe(404);
+    expect((await saveGen(new Request("http://test", { method: "PUT", body: JSON.stringify({ content: samplePlan }) }), { params: { id: generationId } })).status).toBe(404);
     expect((await (await listTpl()).json()).templates).toEqual([]);
     expect((await resolveAiConfig(db, (await db.query<{ id: string }>("select id from users where email = 'colleague@x.com'")).rows[0].id)).keySource).toBe("server");
     const { rows } = await db.query<{ n: number }>("select count(*)::int n from generations where id = $1", [generationId]);

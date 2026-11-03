@@ -4,7 +4,8 @@ import type { OutputType } from "@/lib/generator/outputs";
 import type { Activities, Assessment, LessonPlan, ParentNote, Rubric, TieredTask, UnitPlan, Worksheet } from "@/lib/generator/schema";
 import { OUTPUT_UI } from "@/lib/ui/labels";
 import { LessonPlanView, type ViewProps } from "./LessonPlanView";
-import { Codes, CurriculumLinksView, Label, List, Panel, Section, Shell } from "./ui";
+import { Icon, ICONS } from "./Icon";
+import { Codes, CurriculumLinksView, Label, List, Panel, Section, Shell, useViewOptions } from "./ui";
 
 function Diff({ d }: { d: { support: string[]; extension: string[]; ealD: string[] } }) {
   return (
@@ -17,6 +18,7 @@ function Diff({ d }: { d: { support: string[]; extension: string[]; ealD: string
 }
 
 function UnitPlanView({ content: u, ...v }: ViewProps<UnitPlan>) {
+  const { expandLesson } = useViewOptions();
   return (
     <Shell title={u.title} {...v}>
       <Section title="Overview" sectionKey="overview" size="sm">
@@ -40,6 +42,16 @@ function UnitPlanView({ content: u, ...v }: ViewProps<UnitPlan>) {
                   <div><Label>Key activities</Label><List items={l.keyActivities} /></div>
                   <div><Label tone="wattle">Resources</Label><List items={l.resources} /></div>
                 </div>
+                {expandLesson && (
+                  <button
+                    type="button"
+                    onClick={() => expandLesson(l.number)}
+                    className="inline-flex min-h-[40px] items-center gap-1.5 self-start rounded-[10px] border border-line-strong bg-white px-3 text-sm font-bold text-euc-dark hover:border-euc hover:bg-euc-tint print:hidden"
+                  >
+                    <Icon d={ICONS.plus} size={16} />
+                    Make this a full lesson plan
+                  </button>
+                )}
               </div>
             </li>
           ))}
@@ -118,6 +130,7 @@ function Question({ q, answers }: { q: WQ; answers: boolean }) {
 }
 
 function WorksheetView({ content: w, ...v }: ViewProps<Worksheet>) {
+  const { studentCopy } = useViewOptions();
   return (
     <div className="flex flex-col gap-6">
       <Shell title={w.title} {...v}>
@@ -138,7 +151,7 @@ function WorksheetView({ content: w, ...v }: ViewProps<Worksheet>) {
           ))}
         </Section>
       </Shell>
-      <div className="print:break-before-page">
+      {!studentCopy && <div className="print:break-before-page">
         <Shell title={`Answer key: ${w.title}`} {...v}>
           <p className="m-0 max-w-[64ch] text-ink-soft">{w.overview}</p>
           <CurriculumLinksView links={w.curriculumLinks} codeText={v.codeText} />
@@ -150,12 +163,37 @@ function WorksheetView({ content: w, ...v }: ViewProps<Worksheet>) {
           ))}
           <Section title="Teacher notes" sectionKey="teacherNotes" size="sm"><List items={w.teacherNotes} /></Section>
         </Shell>
-      </div>
+      </div>}
     </div>
   );
 }
 
 function TieredTaskView({ content: t, ...v }: ViewProps<TieredTask>) {
+  const { studentCopy } = useViewOptions();
+  if (studentCopy) {
+    return (
+      <div className="flex flex-col gap-6">
+        {t.tiers.map((tier, i) => (
+          <div key={tier.tier} className={i > 0 ? "print:break-before-page" : ""}>
+            <Shell title={t.title} {...v} meta={`${v.meta} · Level ${i + 1}`}>
+              <p className="m-0 text-ink-muted">Name: ____________________ &nbsp; Date: ____________</p>
+              <div><Label>What to do</Label><List ordered items={tier.studentInstructions} /></div>
+              {tier.scaffolds.length > 0 && <Panel><Label tone="wattle">Helpful hints</Label><List items={tier.scaffolds} /></Panel>}
+              <ol className="m-0 flex list-decimal flex-col gap-5 pl-5">
+                {tier.questions.map((q, n) => (
+                  <li key={n} className="break-inside-avoid">
+                    {q.prompt}
+                    <div className="mt-2 flex flex-col gap-5">{[0, 1, 2].map((k) => <div key={k} className="border-b border-line-strong" />)}</div>
+                  </li>
+                ))}
+              </ol>
+              <div><Label tone="muted">I can…</Label><ul className="m-0 flex list-none flex-col gap-1 p-0">{tier.successCriteria.map((c, k) => <li key={k}>☐ {c}</li>)}</ul></div>
+            </Shell>
+          </div>
+        ))}
+      </div>
+    );
+  }
   return (
     <Shell title={t.title} {...v}>
       <div className="flex flex-col gap-3">
@@ -226,12 +264,17 @@ function RubricView({ content: r, ...v }: ViewProps<Rubric>) {
 }
 
 function AssessmentView({ content: a, ...v }: ViewProps<Assessment>) {
+  const { studentCopy } = useViewOptions();
   return (
     <Shell title={a.title} {...v}>
-      <div className="flex flex-col gap-3">
-        <p className="m-0 max-w-[64ch] text-ink-soft">{a.overview}</p>
-        <CurriculumLinksView links={a.curriculumLinks} codeText={v.codeText} />
-      </div>
+      {studentCopy ? (
+        <p className="m-0 text-ink-muted">Name: ____________________ &nbsp; Date: ____________</p>
+      ) : (
+        <div className="flex flex-col gap-3">
+          <p className="m-0 max-w-[64ch] text-ink-soft">{a.overview}</p>
+          <CurriculumLinksView links={a.curriculumLinks} codeText={v.codeText} />
+        </div>
+      )}
       <Section title="Instructions" sectionKey="studentInstructions" size="sm"><p className="m-0">{a.studentInstructions}</p></Section>
       <Section title="Questions" sectionKey="questions">
         <ol className="m-0 flex list-none flex-col gap-4 p-0">
@@ -239,17 +282,25 @@ function AssessmentView({ content: a, ...v }: ViewProps<Assessment>) {
             <li key={q.number} className="break-inside-avoid">
               <p className="m-0">
                 <strong>{q.number}.</strong> {q.prompt} <span className="text-ink-muted">({q.marks} mark{q.marks === 1 ? "" : "s"})</span>
-                <Codes codes={q.curriculumCodes} />
+                {!studentCopy && <Codes codes={q.curriculumCodes} />}
               </p>
               {q.options.length > 0 && <ol className="m-0 ml-8 list-[lower-alpha]">{q.options.map((o, i) => <li key={i}>{o}</li>)}</ol>}
-              <p className="m-0 text-euc-dark">Answer: {q.answer}</p>
+              {studentCopy ? (
+                q.options.length === 0 && <div className="mt-3 flex flex-col gap-6">{[0, 1, 2].map((k) => <div key={k} className="border-b border-line-strong" />)}</div>
+              ) : (
+                <p className="m-0 text-euc-dark">Answer: {q.answer}</p>
+              )}
             </li>
           ))}
         </ol>
-        <p className="m-0 font-bold">Total: {a.totalMarks} marks</p>
+        <p className="m-0 font-bold">{studentCopy ? `Total: ____ / ${a.totalMarks}` : `Total: ${a.totalMarks} marks`}</p>
       </Section>
-      <Section title="Marking guide" sectionKey="markingGuide" size="sm"><List items={a.markingGuide} /></Section>
-      <Section title="Next steps" sectionKey="nextSteps" size="sm"><List items={a.nextSteps} /></Section>
+      {!studentCopy && (
+        <>
+          <Section title="Marking guide" sectionKey="markingGuide" size="sm"><List items={a.markingGuide} /></Section>
+          <Section title="Next steps" sectionKey="nextSteps" size="sm"><List items={a.nextSteps} /></Section>
+        </>
+      )}
     </Shell>
   );
 }

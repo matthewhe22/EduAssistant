@@ -6,10 +6,11 @@ import { PRIMARY_LEVELS, type PrimaryLevel } from "@/lib/curriculum/types";
 import { OUTPUT_TYPES, OUTPUTS, type OutputType } from "@/lib/generator/outputs";
 import { ATTACHMENT_TYPES, DIFFICULTIES, LESSON_LENGTHS, MAX_ATTACHMENT_BYTES, type Attachment } from "@/lib/generator/schema";
 import type { FormSettings } from "@/lib/library/settings";
-import { DIFFICULTY_UI, OUTPUT_UI, YEAR_LABELS, YEAR_SHORT } from "@/lib/ui/labels";
+import { exampleIdeas } from "@/lib/ui/examples";
+import { classLabel, DIFFICULTY_UI, OUTPUT_UI, progressMessage, YEAR_LABELS, YEAR_SHORT } from "@/lib/ui/labels";
 import { Icon, ICONS } from "./Icon";
 import { Notice } from "./Page";
-import { ResultPanel, type ResultContext, type ResultState } from "./ResultPanel";
+import { ResultPanel, type ResultContext, type ResultState, type SourceMaterial } from "./ResultPanel";
 
 export interface SubjectOption {
   slug: string;
@@ -70,6 +71,7 @@ export function PlanForm({
   templates: initialTemplates = [],
   modelLabel,
   hasKey = true,
+  initialSource = null,
 }: {
   subjects: SubjectOption[];
   canSave: boolean;
@@ -78,14 +80,24 @@ export function PlanForm({
   initial?: FormSettings;
   initialNote?: string;
   templates?: TemplateOption[];
+  /** Material the new item should go with (from "Make something to go with it"). */
+  initialSource?: SourceMaterial | null;
 }) {
   const [outputType, setOutputType] = useState<OutputType>(initial.outputType ?? "lesson_plan");
   const def = OUTPUTS[outputType];
   const [level, setLevel] = useState<PrimaryLevel>(initial.level ?? "3");
-  const available = useMemo(() => subjects.filter((s) => s.levels.includes(level)), [subjects, level]);
+  const [secondLevel, setSecondLevel] = useState<PrimaryLevel | undefined>(initial.secondLevel);
+  const [composite, setComposite] = useState(Boolean(initial.secondLevel));
+  const activeSecond = composite ? secondLevel : undefined;
+  const available = useMemo(
+    () => subjects.filter((s) => s.levels.includes(level) && (!activeSecond || s.levels.includes(activeSecond))),
+    [subjects, level, activeSecond],
+  );
   const [subjectSlug, setSubjectSlug] = useState(initial.subjectSlug ?? "mathematics");
   const [difficulty, setDifficulty] = useState<(typeof DIFFICULTIES)[number]>(initial.difficulty ?? "at");
   const [lessonMinutes, setLessonMinutes] = useState(initial.lessonMinutes ?? 60);
+  const [customLength, setCustomLength] = useState(!LESSON_LENGTHS.includes((initial.lessonMinutes ?? 60) as (typeof LESSON_LENGTHS)[number]));
+  const [source, setSource] = useState<SourceMaterial | null>(initialSource);
   const [itemCounts, setItemCounts] = useState<Partial<Record<OutputType, number>>>(
     initial.itemCount && initial.outputType ? { [initial.outputType]: initial.itemCount } : {},
   );
@@ -98,7 +110,7 @@ export function PlanForm({
   const [cds, setCds] = useState<CdOption[]>([]);
   const [focusCodes, setFocusCodes] = useState<string[]>([]);
   const [status, setStatus] = useState<"idle" | "generating" | "done" | "error">("idle");
-  const [progress, setProgress] = useState(0);
+  const [progress, setProgress] = useState<{ characters: number; section?: string }>({ characters: 0 });
   const [error, setError] = useState("");
   const [result, setResult] = useState<{ state: ResultState; context: ResultContext; codeText: Record<string, string> } | null>(null);
   const abortRef = useRef<AbortController | null>(null);
@@ -106,6 +118,35 @@ export function PlanForm({
   const itemOpt = def.itemCount;
   const itemCount = itemOpt ? itemCounts[outputType] ?? itemOpt.default : undefined;
   const subjectName = subjects.find((s) => s.slug === subjectSlug)?.subject ?? subjectSlug;
+  const levelLabel = classLabel(level, activeSecond);
+  const examples = useMemo(() => exampleIdeas(subjectSlug, level), [subjectSlug, level]);
+  const topRef = useRef<HTMLDivElement | null>(null);
+
+  /** Year buttons: one level normally, two for a composite class (clicking a third replaces the older pick). */
+  function pickLevel(l: PrimaryLevel) {
+    if (!composite) return setLevel(l);
+    if (l === level) {
+      if (secondLevel) {
+        setLevel(secondLevel);
+        setSecondLevel(undefined);
+      }
+      return;
+    }
+    if (l === secondLevel) return setSecondLevel(undefined);
+    if (!secondLevel) return setSecondLevel(l);
+    setLevel(secondLevel);
+    setSecondLevel(l);
+  }
+
+  function makeMatching(src: SourceMaterial, type: OutputType, newIdea?: string) {
+    setSource(src);
+    setOutputType(type);
+    setIdea(newIdea ?? "");
+    setFile(null);
+    setStatus("idle");
+    setTemplateMsg("");
+    requestAnimationFrame(() => topRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }));
+  }
 
   useEffect(() => {
     if (!available.some((s) => s.slug === subjectSlug) && available[0]) setSubjectSlug(available[0].slug);
@@ -115,12 +156,12 @@ export function PlanForm({
     setFocusCodes(pendingFocus.current ?? []);
     pendingFocus.current = null;
     const ctrl = new AbortController();
-    fetch(`/api/curriculum?subject=${subjectSlug}&level=${level}`, { signal: ctrl.signal })
+    fetch(`/api/curriculum?subject=${subjectSlug}&level=${level}${activeSecond ? `&level2=${activeSecond}` : ""}`, { signal: ctrl.signal })
       .then((r) => r.json())
       .then((d) => setCds(d.contentDescriptions ?? []))
       .catch(() => {});
     return () => ctrl.abort();
-  }, [subjectSlug, level]);
+  }, [subjectSlug, level, activeSecond]);
 
   useEffect(() => {
     if (status === "done") resultRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -135,13 +176,18 @@ export function PlanForm({
   function applySettings(s: FormSettings) {
     if (s.outputType) setOutputType(s.outputType);
     if (s.level) setLevel(s.level);
+    setSecondLevel(s.secondLevel);
+    setComposite(Boolean(s.secondLevel));
     if (s.subjectSlug) setSubjectSlug(s.subjectSlug);
     if (s.difficulty) setDifficulty(s.difficulty);
-    if (s.lessonMinutes) setLessonMinutes(s.lessonMinutes);
+    if (s.lessonMinutes) {
+      setLessonMinutes(s.lessonMinutes);
+      setCustomLength(!LESSON_LENGTHS.includes(s.lessonMinutes as (typeof LESSON_LENGTHS)[number]));
+    }
     if (s.itemCount && s.outputType) setItemCounts((prev) => ({ ...prev, [s.outputType!]: s.itemCount }));
     if (s.classContext !== undefined) setClassContext(s.classContext);
     if (s.idea !== undefined) setIdea(s.idea);
-    const changesCurriculum = (s.subjectSlug && s.subjectSlug !== subjectSlug) || (s.level && s.level !== level);
+    const changesCurriculum = (s.subjectSlug && s.subjectSlug !== subjectSlug) || (s.level && s.level !== level) || s.secondLevel !== activeSecond;
     pendingFocus.current = changesCurriculum ? s.focusCodes ?? [] : null;
     setFocusCodes(s.focusCodes ?? []);
   }
@@ -149,7 +195,7 @@ export function PlanForm({
   async function saveTemplate() {
     const name = window.prompt('Name this template (e.g. "Year 3 maths, 50 min")');
     if (!name?.trim()) return;
-    const settings: FormSettings = { outputType, level, subjectSlug, difficulty, lessonMinutes, itemCount, classContext, focusCodes };
+    const settings: FormSettings = { outputType, level, secondLevel: activeSecond, subjectSlug, difficulty, lessonMinutes, itemCount, classContext, focusCodes };
     if (idea.trim() && window.confirm("Also save the idea text in this template?")) settings.idea = idea;
     const res = await fetch("/api/templates", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name, settings }) });
     const data = await res.json().catch(() => ({}));
@@ -163,13 +209,23 @@ export function PlanForm({
 
   async function generate(e: React.FormEvent) {
     e.preventDefault();
-    if (idea.trim().length < 5 && !file) {
+    if (composite && !secondLevel) {
+      setError("Pick the second year level for your composite class, or untick “Composite class”.");
+      setStatus("error");
+      return;
+    }
+    if (lessonMinutes < 15 || lessonMinutes > 180) {
+      setError("Lesson length must be between 15 and 180 minutes.");
+      setStatus("error");
+      return;
+    }
+    if (idea.trim().length < 5 && !file && !source) {
       setError("Describe your idea in a few words, or upload a plan you already have.");
       setStatus("error");
       return;
     }
     setStatus("generating");
-    setProgress(0);
+    setProgress({ characters: 0 });
     setError("");
     setResult(null);
     const ctrl = new AbortController();
@@ -178,13 +234,26 @@ export function PlanForm({
       const attachment = file ? await readAttachment(file) : undefined;
       const event = await postForResult(
         "/api/generate",
-        { outputType, level, subjectSlug, idea, difficulty, lessonMinutes, itemCount, focusCodes, classContext, attachment },
-        setProgress,
+        {
+          outputType,
+          level,
+          secondLevel: activeSecond,
+          subjectSlug,
+          idea,
+          difficulty,
+          lessonMinutes,
+          itemCount,
+          focusCodes,
+          classContext,
+          attachment,
+          basedOn: source ?? undefined,
+        },
+        (characters, section) => setProgress({ characters, section }),
         ctrl.signal,
       );
       setResult({
         state: event,
-        context: { subjectSlug, subjectName, level, lessonMinutes, difficulty },
+        context: { subjectSlug, subjectName, level, secondLevel: activeSecond, lessonMinutes, difficulty },
         codeText: Object.fromEntries(cds.map((c) => [c.code, c.text])),
       });
       setStatus("done");
@@ -202,19 +271,56 @@ export function PlanForm({
     `min-h-[48px] min-w-[48px] rounded-[10px] px-3 font-bold ${active ? "border-2 border-euc bg-euc text-white" : "border border-line-strong bg-white text-ink hover:bg-mist"}`;
 
   return (
-    <div className="space-y-10">
+    <div ref={topRef} className="scroll-mt-6 space-y-10">
       <form onSubmit={generate} className="flex flex-wrap items-start gap-7 print:hidden">
         <div className="flex min-w-0 flex-[999_1_640px] flex-col gap-5">
+          {source && (
+            <div className="flex flex-wrap items-center gap-3 rounded-2xl border-2 border-euc bg-euc-tint px-5 py-4">
+              <span className="text-euc"><Icon d={ICONS.link} size={22} /></span>
+              <p className="m-0 flex-[1_1_260px]">
+                <strong>Making a {OUTPUT_UI[outputType].label.toLowerCase()} to go with “{source.title}”</strong>
+                <span className="block text-sm text-ink-soft">
+                  It will match that {OUTPUT_UI[source.outputType].label.toLowerCase()}. Check the settings below, add any notes, then press the button.
+                </span>
+              </p>
+              <button type="button" className="btn-outline bg-white text-sm" onClick={() => setSource(null)}>Don&apos;t link</button>
+            </div>
+          )}
           <Step n={1} title="Your class">
             <fieldset className="mb-[18px]">
-              <legend className="mb-2 text-[15px] font-bold">Year level</legend>
-              <div className="flex flex-wrap gap-2">
-                {PRIMARY_LEVELS.map((l) => (
-                  <button key={l} type="button" aria-pressed={l === level} aria-label={YEAR_LABELS[l]} onClick={() => setLevel(l)} className={segBtn(l === level)}>
-                    {YEAR_SHORT[l]}
-                  </button>
-                ))}
+              <legend className="mb-2 text-[15px] font-bold">
+                Year level{composite && <span className="font-normal text-ink-muted"> (pick two)</span>}
+              </legend>
+              <div className="flex flex-wrap items-center gap-2">
+                {PRIMARY_LEVELS.map((l) => {
+                  const on = l === level || (composite && l === secondLevel);
+                  return (
+                    <button key={l} type="button" aria-pressed={on} aria-label={YEAR_LABELS[l]} onClick={() => pickLevel(l)} className={segBtn(on)}>
+                      {YEAR_SHORT[l]}
+                    </button>
+                  );
+                })}
+                <label className="ml-1 inline-flex min-h-[48px] cursor-pointer items-center gap-2 text-[15px]">
+                  <input
+                    type="checkbox"
+                    className="h-4 w-4 accent-euc"
+                    checked={composite}
+                    onChange={(e) => {
+                      setComposite(e.target.checked);
+                      if (e.target.checked && !secondLevel) {
+                        const i = PRIMARY_LEVELS.indexOf(level);
+                        setSecondLevel(PRIMARY_LEVELS[i + 1] ?? PRIMARY_LEVELS[i - 1]);
+                      }
+                    }}
+                  />
+                  Composite class
+                </label>
               </div>
+              {composite && (
+                <p className="m-0 mt-2 text-sm text-ink-muted">
+                  {secondLevel ? `${levelLabel}: one shared lesson, with adjustments for each year level.` : "Pick the second year level."}
+                </p>
+              )}
             </fieldset>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <label className="label">
@@ -232,11 +338,37 @@ export function PlanForm({
               {def.usesLessonLength && (
                 <label className="label">
                   Lesson length
-                  <select className="field font-normal" value={lessonMinutes} onChange={(e) => setLessonMinutes(Number(e.target.value))}>
-                    {LESSON_LENGTHS.map((m) => (
-                      <option key={m} value={m}>{m} minutes</option>
-                    ))}
-                  </select>
+                  <span className="flex gap-2">
+                    <select
+                      className="field min-w-0 flex-1 font-normal"
+                      value={customLength ? "custom" : lessonMinutes}
+                      onChange={(e) => {
+                        if (e.target.value === "custom") return setCustomLength(true);
+                        setCustomLength(false);
+                        setLessonMinutes(Number(e.target.value));
+                      }}
+                    >
+                      {LESSON_LENGTHS.map((m) => (
+                        <option key={m} value={m}>{m} minutes</option>
+                      ))}
+                      <option value="custom">Other…</option>
+                    </select>
+                    {customLength && (
+                      <span className="flex items-center gap-1.5 font-normal">
+                        <input
+                          type="number"
+                          aria-label="Minutes"
+                          min={15}
+                          max={180}
+                          step={5}
+                          value={lessonMinutes}
+                          onChange={(e) => setLessonMinutes(Number(e.target.value))}
+                          className="field w-20 text-center"
+                        />
+                        min
+                      </span>
+                    )}
+                  </span>
                 </label>
               )}
             </div>
@@ -269,16 +401,37 @@ export function PlanForm({
 
           <Step n={3} title="Your idea">
             <label className="label">
-              Describe it in your own words
+              {source ? "Anything to add? (optional)" : "Describe it in your own words"}
               <textarea
                 rows={5}
                 maxLength={4000}
                 value={idea}
                 onChange={(e) => setIdea(e.target.value)}
                 className="field min-h-[132px] resize-y py-3 font-normal leading-normal"
-                placeholder="e.g. Equivalent fractions with paper strips. A few students mixed up halves and quarters last week, so start with a quick review. Finish with a partner game."
+                placeholder={
+                  source
+                    ? "e.g. Make it shorter, add a challenge question, or focus on the second half of the lesson."
+                    : "e.g. Equivalent fractions with paper strips. A few students mixed up halves and quarters last week, so start with a quick review. Finish with a partner game."
+                }
               />
             </label>
+            {!source && !idea.trim() && (
+              <div className="mt-2.5">
+                <p className="m-0 mb-1.5 text-sm text-ink-muted">Need a start? Try one of these and change it to suit your class:</p>
+                <div className="flex flex-col gap-1.5">
+                  {examples.map((ex) => (
+                    <button
+                      key={ex}
+                      type="button"
+                      onClick={() => setIdea(ex)}
+                      className="rounded-lg border border-line bg-paper px-3 py-2 text-left text-[15px] text-ink-soft hover:border-euc hover:bg-euc-tint hover:text-ink"
+                    >
+                      {ex}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
             <label className="relative mt-3.5 flex cursor-pointer flex-wrap items-center gap-3 rounded-xl border-[1.5px] border-dashed border-[#9AA39A] bg-paper p-4 hover:bg-mist">
               <span className="text-euc"><Icon d={ICONS.upload} size={24} strokeWidth={1.8} /></span>
               <span className="flex-[1_1_260px]">
@@ -347,7 +500,7 @@ export function PlanForm({
             {cds.length > 0 && (
               <details className="mt-4">
                 <summary className="cursor-pointer font-bold text-euc">
-                  Pick specific curriculum points <span className="font-normal text-ink-muted">({focusCodes.length ? `${focusCodes.length} chosen` : `${cds.length} for ${YEAR_LABELS[level]} ${subjectName.toLowerCase()}`})</span>
+                  Pick specific curriculum points <span className="font-normal text-ink-muted">({focusCodes.length ? `${focusCodes.length} chosen` : `${cds.length} for ${levelLabel} ${subjectName.toLowerCase()}`})</span>
                 </summary>
                 <ul className="mt-3 max-h-72 space-y-1.5 overflow-y-auto rounded-xl border border-line p-3">
                   {cds.map((cd) => (
@@ -378,7 +531,7 @@ export function PlanForm({
             <p className="font-display text-[26px] font-bold leading-[1.15]">{OUTPUT_UI[outputType].label}</p>
             <dl className="mb-[22px] mt-[18px] grid grid-cols-[auto_1fr] gap-x-3.5 gap-y-2 text-[15px]">
               <dt className="text-[#AEB6BE]">Class</dt>
-              <dd>{YEAR_LABELS[level]} · {subjectName}</dd>
+              <dd>{levelLabel} · {subjectName}</dd>
               {itemOpt && (
                 <>
                   <dt className="text-[#AEB6BE]">Size</dt>
@@ -394,13 +547,13 @@ export function PlanForm({
               <dt className="text-[#AEB6BE]">Pitch</dt>
               <dd>{DIFFICULTY_UI[difficulty]}</dd>
               <dt className="text-[#AEB6BE]">From</dt>
-              <dd className="truncate">{file ? file.name : idea.trim() ? "Your idea" : "—"}</dd>
+              <dd className="truncate">{source ? `“${source.title}”` : file ? file.name : idea.trim() ? "Your idea" : "—"}</dd>
               {modelLabel && (
                 <>
                   <dt className="text-[#AEB6BE]">Model</dt>
                   <dd>
                     {modelLabel}
-                    {canSave && <a href="/usage" className="ml-2 text-sm text-wattle hover:text-wattle">change</a>}
+                    {canSave && <a href="/settings" className="ml-2 text-sm text-wattle hover:text-wattle">change</a>}
                   </dd>
                 </>
               )}
@@ -410,9 +563,7 @@ export function PlanForm({
             </button>
             <p className="mt-3 text-sm text-[#C7CDD3]" role="status">
               {status === "generating"
-                ? progress === 0
-                  ? "Planning…"
-                  : `Writing… ${Math.round(progress / 100) / 10}k characters so far`
+                ? progressMessage(def.sections, progress.characters, progress.section)
                 : "You can rewrite any part afterwards."}
             </p>
             {status === "generating" && (
@@ -424,7 +575,7 @@ export function PlanForm({
           </div>
           {!hasKey && (
             <Notice>
-              No AI key is set up yet. {canSave ? <><a href="/usage">Add your Tenon API key</a> on the Usage page.</> : "Set TENON_API_KEY on the server."}
+              No AI key is set up yet. {canSave ? <><a href="/settings">Add your Tenon API key</a> in Settings.</> : "Set TENON_API_KEY on the server."}
             </Notice>
           )}
           {status === "error" && <Notice tone="error">{error}</Notice>}
@@ -463,6 +614,7 @@ export function PlanForm({
             initial={result.state}
             context={result.context}
             codeText={result.codeText}
+            onMakeMatching={makeMatching}
           />
         </div>
       )}

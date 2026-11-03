@@ -12,6 +12,16 @@ export interface RefineApi {
 }
 export const RefineContext = createContext<RefineApi | null>(null);
 
+/** Display options and follow-on actions shared by the output views. */
+export interface ViewOptions {
+  /** Student copy: hide answers, marking guides and teacher-only notes. */
+  studentCopy: boolean;
+  /** Unit plans: turn one lesson into a full lesson plan. */
+  expandLesson?: (lessonNumber: number) => void;
+}
+export const ViewOptionsContext = createContext<ViewOptions>({ studentCopy: false });
+export const useViewOptions = () => useContext(ViewOptionsContext);
+
 export function List({ items, ordered = false }: { items: string[]; ordered?: boolean }) {
   const filtered = items.filter(Boolean);
   if (!filtered.length) return <p className="text-ink-muted">None</p>;

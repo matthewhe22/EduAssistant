@@ -15,7 +15,7 @@ export interface AiConfig {
 
 export class MissingApiKeyError extends Error {
   constructor() {
-    super("Add your Tenon API key on the Usage page to start generating.");
+    super("Add your Tenon API key on the Settings page to start generating.");
   }
 }
 

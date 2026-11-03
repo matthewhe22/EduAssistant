@@ -27,7 +27,8 @@ export interface GenerateOptions<S extends z.ZodObject> {
   curriculumText: string;
   /** Request-specific text (teacher request, uploaded plan, refine instructions). */
   requestText: string;
-  onProgress: (characters: number) => void;
+  /** Called as text streams in, with the length so far and the text itself. */
+  onProgress: (characters: number, text: string) => void;
   signal?: AbortSignal;
 }
 
@@ -116,7 +117,7 @@ export async function generateStructured<S extends z.ZodObject>(opts: GenerateOp
     if (!choice) continue;
     if (choice.delta?.content) {
       text += choice.delta.content;
-      opts.onProgress(text.length);
+      opts.onProgress(text.length, text);
     }
     if (choice.finish_reason) finish = choice.finish_reason;
   }
@@ -145,7 +146,7 @@ export async function generateStructured<S extends z.ZodObject>(opts: GenerateOp
     );
     usage = addUsage(usage, mapUsage(repair.usage as RawUsage));
     parsed = tryParse(opts.schema, repair.choices[0]?.message?.content ?? "");
-    if (!parsed.ok) throw new GenerationError("The model returned output in an unexpected format. Please try again, or choose another model on the Usage page.");
+    if (!parsed.ok) throw new GenerationError("The model returned output in an unexpected format. Please try again, or choose another model on the Settings page.");
   }
 
   return { content: parsed.value, model: servedModel, usage: { ...usage, costUsd: costUsd(servedModel, usage) } };

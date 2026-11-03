@@ -25,6 +25,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           { href: "/plans", label: "Library", match: ["/plans"] },
           { href: "/templates", label: "Templates", match: ["/templates"] },
           { href: "/usage", label: "Usage", match: ["/usage"] },
+          { href: "/settings", label: "Settings", match: ["/settings"] },
         ]
       : []),
     { href: "/curriculum", label: "Curriculum", match: ["/curriculum"] },
@@ -64,6 +65,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                   </summary>
                   <div className="absolute right-0 z-20 mt-2 w-64 rounded-xl border border-line bg-white p-3 shadow-[0_8px_24px_rgba(23,32,42,0.12)]">
                     <p className="truncate px-2 pb-2 text-sm text-ink-muted">{user.email}</p>
+                    <a href="/settings" className="block rounded-lg px-2 py-2 font-bold text-ink no-underline hover:bg-mist hover:text-ink">Settings</a>
                     <form action="/auth/signout" method="post">
                       <button className="w-full rounded-lg px-2 py-2 text-left font-bold text-ink hover:bg-mist">Sign out</button>
                     </form>

@@ -1,4 +1,4 @@
-import type { PrimaryLevel } from "../curriculum/types";
+import { PRIMARY_LEVELS, type PrimaryLevel } from "../curriculum/types";
 import type { OutputType } from "../generator/outputs";
 
 /** Friendly labels for the interface. Prompts keep the precise curriculum terms. */
@@ -11,6 +11,13 @@ export const YEAR_LABELS: Record<PrimaryLevel, string> = {
   "5": "Year 5",
   "6": "Year 6",
 };
+/** "Year 3", or "Year 3/4" / "Prep/1" for a composite class. */
+export function classLabel(level: PrimaryLevel, secondLevel?: PrimaryLevel | null) {
+  if (!secondLevel || secondLevel === level) return YEAR_LABELS[level];
+  const [lo, hi] = PRIMARY_LEVELS.indexOf(level) < PRIMARY_LEVELS.indexOf(secondLevel) ? [level, secondLevel] : [secondLevel, level];
+  return lo === "F" ? `Prep/${hi}` : `Year ${lo}/${hi}`;
+}
+
 export const YEAR_SHORT: Record<PrimaryLevel, string> = { F: "Prep", "1": "1", "2": "2", "3": "3", "4": "4", "5": "5", "6": "6" };
 
 export const DIFFICULTY_UI = {
@@ -31,3 +38,14 @@ export const OUTPUT_UI: Record<OutputType, { label: string; hint: string; make: 
   assessment: { label: "Quiz", hint: "Marks and answers", make: "Make the quiz", pill: "bg-sky-tint text-sky-ink", icon: "M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 18h.01M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" },
   parent_note: { label: "Note home", hint: "For families", make: "Make the note home", pill: "bg-plum-tint text-plum-ink", icon: "M3 6h18v12H3zM3 7l9 6 9-6" },
 };
+
+/**
+ * Plain-English progress line while the AI writes. `section` is the top-level field the
+ * model is currently writing (sent by the server), `characters` how much it has written.
+ */
+export function progressMessage(sectionLabels: Record<string, string>, characters: number, section?: string, verb = "Writing") {
+  if (characters === 0) return "Reading the curriculum and planning…";
+  const label = section ? sectionLabels[section] : undefined;
+  if (label) return `${verb} the ${/^[A-Z][a-z]/.test(label) ? label.charAt(0).toLowerCase() + label.slice(1) : label}…`;
+  return characters < 400 ? "Getting started…" : `${verb}…`;
+}

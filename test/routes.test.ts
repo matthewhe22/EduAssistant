@@ -36,11 +36,11 @@ describe("POST /api/generate (local mode, no Supabase)", () => {
       expect(opts.curriculumText).toContain("[VC2M3N03]");
       expect(opts.requestText).toContain("Fractions with paper strips");
       expect(opts.ai).toEqual({ apiKey: "sk-tx-server", model: "deepseek-v4.1-flash", keySource: "server" });
-      opts.onProgress(250);
+      opts.onProgress(250, '{"title":"x","overview":"' + "a".repeat(220) + '","phases":[');
       return { content: samplePlan, model: "claude-opus-5-5", usage } as never;
     });
     const ev = await events(await post(generate, body));
-    expect(ev[0]).toEqual({ type: "progress", characters: 250 });
+    expect(ev[0]).toEqual({ type: "progress", characters: 250, section: "phases" });
     const result = ev.at(-1);
     expect(result).toMatchObject({ type: "result", outputType: "lesson_plan", generationId: null });
     expect(result.content.curriculumLinks.map((l: { code: string }) => l.code)).toEqual(["VC2M3N03"]);
@@ -63,7 +63,7 @@ describe("POST /api/generate (local mode, no Supabase)", () => {
   it("asks for an API key when none is configured", async () => {
     delete process.env.TENON_API_KEY;
     const ev = await events(await post(generate, body));
-    expect(ev).toEqual([{ type: "error", message: "Add your Tenon API key on the Usage page to start generating." }]);
+    expect(ev).toEqual([{ type: "error", message: "Add your Tenon API key on the Settings page to start generating." }]);
     expect(mocked).not.toHaveBeenCalled();
   });
 
