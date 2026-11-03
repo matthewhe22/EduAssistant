@@ -8,7 +8,7 @@ import "./globals.css";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "EdAssistant",
+  title: "EduAssistant",
   description: "Lesson plans, worksheets, rubrics and quizzes for Prep to Year 6, matched to the Victorian Curriculum.",
 };
 
@@ -48,7 +48,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-euc text-wattle">
                 <Icon d={ICONS.logo} size={18} strokeWidth={2.2} />
               </span>
-              <span className="font-display text-xl font-bold tracking-tight">EdAssistant</span>
+              <span className="font-display text-xl font-bold tracking-tight">EduAssistant</span>
             </a>
             <NavLinks links={links} />
             {authEnabled &&

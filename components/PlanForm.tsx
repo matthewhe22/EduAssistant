@@ -526,34 +526,34 @@ export function PlanForm({
         </div>
 
         <aside aria-label="Summary" className="sticky top-6 flex flex-[1_1_300px] flex-col gap-3.5">
-          <div className="rounded-2xl bg-ink p-6 text-white">
-            <p className="eyebrow mb-3.5 text-wattle">Ready to make</p>
+          <div className="rounded-2xl border border-[#BCD6C7] bg-[#DDEDE3] p-6 text-ink">
+            <p className="eyebrow mb-3.5 text-euc-dark">Ready to make</p>
             <p className="font-display text-[26px] font-bold leading-[1.15]">{OUTPUT_UI[outputType].label}</p>
             <dl className="mb-[22px] mt-[18px] grid grid-cols-[auto_1fr] gap-x-3.5 gap-y-2 text-[15px]">
-              <dt className="text-[#AEB6BE]">Class</dt>
+              <dt className="text-ink-muted">Class</dt>
               <dd>{levelLabel} · {subjectName}</dd>
               {itemOpt && (
                 <>
-                  <dt className="text-[#AEB6BE]">Size</dt>
+                  <dt className="text-ink-muted">Size</dt>
                   <dd>{itemCount} {itemOpt.label.replace(/^Number of /, "").toLowerCase()}</dd>
                 </>
               )}
               {def.usesLessonLength && (
                 <>
-                  <dt className="text-[#AEB6BE]">Length</dt>
+                  <dt className="text-ink-muted">Length</dt>
                   <dd>{lessonMinutes} minutes</dd>
                 </>
               )}
-              <dt className="text-[#AEB6BE]">Pitch</dt>
+              <dt className="text-ink-muted">Pitch</dt>
               <dd>{DIFFICULTY_UI[difficulty]}</dd>
-              <dt className="text-[#AEB6BE]">From</dt>
+              <dt className="text-ink-muted">From</dt>
               <dd className="truncate">{source ? `“${source.title}”` : file ? file.name : idea.trim() ? "Your idea" : "—"}</dd>
               {modelLabel && (
                 <>
-                  <dt className="text-[#AEB6BE]">Model</dt>
+                  <dt className="text-ink-muted">Model</dt>
                   <dd>
                     {modelLabel}
-                    {canSave && <a href="/settings" className="ml-2 text-sm text-wattle hover:text-wattle">change</a>}
+                    {canSave && <a href="/settings" className="ml-2 text-sm font-bold text-euc-dark">change</a>}
                   </dd>
                 </>
               )}
@@ -561,17 +561,17 @@ export function PlanForm({
             <button type="submit" disabled={status === "generating"} className="btn-wattle min-h-[52px] w-full text-[17px]">
               {status === "generating" ? "Working on it…" : OUTPUT_UI[outputType].make}
             </button>
-            <p className="mt-3 text-sm text-[#C7CDD3]" role="status">
+            <p className="mt-3 text-sm text-ink-soft" role="status">
               {status === "generating"
                 ? progressMessage(def.sections, progress.characters, progress.section)
                 : "You can rewrite any part afterwards."}
             </p>
             {status === "generating" && (
-              <button type="button" onClick={() => abortRef.current?.abort()} className="mt-1 text-sm font-bold text-wattle underline">
+              <button type="button" onClick={() => abortRef.current?.abort()} className="mt-1 text-sm font-bold text-euc-dark underline">
                 Cancel
               </button>
             )}
-            {!canSave && <p className="mt-3 text-xs text-[#AEB6BE]">Local mode: results aren&apos;t saved.</p>}
+            {!canSave && <p className="mt-3 text-xs text-ink-muted">Local mode: results aren&apos;t saved.</p>}
           </div>
           {!hasKey && (
             <Notice>

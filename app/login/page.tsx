@@ -25,7 +25,7 @@ export default function LoginPage({ searchParams }: { searchParams: { error?: st
           <span className="flex h-9 w-9 items-center justify-center rounded-[9px] bg-white text-euc">
             <Icon d={ICONS.logo} size={20} strokeWidth={2.2} />
           </span>
-          <span className="font-display text-[22px] font-bold">EdAssistant</span>
+          <span className="font-display text-[22px] font-bold">EduAssistant</span>
         </span>
         <div className="max-w-[30ch]">
           <p className="m-0 font-display text-[40px] font-bold leading-[1.05] tracking-[-0.02em] sm:text-[48px]">From a rough idea to a ready-to-teach lesson.</p>

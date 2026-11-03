@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-/** EdAssistant design tokens (see the "EdAssistant redesign" canvas). */
+/** EduAssistant design tokens (see the "EduAssistant redesign" canvas). */
 const config: Config = {
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
   theme: {

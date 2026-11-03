@@ -17,7 +17,7 @@ Retrieved November 2026. Re-check each source at the start of every school year.
 
 ## Licensing
 
-Curriculum text is © VCAA. EdAssistant is a **personal, non-commercial** tool, which is consistent
+Curriculum text is © VCAA. EduAssistant is a **personal, non-commercial** tool, which is consistent
 with VCAA's educational-use terms. If the project ever becomes commercial or public, contact VCAA
 for permission **before** distributing curriculum text. The scraped dataset should stay in a
 private repository.
