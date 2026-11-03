@@ -1,14 +1,17 @@
 import type { Metadata } from "next";
 import { Icon, ICONS } from "@/components/Icon";
+import { AppFrame } from "@/components/AppFrame";
 import { NavLinks } from "@/components/NavLinks";
 import { isAdminEmail } from "@/lib/auth/admin";
 import { getCurrentUser } from "@/lib/auth/session";
 import { isDbConfigured } from "@/lib/db";
+import { SITE_URL } from "@/lib/ui/landing-content";
 import "./globals.css";
 
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "EduAssistant",
   description: "Lesson plans, worksheets, rubrics and quizzes for Prep to Year 6, matched to the Victorian Curriculum.",
 };
@@ -41,10 +44,12 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         {/* eslint-disable-next-line @next/next/no-page-custom-font */}
         <link
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Caveat:wght@500;700&display=swap"
         />
       </head>
       <body className="min-h-screen">
+        <AppFrame
+          header={
         <header className="border-b border-line bg-white print:hidden">
           <nav aria-label="Main" className="mx-auto flex max-w-[1240px] flex-wrap items-center gap-x-7 gap-y-2 px-6 py-3.5">
             <a href="/" className="flex items-center gap-2.5 text-ink no-underline hover:text-ink">
@@ -79,10 +84,15 @@ export default async function RootLayout({ children }: { children: React.ReactNo
               ))}
           </nav>
         </header>
-        <main>{children}</main>
+          }
+          footer={
         <footer className="mx-auto max-w-[1240px] px-6 pb-10 pt-4 text-sm text-ink-muted print:hidden">
           Generated material should be reviewed by a teacher before use.
         </footer>
+          }
+        >
+          {children}
+        </AppFrame>
       </body>
     </html>
   );

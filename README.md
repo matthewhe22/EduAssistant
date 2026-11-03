@@ -109,6 +109,7 @@ on `npm start`, or run them yourself with `npm run db:migrate`.
 
 - **Accounts**: email and password (bcrypt), with sessions in an httpOnly cookie. Only a SHA-256
   hash of the session token is stored.
+- **Home page:** `/` is a public landing page (animated demo, how it works, FAQ) with search-engine data: title and description, canonical link, share preview, JSON-LD (organisation, website, software, FAQ), `/robots.txt`, `/sitemap.xml` and `/llms.txt`. Set `NEXT_PUBLIC_SITE_URL` to the real address once there is a custom domain. The contact address is in `lib/ui/landing-content.ts`.
 - **Super admin:** `matthew.he@outlook.com` (change with `ADMIN_EMAILS`) gets an **Admin** page at `/admin` with totals, every user's usage and spend, and each user's activity (titles and settings only, never the content of their materials or their API keys). Everyone else gets a 404 there.
 - **Sign-ups are closed** except for the **first account** and emails listed in `ALLOWED_EMAILS`.
   This stops strangers on your public URL from spending your AI credit.

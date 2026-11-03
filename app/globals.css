@@ -16,10 +16,19 @@ h1, h2, h3 { @apply font-display; }
   .btn-primary { @apply btn bg-euc text-white hover:bg-euc-dark hover:text-white; }
   .btn-wattle { @apply btn bg-wattle text-ink hover:bg-[#E5A52B] hover:text-ink; }
   .btn-outline { @apply btn border border-line-strong bg-white text-ink hover:bg-mist hover:text-ink; }
+  .btn-main { @apply inline-flex min-h-[52px] items-center justify-center gap-2 rounded-xl border-2 border-ink bg-wattle px-6 text-[17px] font-bold text-ink no-underline shadow-[3px_3px_0_#17202A] transition hover:translate-x-0.5 hover:translate-y-0.5 hover:bg-wattle hover:text-ink hover:shadow-[1px_1px_0_#17202A] motion-reduce:transition-none; }
+  .btn-line { @apply inline-flex min-h-[52px] items-center justify-center gap-2 rounded-xl border-2 border-ink bg-transparent px-5 text-[17px] font-bold text-ink no-underline hover:bg-mist hover:text-ink; }
+  .hand-cursor { @apply ml-0.5 inline-block h-[26px] w-0.5 bg-[#20336B] align-[-5px] motion-safe:animate-[blink_1s_steps(1)_infinite]; }
   .eyebrow { @apply text-[13px] font-bold uppercase tracking-[0.06em]; }
   .pill { @apply inline-flex items-center whitespace-nowrap rounded-full px-2.5 py-1 text-sm font-bold; }
 }
 
 @media print {
   body { background: #fff; }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }

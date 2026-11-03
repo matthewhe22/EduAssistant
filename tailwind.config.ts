@@ -19,6 +19,7 @@ const config: Config = {
       fontFamily: {
         sans: ['"Atkinson Hyperlegible"', "system-ui", "sans-serif"],
         display: ['"Bricolage Grotesque"', "system-ui", "sans-serif"],
+        hand: ["Caveat", '"Bradley Hand"', "cursive"],
         mono: ["ui-monospace", "SFMono-Regular", "monospace"],
       },
     },
