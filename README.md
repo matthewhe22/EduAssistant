@@ -87,7 +87,7 @@ lib/curriculum/              Types + loaders for the curriculum dataset
 data/curriculum/vc2/         Victorian Curriculum 2.0, F–6, one JSON file per subject (generated)
 scripts/curriculum/          VCAA export download (Playwright), CSV → JSON import
 scripts/db/migrate.mjs       Migration runner (runs on npm start)
-db/migrations/               PostgreSQL schema (users, sessions, generations, usage_events, templates)
+db/migrations/               PostgreSQL schema (users, sessions, generations, usage_events, templates, invitations)
 docs/research/               Research notes that will become the generator's prompt context
 .github/workflows/           Builds the curriculum dataset on GitHub Actions
 ```
@@ -111,8 +111,14 @@ on `npm start`, or run them yourself with `npm run db:migrate`.
   hash of the session token is stored.
 - **Home page:** `/` is a public landing page (animated demo, how it works, FAQ) with search-engine data: title and description, canonical link, share preview, JSON-LD (organisation, website, software, FAQ), `/robots.txt`, `/sitemap.xml` and `/llms.txt`. Set `NEXT_PUBLIC_SITE_URL` to the real address once there is a custom domain. The contact address is in `lib/ui/landing-content.ts`.
 - **Super admin:** `matthew.he@outlook.com` (change with `ADMIN_EMAILS`) gets an **Admin** page at `/admin` with totals, every user's usage and spend, and each user's activity (titles and settings only, never the content of their materials or their API keys). Everyone else gets a 404 there.
-- **Sign-ups are closed** except for the **first account** and emails listed in `ALLOWED_EMAILS`.
-  This stops strangers on your public URL from spending your AI credit.
+- **Sign-ups are closed** except for the **first account**, emails listed in `ALLOWED_EMAILS`, and
+  people the super admin **invites**. This stops strangers on your public URL from spending your AI credit.
+- **Invitations:** on `/admin`, under **Invite people**, enter an email (plus an optional name and note).
+  The person gets an email with a sign-up link that works for 14 days, once, and only for that address.
+  You can send it again (the old link stops working) or withdraw it. Only a SHA-256 hash of the link
+  token is stored. Emails are sent with [Resend](https://resend.com) over HTTPS (Render's free plan
+  blocks SMTP): set `RESEND_API_KEY` and `EMAIL_FROM` (a sender on a domain you have verified in
+  Resend). Until then, the admin page gives you the link to copy and send yourself.
 - Every query is scoped to the signed-in teacher (`lib/data/`).
 
 ### Curriculum dataset

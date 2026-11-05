@@ -1,17 +1,29 @@
+import { InviteForm, ResendButton, WithdrawButton } from "@/components/admin/Invites";
 import { Page } from "@/components/Page";
+import { inviteUser, resendInvite, withdrawInvite } from "./actions";
 import { adminPage } from "@/lib/auth/admin-page";
 import { adminListUsers, adminOverview, adminUsageRows, dailyCalls } from "@/lib/data/admin";
+import { listInvitations, type InvitationStatus } from "@/lib/data/invitations";
+import { isEmailConfigured } from "@/lib/email/send";
 import { formatUsd } from "@/lib/pricing";
 import { formatCount, formatDate, formatTokens, timeAgo } from "@/lib/ui/format";
 
 export const dynamic = "force-dynamic";
 
+const STATUS: Record<InvitationStatus, [string, string]> = {
+  pending: ["Waiting", "bg-wattle-tint text-wattle-ink"],
+  accepted: ["Joined", "bg-euc-tint text-euc-dark"],
+  expired: ["Expired", "bg-mist text-ink-soft"],
+  revoked: ["Withdrawn", "bg-mist text-ink-soft"],
+};
+
 export default async function AdminPage() {
   const { db } = await adminPage("/admin");
-  const [overview, users, rows] = await Promise.all([
+  const [overview, users, rows, invitations] = await Promise.all([
     adminOverview(db),
     adminListUsers(db),
     adminUsageRows(db, new Date(Date.now() - 31 * 86_400_000)),
+    listInvitations(db),
   ]);
   const daily = dailyCalls(rows, 30);
   const maxCalls = Math.max(1, ...daily.map((d) => d.calls));
@@ -50,6 +62,64 @@ export default async function AdminPage() {
             <span>{daily[0]?.date}</span>
             <span>{daily.at(-1)?.date}</span>
           </div>
+        </section>
+
+        <section className="flex flex-col gap-3" aria-labelledby="invite-heading">
+          <div>
+            <h2 id="invite-heading" className="m-0 text-2xl font-bold">Invite people</h2>
+            <p className="m-0 mt-1 text-ink-soft">
+              Sign-ups are closed to everyone else. An invited person gets an email with a link that lets that address create an account. Links work for 14 days and once only.
+            </p>
+          </div>
+          <InviteForm action={inviteUser} emailReady={isEmailConfigured()} />
+          {invitations.length > 0 && (
+            <div className="card overflow-x-auto">
+              <table className="w-full min-w-[720px] border-collapse text-[15px]">
+                <thead>
+                  <tr className="eyebrow bg-mist text-left text-ink-muted">
+                    <th scope="col" className="p-3">Invited</th>
+                    <th scope="col" className="p-3">Status</th>
+                    <th scope="col" className="p-3">Created</th>
+                    <th scope="col" className="p-3">Last emailed</th>
+                    <th scope="col" className="p-3">Link expires</th>
+                    <th scope="col" className="p-3"><span className="sr-only">Actions</span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {invitations.map((i) => {
+                    const [label, cls] = STATUS[i.status];
+                    const open = i.status === "pending" || i.status === "expired";
+                    return (
+                      <tr key={i.id} className="border-t border-line align-top">
+                        <th scope="row" className="p-3 text-left font-normal">
+                          <span className="font-bold">{i.displayName || i.email}</span>
+                          {i.displayName && <span className="block text-sm text-ink-muted">{i.email}</span>}
+                        </th>
+                        <td className="p-3">
+                          <span className={`rounded-full px-2.5 py-1 text-sm font-bold ${cls}`}>{label}</span>
+                          {i.acceptedAt && <span className="block pt-1 text-sm text-ink-muted">{formatDate(i.acceptedAt)}</span>}
+                        </td>
+                        <td className="p-3 text-ink-soft">{formatDate(i.createdAt)}</td>
+                        <td className="p-3 text-ink-soft">
+                          {i.sentAt ? timeAgo(i.sentAt) : "Not emailed"}
+                          {i.sendCount > 1 && <span className="block text-sm text-ink-muted">{i.sendCount} times</span>}
+                        </td>
+                        <td className="p-3 text-ink-soft">{open ? formatDate(i.expiresAt) : "–"}</td>
+                        <td className="p-3 text-right">
+                          {open && (
+                            <span className="flex flex-wrap justify-end gap-1">
+                              <ResendButton action={resendInvite} id={i.id} />
+                              <WithdrawButton action={withdrawInvite} id={i.id} email={i.email} />
+                            </span>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          )}
         </section>
 
         <section className="flex flex-col gap-3">
