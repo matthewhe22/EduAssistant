@@ -81,7 +81,7 @@ beforeEach(() => {
   sent.length = 0;
   fetchMock.mockClear();
   process.env.RESEND_API_KEY = "re_test";
-  process.env.EMAIL_FROM = "EduAssistant <invites@example.com>";
+  process.env.EMAIL_FROM = "Lessonroo <invites@example.com>";
   jar.set("eda_session", adminCookie);
 });
 
@@ -103,7 +103,7 @@ describe("email", () => {
     expect(e.html).not.toContain("<script>");
     expect(e.html).toContain("&lt;b&gt;Al&lt;/b&gt;");
     expect(e.text).toContain("https://x/login?invite=t");
-    expect(e.subject).toBe("Matt invited you to EduAssistant");
+    expect(e.subject).toBe("Matt invited you to Lessonroo");
   });
 });
 
@@ -126,7 +126,7 @@ describe("inviting", () => {
     expect(r).toEqual({ ok: true, message: "Invitation sent to ben@school.vic.edu.au." });
     expect(sent).toHaveLength(1);
     expect(sent[0].url).toBe("https://api.resend.com/emails");
-    expect(sent[0].body).toMatchObject({ to: ["ben@school.vic.edu.au"], from: "EduAssistant <invites@example.com>", reply_to: "matthew.he@outlook.com" });
+    expect(sent[0].body).toMatchObject({ to: ["ben@school.vic.edu.au"], from: "Lessonroo <invites@example.com>", reply_to: "matthew.he@outlook.com" });
     const text = String(sent[0].body.text);
     expect(text).toContain("https://edu.example.com/login?mode=signup&invite=");
     expect(text).toContain("Try the worksheets!");

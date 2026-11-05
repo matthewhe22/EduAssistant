@@ -2,7 +2,7 @@
  * Sends email through Resend's HTTP API (https://resend.com). HTTP rather than SMTP because
  * Render's free plan blocks outgoing SMTP ports.
  *   RESEND_API_KEY  API key (re_...)
- *   EMAIL_FROM      Sender, e.g. "EduAssistant <invites@yourdomain.com>" (the domain must be verified in Resend)
+ *   EMAIL_FROM      Sender, e.g. "Lessonroo <invites@yourdomain.com>" (the domain must be verified in Resend)
  */
 export interface Email {
   to: string;

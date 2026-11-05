@@ -30,7 +30,7 @@ services:
       - key: ALLOWED_EMAILS
         sync: false
       # Invitation emails from /admin, sent with Resend (https://resend.com). EMAIL_FROM is e.g.
-      # "EduAssistant <invites@yourdomain.com>" on a domain verified in Resend.
+      # "Lessonroo <invites@yourdomain.com>" on a domain verified in Resend.
       - key: RESEND_API_KEY
         sync: false
       - key: EMAIL_FROM
