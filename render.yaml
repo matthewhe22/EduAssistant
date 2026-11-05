@@ -29,6 +29,12 @@ services:
       # Extra emails allowed to create accounts (the first account is always allowed).
       - key: ALLOWED_EMAILS
         sync: false
+      # Invitation emails from /admin, sent with Resend (https://resend.com). EMAIL_FROM is e.g.
+      # "EduAssistant <invites@yourdomain.com>" on a domain verified in Resend.
+      - key: RESEND_API_KEY
+        sync: false
+      - key: EMAIL_FROM
+        sync: false
 
 databases:
   - name: EdAssistant
