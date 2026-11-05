@@ -31,7 +31,7 @@ export default async function SettingsPage() {
           <div>
             <h2 id="ai-heading" className="m-0 text-2xl font-bold">AI provider</h2>
             <p className="m-0 mt-1 text-ink-soft">
-              EduAssistant uses <a href="https://mytenon.com" target="_blank" rel="noreferrer">Tenon</a>, one key for many AI models. Now using{" "}
+              Lessonroo uses <a href="https://mytenon.com" target="_blank" rel="noreferrer">Tenon</a>, one key for many AI models. Now using{" "}
               <strong>{labelFor(model)}</strong>.
             </p>
           </div>

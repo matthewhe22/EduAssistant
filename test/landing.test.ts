@@ -70,7 +70,7 @@ describe("search engine files", () => {
     const res = llms();
     expect(res.headers.get("Content-Type")).toContain("text/plain");
     const text = await res.text();
-    expect(text).toContain("# EduAssistant");
+    expect(text).toContain("# Lessonroo");
     expect(text).toContain(HOME_DESCRIPTION);
     expect(text).toContain(CONTACT_EMAIL);
     for (const f of FAQ) expect(text).toContain(f.q);

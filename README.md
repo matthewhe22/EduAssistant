@@ -1,8 +1,8 @@
-# EduAssistant
+# Lessonroo
 
 A lesson planning assistant for **Victorian primary school teachers** (Foundation to Level 6).
 A teacher picks a year level and subject, describes an idea or rough plan, and sets the difficulty.
-EduAssistant then generates a detailed lesson plan, activities or teaching materials. The output is
+Lessonroo then generates a detailed lesson plan, activities or teaching materials. The output is
 aligned to the **Victorian Curriculum F–10 Version 2.0** and the **Victorian Teaching and Learning Model (VTLM 2.0)**.
 
 > Personal, non-commercial project. Curriculum content © Victorian Curriculum and Assessment Authority (VCAA).

@@ -1,16 +1,16 @@
 /** Facts and copy shared by the home page and its search-engine data. */
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://edassistant-web.onrender.com").replace(/\/$/, "");
-export const SITE_NAME = "EduAssistant";
+export const SITE_NAME = "Lessonroo";
 export const CONTACT_EMAIL = "admin@capconnex.com.au";
 
-export const HOME_TITLE = "EduAssistant: lesson plans and teaching materials for Victorian primary teachers";
+export const HOME_TITLE = "Lessonroo: lesson plans and teaching materials for Victorian primary teachers";
 export const HOME_DESCRIPTION =
   "Turn a rough idea into a timed lesson plan, worksheet, rubric or quiz matched to the Victorian Curriculum F–10 Version 2.0. For Prep to Year 6 teachers in Victoria, Australia.";
 
 /** Question and answer pairs. Shown on the page and in the FAQPage structured data. */
 export const FAQ: { q: string; a: string }[] = [
   {
-    q: "Who is EduAssistant for?",
+    q: "Who is Lessonroo for?",
     a: "It is made for primary teachers in Victoria, from Prep to Year 6, in any learning area. It helps with the planning and the paperwork so there is more time for the teaching.",
   },
   {
@@ -19,7 +19,7 @@ export const FAQ: { q: string; a: string }[] = [
   },
   {
     q: "Do I still need to check what it writes?",
-    a: "Yes. EduAssistant drafts, and you decide. Read it, edit any word, rewrite a section, and make sure it suits your class before you teach it. Every change can be undone.",
+    a: "Yes. Lessonroo drafts, and you decide. Read it, edit any word, rewrite a section, and make sure it suits your class before you teach it. Every change can be undone.",
   },
   {
     q: "Can I plan for a composite class?",
@@ -31,7 +31,7 @@ export const FAQ: { q: string; a: string }[] = [
   },
   {
     q: "How do I get an account?",
-    a: `EduAssistant is invite-only while it is being tested. If you have been invited, sign in or create your account. To ask for access, email ${CONTACT_EMAIL}.`,
+    a: `Lessonroo is invite-only while it is being tested. If you have been invited, sign in or create your account. To ask for access, email ${CONTACT_EMAIL}.`,
   },
 ];
 

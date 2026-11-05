@@ -72,7 +72,7 @@ function differentiation(d: { support: string[]; extension: string[]; ealD: stri
 const footer = () =>
   new Paragraph({
     spacing: { before: 400 },
-    children: [new TextRun({ text: "Generated with EduAssistant. Review before use.", size: 16, italics: true })],
+    children: [new TextRun({ text: "Generated with Lessonroo. Review before use.", size: 16, italics: true })],
   });
 
 /* ----------------------------- per type ------------------------------ */
@@ -305,7 +305,7 @@ export function buildDocument(outputType: OutputType, content: Record<string, un
     parent_note: parentNote,
   };
   return new Document({
-    creator: "EduAssistant",
+    creator: "Lessonroo",
     title: String(content.title),
     styles: { default: { document: { run: { font: "Calibri", size: 22 } } } },
     sections: [{ children: [...builders[outputType](content as never, m, meta), footer()] }],
@@ -317,5 +317,5 @@ export async function outputToDocx(outputType: OutputType, content: Record<strin
 }
 
 export function docxFilename(title: string) {
-  return `${title.replace(/[^\w\s-]/g, "").trim().replace(/\s+/g, "-").slice(0, 80) || "eduassistant"}.docx`;
+  return `${title.replace(/[^\w\s-]/g, "").trim().replace(/\s+/g, "-").slice(0, 80) || "lessonroo"}.docx`;
 }

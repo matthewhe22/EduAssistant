@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-/** EduAssistant design tokens (see the "EduAssistant redesign" canvas). */
+/** Lessonroo design tokens: eucalyptus green and wattle gold. */
 const config: Config = {
   content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
   theme: {

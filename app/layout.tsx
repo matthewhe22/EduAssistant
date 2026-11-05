@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Logo } from "@/components/Logo";
 import { Icon, ICONS } from "@/components/Icon";
 import { AppFrame } from "@/components/AppFrame";
 import { NavLinks } from "@/components/NavLinks";
@@ -12,7 +13,7 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "EduAssistant",
+  title: "Lessonroo",
   description: "Lesson plans, worksheets, rubrics and quizzes for Prep to Year 6, matched to the Victorian Curriculum.",
 };
 
@@ -52,11 +53,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           header={
         <header className="border-b border-line bg-white print:hidden">
           <nav aria-label="Main" className="mx-auto flex max-w-[1240px] flex-wrap items-center gap-x-7 gap-y-2 px-6 py-3.5">
-            <a href="/" className="flex items-center gap-2.5 text-ink no-underline hover:text-ink">
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-euc text-wattle">
-                <Icon d={ICONS.logo} size={18} strokeWidth={2.2} />
-              </span>
-              <span className="font-display text-xl font-bold tracking-tight">EduAssistant</span>
+            <a href="/" aria-label="Lessonroo home" className="flex items-center text-ink no-underline hover:text-ink">
+              <Logo size={34} textClass="text-[22px]" />
             </a>
             <NavLinks links={links} />
             {authEnabled &&

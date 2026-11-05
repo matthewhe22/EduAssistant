@@ -1,5 +1,5 @@
 import { redirect } from "next/navigation";
-import { Icon, ICONS } from "@/components/Icon";
+import { LogoMark, Wordmark } from "@/components/Logo";
 import { Notice } from "@/components/Page";
 import { SubmitButton } from "@/components/SubmitButton";
 import { MIN_PASSWORD_LENGTH } from "@/lib/auth/password";
@@ -22,10 +22,10 @@ export default function LoginPage({ searchParams }: { searchParams: { error?: st
     <div className="flex min-h-[calc(100vh-73px)] flex-wrap">
       <section className="flex flex-[1_1_480px] flex-col justify-between gap-12 bg-euc p-10 text-white sm:p-14">
         <span className="flex items-center gap-2.5">
-          <span className="flex h-9 w-9 items-center justify-center rounded-[9px] bg-white text-euc">
-            <Icon d={ICONS.logo} size={20} strokeWidth={2.2} />
+          <span className="flex h-10 w-10 items-center justify-center rounded-[10px] bg-white">
+            <LogoMark size={30} />
           </span>
-          <span className="font-display text-[22px] font-bold">EduAssistant</span>
+          <Wordmark light className="text-[24px]" />
         </span>
         <div className="max-w-[30ch]">
           <p className="m-0 font-display text-[40px] font-bold leading-[1.05] tracking-[-0.02em] sm:text-[48px]">From a rough idea to a ready-to-teach lesson.</p>

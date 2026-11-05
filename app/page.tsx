@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Logo, Wordmark } from "@/components/Logo";
 import { HeroDemo, StepYears, StepPicks, StepEdit, FanDemo, DocsDemo, ChecksDemo, VtlmDemo } from "@/components/landing/Demos";
 import { ClockProvider } from "@/components/landing/Clock";
 import { Icon, ICONS } from "@/components/Icon";
@@ -15,7 +16,7 @@ export const metadata: Metadata = {
   description: HOME_DESCRIPTION,
   alternates: { canonical: "/" },
   openGraph: { type: "website", url: "/", siteName: SITE_NAME, title: HOME_TITLE, description: HOME_DESCRIPTION, locale: "en_AU" },
-  twitter: { card: "summary", title: HOME_TITLE, description: HOME_DESCRIPTION },
+  twitter: { card: "summary_large_image", title: HOME_TITLE, description: HOME_DESCRIPTION },
   robots: { index: true, follow: true },
 };
 
@@ -30,6 +31,7 @@ function structuredData() {
         name: SITE_NAME,
         url: SITE_URL,
         email: CONTACT_EMAIL,
+        logo: `${SITE_URL}/apple-icon.png`,
         contactPoint: { "@type": "ContactPoint", contactType: "customer support", email: CONTACT_EMAIL, areaServed: "AU-VIC", availableLanguage: "en-AU" },
       },
       { "@type": "WebSite", "@id": `${SITE_URL}/#website`, url: SITE_URL, name: SITE_NAME, inLanguage: "en-AU", publisher: { "@id": `${SITE_URL}/#organization` } },
@@ -81,7 +83,7 @@ function StepCard({ n, title, text, children }: { n: number; title: string; text
 
 export default async function HomePage() {
   const signedIn = isDbConfigured() ? Boolean(await getCurrentUser()) : true; // local mode has no accounts
-  const start = signedIn ? { href: "/plan", label: "Open EduAssistant" } : { href: "/login", label: "Start planning" };
+  const start = signedIn ? { href: "/plan", label: "Open Lessonroo" } : { href: "/login", label: "Start planning" };
   const json = JSON.stringify(structuredData()).replace(/</g, "\\u003c");
 
   return (
@@ -89,11 +91,8 @@ export default async function HomePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: json }} />
 
       <header className="mx-auto flex max-w-[1240px] flex-wrap items-center gap-x-5 gap-y-3 px-6 py-[18px] print:hidden">
-        <a href="#top" aria-label="EduAssistant home" className="flex items-center gap-2.5 text-ink no-underline hover:text-ink">
-          <span className="flex h-[38px] w-[38px] items-center justify-center rounded-[10px] bg-euc text-wattle">
-            <Icon d={ICONS.logo} size={20} strokeWidth={2.2} />
-          </span>
-          <span className="font-display text-[23px] font-bold tracking-[-0.01em]">EduAssistant</span>
+        <a href="#top" aria-label="Lessonroo home" className="flex items-center text-ink no-underline hover:text-ink">
+          <Logo size={40} textClass="text-[26px]" />
         </a>
         <nav aria-label="Main" className="flex flex-[1_1_auto] flex-wrap gap-0.5 text-base">
           {[
@@ -112,7 +111,7 @@ export default async function HomePage() {
           Victoria, Australia
         </span>
         {signedIn ? (
-          <a href="/plan" className="px-3.5 py-2.5 font-bold text-ink no-underline hover:text-ink">Open EduAssistant</a>
+          <a href="/plan" className="px-3.5 py-2.5 font-bold text-ink no-underline hover:text-ink">Open Lessonroo</a>
         ) : (
           <a href="/login" className="px-3.5 py-2.5 font-bold text-ink no-underline hover:text-ink">Sign in</a>
         )}
@@ -128,7 +127,7 @@ export default async function HomePage() {
                 Ready-to-teach lessons from a rough idea.
               </h1>
               <p className="m-0 max-w-[34em] text-xl text-ink-soft">
-                Type what you want to teach, or upload the plan you already have. EduAssistant writes a timed lesson plan, worksheet, rubric or quiz matched to the
+                Type what you want to teach, or upload the plan you already have. Lessonroo writes a timed lesson plan, worksheet, rubric or quiz matched to the
                 Victorian Curriculum F–10 Version 2.0. Then you edit it until it sounds like you.
               </p>
               <div className="mt-1 flex flex-wrap gap-3.5">
@@ -258,7 +257,7 @@ export default async function HomePage() {
                   <p className="m-0 mb-[18px] max-w-[40em] text-ink-soft">
                     {item.q === "How do I get an account?" ? (
                       <>
-                        EduAssistant is invite-only while it is being tested. If you have been invited, sign in or create your account. To ask for access, email{" "}
+                        Lessonroo is invite-only while it is being tested. If you have been invited, sign in or create your account. To ask for access, email{" "}
                         <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
                       </>
                     ) : (
@@ -289,7 +288,7 @@ export default async function HomePage() {
       </main>
 
       <footer className="mx-auto flex max-w-[1240px] flex-wrap items-center gap-x-8 gap-y-4 px-6 pb-12 pt-9 text-[15px] text-ink-soft print:hidden">
-        <span className="font-display text-lg font-bold text-ink">EduAssistant</span>
+        <Wordmark className="text-xl" />
         <nav aria-label="Footer" className="flex flex-wrap gap-x-[18px] gap-y-1">
           <a href="#how">How it works</a>
           <a href="#make">What you can make</a>
