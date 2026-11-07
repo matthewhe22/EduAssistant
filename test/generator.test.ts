@@ -16,7 +16,8 @@ import { GenerateRequestSchema, type GenerateRequest } from "@/lib/generator/sch
 import { validateOutput } from "@/lib/generator/validate";
 import JSZip from "jszip";
 import { docxFilename, outputToDocx } from "@/lib/export/docx";
-import { deckToPptx, pptxFilename } from "@/lib/export/pptx";
+import { outputToPptx, pptxFilename } from "@/lib/export/pptx";
+import { chunk } from "@/lib/export/pptx-outputs";
 import { makePdf } from "./fixtures/pdf";
 import { samplePlan } from "./fixtures/sample-plan";
 import { SAMPLES, slideDeck } from "./fixtures/samples";
@@ -133,6 +134,16 @@ describe.each(OUTPUT_TYPES)("output type %s", (type) => {
     for (const key of Object.keys(def.sections)) expect(Object.keys(def.schema.shape)).toContain(key);
   });
 
+  it("exports to PowerPoint, with a student copy where it applies", async () => {
+    const meta = { subject: "Mathematics", levelLabel: "Year 3", lessonMinutes: 60, codeText: { VC2M3N03: "fractions" } };
+    const buf = await outputToPptx(type, SAMPLES[type], meta);
+    expect(buf.subarray(0, 2).toString()).toBe("PK");
+    const zip = await JSZip.loadAsync(buf);
+    expect(Object.keys(zip.files).filter((f) => /^ppt\/slides\/slide\d+\.xml$/.test(f)).length).toBeGreaterThan(2);
+    expect(await zip.file("ppt/slides/slide1.xml")!.async("string")).toContain(String(SAMPLES[type].title).replace(/&/g, "&amp;"));
+    expect((await outputToPptx(type, SAMPLES[type], { ...meta, studentOnly: true })).subarray(0, 2).toString()).toBe("PK");
+  });
+
   it("exports to Word", async () => {
     const buf = await outputToDocx(type, SAMPLES[type], { subject: "Mathematics", levelLabel: "Level 3", lessonMinutes: 60, codeText: { VC2M3N03: "fractions" } });
     expect(buf.subarray(0, 2).toString()).toBe("PK");
@@ -141,7 +152,7 @@ describe.each(OUTPUT_TYPES)("output type %s", (type) => {
 
 describe("PowerPoint export", () => {
   it("makes a title slide, a learning intention slide and one slide per content slide, with notes", async () => {
-    const buf = await deckToPptx(slideDeck, { subject: "Mathematics", levelLabel: "Year 3", lessonMinutes: 60, codeText: { VC2M3N03: "fractions" } });
+    const buf = await outputToPptx("slides", slideDeck, { subject: "Mathematics", levelLabel: "Year 3", lessonMinutes: 60, codeText: { VC2M3N03: "fractions" } });
     expect(buf.subarray(0, 2).toString()).toBe("PK");
     const zip = await JSZip.loadAsync(buf);
     const slides = Object.keys(zip.files).filter((f) => /^ppt\/slides\/slide\d+\.xml$/.test(f));
@@ -150,6 +161,37 @@ describe("PowerPoint export", () => {
     const notes = await Promise.all(Object.keys(zip.files).filter((f) => /^ppt\/notesSlides\/notesSlide\d+\.xml$/.test(f)).map((f) => zip.file(f)!.async("string")));
     expect(notes.join(" ")).toContain("Take three answers.");
     expect(notes.join(" ")).toContain("VC2M3N03: fractions");
+  });
+});
+
+describe("PowerPoint export of other types", () => {
+  const meta = { subject: "Mathematics", levelLabel: "Year 3", lessonMinutes: 60, codeText: {} };
+  const allText = async (buf: Buffer) => {
+    const zip = await JSZip.loadAsync(buf);
+    const parts = Object.keys(zip.files).filter((f) => /^ppt\/(slides|notesSlides)\/\w+\.xml$/.test(f));
+    return (await Promise.all(parts.map((f) => zip.file(f)!.async("string")))).join(" ");
+  };
+
+  it("puts worksheet questions on slides and answers only in the teacher copy", async () => {
+    const teacher = await allText(await outputToPptx("worksheet", SAMPLES.worksheet, meta));
+    expect(teacher).toContain("Which is 1/2?");
+    expect(teacher).toContain("A shape in 4 equal parts, 1 shaded");
+    const student = await allText(await outputToPptx("worksheet", SAMPLES.worksheet, { ...meta, studentOnly: true }));
+    expect(student).toContain("Which is 1/2?");
+    expect(student).not.toContain("A shape in 4 equal parts, 1 shaded");
+    expect(student).not.toContain("Answer key");
+  });
+
+  it("shows lesson phases with teacher talk in the notes, and the rubric as a table", async () => {
+    const lesson = await allText(await outputToPptx("lesson_plan", SAMPLES.lesson_plan, meta));
+    expect(lesson).toContain("Exit ticket");
+    const rubric = await allText(await outputToPptx("rubric", SAMPLES.rubric, meta));
+    expect(rubric).toContain("<a:tbl>");
+  });
+
+  it("splits long lists over several slides", () => {
+    expect(chunk(["a", "b", "c", "d", "e", "f", "g"]).map((c) => c.length)).toEqual([6, 1]);
+    expect(chunk(["x".repeat(300), "y".repeat(300), ""]).length).toBe(2);
   });
 });
 
@@ -194,7 +236,7 @@ describe("attachments", () => {
   });
 
   it("extracts slide text and speaker notes from PowerPoint files", async () => {
-    const buf = await deckToPptx(slideDeck, { subject: "Mathematics", levelLabel: "Year 3", lessonMinutes: 60, codeText: {} });
+    const buf = await outputToPptx("slides", slideDeck, { subject: "Mathematics", levelLabel: "Year 3", lessonMinutes: 60, codeText: {} });
     const out = await prepareAttachment({ name: "d.pptx", mediaType: "application/vnd.openxmlformats-officedocument.presentationml.presentation", data: b64(buf) });
     expect(out.text).toMatch(/^Slide 1\nEqual parts\nHalves and quarters/);
     expect(out.text).toContain("Slide 3\nTHINK ABOUT IT\nWarm up\nIs this pizza shared fairly?");

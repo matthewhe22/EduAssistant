@@ -43,12 +43,10 @@ export function PlanActions(props: {
         <Icon d={ICONS.download} size={18} />
         {busy === "docx" ? "Preparing…" : props.studentOnly ? "Word: student copy" : isSlides ? "Word outline" : "Download Word"}
       </button>
-      {isSlides && (
-        <button type="button" onClick={() => download("pptx")} disabled={busy !== null} className="btn-primary">
-          <Icon d={ICONS.download} size={18} />
-          {busy === "pptx" ? "Preparing…" : "Download PowerPoint"}
-        </button>
-      )}
+      <button type="button" onClick={() => download("pptx")} disabled={busy !== null} className={isSlides ? "btn-primary" : "btn-outline"}>
+        <Icon d={ICONS.download} size={18} />
+        {busy === "pptx" ? "Preparing…" : props.studentOnly ? "PowerPoint: student copy" : isSlides ? "Download PowerPoint" : "PowerPoint"}
+      </button>
     </div>
   );
 }

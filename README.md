@@ -40,7 +40,7 @@ You can also **upload reference material** (up to 5 files: PDF, Word `.docx`, Po
 text, 5 MB each), such as an existing plan, slides, a reading or a worksheet, instead of, or as well
 as, typing an idea. Slide text and speaker notes are read from PowerPoint files. Once something is generated, you can **refine any single section** with an
 instruction ("make the guided practice more hands-on"). Only that section is replaced, and the
-change is saved to your library. Everything exports to Word or prints. Slide decks can be edited in the app (each slide's heading,
+change is saved to your library. Everything exports to Word or PowerPoint, or prints. In the PowerPoint version, what students see goes on the slides (phases, questions, activity steps, rubric tables). Teacher talk, answers and marking notes go in the speaker notes, and a student copy leaves the answers out. Slide decks can be edited in the app (each slide's heading,
 points, layout and speaker notes) and then downloaded as a PowerPoint file to add pictures or
 change the design.
 
@@ -85,7 +85,7 @@ change the design.
 app/                         Next.js routes: /plan (create), /plans (library), /curriculum, /login, /api/generate, /api/refine, /api/export/docx
 components/                  Planner form, result panel (refine), views for each output type
 lib/generator/               Output types (outputs/), curriculum context, prompts, Claude call, uploads, validation
-lib/export/                  Word (.docx) and PowerPoint (.pptx) export
+lib/export/                  Word (.docx) and PowerPoint (.pptx) export; pptx-outputs.ts maps each type to slides
 lib/db, lib/auth, lib/data/  Postgres pool, sessions/passwords, per-teacher queries
 lib/curriculum/              Types + loaders for the curriculum dataset
 data/curriculum/vc2/         Victorian Curriculum 2.0, F–6, one JSON file per subject (generated)

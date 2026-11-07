@@ -1,5 +1,7 @@
 import PptxGenJS from "pptxgenjs";
-import type { SlideDeck } from "../generator/schema";
+import type { OutputType } from "../generator/outputs";
+import { OUTPUTS } from "../generator/outputs";
+import { outputToDeck } from "./pptx-outputs";
 
 /** Same palette as the app (tailwind.config.ts), without the leading #. */
 const C = {
@@ -16,28 +18,64 @@ const C = {
   white: "FFFFFF",
 };
 const FONT = "Calibri";
-const HEAD_FONT = "Calibri";
 
 /** 16:9, 13.333 × 7.5 inches. */
 const W = 13.333;
 const H = 7.5;
 const M = 0.6;
+const TOP = 1.65;
+const BODY_H = H - TOP - 0.8;
 
 export interface PptxMeta {
   subject: string;
   levelLabel: string;
   lessonMinutes: number;
-  /** code → content description text, for the notes on the learning intention slide. */
+  /** code → content description text, for the notes on the opening slides. */
   codeText: Record<string, string>;
+  /** Student copy: no answers, marking guides or teacher notes. */
+  studentOnly?: boolean;
+}
+
+export const EXPORT_LAYOUTS = ["Bullets", "Two columns", "Question", "Activity", "Big idea", "Table"] as const;
+
+/** One slide of an exported deck. Every output type is converted to these (see pptx-outputs.ts). */
+export interface ExportSlide {
+  layout: (typeof EXPORT_LAYOUTS)[number];
+  heading: string;
+  /** Small label above the heading; defaults to one based on the layout. */
+  tag?: string;
+  bullets: string[];
+  /** Right-hand column (Two columns), or a side panel (Bullets and Activity). */
+  secondColumn?: string[];
+  /** Title of the side panel, e.g. "You need". */
+  sideTitle?: string;
+  /** Rows for the Table layout; the first row is the header. */
+  table?: string[][];
+  imageIdea?: string;
+  speakerNotes?: string;
+}
+
+export interface ExportDeck {
+  title: string;
+  subtitle: string;
+  /** Speaker notes on the title slide. */
+  titleNotes: string;
+  /** With success criteria, makes the second slide; skipped when both are empty. */
+  learningIntention: string;
+  successCriteria: string[];
+  curriculumLinks: { code: string; howAddressed: string }[];
+  slides: ExportSlide[];
 }
 
 type Slide = ReturnType<PptxGenJS["addSlide"]>;
-type Content = SlideDeck["slides"][number];
+
+const LAYOUT_TAGS: Partial<Record<ExportSlide["layout"], string>> = { Question: "Think about it", Activity: "Your turn", "Big idea": "Big idea" };
 
 const bulletRuns = (items: string[], fontSize: number, color = C.ink) =>
   items
     .filter((t) => t.trim())
-    .map((text) => ({ text, options: { bullet: { indent: fontSize * 0.9 }, fontSize, color, breakLine: true, paraSpaceAfter: fontSize * 0.45 } }));
+    // Checklist items ("☐ I can…") carry their own box instead of a bullet.
+    .map((text) => ({ text, options: { bullet: text.startsWith("☐") ? false : { indent: fontSize * 0.9 }, fontSize, color, breakLine: true, paraSpaceAfter: fontSize * 0.45 } }));
 
 const numberedRuns = (items: string[], fontSize: number) =>
   items
@@ -62,81 +100,120 @@ function footer(slide: Slide, text: string, n: number) {
 function heading(slide: Slide, text: string, tag?: string) {
   slide.addShape("rect", { x: M, y: 0.55, w: 0.12, h: 0.75, fill: { color: C.wattle }, line: { color: C.wattle } });
   if (tag) {
-    slide.addText(tag.toUpperCase(), { x: M + 0.3, y: 0.32, w: 6, h: 0.3, fontFace: FONT, fontSize: 12, bold: true, color: C.euc, charSpacing: 2 });
+    slide.addText(tag.toUpperCase(), { x: M + 0.3, y: 0.32, w: 9, h: 0.3, fontFace: FONT, fontSize: 12, bold: true, color: C.euc, charSpacing: 2 });
   }
-  slide.addText(text, { x: M + 0.3, y: 0.55, w: W - 2 * M - 0.3, h: 0.8, fontFace: HEAD_FONT, fontSize: 34, bold: true, color: C.eucDark, valign: "middle", fit: "shrink" });
+  slide.addText(text, { x: M + 0.3, y: 0.55, w: W - 2 * M - 0.3, h: 0.8, fontFace: FONT, fontSize: 34, bold: true, color: C.eucDark, valign: "middle", fit: "shrink" });
 }
 
 /** A dashed box suggesting a picture; the teacher replaces it with their own image. */
 function picture(slide: Slide, idea: string, x: number, y: number, w: number, h: number) {
   slide.addShape("roundRect", { x, y, w, h, rectRadius: 0.12, fill: { color: C.eucTint }, line: { color: C.euc, width: 1.25, dashType: "dash" } });
-  slide.addText([
-    { text: "Picture idea", options: { bold: true, fontSize: 14, color: C.euc, breakLine: true } },
-    { text: idea, options: { fontSize: 14, color: C.soft } },
-  ], { x: x + 0.25, y: y + 0.25, w: w - 0.5, h: h - 0.5, fontFace: FONT, align: "center", valign: "middle", fit: "shrink" });
+  slide.addText(
+    [
+      { text: "Picture idea", options: { bold: true, fontSize: 14, color: C.euc, breakLine: true } },
+      { text: idea, options: { fontSize: 14, color: C.soft } },
+    ],
+    { x: x + 0.25, y: y + 0.25, w: w - 0.5, h: h - 0.5, fontFace: FONT, align: "center", valign: "middle", fit: "shrink" },
+  );
 }
 
-function contentSlide(pptx: PptxGenJS, s: Content, footText: string, n: number) {
+/** A tinted panel with a title and a list, e.g. "You need" next to activity steps. */
+function sidePanel(slide: Slide, title: string, items: string[], x: number, y: number, w: number, h: number) {
+  slide.addShape("roundRect", { x, y, w, h, rectRadius: 0.12, fill: { color: C.wattleTint }, line: { color: C.wattle, width: 1 } });
+  slide.addText(
+    [{ text: title, options: { bold: true, fontSize: 16, color: C.ink, breakLine: true, paraSpaceAfter: 6 } }, ...bulletRuns(items, fitSize(items, 18), C.soft)],
+    { x: x + 0.2, y: y + 0.2, w: w - 0.4, h: h - 0.4, fontFace: FONT, valign: "top", fit: "shrink" },
+  );
+}
+
+function table(slide: Slide, rows: string[][]) {
+  const cols = Math.max(...rows.map((r) => r.length));
+  const longest = Math.max(...rows.flat().map((c) => c.length));
+  const size = cols > 4 || longest > 140 ? 11 : cols > 3 || longest > 90 ? 13 : 15;
+  const colW = (W - 2 * M) / cols;
+  slide.addTable(
+    rows.map((r, i) =>
+      Array.from({ length: cols }, (_, j) => ({
+        text: r[j] ?? "",
+        options: {
+          bold: i === 0 || j === 0,
+          color: i === 0 ? C.white : C.ink,
+          fill: { color: i === 0 ? C.euc : j === 0 ? C.eucTint : C.white },
+        },
+      })),
+    ),
+    { x: M, y: TOP, w: W - 2 * M, colW: Array(cols).fill(colW), fontFace: FONT, fontSize: size, valign: "top", border: { type: "solid", pt: 0.75, color: C.line }, margin: 0.08, autoPage: false },
+  );
+}
+
+function contentSlide(pptx: PptxGenJS, s: ExportSlide, footText: string, n: number) {
   const slide = pptx.addSlide();
   slide.background = { color: C.white };
-  const top = 1.65;
-  const bodyH = H - top - 0.8;
-  const hasPicture = Boolean(s.imageIdea.trim()) && s.layout !== "Two columns";
-  const textW = hasPicture ? 7.4 : W - 2 * M;
+  const second = (s.secondColumn ?? []).filter((t) => t.trim());
+  const idea = s.imageIdea?.trim() ?? "";
+  const side = s.layout !== "Two columns" && s.layout !== "Table" && (second.length > 0 || Boolean(idea));
+  const textW = side ? 7.4 : W - 2 * M;
+  heading(slide, s.heading, s.tag ?? LAYOUT_TAGS[s.layout]);
 
   switch (s.layout) {
     case "Question": {
-      heading(slide, s.heading, "Think about it");
-      slide.addShape("roundRect", { x: M, y: top, w: textW, h: bodyH, rectRadius: 0.2, fill: { color: C.wattleTint }, line: { color: C.wattle, width: 1.5 } });
+      slide.addShape("roundRect", { x: M, y: TOP, w: textW, h: BODY_H, rectRadius: 0.2, fill: { color: C.wattleTint }, line: { color: C.wattle, width: 1.5 } });
       const [question, ...rest] = s.bullets.filter((b) => b.trim());
+      const qSize = (question ?? "").length > 160 ? 24 : 30;
       slide.addText(
         [
-          { text: question ?? s.heading, options: { fontSize: 32, bold: true, color: C.ink, breakLine: rest.length > 0, paraSpaceAfter: 14 } },
+          { text: question ?? s.heading, options: { fontSize: qSize, bold: true, color: C.ink, breakLine: rest.length > 0, paraSpaceAfter: 14 } },
           ...rest.map((t, i) => ({ text: t, options: { fontSize: 22, color: C.soft, breakLine: i < rest.length - 1 } })),
         ],
-        { x: M + 0.4, y: top + 0.3, w: textW - 0.8, h: bodyH - 0.6, fontFace: FONT, align: "center", valign: "middle", fit: "shrink" },
+        { x: M + 0.4, y: TOP + 0.3, w: textW - 0.8, h: BODY_H - 0.6, fontFace: FONT, align: "center", valign: "middle", fit: "shrink" },
       );
       break;
     }
     case "Big idea": {
-      heading(slide, s.heading, "Big idea");
-      const [idea, ...rest] = s.bullets.filter((b) => b.trim());
+      const [first, ...rest] = s.bullets.filter((b) => b.trim());
       slide.addText(
         [
-          { text: idea ?? s.heading, options: { fontSize: 38, bold: true, color: C.eucDark, breakLine: rest.length > 0, paraSpaceAfter: 16 } },
+          { text: first ?? s.heading, options: { fontSize: (first ?? "").length > 120 ? 28 : 38, bold: true, color: C.eucDark, breakLine: rest.length > 0, paraSpaceAfter: 16 } },
           ...rest.map((t, i) => ({ text: t, options: { fontSize: 22, color: C.soft, breakLine: i < rest.length - 1 } })),
         ],
-        { x: M, y: top, w: textW, h: bodyH, fontFace: HEAD_FONT, align: "center", valign: "middle", fit: "shrink" },
+        { x: M, y: TOP, w: textW, h: BODY_H, fontFace: FONT, align: "center", valign: "middle", fit: "shrink" },
       );
       break;
     }
-    case "Activity": {
-      heading(slide, s.heading, "Your turn");
-      slide.addText(numberedRuns(s.bullets, fitSize(s.bullets, 24)), { x: M, y: top, w: textW, h: bodyH, fontFace: FONT, valign: "top", fit: "shrink" });
+    case "Activity":
+      slide.addText(numberedRuns(s.bullets, fitSize(s.bullets, 24)), { x: M, y: TOP, w: textW, h: BODY_H, fontFace: FONT, valign: "top", fit: "shrink" });
       break;
-    }
     case "Two columns": {
-      heading(slide, s.heading);
       const colW = (W - 2 * M - 0.5) / 2;
-      const size = fitSize([...s.bullets, ...s.secondColumn], 24);
-      slide.addShape("roundRect", { x: M, y: top, w: colW, h: bodyH, rectRadius: 0.15, fill: { color: C.paper }, line: { color: C.line } });
-      slide.addShape("roundRect", { x: M + colW + 0.5, y: top, w: colW, h: bodyH, rectRadius: 0.15, fill: { color: C.paper }, line: { color: C.line } });
-      slide.addText(bulletRuns(s.bullets, size), { x: M + 0.25, y: top + 0.2, w: colW - 0.5, h: bodyH - 0.4, fontFace: FONT, valign: "top", fit: "shrink" });
-      slide.addText(bulletRuns(s.secondColumn, size), { x: M + colW + 0.75, y: top + 0.2, w: colW - 0.5, h: bodyH - 0.4, fontFace: FONT, valign: "top", fit: "shrink" });
+      const size = fitSize([...s.bullets, ...second], 24);
+      for (const [k, items] of [s.bullets, second].entries()) {
+        const x = M + k * (colW + 0.5);
+        slide.addShape("roundRect", { x, y: TOP, w: colW, h: BODY_H, rectRadius: 0.15, fill: { color: C.paper }, line: { color: C.line } });
+        slide.addText(bulletRuns(items, size), { x: x + 0.25, y: TOP + 0.2, w: colW - 0.5, h: BODY_H - 0.4, fontFace: FONT, valign: "top", fit: "shrink" });
+      }
       break;
     }
-    default: {
-      heading(slide, s.heading);
-      slide.addText(bulletRuns(s.bullets, fitSize(s.bullets, 26)), { x: M, y: top, w: textW, h: bodyH, fontFace: FONT, valign: "top", fit: "shrink" });
-    }
+    case "Table":
+      if (s.table?.length) table(slide, s.table);
+      break;
+    default:
+      slide.addText(bulletRuns(s.bullets, fitSize(s.bullets, 26)), { x: M, y: TOP, w: textW, h: BODY_H, fontFace: FONT, valign: "top", fit: "shrink" });
   }
-  if (hasPicture) picture(slide, s.imageIdea, M + textW + 0.4, top, W - 2 * M - textW - 0.4, bodyH);
-  if (s.speakerNotes.trim()) slide.addNotes(s.speakerNotes);
+  if (side) {
+    const x = M + textW + 0.4;
+    const w = W - 2 * M - textW - 0.4;
+    if (second.length && idea) {
+      sidePanel(slide, s.sideTitle ?? "", second, x, TOP, w, BODY_H / 2 - 0.1);
+      picture(slide, idea, x, TOP + BODY_H / 2 + 0.1, w, BODY_H / 2 - 0.1);
+    } else if (second.length) sidePanel(slide, s.sideTitle ?? "", second, x, TOP, w, BODY_H);
+    else picture(slide, idea, x, TOP, w, BODY_H);
+  }
+  if (s.speakerNotes?.trim()) slide.addNotes(s.speakerNotes);
   footer(slide, footText, n);
 }
 
-/** Builds an editable PowerPoint (.pptx) from a slide deck. */
-export function buildPresentation(deck: SlideDeck, m: PptxMeta): PptxGenJS {
+/** Builds an editable PowerPoint (.pptx) from a deck. */
+export function buildPresentation(deck: ExportDeck, m: PptxMeta): PptxGenJS {
   const pptx = new PptxGenJS();
   pptx.layout = "LAYOUT_WIDE";
   pptx.title = deck.title;
@@ -144,38 +221,50 @@ export function buildPresentation(deck: SlideDeck, m: PptxMeta): PptxGenJS {
   pptx.company = "Lessonroo";
   pptx.author = "Lessonroo";
   const footText = `${deck.title} · ${m.levelLabel} ${m.subject}`;
+  let n = 1;
 
   // Title slide.
   const title = pptx.addSlide();
   title.background = { color: C.eucDark };
   title.addShape("rect", { x: M, y: 2.35, w: 1.4, h: 0.12, fill: { color: C.wattle }, line: { color: C.wattle } });
-  title.addText(deck.title, { x: M, y: 2.6, w: W - 2 * M, h: 1.6, fontFace: HEAD_FONT, fontSize: 48, bold: true, color: C.white, valign: "top", fit: "shrink" });
+  title.addText(deck.title, { x: M, y: 2.6, w: W - 2 * M, h: 1.6, fontFace: FONT, fontSize: 48, bold: true, color: C.white, valign: "top", fit: "shrink" });
   if (deck.subtitle.trim()) {
     title.addText(deck.subtitle, { x: M, y: 4.25, w: W - 2 * M, h: 0.8, fontFace: FONT, fontSize: 24, color: C.wattle, valign: "top", fit: "shrink" });
   }
   title.addText(`${m.levelLabel} · ${m.subject}`, { x: M, y: H - 1.2, w: W - 2 * M, h: 0.5, fontFace: FONT, fontSize: 16, color: "DCE8E1" });
-  if (deck.overview.trim()) title.addNotes(deck.overview);
+  const curriculumNotes = m.studentOnly ? [] : deck.curriculumLinks.map((l) => `${l.code}: ${[m.codeText[l.code], l.howAddressed].filter(Boolean).join(" ")}`);
+  const titleNotes = [deck.titleNotes, curriculumNotes.length ? `Victorian Curriculum 2.0\n${curriculumNotes.join("\n")}` : ""].filter((t) => t.trim()).join("\n\n");
+  if (titleNotes) title.addNotes(titleNotes);
 
   // Learning intention and success criteria.
-  const li = pptx.addSlide();
-  li.background = { color: C.white };
-  heading(li, "Today we are learning", "Learning intention");
-  li.addShape("roundRect", { x: M, y: 1.65, w: W - 2 * M, h: 1.3, rectRadius: 0.15, fill: { color: C.eucTint }, line: { color: C.eucTint } });
-  li.addText(deck.learningIntention, { x: M + 0.3, y: 1.7, w: W - 2 * M - 0.6, h: 1.2, fontFace: FONT, fontSize: 26, bold: true, color: C.eucDark, valign: "middle", fit: "shrink" });
-  li.addText("Success criteria", { x: M, y: 3.2, w: 6, h: 0.45, fontFace: FONT, fontSize: 18, bold: true, color: C.euc });
-  li.addText(
-    deck.successCriteria.filter((c) => c.trim()).map((text) => ({ text, options: { bullet: { code: "2610", indent: 26 }, fontSize: 22, color: C.ink, breakLine: true, paraSpaceAfter: 8 } })),
-    { x: M, y: 3.7, w: W - 2 * M, h: H - 3.7 - 0.8, fontFace: FONT, valign: "top", fit: "shrink" },
-  );
-  const curriculumNotes = deck.curriculumLinks.map((l) => `${l.code}: ${[m.codeText[l.code], l.howAddressed].filter(Boolean).join(" ")}`);
-  if (curriculumNotes.length) li.addNotes(`Victorian Curriculum 2.0\n${curriculumNotes.join("\n")}`);
-  footer(li, footText, 2);
+  const criteria = deck.successCriteria.filter((c) => c.trim());
+  if (deck.learningIntention.trim() || criteria.length) {
+    const li = pptx.addSlide();
+    li.background = { color: C.white };
+    heading(li, "Today we are learning", "Learning intention");
+    let y = TOP;
+    if (deck.learningIntention.trim()) {
+      li.addShape("roundRect", { x: M, y, w: W - 2 * M, h: 1.3, rectRadius: 0.15, fill: { color: C.eucTint }, line: { color: C.eucTint } });
+      li.addText(deck.learningIntention, { x: M + 0.3, y: y + 0.05, w: W - 2 * M - 0.6, h: 1.2, fontFace: FONT, fontSize: 26, bold: true, color: C.eucDark, valign: "middle", fit: "shrink" });
+      y += 1.55;
+    }
+    if (criteria.length) {
+      li.addText("Success criteria", { x: M, y, w: 6, h: 0.45, fontFace: FONT, fontSize: 18, bold: true, color: C.euc });
+      li.addText(
+        criteria.map((text) => ({ text, options: { bullet: { code: "2610", indent: 26 }, fontSize: 22, color: C.ink, breakLine: true, paraSpaceAfter: 8 } })),
+        { x: M, y: y + 0.5, w: W - 2 * M, h: H - y - 0.5 - 0.8, fontFace: FONT, valign: "top", fit: "shrink" },
+      );
+    }
+    footer(li, footText, ++n);
+  }
 
-  deck.slides.forEach((s, i) => contentSlide(pptx, s, footText, i + 3));
+  for (const s of deck.slides) contentSlide(pptx, s, footText, ++n);
   return pptx;
 }
 
-export async function deckToPptx(deck: SlideDeck, m: PptxMeta): Promise<Buffer> {
+/** Any output type as an editable PowerPoint file. */
+export async function outputToPptx(outputType: OutputType, content: Record<string, unknown>, m: PptxMeta): Promise<Buffer> {
+  const deck = outputToDeck(outputType, content, { studentOnly: Boolean(m.studentOnly), lessonMinutes: m.lessonMinutes, typeLabel: OUTPUTS[outputType].label });
   const out = await buildPresentation(deck, m).write({ outputType: "nodebuffer" });
   return out as Buffer;
 }
