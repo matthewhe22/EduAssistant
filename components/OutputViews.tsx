@@ -1,7 +1,7 @@
 "use client";
 
 import type { OutputType } from "@/lib/generator/outputs";
-import type { Activities, Assessment, LessonPlan, ParentNote, Rubric, TieredTask, UnitPlan, Worksheet } from "@/lib/generator/schema";
+import type { Activities, Assessment, LessonPlan, ParentNote, Rubric, SlideDeck, TieredTask, UnitPlan, Worksheet } from "@/lib/generator/schema";
 import { OUTPUT_UI } from "@/lib/ui/labels";
 import { LessonPlanView, type ViewProps } from "./LessonPlanView";
 import { Icon, ICONS } from "./Icon";
@@ -323,6 +323,102 @@ function ParentNoteView({ content: p, ...v }: ViewProps<ParentNote>) {
   );
 }
 
+/** A 16:9 slide preview, styled like the downloaded PowerPoint. */
+function SlideFrame({ n, tag, children, dark = false }: { n: number; tag?: string; children: React.ReactNode; dark?: boolean }) {
+  return (
+    <div
+      className={`relative flex aspect-video w-full flex-col overflow-hidden rounded-xl border p-[4%] shadow-sm ${dark ? "border-euc-dark bg-euc-dark text-white" : "border-line-strong bg-white"}`}
+      aria-label={`Slide ${n}`}
+    >
+      {tag && <p className="m-0 text-[11px] font-bold uppercase tracking-[0.12em] text-euc">{tag}</p>}
+      {children}
+      <span className={`absolute bottom-2 right-3 text-xs ${dark ? "text-[#DCE8E1]" : "text-ink-muted"}`}>{n}</span>
+      {!dark && <span className="absolute inset-x-0 bottom-0 h-1 bg-euc" />}
+    </div>
+  );
+}
+
+function SlideHeading({ children }: { children: React.ReactNode }) {
+  return <h3 className="m-0 mb-3 border-l-[5px] border-wattle pl-3 font-display text-xl font-bold leading-tight text-euc-dark sm:text-2xl">{children}</h3>;
+}
+
+const SLIDE_TAGS: Record<string, string | undefined> = { Question: "Think about it", Activity: "Your turn", "Big idea": "Big idea" };
+
+function SlidesView({ content: d, ...v }: ViewProps<SlideDeck>) {
+  return (
+    <Shell title={d.title} {...v}>
+      <div className="flex flex-col gap-3">
+        <p className="m-0 max-w-[64ch] text-ink-soft">{d.overview}</p>
+        <CurriculumLinksView links={d.curriculumLinks} codeText={v.codeText} />
+      </div>
+      <Section title="Success criteria" sectionKey="successCriteria" size="sm">
+        <p className="m-0 mb-2"><strong>Learning intention:</strong> {d.learningIntention}</p>
+        <List items={d.successCriteria} />
+      </Section>
+      <Section title="Slides" sectionKey="slides">
+        <p className="m-0 text-sm text-ink-muted print:hidden">
+          Slides 1 and 2 (title, learning intention and success criteria) are made from the details above. Download PowerPoint to change fonts, add pictures or move things around.
+        </p>
+        <ol className="m-0 grid list-none grid-cols-1 gap-5 p-0">
+          <li className="grid grid-cols-1 gap-3 md:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
+            <SlideFrame n={1} dark>
+              <div className="flex flex-1 flex-col justify-center">
+                <span className="mb-3 block h-1.5 w-16 bg-wattle" />
+                <p className="m-0 font-display text-2xl font-bold leading-tight sm:text-3xl">{d.title}</p>
+                {d.subtitle && <p className="m-0 mt-2 text-lg text-wattle">{d.subtitle}</p>}
+              </div>
+              <p className="m-0 text-sm text-[#DCE8E1]">{v.meta}</p>
+            </SlideFrame>
+            <p className="m-0 self-center text-sm text-ink-muted">Title slide</p>
+          </li>
+          <li className="grid grid-cols-1 gap-3 md:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
+            <SlideFrame n={2} tag="Learning intention">
+              <SlideHeading>Today we are learning</SlideHeading>
+              <p className="m-0 mb-3 rounded-lg bg-euc-tint px-3 py-2 font-bold text-euc-dark">{d.learningIntention}</p>
+              <p className="m-0 mb-1 text-sm font-bold text-euc">Success criteria</p>
+              <ul className="m-0 flex list-none flex-col gap-0.5 p-0 text-[15px]">{d.successCriteria.map((c, i) => <li key={i}>☐ {c}</li>)}</ul>
+            </SlideFrame>
+            <p className="m-0 self-center text-sm text-ink-muted">Learning intention and success criteria</p>
+          </li>
+          {d.slides.map((s, i) => (
+            <li key={i} className="grid break-inside-avoid grid-cols-1 gap-3 md:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
+              <SlideFrame n={i + 3} tag={SLIDE_TAGS[s.layout]}>
+                <SlideHeading>{s.heading}</SlideHeading>
+                <div className="flex min-h-0 flex-1 gap-4">
+                  {s.layout === "Two columns" ? (
+                    <div className="grid flex-1 grid-cols-2 gap-3">
+                      <div className="rounded-lg border border-line bg-paper p-2.5 text-[15px]"><List items={s.bullets} /></div>
+                      <div className="rounded-lg border border-line bg-paper p-2.5 text-[15px]"><List items={s.secondColumn} /></div>
+                    </div>
+                  ) : s.layout === "Question" || s.layout === "Big idea" ? (
+                    <div className={`flex flex-1 flex-col items-center justify-center gap-1.5 rounded-lg p-3 text-center ${s.layout === "Question" ? "border border-wattle bg-wattle-tint" : ""}`}>
+                      <p className="m-0 font-display text-lg font-bold leading-snug sm:text-xl">{s.bullets[0] ?? s.heading}</p>
+                      {s.bullets.slice(1).map((b, k) => <p key={k} className="m-0 text-[15px] text-ink-soft">{b}</p>)}
+                    </div>
+                  ) : (
+                    <div className="flex-1 text-[15px]"><List ordered={s.layout === "Activity"} items={s.bullets} /></div>
+                  )}
+                  {s.imageIdea && s.layout !== "Two columns" && (
+                    <div className="flex w-[34%] shrink-0 flex-col items-center justify-center rounded-lg border-[1.5px] border-dashed border-euc bg-euc-tint p-2 text-center text-xs text-ink-soft">
+                      <strong className="text-euc">Picture idea</strong>
+                      {s.imageIdea}
+                    </div>
+                  )}
+                </div>
+              </SlideFrame>
+              <div className="self-start rounded-xl bg-mist p-3 text-[15px]">
+                <Label tone="muted">Speaker notes · {s.layout}</Label>
+                <p className="m-0 whitespace-pre-line text-ink-soft">{s.speakerNotes || "—"}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </Section>
+      <Section title="Teacher notes" sectionKey="teacherNotes" size="sm"><List items={d.teacherNotes} /></Section>
+    </Shell>
+  );
+}
+
 export function OutputView({ outputType, content, meta, codeText = {} }: { outputType: OutputType; content: Record<string, unknown>; meta: string; codeText?: Record<string, string> }) {
   const v = { meta, codeText, typeLabel: OUTPUT_UI[outputType].label, typePill: OUTPUT_UI[outputType].pill };
   switch (outputType) {
@@ -342,5 +438,7 @@ export function OutputView({ outputType, content, meta, codeText = {} }: { outpu
       return <AssessmentView content={content as Assessment} {...v} />;
     case "parent_note":
       return <ParentNoteView content={content as ParentNote} {...v} />;
+    case "slides":
+      return <SlidesView content={content as SlideDeck} {...v} />;
   }
 }

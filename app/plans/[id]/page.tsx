@@ -30,6 +30,8 @@ export default async function PlanDetailPage({ params }: { params: { id: string 
   const second = String(row.teacher_input?.secondLevel ?? "");
   const secondLevel = (PRIMARY_LEVELS as readonly string[]).includes(second) ? (second as PrimaryLevel) : undefined;
   const basedOn = row.teacher_input?.basedOn as { title?: string; generationId?: string | null } | undefined;
+  const storedNames: unknown[] = Array.isArray(row.teacher_input?.attachmentNames) ? row.teacher_input.attachmentNames : [];
+  const uploadedNames = [row.teacher_input?.attachmentName, ...storedNames].filter((n): n is string => typeof n === "string" && n.length > 0);
   const difficulty = (DIFFICULTIES as readonly string[]).includes(row.difficulty) ? (row.difficulty as (typeof DIFFICULTIES)[number]) : "at";
 
   return (
@@ -67,7 +69,7 @@ export default async function PlanDetailPage({ params }: { params: { id: string 
           <details className="text-ink-soft">
             <summary className="cursor-pointer">Your original request</summary>
             <p className="mt-2 whitespace-pre-wrap">{String(row.teacher_input?.idea ?? "")}</p>
-            {Boolean(row.teacher_input?.attachmentName) && <p className="mt-1">Uploaded file: {String(row.teacher_input?.attachmentName)}</p>}
+            {uploadedNames.length > 0 && <p className="mt-1">Uploaded {uploadedNames.length === 1 ? "file" : "files"}: {uploadedNames.join(", ")}</p>}
           </details>
           <span className="flex-auto" />
           <DeleteButton url={`/api/generations/${row.id}`} label="Delete" confirmText={`Delete "${row.title}"? This can't be undone.`} redirectTo="/plans" />

@@ -241,6 +241,32 @@ export const ParentNoteSchema = z.object({
   conversationStarters: z.array(z.string()),
 });
 
+/* ---------------------------- Slide deck (PowerPoint) ----------------- */
+
+export const SLIDE_LAYOUTS = ["Bullets", "Two columns", "Question", "Activity", "Big idea"] as const;
+
+export const SlideDeckSchema = z.object({
+  title: z.string().describe("Student-facing deck title, shown on the title slide"),
+  subtitle: z.string().describe("Short subtitle for the title slide, e.g. the lesson focus; empty if none"),
+  overview: z.string().describe("Teacher-facing note: what the deck covers and how to use it"),
+  curriculumLinks: CurriculumLinks,
+  learningIntention: z.string().describe("'We are learning to…' statement, shown on its own slide after the title"),
+  successCriteria: z.array(z.string()).describe("3–4 'I can…' statements, shown with the learning intention"),
+  slides: z
+    .array(
+      z.object({
+        layout: z.enum(SLIDE_LAYOUTS).describe("Bullets: heading + points; Two columns: compare two lists; Question: one question for the class; Activity: task instructions; Big idea: one key statement"),
+        heading: z.string().describe("Slide heading, a few words"),
+        bullets: z.array(z.string()).describe("Student-facing points, at most 6, short enough for this year level to read (about 12 words each)"),
+        secondColumn: z.array(z.string()).describe("Right-hand column for the Two columns layout; empty otherwise"),
+        imageIdea: z.string().describe("A picture, diagram or object to show on this slide; empty if none"),
+        speakerNotes: z.string().describe("What the teacher says and does on this slide, including worked examples and questions to ask"),
+      }),
+    )
+    .describe("Content slides in teaching order (the title and learning intention slides are added automatically)"),
+  teacherNotes: z.array(z.string()).describe("Preparation, misconceptions to watch for, follow-up ideas"),
+});
+
 export type LessonPlan = z.infer<typeof LessonPlanSchema>;
 export type UnitPlan = z.infer<typeof UnitPlanSchema>;
 export type Activities = z.infer<typeof ActivitiesSchema>;
@@ -249,3 +275,4 @@ export type TieredTask = z.infer<typeof TieredTaskSchema>;
 export type Rubric = z.infer<typeof RubricSchema>;
 export type Assessment = z.infer<typeof AssessmentSchema>;
 export type ParentNote = z.infer<typeof ParentNoteSchema>;
+export type SlideDeck = z.infer<typeof SlideDeckSchema>;

@@ -4,7 +4,7 @@ import { Document, Packer, Paragraph } from "docx";
 import { describe, expect, it } from "vitest";
 import { z } from "zod";
 import type { SubjectCurriculum } from "@/lib/curriculum/types";
-import { AttachmentError, MAX_ATTACHMENT_TEXT, prepareAttachment } from "@/lib/generator/attachments";
+import { AttachmentError, MAX_ATTACHMENT_TEXT, MAX_TOTAL_ATTACHMENT_TEXT, prepareAttachment, prepareAttachments } from "@/lib/generator/attachments";
 import { buildCurriculumContext, buildTeacherRequest, classLevelLabel, resolveItemCount } from "@/lib/generator/context";
 import { availableFixes, rescaleMinutes } from "@/lib/generator/fixes";
 import { sectionTracker } from "@/lib/generator/stream";
@@ -14,10 +14,12 @@ import { OUTPUT_TYPES, OUTPUTS } from "@/lib/generator/outputs";
 import { SYSTEM_PROMPT } from "@/lib/generator/pedagogy";
 import { GenerateRequestSchema, type GenerateRequest } from "@/lib/generator/schema";
 import { validateOutput } from "@/lib/generator/validate";
+import JSZip from "jszip";
 import { docxFilename, outputToDocx } from "@/lib/export/docx";
+import { deckToPptx, pptxFilename } from "@/lib/export/pptx";
 import { makePdf } from "./fixtures/pdf";
 import { samplePlan } from "./fixtures/sample-plan";
-import { SAMPLES } from "./fixtures/samples";
+import { SAMPLES, slideDeck } from "./fixtures/samples";
 
 const load = (slug: string) =>
   JSON.parse(readFileSync(path.join(__dirname, `../data/curriculum/vc2/${slug}.json`), "utf8")) as SubjectCurriculum;
@@ -77,14 +79,37 @@ describe("buildTeacherRequest", () => {
     expect(resolveItemCount({ outputType: "lesson_plan", itemCount: 5 })).toBe(0);
   });
 
-  it("includes the uploaded plan's text", () => {
-    const withText = buildTeacherRequest(request(), maths, mathsCtx, { name: "old.docx", text: "My old plan" });
-    expect(withText).toContain('existing plan ("old.docx")');
-    expect(withText).toContain("<uploaded_plan>\nMy old plan\n</uploaded_plan>");
+  it("includes the text of every reference file", () => {
+    const one = buildTeacherRequest(request(), maths, mathsCtx, [{ name: "old.docx", text: "My old plan" }]);
+    expect(one).toContain("uploaded a file as reference material");
+    expect(one).toContain('<reference_material name="old.docx">\nMy old plan\n</reference_material>');
+    const two = buildTeacherRequest(request(), maths, mathsCtx, [
+      { name: "plan.pdf", text: "Plan text" },
+      { name: 'deck "v2".pptx', text: "Slide 1\nHalves" },
+    ]);
+    expect(two).toContain("uploaded 2 files");
+    expect(two).toContain(`<reference_material name="deck 'v2'.pptx">\nSlide 1\nHalves\n</reference_material>`);
+    expect(buildTeacherRequest(request(), maths, mathsCtx)).not.toContain("reference_material");
+  });
+
+  it("asks for a slide deck without the automatic slides", () => {
+    const text = buildTeacherRequest(request({ outputType: "slides", itemCount: 8 }), maths, mathsCtx);
+    expect(text).toContain("exactly 8 content slides");
+    expect(text).toContain("speakerNotes");
+    expect(resolveItemCount({ outputType: "slides", itemCount: undefined })).toBe(10);
   });
 });
 
 describe("request schema", () => {
+  it("accepts up to five reference files, including PowerPoint", () => {
+    const base = { level: "3", subjectSlug: "mathematics", difficulty: "at", lessonMinutes: 60, idea: "" };
+    const pptx = { name: "deck.pptx", mediaType: "application/vnd.openxmlformats-officedocument.presentationml.presentation", data: "aGk=" };
+    expect(GenerateRequestSchema.safeParse({ ...base, attachments: [pptx] }).success).toBe(true);
+    expect(GenerateRequestSchema.safeParse({ ...base, attachments: Array(5).fill(pptx) }).success).toBe(true);
+    expect(GenerateRequestSchema.safeParse({ ...base, attachments: Array(6).fill(pptx) }).success).toBe(false);
+    expect(GenerateRequestSchema.safeParse({ ...base, attachment: pptx, attachments: Array(5).fill(pptx) }).success).toBe(false);
+  });
+
   it("needs an idea or an attachment", () => {
     const base = { level: "3", subjectSlug: "mathematics", difficulty: "at", lessonMinutes: 60 };
     expect(GenerateRequestSchema.safeParse({ ...base, idea: " " }).success).toBe(false);
@@ -111,6 +136,20 @@ describe.each(OUTPUT_TYPES)("output type %s", (type) => {
   it("exports to Word", async () => {
     const buf = await outputToDocx(type, SAMPLES[type], { subject: "Mathematics", levelLabel: "Level 3", lessonMinutes: 60, codeText: { VC2M3N03: "fractions" } });
     expect(buf.subarray(0, 2).toString()).toBe("PK");
+  });
+});
+
+describe("PowerPoint export", () => {
+  it("makes a title slide, a learning intention slide and one slide per content slide, with notes", async () => {
+    const buf = await deckToPptx(slideDeck, { subject: "Mathematics", levelLabel: "Year 3", lessonMinutes: 60, codeText: { VC2M3N03: "fractions" } });
+    expect(buf.subarray(0, 2).toString()).toBe("PK");
+    const zip = await JSZip.loadAsync(buf);
+    const slides = Object.keys(zip.files).filter((f) => /^ppt\/slides\/slide\d+\.xml$/.test(f));
+    expect(slides).toHaveLength(slideDeck.slides.length + 2);
+    expect(await zip.file("ppt/slides/slide2.xml")!.async("string")).toContain("We are learning to name halves and quarters.");
+    const notes = await Promise.all(Object.keys(zip.files).filter((f) => /^ppt\/notesSlides\/notesSlide\d+\.xml$/.test(f)).map((f) => zip.file(f)!.async("string")));
+    expect(notes.join(" ")).toContain("Take three answers.");
+    expect(notes.join(" ")).toContain("VC2M3N03: fractions");
   });
 });
 
@@ -154,6 +193,25 @@ describe("attachments", () => {
     expect(out.text).toContain("equivalent fractions");
   });
 
+  it("extracts slide text and speaker notes from PowerPoint files", async () => {
+    const buf = await deckToPptx(slideDeck, { subject: "Mathematics", levelLabel: "Year 3", lessonMinutes: 60, codeText: {} });
+    const out = await prepareAttachment({ name: "d.pptx", mediaType: "application/vnd.openxmlformats-officedocument.presentationml.presentation", data: b64(buf) });
+    expect(out.text).toMatch(/^Slide 1\nEqual parts\nHalves and quarters/);
+    expect(out.text).toContain("Slide 3\nTHINK ABOUT IT\nWarm up\nIs this pizza shared fairly?");
+    expect(out.text).toContain("Speaker notes: Fold a paper strip & show it.");
+    expect(out.text.indexOf("Slide 4")).toBeLessThan(out.text.indexOf("Slide 7"));
+    await expect(
+      prepareAttachment({ name: "x.pptx", mediaType: "application/vnd.openxmlformats-officedocument.presentationml.presentation", data: b64("nope") }),
+    ).rejects.toThrow(/valid PowerPoint/);
+  });
+
+  it("limits the combined length of several files", async () => {
+    const half = b64("y".repeat(MAX_TOTAL_ATTACHMENT_TEXT / 2 - 10));
+    const files = [0, 1].map((i) => ({ name: `f${i}.txt`, mediaType: "text/plain" as const, data: half }));
+    expect((await prepareAttachments(files)).map((f) => f.name)).toEqual(["f0.txt", "f1.txt"]);
+    await expect(prepareAttachments([...files, { name: "f2.txt", mediaType: "text/plain", data: half }])).rejects.toThrow(/Together your files are too long/);
+  });
+
   it("rejects empty, invalid or overly long files instead of truncating", async () => {
     await expect(prepareAttachment({ name: "e.txt", mediaType: "text/plain", data: "" })).rejects.toBeInstanceOf(AttachmentError);
     await expect(
@@ -173,6 +231,7 @@ describe("prompt and helpers", () => {
 
   it("makes a safe filename", () => {
     expect(docxFilename('Fractions: "halves" & quarters!')).toBe("Fractions-halves-quarters.docx");
+    expect(pptxFilename('Fractions: "halves" & quarters!')).toBe("Fractions-halves-quarters.pptx");
   });
 });
 

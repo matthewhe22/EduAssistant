@@ -4,10 +4,10 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { postForResult } from "@/lib/client/ndjson";
 import { PRIMARY_LEVELS, type PrimaryLevel } from "@/lib/curriculum/types";
 import { OUTPUT_TYPES, OUTPUTS, type OutputType } from "@/lib/generator/outputs";
-import { ATTACHMENT_TYPES, DIFFICULTIES, LESSON_LENGTHS, MAX_ATTACHMENT_BYTES, type Attachment } from "@/lib/generator/schema";
+import { ATTACHMENT_TYPES, DIFFICULTIES, LESSON_LENGTHS, MAX_ATTACHMENT_BYTES, MAX_ATTACHMENTS, type Attachment } from "@/lib/generator/schema";
 import type { FormSettings } from "@/lib/library/settings";
 import { exampleIdeas } from "@/lib/ui/examples";
-import { classLabel, DIFFICULTY_UI, OUTPUT_UI, progressMessage, YEAR_LABELS, YEAR_SHORT } from "@/lib/ui/labels";
+import { classLabel, DIFFICULTY_UI, OUTPUT_UI, progressMessage, typeNoun, YEAR_LABELS, YEAR_SHORT } from "@/lib/ui/labels";
 import { Icon, ICONS } from "./Icon";
 import { Notice } from "./Page";
 import { ResultPanel, type ResultContext, type ResultState, type SourceMaterial } from "./ResultPanel";
@@ -35,6 +35,7 @@ interface CdOption {
 const EXTENSION_TYPES: Record<string, keyof typeof ATTACHMENT_TYPES> = {
   pdf: "application/pdf",
   docx: "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  pptx: "application/vnd.openxmlformats-officedocument.presentationml.presentation",
   txt: "text/plain",
   md: "text/markdown",
 };
@@ -42,8 +43,11 @@ const EXTENSION_TYPES: Record<string, keyof typeof ATTACHMENT_TYPES> = {
 async function readAttachment(file: File): Promise<Attachment> {
   const ext = file.name.split(".").pop()?.toLowerCase() ?? "";
   const mediaType = EXTENSION_TYPES[ext];
-  if (!mediaType) throw new Error("Upload a PDF, Word (.docx) or text file.");
-  if (file.size > MAX_ATTACHMENT_BYTES) throw new Error("That file is larger than 5 MB.");
+  if (!mediaType) {
+    if (ext === "ppt" || ext === "doc") throw new Error(`"${file.name}" is an older Office file. Save it as .${ext}x first, then upload it again.`);
+    throw new Error(`"${file.name}" can't be used. Upload a PDF, Word (.docx), PowerPoint (.pptx) or text file.`);
+  }
+  if (file.size > MAX_ATTACHMENT_BYTES) throw new Error(`"${file.name}" is larger than 5 MB.`);
   const bytes = new Uint8Array(await file.arrayBuffer());
   let binary = "";
   for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
@@ -106,7 +110,8 @@ export function PlanForm({
   const [templates, setTemplates] = useState(initialTemplates);
   const [templateMsg, setTemplateMsg] = useState(initialNote ?? "");
   const pendingFocus = useRef<string[] | null>(initial.focusCodes ?? null);
-  const [file, setFile] = useState<File | null>(null);
+  const [files, setFiles] = useState<File[]>([]);
+  const [fileError, setFileError] = useState("");
   const [cds, setCds] = useState<CdOption[]>([]);
   const [focusCodes, setFocusCodes] = useState<string[]>([]);
   const [status, setStatus] = useState<"idle" | "generating" | "done" | "error">("idle");
@@ -142,7 +147,7 @@ export function PlanForm({
     setSource(src);
     setOutputType(type);
     setIdea(newIdea ?? "");
-    setFile(null);
+    setFiles([]);
     setStatus("idle");
     setTemplateMsg("");
     requestAnimationFrame(() => topRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }));
@@ -219,8 +224,8 @@ export function PlanForm({
       setStatus("error");
       return;
     }
-    if (idea.trim().length < 5 && !file && !source) {
-      setError("Describe your idea in a few words, or upload a plan you already have.");
+    if (idea.trim().length < 5 && !files.length && !source) {
+      setError("Describe your idea in a few words, or upload reference material.");
       setStatus("error");
       return;
     }
@@ -231,7 +236,7 @@ export function PlanForm({
     const ctrl = new AbortController();
     abortRef.current = ctrl;
     try {
-      const attachment = file ? await readAttachment(file) : undefined;
+      const attachments = await Promise.all(files.map(readAttachment));
       const event = await postForResult(
         "/api/generate",
         {
@@ -245,7 +250,7 @@ export function PlanForm({
           itemCount,
           focusCodes,
           classContext,
-          attachment,
+          attachments,
           basedOn: source ?? undefined,
         },
         (characters, section) => setProgress({ characters, section }),
@@ -278,9 +283,9 @@ export function PlanForm({
             <div className="flex flex-wrap items-center gap-3 rounded-2xl border-2 border-euc bg-euc-tint px-5 py-4">
               <span className="text-euc"><Icon d={ICONS.link} size={22} /></span>
               <p className="m-0 flex-[1_1_260px]">
-                <strong>Making a {OUTPUT_UI[outputType].label.toLowerCase()} to go with “{source.title}”</strong>
+                <strong>Making a {typeNoun(outputType)} to go with “{source.title}”</strong>
                 <span className="block text-sm text-ink-soft">
-                  It will match that {OUTPUT_UI[source.outputType].label.toLowerCase()}. Check the settings below, add any notes, then press the button.
+                  It will match that {typeNoun(source.outputType)}. Check the settings below, add any notes, then press the button.
                 </span>
               </p>
               <button type="button" className="btn-outline bg-white text-sm" onClick={() => setSource(null)}>Don&apos;t link</button>
@@ -375,7 +380,7 @@ export function PlanForm({
           </Step>
 
           <Step n={2} title="What do you need?">
-            <div className="grid grid-cols-2 gap-2.5 md:grid-cols-4">
+            <div className="grid grid-cols-2 gap-2.5 md:grid-cols-3">
               {OUTPUT_TYPES.map((t) => {
                 const ui = OUTPUT_UI[t];
                 const sel = t === outputType;
@@ -432,21 +437,56 @@ export function PlanForm({
                 </div>
               </div>
             )}
-            <label className="relative mt-3.5 flex cursor-pointer flex-wrap items-center gap-3 rounded-xl border-[1.5px] border-dashed border-[#9AA39A] bg-paper p-4 hover:bg-mist">
-              <span className="text-euc"><Icon d={ICONS.upload} size={24} strokeWidth={1.8} /></span>
-              <span className="flex-[1_1_260px]">
-                <span className="block font-bold">{file ? file.name : "Or start from a plan you already have"}</span>
-                <span className="block text-sm text-ink-muted">
-                  {file ? "This file will be used as the starting point." : "PDF, Word or text file, up to 5 MB. Your structure and good ideas are kept."}
+            <div className="mt-3.5 flex flex-col gap-2">
+              <label className="relative flex cursor-pointer flex-wrap items-center gap-3 rounded-xl border-[1.5px] border-dashed border-[#9AA39A] bg-paper p-4 hover:bg-mist">
+                <span className="text-euc"><Icon d={ICONS.upload} size={24} strokeWidth={1.8} /></span>
+                <span className="flex-[1_1_260px]">
+                  <span className="block font-bold">{files.length ? "Add more reference material" : "Add reference material (optional)"}</span>
+                  <span className="block text-sm text-ink-muted">
+                    An existing plan, slides, a reading or a worksheet. PDF, Word, PowerPoint or text, up to {MAX_ATTACHMENTS} files of 5 MB each. Your structure and good ideas are kept.
+                  </span>
                 </span>
-              </span>
-              {file ? (
-                <button type="button" className="btn-outline text-sm" onClick={(e) => { e.preventDefault(); setFile(null); }}>Remove</button>
-              ) : (
-                <span className="btn-outline pointer-events-none text-sm">Choose file</span>
+                <span className="btn-outline pointer-events-none text-sm">Choose files</span>
+                <input
+                  type="file"
+                  multiple
+                  accept={Object.keys(EXTENSION_TYPES).map((e) => `.${e}`).join(",")}
+                  className="sr-only"
+                  disabled={files.length >= MAX_ATTACHMENTS}
+                  onChange={(e) => {
+                    const picked = Array.from(e.target.files ?? []);
+                    e.target.value = "";
+                    const problems: string[] = [];
+                    const ok = picked.filter((f) => {
+                      const ext = f.name.split(".").pop()?.toLowerCase() ?? "";
+                      if (!EXTENSION_TYPES[ext]) problems.push(ext === "ppt" || ext === "doc" ? `"${f.name}" is an older Office file: save it as .${ext}x first.` : `"${f.name}" isn't a PDF, Word, PowerPoint or text file.`);
+                      else if (f.size > MAX_ATTACHMENT_BYTES) problems.push(`"${f.name}" is larger than 5 MB.`);
+                      else return true;
+                      return false;
+                    });
+                    const next = [...files, ...ok.filter((f) => !files.some((x) => x.name === f.name && x.size === f.size))];
+                    if (next.length > MAX_ATTACHMENTS) problems.push(`You can add up to ${MAX_ATTACHMENTS} files.`);
+                    setFiles(next.slice(0, MAX_ATTACHMENTS));
+                    setFileError(problems.join(" "));
+                  }}
+                />
+              </label>
+              {files.length > 0 && (
+                <ul className="m-0 flex list-none flex-col gap-1.5 p-0" aria-label="Reference files">
+                  {files.map((f, i) => (
+                    <li key={`${f.name}-${i}`} className="flex items-center gap-2.5 rounded-lg border border-line bg-white px-3 py-2">
+                      <span className="rounded bg-euc-tint px-1.5 py-0.5 font-mono text-xs font-bold uppercase text-euc-dark">{f.name.split(".").pop()}</span>
+                      <span className="min-w-0 flex-1 truncate text-[15px]">{f.name}</span>
+                      <span className="text-sm text-ink-muted">{f.size < 1024 * 1024 ? `${Math.max(1, Math.round(f.size / 1024))} KB` : `${(f.size / 1024 / 1024).toFixed(1)} MB`}</span>
+                      <button type="button" className="text-sm font-bold text-euc-dark underline" onClick={() => setFiles((prev) => prev.filter((_, j) => j !== i))}>
+                        Remove
+                      </button>
+                    </li>
+                  ))}
+                </ul>
               )}
-              <input type="file" accept=".pdf,.docx,.txt,.md" className="sr-only" onChange={(e) => setFile(e.target.files?.[0] ?? null)} />
-            </label>
+              {fileError && <p className="m-0 text-sm text-alert" role="alert">{fileError}</p>}
+            </div>
           </Step>
 
           <Step n={4} title="Fine-tune" note="optional">
@@ -547,7 +587,9 @@ export function PlanForm({
               <dt className="text-ink-muted">Pitch</dt>
               <dd>{DIFFICULTY_UI[difficulty]}</dd>
               <dt className="text-ink-muted">From</dt>
-              <dd className="truncate">{source ? `“${source.title}”` : file ? file.name : idea.trim() ? "Your idea" : "—"}</dd>
+              <dd className="truncate">
+                {[source ? `“${source.title}”` : idea.trim() ? "Your idea" : "", files.length ? `${files.length} reference file${files.length === 1 ? "" : "s"}` : ""].filter(Boolean).join(" + ") || "—"}
+              </dd>
               {modelLabel && (
                 <>
                   <dt className="text-ink-muted">Model</dt>

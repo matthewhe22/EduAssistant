@@ -34,11 +34,15 @@ aligned to the **Victorian Curriculum F–10 Version 2.0** and the **Victorian T
 | Assessment rubric | Task + 4-level rubric with "Achieving" matching the achievement standard |
 | Quiz / assessment | Questions with marks, answers, codes, marking guide and next steps |
 | Parent / newsletter note | Family-friendly summary, home activities, conversation starters |
+| PowerPoint slides | 4–25 classroom slides in VTLM 2.0 order with speaker notes and picture ideas. Downloads as an editable `.pptx` |
 
-You can also **upload an existing plan** (PDF, Word or text, up to 5 MB) instead of, or as well
-as, typing an idea. Once something is generated, you can **refine any single section** with an
+You can also **upload reference material** (up to 5 files: PDF, Word `.docx`, PowerPoint `.pptx` or
+text, 5 MB each), such as an existing plan, slides, a reading or a worksheet, instead of, or as well
+as, typing an idea. Slide text and speaker notes are read from PowerPoint files. Once something is generated, you can **refine any single section** with an
 instruction ("make the guided practice more hands-on"). Only that section is replaced, and the
-change is saved to your library. Everything exports to Word or prints.
+change is saved to your library. Everything exports to Word or prints. Slide decks can be edited in the app (each slide's heading,
+points, layout and speaker notes) and then downloaded as a PowerPoint file to add pictures or
+change the design.
 
 ## Library, templates, feedback and costs (needs the database)
 
@@ -70,7 +74,7 @@ change is saved to your library. Everything exports to Word or prints.
    validated with zod; an invalid reply gets one automatic repair attempt. Victorian rules (VTLM
    2.0, reading and maths positions) are in `lib/generator/pedagogy.ts`. The stable prefix (system
    prompt, schema, curriculum) comes first so providers can reuse their prompt cache. Uploaded
-   PDFs, Word and text files are converted to text on the server, so they work with any model.
+   PDFs, Word, PowerPoint and text files are converted to text on the server, so they work with any model.
 4. The output is validated: curriculum codes that are not in the dataset (anywhere in the output)
    are removed and flagged, and lesson timings, quiz marks and rubric tables are checked. It is then saved to the teacher's library (Postgres) and
    can be exported to Word or printed.
@@ -81,7 +85,7 @@ change is saved to your library. Everything exports to Word or prints.
 app/                         Next.js routes: /plan (create), /plans (library), /curriculum, /login, /api/generate, /api/refine, /api/export/docx
 components/                  Planner form, result panel (refine), views for each output type
 lib/generator/               Output types (outputs/), curriculum context, prompts, Claude call, uploads, validation
-lib/export/                  Word (.docx) export
+lib/export/                  Word (.docx) and PowerPoint (.pptx) export
 lib/db, lib/auth, lib/data/  Postgres pool, sessions/passwords, per-teacher queries
 lib/curriculum/              Types + loaders for the curriculum dataset
 data/curriculum/vc2/         Victorian Curriculum 2.0, F–6, one JSON file per subject (generated)

@@ -1,10 +1,10 @@
 import { getSubject } from "@/lib/curriculum";
-import { prepareAttachment } from "@/lib/generator/attachments";
+import { prepareAttachments } from "@/lib/generator/attachments";
 import { resolveAiConfig } from "@/lib/ai/config";
 import { generateStructured } from "@/lib/generator/llm";
 import { buildCurriculumContext, buildTeacherRequest } from "@/lib/generator/context";
 import { OUTPUTS } from "@/lib/generator/outputs";
-import { GenerateRequestSchema, type StoredTeacherInput } from "@/lib/generator/schema";
+import { GenerateRequestSchema, requestAttachments, type StoredTeacherInput } from "@/lib/generator/schema";
 import { ndjsonResponse, sectionTracker } from "@/lib/generator/stream";
 import { validateOutput } from "@/lib/generator/validate";
 import { insertGeneration } from "@/lib/data/generations";
@@ -39,13 +39,14 @@ export async function POST(request: Request) {
 
   return ndjsonResponse(async (send, progress) => {
     const ai = await resolveAiConfig(db, user?.id ?? null);
-    const attachment = req.attachment ? await prepareAttachment(req.attachment) : undefined;
+    const files = requestAttachments(req);
+    const attachments = await prepareAttachments(files);
     const track = sectionTracker(Object.keys(def.sections));
     const result = await generateStructured({
       schema: def.schema,
       ai,
       curriculumText: ctx.text,
-      requestText: buildTeacherRequest(req, subject, ctx, attachment),
+      requestText: buildTeacherRequest(req, subject, ctx, attachments),
       onProgress: (n, text) => progress(n, track(text)),
       signal: request.signal,
     });
@@ -53,10 +54,10 @@ export async function POST(request: Request) {
 
     let generationId: string | null = null;
     if (db && user) {
-      const { attachment: _file, basedOn, ...rest } = req;
+      const { attachment: _file, attachments: _files, basedOn, ...rest } = req;
       const teacherInput: StoredTeacherInput = {
         ...rest,
-        ...(req.attachment ? { attachmentName: req.attachment.name } : {}),
+        ...(files.length ? { attachmentNames: files.map((f) => f.name) } : {}),
         ...(basedOn ? { basedOn: { outputType: basedOn.outputType, title: basedOn.title, generationId: basedOn.generationId ?? null } } : {}),
       };
       try {

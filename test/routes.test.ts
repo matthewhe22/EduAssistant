@@ -60,6 +60,26 @@ describe("POST /api/generate (local mode, no Supabase)", () => {
     expect(mocked.mock.calls[0][0].requestText).toContain("Old plan: halves and quarters");
   });
 
+  it("sends the text of several reference files to the model", async () => {
+    mocked.mockResolvedValue({ content: SAMPLES.slides, model: "m", usage } as never);
+    const pdf = makePdf("Reading: fractions in the kitchen").toString("base64");
+    const txt = Buffer.from("Worksheet: shade one quarter").toString("base64");
+    const ev = await events(
+      await post(generate, {
+        ...body,
+        outputType: "slides",
+        attachments: [
+          { name: "reading.pdf", mediaType: "application/pdf", data: pdf },
+          { name: "sheet.txt", mediaType: "text/plain", data: txt },
+        ],
+      }),
+    );
+    const text = mocked.mock.calls[0][0].requestText;
+    expect(text).toContain("Reading: fractions in the kitchen");
+    expect(text).toContain('<reference_material name="sheet.txt">');
+    expect(ev.at(-1)).toMatchObject({ type: "result", outputType: "slides" });
+  });
+
   it("asks for an API key when none is configured", async () => {
     delete process.env.TENON_API_KEY;
     const ev = await events(await post(generate, body));
