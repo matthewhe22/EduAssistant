@@ -8,7 +8,7 @@ import { OUTPUT_TYPES, OUTPUTS, type OutputType } from "@/lib/generator/outputs"
 import type { DIFFICULTIES, UnitPlan, Usage } from "@/lib/generator/schema";
 import { refreshWarnings } from "@/lib/generator/validate";
 import { formatUsd } from "@/lib/pricing";
-import { classLabel, OUTPUT_UI, progressMessage } from "@/lib/ui/labels";
+import { classLabel, OUTPUT_UI, progressMessage, typeNoun } from "@/lib/ui/labels";
 import { SectionEditor } from "./Editor";
 import { FeedbackBar, type Feedback } from "./FeedbackBar";
 import { Icon, ICONS } from "./Icon";
@@ -47,21 +47,22 @@ export interface SourceMaterial {
 const STUDENT_COPY_TYPES: OutputType[] = ["worksheet", "assessment", "differentiation"];
 
 /** Fields edited together under "Edit title" when they aren't sections of their own. */
-const HEADER_FIELDS = ["title", "overview", "learningIntention"];
+const HEADER_FIELDS = ["title", "subtitle", "overview", "learningIntention"];
 
 /** Sections hidden in a student copy. */
 const TEACHER_ONLY = ["teacherNotes", "markingGuide", "nextSteps", "ealDAdjustments", "commonTask"];
 
 /** Sensible follow-ons for each type, most useful first. */
 const MATCHES: Record<OutputType, OutputType[]> = {
-  lesson_plan: ["worksheet", "differentiation", "assessment", "activities", "rubric", "parent_note"],
-  unit_plan: ["assessment", "rubric", "parent_note", "worksheet"],
-  activities: ["worksheet", "lesson_plan", "parent_note"],
-  worksheet: ["differentiation", "assessment", "lesson_plan"],
+  lesson_plan: ["slides", "worksheet", "differentiation", "assessment", "activities", "rubric", "parent_note"],
+  unit_plan: ["assessment", "rubric", "parent_note", "worksheet", "slides"],
+  activities: ["worksheet", "slides", "lesson_plan", "parent_note"],
+  worksheet: ["differentiation", "assessment", "slides", "lesson_plan"],
   differentiation: ["worksheet", "assessment", "lesson_plan"],
   rubric: ["assessment", "worksheet", "parent_note"],
   assessment: ["rubric", "worksheet", "differentiation"],
   parent_note: ["worksheet", "activities"],
+  slides: ["worksheet", "lesson_plan", "assessment", "differentiation", "parent_note"],
 };
 
 /** Idea text for expanding one unit plan lesson into a full lesson plan. */
@@ -397,7 +398,7 @@ export function ResultPanel({
 
       <div className="flex flex-wrap items-start gap-8">
         <nav aria-label="Sections" className="top-6 lg:sticky flex max-w-[260px] flex-[1_1_220px] flex-col gap-0.5 text-[15px] print:hidden">
-          <p className="eyebrow m-0 mb-2 text-ink-muted">In this {OUTPUTS[result.outputType].label.toLowerCase().replace(/ \/.*$/, "")}</p>
+          <p className="eyebrow m-0 mb-2 text-ink-muted">In this {result.outputType === "slides" ? typeNoun("slides") : OUTPUTS[result.outputType].label.toLowerCase().replace(/ \/.*$/, "")}</p>
           {Object.entries(def.sections).filter(([key]) => !(studentCopy && hasStudentCopy && TEACHER_ONLY.includes(key))).map(([key, label]) => (
             <a
               key={key}
@@ -426,7 +427,7 @@ export function ResultPanel({
           {canMatch && (
             <section aria-labelledby="match-heading" className="card mt-6 flex flex-col gap-3 p-5 print:hidden">
               <h2 id="match-heading" className="m-0 text-xl font-bold">Make something to go with it</h2>
-              <p className="m-0 text-[15px] text-ink-muted">Same class and settings, built from this {OUTPUT_UI[result.outputType].label.toLowerCase()} so the vocabulary and examples match.</p>
+              <p className="m-0 text-[15px] text-ink-muted">Same class and settings, built from this {typeNoun(result.outputType)} so the vocabulary and examples match.</p>
               <div className="flex flex-wrap gap-2">
                 {OUTPUT_TYPES.filter((t) => MATCHES[result.outputType].includes(t))
                   .sort((a, b) => MATCHES[result.outputType].indexOf(a) - MATCHES[result.outputType].indexOf(b))

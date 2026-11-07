@@ -95,7 +95,7 @@ describe("migrations", () => {
   it("apply once and are idempotent", async () => {
     await migrate(db, () => {});
     const { rows } = await db.query<{ name: string }>("select name from schema_migrations");
-    expect(rows.map((r) => r.name)).toEqual(["001_init.sql", "002_ai_settings.sql", "003_generation_versions.sql", "004_invitations.sql"]);
+    expect(rows.map((r) => r.name)).toEqual(["001_init.sql", "002_ai_settings.sql", "003_generation_versions.sql", "004_invitations.sql", "005_slides_output.sql"]);
   });
 });
 

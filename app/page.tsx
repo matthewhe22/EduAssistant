@@ -155,7 +155,7 @@ export default async function HomePage() {
                 <StepCard n={1} title="Tell it about your class" text="Pick the year, or two years for a composite class, the subject and how long the lesson runs.">
                   <StepYears />
                 </StepCard>
-                <StepCard n={2} title="Say what you need" text="Choose a lesson plan, worksheet, quiz or any of eight kinds of material. Then type your idea, or upload the plan you already have.">
+                <StepCard n={2} title="Say what you need" text="Choose a lesson plan, worksheet, quiz or PowerPoint slides or any of nine kinds of material. Then type your idea, and upload a plan, slides or a reading for reference.">
                   <StepPicks />
                 </StepCard>
                 <StepCard n={3} title="Make it yours" text="Edit any word, have the AI rewrite just one section, and undo anything. Print it, or download it as a Word file.">
@@ -209,7 +209,7 @@ export default async function HomePage() {
           <section id="make" aria-labelledby="make-title" className="mx-auto flex max-w-[1240px] flex-col gap-10 px-6 pb-24 pt-[88px]">
             <div className="flex max-w-[36em] flex-col gap-3">
               <p className={EYEBROW}>What you can make</p>
-              <h2 id="make-title" className={H2}>Eight kinds of teaching material.</h2>
+              <h2 id="make-title" className={H2}>Nine kinds of teaching material.</h2>
               <p className="m-0 text-ink-soft">All of them are linked to the Victorian Curriculum, and you can make several from the same idea.</p>
             </div>
             <ul className="m-0 flex list-none flex-wrap gap-4 p-0">

@@ -1,5 +1,5 @@
 import type { OutputType } from "@/lib/generator/outputs";
-import type { Activities, Assessment, ParentNote, Rubric, TieredTask, UnitPlan, Worksheet } from "@/lib/generator/schema";
+import type { Activities, Assessment, ParentNote, Rubric, SlideDeck, TieredTask, UnitPlan, Worksheet } from "@/lib/generator/schema";
 import { samplePlan } from "./sample-plan";
 
 const links = [{ code: "VC2M3N03", howAddressed: "Fractions" }];
@@ -107,6 +107,23 @@ const parentNote: ParentNote = {
   conversationStarters: ["What is a quarter?"],
 };
 
+export const slideDeck: SlideDeck = {
+  title: "Equal parts",
+  subtitle: "Halves and quarters",
+  overview: "A short deck for the explicit teaching part of the lesson.",
+  curriculumLinks: links,
+  learningIntention: "We are learning to name halves and quarters.",
+  successCriteria: ["I can split a shape into equal parts", "I can name a half and a quarter"],
+  slides: [
+    { layout: "Question", heading: "Warm up", bullets: ["Is this pizza shared fairly?", "Tell your partner why."], secondColumn: [], imageIdea: "A pizza cut into unequal slices", speakerNotes: "Take three answers." },
+    { layout: "Bullets", heading: "Equal parts", bullets: ["Equal parts are the same size", "2 equal parts are halves"], secondColumn: [], imageIdea: "", speakerNotes: "Fold a paper strip & show it." },
+    { layout: "Two columns", heading: "Equal or not?", bullets: ["Equal"], secondColumn: ["Not equal"], imageIdea: "", speakerNotes: "" },
+    { layout: "Activity", heading: "Fold it", bullets: ["Fold your strip in half", "Fold it again", "Label each part"], secondColumn: [], imageIdea: "Paper strips", speakerNotes: "Circulate and check." },
+    { layout: "Big idea", heading: "Remember", bullets: ["Fractions are equal parts of a whole"], secondColumn: [], imageIdea: "", speakerNotes: "" },
+  ],
+  teacherNotes: ["Watch for unequal folds"],
+};
+
 export const SAMPLES: Record<OutputType, Record<string, unknown>> = {
   lesson_plan: samplePlan,
   unit_plan: unitPlan,
@@ -116,4 +133,5 @@ export const SAMPLES: Record<OutputType, Record<string, unknown>> = {
   rubric,
   assessment,
   parent_note: parentNote,
+  slides: slideDeck,
 };

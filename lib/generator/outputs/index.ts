@@ -5,6 +5,7 @@ import {
   LessonPlanSchema,
   ParentNoteSchema,
   RubricSchema,
+  SlideDeckSchema,
   TieredTaskSchema,
   UnitPlanSchema,
   WorksheetSchema,
@@ -20,6 +21,7 @@ export const OUTPUT_TYPES = [
   "rubric",
   "assessment",
   "parent_note",
+  "slides",
 ] as const;
 export type OutputType = (typeof OUTPUT_TYPES)[number];
 
@@ -169,6 +171,20 @@ export const OUTPUTS: Record<OutputType, OutputDefinition> = {
       keyVocabulary: "Key vocabulary",
       homeActivities: "Home activities",
       conversationStarters: "Conversation starters",
+    },
+  },
+  slides: {
+    label: "PowerPoint slides",
+    description: "A classroom slide deck with speaker notes, downloadable as an editable PowerPoint",
+    schema: SlideDeckSchema,
+    usesLessonLength: true,
+    itemCount: { label: "Number of slides", default: 10, min: 4, max: 25 },
+    instructions: ({ lessonMinutes, itemCount }) =>
+      `Write a classroom slide deck with exactly ${itemCount} content slides for a ${lessonMinutes}-minute lesson. Do not include a title slide or a learning intention slide; those are made automatically from title, subtitle, learningIntention and successCriteria. Follow the VTLM 2.0 lesson sequence across the slides: daily review, explicit teaching with worked examples (I do), guided practice (we do), an independent task (you do) and a reflection or exit ticket. Slide text is for students: short points, at most 6 per slide, in language this year level can read. Put everything the teacher says, explains or asks in speakerNotes, not on the slide.`,
+    sections: {
+      successCriteria: "Success criteria",
+      slides: "Slides",
+      teacherNotes: "Teacher notes",
     },
   },
 };

@@ -18,14 +18,17 @@ export const DIFFICULTY_LABELS: Record<(typeof DIFFICULTIES)[number], string> = 
 
 export const LESSON_LENGTHS = [30, 45, 50, 60, 90] as const;
 
-/** Uploaded plans: PDF goes to Claude as a document; DOCX/TXT/MD are converted to text. */
+/** Uploaded plans and reference material, converted to text on the server (lib/generator/attachments.ts). */
 export const ATTACHMENT_TYPES = {
   "application/pdf": "PDF",
   "application/vnd.openxmlformats-officedocument.wordprocessingml.document": "Word",
+  "application/vnd.openxmlformats-officedocument.presentationml.presentation": "PowerPoint",
   "text/plain": "Text",
   "text/markdown": "Markdown",
 } as const;
 export const MAX_ATTACHMENT_BYTES = 5 * 1024 * 1024;
+/** Reference files per request. */
+export const MAX_ATTACHMENTS = 5;
 
 export const AttachmentSchema = z.object({
   name: z.string().max(200),
@@ -65,10 +68,14 @@ export const GenerateRequestSchema = z
     focusCodes: z.array(z.string().max(20)).max(10).default([]),
     /** Optional class context (no student names). */
     classContext: z.string().trim().max(1000).default(""),
+    /** A single uploaded plan (older clients). */
     attachment: AttachmentSchema.optional(),
+    /** Reference material: existing plans, slides, readings or worksheets. */
+    attachments: z.array(AttachmentSchema).max(MAX_ATTACHMENTS, `Upload at most ${MAX_ATTACHMENTS} files`).default([]),
     basedOn: BasedOnSchema.optional(),
   })
-  .refine((r) => r.idea.length >= 5 || r.attachment || r.basedOn, {
+  .refine((r) => (r.attachment ? 1 : 0) + r.attachments.length <= MAX_ATTACHMENTS, { message: `Upload at most ${MAX_ATTACHMENTS} files`, path: ["attachments"] })
+  .refine((r) => r.idea.length >= 5 || r.attachment || r.attachments.length > 0 || r.basedOn, {
     message: "Describe your idea or rough plan, or upload an existing plan",
     path: ["idea"],
   })
@@ -76,10 +83,17 @@ export const GenerateRequestSchema = z
 export type GenerateRequest = z.infer<typeof GenerateRequestSchema>;
 
 /** What is stored in generations.teacher_input (the file itself is not stored). */
-export type StoredTeacherInput = Omit<GenerateRequest, "attachment" | "basedOn"> & {
+export type StoredTeacherInput = Omit<GenerateRequest, "attachment" | "attachments" | "basedOn"> & {
+  /** Older rows: the single uploaded file. */
   attachmentName?: string;
+  attachmentNames?: string[];
   basedOn?: { outputType: OutputType; title: string; generationId?: string | null };
 };
+
+/** Every uploaded file in a request (the older single `attachment` first). */
+export function requestAttachments(req: Pick<GenerateRequest, "attachment" | "attachments">): Attachment[] {
+  return [...(req.attachment ? [req.attachment] : []), ...req.attachments];
+}
 
 export const RefineRequestSchema = z.object({
   outputType: z.enum(OUTPUT_TYPES),

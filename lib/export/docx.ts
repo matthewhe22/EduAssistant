@@ -19,6 +19,7 @@ import type {
   LessonPlan,
   ParentNote,
   Rubric,
+  SlideDeck,
   TieredTask,
   UnitPlan,
   Worksheet,
@@ -289,6 +290,27 @@ function parentNote(x: ParentNote, _m: ExportMeta, _meta: string): FileChild[] {
   ];
 }
 
+function slides(x: SlideDeck, m: ExportMeta, meta: string): FileChild[] {
+  return [
+    ...header(x.title, meta, x.overview),
+    ...(x.subtitle ? [p(x.subtitle, { italics: true })] : []),
+    ...curriculum(x.curriculumLinks, m),
+    labelled("Learning intention", x.learningIntention),
+    h("Success criteria"),
+    ...bullets(x.successCriteria),
+    h("Slides"),
+    ...x.slides.flatMap((s, i) => [
+      h(`Slide ${i + 3}: ${s.heading}`, HeadingLevel.HEADING_3),
+      ...bullets(s.bullets),
+      ...(s.secondColumn.length ? [p("Right-hand column", { bold: true }), ...bullets(s.secondColumn)] : []),
+      ...(s.imageIdea ? [labelled("Picture idea", s.imageIdea)] : []),
+      ...(s.speakerNotes ? [labelled("Speaker notes", s.speakerNotes)] : []),
+    ]),
+    h("Teacher notes"),
+    ...bullets(x.teacherNotes),
+  ];
+}
+
 /* ------------------------------- entry -------------------------------- */
 
 export function buildDocument(outputType: OutputType, content: Record<string, unknown>, m: ExportMeta): Document {
@@ -303,6 +325,7 @@ export function buildDocument(outputType: OutputType, content: Record<string, un
     rubric,
     assessment,
     parent_note: parentNote,
+    slides,
   };
   return new Document({
     creator: "Lessonroo",

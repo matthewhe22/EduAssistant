@@ -37,6 +37,10 @@ export const LABELS: Record<string, string> = {
   teacherRole: "Teacher's role",
   successLooksLike: "Success looks like",
   levelLabels: "Level names",
+  bullets: "Points on the slide",
+  secondColumn: "Right-hand column",
+  imageIdea: "Picture idea",
+  speakerNotes: "Speaker notes",
 };
 
 export const SINGULAR: Record<string, string> = {
@@ -77,6 +81,9 @@ export const SINGULAR: Record<string, string> = {
   conversationStarters: "question",
   keyVocabulary: "word",
   summativeCriteria: "criterion",
+  slides: "slide",
+  bullets: "point",
+  secondColumn: "point",
 };
 
 export function fieldLabel(key: string) {

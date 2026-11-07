@@ -36,8 +36,14 @@ export const OUTPUT_UI: Record<OutputType, { label: string; hint: string; make: 
   differentiation: { label: "Three-level task", hint: "Support, core, extension", make: "Make the three-level task", pill: "bg-euc-tint text-euc-dark", icon: "M4 20h4v-6H4zM10 20h4V9h-4zM16 20h4V4h-4z" },
   rubric: { label: "Rubric", hint: "Four levels, clear criteria", make: "Make the rubric", pill: "bg-sky-tint text-sky-ink", icon: "M3 4h18v16H3zM3 10h18M3 15h18M9 4v16" },
   assessment: { label: "Quiz", hint: "Marks and answers", make: "Make the quiz", pill: "bg-sky-tint text-sky-ink", icon: "M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .9-1 1.6V14M12 18h.01M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z" },
+  slides: { label: "PowerPoint slides", hint: "Editable deck with notes", make: "Make the slides", pill: "bg-wattle-tint text-wattle-ink", icon: "M3 4h18v12H3zM12 16v4M8 20h8M7 8h6M7 12h10" },
   parent_note: { label: "Note home", hint: "For families", make: "Make the note home", pill: "bg-plum-tint text-plum-ink", icon: "M3 6h18v12H3zM3 7l9 6 9-6" },
 };
+
+/** The type's name inside a sentence ("a worksheet + answers", "this slide deck"). */
+export function typeNoun(t: OutputType) {
+  return t === "slides" ? "slide deck" : OUTPUT_UI[t].label.toLowerCase();
+}
 
 /**
  * Plain-English progress line while the AI writes. `section` is the top-level field the
