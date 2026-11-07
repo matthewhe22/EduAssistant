@@ -111,6 +111,20 @@ describe("request schema", () => {
     expect(GenerateRequestSchema.safeParse({ ...base, attachment: pptx, attachments: Array(5).fill(pptx) }).success).toBe(false);
   });
 
+  it("allows PowerPoint files up to 20 MB, other files up to 5 MB, and 40 MB in total", () => {
+    const base = { level: "3", subjectSlug: "mathematics", difficulty: "at", lessonMinutes: 60, idea: "" };
+    const b64 = (mb: number) => "A".repeat(Math.ceil((mb * 1024 * 1024) / 3) * 4);
+    const pptx = (mb: number) => ({ name: "d.pptx", mediaType: "application/vnd.openxmlformats-officedocument.presentationml.presentation", data: b64(mb) });
+    const pdf = (mb: number) => ({ name: "a.pdf", mediaType: "application/pdf", data: b64(mb) });
+    const ok = (attachments: unknown[]) => GenerateRequestSchema.safeParse({ ...base, attachments }).success;
+    expect(ok([pptx(20)])).toBe(true);
+    expect(ok([pptx(20.1)])).toBe(false);
+    expect(ok([pdf(5)])).toBe(true);
+    expect(ok([pdf(6)])).toBe(false);
+    expect(ok([pptx(19), pptx(19), pdf(1.5)])).toBe(true);
+    expect(ok([pptx(19), pptx(19), pdf(3)])).toBe(false);
+  });
+
   it("needs an idea or an attachment", () => {
     const base = { level: "3", subjectSlug: "mathematics", difficulty: "at", lessonMinutes: 60 };
     expect(GenerateRequestSchema.safeParse({ ...base, idea: " " }).success).toBe(false);

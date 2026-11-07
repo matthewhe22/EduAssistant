@@ -37,7 +37,7 @@ aligned to the **Victorian Curriculum F–10 Version 2.0** and the **Victorian T
 | PowerPoint slides | 4–25 classroom slides in VTLM 2.0 order with speaker notes and picture ideas. Downloads as an editable `.pptx` |
 
 You can also **upload reference material** (up to 5 files: PDF, Word `.docx`, PowerPoint `.pptx` or
-text, 5 MB each), such as an existing plan, slides, a reading or a worksheet, instead of, or as well
+text; PowerPoint up to 20 MB and other files up to 5 MB each, 40 MB in total), such as an existing plan, slides, a reading or a worksheet, instead of, or as well
 as, typing an idea. Slide text and speaker notes are read from PowerPoint files. Once something is generated, you can **refine any single section** with an
 instruction ("make the guided practice more hands-on"). Only that section is replaced, and the
 change is saved to your library. Everything exports to Word or PowerPoint, or prints. In the PowerPoint version, what students see goes on the slides (phases, questions, activity steps, rubric tables). Teacher talk, answers and marking notes go in the speaker notes, and a student copy leaves the answers out. Slide decks can be edited in the app (each slide's heading,
