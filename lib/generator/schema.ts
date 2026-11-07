@@ -26,19 +26,35 @@ export const ATTACHMENT_TYPES = {
   "text/plain": "Text",
   "text/markdown": "Markdown",
 } as const;
-export const MAX_ATTACHMENT_BYTES = 5 * 1024 * 1024;
+const PPTX_TYPE = "application/vnd.openxmlformats-officedocument.presentationml.presentation";
+const MB = 1024 * 1024;
+/** PDF, Word and text files. */
+export const MAX_ATTACHMENT_BYTES = 5 * MB;
+/** PowerPoint files are mostly pictures, and only their text is used, so they may be larger. */
+export const MAX_PPTX_BYTES = 20 * MB;
+/** All files in one request together. */
+export const MAX_TOTAL_ATTACHMENT_BYTES = 40 * MB;
+export const maxBytesFor = (mediaType: string) => (mediaType === PPTX_TYPE ? MAX_PPTX_BYTES : MAX_ATTACHMENT_BYTES);
+export const formatMb = (bytes: number) => `${Math.round(bytes / MB)} MB`;
+/** Length of `bytes` bytes once base64-encoded. */
+const base64Length = (bytes: number) => Math.ceil(bytes / 3) * 4;
 /** Reference files per request. */
 export const MAX_ATTACHMENTS = 5;
 
-export const AttachmentSchema = z.object({
-  name: z.string().max(200),
-  mediaType: z.enum(Object.keys(ATTACHMENT_TYPES) as [keyof typeof ATTACHMENT_TYPES, ...(keyof typeof ATTACHMENT_TYPES)[]]),
-  /** Base64 file contents (no data: prefix). */
-  data: z
-    .string()
-    .max(Math.ceil((MAX_ATTACHMENT_BYTES * 4) / 3) + 4, "File is larger than 5 MB")
-    .regex(/^[A-Za-z0-9+/]*={0,2}$/, "Invalid file encoding"),
-});
+export const AttachmentSchema = z
+  .object({
+    name: z.string().max(200),
+    mediaType: z.enum(Object.keys(ATTACHMENT_TYPES) as [keyof typeof ATTACHMENT_TYPES, ...(keyof typeof ATTACHMENT_TYPES)[]]),
+    /** Base64 file contents (no data: prefix). */
+    data: z
+      .string()
+      .max(base64Length(MAX_PPTX_BYTES), `File is larger than ${formatMb(MAX_PPTX_BYTES)}`)
+      .regex(/^[A-Za-z0-9+/]*={0,2}$/, "Invalid file encoding"),
+  })
+  .refine((a) => a.data.length <= base64Length(maxBytesFor(a.mediaType)), {
+    message: `PDF, Word and text files can be at most ${formatMb(MAX_ATTACHMENT_BYTES)} (PowerPoint ${formatMb(MAX_PPTX_BYTES)})`,
+    path: ["data"],
+  });
 export type Attachment = z.infer<typeof AttachmentSchema>;
 
 /** Existing material a new item should match (e.g. a worksheet for a lesson plan). */
@@ -75,6 +91,10 @@ export const GenerateRequestSchema = z
     basedOn: BasedOnSchema.optional(),
   })
   .refine((r) => (r.attachment ? 1 : 0) + r.attachments.length <= MAX_ATTACHMENTS, { message: `Upload at most ${MAX_ATTACHMENTS} files`, path: ["attachments"] })
+  .refine((r) => [r.attachment, ...r.attachments].reduce((n, a) => n + (a?.data.length ?? 0), 0) <= base64Length(MAX_TOTAL_ATTACHMENT_BYTES), {
+    message: `Together your files are larger than ${formatMb(MAX_TOTAL_ATTACHMENT_BYTES)}`,
+    path: ["attachments"],
+  })
   .refine((r) => r.idea.length >= 5 || r.attachment || r.attachments.length > 0 || r.basedOn, {
     message: "Describe your idea or rough plan, or upload an existing plan",
     path: ["idea"],

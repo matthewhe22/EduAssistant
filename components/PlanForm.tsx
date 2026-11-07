@@ -4,7 +4,18 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { postForResult } from "@/lib/client/ndjson";
 import { PRIMARY_LEVELS, type PrimaryLevel } from "@/lib/curriculum/types";
 import { OUTPUT_TYPES, OUTPUTS, type OutputType } from "@/lib/generator/outputs";
-import { ATTACHMENT_TYPES, DIFFICULTIES, LESSON_LENGTHS, MAX_ATTACHMENT_BYTES, MAX_ATTACHMENTS, type Attachment } from "@/lib/generator/schema";
+import {
+  ATTACHMENT_TYPES,
+  DIFFICULTIES,
+  formatMb,
+  LESSON_LENGTHS,
+  MAX_ATTACHMENT_BYTES,
+  MAX_ATTACHMENTS,
+  MAX_PPTX_BYTES,
+  MAX_TOTAL_ATTACHMENT_BYTES,
+  maxBytesFor,
+  type Attachment,
+} from "@/lib/generator/schema";
 import type { FormSettings } from "@/lib/library/settings";
 import { exampleIdeas } from "@/lib/ui/examples";
 import { classLabel, DIFFICULTY_UI, OUTPUT_UI, progressMessage, typeNoun, YEAR_LABELS, YEAR_SHORT } from "@/lib/ui/labels";
@@ -47,7 +58,7 @@ async function readAttachment(file: File): Promise<Attachment> {
     if (ext === "ppt" || ext === "doc") throw new Error(`"${file.name}" is an older Office file. Save it as .${ext}x first, then upload it again.`);
     throw new Error(`"${file.name}" can't be used. Upload a PDF, Word (.docx), PowerPoint (.pptx) or text file.`);
   }
-  if (file.size > MAX_ATTACHMENT_BYTES) throw new Error(`"${file.name}" is larger than 5 MB.`);
+  if (file.size > maxBytesFor(mediaType)) throw new Error(`"${file.name}" is larger than ${formatMb(maxBytesFor(mediaType))}.`);
   const bytes = new Uint8Array(await file.arrayBuffer());
   let binary = "";
   for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
@@ -443,7 +454,7 @@ export function PlanForm({
                 <span className="flex-[1_1_260px]">
                   <span className="block font-bold">{files.length ? "Add more reference material" : "Add reference material (optional)"}</span>
                   <span className="block text-sm text-ink-muted">
-                    An existing plan, slides, a reading or a worksheet. PDF, Word, PowerPoint or text, up to {MAX_ATTACHMENTS} files of 5 MB each. Your structure and good ideas are kept.
+                    An existing plan, slides, a reading or a worksheet. PDF, Word, PowerPoint or text, up to {MAX_ATTACHMENTS} files ({formatMb(MAX_PPTX_BYTES)} for PowerPoint, {formatMb(MAX_ATTACHMENT_BYTES)} for other files). Your structure and good ideas are kept.
                   </span>
                 </span>
                 <span className="btn-outline pointer-events-none text-sm">Choose files</span>
@@ -460,13 +471,23 @@ export function PlanForm({
                     const ok = picked.filter((f) => {
                       const ext = f.name.split(".").pop()?.toLowerCase() ?? "";
                       if (!EXTENSION_TYPES[ext]) problems.push(ext === "ppt" || ext === "doc" ? `"${f.name}" is an older Office file: save it as .${ext}x first.` : `"${f.name}" isn't a PDF, Word, PowerPoint or text file.`);
-                      else if (f.size > MAX_ATTACHMENT_BYTES) problems.push(`"${f.name}" is larger than 5 MB.`);
+                      else if (f.size > maxBytesFor(EXTENSION_TYPES[ext])) problems.push(`"${f.name}" is larger than ${formatMb(maxBytesFor(EXTENSION_TYPES[ext]))}.`);
                       else return true;
                       return false;
                     });
                     const next = [...files, ...ok.filter((f) => !files.some((x) => x.name === f.name && x.size === f.size))];
                     if (next.length > MAX_ATTACHMENTS) problems.push(`You can add up to ${MAX_ATTACHMENTS} files.`);
-                    setFiles(next.slice(0, MAX_ATTACHMENTS));
+                    const kept: File[] = [];
+                    let total = 0;
+                    for (const f of next.slice(0, MAX_ATTACHMENTS)) {
+                      if (total + f.size > MAX_TOTAL_ATTACHMENT_BYTES) {
+                        problems.push(`"${f.name}" wasn't added: together the files can be at most ${formatMb(MAX_TOTAL_ATTACHMENT_BYTES)}.`);
+                        continue;
+                      }
+                      total += f.size;
+                      kept.push(f);
+                    }
+                    setFiles(kept);
                     setFileError(problems.join(" "));
                   }}
                 />
