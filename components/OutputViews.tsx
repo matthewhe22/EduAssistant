@@ -1,10 +1,11 @@
 "use client";
 
 import type { OutputType } from "@/lib/generator/outputs";
-import type { Activities, Assessment, LessonPlan, ParentNote, Rubric, SlideDeck, TieredTask, UnitPlan, Worksheet } from "@/lib/generator/schema";
+import type { Activities, Assessment, LessonPlan, ParentNote, PuzzlePack, Rubric, SlideDeck, TieredTask, UnitPlan, Worksheet } from "@/lib/generator/schema";
 import { OUTPUT_UI } from "@/lib/ui/labels";
 import { LessonPlanView, type ViewProps } from "./LessonPlanView";
 import { Icon, ICONS } from "./Icon";
+import { PuzzleView } from "./PuzzleView";
 import { Codes, CurriculumLinksView, Label, List, Panel, Section, Shell, useViewOptions } from "./ui";
 
 function Diff({ d }: { d: { support: string[]; extension: string[]; ealD: string[] } }) {
@@ -357,7 +358,7 @@ function SlidesView({ content: d, ...v }: ViewProps<SlideDeck>) {
       </Section>
       <Section title="Slides" sectionKey="slides">
         <p className="m-0 text-sm text-ink-muted print:hidden">
-          Slides 1 and 2 (title, learning intention and success criteria) are made from the details above. Download PowerPoint to change fonts, add pictures or move things around.
+          Slides 1 and 2 (title, learning intention and success criteria) are made from the details above. When you download the PowerPoint, choose a theme and tick “Add photos” to put free, credited photos on slides that have photo search words.
         </p>
         <ol className="m-0 grid list-none grid-cols-1 gap-5 p-0">
           <li className="grid grid-cols-1 gap-3 md:grid-cols-[minmax(0,3fr)_minmax(0,2fr)]">
@@ -400,8 +401,9 @@ function SlidesView({ content: d, ...v }: ViewProps<SlideDeck>) {
                   )}
                   {s.imageIdea && s.layout !== "Two columns" && (
                     <div className="flex w-[34%] shrink-0 flex-col items-center justify-center rounded-lg border-[1.5px] border-dashed border-euc bg-euc-tint p-2 text-center text-xs text-ink-soft">
-                      <strong className="text-euc">Picture idea</strong>
+                      <strong className="text-euc">{s.imageSearch?.trim() ? "Photo" : "Picture idea"}</strong>
                       {s.imageIdea}
+                      {s.imageSearch?.trim() && <span className="mt-1 text-[11px] text-ink-muted">Search: {s.imageSearch}</span>}
                     </div>
                   )}
                 </div>
@@ -440,5 +442,7 @@ export function OutputView({ outputType, content, meta, codeText = {} }: { outpu
       return <ParentNoteView content={content as ParentNote} {...v} />;
     case "slides":
       return <SlidesView content={content as SlideDeck} {...v} />;
+    case "puzzles":
+      return <PuzzleView content={content as PuzzlePack} {...v} />;
   }
 }

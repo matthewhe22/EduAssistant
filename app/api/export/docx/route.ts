@@ -35,6 +35,7 @@ export async function POST(request: Request) {
     lessonMinutes,
     codeText,
     studentOnly,
+    level,
   });
   return new Response(new Uint8Array(buffer), {
     headers: {

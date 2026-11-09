@@ -16,6 +16,7 @@ import {
   maxBytesFor,
   type Attachment,
 } from "@/lib/generator/schema";
+import { ADAPT_GOAL_IDS, ADAPT_GOALS, ARC_LESSON_PLANS_URL, type AdaptGoal } from "@/lib/generator/adapt";
 import { activeSections, emptyFramework, FrameworkSchema, usesFramework, type Framework } from "@/lib/generator/framework";
 import type { FormSettings } from "@/lib/library/settings";
 import { exampleIdeas } from "@/lib/ui/examples";
@@ -142,6 +143,10 @@ export function PlanForm({
   const pendingFocus = useRef<string[] | null>(initial.focusCodes ?? null);
   const [files, setFiles] = useState<File[]>([]);
   const [fileError, setFileError] = useState("");
+  // Adapt mode: the uploaded plan (e.g. a Victorian Lesson Plan) is the starting point.
+  const [adapting, setAdapting] = useState(false);
+  const [adaptGoals, setAdaptGoals] = useState<AdaptGoal[]>(["fit_class", "fit_length"]);
+  const adaptOn = adapting && files.length > 0 && !source;
   const [cds, setCds] = useState<CdOption[]>([]);
   const [focusCodes, setFocusCodes] = useState<string[]>([]);
   const [status, setStatus] = useState<"idle" | "generating" | "done" | "error">("idle");
@@ -301,6 +306,7 @@ export function PlanForm({
           attachments,
           basedOn: source ?? undefined,
           framework: frameworkOn ? framework : undefined,
+          adapt: adaptOn ? { goals: adaptGoals } : undefined,
         },
         (characters, section) => setProgress({ characters, section }),
         ctrl.signal,
@@ -455,7 +461,7 @@ export function PlanForm({
 
           <Step n={3} title="Your idea">
             <label className="label">
-              {source ? "Anything to add? (optional)" : "Describe it in your own words"}
+              {source ? "Anything to add? (optional)" : adaptOn ? "Anything else to change? (optional)" : "Describe it in your own words"}
               <textarea
                 rows={5}
                 maxLength={4000}
@@ -463,13 +469,13 @@ export function PlanForm({
                 onChange={(e) => setIdea(e.target.value)}
                 className="field min-h-[132px] resize-y py-3 font-normal leading-normal"
                 placeholder={
-                  source
+                  source || adaptOn
                     ? "e.g. Make it shorter, add a challenge question, or focus on the second half of the lesson."
                     : "e.g. Equivalent fractions with paper strips. A few students mixed up halves and quarters last week, so start with a quick review. Finish with a partner game."
                 }
               />
             </label>
-            {!source && !idea.trim() && (
+            {!source && !adaptOn && !idea.trim() && (
               <div className="mt-2.5">
                 <p className="m-0 mb-1.5 text-sm text-ink-muted">Need a start? Try one of these and change it to suit your class:</p>
                 <div className="flex flex-col gap-1.5">
@@ -545,6 +551,45 @@ export function PlanForm({
                 </ul>
               )}
               {fileError && <p className="m-0 text-sm text-alert" role="alert">{fileError}</p>}
+              {files.length === 0 && !source && (
+                <p className="m-0 text-sm text-ink-muted">
+                  Using a <a href={ARC_LESSON_PLANS_URL} target="_blank" rel="noreferrer">Victorian Lesson Plan from Arc</a>? Download it, add it here and
+                  tick “Adapt this plan” to fit it to your class.
+                </p>
+              )}
+              {files.length > 0 && !source && (
+                <fieldset className={`flex flex-col gap-3 rounded-xl border p-4 ${adapting ? "border-2 border-euc bg-euc-tint" : "border-line bg-white"}`}>
+                  <legend className="sr-only">How to use your files</legend>
+                  <label className="flex cursor-pointer items-start gap-2.5">
+                    <input type="checkbox" className="mt-1 h-4 w-4 accent-euc" checked={adapting} onChange={(e) => setAdapting(e.target.checked)} />
+                    <span>
+                      <span className="block font-bold">Adapt this plan</span>
+                      <span className="block text-sm text-ink-muted">
+                        Keep its learning intention, sequence and examples (great for a Victorian Lesson Plan), and change only what you tick. Leave it unticked to use the files as ideas for something new.
+                      </span>
+                    </span>
+                  </label>
+                  {adapting && (
+                    <div className="flex flex-wrap gap-2" role="group" aria-label="What to change">
+                      {ADAPT_GOAL_IDS.map((g) => {
+                        const on = adaptGoals.includes(g);
+                        return (
+                          <button
+                            key={g}
+                            type="button"
+                            aria-pressed={on}
+                            onClick={() => setAdaptGoals((prev) => (on ? prev.filter((x) => x !== g) : [...prev, g]))}
+                            className={`inline-flex min-h-[40px] items-center gap-1.5 rounded-full px-3.5 text-sm ${on ? "border-2 border-euc bg-white font-bold text-euc-dark" : "border border-line-strong bg-white hover:bg-mist"}`}
+                          >
+                            {on && <Icon d={ICONS.check} size={14} strokeWidth={2.6} />}
+                            {ADAPT_GOALS[g].label}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  )}
+                </fieldset>
+              )}
             </div>
           </Step>
 
@@ -665,7 +710,9 @@ export function PlanForm({
               <dd>{DIFFICULTY_UI[difficulty]}</dd>
               <dt className="text-ink-muted">From</dt>
               <dd className="truncate">
-                {[source ? `“${source.title}”` : idea.trim() ? "Your idea" : "", files.length ? `${files.length} reference file${files.length === 1 ? "" : "s"}` : ""].filter(Boolean).join(" + ") || "—"}
+                {adaptOn
+                  ? `Adapting “${files[0].name}”${files.length > 1 ? ` + ${files.length - 1} more` : ""}`
+                  : [source ? `“${source.title}”` : idea.trim() ? "Your idea" : "", files.length ? `${files.length} reference file${files.length === 1 ? "" : "s"}` : ""].filter(Boolean).join(" + ") || "—"}
               </dd>
               {modelLabel && (
                 <>

@@ -1,16 +1,22 @@
 import {
+  AlignmentType,
+  BorderStyle,
   Document,
   HeadingLevel,
   PageBreak,
   Packer,
   Paragraph,
+  ShadingType,
   Table,
   TableCell,
   TableRow,
   TextRun,
+  VerticalAlign,
   WidthType,
   type FileChild,
 } from "docx";
+import type { PrimaryLevel } from "../curriculum/types";
+import { BINGO_CARDS, buildPuzzles, wordSearchAnswerCells } from "../puzzles";
 import type { OutputType } from "../generator/outputs";
 import { OUTPUTS } from "../generator/outputs";
 import type {
@@ -18,6 +24,7 @@ import type {
   Assessment,
   LessonPlan,
   ParentNote,
+  PuzzlePack,
   Rubric,
   SlideDeck,
   TieredTask,
@@ -33,6 +40,8 @@ export interface ExportMeta {
   codeText: Record<string, string>;
   /** Student copy: leave out answers, marking guides and teacher notes. */
   studentOnly?: boolean;
+  /** Year level of the class (games and puzzles are laid out for it). */
+  level?: PrimaryLevel;
 }
 
 /* ------------------------------ helpers ------------------------------ */
@@ -311,6 +320,120 @@ function slides(x: SlideDeck, m: ExportMeta, meta: string): FileChild[] {
   ];
 }
 
+/** A grid of square cells (word search, crossword, bingo card). `null` cells are left blank with no border. */
+function letterGrid(rows: (string | null)[][], cellCm: number, opts: { shade?: (r: number, c: number) => boolean; corner?: (r: number, c: number) => string; size?: number } = {}) {
+  const twips = Math.round((cellCm / 2.54) * 1440);
+  const none = { style: BorderStyle.NONE, size: 0, color: "FFFFFF" };
+  const line = { style: BorderStyle.SINGLE, size: 6, color: "17202A" };
+  return new Table({
+    columnWidths: Array(rows[0]?.length ?? 0).fill(twips),
+    rows: rows.map(
+      (row, r) =>
+        new TableRow({
+          height: { value: twips, rule: "exact" },
+          children: row.map((ch, c) => {
+            const corner = opts.corner?.(r, c) ?? "";
+            const b = ch === null ? none : line;
+            return new TableCell({
+              width: { size: twips, type: WidthType.DXA },
+              verticalAlign: VerticalAlign.CENTER,
+              borders: { top: b, bottom: b, left: b, right: b },
+              shading: opts.shade?.(r, c) ? { type: ShadingType.CLEAR, color: "auto", fill: "FDF1D8" } : undefined,
+              margins: { top: 0, bottom: 0, left: 30, right: 30 },
+              children: [
+                new Paragraph({
+                  alignment: corner ? AlignmentType.LEFT : AlignmentType.CENTER,
+                  children: [
+                    ...(corner ? [new TextRun({ text: `${corner} `, size: 12, bold: true })] : []),
+                    new TextRun({ text: ch ?? "", bold: true, size: opts.size ?? 26 }),
+                  ],
+                }),
+              ],
+            });
+          }),
+        }),
+    ),
+  });
+}
+
+const pageBreak = () => new Paragraph({ children: [new PageBreak()] });
+
+function puzzles(x: PuzzlePack, m: ExportMeta, meta: string): FileChild[] {
+  const pz = buildPuzzles(x, m.level ?? "3", BINGO_CARDS);
+  const ws = pz.wordSearch;
+  const cw = pz.crossword;
+  const display = new Map(pz.entries.map((e) => [e.word, e.display]));
+  const name = p("Name: ______________________    Date: ____________");
+  const wsCell = Math.min(1.2, 16.5 / ws.grid.length);
+  const cwCell = Math.min(1.1, 16.5 / Math.max(cw.cols, 1));
+  const clueList = (answers: boolean) =>
+    (["across", "down"] as const).flatMap((dir) => [
+      p(dir === "across" ? "Across" : "Down", { bold: true }),
+      ...cw[dir].map((c) => p(`${c.number}. ${c.clue} (${c.length})${answers ? `  ${c.answer}` : ""}`)),
+    ]);
+  const cards = pz.bingo.cards;
+  const cardCell = pz.bingo.size === 3 ? 2.6 : 2.0;
+
+  const student: FileChild[] = [
+    ...header(`${x.title}: word search`, meta),
+    name,
+    p(`Find these ${ws.placed.length} words. They go ${ws.directions}.`),
+    letterGrid(ws.grid, wsCell, { size: ws.grid.length > 12 ? 22 : 26 }),
+    p(""),
+    p(ws.placed.map((pl) => `☐ ${display.get(pl.word) ?? pl.word}`).join("     ")),
+    ...(cw.rows
+      ? [
+          pageBreak(),
+          ...header(`${x.title}: crossword`, meta),
+          name,
+          letterGrid(cw.cells.map((row) => row.map((ch) => (ch === null ? null : ""))), cwCell, { corner: (r, c) => String(cw.numbers[r][c] ?? "") }),
+          ...clueList(false),
+        ]
+      : []),
+    ...(cards.length
+      ? [
+          pageBreak(),
+          ...header(`${x.title}: bingo`, meta),
+          p(x.bingo.instructions),
+          ...cards.flatMap((card, k) => [
+            ...(k > 0 && k % 2 === 0 ? [pageBreak()] : []),
+            p(`BINGO · Card ${k + 1}`, { bold: true }),
+            letterGrid(card, cardCell, { size: 22 }),
+            p(""),
+          ]),
+        ]
+      : []),
+  ];
+  if (m.studentOnly) return student;
+  const answers = wordSearchAnswerCells(ws);
+  return [
+    ...header(x.title, meta, x.overview),
+    ...curriculum(x.curriculumLinks, m),
+    h("Words and clues"),
+    ...x.words.map((w) => labelled(w.word, w.clue)),
+    h("Bingo calling list"),
+    p(x.bingo.instructions),
+    ...x.bingo.items.map((it, i) => p(`☐ ${i + 1}. ${it.call}  →  ${it.answer}`)),
+    h("Brain breaks"),
+    ...x.brainBreaks.flatMap((b) => [p(`${b.name} (${b.minutes} min)`, { bold: true }), ...numbered(b.steps), p(b.learningLink, { italics: true })]),
+    h("Teacher notes"),
+    ...bullets(x.teacherNotes),
+    pageBreak(),
+    h("Answers: word search"),
+    letterGrid(ws.grid, wsCell, { shade: (r, c) => answers.has(`${r},${c}`), size: ws.grid.length > 12 ? 22 : 26 }),
+    ...(cw.rows
+      ? [
+          h("Answers: crossword"),
+          letterGrid(cw.cells, cwCell, { corner: (r, c) => String(cw.numbers[r][c] ?? "") }),
+          ...clueList(true),
+          ...(cw.missing.length ? [p(`Not in the crossword: ${cw.missing.map((w) => display.get(w) ?? w).join(", ")}`, { italics: true })] : []),
+        ]
+      : []),
+    pageBreak(),
+    ...student,
+  ];
+}
+
 /* ------------------------------- entry -------------------------------- */
 
 export function buildDocument(outputType: OutputType, content: Record<string, unknown>, m: ExportMeta): Document {
@@ -326,6 +449,7 @@ export function buildDocument(outputType: OutputType, content: Record<string, un
     assessment,
     parent_note: parentNote,
     slides,
+    puzzles,
   };
   return new Document({
     creator: "Lessonroo",

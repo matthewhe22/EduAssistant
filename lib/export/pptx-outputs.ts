@@ -3,12 +3,15 @@
  * see; what only the teacher needs (teacher talk, answers, marking, differentiation) goes in the
  * speaker notes, or is left out of a student copy.
  */
+import type { PrimaryLevel } from "../curriculum/types";
 import type { OutputType } from "../generator/outputs";
+import { buildPuzzles, wordSearchAnswerCells } from "../puzzles";
 import type {
   Activities,
   Assessment,
   LessonPlan,
   ParentNote,
+  PuzzlePack,
   Rubric,
   SlideDeck,
   TieredTask,
@@ -21,6 +24,7 @@ export interface DeckOptions {
   studentOnly: boolean;
   lessonMinutes: number;
   typeLabel: string;
+  level?: PrimaryLevel;
 }
 
 const clean = (items: (string | undefined | null)[]) => items.map((t) => (t ?? "").trim()).filter(Boolean);
@@ -296,6 +300,54 @@ function slideDeck(x: SlideDeck): ExportDeck {
   });
 }
 
+function puzzles(x: PuzzlePack, o: DeckOptions): ExportDeck {
+  const pz = buildPuzzles(x, o.level ?? "3", 1);
+  const ws = pz.wordSearch;
+  const cw = pz.crossword;
+  const display = new Map(pz.entries.map((e) => [e.word, e.display]));
+  const answers = wordSearchAnswerCells(ws);
+  const slides: ExportSlide[] = [
+    {
+      layout: "Grid",
+      heading: "Word search",
+      tag: `Find ${ws.placed.length} words`,
+      grid: ws.grid,
+      bullets: ws.placed.map((p) => display.get(p.word) ?? p.word),
+      sideTitle: `They go ${ws.directions}`,
+    },
+  ];
+  if (cw.rows) {
+    slides.push({ layout: "Grid", heading: "Crossword", tag: "Puzzle", grid: cw.cells.map((r) => r.map((c) => (c === null ? null : ""))), numbers: cw.numbers, bullets: [] });
+    slides.push({
+      layout: "Two columns",
+      heading: "Crossword clues",
+      tag: "Across | Down",
+      bullets: cw.across.map((c) => `${c.number}. ${c.clue} (${c.length})`),
+      secondColumn: cw.down.map((c) => `${c.number}. ${c.clue} (${c.length})`),
+      speakerNotes: o.studentOnly ? "" : notes(["Across", cw.across.map((c) => `${c.number}. ${c.answer}`)], ["Down", cw.down.map((c) => `${c.number}. ${c.answer}`)]),
+    });
+  }
+  // Bingo: one slide per call, so the teacher can project the calls; answers in the notes.
+  slides.push({ layout: "Big idea", heading: "Bingo", tag: "How to play", bullets: [x.bingo.instructions] });
+  if (pz.bingo.cards[0]) slides.push({ layout: "Grid", heading: "A bingo card looks like this", tag: "Bingo", grid: pz.bingo.cards[0], bullets: [] });
+  x.bingo.items.forEach((it, i) =>
+    slides.push({ layout: "Question", heading: `Call ${i + 1}`, tag: "Bingo", bullets: [it.call], speakerNotes: o.studentOnly ? "" : `Answer: ${it.answer}` }),
+  );
+  for (const b of x.brainBreaks) {
+    slides.push({ layout: "Activity", heading: b.name, tag: `Brain break · ${b.minutes} min`, bullets: b.steps, speakerNotes: b.learningLink });
+  }
+  if (!o.studentOnly) {
+    slides.push({ layout: "Grid", heading: "Word search answers", tag: "Teacher only", grid: ws.grid, shade: ws.grid.map((row, r) => row.map((_, c) => answers.has(`${r},${c}`))), bullets: [] });
+    if (cw.rows) slides.push({ layout: "Grid", heading: "Crossword answers", tag: "Teacher only", grid: cw.cells, numbers: cw.numbers, bullets: [] });
+  }
+  return deck(x.title, {
+    subtitle: "Games and puzzles",
+    titleNotes: o.studentOnly ? "" : notes(["", x.overview], ["Teacher notes", x.teacherNotes]),
+    curriculumLinks: x.curriculumLinks,
+    slides,
+  });
+}
+
 /* -------------------------------- entry -------------------------------- */
 
 export function outputToDeck(outputType: OutputType, content: Record<string, unknown>, o: DeckOptions): ExportDeck {
@@ -318,5 +370,7 @@ export function outputToDeck(outputType: OutputType, content: Record<string, unk
       return parentNote(content as ParentNote);
     case "slides":
       return slideDeck(content as SlideDeck);
+    case "puzzles":
+      return puzzles(content as PuzzlePack, o);
   }
 }

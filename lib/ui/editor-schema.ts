@@ -10,9 +10,16 @@ export interface Def {
   shape?: Record<string, Schema>;
   entries?: Record<string, string>;
 }
-export const defOf = (s: Schema) => (s as unknown as { _zod: { def: Def } })._zod.def;
-export const shapeOf = (s: Schema): Record<string, Schema> => (s as unknown as { shape?: Record<string, Schema> }).shape ?? defOf(s).shape ?? {};
-export const optionsOf = (s: Schema): string[] => (s as unknown as { options?: string[] }).options ?? Object.values(defOf(s).entries ?? {});
+const rawDef = (s: Schema) => (s as unknown as { _zod: { def: Def & { innerType?: Schema } } })._zod.def;
+/** A field with a default value (e.g. a field added later) is edited like the field itself. */
+export const unwrap = (s: Schema): Schema => {
+  let cur = s;
+  while (rawDef(cur).type === "default" && rawDef(cur).innerType) cur = rawDef(cur).innerType!;
+  return cur;
+};
+export const defOf = (s: Schema) => rawDef(unwrap(s));
+export const shapeOf = (s: Schema): Record<string, Schema> => (unwrap(s) as unknown as { shape?: Record<string, Schema> }).shape ?? defOf(s).shape ?? {};
+export const optionsOf = (s: Schema): string[] => (unwrap(s) as unknown as { options?: string[] }).options ?? Object.values(defOf(s).entries ?? {});
 
 /** Fields teachers shouldn't hand-edit: codes are checked against the curriculum, numbering is automatic. */
 export const HIDDEN = new Set(["curriculumCodes", "number"]);
@@ -41,6 +48,10 @@ export const LABELS: Record<string, string> = {
   secondColumn: "Right-hand column",
   imageIdea: "Picture idea",
   speakerNotes: "Speaker notes",
+  imageSearch: "Photo search words",
+  learningLink: "Link to the learning",
+  call: "Teacher reads out",
+  answer: "Answer",
 };
 
 export const SINGULAR: Record<string, string> = {
@@ -84,6 +95,9 @@ export const SINGULAR: Record<string, string> = {
   slides: "slide",
   bullets: "point",
   secondColumn: "point",
+  words: "word",
+  items: "item",
+  brainBreaks: "brain break",
 };
 
 export function fieldLabel(key: string) {
