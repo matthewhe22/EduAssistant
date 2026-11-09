@@ -1,6 +1,7 @@
 import type { CurriculumBand, PrimaryLevel, SubjectCurriculum } from "../curriculum/types";
 import { LEVEL_LABELS, PRIMARY_LEVELS } from "../curriculum/types";
 import type { GenerateRequest } from "./schema";
+import { frameworkInstructions } from "./framework";
 import { OUTPUTS } from "./outputs";
 
 export interface CurriculumContext {
@@ -127,6 +128,7 @@ export function buildTeacherRequest(
   return [
     `Output: ${def.label}.`,
     def.instructions({ lessonMinutes: req.lessonMinutes, itemCount: resolveItemCount(req) }),
+    frameworkInstructions(req.framework, req.outputType, req.lessonMinutes),
     ``,
     levelLine,
     `- Subject: ${subject.subject}`,

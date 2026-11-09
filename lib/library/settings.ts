@@ -2,6 +2,7 @@ import { z } from "zod";
 import { PRIMARY_LEVELS } from "../curriculum/types";
 import { OUTPUT_TYPES } from "../generator/outputs";
 import { DIFFICULTIES } from "../generator/schema";
+import { FrameworkSchema } from "../generator/framework";
 
 /** Form settings that can be saved as a template or reused from a library item. */
 export const FormSettingsSchema = z.object({
@@ -15,6 +16,7 @@ export const FormSettingsSchema = z.object({
   classContext: z.string().max(1000).optional(),
   idea: z.string().max(4000).optional(),
   focusCodes: z.array(z.string().max(20)).max(10).optional(),
+  framework: FrameworkSchema.optional(),
 });
 export type FormSettings = z.infer<typeof FormSettingsSchema>;
 

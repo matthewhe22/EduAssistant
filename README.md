@@ -26,7 +26,7 @@ aligned to the **Victorian Curriculum F–10 Version 2.0** and the **Victorian T
 
 | Output | What you get |
 |---|---|
-| Lesson plan | VTLM 2.0 lesson: intention, success criteria, timed phases, differentiation, exit ticket |
+| Lesson plan | VTLM 2.0 lesson (or your own framework): intention, success criteria, timed phases, differentiation, exit ticket |
 | Unit plan | 3–20 sequenced lessons, big ideas, pre/formative/summative assessment |
 | Activities / rotations | 1–8 activities or stations with materials, steps, easier/harder versions |
 | Worksheet + answer key | 3–30 questions in sections, writing lines, word bank, model answers |
@@ -43,6 +43,23 @@ instruction ("make the guided practice more hands-on"). Only that section is rep
 change is saved to your library. Everything exports to Word or PowerPoint, or prints. In the PowerPoint version, what students see goes on the slides (phases, questions, activity steps, rubric tables). Teacher talk, answers and marking notes go in the speaker notes, and a student copy leaves the answers out. Slide decks can be edited in the app (each slide's heading,
 points, layout and speaker notes) and then downloaded as a PowerPoint file to add pictures or
 change the design.
+
+## Your own lesson framework
+
+For lesson plans, slide decks and unit plans you can turn on **Use my lesson framework** (step 4 on
+the Create page). The lesson then follows seven sections in this order instead of the default VTLM 2.0
+phases: **learning intention, activate prior knowledge, concept development, guided practice,
+relevance, skill closure, independent task**. For each section you choose:
+
+- **My requirements**: your standing rules for that part (e.g. "3 quick questions on mini whiteboards
+  about last lesson"). Lessonroo is creative within them. Leave it empty and Lessonroo decides.
+- **Keep my wording**: a routine you use every lesson, used as written. `[Square-bracket]` parts are
+  filled in for each lesson.
+- **Leave out**: drop that section.
+
+You can also fix the minutes for any section in a lesson plan, and the rest of the time is shared out. The framework is remembered
+on your device and saved with **templates**, so you set it up once and then only type the idea for
+each new lesson. Lesson plans are checked afterwards and warn you if a section is missing.
 
 ## Library, templates, feedback and costs (needs the database)
 

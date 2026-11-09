@@ -14,6 +14,8 @@ import { OUTPUT_TYPES, OUTPUTS } from "@/lib/generator/outputs";
 import { SYSTEM_PROMPT } from "@/lib/generator/pedagogy";
 import { GenerateRequestSchema, type GenerateRequest } from "@/lib/generator/schema";
 import { validateOutput } from "@/lib/generator/validate";
+import { activeSections, emptyFramework, FrameworkSchema, frameworkWarnings } from "@/lib/generator/framework";
+import { settingsFrom } from "@/lib/library/settings";
 import JSZip from "jszip";
 import { docxFilename, outputToDocx } from "@/lib/export/docx";
 import { outputToPptx, pptxFilename } from "@/lib/export/pptx";
@@ -395,5 +397,59 @@ describe("student copies in Word", () => {
       const student = await outputToDocx(type, SAMPLES[type], { ...meta, studentOnly: true });
       expect(student.length).toBeLessThan(full.length);
     }
+  });
+});
+
+describe("lesson framework", () => {
+  const fw = (sections: Record<string, unknown>, enabled = true) => ({ enabled, sections });
+
+  it("puts the teacher's sections, requirements and wording into the request", () => {
+    const req = request({
+      framework: fw({
+        priorKnowledge: { mode: "guide", text: "3 whiteboard questions on last lesson", minutes: 5 },
+        relevance: { mode: "skip" },
+        skillClosure: { mode: "keep", text: "Today I learned [topic]. Show me on your whiteboard." },
+      }),
+    });
+    const text = buildTeacherRequest(req, maths, mathsCtx);
+    expect(text).toContain("replaces the default VTLM 2.0 lesson sequence");
+    expect(text).toContain("Activate prior knowledge (5 minutes)");
+    expect(text).toContain("3 whiteboard questions on last lesson");
+    expect(text).toContain("to use as written");
+    expect(text).toContain("Today I learned [topic]");
+    expect(text).toContain("Leave out: Relevance.");
+    expect(text).toContain("share the remaining 55 minutes");
+    expect(text).not.toMatch(/\d\. Relevance/);
+  });
+
+  it("is ignored when switched off or for outputs without a lesson structure", () => {
+    const off = buildTeacherRequest(request({ framework: fw({}, false) }), maths, mathsCtx);
+    expect(off).not.toContain("lesson framework");
+    const worksheet = buildTeacherRequest(request({ outputType: "worksheet", framework: fw({}) }), maths, mathsCtx);
+    expect(worksheet).not.toContain("lesson framework");
+    const slides = buildTeacherRequest(request({ outputType: "slides", framework: fw({}) }), maths, mathsCtx);
+    expect(slides).toContain("[Guided practice]");
+  });
+
+  it("accepts framework phase names in lesson plans and warns about missing sections", () => {
+    const plan = {
+      ...samplePlan,
+      phases: [
+        { phase: "Learning intention", minutes: 5, teacher: ["Share"], students: ["Read"], checkForUnderstanding: "" },
+        { phase: "Concept development", minutes: 55, teacher: ["Model"], students: ["Watch"], checkForUnderstanding: "" },
+      ],
+    };
+    expect(OUTPUTS.lesson_plan.schema.safeParse(plan).success).toBe(true);
+    const framework = FrameworkSchema.parse(fw({ relevance: { mode: "skip" } }));
+    const warnings = frameworkWarnings(framework, "lesson_plan", plan);
+    expect(warnings[0]).toContain("Activate prior knowledge");
+    expect(warnings[0]).not.toContain("Relevance");
+    expect(frameworkWarnings({ ...framework, enabled: false }, "lesson_plan", plan)).toEqual([]);
+  });
+
+  it("is kept in templates and reused settings", () => {
+    const framework = { enabled: true, sections: { guidedPractice: { mode: "guide", text: "Mini whiteboards", minutes: 10 } } };
+    expect(settingsFrom({ level: "3", framework }).framework?.sections.guidedPractice?.text).toBe("Mini whiteboards");
+    expect(activeSections(emptyFramework())).toHaveLength(7);
   });
 });

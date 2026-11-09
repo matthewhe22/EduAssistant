@@ -6,6 +6,7 @@
  * the object is also validated against the curriculum (see validate.ts).
  */
 import { z } from "zod";
+import { FRAMEWORK_PHASES } from "../framework";
 
 export const CurriculumLinks = z
   .array(
@@ -35,6 +36,9 @@ export const PHASES = [
   "Reflection",
 ] as const;
 
+/** Default VTLM 2.0 phases plus the teacher's own framework sections (lib/generator/framework.ts). */
+export const PHASE_NAMES = [...PHASES, ...FRAMEWORK_PHASES.filter((p) => !(PHASES as readonly string[]).includes(p))] as [string, ...string[]];
+
 export const LessonPlanSchema = z.object({
   title: z.string().describe("Short, teacher-facing lesson title"),
   overview: z.string().describe("Two or three sentences: what students learn and why it matters"),
@@ -46,7 +50,7 @@ export const LessonPlanSchema = z.object({
   phases: z
     .array(
       z.object({
-        phase: z.enum(PHASES),
+        phase: z.enum(PHASE_NAMES).describe("VTLM 2.0 phase, or the teacher's own framework section when one is given"),
         minutes: z.number().int(),
         teacher: z.array(z.string()).describe("What the teacher does and says, including worked examples"),
         students: z.array(z.string()).describe("What students do"),
