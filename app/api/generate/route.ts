@@ -3,6 +3,7 @@ import { prepareAttachments } from "@/lib/generator/attachments";
 import { resolveAiConfig } from "@/lib/ai/config";
 import { generateStructured } from "@/lib/generator/llm";
 import { buildCurriculumContext, buildTeacherRequest } from "@/lib/generator/context";
+import { frameworkWarnings } from "@/lib/generator/framework";
 import { OUTPUTS } from "@/lib/generator/outputs";
 import { GenerateRequestSchema, requestAttachments, type StoredTeacherInput } from "@/lib/generator/schema";
 import { ndjsonResponse, sectionTracker } from "@/lib/generator/stream";
@@ -51,6 +52,7 @@ export async function POST(request: Request) {
       signal: request.signal,
     });
     const { content, warnings } = validateOutput(req.outputType, result.content, ctx.allowedCodes, req.lessonMinutes);
+    warnings.push(...frameworkWarnings(req.framework, req.outputType, content));
 
     let generationId: string | null = null;
     if (db && user) {

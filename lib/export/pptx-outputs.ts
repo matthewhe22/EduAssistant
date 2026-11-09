@@ -76,7 +76,7 @@ function lessonPlan(x: LessonPlan): ExportDeck {
   for (const ph of x.phases) {
     const students = clean(ph.students);
     slides.push({
-      layout: ph.phase === "Independent practice" || ph.phase === "Guided practice" ? "Activity" : "Bullets",
+      layout: ["Independent practice", "Guided practice", "Independent task"].includes(ph.phase) ? "Activity" : "Bullets",
       heading: ph.phase,
       tag: `${ph.phase} · ${ph.minutes} min`,
       bullets: students.length ? students : clean(ph.teacher).slice(0, 4),

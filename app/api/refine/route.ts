@@ -51,6 +51,9 @@ export async function POST(request: Request) {
       `</current>`,
       ``,
       `Rewrite only the "${req.section}" field (${sectionLabel}) following the teacher's instruction below. Keep it consistent with the rest of the document and with the curriculum. Return the complete JSON object and copy every other field exactly as it is.`,
+      ...(req.outputType === "lesson_plan" && req.section === "phases"
+        ? [`Keep the same phase names and order as the current lesson sequence (they may be the teacher's own lesson framework).`]
+        : []),
       `Teacher's instruction:`,
       `"""`,
       req.instruction,

@@ -16,9 +16,11 @@ import {
   maxBytesFor,
   type Attachment,
 } from "@/lib/generator/schema";
+import { activeSections, emptyFramework, FrameworkSchema, usesFramework, type Framework } from "@/lib/generator/framework";
 import type { FormSettings } from "@/lib/library/settings";
 import { exampleIdeas } from "@/lib/ui/examples";
 import { classLabel, DIFFICULTY_UI, OUTPUT_UI, progressMessage, typeNoun, YEAR_LABELS, YEAR_SHORT } from "@/lib/ui/labels";
+import { FrameworkEditor } from "./FrameworkEditor";
 import { Icon, ICONS } from "./Icon";
 import { Notice } from "./Page";
 import { ResultPanel, type ResultContext, type ResultState, type SourceMaterial } from "./ResultPanel";
@@ -63,6 +65,19 @@ async function readAttachment(file: File): Promise<Attachment> {
   let binary = "";
   for (let i = 0; i < bytes.length; i += 0x8000) binary += String.fromCharCode(...bytes.subarray(i, i + 0x8000));
   return { name: file.name, mediaType, data: btoa(binary) };
+}
+
+const FRAMEWORK_KEY = "lessonroo.framework";
+
+/** The framework last used on this device (a per-browser convenience; templates keep it for good). */
+function storedFramework(): Framework | null {
+  try {
+    const raw = window.localStorage.getItem(FRAMEWORK_KEY);
+    const parsed = raw ? FrameworkSchema.safeParse(JSON.parse(raw)) : null;
+    return parsed?.success ? parsed.data : null;
+  } catch {
+    return null;
+  }
 }
 
 function Step({ n, title, note, children }: { n: number; title: string; note?: string; children: React.ReactNode }) {
@@ -118,6 +133,10 @@ export function PlanForm({
   );
   const [idea, setIdea] = useState(initial.idea ?? "");
   const [classContext, setClassContext] = useState(initial.classContext ?? "");
+  const [framework, setFramework] = useState<Framework>(initial.framework ?? emptyFramework());
+  const frameworkLoaded = useRef(Boolean(initial.framework));
+  const showFramework = usesFramework(outputType);
+  const frameworkOn = showFramework && framework.enabled;
   const [templates, setTemplates] = useState(initialTemplates);
   const [templateMsg, setTemplateMsg] = useState(initialNote ?? "");
   const pendingFocus = useRef<string[] | null>(initial.focusCodes ?? null);
@@ -164,6 +183,23 @@ export function PlanForm({
     requestAnimationFrame(() => topRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }));
   }
 
+  // Bring back the framework used last time on this device (unless a template or library item set one).
+  useEffect(() => {
+    if (frameworkLoaded.current) return;
+    frameworkLoaded.current = true;
+    const saved = storedFramework();
+    if (saved) setFramework(saved);
+  }, []);
+
+  function changeFramework(fw: Framework) {
+    setFramework(fw);
+    try {
+      window.localStorage.setItem(FRAMEWORK_KEY, JSON.stringify(fw));
+    } catch {
+      /* private window or storage blocked: it still works for this visit */
+    }
+  }
+
   useEffect(() => {
     if (!available.some((s) => s.slug === subjectSlug) && available[0]) setSubjectSlug(available[0].slug);
   }, [available, subjectSlug]);
@@ -203,6 +239,7 @@ export function PlanForm({
     if (s.itemCount && s.outputType) setItemCounts((prev) => ({ ...prev, [s.outputType!]: s.itemCount }));
     if (s.classContext !== undefined) setClassContext(s.classContext);
     if (s.idea !== undefined) setIdea(s.idea);
+    if (s.framework) changeFramework(s.framework);
     const changesCurriculum = (s.subjectSlug && s.subjectSlug !== subjectSlug) || (s.level && s.level !== level) || s.secondLevel !== activeSecond;
     pendingFocus.current = changesCurriculum ? s.focusCodes ?? [] : null;
     setFocusCodes(s.focusCodes ?? []);
@@ -211,7 +248,7 @@ export function PlanForm({
   async function saveTemplate() {
     const name = window.prompt('Name this template (e.g. "Year 3 maths, 50 min")');
     if (!name?.trim()) return;
-    const settings: FormSettings = { outputType, level, secondLevel: activeSecond, subjectSlug, difficulty, lessonMinutes, itemCount, classContext, focusCodes };
+    const settings: FormSettings = { outputType, level, secondLevel: activeSecond, subjectSlug, difficulty, lessonMinutes, itemCount, classContext, focusCodes, framework };
     if (idea.trim() && window.confirm("Also save the idea text in this template?")) settings.idea = idea;
     const res = await fetch("/api/templates", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name, settings }) });
     const data = await res.json().catch(() => ({}));
@@ -263,6 +300,7 @@ export function PlanForm({
           classContext,
           attachments,
           basedOn: source ?? undefined,
+          framework: frameworkOn ? framework : undefined,
         },
         (characters, section) => setProgress({ characters, section }),
         ctrl.signal,
@@ -510,7 +548,19 @@ export function PlanForm({
             </div>
           </Step>
 
-          <Step n={4} title="Fine-tune" note="optional">
+          {showFramework && (
+            <Step n={4} title="Lesson framework" note="optional">
+              <FrameworkEditor
+                framework={framework}
+                onChange={changeFramework}
+                lessonMinutes={lessonMinutes}
+                usesMinutes={outputType === "lesson_plan"}
+                canSave={canSave}
+              />
+            </Step>
+          )}
+
+          <Step n={showFramework ? 5 : 4} title="Fine-tune" note="optional">
             <fieldset className="mb-[18px]">
               <legend className="mb-2 text-[15px] font-bold">Difficulty</legend>
               <div className="inline-flex flex-wrap overflow-hidden rounded-xl border border-line-strong">
@@ -603,6 +653,12 @@ export function PlanForm({
                 <>
                   <dt className="text-ink-muted">Length</dt>
                   <dd>{lessonMinutes} minutes</dd>
+                </>
+              )}
+              {showFramework && (
+                <>
+                  <dt className="text-ink-muted">Structure</dt>
+                  <dd>{frameworkOn ? `My framework (${activeSections(framework).length} parts)` : "VTLM 2.0"}</dd>
                 </>
               )}
               <dt className="text-ink-muted">Pitch</dt>
