@@ -1,6 +1,6 @@
 import { AiSettingsForm } from "@/components/AiSettingsForm";
 import { Notice, Page } from "@/components/Page";
-import { DEFAULT_MODEL } from "@/lib/ai/config";
+import { effectiveModel } from "@/lib/ai/config";
 import { labelFor, mergeModels } from "@/lib/ai/models";
 import { pageUser } from "@/lib/auth/page";
 import { canEncrypt } from "@/lib/crypto/secret";
@@ -21,7 +21,7 @@ export default async function SettingsPage() {
   const settings = await getAiSettings(auth.db, auth.user.id);
   const activeKey = settings.apiKey ?? process.env.TENON_API_KEY ?? null;
   const keySource: "user" | "server" | "none" = settings.apiKey ? "user" : process.env.TENON_API_KEY ? "server" : "none";
-  const model = settings.model || DEFAULT_MODEL;
+  const model = effectiveModel(settings.model);
   const liveModels = activeKey ? await listModelIds(activeKey) : null;
 
   return (

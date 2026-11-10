@@ -19,7 +19,7 @@ const chunk = (content: string, extra: Record<string, unknown> = {}) => ({
   id: "c1",
   object: "chat.completion.chunk",
   created: 0,
-  model: "deepseek-v4.1-flash",
+  model: "glm-5.3-flash",
   choices: [{ index: 0, delta: { content }, finish_reason: null }],
   ...extra,
 });
@@ -27,7 +27,7 @@ const finish = (reason: string, usage?: unknown) => ({
   id: "c1",
   object: "chat.completion.chunk",
   created: 0,
-  model: "deepseek-v4.1-flash",
+  model: "glm-5.3-flash",
   choices: [{ index: 0, delta: {}, finish_reason: reason }],
   ...(usage ? { usage } : {}),
 });
@@ -43,7 +43,7 @@ beforeAll(async () => {
           return;
         }
         res.writeHead(200, { "Content-Type": "application/json" }).end(
-          JSON.stringify({ object: "list", data: ["deepseek-v4.1-flash", "claude-opus-5-5", "llama-guard-4-12b"].map((id) => ({ id, object: "model", owned_by: "x", created: 0 })) }),
+          JSON.stringify({ object: "list", data: ["glm-5.3-flash", "claude-opus-5-5", "llama-guard-4-12b"].map((id) => ({ id, object: "model", owned_by: "x", created: 0 })) }),
         );
         return;
       }
@@ -72,7 +72,7 @@ beforeEach(() => {
   requests.length = 0;
 });
 
-const ai = { apiKey: "sk-tx-good", model: "deepseek-v4.1-flash", keySource: "user" as const };
+const ai = { apiKey: "sk-tx-good", model: "glm-5.3-flash", keySource: "user" as const };
 const run = (model = ai.model, onProgress: (n: number) => void = () => {}) =>
   llm.generateStructured({ schema: LessonPlanSchema, ai: { ...ai, model }, curriculumText: "CURRICULUM", requestText: "REQUEST", onProgress });
 
@@ -86,11 +86,11 @@ describe("generateStructured via Tenon", () => {
     const result = await run(ai.model, (n) => progress.push(n));
     expect(result.content.title).toBe(samplePlan.title);
     expect(result.usage).toMatchObject({ inputTokens: 1000, cacheReadTokens: 8000, outputTokens: 2500 });
-    expect(result.usage.costUsd).toBeCloseTo((1000 * 0.24 + 8000 * 0.0072 + 2500 * 0.72) / 1e6, 5);
+    expect(result.usage.costUsd).toBeCloseTo((1000 * 0.18 + 8000 * 0.036 + 2500 * 0.6) / 1e6, 5);
     expect(progress.at(-1)).toBe(text.length);
 
     const sent = requests[0] as { model: string; stream: boolean; response_format?: unknown; messages: { role: string; content: string }[] };
-    expect(sent).toMatchObject({ model: "deepseek-v4.1-flash", stream: true, response_format: { type: "json_object" } });
+    expect(sent).toMatchObject({ model: "glm-5.3-flash", stream: true, response_format: { type: "json_object" } });
     expect(sent.messages[0].role).toBe("system");
     expect(sent.messages[0].content).toContain("JSON Schema");
     expect(sent.messages[0].content).toContain('"learningIntention"');
@@ -107,7 +107,7 @@ describe("generateStructured via Tenon", () => {
     handler = (body) =>
       body.stream
         ? { sse: [chunk('{"title": "Half a plan"}'), finish("stop", { prompt_tokens: 100, completion_tokens: 10 })] }
-        : { json: { id: "r", object: "chat.completion", created: 0, model: "deepseek-v4.1-flash", choices: [{ index: 0, message: { role: "assistant", content: JSON.stringify(samplePlan) }, finish_reason: "stop" }], usage: { prompt_tokens: 200, completion_tokens: 20 } } };
+        : { json: { id: "r", object: "chat.completion", created: 0, model: "glm-5.3-flash", choices: [{ index: 0, message: { role: "assistant", content: JSON.stringify(samplePlan) }, finish_reason: "stop" }], usage: { prompt_tokens: 200, completion_tokens: 20 } } };
     const result = await run();
     expect(result.content.overview).toBe(samplePlan.overview);
     expect(requests).toHaveLength(2);
@@ -146,7 +146,7 @@ describe("generateStructured via Tenon", () => {
 
 describe("models and key checks", () => {
   it("lists models for a valid key and checks keys", async () => {
-    expect(await llm.listModelIds("sk-tx-good")).toEqual(["deepseek-v4.1-flash", "claude-opus-5-5", "llama-guard-4-12b"]);
+    expect(await llm.listModelIds("sk-tx-good")).toEqual(["glm-5.3-flash", "claude-opus-5-5", "llama-guard-4-12b"]);
     expect(await llm.listModelIds("sk-tx-bad")).toBeNull();
     expect(await llm.checkApiKey("sk-tx-good")).toBe("ok");
     expect(await llm.checkApiKey("sk-tx-bad")).toBe("invalid");

@@ -7,7 +7,7 @@ import { SYSTEM_PROMPT } from "./pedagogy";
 
 /**
  * Structured generation through Tenon's OpenAI-compatible Chat Completions endpoint, so any
- * model Tenon serves (DeepSeek, Claude, Gemini, Qwen…) works with one code path.
+ * model Tenon serves (Claude, Gemini, GLM, Qwen…) works with one code path.
  * The output schema is given in the prompt, JSON mode is requested where supported, and the
  * answer is validated with zod; one repair attempt is made if it doesn't validate.
  */

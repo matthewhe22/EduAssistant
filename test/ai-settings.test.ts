@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { mergeModels } from "@/lib/ai/models";
+import { isAllowedModel, mergeModels, usableModel } from "@/lib/ai/models";
 import { canEncrypt, decryptSecret, encryptSecret, keyHint } from "@/lib/crypto/secret";
 
 describe("secret encryption", () => {
@@ -30,9 +30,23 @@ describe("secret encryption", () => {
 
 describe("model list", () => {
   it("keeps known models first, drops non-writing models, falls back when offline", () => {
-    const merged = mergeModels(["zeta-model", "claude-opus-5-5", "llama-guard-4-12b", "deepseek-v4.1-flash"]);
-    expect(merged.map((m) => m.id)).toEqual(["deepseek-v4.1-flash", "claude-opus-5-5", "zeta-model"]);
-    expect(merged[0].label).toBe("DeepSeek V4.1 Flash");
-    expect(mergeModels(null)[0].id).toBe("deepseek-v4.1-flash");
+    const merged = mergeModels(["zeta-model", "claude-opus-5-5", "llama-guard-4-12b", "glm-5.3-flash"]);
+    expect(merged.map((m) => m.id)).toEqual(["glm-5.3-flash", "claude-opus-5-5", "zeta-model"]);
+    expect(merged[0].label).toBe("GLM 5.3 Flash");
+    expect(mergeModels(null)[0].id).toBe("glm-5.3-flash");
+  });
+
+  it("never offers DeepSeek models, which aren't allowed in Australian schools", () => {
+    const merged = mergeModels(["deepseek-v4.1-flash", "deepseek-v4-pro-0813", "DeepSeek-R2", "glm-5.3-flash"]);
+    expect(merged.map((m) => m.id)).toEqual(["glm-5.3-flash"]);
+    expect(mergeModels(null).some((m) => /deepseek/i.test(m.id))).toBe(false);
+  });
+
+  it("swaps a saved DeepSeek choice for the default", () => {
+    expect(isAllowedModel("deepseek-v4.1-flash")).toBe(false);
+    expect(isAllowedModel("claude-sonnet-5-5")).toBe(true);
+    expect(usableModel("deepseek-v4.1-flash")).toBe("glm-5.3-flash");
+    expect(usableModel(null)).toBe("glm-5.3-flash");
+    expect(usableModel("claude-sonnet-5-5")).toBe("claude-sonnet-5-5");
   });
 });

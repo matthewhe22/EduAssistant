@@ -35,7 +35,7 @@ describe("POST /api/generate (local mode, no Supabase)", () => {
     mocked.mockImplementation(async (opts) => {
       expect(opts.curriculumText).toContain("[VC2M3N03]");
       expect(opts.requestText).toContain("Fractions with paper strips");
-      expect(opts.ai).toEqual({ apiKey: "sk-tx-server", model: "deepseek-v4.1-flash", keySource: "server" });
+      expect(opts.ai).toEqual({ apiKey: "sk-tx-server", model: "glm-5.3-flash", keySource: "server" });
       opts.onProgress(250, '{"title":"x","overview":"' + "a".repeat(220) + '","phases":[');
       return { content: samplePlan, model: "claude-opus-5-5", usage } as never;
     });

@@ -11,7 +11,7 @@ aligned to the **Victorian Curriculum F–10 Version 2.0** and the **Victorian T
 
 - Next.js 14 (App Router, TypeScript, Tailwind), hosted on **Render** (`render.yaml`)
 - **PostgreSQL** (Render Postgres): teacher accounts (hashed passwords, httpOnly session cookies), library, templates, usage
-- **Tenon** ([mytenon.com](https://mytenon.com)) for generation: one OpenAI-compatible API key for DeepSeek, Claude, Gemini, Qwen and more. Default model: **DeepSeek V4.1 Flash**
+- **Tenon** ([mytenon.com](https://mytenon.com)) for generation: one OpenAI-compatible API key for Claude, Gemini, GLM, Qwen and more. Default model: **GLM 5.3 Flash**. DeepSeek models are not offered or used, because Australian education departments don't allow them in schools
 
 ## Status
 
@@ -114,7 +114,7 @@ project, with the answer in the speaker notes.
 2. `/api/generate` loads the subject's level or band from `data/curriculum/vc2`: content
    descriptions, elaborations and the achievement standard. For below / above / mixed difficulty
    it adds the neighbouring band.
-3. The teacher's chosen model (default `deepseek-v4.1-flash`) is called through Tenon's
+3. The teacher's chosen model (default `glm-5.3-flash`) is called through Tenon's
    OpenAI-compatible API (`lib/generator/llm.ts`). The output type's JSON Schema is in the prompt
    (from `lib/generator/outputs/`), JSON mode is on where the model supports it, and the reply is
    validated with zod; an invalid reply gets one automatic repair attempt. Victorian rules (VTLM

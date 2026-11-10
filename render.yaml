@@ -22,7 +22,7 @@ services:
       - key: TENON_API_KEY
         sync: false
       - key: DEFAULT_MODEL
-        value: deepseek-v4.1-flash
+        value: glm-5.3-flash
       # Encrypts API keys saved on the Usage page. Generated once; changing it means keys must be re-entered.
       - key: SETTINGS_SECRET
         generateValue: true
