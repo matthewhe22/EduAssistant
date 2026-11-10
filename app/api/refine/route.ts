@@ -71,7 +71,7 @@ export async function POST(request: Request) {
     });
 
     const merged = { ...current.data, [req.section]: (result.content as Record<string, unknown>)[req.section] };
-    const { content, warnings } = validateOutput(req.outputType, merged, ctx.allowedCodes, req.lessonMinutes);
+    const { content, warnings } = validateOutput(req.outputType, merged, ctx.allowedCodes, req.lessonMinutes, req.level);
 
     let generationId: string | null = null;
     if (db && user) {

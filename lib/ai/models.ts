@@ -9,8 +9,7 @@ export interface ModelOption {
 }
 
 export const KNOWN_MODELS: ModelOption[] = [
-  { id: "deepseek-v4.1-flash", label: "DeepSeek V4.1 Flash", note: "Fast and very low cost (default)" },
-  { id: "deepseek-v4-pro-0813", label: "DeepSeek V4 Pro", note: "Stronger reasoning" },
+  { id: "glm-5.3-flash", label: "GLM 5.3 Flash", note: "Fast and low cost (default)" },
   { id: "claude-sonnet-5-5", label: "Claude Sonnet 5.5", note: "High quality" },
   { id: "claude-opus-5-5", label: "Claude Opus 5.5", note: "Highest quality, higher cost" },
   { id: "gemini-3.7-flash", label: "Gemini 3.7 Flash" },
@@ -22,6 +21,18 @@ export const KNOWN_MODELS: ModelOption[] = [
 /** Models that can't write lesson plans (safety classifiers, embeddings). */
 const NOT_FOR_WRITING = /guard|embed|vision-exp|whisper|tts|image/i;
 
+/** Used when no model is chosen, or the chosen one isn't allowed. */
+export const FALLBACK_MODEL = "glm-5.3-flash";
+
+/** Models Australian education departments don't allow in schools (DeepSeek). Never offered or used. */
+const NOT_ALLOWED = /deepseek/i;
+export const isAllowedModel = (id: string) => !NOT_ALLOWED.test(id);
+
+/** The saved model if it may be used, otherwise `fallback`. */
+export function usableModel(saved: string | null | undefined, fallback: string = FALLBACK_MODEL) {
+  return saved && isAllowedModel(saved) ? saved : fallback;
+}
+
 export function labelFor(id: string) {
   return KNOWN_MODELS.find((m) => m.id === id)?.label ?? id;
 }
@@ -29,7 +40,7 @@ export function labelFor(id: string) {
 /** Merges the live list with known names; known models first, in our order. */
 export function mergeModels(liveIds: string[] | null): ModelOption[] {
   if (!liveIds?.length) return KNOWN_MODELS;
-  const live = new Set(liveIds.filter((id) => !NOT_FOR_WRITING.test(id)));
+  const live = new Set(liveIds.filter((id) => !NOT_FOR_WRITING.test(id) && isAllowedModel(id)));
   const known = KNOWN_MODELS.filter((m) => live.has(m.id));
   const others = [...live].filter((id) => !KNOWN_MODELS.some((m) => m.id === id)).sort().map((id) => ({ id, label: id }));
   return [...known, ...others];

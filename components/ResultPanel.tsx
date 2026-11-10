@@ -44,25 +44,26 @@ export interface SourceMaterial {
 }
 
 /** Types with answers, where a student copy makes sense. */
-const STUDENT_COPY_TYPES: OutputType[] = ["worksheet", "assessment", "differentiation"];
+const STUDENT_COPY_TYPES: OutputType[] = ["worksheet", "assessment", "differentiation", "puzzles"];
 
 /** Fields edited together under "Edit title" when they aren't sections of their own. */
 const HEADER_FIELDS = ["title", "subtitle", "overview", "learningIntention"];
 
 /** Sections hidden in a student copy. */
-const TEACHER_ONLY = ["teacherNotes", "markingGuide", "nextSteps", "ealDAdjustments", "commonTask"];
+const TEACHER_ONLY = ["teacherNotes", "markingGuide", "nextSteps", "ealDAdjustments", "commonTask", "words", "brainBreaks"];
 
 /** Sensible follow-ons for each type, most useful first. */
 const MATCHES: Record<OutputType, OutputType[]> = {
-  lesson_plan: ["slides", "worksheet", "differentiation", "assessment", "activities", "rubric", "parent_note"],
-  unit_plan: ["assessment", "rubric", "parent_note", "worksheet", "slides"],
-  activities: ["worksheet", "slides", "lesson_plan", "parent_note"],
+  lesson_plan: ["slides", "worksheet", "differentiation", "assessment", "activities", "puzzles", "rubric", "parent_note"],
+  unit_plan: ["assessment", "rubric", "puzzles", "parent_note", "worksheet", "slides"],
+  activities: ["worksheet", "slides", "puzzles", "lesson_plan", "parent_note"],
   worksheet: ["differentiation", "assessment", "slides", "lesson_plan"],
   differentiation: ["worksheet", "assessment", "lesson_plan"],
   rubric: ["assessment", "worksheet", "parent_note"],
   assessment: ["rubric", "worksheet", "differentiation"],
   parent_note: ["worksheet", "activities"],
-  slides: ["worksheet", "lesson_plan", "assessment", "differentiation", "parent_note"],
+  slides: ["worksheet", "lesson_plan", "assessment", "differentiation", "puzzles", "parent_note"],
+  puzzles: ["worksheet", "activities", "slides", "assessment"],
 };
 
 /** Idea text for expanding one unit plan lesson into a full lesson plan. */
@@ -184,7 +185,7 @@ export function ResultPanel({
       return;
     }
     setSaving(true);
-    const warnings = refreshWarnings(result.outputType, parsed.data, context.lessonMinutes, result.warnings);
+    const warnings = refreshWarnings(result.outputType, parsed.data, context.lessonMinutes, result.warnings, context.level);
     await commit(parsed.data, warnings, `Edited the ${editLabel(key).toLowerCase()}`);
     setSaving(false);
     setEditingKey(null);
@@ -415,6 +416,7 @@ export function ResultPanel({
             <ViewOptionsContext.Provider
               value={{
                 studentCopy: hasStudentCopy && studentCopy,
+                level: context.level,
                 expandLesson:
                   canMatch && result.outputType === "unit_plan"
                     ? (n) => makeMatching("lesson_plan", lessonIdea(result.content as UnitPlan, n), n)

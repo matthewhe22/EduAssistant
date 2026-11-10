@@ -40,7 +40,7 @@ let genId = "";
 const event = (user: string, gen: string | null, kind: string, type: string, cost: number, ageDays = 0) =>
   db.query(
     `insert into usage_events (user_id, generation_id, kind, output_type, model, input_tokens, cache_read_tokens, output_tokens, cost_usd, created_at)
-     values ($1, $2, $3, $4::output_type, 'deepseek-v4.1-flash', 1000, 500, 2000, $5, now() - ($6 || ' days')::interval)`,
+     values ($1, $2, $3, $4::output_type, 'glm-5.3-flash', 1000, 500, 2000, $5, now() - ($6 || ' days')::interval)`,
     [user, gen, kind, type, cost, String(ageDays)],
   );
 
@@ -54,7 +54,7 @@ beforeAll(async () => {
   genId = (
     await db.query<{ id: string }>(
       `insert into generations (user_id, title, level, subject_slug, output_type, difficulty, teacher_input, curriculum_codes, content, model)
-       values ($1, 'Fractions with strips', '3', 'mathematics', 'lesson_plan', 'at', '{"idea":"SECRET IDEA"}', '{}', '{"output":{"overview":"SECRET CONTENT"}}', 'deepseek-v4.1-flash') returning id`,
+       values ($1, 'Fractions with strips', '3', 'mathematics', 'lesson_plan', 'at', '{"idea":"SECRET IDEA"}', '{}', '{"output":{"overview":"SECRET CONTENT"}}', 'glm-5.3-flash') returning id`,
       [teacher],
     )
   ).rows[0].id;

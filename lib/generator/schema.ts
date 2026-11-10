@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { PRIMARY_LEVELS } from "../curriculum/types";
+import { AdaptSchema } from "./adapt";
 import { FrameworkSchema } from "./framework";
 import { OUTPUT_TYPES, type OutputType } from "./outputs";
 
@@ -92,6 +93,8 @@ export const GenerateRequestSchema = z
     basedOn: BasedOnSchema.optional(),
     /** The teacher's own lesson framework (lesson plans, slides and unit plans). */
     framework: FrameworkSchema.optional(),
+    /** Adapt the uploaded plan (e.g. a Victorian Lesson Plan) rather than just drawing on it. */
+    adapt: AdaptSchema.optional(),
   })
   .refine((r) => (r.attachment ? 1 : 0) + r.attachments.length <= MAX_ATTACHMENTS, { message: `Upload at most ${MAX_ATTACHMENTS} files`, path: ["attachments"] })
   .refine((r) => [r.attachment, ...r.attachments].reduce((n, a) => n + (a?.data.length ?? 0), 0) <= base64Length(MAX_TOTAL_ATTACHMENT_BYTES), {

@@ -1,6 +1,7 @@
 "use client";
 
 import { createContext, useContext } from "react";
+import type { PrimaryLevel } from "@/lib/curriculum/types";
 import { Icon, ICONS } from "./Icon";
 
 /** Lets any section open the "Rewrite this part" form provided by ResultPanel. */
@@ -26,6 +27,8 @@ export interface ViewOptions {
   studentCopy: boolean;
   /** Unit plans: turn one lesson into a full lesson plan. */
   expandLesson?: (lessonNumber: number) => void;
+  /** Year level of the class (games and puzzles are laid out for it). */
+  level?: PrimaryLevel;
 }
 export const ViewOptionsContext = createContext<ViewOptions>({ studentCopy: false });
 export const useViewOptions = () => useContext(ViewOptionsContext);

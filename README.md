@@ -11,7 +11,7 @@ aligned to the **Victorian Curriculum F–10 Version 2.0** and the **Victorian T
 
 - Next.js 14 (App Router, TypeScript, Tailwind), hosted on **Render** (`render.yaml`)
 - **PostgreSQL** (Render Postgres): teacher accounts (hashed passwords, httpOnly session cookies), library, templates, usage
-- **Tenon** ([mytenon.com](https://mytenon.com)) for generation: one OpenAI-compatible API key for DeepSeek, Claude, Gemini, Qwen and more. Default model: **DeepSeek V4.1 Flash**
+- **Tenon** ([mytenon.com](https://mytenon.com)) for generation: one OpenAI-compatible API key for Claude, Gemini, GLM, Qwen and more. Default model: **GLM 5.3 Flash**. DeepSeek models are not offered or used, because Australian education departments don't allow them in schools
 
 ## Status
 
@@ -34,7 +34,8 @@ aligned to the **Victorian Curriculum F–10 Version 2.0** and the **Victorian T
 | Assessment rubric | Task + 4-level rubric with "Achieving" matching the achievement standard |
 | Quiz / assessment | Questions with marks, answers, codes, marking guide and next steps |
 | Parent / newsletter note | Family-friendly summary, home activities, conversation starters |
-| PowerPoint slides | 4–25 classroom slides in VTLM 2.0 order with speaker notes and picture ideas. Downloads as an editable `.pptx` |
+| PowerPoint slides | 4–25 classroom slides in VTLM 2.0 order with speaker notes and picture ideas. Downloads as an editable `.pptx` in one of five themes, with optional free photos |
+| Games and puzzles | 6–20 key words with clues, 24 bingo calls and 3 brain breaks. The app lays out a word search, a numbered crossword and 24 different bingo cards from them, with answer keys |
 
 You can also **upload reference material** (up to 5 files: PDF, Word `.docx`, PowerPoint `.pptx` or
 text; PowerPoint up to 20 MB and other files up to 5 MB each, 40 MB in total), such as an existing plan, slides, a reading or a worksheet, instead of, or as well
@@ -61,6 +62,34 @@ You can also fix the minutes for any section in a lesson plan, and the rest of t
 on your device and saved with **templates**, so you set it up once and then only type the idea for
 each new lesson. Lesson plans are checked afterwards and warn you if a section is missing.
 
+## Adapting a Victorian Lesson Plan
+
+Teachers can download a [Victorian Lesson Plan](https://arc.educationapps.vic.gov.au/learning/sites/lesson-plans)
+(or any existing plan) from Arc, upload it, and tick **Adapt this plan**. The plan stays the backbone: its
+learning intention, sequence, worked examples and vocabulary are kept, and only what the teacher ticks is
+changed (fit the year level and class, fit the lesson length, more support, extension, EAL/D, more hands-on,
+less preparation, simpler language). The first teacher note says what was kept and changed. Without the tick,
+uploads are used as ideas for something new, as before (`lib/generator/adapt.ts`).
+
+## Slide themes and photos
+
+The PowerPoint download has a theme picker (Eucalypt, Ocean, Outback, Playful and High contrast; all meet
+WCAG AA contrast, `lib/export/themes.ts`). For slide decks, **Add photos** searches
+[Openverse](https://openverse.org) (free, openly licensed images; no API key; mature results excluded) using the
+photo search words the AI writes for each slide, and puts the photo on the slide with its licence credit underneath
+and the source link in the speaker notes (`lib/export/images.ts`). The server needs outbound access to
+`api.openverse.org`; if it can't reach it, or nothing suitable is found, the slide keeps its "Picture idea" box.
+At most 15 photos are looked up per deck, to stay within Openverse's anonymous rate limit.
+
+## Games and puzzles
+
+The AI writes only the words, clues, bingo calls and brain breaks. The grids are laid out in code
+(`lib/puzzles/`), so they are always solvable and identical on screen, in print, in Word and in PowerPoint:
+the word search goes across and down for Prep–Year 2, adds diagonals for Years 3–4 and backwards words for
+Years 5–6; the crossword only joins words through real crossings (no stray words); bingo cards are 3×3 for Prep–Year 1
+and 4×4 otherwise. The student copy leaves out the answers. In PowerPoint, each bingo call is its own slide to
+project, with the answer in the speaker notes.
+
 ## Library, templates, feedback and costs (needs the database)
 
 - **My library** (`/plans`): search titles and ideas; filter by type, subject, level and rating.
@@ -85,7 +114,7 @@ each new lesson. Lesson plans are checked afterwards and warn you if a section i
 2. `/api/generate` loads the subject's level or band from `data/curriculum/vc2`: content
    descriptions, elaborations and the achievement standard. For below / above / mixed difficulty
    it adds the neighbouring band.
-3. The teacher's chosen model (default `deepseek-v4.1-flash`) is called through Tenon's
+3. The teacher's chosen model (default `glm-5.3-flash`) is called through Tenon's
    OpenAI-compatible API (`lib/generator/llm.ts`). The output type's JSON Schema is in the prompt
    (from `lib/generator/outputs/`), JSON mode is on where the model supports it, and the reply is
    validated with zod; an invalid reply gets one automatic repair attempt. Victorian rules (VTLM

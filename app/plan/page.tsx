@@ -3,7 +3,7 @@ import { PlanForm, type TemplateOption } from "@/components/PlanForm";
 import { getCurriculumIndex } from "@/lib/curriculum";
 import { isUuid } from "@/lib/library/server";
 import { FormSettingsSchema, settingsFrom, type FormSettings } from "@/lib/library/settings";
-import { DEFAULT_MODEL } from "@/lib/ai/config";
+import { effectiveModel } from "@/lib/ai/config";
 import { labelFor } from "@/lib/ai/models";
 import { pageUser } from "@/lib/auth/page";
 import { getAiSettings } from "@/lib/data/settings";
@@ -27,7 +27,7 @@ export default async function PlanPage({ searchParams }: { searchParams: { from?
   let source: SourceMaterial | null = null;
 
   const settings = auth ? await getAiSettings(auth.db, auth.user.id) : null;
-  const modelLabel = labelFor(settings?.model || DEFAULT_MODEL);
+  const modelLabel = labelFor(effectiveModel(settings?.model));
   const hasKey = Boolean(settings?.apiKey || process.env.TENON_API_KEY);
 
   if (auth) {

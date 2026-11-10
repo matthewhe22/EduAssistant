@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { MODEL_ID_PATTERN } from "@/lib/ai/models";
+import { isAllowedModel, MODEL_ID_PATTERN } from "@/lib/ai/models";
 import { canEncrypt } from "@/lib/crypto/secret";
 import { clearApiKey, saveApiKey, saveDefaultModel } from "@/lib/data/settings";
 import { checkApiKey } from "@/lib/generator/llm";
@@ -18,6 +18,9 @@ export async function POST(request: Request): Promise<Response> {
   const body = BodySchema.safeParse(await request.json().catch(() => null));
   if (!body.success) return Response.json({ error: "That doesn't look like a valid key or model." }, { status: 400 });
   const { apiKey, removeKey, model } = body.data;
+  if (model && !isAllowedModel(model)) {
+    return Response.json({ error: "That model isn't allowed for use in Australian schools. Choose another model." }, { status: 400 });
+  }
   const notes: string[] = [];
 
   if (removeKey) await clearApiKey(auth.db, auth.user.id);

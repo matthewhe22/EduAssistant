@@ -4,6 +4,7 @@ import {
   AssessmentSchema,
   LessonPlanSchema,
   ParentNoteSchema,
+  PuzzlePackSchema,
   RubricSchema,
   SlideDeckSchema,
   TieredTaskSchema,
@@ -22,6 +23,7 @@ export const OUTPUT_TYPES = [
   "assessment",
   "parent_note",
   "slides",
+  "puzzles",
 ] as const;
 export type OutputType = (typeof OUTPUT_TYPES)[number];
 
@@ -184,6 +186,21 @@ export const OUTPUTS: Record<OutputType, OutputDefinition> = {
     sections: {
       successCriteria: "Success criteria",
       slides: "Slides",
+      teacherNotes: "Teacher notes",
+    },
+  },
+  puzzles: {
+    label: "Games and puzzles",
+    description: "A word search, crossword, bingo game and brain breaks built from the key vocabulary",
+    schema: PuzzlePackSchema,
+    usesLessonLength: false,
+    itemCount: { label: "Number of words", default: 12, min: 6, max: 20 },
+    instructions: ({ itemCount }) =>
+      `Write a low-prep games pack for this topic: exactly ${itemCount} key words with crossword clues, a bingo game with exactly 24 items, and exactly 3 brain breaks. The word search, crossword grid and bingo cards are made automatically from your words and answers, so do not draw grids. Choose words students need to know and can read at this level; single words only, no spaces. Clues and calls must practise the learning (meanings, examples, questions), not just spelling. Bingo answers must all be different and short enough to fit in a small square.`,
+    sections: {
+      words: "Words and clues",
+      bingo: "Bingo",
+      brainBreaks: "Brain breaks",
       teacherNotes: "Teacher notes",
     },
   },

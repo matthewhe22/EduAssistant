@@ -1,5 +1,5 @@
 import type { OutputType } from "@/lib/generator/outputs";
-import type { Activities, Assessment, ParentNote, Rubric, SlideDeck, TieredTask, UnitPlan, Worksheet } from "@/lib/generator/schema";
+import type { Activities, Assessment, ParentNote, PuzzlePack, Rubric, SlideDeck, TieredTask, UnitPlan, Worksheet } from "@/lib/generator/schema";
 import { samplePlan } from "./sample-plan";
 
 const links = [{ code: "VC2M3N03", howAddressed: "Fractions" }];
@@ -115,13 +115,37 @@ export const slideDeck: SlideDeck = {
   learningIntention: "We are learning to name halves and quarters.",
   successCriteria: ["I can split a shape into equal parts", "I can name a half and a quarter"],
   slides: [
-    { layout: "Question", heading: "Warm up", bullets: ["Is this pizza shared fairly?", "Tell your partner why."], secondColumn: [], imageIdea: "A pizza cut into unequal slices", speakerNotes: "Take three answers." },
-    { layout: "Bullets", heading: "Equal parts", bullets: ["Equal parts are the same size", "2 equal parts are halves"], secondColumn: [], imageIdea: "", speakerNotes: "Fold a paper strip & show it." },
-    { layout: "Two columns", heading: "Equal or not?", bullets: ["Equal"], secondColumn: ["Not equal"], imageIdea: "", speakerNotes: "" },
-    { layout: "Activity", heading: "Fold it", bullets: ["Fold your strip in half", "Fold it again", "Label each part"], secondColumn: [], imageIdea: "Paper strips", speakerNotes: "Circulate and check." },
-    { layout: "Big idea", heading: "Remember", bullets: ["Fractions are equal parts of a whole"], secondColumn: [], imageIdea: "", speakerNotes: "" },
+    { layout: "Question", heading: "Warm up", bullets: ["Is this pizza shared fairly?", "Tell your partner why."], secondColumn: [], imageIdea: "A pizza cut into unequal slices", imageSearch: "pizza slices", speakerNotes: "Take three answers." },
+    { layout: "Bullets", heading: "Equal parts", bullets: ["Equal parts are the same size", "2 equal parts are halves"], secondColumn: [], imageIdea: "", imageSearch: "", speakerNotes: "Fold a paper strip & show it." },
+    { layout: "Two columns", heading: "Equal or not?", bullets: ["Equal"], secondColumn: ["Not equal"], imageIdea: "", imageSearch: "", speakerNotes: "" },
+    { layout: "Activity", heading: "Fold it", bullets: ["Fold your strip in half", "Fold it again", "Label each part"], secondColumn: [], imageIdea: "Paper strips", imageSearch: "", speakerNotes: "Circulate and check." },
+    { layout: "Big idea", heading: "Remember", bullets: ["Fractions are equal parts of a whole"], secondColumn: [], imageIdea: "", imageSearch: "", speakerNotes: "" },
   ],
   teacherNotes: ["Watch for unequal folds"],
+};
+
+const puzzles: PuzzlePack = {
+  title: "Fraction words",
+  overview: "Vocabulary games for the fractions unit.",
+  curriculumLinks: links,
+  words: [
+    { word: "numerator", clue: "The top number in a fraction" },
+    { word: "denominator", clue: "The bottom number in a fraction" },
+    { word: "fraction", clue: "Part of a whole" },
+    { word: "half", clue: "One of two equal parts" },
+    { word: "quarter", clue: "One of four equal parts" },
+    { word: "equal", clue: "The same size" },
+    { word: "whole", clue: "All of it" },
+    { word: "third", clue: "One of three equal parts" },
+  ],
+  bingo: {
+    instructions: "Cover the answer when you hear its clue. Four in a row wins!",
+    items: Array.from({ length: 24 }, (_, i) => ({ call: `Which fraction is shaded? (picture ${i + 1})`, answer: `${(i % 7) + 1}/${(i % 7) + 2 + Math.floor(i / 7)}` })),
+  },
+  brainBreaks: [
+    { name: "Fraction freeze", minutes: 2, steps: ["Move around the room", "Freeze in groups of the size I call"], learningLink: "Groups show equal parts" },
+  ],
+  teacherNotes: ["Pre-teach numerator and denominator"],
 };
 
 export const SAMPLES: Record<OutputType, Record<string, unknown>> = {
@@ -134,4 +158,5 @@ export const SAMPLES: Record<OutputType, Record<string, unknown>> = {
   assessment,
   parent_note: parentNote,
   slides: slideDeck,
+  puzzles,
 };

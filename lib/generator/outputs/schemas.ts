@@ -264,11 +264,53 @@ export const SlideDeckSchema = z.object({
         bullets: z.array(z.string()).describe("Student-facing points, at most 6, short enough for this year level to read (about 12 words each)"),
         secondColumn: z.array(z.string()).describe("Right-hand column for the Two columns layout; empty otherwise"),
         imageIdea: z.string().describe("A picture, diagram or object to show on this slide; empty if none"),
+        imageSearch: z
+          .string()
+          .default("")
+          .describe("2–4 plain keywords to find a real photo of the picture idea in a free image library, e.g. 'koala eucalyptus tree'; empty when a photo wouldn't help (diagrams, worked examples)"),
         speakerNotes: z.string().describe("What the teacher says and does on this slide, including worked examples and questions to ask"),
       }),
     )
     .describe("Content slides in teaching order (the title and learning intention slides are added automatically)"),
   teacherNotes: z.array(z.string()).describe("Preparation, misconceptions to watch for, follow-up ideas"),
+});
+
+/* ------------------------- Games and puzzles (activity studio) ------------------------- */
+
+export const PuzzlePackSchema = z.object({
+  title: z.string().describe("Student-facing title, e.g. 'Fraction words'"),
+  overview: z.string().describe("Teacher-facing note: what the puzzles practise and when to use them"),
+  curriculumLinks: CurriculumLinks,
+  words: z
+    .array(
+      z.object({
+        word: z.string().describe("One key word from the topic, spelt correctly, letters only (no spaces, hyphens or numbers), at most 12 letters"),
+        clue: z.string().describe("A short crossword clue students at this level can read, that doesn't contain the word"),
+      }),
+    )
+    .describe("Key vocabulary for the word search and crossword, all different; mix lengths and share common letters so the words can cross"),
+  bingo: z.object({
+    instructions: z.string().describe("How to play, in one or two sentences students understand"),
+    items: z
+      .array(
+        z.object({
+          call: z.string().describe("What the teacher reads out: a question, definition, sum or clue"),
+          answer: z.string().describe("What students mark on their card: a short answer (a number, word or short phrase), different for every item"),
+        }),
+      )
+      .describe("Exactly 24 bingo items that practise the learning (calls the teacher reads, answers on the cards); every answer different"),
+  }),
+  brainBreaks: z
+    .array(
+      z.object({
+        name: z.string(),
+        minutes: z.number().int().describe("1–5 minutes"),
+        steps: z.array(z.string()).describe("How to run it, in steps the teacher reads out"),
+        learningLink: z.string().describe("How it revisits today's learning"),
+      }),
+    )
+    .describe("Exactly 3 short movement or game brain breaks that need no equipment and revisit the learning"),
+  teacherNotes: z.array(z.string()).describe("How to use the puzzles, differentiation ideas, words to pre-teach"),
 });
 
 export type LessonPlan = z.infer<typeof LessonPlanSchema>;
@@ -280,3 +322,4 @@ export type Rubric = z.infer<typeof RubricSchema>;
 export type Assessment = z.infer<typeof AssessmentSchema>;
 export type ParentNote = z.infer<typeof ParentNoteSchema>;
 export type SlideDeck = z.infer<typeof SlideDeckSchema>;
+export type PuzzlePack = z.infer<typeof PuzzlePackSchema>;

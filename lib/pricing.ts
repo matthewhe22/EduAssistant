@@ -10,6 +10,7 @@ export interface ModelPrice {
 }
 
 export const PRICES: Record<string, ModelPrice> = {
+  // DeepSeek models are no longer offered (not allowed in Australian schools); kept so older usage rows still price.
   "deepseek-v4.1-flash": { input: 0.24, cached: 0.0072, output: 0.72 },
   "deepseek-v4.1-flash-1017": { input: 0.24, cached: 0.0072, output: 0.72 },
   "deepseek-v4-flash-0731": { input: 0.072, cached: 0.018, output: 0.216 },

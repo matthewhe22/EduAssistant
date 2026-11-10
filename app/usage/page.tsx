@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 import { BudgetForm } from "@/components/BudgetForm";
-import { DEFAULT_MODEL } from "@/lib/ai/config";
+import { effectiveModel } from "@/lib/ai/config";
 import { labelFor } from "@/lib/ai/models";
 import { getAiSettings } from "@/lib/data/settings";
 import { Notice, Page } from "@/components/Page";
@@ -25,7 +25,7 @@ export default async function UsagePage() {
   const melbourneMonth = new Intl.DateTimeFormat("en-CA", { timeZone: "Australia/Melbourne", year: "numeric", month: "2-digit" }).format(new Date());
   const settings = await getAiSettings(db, user.id);
   const hasKey = Boolean(settings.apiKey ?? process.env.TENON_API_KEY);
-  const model = settings.model || DEFAULT_MODEL;
+  const model = effectiveModel(settings.model);
   const [budget, rows, ratings, comments] = await Promise.all([
     getBudgetStatus(db, user.id),
     usageSince(db, user.id, new Date(Date.now() - 31 * 86_400_000)),

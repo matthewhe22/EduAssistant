@@ -74,7 +74,7 @@ async function redirectOf(p: Promise<unknown>) {
 }
 const genBody = { level: "3", subjectSlug: "mathematics", idea: "Fractions with paper strips", difficulty: "at", lessonMinutes: 55 };
 async function generateOne() {
-  mocked.mockResolvedValue({ content: samplePlan, model: "deepseek-v4.1-flash", usage } as never);
+  mocked.mockResolvedValue({ content: samplePlan, model: "glm-5.3-flash", usage } as never);
   const lines = (await (await generate(json(genBody))).text()).trim().split("\n");
   return JSON.parse(lines.at(-1)!);
 }
@@ -95,7 +95,7 @@ describe("migrations", () => {
   it("apply once and are idempotent", async () => {
     await migrate(db, () => {});
     const { rows } = await db.query<{ name: string }>("select name from schema_migrations");
-    expect(rows.map((r) => r.name)).toEqual(["001_init.sql", "002_ai_settings.sql", "003_generation_versions.sql", "004_invitations.sql", "005_slides_output.sql"]);
+    expect(rows.map((r) => r.name)).toEqual(["001_init.sql", "002_ai_settings.sql", "003_generation_versions.sql", "004_invitations.sql", "005_slides_output.sql", "006_puzzles_output.sql", "007_no_deepseek.sql"]);
   });
 });
 
@@ -166,7 +166,7 @@ describe("as a signed-in teacher", () => {
 
   it("refines and saves a section, logging a refine event", async () => {
     const { generationId } = await generateOne();
-    mocked.mockResolvedValue({ content: { ...samplePlan, overview: "New overview" }, model: "deepseek-v4.1-flash", usage } as never);
+    mocked.mockResolvedValue({ content: { ...samplePlan, overview: "New overview" }, model: "glm-5.3-flash", usage } as never);
     await (await refine(json({ ...genBody, outputType: "lesson_plan", section: "overview", instruction: "shorter", content: samplePlan, generationId }))).text();
     const { rows } = await db.query<{ content: { output: { overview: string } } }>("select content from generations where id = $1", [generationId]);
     expect(rows[0].content.output.overview).toBe("New overview");
@@ -179,7 +179,7 @@ describe("as a signed-in teacher", () => {
     const params = { params: { id: generationId } };
     expect((await undoGen(json({}), params)).status).toBe(404); // nothing to undo yet
 
-    mocked.mockResolvedValue({ content: { ...samplePlan, overview: "Rewritten" }, model: "deepseek-v4.1-flash", usage } as never);
+    mocked.mockResolvedValue({ content: { ...samplePlan, overview: "Rewritten" }, model: "glm-5.3-flash", usage } as never);
     await (await refine(json({ ...genBody, outputType: "lesson_plan", section: "overview", instruction: "shorter", content: samplePlan, generationId }))).text();
     const fixed = { ...samplePlan, overview: "Rewritten", phases: samplePlan.phases.map((p) => ({ ...p, minutes: 5 })) };
     const put = await saveGen(new Request("http://test", { method: "PUT", body: JSON.stringify({ content: fixed, warnings: [] }) }), params);
@@ -202,7 +202,7 @@ describe("as a signed-in teacher", () => {
     let requestText = "";
     mocked.mockImplementation(async (...args: unknown[]) => {
       requestText = (args[0] as { requestText?: string } | undefined)?.requestText ?? requestText;
-      return { content: samplePlan, model: "deepseek-v4.1-flash", usage } as never;
+      return { content: samplePlan, model: "glm-5.3-flash", usage } as never;
     });
     const res = await generate(json({ ...genBody, idea: "", secondLevel: "4", basedOn: { outputType: "lesson_plan", title: samplePlan.title, content: samplePlan, generationId } }));
     const events = (await res.text()).trim().split("\n").map((l) => JSON.parse(l));
@@ -266,6 +266,17 @@ describe("as a signed-in teacher", () => {
     expect((await saveAi(json({ removeKey: true }))).status).toBe(200);
     expect(await resolveAiConfig(db, teacherA)).toEqual({ apiKey: "sk-tx-server", model: "claude-sonnet-5-5", keySource: "server" });
     expect((await saveAi(json({ model: "bad model id!" }))).status).toBe(400);
+
+    // DeepSeek isn't allowed in Australian schools: it can't be saved, and an old saved choice falls back to the default.
+    const refused = await saveAi(json({ model: "deepseek-v4.1-flash" }));
+    expect(refused.status).toBe(400);
+    expect((await refused.json()).error).toContain("Australian schools");
+    await db.query("update user_settings set default_model = 'deepseek-v4.1-flash' where user_id = $1", [teacherA]);
+    expect((await resolveAiConfig(db, teacherA)).model).toBe("glm-5.3-flash");
+    await db.query("delete from schema_migrations where name = '007_no_deepseek.sql'");
+    await migrate(db, () => {});
+    const { rows: after } = await db.query<{ default_model: string | null }>("select default_model from user_settings where user_id = $1", [teacherA]);
+    expect(after[0].default_model).toBeNull();
   });
 
   it("isolates teachers from each other", async () => {

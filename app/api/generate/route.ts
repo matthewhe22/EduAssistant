@@ -51,7 +51,7 @@ export async function POST(request: Request) {
       onProgress: (n, text) => progress(n, track(text)),
       signal: request.signal,
     });
-    const { content, warnings } = validateOutput(req.outputType, result.content, ctx.allowedCodes, req.lessonMinutes);
+    const { content, warnings } = validateOutput(req.outputType, result.content, ctx.allowedCodes, req.lessonMinutes, req.level);
     warnings.push(...frameworkWarnings(req.framework, req.outputType, content));
 
     let generationId: string | null = null;

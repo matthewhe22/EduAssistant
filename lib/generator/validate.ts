@@ -1,14 +1,26 @@
+import type { PrimaryLevel } from "../curriculum/types";
+import { puzzleWarnings, type PuzzleInput } from "../puzzles";
 import type { OutputType } from "./outputs";
 
 /** Prefixes of the warnings below, so they can be replaced after an edit. */
-export const CONSISTENCY_PREFIXES = ["Phase timings add up", "Question marks add up", "Some rubric criteria"];
+export const CONSISTENCY_PREFIXES = [
+  "Phase timings add up",
+  "Question marks add up",
+  "Some rubric criteria",
+  "Some words can't go in a puzzle",
+  "Some words didn't fit",
+  "Bingo needs at least",
+];
 
 /**
  * Checks that depend only on the content itself (timings, marks, rubric shape). Pure and
  * safe to run in the browser, e.g. again after a teacher edits the text.
  */
-export function consistencyWarnings(outputType: OutputType, content: Record<string, unknown>, lessonMinutes: number): string[] {
+export function consistencyWarnings(outputType: OutputType, content: Record<string, unknown>, lessonMinutes: number, level: PrimaryLevel = "3"): string[] {
   const warnings: string[] = [];
+  if (outputType === "puzzles" && Array.isArray(content.words) && content.bingo && typeof content.bingo === "object") {
+    warnings.push(...puzzleWarnings(content as unknown as PuzzleInput, level));
+  }
   if (outputType === "lesson_plan" && Array.isArray(content.phases)) {
     const total = (content.phases as { minutes: number }[]).reduce((n, p) => n + (Number(p.minutes) || 0), 0);
     if (total !== lessonMinutes) warnings.push(`Phase timings add up to ${total} minutes, not ${lessonMinutes}. Adjust as needed.`);
@@ -27,9 +39,9 @@ export function consistencyWarnings(outputType: OutputType, content: Record<stri
 }
 
 /** Replaces the consistency warnings in `warnings` with fresh ones for `content`. */
-export function refreshWarnings(outputType: OutputType, content: Record<string, unknown>, lessonMinutes: number, warnings: string[]) {
+export function refreshWarnings(outputType: OutputType, content: Record<string, unknown>, lessonMinutes: number, warnings: string[], level?: PrimaryLevel) {
   const kept = warnings.filter((w) => !CONSISTENCY_PREFIXES.some((p) => w.startsWith(p)));
-  return [...kept, ...consistencyWarnings(outputType, content, lessonMinutes)];
+  return [...kept, ...consistencyWarnings(outputType, content, lessonMinutes, level)];
 }
 
 type Json = unknown;
@@ -67,6 +79,7 @@ export function validateOutput<T extends Record<string, unknown>>(
   content: T,
   allowedCodes: Set<string>,
   lessonMinutes: number,
+  level?: PrimaryLevel,
 ): { content: T; warnings: string[] } {
   const warnings: string[] = [];
   const removed = new Set<string>();
@@ -89,6 +102,6 @@ export function validateOutput<T extends Record<string, unknown>>(
     warnings.push("No valid curriculum code was cited. Check the curriculum alignment before teaching.");
   }
 
-  warnings.push(...consistencyWarnings(outputType, content, lessonMinutes));
+  warnings.push(...consistencyWarnings(outputType, content, lessonMinutes, level));
   return { content: cleaned, warnings };
 }
